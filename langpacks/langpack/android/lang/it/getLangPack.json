@@ -3737,7 +3737,7 @@
     {
       "_": "types.LangPackString",
       "key": "AppUpdateDownloading",
-      "value": "Download... %1$d%%"
+      "value": "Scarico... %1$d%%"
     },
     {
       "_": "types.LangPackString",
@@ -4433,6 +4433,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureLogout",
       "value": "Vuoi davvero uscire?\n\nQuesto eliminerà tutte le tue chat segrete.\n\nPuoi usare Telegram su tutti i tuoi dispositivi contemporaneamente e usare diversi account sulla stessa app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Vuoi davvero uscire?\n\nQuesto annullerà tutte le tue chat segrete e **eliminerà i backup dei wallet che contengono %s**. Perderai l'accesso a questi fondi se non hai salvato le loro frasi segrete.\n\nPuoi usare Telegram su tutti i tuoi dispositivi contemporaneamente e usare diversi account nella stessa app."
     },
     {
       "_": "types.LangPackString",
@@ -17367,7 +17372,7 @@
     {
       "_": "types.LangPackString",
       "key": "Downloading",
-      "value": "In download"
+      "value": "Scarico"
     },
     {
       "_": "types.LangPackString",
@@ -39932,6 +39937,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "ha reagito con %2$s al tuo trasferimento di %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactHidden",
       "value": "Nuova reazione al tuo messaggio"
     },
@@ -39944,6 +39954,11 @@
       "_": "types.LangPackString",
       "key": "PushReactNoText",
       "value": "Ha reagito con %2$s al tuo messaggio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "ha reagito con %2$s al tuo post a pagamento"
     },
     {
       "_": "types.LangPackString",
@@ -42348,6 +42363,76 @@
       "_": "types.LangPackString",
       "key": "RoamingUsage",
       "value": "Utilizzo dati roaming"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "Bitrate video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "Risoluzione fotocamera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "Alta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "Bassa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "Media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Composizione"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "Stile videomessaggi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "Disattiva gli effetti stilistici per registrare un semplice quadrato senza sfocatura del cerchio esterno, attenuazione o sovrapposizioni di Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "Frequenza fotogrammi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneral",
+      "value": "Registratore"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "I 60 FPS sono usati solo quando entrambe le fotocamere frontali e posteriori lo supportano. Altrimenti, la registrazione viene riportata a 30 FPS."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "Risoluzione output"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "Videomessaggi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "Usa registratore Camera2"
     },
     {
       "_": "types.LangPackString",
@@ -54683,7 +54768,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoicePauseHint",
-      "value": "Metti in pausa per ritagliare o riprodurre."
+      "value": "Metti in pausa per ritagliare o riprodurre"
     },
     {
       "_": "types.LangPackString",
@@ -56383,6 +56468,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAuthorizeTransactionPasscode",
+      "value": "Inserisci il tuo attuale codice Telegram per autorizzare la transazione."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBack",
       "value": "Indietro"
     },
@@ -56415,6 +56505,16 @@
       "_": "types.LangPackString",
       "key": "WalletBalanceAmount",
       "value": "Saldo: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "Dati binari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "Stai firmando alla cieca. Firma solo dati provenienti da fonti affidabili."
     },
     {
       "_": "types.LangPackString",
@@ -56498,13 +56598,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "L'app potrà vedere il tuo\nindirizzo TON, il saldo e l'attività."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "L'app non potrà spostare i fondi\nsenza permesso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectedApp",
       "value": "App connesse"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectedAppInfo",
+      "value": "Questa app può visualizzare l'indirizzo del tuo wallet, il saldo e i movimenti. Non può trasferire fondi senza la tua approvazione."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectedApps",
       "value": "App connesse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppsInfo",
+      "value": "Le app connesse possono visualizzare l'indirizzo del tuo wallet, il saldo e i movimenti. Non possono trasferire fondi senza la tua approvazione."
     },
     {
       "_": "types.LangPackString",
@@ -56603,6 +56723,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "Il tuo backup crittografato distribuito verrà eliminato. La tua frase segreta sarà l'unico modo per recuperare questo wallet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDisableBackupInfo",
       "value": "L'unico modo per recuperare i tuoi fondi sarà inserire manualmente la tua frase segreta."
     },
@@ -56688,6 +56813,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "%1$s equivale attualmente a %2$s USD.\nPuoi:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFirstGramsTradeInfo",
       "value": "Converti i Gram in denaro o in cripto sugli exchange."
     },
@@ -56748,6 +56878,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "Il tuo wallet è stato ripristinato dalla tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletIncomingCollectibleAmount",
       "value": "+1 oggetto"
     },
@@ -56773,6 +56908,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhraseInfo",
+      "value": "Controlla l'ordine delle parole.\n\nQui è possibile importare solo una frase segreta creata su Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletKeyUpdate",
       "value": "Aggiornamento chiave"
     },
@@ -56780,6 +56920,11 @@
       "_": "types.LangPackString",
       "key": "WalletKeysAndBackup",
       "value": "Chiavi e backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLock",
+      "value": "Blocca Wallet"
     },
     {
       "_": "types.LangPackString",
@@ -56914,8 +57059,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Se qualcuno ha la tua frase segreta, **può sottrarti i tuoi fondi**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "La tua frase segreta è la chiave per eseguire il backup e recuperare il tuo wallet. Tienila sempre al sicuro e non rivelarla a nessuno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnButton",
       "value": "Mostra frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "La tua frase segreta è la chiave per eseguire il backup del tuo wallet. Tienila sempre al sicuro e non rivelarla a nessuno."
     },
     {
       "_": "types.LangPackString",
@@ -56924,13 +57084,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "**Non condividere mai** la tua frase segreta con nessuno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseSupportWarning",
       "value": "L'assistenza di Telegram **non ti chiederà mai** la tua frase segreta."
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "Puoi trasferire il tuo wallet su un altro dispositivo copiando la tua frase segreta di 12 parole."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceWalletTitle",
       "value": "Come vuoi sostituire il vecchio wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "Controlla attentamente il messaggio e, se sei d'accordo, firma i dati."
     },
     {
       "_": "types.LangPackString",
@@ -56946,6 +57121,11 @@
       "_": "types.LangPackString",
       "key": "WalletSecretPhrase",
       "value": "Frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "Vendi"
     },
     {
       "_": "types.LangPackString",
@@ -56999,6 +57179,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "Dati copiati negli appunti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "Conservare"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTapToSetAmount",
       "value": "Tocca per inserire l'importo"
     },
@@ -57011,6 +57201,41 @@
       "_": "types.LangPackString",
       "key": "WalletTitle",
       "value": "Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppDeclined",
+      "value": "Richiesta di transazione di %s rifiutata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "Richiesta di transazione di %s scaduta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s richiede una transazione. Tocca per verificare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppProcessed",
+      "value": "Richiesta di transazione di %s elaborata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "Richiesta di transazione app rifiutata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "Richiesta di transazione app scaduta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "Richiesta di transazione app elaborata"
     },
     {
       "_": "types.LangPackString",
@@ -57111,6 +57336,16 @@
       "_": "types.LangPackString",
       "key": "WalletUpdateSecretPhrase",
       "value": "Aggiorna frase segreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfo",
+      "value": "Otterrai una nuova frase da annotare. L'indirizzo e il saldo rimangono invariati."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "Otterrai una nuova frase da annotare. L'indirizzo e il saldo rimangono invariati.\n\nCosto di rete: %1$s (~%2$s)."
     },
     {
       "_": "types.LangPackString",
@@ -58215,5 +58450,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61170898
+  "version": 61175983
 }

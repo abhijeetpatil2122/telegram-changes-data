@@ -10827,6 +10827,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletUnavailable",
+      "value": "Wallet non è al momento disponibile."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ShareInlineResultActionHeader",
       "value": "Condividi"
     },
@@ -11885,6 +11890,11 @@
       "_": "types.LangPackString",
       "key": "ChatInput.RecordingView.Resume",
       "value": "Riprendi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatInput.RecordingView.ResumeDiscardTrimmed",
+      "value": "Se prosegui, la parte tagliata della registrazione sarà eliminata definitivamente."
     },
     {
       "_": "types.LangPackString",
@@ -15708,6 +15718,11 @@
       "_": "types.LangPackString",
       "key": "CrashRecovery.Quit",
       "value": "Chiudi Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ReadyDetail",
+      "value": "Telegram verrà rilanciato con la nuova versione."
     },
     {
       "_": "types.LangPackString",
@@ -42609,6 +42624,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedInfo",
+      "value": "La chiave del wallet è cambiata. Aggiorna il wallet e, se necessario, ripristina l'accesso utilizzando l'attuale frase segreta, quindi conferma nuovamente il trasferimento."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.WalletKeyChangedTitle",
       "value": "Chiave wallet cambiata"
     },
@@ -42750,7 +42770,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.AppInfoDescription",
-      "value": "Questa app può visualizzare l'indirizzo del tuo wallet, il saldo e i movimenti. Non può trasferire fondi senza la tua approvazione."
+      "value": "Questa app può vedere l'indirizzo del tuo wallet, il saldo e l'attività. Non può trasferire fondi senza la tua approvazione."
     },
     {
       "_": "types.LangPackString",
@@ -42800,7 +42820,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.Footer",
-      "value": "Le app connesse possono visualizzare l'indirizzo del tuo wallet, il saldo e i movimenti. Non possono trasferire fondi senza la tua approvazione."
+      "value": "Le app connesse possono vedere l'indirizzo del tuo wallet, il saldo e l'attività. Non possono trasferire fondi senza la tua approvazione."
     },
     {
       "_": "types.LangPackString",
@@ -42924,6 +42944,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataMismatch",
+      "value": "I dati memorizzati di questo wallet non corrispondono a quelli presenti sul server, pertanto non è possibile aprirlo. Puoi eliminare questo wallet e ripristinarlo usando la tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataUnreadable",
+      "value": "I dati del wallet memorizzati non possono essere letti. Puoi eliminare questo wallet e ripristinarlo usando la tua frase segreta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Excess",
       "value": "Eccesso"
     },
@@ -42975,7 +43005,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.PermissionViewWallet",
-      "value": "Potrà visualizzare l'indirizzo del tuo wallet, il saldo e i movimenti."
+      "value": "Potrà vedere l'indirizzo del tuo wallet, il saldo e l'attività."
     },
     {
       "_": "types.LangPackString",
@@ -45053,6 +45083,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessage.Disable.Text",
+      "value": "Disattivando l'opzione, saranno eliminati tutti i messaggi di benvenuto configurati."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessage.Disable.Title",
       "value": "Disattivare i messaggi di benvenuto?"
     },
@@ -45477,5 +45512,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2370389
+  "version": 2370492
 }

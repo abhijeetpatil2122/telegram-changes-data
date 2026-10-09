@@ -242,13 +242,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsSend",
+      "value": "Lähetys"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AboutFeature.ModalController.FirstGramsSendInfo",
-      "value": "Siirrä grameja keskustelussa:\nNapauta Liitä > Raha."
+      "value": "Siirrä grameja keskustelussa:\nNapsauta Liitä > Raha."
     },
     {
       "_": "types.LangPackString",
       "key": "AboutFeature.ModalController.FirstGramsStore",
       "value": "Talletus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsStoreInfo",
+      "value": "Pidä gramejasi Telegramissa (Asetukset > Raha) tai muissa lompakoissa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsTitle",
+      "value": "Ensimmäiset gramisi!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsTrade",
+      "value": "Kaupankäynti"
     },
     {
       "_": "types.LangPackString",
@@ -289,6 +309,21 @@
       "_": "types.LangPackString",
       "key": "Account.OpenInWindow",
       "value": "Avaa ikkunaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.ViewController.GramEarnings",
+      "value": "Ansaitut gramit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.ViewController.Money",
+      "value": "Raha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.ViewController.WalletUnavailable",
+      "value": "Lompakkoa ei voi käyttää juuri nyt."
     },
     {
       "_": "types.LangPackString",
@@ -7657,6 +7692,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.CopyAddress",
+      "value": "Kopioi osoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.SendMoney",
+      "value": "Lähetä rahaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.ViewInExplorer",
       "value": "Näytä lohkoketjussa"
     },
@@ -9085,6 +9130,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.SendMoney",
+      "value": "Lähetä rahaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.MessageMenuItems.SponsoredInfo",
       "value": "Telegram ei muiden sovellusten tavoin käytä yksityistä dataasi mainosten kohdentamiseen. [Lue lisää yksityisyyskäytännöstä](https://telegram.org/privacy#5-6-no-ads-based-on-user-data). Tämä mainos näkyy sinulle, koska joku valitsi tämän kanavan mainostamiseen. Käyttäjien tietoja ei analysoida mainosten näyttämiseen, ja jokainen Telegramin kanavaa katsova käyttäjä näkee samat mainokset.\n\nTelegram ei muiden sovellusten tavoin tarkkaile, napautatko sponsoroitua viestiä, eikä luo sinusta mainostusprofiilia. Estämme myös ulkopuoliset linkit, jotta käyttäjiämme ei voitaisi seurata. Periaatteisimme kuuluu, että jokaisella on oikeus yksityisyyteen, ja että verkkoalustojen tulisi kunnioittaa tätä oikeutta.\n\nTelegram tarjoaa ilmaisen ja rajattoman palvelun sadoille miljoonille, minkä takia palvelin- ja kaistakustannukset ovat merkittävät. Kehitimme maksullisen työkalun viestien mainostamiseen, jotta rahatilanteemme antaisi meidän pysyä riippumattomina sekä pitää periaatteistamme kiinni. Vastuulliset mainostajat ovat tervetulleita ottamaan meihin yhteyttä:\n[url]\nMainosten ei välttämättä tarvitse tarkoittaa käyttäjien yksityisyydensuojan rikkomista. Voimme yhdessä muuttaa teknologiayritysten toimintasääntöjä."
     },
@@ -9824,8 +9874,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.GramTransfer",
+      "value": "%1$@ lähetti sinulle: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.GramTransferIncoming",
+      "value": "lähetti sinulle: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.GramTransferUnknown",
       "value": "Joku lähetti sinulle: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.GramTransferYou",
+      "value": "Lähetit käyttäjälle %1$@: %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -10682,6 +10747,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequest",
+      "value": "Lompakkopyyntö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestAccepted",
+      "value": "Lompakkopyyntö hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestDeclined",
+      "value": "Lompakkopyyntö hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFrom",
+      "value": "Lompakkopyyntö apilta %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFromAccepted",
+      "value": "Lompakkopyyntö apilta %1$@ hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFromDeclined",
+      "value": "Lompakkopyyntö apilta %1$@ hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.WebData",
       "value": "Lähetit tietoa botille \"%@\"-napin kautta."
     },
@@ -10702,8 +10797,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.GramTransfer",
+      "value": "%1$@ lähetti sinulle: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.GramTransferFiat",
+      "value": " (%1$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ServiceItem.GramTransferUnknown",
       "value": "Joku lähetti sinulle: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.GramTransferYou",
+      "value": "Lähetit käyttäjälle %1$@: %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -10719,6 +10829,41 @@
       "_": "types.LangPackString",
       "key": "Chat.ServiceItem.UnknownUser",
       "value": "TUNTEMATON KÄYTTÄJÄ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequest",
+      "value": "Lompakkopyyntö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestAccepted",
+      "value": "Lompakkopyyntö hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestDeclined",
+      "value": "Lompakkopyyntö hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFrom",
+      "value": "Lompakkopyyntö apilta %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFromAccepted",
+      "value": "Lompakkopyyntö apilta %1$@ hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFromDeclined",
+      "value": "Lompakkopyyntö apilta %1$@ hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletUnavailable",
+      "value": "Lompakkoa ei voi käyttää juuri nyt."
     },
     {
       "_": "types.LangPackString",
@@ -17848,12 +17993,12 @@
     {
       "_": "types.LangPackString",
       "key": "ExportData.Sessions",
-      "value": "Aktiiviset istunnot"
+      "value": "Nykyiset istunnot"
     },
     {
       "_": "types.LangPackString",
       "key": "ExportData.SessionsAbout",
-      "value": "Voimme säilöä tämän näyttääksemme yhdistetyt laitteesi kohdassa Asetukset > Yksityisyys ja tietoturva > Näytä kaikki istunnot."
+      "value": "Voimme säilöä tämän näyttääksemme yhdistetyt laitteesi kohdassa Asetukset > Nykyiset istunnot"
     },
     {
       "_": "types.LangPackString",
@@ -18450,7 +18595,7 @@
     {
       "_": "types.LangPackString",
       "key": "Fragment.Stars.MinWithdraw",
-      "value": "Et voi nostaa vähemmän kuin %d tähteä."
+      "value": "Kerralla pitää nostaa vähintään %d tähteä."
     },
     {
       "_": "types.LangPackString",
@@ -18520,7 +18665,12 @@
     {
       "_": "types.LangPackString",
       "key": "Fragment.Ton.MinWithdraw",
-      "value": "Sinun pitää nostaa kerralla ainakin %d gramia."
+      "value": "Kerralla pitää nostaa vähintään %d gramia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentMonetization.Controller.WithdrawMinimum",
+      "value": "Kerralla pitää nostaa vähintään 10 gramia."
     },
     {
       "_": "types.LangPackString",
@@ -21071,6 +21221,11 @@
       "_": "types.LangPackString",
       "key": "InAppLinks.IDNWarning",
       "value": "Linkki voi olla harhaanjohtava.\nNäkyy: %1$@\nOikea linkki: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.InvalidWalletLink",
+      "value": "Linkki ei kelpaa."
     },
     {
       "_": "types.LangPackString",
@@ -25003,7 +25158,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.LockWallet",
-      "value": "Lukitse lompakko"
+      "value": "Lukitse"
     },
     {
       "_": "types.LangPackString",
@@ -32815,7 +32970,7 @@
     {
       "_": "types.LangPackString",
       "key": "Sessions.ActiveSessionsHeader",
-      "value": "AKTIIVISET ISTUNNOT"
+      "value": "NYKYISET ISTUNNOT"
     },
     {
       "_": "types.LangPackString",
@@ -42263,6 +42418,32 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AmountRowItem.Gram",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Syötä Telegramin pääsykoodi käyttääksesi lompakkoasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Syötä pääsykoodi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Passcode",
+      "value": "Pääsykoodi"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.AuthorizeController.TooManyAttempts",
+      "one_value": "",
+      "other_value": "Liikaa yrityksiä, odota vielä %1$d sekuntia."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizeController.VerifyFailed",
       "value": "Pääsykoodia ei voitu tarkistaa. Yritä uudelleen."
     },
@@ -42308,6 +42489,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CheckNetworkInfo",
+      "value": "Tarkista verkkoyhteytesi ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CommentTooLongInfo",
+      "value": "Salattu kommentti on liian pitkä. Lyhennä sitä ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CommentTooLongTitle",
+      "value": "Kommentti on liian pitkä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Continue",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.DecryptFailedInfo",
       "value": "Kommenttia ei voitu purkaa."
     },
@@ -42333,8 +42539,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptRecipientUnavailableInfo",
+      "value": "Tämä lompakko ei voi juuri nyt ottaa vastaan salattuja kommentteja."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.EnterCurrentPhrase",
       "value": "Syötä nykyinen salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPassword",
+      "value": "Väärä salasana, yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -42343,8 +42559,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseTitle",
+      "value": "Salalause ei kelpaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.KeyRotationFailedInfo",
       "value": "Uutta salalausetta ei otettu käyttöön. Aiempi salalause ja varmuuskopio pätevät yhä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedTitle",
+      "value": "Salalausetta ei voitu muuttaa"
     },
     {
       "_": "types.LangPackString",
@@ -42353,8 +42579,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordPlaceholder",
+      "value": "Salasana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTitle",
+      "value": "Telegram-salasana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewInfo",
+      "value": "Odota vielä %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.PasswordTooNewTitle",
       "value": "Salasana liian tuore"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedInfo",
+      "value": "Lompakon avain on muuttunut. Syötä nykyinen 24-sanainen salalause."
     },
     {
       "_": "types.LangPackString",
@@ -42368,8 +42614,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredTitle",
+      "value": "Vahvistus vanheni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.ProofInvalidInfo",
       "value": "Telegram ei voinut vahvistaa, että omistat lompakon. Yritä tuoda se uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidTitle",
+      "value": "Lompakon vahvistus epäonnistui"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Retry",
+      "value": "Yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingInfo",
+      "value": "Telegram ei voinut vielä vahvistaa salalauseen vaihtoa lohkoketjusta. Odota hetki ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingTitle",
+      "value": "Salalauseen muutos vireillä"
     },
     {
       "_": "types.LangPackString",
@@ -42398,6 +42669,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedTitle",
+      "value": "Lompakko muuttui"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedInfo",
+      "value": "Lompakon avain on muuttunut. Päivitä lompakko ja syötä salalause tarvittaessa, ja vahvista sitten siirto uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.WalletKeyChangedTitle",
       "value": "Lompakon avaimen muutos"
     },
@@ -42410,6 +42691,116 @@
       "_": "types.LangPackString",
       "key": "Wallet.Biometrics.EnableReason",
       "value": "Käytä biometristä tunnistusta lompakon kanssa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CardView.GramUnit",
+      "value": " gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CardView.GramsUnit",
+      "value": " gramia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionSell",
+      "value": "myy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionTransfer",
+      "value": "siirrä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionWear",
+      "value": "pue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Address",
+      "value": "Osoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.AnonymousNumber",
+      "value": "Anonyymi numero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Backdrop",
+      "value": "Tausta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collectible",
+      "value": "Keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.CollectibleGift",
+      "value": "Keräiltävä lahja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collection",
+      "value": "Kokoelma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Model",
+      "value": "Malli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.NextCollectible",
+      "value": "Seuraava keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Owner",
+      "value": "Omistaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OwnerYou",
+      "value": "sinä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
+      "value": "Edellinen keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.StillSyncing",
+      "value": "Lompakon tilaa synkronoidaan, odota hetki."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Symbol",
+      "value": "Merkki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Type",
+      "value": "Tyyppi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Username",
+      "value": "Käyttäjänimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ViewInExplorer",
+      "value": "Näytä lohkoketjussa"
     },
     {
       "_": "types.LangPackString",
@@ -42433,6 +42824,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.Disconnect",
       "value": "Katkaise"
     },
@@ -42440,6 +42836,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.DisconnectAll",
       "value": "Katkaise kaikki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAllApps",
+      "value": "Katkaise kaikki apit"
     },
     {
       "_": "types.LangPackString",
@@ -42463,8 +42864,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnecting",
+      "value": "Katkaistaan…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.Footer",
       "value": "Yhdistetyt sovellukset näkevät lompakkosi osoitteen, saldon ja tiliotteen. Ne eivät voi siirtää varoja ilman suostumustasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Title",
+      "value": "Yhdistetyt apit"
     },
     {
       "_": "types.LangPackString",
@@ -42478,13 +42889,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerified",
+      "value": "Lohkoketjun varmistama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerifiedInfo",
+      "value": "Kaikki siirrot ovat julkisia, ja ne\nvoi tarkistaa julkisesta tilikirjasta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.CallContract",
       "value": "Sopimuskutsu"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Collectibles",
       "value": "Keräilyesineet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Confirm",
+      "value": "Vahvista"
     },
     {
       "_": "types.LangPackString",
@@ -42498,8 +42929,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectApp",
+      "value": "Yhdistä appi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.ConnectFailed",
       "value": "Appia ei voitu yhdistää. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInfo",
+      "value": "Avaa appi selaimessa, valitse Telegram, kopioi saamasi yhteyslinkki ja sijoita se tähän."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInvalid",
+      "value": "Tämä ei ole kelvollinen lompakon osoite tai TON Connect -linkki."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkPlaceholder",
+      "value": "TON Connect -linkki tai osoite"
     },
     {
       "_": "types.LangPackString",
@@ -42533,6 +42984,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Deposit",
+      "value": "Talletus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerPrefix",
+      "value": "Olet myös ansainnut grameja: "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerSuffix",
+      "value": ""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataMismatch",
+      "value": "Lompakon tallennetut tiedot eivät täsmää palvelimen tietoihin, joten lompakkoa ei voi käyttää. Voit poistaa lompakon ja palauttaa sen salalauseella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataUnreadable",
+      "value": "Lompakon tallennettuja tietoja ei voi lukea. Voit poistaa lompakon ja palauttaa sen salalauseella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorStorageUnavailable",
+      "value": "Lompakkotietoja ei voi ladata. Käynnistä sovellus uudelleen ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Excess",
       "value": "Ylimäärä"
     },
@@ -42543,6 +43024,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.FailedSuffix",
+      "value": "%1$@ · Virhe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.HowItWorks",
+      "value": "Kuinka se toimii"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.InstantTransfers",
       "value": "Lähetä rahaa välittömästi"
     },
@@ -42550,6 +43041,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.InstantTransfersInfo",
       "value": "Lähetä grameja keskusteluun\naivan kuin mediaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.KeysAndBackup",
+      "value": "Avaimet ja varmuuskopiot"
     },
     {
       "_": "types.LangPackString",
@@ -42583,6 +43079,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.PreviewHeader",
+      "value": "ESIKATSELU"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.PreviousWalletsBannerPrefix",
       "value": "Sinulla on myös "
     },
@@ -42593,6 +43094,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Proceed",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.ProtectAccount",
       "value": "Suojaa tiliäsi"
     },
@@ -42600,6 +43106,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.RequestFailed",
       "value": "Pyyntöä ei voitu suorittaa. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequired",
+      "value": "Salalause vaaditaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequiredToSend",
+      "value": "Sinun tulee syöttää 12- tai 24-sanainen salalause käyttääksesi tätä lompakkoa ja lähettääksesi varoja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Send",
+      "value": "Lähetä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SettingUp",
+      "value": "Valmistellaan lompakkoa, tässä kestää yleensä joitain sekunteja..."
     },
     {
       "_": "types.LangPackString",
@@ -42623,8 +43149,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.StillSyncing",
+      "value": "Lompakon tilaa synkronoidaan, odota hetki."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.TermsAgreement",
       "value": "Käyttämällä palvelua hyväksyt [käyttöehdot](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ToAddress",
+      "value": "→ %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -42633,13 +43169,64 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Transfer",
+      "value": "Siirto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TransferHeader",
+      "value": "SIIRTO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TransfersHeader",
+      "value": "SIIRROT"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.UnknownOperation",
       "value": "Tuntematon toiminto"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.WalletImported",
+      "value": "Lompakko tuotiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.WalletImportedInfo",
+      "value": "Lompakkosi palautettiin salalauseen avulla."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.WaltFundsBanner",
       "value": "Sinulla on vielä varoja Waltissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Withdrawal",
+      "value": "Nosto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ZeroFees",
+      "value": "Kuluton"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Controller.ZeroFeesInfo",
+      "one_value": "",
+      "other_value": "Päivän ensimmäiset %1$d siirtoa ovat ilmaisia. Loputkin ovat lähes ilmaisia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.CheckConnection",
+      "value": "Tarkista verkkoyhteytesi ja yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -42650,6 +43237,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.FlowAuthorization.RestoreFailedTitle",
       "value": "Lompakkoa ei voitu palauttaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreReason",
+      "value": "Palauta lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.Retry",
+      "value": "Yritä uudelleen"
     },
     {
       "_": "types.LangPackString",
@@ -42668,6 +43265,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Continue",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.EnableBackup",
       "value": "Ota varmuuskopio käyttöön"
     },
@@ -42675,6 +43282,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.EnableBackupInfo",
       "value": "Syötä lompakkosi 12- tai 24-sanainen salalauseesi ottaaksesi salatut varmuuskopiot käyttöön."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Import",
+      "value": "Tuo"
     },
     {
       "_": "types.LangPackString",
@@ -42725,6 +43337,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Ok",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.Paste",
       "value": "Sijoita"
     },
@@ -42740,13 +43357,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Proceed",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Replace",
+      "value": "Korvaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletInfo",
+      "value": "Tämä salalause kuuluu eri lompakolle. Nykyisen lompakon korvaaminen estää pääsyn siihen tältä laitteelta. Varmista, että olet ottanut lompakon salalauseen talteen ennen kuin jatkat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletTitle",
+      "value": "Korvaa lompakko"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.RestoreFailedTitle",
       "value": "Lompakkoa ei voitu palauttaa"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedInfo",
+      "value": "Avaa laitteen lukitus ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedTitle",
+      "value": "Lompakkoa ei voitu tallentaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ImportController.SecretPhraseInfo",
       "value": "Syötä lompakon salalause jatkaaksesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SecretPhraseTitle",
+      "value": "Salalause"
     },
     {
       "_": "types.LangPackString",
@@ -42756,7 +43408,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.TestTimeInfo",
-      "value": "Varmista, että kirjoitit salalauseen oikein muistiin."
+      "value": "Varmista, että kirjoitit salalauseen oikein talteen."
     },
     {
       "_": "types.LangPackString",
@@ -42782,6 +43434,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.TestTimeWordsSeparator",
       "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Title",
+      "value": "Lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.TwelveWords",
+      "value": "12 sanaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.TwentyFourWords",
+      "value": "24 sanaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Why",
+      "value": "Miksi?"
     },
     {
       "_": "types.LangPackString",
@@ -42835,6 +43507,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.InfoController.FirstGramsInfo",
+      "value": "Grameilla onnistuu:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.InfoController.FirstGramsRateInfo",
       "value": "Nykyinen muuntokurssi: **1 gram** = **%1$@**.\nGrameilla onnistuu:"
     },
@@ -42842,6 +43519,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.GotIt",
       "value": "Ymmärrän"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Gram",
+      "value": "Gram"
     },
     {
       "_": "types.LangPackString",
@@ -42885,13 +43567,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SecretPhraseInfo",
+      "value": "Tämä salalause on lompakkosi varmuuskopioavain. Pidä se koko ajan salassa ja turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Send",
+      "value": "Lähetys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SendInfo",
+      "value": "Siirrä grameja keskustelussa:\nNapauta  # → Raha."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.ShowSecretPhrase",
+      "value": "Näytä salalause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Store",
+      "value": "Talletus"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.InfoController.StoreInfo",
       "value": "Pidä gramisi Telegramissa (#→ Raha) tai muissa lompakoissa."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.SupportNeverAsks",
-      "value": "Telegramin tuki **ei koskaan kysy sinulta** palautuslausettasi."
+      "value": "Telegramin tuki **ei koskaan kysy sinulta** salalausettasi."
     },
     {
       "_": "types.LangPackString",
@@ -42951,8 +43658,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.LoadMoreRowItem.ShowMore",
+      "value": "Näytä lisää"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.LogoutWarning.BackupsWillBeDeleted",
       "value": "Salaiset keskustelusi ja **lompakon varmuuskopiot (joissa on %1$@)** poistetaan. Jos et ole ottanut salalauseita talteen, menetät pääsyn varoihin.\n\nVoit käyttää Telegramia usealla laitteella yhtä aikaa ja lisätä monta tiliä jokaiseen sovellukseen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.AddressCopied",
+      "value": "✓ Osoite kopioitiin"
     },
     {
       "_": "types.LangPackString",
@@ -43001,6 +43718,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Continue",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.DepositFunds",
+      "value": "Talleta varoja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.InvalidAddress",
+      "value": "Osoite ei kelpaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.PeopleHeader",
+      "value": "HENKILÖT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecentHeader",
+      "value": "ÄSKETTÄISET"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecipientHeader",
+      "value": "SAAJA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Resolving",
+      "value": "Haetaan saajaa..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.ShowMore",
+      "value": "Näytä enemmän"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.RecipientController.Title",
       "value": "Valitse saaja"
     },
@@ -43018,6 +43775,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.RecipientNoResultsItem.NoResultsFor",
       "value": "Ei tuloksia haulla “%1$@”.\nKokeile toista nimeä tai osoitetta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientNoResultsItem.Title",
+      "value": "Ei tuloksia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.CheckConnection",
+      "value": "Tarkista verkkoyhteytesi ja yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -43046,13 +43813,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedInfo",
+      "value": "Lompakkosi palautettiin salalauseen avulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedTitle",
+      "value": "Lompakko tuotiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReplaceController.ReplaceFailedTitle",
       "value": "Lompakkoa ei voitu korvata"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.Title",
+      "value": "Korvaa lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Add",
+      "value": "Lisää"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.AddComment",
       "value": "Lisää kommentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Balance",
+      "value": "Saldo: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -43076,8 +43868,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.DepositFundsLink",
+      "value": "Talleta varoja ›"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.EditComment",
       "value": "Muokkaa kommenttia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Grams",
+      "value": "Gramit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFunds",
+      "value": "Varat eivät riitä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFundsInfo",
+      "value": "%1$@ ja palvelumaksu vaaditaan siirron lähettämiseen."
     },
     {
       "_": "types.LangPackString",
@@ -43091,8 +43903,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.NetworkFee",
+      "value": "Palvelumaksu:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.OpenChat",
+      "value": "Avaa keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.PublicCommentInfo",
+      "value": "Julkiset kommentit näkyvät pysyvästi lohkoketjussa kaikille. Yksityiset kommentit näkyvät vain sinulle ja saajalle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Resolving",
+      "value": "Haetaan saajaa..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Save",
+      "value": "Tallenna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.SendFailedInfo",
+      "value": "Siirtoa ei voitu lähettää. Tarkista saldo sekä verkkoyhteys, ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.SendPrefix",
+      "value": "Lähetä "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.Sending",
       "value": "Lähetetään…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.StillSyncing",
+      "value": "Lompakon tilaa synkronoidaan, odota hetki."
     },
     {
       "_": "types.LangPackString",
@@ -43103,6 +43955,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.TransferFailedDetailedInfo",
       "value": "Siirtoa ei voitu valmistella tai lähettää. Tarkista osoite, saldo sekä verkkoyhteys, ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferFailedInfo",
+      "value": "Siirtoa ei voitu valmistella tai lähettää."
     },
     {
       "_": "types.LangPackString",
@@ -43151,8 +44008,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.CheckNetwork",
       "value": "Tarkista verkkoyhteytesi ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DataUnreadable",
+      "value": "Lompakon tallennettuja tietoja ei voi lukea tällä laitteella, joten et voi katsella salalausetta tai muuttaa varmuuskopion asetuksia. Voit poistaa lompakon ja palauttaa sen salalauseella."
     },
     {
       "_": "types.LangPackString",
@@ -43173,6 +44040,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DeleteWalletConfirmTitle",
       "value": "Poistetaanko lompakko?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.Disable",
+      "value": "Poista käytöstä"
     },
     {
       "_": "types.LangPackString",
@@ -43197,7 +44069,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DisableBackupManualRecovery",
-      "value": "Varat voi palauttaa vain syöttämällä palautuslause."
+      "value": "Varat voi palauttaa vain syöttämällä salalause."
     },
     {
       "_": "types.LangPackString",
@@ -43241,6 +44113,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorInsufficientBalanceTitle",
+      "value": "Gramit eivät riitä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ErrorKeyRotationFailed",
       "value": "Salalauseen vaihto ei onnistunut. Tarkista lompakkosi tila ja yritä uudelleen."
     },
@@ -43266,6 +44143,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofInvalidTitle",
+      "value": "Lompakkoa ei voitu varmistaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ErrorRotationPending",
       "value": "Telegram ei voinut vielä vahvistaa salalauseen vaihtoa lohkoketjusta. Odota hetki ja yritä poistaa käytöstä uudelleen."
     },
@@ -43286,6 +44168,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.LastUsedToday",
+      "value": "tänään"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.LastUsedYesterday",
+      "value": "eilen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.NotNow",
+      "value": "EI nyt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.PreviousWalletSubtitle",
       "value": "\n%1$@ — viimeksi käytetty %2$@"
     },
@@ -43301,8 +44198,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.Proceed",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseHeader",
+      "value": "SALALAUSE"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseNotStored",
+      "value": "Lompakon salalausetta ei ole enää talletettu tälle laitteelle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequired",
+      "value": "Salalause vaaditaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequiredForBackup",
+      "value": "Sinun tulee syöttää 12- tai 24-sanainen salalause käyttääksesi tätä lompakkoa ja muuttaaksesi sen varmuuskopioasetuksia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SettingUp",
+      "value": "Valmistellaan lompakkoa, tässä kestää yleensä joitain sekunteja...\n\nSalalauseesi ja varmuuskopioasetukset ilmestyvät tähän, kun lompakko on valmis."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhrase",
-      "value": "Näytä palautuslause"
+      "value": "Näytä salalause"
     },
     {
       "_": "types.LangPackString",
@@ -43313,6 +44240,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhraseInfo",
       "value": "Voit siirtää lompakon toiselle laitteelle kopioimalla 12- tai 24-sanaisen salalauseesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.TopUp",
+      "value": "Lisää saldoa"
     },
     {
       "_": "types.LangPackString",
@@ -43356,6 +44288,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Failed",
+      "value": "Virhe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Gram",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Processing",
+      "value": "Käsitellään..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Usdt",
+      "value": "USDT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Address",
+      "value": "Osoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.AnonymousNumber",
+      "value": "Anonyymi numero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Cancel",
+      "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CollectibleGift",
+      "value": "Keräiltävä lahja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CollectibleTopUpInfo",
       "value": "Lompakossa pitää olla vähintään 0,1 gramia NFT:n siirtämiseksi. Lisää saldoa ja yritä sitten uudelleen."
     },
@@ -43363,6 +44335,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CommentEncryptedPrivacy",
       "value": "Näkyy vain sinulle ja saajalle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentPlaceholder",
+      "value": "Valinnainen viesti"
     },
     {
       "_": "types.LangPackString",
@@ -43381,13 +44358,64 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Confirmation",
+      "value": "Vahvistus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Date",
+      "value": "Päiväys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.DecryptFailedInfo",
+      "value": "Kommenttia ei voitu purkaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.DecryptFailedTitle",
+      "value": "Kommenttia ei voitu purkaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptFailedInfo",
+      "value": "Kommenttia ei voitu salata tällä lompakolla. Tarkista verkkoyhteys ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptFailedTitle",
+      "value": "Kommenttia ei voitu salata"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.EncryptRecipientUnavailableInfo",
       "value": "Tämä lompakko ei voi juuri nyt ottaa vastaan salattuja kommentteja."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptedComment",
+      "value": "Salattu kommentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Fee",
+      "value": "Kulut"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.FeeFree",
       "value": "Maksuton (Telegramin kustantama)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.TransactionController.NetworkFeeGasless",
+      "one_value": "",
+      "other_value": ".\n\n%1$d maksua päivässä onnistuvat kuluitta, koska Telegram kattaa ne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NetworkFeeInfo",
+      "value": "Jokaiseen siirtoon kuuluu pieni lisämaksu"
     },
     {
       "_": "types.LangPackString",
@@ -43396,13 +44424,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Nft",
+      "value": "NFT"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.NotEnoughGramsTitle",
       "value": "Gramit eivät riitä"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Ok",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.OpenMyMoney",
-      "value": "Avaa lompakkoni"
+      "value": "Avaa rahanäkymä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Proceed",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Recipient",
+      "value": "Saaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SecretPhraseRequiredInfo",
+      "value": "Syötä salalauseesi käyttääksesi tätä lompakkoa uudelleen ja purkaaksesi kommentin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SecretPhraseRequiredTitle",
+      "value": "Salalause vaaditaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Send",
+      "value": "lähetä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendAmount",
+      "value": "Lähetä %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendCollectible",
+      "value": "Lähetä keräilyesine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Sender",
+      "value": "Lähettäjä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ShowMore",
+      "value": "Näytä lisää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TopUp",
+      "value": "Lisää saldoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Transaction",
+      "value": "Tapahtuma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TransferFailedInfo",
+      "value": "Siirtoa ei voitu valmistella tai lähettää. Tarkista osoite, saldo sekä verkkoyhteytesi, ja yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -43436,8 +44534,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionKeyUpdateRowItem.Title",
+      "value": "Avaimen muutos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.AnonymousNumber",
-      "value": "Tuntematon numero"
+      "value": "Anonyymi numero"
     },
     {
       "_": "types.LangPackString",
@@ -43506,8 +44609,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Sending",
+      "value": "Lähetetään"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.TelegramUser",
+      "value": "Telegram-käyttäjä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.UnknownAddress",
       "value": "Tuntematon osoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Username",
+      "value": "Käyttäjänimi"
     },
     {
       "_": "types.LangPackString",
@@ -43518,6 +44636,17 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransferPresentation.AllBalance",
       "value": "Koko saldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.Fee",
+      "value": "Kulut"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.TransferPresentation.Recipients",
+      "one_value": "",
+      "other_value": "%1$d saajaa"
     },
     {
       "_": "types.LangPackString",
@@ -43533,6 +44662,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransferPresentation.SubmitUntil",
       "value": "Appi voi suorittaa siirron %1$@ asti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransferPresentation.Unavailable",
+      "value": "Ei saatavilla"
     },
     {
       "_": "types.LangPackString",
@@ -43562,7 +44696,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.CancelDisablingTitle",
-      "value": "Perutaanko varmuuskopion käytöstäpoisto?"
+      "value": "Pidetäänkö varmuuskopio?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WordsController.Continue",
+      "value": "Jatka"
     },
     {
       "_": "types.LangPackString",
@@ -43587,12 +44726,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.PhraseInfo",
-      "value": "Salalause on lompakon avaimen varmuuskopio. Pidä sitä koko ajan salassa ja turvassa muilta."
+      "value": "Tämä salalause on lompakkosi varmuuskopioavain. Pidä se koko ajan salassa ja turvassa."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.PhraseTitle",
-      "value": "Palautuslauseesi"
+      "value": "Salalauseesi"
     },
     {
       "_": "types.LangPackString",
@@ -44510,5 +45649,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2371389
+  "version": 2373359
 }

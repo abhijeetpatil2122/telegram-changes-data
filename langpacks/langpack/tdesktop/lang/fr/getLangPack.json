@@ -1767,6 +1767,68 @@
       "value": "{from} vient de lancer un concours offrant des abonnements Telegram Premium à ses membres."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} Gram",
+      "other_value": "{amount} Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ( {fiat} )"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text} : {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Commentaire crypté"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "Échec"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} vous a envoyé {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_tag",
+      "value": "reçu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Vous avez reçu {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Vous avez envoyé {amount} à {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "envoyé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Vous avez envoyé {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "Gram",
+      "other_value": "Grams"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_group_call_finished",
       "value": "Diffusion terminée ({duration})"
@@ -1921,6 +1983,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "Vous avez activé le partage dans cet échange."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "{from} a lancé un échange via votre lien de message gratuit"
     },
     {
       "_": "types.LangPackString",
@@ -2394,6 +2461,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "La requête provenant de {app} a été acceptée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted_unknown",
+      "value": "La requête a été acceptée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "La requête provenant de {app} a été refusée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined_unknown",
+      "value": "La demande a été rejetée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "{app} demande à se déconnecter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "La requête provenant de {app} a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired_unknown",
+      "value": "La demande a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "{app} a envoyé une requête"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request_unknown",
+      "value": "Une application connectée a envoyé une requête"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}. Cliquez ici pour consulter {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "{app} vous demande d'envoyer une transaction"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "{app} vous demande de signer les données"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "{app} vous demande de signer un message"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_took_screenshot",
       "value": "{from} a pris une capture d'écran !"
     },
@@ -2596,6 +2728,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "Votre demande d'adhésion au canal a été approuvée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Vous avez lancé un échange via un lien de message gratuit"
     },
     {
       "_": "types.LangPackString",
@@ -3930,7 +4067,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_ai_compose_create_placeholder",
-      "value": "Dites-nous quoi générer..."
+      "value": "Générer du texte, des formules ou des tableaux…"
     },
     {
       "_": "types.LangPackString",
@@ -4299,6 +4436,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "Ouvrir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "Abonnez-vous à {link} pour débloquer cet emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -4932,6 +5079,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "Ajouter une pièce jointe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "Audio"
     },
     {
       "_": "types.LangPackString",
@@ -8258,7 +8410,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_history_out_button",
-      "value": "Voir dans l'explorateur de la blockchain"
+      "value": "Voir dans l'explorateur"
     },
     {
       "_": "types.LangPackString",
@@ -9238,6 +9390,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "Le bot {bot} pourra **définir et supprimer des noms d'utilisateur** pour votre compte, ce qui peut entraîner la perte de votre nom d'utilisateur actuel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "Choisissez un fichier audio"
     },
     {
       "_": "types.LangPackString",
@@ -10657,6 +10814,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_contact_link_invalid",
+      "value": "Ce lien est invalide ou a expiré."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_contact_mobile_hidden",
       "value": "Numéro caché"
     },
@@ -10980,6 +11142,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_copy_text",
       "value": "Copier le texte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_copy_text_from_image",
+      "value": "—Texte de l'image—"
     },
     {
       "_": "types.LangPackString",
@@ -11598,6 +11765,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_unban_done",
+      "value": "L'utilisateur n'est plus banni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_sure",
+      "value": "Débannir {user} dans ce groupe ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_user",
+      "value": "Débannir"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_unmute",
       "value": "Activer notifications"
     },
@@ -12095,7 +12277,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_box_history_entry_play_market",
-      "value": "Play Store"
+      "value": "Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -12244,7 +12426,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_buy_button_short",
-      "value": "Recharger"
+      "value": "Recharge"
     },
     {
       "_": "types.LangPackString",
@@ -16338,13 +16520,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_deselect",
+      "value": "Désélectioner"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_failed",
       "value": "création d'archive échouée"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack",
+      "value": "Compresser en archive ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack_selected",
+      "value": "Compresser la sélection en ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_select",
+      "value": "Sélectionner"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_status",
       "value": "Archive ZIP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_unpack",
+      "value": "Décompresser l'archive"
     },
     {
       "_": "types.LangPackString",
@@ -17474,6 +17681,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_delete_sure_text",
+      "value": "Voulez-vous supprimer ce cadeau ?\n\nIl disparaîtra de votre profil et ne pourra pas être récupéré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_deleted",
+      "value": "Cadeau supprimé"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_display_done",
       "value": "Ce cadeau est désormais affiché sur votre page de profil."
     },
@@ -17732,6 +17949,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_many_pinned_title",
       "value": "Trop de cadeaux épinglés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_menu_delete",
+      "value": "Supprimer le cadeau"
     },
     {
       "_": "types.LangPackString",
@@ -18366,6 +18588,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_stars_on_card",
+      "value": "Sur carte"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_stars_on_sale",
       "value": "en vente"
     },
@@ -18551,6 +18778,76 @@
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_title",
       "value": "Transférer à {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts",
+      "value": "Déplacer vers mes cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_appear",
+      "value": "Il paraîtra dans"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_button",
+      "value": "Tranférer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_done",
+      "value": "Cadeau transféré sur votre compte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_path_icons",
+      "value": "{profile} {arrow} {gifts}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_text",
+      "value": "Transférer cet objet de collection hors chaîne vers votre compte Telegram ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet",
+      "value": "Transférer vers mon portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_appear",
+      "value": "Il paraîtra dans"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_button",
+      "value": "Déplacer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_done",
+      "value": "Cadeau transféré dans votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_keep_on_profile",
+      "value": "Toujours afficher sur mon profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_path_icons",
+      "value": "{menu} {arrow} {money} {arrow_next} {collectibles}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_text",
+      "value": "Transférer ce cadeau vers votre portefeuille blockchain ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_view",
+      "value": "Voir"
     },
     {
       "_": "types.LangPackString",
@@ -20587,6 +20884,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_group_call_screen",
+      "value": "Écran"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_group_call_screen_share_audio",
       "value": "Partager le son du système"
     },
@@ -22283,6 +22585,251 @@
       "key": "lng_jump_unread_count",
       "one_value": "{count} non lu",
       "other_value": "{count} non lus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_alt_text_select",
+      "value": "Sélectionner le texte au lieu d'ouvrir les liens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_attach",
+      "value": "Joindre un fichier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_autoscroll",
+      "value": "Défilement automatique de l'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_chat_switcher",
+      "value": "Changement rapide d'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_click",
+      "value": "Cliquez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_drag",
+      "value": "Glissez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_edit_last",
+      "value": "Modifier le dernier message"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_extend_selection",
+      "value": "Étendre la sélection de texte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_folder_numbers",
+      "value": "Ouvrir le dossier par numéro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_hold",
+      "value": "Maintenir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_close",
+      "value": "Fermer l'aperçu instantané"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_search",
+      "value": "Rechercher sur la page"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom",
+      "value": "Agrandir la page"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom_reset",
+      "value": "Réinitialiser le zoom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x",
+      "value": "2 fois plus rapide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_next",
+      "value": "Chapitre suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_prev",
+      "value": "Chapitre précédent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_double",
+      "value": "Passer en mode plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_escape",
+      "value": "Fermer le lecteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fit",
+      "value": "Ajuster à l'écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_flip",
+      "value": "Retourner la photo horizontalement ou verticalement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_frame",
+      "value": "Avance image par image en mode pause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen",
+      "value": "Passer en mode plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen_escape",
+      "value": "Quitter le mode plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_hold",
+      "value": "Accélérez la lecture, faites glisser pour régler la vitesse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_nav",
+      "value": "Média précédent ou suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_pause",
+      "value": "Mettre en pause ou reprendre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_percent",
+      "value": "Aller directement à 0 à 90 % de la vidéo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_play",
+      "value": "Lire ou mettre en pause"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_save",
+      "value": "Enregistrer média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_seek",
+      "value": "Rechercher en arrière ou en avant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom",
+      "value": "Zoomer ou dézoomer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom_reset",
+      "value": "Réinitialiser le zoom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_new_window",
+      "value": "Ouvrir l'échange dans une nouvelle fenêtre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_open",
+      "value": "Afficher ces raccourcis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_paste_plain",
+      "value": "Coller en tant que texte brut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_pinned_chats",
+      "value": "Ouvrir un échange épinglée par son numéro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_quick_preview",
+      "value": "Afficher un aperçu rapide de l'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_next",
+      "value": "Répondre au message suivant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_prev",
+      "value": "Répondre au message précédent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_chats",
+      "value": "Liste d'échanges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_compose",
+      "value": "Écrire des messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_fullscreen",
+      "value": "Vidéo en plein écran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_general",
+      "value": "Général"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_iv",
+      "value": "Aperçu éclair"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_media",
+      "value": "Lecteur média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_messages",
+      "value": "Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_title",
+      "value": "Raccourcis et gestes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_wheel",
+      "value": "Roue"
     },
     {
       "_": "types.LangPackString",
@@ -25501,6 +26048,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "Vous pouvez désormais contacter {user} gratuitement."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "Ce lien de messages gratuits est invalide ou a expiré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "Désactiver le minuteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "Reste gratuit, sans limite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "Activer le minuteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer_about",
+      "value": "Expire dans 1 minute"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "Réinitialiser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "Rétablir les frais de messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "Gratuit · Sans limite de durée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "Supprimer les frais de {emoji}{amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "Gratuit · Expire dans {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "Code expiré, frais rétablis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "Ce code expirera dans {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "Ce code est sur le point d'expirer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "Le code reste gratuit, sans limite de durée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "Nouveau code créé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "Frais de message rétablis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "Ce lien de messages gratuits ne fonctionne pas."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_saved_sublists",
       "value": "Vous pouvez enregistrer les messages d’autres échanges ici."
     },
@@ -27503,7 +28140,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "Veuillez installer WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0) à l'aide de votre gestionnaire de paquets."
+      "value": "Veuillez installer WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0) à l'aide de votre gestionnaire de paquets."
     },
     {
       "_": "types.LangPackString",
@@ -27612,6 +28249,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "Ce lien est sur le point d'expirer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "Ce lien est indisponible. Veuillez scanner à nouveau le code QR pour réessayer."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_phone_desc",
       "value": "Veuillez confirmer l'indicatif de votre pays\net entrez votre numéro de téléphone."
     },
@@ -27647,8 +28294,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "Supprimer l'audio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Choisissez le degré d'arrondi des coins de l'autocollant."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_corners_circle",
+      "value": "Cercle"
     },
     {
       "_": "types.LangPackString",
@@ -27722,6 +28379,206 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas",
+      "value": "Toile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_pan",
+      "value": "Zoom panoramique sur la toile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_paste",
+      "value": "Coller une image, un autocollant, un fichier ou un lien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_redo",
+      "value": "Rétablir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_undo",
+      "value": "Annuler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "Zoomer la toile au niveau du curseur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop",
+      "value": "Rogner"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "Agrandir la toile au-delà de la photo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "Réduisez le zoom pour laisser de l'espace autour de la photo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "Double-clic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_pan",
+      "value": "Déplacer l'image à l'intérieur du cadre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom",
+      "value": "Agrandir l'image à l'intérieur du cadre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom_fine",
+      "value": "Zoom par paliers plus fins"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_click",
+      "value": "cliquer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "glisser"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "Faire glisser le bord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "glisser la poignée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_wheel",
+      "value": "roue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "Afficher ces raccourcis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_click",
+      "value": "Clic du milieu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_drag",
+      "value": "Glissement central"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects",
+      "value": "Objets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_delete",
+      "value": "Supprimer la sélection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_duplicate",
+      "value": "Dupliquer la sélection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_flip",
+      "value": "Retourner la sélection horizontalement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_rotate",
+      "value": "Tourner uniquement, par paliers de 45°"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_snap",
+      "value": "Aligner sur les guides de la toile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_stretch",
+      "value": "Étirer librement la forme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_text",
+      "value": "Modifier le texte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes",
+      "value": "Formes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_instant",
+      "value": "Insérer immédiatement une forme à partir du menu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_proportions",
+      "value": "Garder les proportions ou l'angle de la flèche"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline",
+      "value": "Chronologie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_scroll",
+      "value": "Défiler la chronologie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_window",
+      "value": "Déplacer la plage sélectionnée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_zoom",
+      "value": "Zoom sur la chronologie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "Raccourcis clavier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "Roue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "Personnaliser le texte du lien"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_menu_delete",
       "value": "Supprimer"
     },
@@ -27789,6 +28646,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_text_style_semi_transparent",
       "value": "Semi-transparent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_trim_shortest",
+      "value": "Couper à la longueur minimale"
     },
     {
       "_": "types.LangPackString",
@@ -30997,8 +31859,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_colors",
+      "value": "Couleurs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_emoji",
+      "value": "Emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "Taille de la police"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts",
+      "value": "Cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "Voir les cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "Utilisez n'importe quel objet de collection que vous possédez\npour personnaliser votre code QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "Aucun cadeau pour l'instant"
     },
     {
       "_": "types.LangPackString",
@@ -35697,8 +36589,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Verrouiller Telegram avec un code d'accès"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Ce code d'accès ne sera nécessaire que pour valider les transactions, et non pour ouvrir votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Code d'accès"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Ce code d'accès protège les clés du portefeuille stockées sur cet appareil."
     },
     {
       "_": "types.LangPackString",
@@ -37021,6 +37928,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_reset_sure",
+      "value": "Voulez-vous vraiment réinitialiser tous les raccourcis clavier à leurs valeurs par défaut ?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_rich_editor",
       "value": "Ouvrir l'éditeur d'articles"
     },
@@ -37073,6 +37985,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "Envoi silencieux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Enregistrer ou restaurer un message"
     },
     {
       "_": "types.LangPackString",
@@ -37817,6 +38734,16 @@
       "_": "types.LangPackString",
       "key": "lng_sr_from_me",
       "value": "Moi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_hide",
+      "value": "Cacher les participants"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_show",
+      "value": "Afficher les participants"
     },
     {
       "_": "types.LangPackString",
@@ -38658,6 +39585,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Fichiers trop nombreux ou volumineux à stocker."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Appuyez sur {shortcut} pour enregistrer ce brouillon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "Restaurer un message enregistré"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stats_admins_title",
       "value": "Top des admins"
     },
@@ -38894,6 +39836,31 @@
       "_": "types.LangPackString",
       "key": "lng_status_bot",
       "value": "bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "ia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "application"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "jeu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "gay"
     },
     {
       "_": "types.LangPackString",
@@ -40477,6 +41444,29 @@
       "value": "Voulez-vous vraiment vous déconnecter ?"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Les clés de votre portefeuille sont stockées uniquement sur cet appareil et Telegram ne garde aucune sauvegarde. Si vous continuez, elles seront détruites. Seule votre phrase secrète permettra de restaurer le portefeuille.",
+      "other_value": "{count} clés de vos portefeuilles sont stockées uniquement sur cet appareil et Telegram ne garde aucune sauvegarde. Si vous continuez, elles seront détruites. Seule votre phrase secrète permettra de restaurer le portefeuille."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Cet appareil contient aussi les clés d'un autre portefeuille Gram. Si vous continuez, elle sera détruit, et ce portefeuille ne pourra être restauré que si sa phrase secrète a été notée.",
+      "other_value": "Cet appareil contient aussi les clés de {count} autres portefeuilles Gram. Si vous continuez, elles seront détruites, et ces portefeuilles ne pourront être restaurés que si leurs phrases secrètes ont été notées."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Le changement de clé du portefeuille sur cet appareil n'est pas encore confirmé. La clé de remplacement n'est stockée qu'ici et Telegram ne dispose d'aucune sauvegarde de celle-ci. Si vous continuez, elle sera détruite : si le changement est effectif, seule la phrase secrète de remplacement permettra de restaurer le portefeuille.",
+      "other_value": "{count} changements de clé de portefeuille sur cet appareil n'ont pas encore été confirmés. Les clés de remplacement sont stockées uniquement ici et Telegram n'en conserve aucune sauvegarde. Si vous continuez, elles seront détruites : si un changement est validé, seule la phrase secrète de remplacement permettra de restaurer ce portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Si cet appareil contient des clés de portefeuille Gram, elles seront détruites si vous poursuivez. Elles ne pourront être restaurées qu'à partir d'une sauvegarde Telegram ou de votre phrase secrète."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_remove_user_channel",
       "value": "Éjecter {user} du canal ?"
@@ -41702,6 +42692,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_about",
+      "value": "{bot} demande de connecter votre portefeuille à ce site. Le site aura accès à votre adresse TON, votre solde et votre historique d'activité, mais ne pourra pas transférer de fonds sans votre autorisation. La connexion entraîne la création d'une signature d'authentification, et non d'un transfert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_connect",
+      "value": "Connecter le portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_label",
+      "value": "Portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key",
+      "value": "Cet appareil ne contient pas la clé actuelle de ce portefeuille. {link} pour le connecter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key_link",
+      "value": "Restaurer la clé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_reserved",
+      "value": "L'accès au portefeuille ne peut pas être autorisé sur ce site."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_user_action_choose_sticker",
       "value": "{user} choisit un autocollant"
     },
@@ -42205,6 +43225,42 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Toutes les transactions sont enregistrées et vérifiables dans un registre public."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Vérifié par la blockchain"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_about_fees_text",
+      "one_value": "Le {count} premiers transferts quotidiens sont gratuits. Les autres ne coûtent presque rien.",
+      "other_value": "Les {count} premiers transferts quotidiens sont gratuits. Les autres ne coûtent presque rien."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Zéro frais"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Envoyez des Grams dans n'importe quel échange, comme une photo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Transferts instantanés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_add_funds",
+      "value": "Ajouter des fonds"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_apps_about",
       "value": "Les applications que vous avez connectées à ce portefeuille via TON Connect. La déconnexion d'une application met fin à sa connexion sur tous vos appareils."
     },
@@ -42246,7 +43302,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_about_unavailable",
-      "value": "La sauvegarde chiffrée n'est pas disponible pour les portefeuilles importés à partir d'une phrase de récupération."
+      "value": "La sauvegarde chiffrée n'est pas disponible pour les portefeuilles importés à partir d'une phrase secréte."
     },
     {
       "_": "types.LangPackString",
@@ -42266,7 +43322,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_disable_text",
-      "value": "Le seul moyen de récupérer vos fonds sera de saisir manuellement votre phrase de récupération."
+      "value": "Le seul moyen de récupérer vos fonds sera de saisir manuellement votre phrase secréte."
     },
     {
       "_": "types.LangPackString",
@@ -42276,7 +43332,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_disabled_text",
-      "value": "Votre phrase de récupération est désormais le seul moyen de restaurer votre portefeuille."
+      "value": "Votre phrase secréte est désormais le seul moyen de restaurer votre portefeuille."
     },
     {
       "_": "types.LangPackString",
@@ -42306,7 +43362,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_text",
-      "value": "Une nouvelle phrase de récupération a été générée pour votre portefeuille. Notez-la et gardez-la secrète."
+      "value": "Une nouvelle phrase secréte a été générée pour votre portefeuille. Notez-la et gardez-la secrète."
     },
     {
       "_": "types.LangPackString",
@@ -42316,7 +43372,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_rotate_failed_text",
-      "value": "{reason} Votre phrase de récupération n'a pas été modifiée — continuez à utiliser celle que vous avez actuellement. Les nouveaux mots que vous avez notés ne sont pas utilisés."
+      "value": "{reason} Votre phrase secréte n'a pas été modifiée — continuez à utiliser celle que vous avez actuellement. Les nouveaux mots que vous avez notés ne sont pas utilisés."
     },
     {
       "_": "types.LangPackString",
@@ -42346,7 +43402,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_test_text",
-      "value": "Assurez-vous d'avoir bien noté votre phrase de récupération. Saisissez les mots {index1}, {index2} et {index3}."
+      "value": "Assurez-vous d'avoir bien noté votre phrase secréte. Saisissez les mots {index1}, {index2} et {index3}."
     },
     {
       "_": "types.LangPackString",
@@ -42356,7 +43412,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_topup_text",
-      "value": "Il vous faut {amount} GRAM ({fiat}) pour mettre à jour votre phrase de récupération."
+      "value": "Il vous faut {amount} GRAM ({fiat}) pour mettre à jour votre phrase secréte."
     },
     {
       "_": "types.LangPackString",
@@ -42381,12 +43437,178 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
-      "value": "Acheter par carte ou en crypto"
+      "value": "Acheter en espèce ou en crypto"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_buy_empty",
       "value": "Aucune option de paiement n'est disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_add",
+      "value": "Ajouter à la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_apply_color",
+      "value": "Appliquer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_last",
+      "value": "{all} et {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_one",
+      "value": "{all}, {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_not_allowed",
+      "value": "Ce cadeau ne peut pas être défini comme fond de la carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_only",
+      "value": "Seuls les cadeaux {collections} peuvent être utilisés pour changer la couleur de votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_drag_hint",
+      "value": "Glissez cet objet de collection sur une carte pour la décorer."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_card_limit",
+      "one_value": "Vous pouvez ajouter jusqu'à {count} cadeaux sur votre carte.",
+      "other_value": "Vous pouvez ajouter jusqu'à {count} cadeaux sur votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_not_ready",
+      "value": "Votre carte n'est pas prête à être modifiée. Veuillez réessayer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove",
+      "value": "Supprimer de la carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove_color",
+      "value": "Supprimer la couleur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_save_error",
+      "value": "Impossible d'enregistrer votre carte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_saved_profile",
+      "value": "Ce cadeau apparaît sur votre profil. Masquez-le pour l'ajouter à votre carte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_gift",
+      "value": "Cadeau de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_nft",
+      "value": "Objet de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_number",
+      "value": "Numéro de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Nom d'utilisateur de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_gift_attributes",
+      "value": "{model} sur {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_nft_about",
+      "value": "Un objet de collection stocké sur la blockchain The Open Network (TON)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_not_owned",
+      "value": "Cet objet de collection n'est plus dans votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "Le numéro de collection {number} qui permet de créer un compte Telegram non lié à une carte SIM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_own_wallet",
+      "value": "Cet objet de collection est déjà dans votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_send",
+      "value": "Envoyer {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_show_in_gifts",
+      "value": "afficher également dans mes cadeaux"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_username_about",
+      "value": "Le nom d'utilisateur {username} sur Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "Ajouter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "Ce commentaire n'a pas pu être déchiffré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_encryption_failed",
+      "value": "Ce commentaire n'a pas pu être crypté. Réessayez, rendez-le public, modifiez-le ou supprimez-le."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_key_mismatch",
+      "value": "Ce commentaire a été chiffré avec une clé de portefeuille différente et ne peut pas être déchiffré sur cet appareil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_make_public",
+      "value": "Rendre le commentaire public"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Les commentaires publics sont enregistrés sur la blockchain et restent visibles en permanence par tous. Ne mentionnez jamais d'informations confidentielles."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_title",
+      "value": "Ajouter un commentaire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_too_long",
+      "value": "Ce commentaire est trop long."
     },
     {
       "_": "types.LangPackString",
@@ -42396,12 +43618,17 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_conflict_existing",
-      "value": "Vous disposez également de {amount} dans votre ancien portefeuille"
+      "value": "Vous avez également {amount} dans d'anciens portefeuilles"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_conflict_switch",
       "value": "Changez maintenant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "Impossible de supprimer l'ancien portefeuille de cet appareil."
     },
     {
       "_": "types.LangPackString",
@@ -42540,6 +43767,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Charge utile"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_preview",
       "value": "Aperçu"
     },
@@ -42558,6 +43790,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_sent",
       "value": "La transaction a été envoyée."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Demande d'une application"
     },
     {
       "_": "types.LangPackString",
@@ -42662,7 +43899,238 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_title_app",
-      "value": "Connecter le portefeuille à{name}"
+      "value": "Connecter votre argent à{name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_create_error",
+      "value": "Impossible de créer un portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Votre nouveau portefeuille est prêt à l'emploi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "Portefeuille créé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Aucune devise trouvée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Choisissez la devise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_text",
+      "value": "Vous perdrez l'accès à vos fonds si vous ne conservez pas votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Supprimer le portefeuille ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Date"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "Échec ({reason})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Frais"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_free",
+      "value": "Gratuit (payé par Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_unknown",
+      "value": "Échec de la recherche"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_from_profile",
+      "value": "Déplacé du profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_to_profile",
+      "value": "Déplacé sur le profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_open_wallet",
+      "value": "Ouvrir mon argent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_operation",
+      "value": "Fonctionnement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Destinataire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Expéditeur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_status",
+      "value": "Statut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Transaction"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_earnings_existing",
+      "value": "Vous avez aussi {amount} gains en Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message} (erreur : {error})"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_fees_text",
+      "one_value": "Chaque transfert entraîne des frais de réseau minimes.\nTelegram prend en charge votre premier transfert quotidien.",
+      "other_value": "Chaque transfert entraîne des frais de réseau minimes.\nTelegram prend en charge vos {count} premiers transferts quotidiens."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_fees_title",
+      "value": "Frais de réseau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate",
+      "value": "1 Gram équivaut actuellement à {amount}.\nVous pouvez :"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "Avec Grams, vous pouvez :"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Envoyez des Grams à qui vous voulez.\nCliquez sur {attach} → {money} dans les échanges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Envoyer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Conservez vos Grams dans Telegram\n({menu} → {wallet}) ou dans d'autres portefeuilles."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Boutique"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Vos premiers Grams !"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Convertissez vos Grams en argent ou en crypto sur des plateformes d'échange."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Spéculation"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_history_searching",
+      "value": "Recherche de transactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_menu",
+      "value": "Qu'est-ce que mon Argent ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Vous seul contrôlez vos fonds, personne d'autre n'y a accès."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Comment ça marche ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Importer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "Impossible d'importer le portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "Seule une phrase secrète créée dans Telegram peut être importée ici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "Vérifiez l'ordre des mots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Mots secrets non valides"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_key_changing",
+      "value": "La clé de votre portefeuille est en cours de modification. Veuillez réessayer une fois la modification confirmée."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram n'a pas pu vérifier à qui appartient ce portefeuille. Gardez votre phrase secrète en sécurité et contactez le service d'assistance."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_paste_error",
+      "value": "Le texte collé doit comporter 12 ou 24 mots."
     },
     {
       "_": "types.LangPackString",
@@ -42671,8 +44139,74 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Importer un portefeuille"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_import_words",
+      "one_value": "{count} mot",
+      "other_value": "{count} mots"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Votre portefeuille a été remplacé, mais sa clé n'a pas pu être enregistrée sur cet appareil. Si vous n'arrivez pas à effectuer d'envoi depuis cet appareil, restaurez-le à l'aide de votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_text",
+      "value": "Votre portefeuille a été restauré à partir de votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Portefeuille importé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Monnaie digitale de Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Impossible d'enregistrer la clé du portefeuille sur cet appareil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Supprimer le portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Vous pouvez transférer votre portefeuille vers un autre appareil en copiant votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_keys_restore",
-      "value": "Restauration à partir de la phrase de récupération"
+      "value": "Restauration à partir de la phrase secréte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_show_phrase",
+      "value": "Afficher la phrase secrète"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_title",
+      "value": "Clés et sauvegarde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu",
+      "value": "Argent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_menu_currency",
+      "value": "Devise"
     },
     {
       "_": "types.LangPackString",
@@ -42706,6 +44240,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Ne pas demander pour 15 minutes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "Vous pourrez effectuer cette action dans {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "Impossible d'afficher la phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_text",
+      "value": "Votre phrase secrète est la clé qui vous permettra de restaurer votre portefeuille. Gardez-la secrète et en sécurité à tout moment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Phrase secrète"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "Veuillez saisir votre mot de passe pour voir votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_phrase_text",
+      "one_value": "Notez ce mot {count} et rangez-le en lieu sûr. Gardez-le secret et à l'abri de tout regard à tout moment.",
+      "other_value": "Notez ces {count} mots dans l'ordre et rangez-les en lieu sûr. Gardez-les secrets et à l'abri de tout regard à tout moment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Votre phrase secrète"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_share",
+      "value": "**Ne partagez jamais** votre phrase secrète avec qui que ce soit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_steal",
+      "value": "Si quelqu'un connait de votre phrase secrète, il **peut voler vos fonds**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Le support Telegram **ne vous demandera jamais** votre phrase secrète."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "Solde :"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_none",
+      "value": "{name} n'a pas encore de Grams."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_profile_balance_owns",
+      "one_value": "{name} détient {amount} Gram sur la blockchain TON.",
+      "other_value": "{name} détient {amount} Grams sur la blockchain TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_public",
+      "value": "Votre solde est public grâce à la transparence de la blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_how_works",
+      "value": "Comment ça marche ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "Envoyer de l'argent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "Protégez votre compte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Choisissez le mode de protection de vos fonds sur cet appareil."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_create_about",
       "value": "Ce code d'accès protège la clé de votre portefeuille sur cet appareil. Il ne verrouille pas Telegram tant que vous n'avez pas activé cette option dans les Paramètres."
     },
@@ -42717,7 +44348,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_absent",
-      "value": "La clé de votre portefeuille sur cet appareil était protégée par {provider}, mais elle ne peut plus être utilisée sur cet appareil. Restaurez le portefeuille à partir de la sauvegarde chiffrée de Telegram ou à l'aide de votre phrase de récupération pour enregistrer à nouveau la clé."
+      "value": "La clé de votre portefeuille sur cet appareil était protégée par {provider}, mais elle ne peut plus être utilisée sur cet appareil. Restaurez le portefeuille à partir de la sauvegarde chiffrée de Telegram ou à l'aide de votre phrase secréte pour enregistrer à nouveau la clé."
     },
     {
       "_": "types.LangPackString",
@@ -42727,7 +44358,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_hardware_unavailable",
-      "value": "La clé de votre portefeuille sur cet appareil est protégée par {provider}, qui n'est pas disponible pour le moment. Redémarrez Telegram pour réessayer, ou restaurez le portefeuille à partir de la sauvegarde chiffrée de Telegram ou à l'aide de votre phrase de récupération afin de le protéger d'une autre manière."
+      "value": "La clé de votre portefeuille sur cet appareil est protégée par {provider}, qui n'est pas disponible pour le moment. Redémarrez Telegram pour réessayer, ou restaurez le portefeuille à partir de la sauvegarde chiffrée de Telegram ou à l'aide de votre phrase secréte afin de le protéger d'une autre manière."
     },
     {
       "_": "types.LangPackString",
@@ -42741,8 +44372,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Ne pas demander le code d'accès"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Toute personne ayant accès à votre compte Telegram peut dépenser votre argent."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_open_confirm",
       "value": "Enregistrer quand même"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Conserver sans code d'accès ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Toute personne ayant accès à votre application Telegram Desktop non verrouillée sur cet ordinateur pourra voler les fonds de votre portefeuille.\n\nVous pouvez modifier ce paramètre plus tard, dans le menu « Verrouillage par code d'accès » de votre portefeuille."
     },
     {
       "_": "types.LangPackString",
@@ -42751,8 +44402,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Demander le code d'accès local"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Validez toutes vos dépenses avec votre code d'accès Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Modifier le code d'accès {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_protection_passcode_changed_error",
-      "value": "Le code d'accès a été modifié, mais la protection du portefeuille n'a pas pu être mise à jour. Restaurez les clés de votre portefeuille à partir d'une sauvegarde ou d'une phrase de récupération."
+      "value": "Le code d'accès a été modifié, mais la protection du portefeuille n'a pas pu être mise à jour. Restaurez les clés de votre portefeuille à partir d'une sauvegarde ou d'une phrase secréte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Continuez à demander ce code d'accès"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Choisissez comment vos fonds seront protégés une fois le code d'accès supprimé."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Cela s'applique aux portefeuilles de {accounts}."
     },
     {
       "_": "types.LangPackString",
@@ -42763,6 +44444,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_protection_retained_ask",
       "value": "Demande-le la prochaine fois"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Verrouillage par code d'accès"
     },
     {
       "_": "types.LangPackString",
@@ -42781,13 +44467,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "Configuration de votre portefeuille…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_readonly_bar",
       "value": "Cet appareil permet de consulter ce portefeuille, mais ne permet pas d'effectuer des envois à partir de celui-ci."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_receive_about",
+      "value": "Partagez votre adresse ou ce code QR pour recevoir des GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "Les envois depuis cet appareil nécessitent votre phrase secrète ou l'appareil sur lequel ce portefeuille a été importé."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_receive_copy_hint",
       "value": "Cliquez pour copier l'adresse"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Créer un nouveau portefeuille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Importer un portefeuille existant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "Comment souhaitez-vous remplacer votre ancien portefeuille ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "Impossible de rétablir l'accès à ce portefeuille."
     },
     {
       "_": "types.LangPackString",
@@ -42797,7 +44518,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_not_saved",
-      "value": "La phrase de récupération n'a pas été enregistrée sur cet appareil."
+      "value": "La phrase secréte n'a pas été enregistrée sur cet appareil."
     },
     {
       "_": "types.LangPackString",
@@ -42807,12 +44528,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_outdated_text",
-      "value": "Ces mots sont une ancienne phrase de récupération associée à ce portefeuille.\n\nVeuillez saisir la nouvelle phrase que vous avez obtenue lors de votre dernière désactivation de la sauvegarde."
+      "value": "Ces mots sont une ancienne phrase secrète associée à ce portefeuille.\n\nVeuillez saisir la nouvelle phrase que vous avez obtenue lors de votre dernière désactivation de la sauvegarde."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_text",
-      "value": "Saisissez la phrase de récupération de ce portefeuille."
+      "value": "Saisissez la phrase secréte de ce portefeuille."
     },
     {
       "_": "types.LangPackString",
@@ -42822,17 +44543,113 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_ton_connect_text",
-      "value": "Saisissez la phrase de récupération de ce portefeuille pour pouvoir utiliser les applications associées depuis cet appareil."
+      "value": "Saisissez la phrase secréte de ce portefeuille pour pouvoir utiliser les applications associées depuis cet appareil."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_wrong_title",
-      "value": "Phrase de récupération incorrecte"
+      "value": "Phrase secréte incorrecte"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restoring_key",
       "value": "Restauration de la clé de votre portefeuille à partir de la sauvegarde chiffrée..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "Objet de collection entrant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "Objet de collection sortant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Dépôt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_incoming",
+      "value": "Transfert entrant"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_row_items",
+      "one_value": "{count} article",
+      "other_value": "{count} articles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "Mise à jour importante"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_from_profile",
+      "value": "déplacé du profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_to_profile",
+      "value": "déplacé sur le profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Transfert sortant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_sending",
+      "value": "Envoi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_telegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "Recharger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "Retrait"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "Objets de collection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_hidden_below",
+      "value": "Les transactions inférieures à {amount} sont masquées."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Envoyer {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Frais de réseau : {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Commentaire facultatif"
     },
     {
       "_": "types.LangPackString",
@@ -42847,7 +44664,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
-      "value": "Vous n'avez pas assez de Grams pour ce transfert."
+      "value": "Fonds insuffisants"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_quote_expired",
+      "value": "Les détails du transfert ont été modifiés ou n'ont pas pu être préparés. Vérifiez les détails et réessayez."
     },
     {
       "_": "types.LangPackString",
@@ -42856,13 +44678,123 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Portefeuille Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "Adresse non valide"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_key_changed_text",
-      "value": "La clé de ce portefeuille a été changée dans une autre application ; la clé enregistrée sur cet appareil ne fonctionne donc plus.\n\nRestaurez le portefeuille à l'aide de sa phrase de récupération actuelle pour pouvoir l'utiliser à nouveau sur cet appareil."
+      "value": "La clé de ce portefeuille a été changée dans une autre application ; la clé enregistrée sur cet appareil ne fonctionne donc plus.\n\nRestaurez le portefeuille à l'aide de sa phrase secréte actuelle pour pouvoir l'utiliser à nouveau sur cet appareil."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_key_changed_title",
       "value": "Clé de portefeuille modifiée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_expired",
+      "value": "Ce lien de paiement a expiré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_invalid",
+      "value": "Ce lien n'est pas valide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_name_not_found",
+      "value": "Aucun portefeuille n'est associé à ce nom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Frais de réseau : {amount} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_recipient_loading",
+      "value": "Recherche du portefeuille du destinataire…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_title",
+      "value": "Envoyer des Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_load_error",
+      "value": "Le portefeuille du destinataire n'a pas pu être chargé."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Envoyer de l'argent à"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "Cet utilisateur ne peut pas recevoir de Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_about",
+      "value": "Cette adresse de la blockchain TON est associée à {name} sur Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Le portefeuille de {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_wallet_loading",
+      "value": "Chargement de votre portefeuille..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 Grams envoyés à {address}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "Impossible de charger votre portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Pas d'argent disponible sur ce compte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "La clé du portefeuille sur cet appareil est verrouillée. Déverrouillez-la et réessayez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "La clé de portefeuille actuellement stockée sur cet appareil ne peut plus être ouverte ici. Si vous continuez, elle sera supprimée de cet appareil, ainsi que toutes les autres clés de portefeuille qui y sont stockées, et la clé de ce portefeuille sera enregistrée à la place. Cette action est irréversible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Supprimer la clé enregistrée ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "La clé du portefeuille stockée sur cet appareil ne peut pas être lue."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Vous avez également de fonds dans Walt"
     },
     {
       "_": "types.LangPackString",
@@ -42939,7 +44871,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_welcome_messages_preview_about",
-      "value": "Les nouveaux membres verront ce message dès leur arrivée"
+      "value": "Les nouveaux membres verront ces message dès leur arrivée"
     },
     {
       "_": "types.LangPackString",
@@ -43000,5 +44932,5 @@
       "other_value": "Vous avez payé {count} étoiles."
     }
   ],
-  "version": 5924057
+  "version": 6014185
 }

@@ -1797,6 +1797,12 @@
       "other_value": "Premium de %d Meses"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftPremiumTitle2Days",
+      "one_value": "Premium de %d dia",
+      "other_value": "Premium de %d dias"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumView",
       "value": "Ver"
@@ -3600,7 +3606,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "Número Anônimo"
+      "value": "Número Colecionável"
     },
     {
       "_": "types.LangPackString",
@@ -4430,6 +4436,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Quer mesmo sair?\n\nIsso cancelará todos os seus chats secretos e **apagará os backups da carteira com %s**. Sem as Frases Secretas, você perderá o acesso ao dinheiro.\n\nVocê pode usar o Telegram em todos os seus dispositivos ao mesmo tempo e usar várias contas no mesmo app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureRegistration",
       "value": "Tem certeza de que deseja parar o registro?"
     },
@@ -5227,6 +5238,41 @@
       "_": "types.LangPackString",
       "key": "AudioAutodownload",
       "value": "Mensagens de voz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneral",
+      "value": "Gravador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneralInfo",
+      "value": "RNNoise remove o ruído de fundo e pode afetar música ou fala muito baixa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppression",
+      "value": "Supressão de ruído"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionOff",
+      "value": "Não"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionRNNoise",
+      "value": "RNNoise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderSettings",
+      "value": "Mensagens de Voz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderUseNewRecorder",
+      "value": "Usar novo gravador"
     },
     {
       "_": "types.LangPackString",
@@ -6491,7 +6537,7 @@
     {
       "_": "types.LangPackString",
       "key": "BlockedUsersInfo",
-      "value": "Os usuários bloqueados não podem te enviar mensagens ou adicionar a grupos. Eles não verão suas fotos de perfil, stories, seu online e nem o visto pela última vez."
+      "value": "Os usuários bloqueados não podem te enviar mensagens ou adicionar a grupos. Eles não verão suas fotos de perfil, stories, online e nem o visto por último."
     },
     {
       "_": "types.LangPackString",
@@ -7227,8 +7273,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayAdditionPrizeCountHint",
-      "one_value": "Todos os prêmios: **%1$d** assinatura de  %2$s do Telegram Premium.",
-      "other_value": "Todos os prêmios: **%1$d** assinaturas de  %2$s do Telegram Premium."
+      "one_value": "Todos os prêmios: **%1$d** assinatura de %2$s do Telegram Premium.",
+      "other_value": "Todos os prêmios: **%1$d** assinaturas de %2$s do Telegram Premium."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9418,6 +9464,31 @@
       "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Bloquear Bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAI",
+      "value": "IA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAgent",
+      "value": "Agente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeApp",
+      "value": "App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeGame",
+      "value": "Jogo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeNonBinary",
+      "value": "Não binário"
     },
     {
       "_": "types.LangPackString",
@@ -15147,7 +15218,7 @@
     {
       "_": "types.LangPackString",
       "key": "ContactInfoPhoneFragment",
-      "value": "Anônimo"
+      "value": "Colecionável"
     },
     {
       "_": "types.LangPackString",
@@ -15503,8 +15574,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameBotLimit",
+      "value": "Este bot já possui um nome de usuário Premium. Remova-o antes de adicionar outro."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameCheckFailed",
+      "value": "Erro ao verificar este nome de usuário. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameInfo",
       "value": "Toque para editar o usuário do bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameOwnerLimit",
+      "value": "Você só pode ter %1$d nomes de usuário terminando em %2$s em todos os seus bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequired",
+      "value": "Nomes de usuário terminando em '%1$s' requerem o Telegram Premium. **Assinar ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequiredGeneric",
+      "value": "Este nome de usuário requer Telegram Premium. **Assinar ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixMissing",
+      "value": "O nome de usuário deve terminar em %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesComma",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesInfo",
+      "value": "Deve terminar com 'bot' – ou %1$s com **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesOr",
+      "value": "%1$s ou %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -18116,7 +18232,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "Esse domínio de e-mail não é permitido."
+      "value": "Este e-mail não pode ser usado."
     },
     {
       "_": "types.LangPackString",
@@ -21953,6 +22069,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2AddToProfile",
+      "value": "Adicionar ao Perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2AddedToCollection",
       "value": "**%1$s** adicionado a **%2$s**."
     },
@@ -21961,6 +22082,11 @@
       "key": "Gift2AddedToCollectionMany",
       "one_value": "**%1$d presente** adicionado a **%2$s**.",
       "other_value": "**%1$d presentes** adicionados a **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2AlsoShowInMyGifts",
+      "value": "mostrar também nos meus presentes"
     },
     {
       "_": "types.LangPackString",
@@ -22390,6 +22516,11 @@
       "value": "**%d Estrelas** é o preço médio de venda dos presentes %s."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2BrowseCollectiblesInfo",
+      "value": "Mostre presentes no seu perfil. Atualize edições limitadas para colecionáveis negociáveis."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2ButtonSell",
       "one_value": "vender por %d Estrela",
@@ -22656,6 +22787,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2DeleteOption",
+      "value": "Apagar Presente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2DeleteText",
+      "value": "Deseja apagar este presente?\n\nEle desaparecerá do seu perfil e não poderá ser restaurado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Deleted",
+      "value": "Presente apagado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2EditCollectionNameTitle",
       "value": "Editar Nome"
     },
@@ -22770,6 +22916,11 @@
       "_": "types.LangPackString",
       "key": "Gift2HideChannelInfo",
       "value": "Você pode ocultar seu nome e mensagem de todos os visitantes deste canal, exceto os admins."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2HideFromProfile",
+      "value": "Ocultar do Perfil"
     },
     {
       "_": "types.LangPackString",
@@ -22954,6 +23105,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2KeepOnProfile",
+      "value": "Continuar mostrando no perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2LearnMoreText",
       "value": "Deixe %s transformar este presente em um colecionável único."
     },
@@ -23073,6 +23229,51 @@
       "_": "types.LangPackString",
       "key": "Gift2More",
       "value": "**Mais sobre Estrelas >**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Move",
+      "value": "Mover"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveAppearIn",
+      "value": "Ele aparecerá em"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGifts",
+      "value": "Mover para Meus Presentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsInfo",
+      "value": "Você pode movê-lo de volta à rede a qualquer momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsText",
+      "value": "Transferir este colecionável off-chain para sua conta do Telegram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWallet",
+      "value": "Mover para Minha Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWalletText",
+      "value": "Transferir presente para sua carteira no blockchain?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToProfile",
+      "value": "Presente movido para seu perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToWallet",
+      "value": "Presente movido para sua carteira."
     },
     {
       "_": "types.LangPackString",
@@ -23367,6 +23568,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2RemoveFromProfile",
+      "value": "Remover do Perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2RemovedFromCollection",
       "value": "**%1$s** removido de **%2$s**."
     },
@@ -23545,6 +23751,11 @@
       "other_value": "Comprar um Presente por ⭐️%d"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2SendViaFragment",
+      "value": "Enviar via Fragment"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2SendYourBalance",
       "one_value": "Seu saldo é de %d Estrela",
@@ -23565,6 +23776,11 @@
       "_": "types.LangPackString",
       "key": "Gift2ShowGift",
       "value": "Mostrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2ShowOnProfile",
+      "value": "Mostrar no Perfil"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23778,7 +23994,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift2TransactionPrepaidUpgrade",
-      "value": "Presentear Atualização"
+      "value": "Atualização de Presente"
     },
     {
       "_": "types.LangPackString",
@@ -23865,6 +24081,36 @@
       "_": "types.LangPackString",
       "key": "Gift2TransferTimeoutTitle",
       "value": "Tente Depois"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfile",
+      "value": "Transferir para Meu Perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfileText",
+      "value": "Deseja transferir **%s** da sua carteira para seu perfil do Telegram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWallet",
+      "value": "Transferir para Minha Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletSent",
+      "value": "**%s** está a caminho da sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletText",
+      "value": "Deseja transferir **%s** para sua carteira? Ele continua visível no seu perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletTitle",
+      "value": "Transferir para Carteira"
     },
     {
       "_": "types.LangPackString",
@@ -24225,6 +24471,11 @@
       "_": "types.LangPackString",
       "key": "Gift2WearTitle",
       "value": "Usar %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2WearWalletHidden",
+      "value": "Mostre este presente no seu perfil para usá-lo."
     },
     {
       "_": "types.LangPackString",
@@ -25592,6 +25843,43 @@
       "_": "types.LangPackString",
       "key": "Grain",
       "value": "Granulado"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "one_value": "%1$s GRAM",
+      "other_value": "%1$s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramCurrency",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Ganhos em Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Você pode sacar seus Grams usando o Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "Seu Gram de presentes,\nanúncios e Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsTitle",
+      "value": "Ganhos em Gram"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Grams",
+      "one_value": "%1$s Gram",
+      "other_value": "%1$s Grams"
     },
     {
       "_": "types.LangPackString",
@@ -27333,7 +27621,7 @@
     {
       "_": "types.LangPackString",
       "key": "InviteToCommunityError",
-      "value": "Não é possível adicionar esta pessoa devido às configurações de privacidade dela."
+      "value": "Não é possível adicionar esta pessoa na comunidade devido às configurações de privacidade dela."
     },
     {
       "_": "types.LangPackString",
@@ -30793,7 +31081,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationProceedsTONInfo",
-      "value": "Grams do seu saldo total podem ser usados para anunciar ou retirar recompensas 3 dias após ter sido ganho. Retirada mínima de 10 Grams."
+      "value": "Grams do seu saldo total podem ser usados para anunciar ou retirar recompensas 3 dias após ter sido ganhos. Retirada mínima de 10 Grams."
     },
     {
       "_": "types.LangPackString",
@@ -30874,7 +31162,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "Ver no Blockchain Explorer"
+      "value": "Ver no Explorador"
     },
     {
       "_": "types.LangPackString",
@@ -31820,6 +32108,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenImported",
+      "value": "Agora você pode enviar mensagens para **%1$s** de graça."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsed",
+      "value": "un1 usou seu QR code e pode te enviar mensagens de graça"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsedOut",
+      "value": "Você usou o QR code de un1 e pode enviar mensagem de graça para essa pessoa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPhoneFound",
       "value": "Não há conta do Telegram com esse número de telefone."
     },
@@ -32563,6 +32866,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGramTransfer",
+      "value": "%1$s te enviou %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s te enviou %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "Você recebeu %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "Você recebeu %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGroupAddMember",
       "value": "%1$s convidou %3$s para o grupo %2$s"
     },
@@ -33081,6 +33404,16 @@
       "_": "types.LangPackString",
       "key": "NotificationUnrecognizedDevice",
       "value": "%1$s,\nDetectamos que alguém acessou a sua conta a partir de um novo dispositivo em %2$s.\n\nDispositivo: %3$s\nLocal: %4$s\n\nSe não foi você, você pode encerrar a sessão em Configurações > Dispositivos.\n\nSe você acha que alguém fez login na sua conta contra a sua vontade, você pode ativar a verificação em duas etapas nas Configurações.\n\nAtenciosamente,\nEquipe do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequest",
+      "value": "Você tem uma solicitação TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "Você tem uma solicitação TON Connect de %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -36631,6 +36964,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PleaseEnterCurrentPasswordGiftWallet",
+      "value": "Digite sua senha para mover **%s** para sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PleaseEnterCurrentPasswordTransfer",
       "value": "Por favor, digite sua senha para finalizar a transferência."
     },
@@ -39734,6 +40072,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%3$s sobre sua pontuação no jogo em %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "%3$s sobre o seu mapa"
     },
@@ -39769,6 +40112,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%3$s sobre sua atualização de enquete em %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "%3$s sobre o seu quiz %4$s"
     },
@@ -39784,13 +40132,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s sobre seu story em %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "%3$s sobre \"%4$s\""
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%3$s sobre sua mudança de tema em %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%3$s à sua lista %4$s em %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%3$s reagiu à sua atualização de tarefa em %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39819,6 +40182,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "%2$s sobre a pontuação no jogo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "%2$s sobre o seu mapa"
     },
@@ -39831,6 +40199,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "%2$s sobre o seu GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "%2$s sobre seu Código de Presente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "%2$s sobre sua transferência %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%2$s sobre sua transferência %3$s: %4$s"
     },
     {
       "_": "types.LangPackString",
@@ -39849,8 +40232,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "%2$s sobre seu post pago"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "%2$s sobre a sua foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "%2$s sobre sua foto autodestrutiva"
     },
     {
       "_": "types.LangPackString",
@@ -39859,13 +40252,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "%2$s sobre seu alerta de proximidade"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "%2$s sobre o seu quiz \"%3$s\""
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "%2$s sobre seu pagamento"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "%2$s sobre a sua mensagem de vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "%2$s sobre o mesmo papel de parede"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "%2$s sobre sua captura de tela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": " %2$s reagiu ao seu Presente no valor de %3$s Estrelas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "%2$s sobre sua Atualização de Presente no valor de %3$s Estrelas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "%2$s sobre Presente que você ajudou a atualizar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "%2$s sobre seu Presente Atualizado"
     },
     {
       "_": "types.LangPackString",
@@ -39889,8 +40322,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "%2$s sobre a menção em seu story"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "%2$s sobre sua sugestão de aniversário"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "%2$s sobre sua sugestão de foto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "%2$s sobre \"%3$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "%2$s sobre sua mudança de tema"
     },
     {
       "_": "types.LangPackString",
@@ -39899,8 +40352,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactTodoUpdate",
+      "value": "Reagiu com %2$s à sua atualização de tarefa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "%2$s sobre seu Presente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "%2$s sobre o seu vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "%2$s sobre seu vídeo autodestrutivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "%2$s sobre sua solicitação do TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "%2$s sobre o novo fundo"
     },
     {
       "_": "types.LangPackString",
@@ -39944,8 +40422,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrBrowseGifts",
+      "value": "Buscar Presentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrChatNoCollectibles",
+      "value": "Ainda não há presentes colecionáveis aqui."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCode",
       "value": "Código QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCollectibles",
+      "value": "Colecionáveis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCreatingLink",
+      "value": "Criando link..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrEmojiPresets",
+      "value": "Predefinições"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrGift",
+      "value": "Presente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrLoadingGifts",
+      "value": "Carregando presentes…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoCollectibles",
+      "value": "Você ainda não tem presentes colecionáveis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsInfo",
+      "value": "Use um presente colecionável\nseu para estilizar seu QR code."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsTitle",
+      "value": "Nenhum presente ainda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidExpiresIn",
+      "value": "Expira em %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidFree",
+      "value": "Grátis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimer",
+      "value": "Desativar timer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimerInfo",
+      "value": "Grátis, sem tempo limite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimer",
+      "value": "Ativar timer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimerInfo",
+      "value": "Expira em 1 minuto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuReset",
+      "value": "Redefinir Código"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuRestoreFee",
+      "value": "Restaurar taxa de mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidNoTimeLimit",
+      "value": "Sem tempo limite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveFee",
+      "value": "Remover taxa de mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveStarsFee",
+      "value": "Remover taxa de ★%1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpired",
+      "value": "Código expirado, com taxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpires",
+      "value": "Este código irá expirar em 1 minuto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastFeeRestored",
+      "value": "Taxa de mensagem restaurada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNewCode",
+      "value": "Novo código criado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNoTimeLimit",
+      "value": "Código grátis, sem tempo limite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumEmojiToast",
+      "value": "Assine o Premium para usar todos os emojis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumGiftsToast",
+      "value": "Assine o Premium para usar\npresentes no seu QR code."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumSubscribe",
+      "value": "Assinar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrProfileColors",
+      "value": "Cores do perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrSavedToGallery",
+      "value": "QR code salvo na Galeria"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrScanQr",
+      "value": "Ler QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrThemePremiumOnly",
+      "value": "Emojis e presentes exigem Premium"
     },
     {
       "_": "types.LangPackString",
@@ -42170,6 +42813,76 @@
       "_": "types.LangPackString",
       "key": "RoamingUsage",
       "value": "Uso de Dados em Roaming"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "Bitrate de vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "Resolução da câmera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "Alta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "Baixa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "Média"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Composição"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "Estilo de vídeo redondo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "Desative o estilo para gravar um quadrado simples sem desfoque do círculo externo, escurecimento ou sobreposições do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "Taxa de quadros"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneral",
+      "value": "Gravador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "60 FPS são usados apenas quando as câmeras frontal e traseira suportam. Caso contrário, a gravação volta para 30 FPS."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "Resolução de saída"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "Vídeo Redondo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "Usar gravador Camera2"
     },
     {
       "_": "types.LangPackString",
@@ -46878,7 +47591,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsPurchaseUnavailable",
-      "value": "Comprar estrelas não está disponível no momento."
+      "value": "Comprar Estrelas não está disponível no momento."
     },
     {
       "_": "types.LangPackString",
@@ -47448,7 +48161,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionViewInBlockchainExplorer",
-      "value": "Ver no Blockchain Explorer"
+      "value": "Ver no Explorador"
     },
     {
       "_": "types.LangPackString",
@@ -56125,8 +56838,1269 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGrams",
+      "value": "un1 te enviou **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsSomeone",
+      "value": "Alguém te enviou **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGrams",
+      "value": "Você enviou **%1$s** para un1"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGramsShort",
+      "value": "Você enviou **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActions",
+      "value": "Ações"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActiveConnections",
+      "value": "Conexões ativas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddComment",
+      "value": "Adicionar comentário"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Adicionar Fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddress",
+      "value": "Endereço"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "O endereço da carteira foi copiado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedBulletin",
+      "value": "Endereço copiado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedShort",
+      "value": "Endereço copiado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressLinkedToUser",
+      "value": "Este endereço Blockchain TON está vinculado a **%1$s** no Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "Esse endereço não possui\nconta Telegram vinculada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressOrName",
+      "value": "Endereço ou nome"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsSignature",
+      "value": "%1$s solicita sua assinatura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsTransfer",
+      "value": "%1$s solicita uma transferência"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAttachMoney",
+      "value": "Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAuthorizeTransactionPasscode",
+      "value": "Digite sua senha atual do Telegram para autorizar a transação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBack",
+      "value": "Voltar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabled",
+      "value": "Backup Desativado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledDescription",
+      "value": "Seu backup da chave criptografada será dividido em três partes e armazenado em três continentes.\n\nEle só pode ser remontado em seus dispositivos, para que ninguém – nem mesmo o Telegram – possa acessar sua chave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledInfo",
+      "value": "Sua Frase Secreta agora é a única forma de restaurar sua carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabled",
+      "value": "Backup Ativado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "Seu backup da chave criptografada é dividido em três partes e armazenado em três continentes.\n\nEle só pode ser remontado em seus dispositivos, para que ninguém – nem mesmo o Telegram – possa acessar sua chave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledInfo",
+      "value": "Suas chaves agora são armazenadas criptografadas entre servidores do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBalanceAmount",
+      "value": "Saldo: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "Dados Binários"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "Você está assinando às cegas. Assine apenas dados de fontes confiáveis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerified",
+      "value": "Verificado na Blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerifiedInfo",
+      "value": "Todas as transações são registradas e verificáveis em um registro público."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyWithCashOrCrypto",
+      "value": "Compre com dinheiro ou cripto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCancel",
+      "value": "Cancelar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard2D",
+      "value": "Cartão 2D"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard3D",
+      "value": "Cartão 3D"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectible",
+      "value": "Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Presente Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleModelBackdrop",
+      "value": "%1$s em %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Número Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "Erro ao preparar transferência do colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Nome de Usuário Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibles",
+      "value": "Colecionáveis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentOptionalMessage",
+      "value": "Mensagem opcional"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirm",
+      "value": "Confirmar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmAction",
+      "value": "Confirmar Ação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithFingerprint",
+      "value": "Confirmar com Digital"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithPasscode",
+      "value": "Confirmar com Senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Conectar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "O app será capaz de visualizar seu\nendereço TON, saldo e atividade."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "O app não poderá mover\nfundos sem permissão."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofInfo",
+      "value": "O app poderá ver o endereço, saldo e atividade TON,  e solicitar uma assinatura para fazer login. Esta não é uma transferência."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Conectar Dinheiro a %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToDApp",
+      "value": "Conectar carteira ao dApp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApp",
+      "value": "App conectado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppInfo",
+      "value": "Este app pode ver o endereço, saldo e atividade da sua carteira. Não pode movimentar fundos sem sua aprovação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Apps Conectados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppsInfo",
+      "value": "Os apps conectados podem ver o endereço, o saldo e a atividade da sua carteira. Não podem movimentar fundos sem sua aprovação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContinue",
+      "value": "Continuar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "Contrato de chamada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Copiar endereço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreateNew",
+      "value": "Criar Nova Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreated",
+      "value": "Carteira Criada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedInfo",
+      "value": "Sua nova carteira está pronta para uso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrency",
+      "value": "Moeda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyUSD",
+      "value": "Dólar Americano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhrase",
+      "value": "Frase Secreta Atual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhraseInfo",
+      "value": "Quem tem acesso a esta frase controla sua carteira. Anote-a e mantenha em segredo. Se você perdê-la, perderá seus fundos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDate",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecline",
+      "value": "Recusar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDelete",
+      "value": "Apagar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Apagar mesmo assim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Apagar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "Você perderá o acesso aos seus fundos, a menos que tenha salvo sua frase secreta de 12 palavras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "Apagar Carteira?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Depositar fundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "Desativar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Desativar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "Seu backup criptografado distribuído será apagado. Sua carteira mudará para a nova frase secreta. Esta frase secreta será a única forma de recuperar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "Seu backup criptografado distribuído será apagado. Sua frase secreta será a única forma de recuperar esta carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "A única forma de recuperar seus fundos será inserir manualmente sua frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Desativar Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Desconectar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDomain",
+      "value": "Domínio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "Pronto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Ativar Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "Backup Criptografado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Digite a Frase Secreta da sua carteira\npara continuar. **Por quê?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhraseInfo",
+      "value": "Como você desativou os backups da sua carteira, você deve inserir manualmente sua Frase Secreta em cada nova sessão do Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailed",
+      "value": "Falhou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailedTransfer",
+      "value": "Falha na transferência"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFee",
+      "value": "Taxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmount",
+      "value": "Taxa: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmountWithCurrency",
+      "value": "Taxa: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeePaidByTelegram",
+      "value": "Gratuito (pago pelo Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFingerprintRetry",
+      "value": "Digital não reconhecida. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "Seus primeiros Grams!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsActions",
+      "value": "Você pode:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "%1$s equivale a US$ %2$s.\nVocê pode:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "Transfira Grams para qualquer pessoa.\nToque em 📎→ Dinheiro nos chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsStoreInfo",
+      "value": "Mantenha seus Grams no Telegram\n(💬→ ⋮ → Dinheiro) ou outras carteiras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsTradeInfo",
+      "value": "Converta Grams em dinheiro ou cripto nas exchanges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftAddToCard",
+      "value": "Adicionar ao Cartão"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftApplyColor",
+      "value": "Aplicar Cor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnly",
+      "value": "Só %1$s e %2$s podem ser usados para mudar a cor do seu cartão."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnlyOne",
+      "value": "Só %1$s pode ser usado para alterar a cor do seu cartão."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHere",
+      "value": "Arraste este colecionável aqui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHint",
+      "value": "Arraste este colecionável para o seu cartão para decorar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftOnCard",
+      "value": "No Cartão"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveColor",
+      "value": "Remover Cor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveFromCard",
+      "value": "Remover do Cartão"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGotIt",
+      "value": "Entendi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramEarningsBalance",
+      "value": "Você tem %1$s de Ganhos em Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramWalletAddress",
+      "value": "Carteira Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHiddenTransactions",
+      "value": "Transações abaixo de %1$s estão ocultas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorks",
+      "value": "Como Funciona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksInfo",
+      "value": "Só você controla seus fundos —\nninguém mais tem acesso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImport",
+      "value": "Importar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportButton",
+      "value": "Importar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportCurrentPhraseInfo",
+      "value": "Insira a Frase Secreta de %1$d palavras da sua carteira do outro dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportExisting",
+      "value": "Importar Carteira Existente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "Digite a Frase Secreta de %1$d palavras de outra carteira que você possui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportThisWallet",
+      "value": "Importar Esta Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImported",
+      "value": "Carteira Importada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "Sua carteira foi restaurada com sua frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingCollectibleAmount",
+      "value": "+1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransfer",
+      "value": "Transferência recebida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransferNft",
+      "value": "Colecionável recebido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInsufficientFunds",
+      "value": "Saldo Insuficiente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "Frase Secreta Inválida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhraseInfo",
+      "value": "Verifique a ordem das palavras.\n\nSó uma frase secreta criada no Telegram pode ser importada aqui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyUpdate",
+      "value": "Atualização de Chave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeysAndBackup",
+      "value": "Chaves e Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLock",
+      "value": "Bloquear Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLockInfo",
+      "value": "Obrigatório ao enviar fundos ou confirmar outras ações sensíveis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMakeCommentPublic",
+      "value": "Tornar comentário público"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMinimumAmount",
+      "value": "Valor Mínimo: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedFromProfile",
+      "value": "movido do perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedToProfile",
+      "value": "movido para perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFee",
+      "value": "Taxa da rede"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeAmount",
+      "value": "Taxa da rede: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeInfo",
+      "value": "Cada transferência custa uma pequena taxa da rede (**~%1$s**). O Telegram cobre suas primeiras **5** transferências todo dia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhrase",
+      "value": "Nova Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "Uma nova Frase Secreta para sua carteira foi gerada. Anote-a e mantenha em segredo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "Taxas Zero"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFeesInfo",
+      "value": "As primeiras 5 transferências do dia são grátis. O resto custa quase nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGram",
+      "value": "Grams insuficientes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGramToTransferGift",
+      "value": "Você precisa de pelo menos %s para transferir o presente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotNow",
+      "value": "Agora não"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOldWalletsBalance",
+      "value": "Você também tem %1$s em carteiras antigas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyMoney",
+      "value": "Abrir Meu Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "Abrir Meu Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOptionalComment",
+      "value": "Comentário opcional"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransfer",
+      "value": "Transferência enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransferNft",
+      "value": "Colecionável enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Colar"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletPhraseWords",
+      "one_value": "%d palavra",
+      "other_value": "%d palavras"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreview",
+      "value": "Prévia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletLastUsed",
+      "value": "\n%1$s — último uso %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWallets",
+      "value": "Carteiras anteriores"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletsInfo",
+      "value": "Carteiras que você usou antes neste dispositivo. Salve as frases secretas – elas serão removidas se você sair ou reinstalar o app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Visível só para você e o destinatário."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsGrams",
+      "value": "%1$s possui %2$s na Blockchain TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsNoGrams",
+      "value": "%1$s ainda não tem nenhum Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccount",
+      "value": "Proteja sua conta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicBalanceNote",
+      "value": "Seu saldo é público devido a\ntransparência da blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "O comentário é visível para todos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveInfo",
+      "value": "Compartilhe seu endereço ou o\nQR code para receber GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipient",
+      "value": "Destinatário"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientUnavailable",
+      "value": "Carteira do destinatário não disponível"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Se alguém tiver sua Frase Secreta, ele **pode roubar seu dinheiro**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Sua Frase Secreta é a chave para fazer backup e recuperar sua carteira. Mantenha ela sempre secreta e segura."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "Mostrar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "Sua Frase Secreta é a chave para restaurar sua carteira. Mantenha ela sempre secreta e segura."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "**Nunca compartilhe** sua Frase Secreta com ninguém."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "O Suporte do Telegram **nunca pedirá** sua Frase Secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "Você pode transferir sua carteira para outro dispositivo copiando sua frase secreta de 12 palavras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceWalletTitle",
+      "value": "Como deseja substituir a carteira antiga?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "Revise cuidadosamente a mensagem e, se concordar, assine os dados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSaveOnDevice",
+      "value": "Salvar carteira atual neste dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletScanQRCode",
+      "value": "Ler QR code"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchGifts",
+      "value": "Buscar presentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchNoResults",
+      "value": "Não houve resultados para “%1$s”.\nTente outro nome ou endereço."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhrase",
+      "value": "Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "Vender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Enviar %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGrams",
+      "value": "Enviar Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Transferências Instantâneas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantlyInfo",
+      "value": "Envie Grams em qualquer chat, como quem compartilha uma foto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Enviar Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoneyTo",
+      "value": "Enviar Dinheiro para"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSender",
+      "value": "Remetente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSending",
+      "value": "Enviando…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowMyQR",
+      "value": "Mostrar meu QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSign",
+      "value": "Assinar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSignData",
+      "value": "Dados da Assinatura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningData",
+      "value": "Dados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "Dados copiados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "Guardar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTapToSetAmount",
+      "value": "Toque para definir o valor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "Ao usar este serviço, você concorda com seus **Termos**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhrase",
+      "value": "Hora do Teste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "Certifique-se de ter anotado sua Frase Secreta corretamente.\nInsira as palavras **%1$d**, **%2$d** e **%3$d**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Dinheiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectManifestLoadFailed",
+      "value": "Erro ao carregar o manifesto do dApp: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppDeclined",
+      "value": "Solicitação de transação de %s recusada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "Solicitação de transação de %s expirou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s solicita uma transação. Toque para revisar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppProcessed",
+      "value": "Solicitação de transação de %s processada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "Solicitação de transação do app recusada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "Solicitação de transação do app expirou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "O app conectado solicita uma transação. Toque para revisar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "Solicitação de transação do app processada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestUnavailable",
+      "value": "Esta solicitação do TON Connect não está disponível ou já foi respondida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "A sessão TON Connect foi fechada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionResponseEmpty",
+      "value": "Resposta vazia da sessão TON Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTopUp",
+      "value": "Carregar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTouchFingerprint",
+      "value": "Toque no sensor de digital para desbloquear sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTrade",
+      "value": "Trocar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAmountStatus",
+      "value": "%1$s · %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "Falha ao simular a transação"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTelegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Recarga com Cartão"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Recarga com Cripto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactions",
+      "value": "Transações"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransfer",
+      "value": "Transferir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferCollectible",
+      "value": "Transferir Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusFailed",
+      "value": "falhou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusReceived",
+      "value": "recebido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusSent",
+      "value": "enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferTo",
+      "value": "para %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferToMultiple",
+      "value": "para %1$s  +%2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferWorth",
+      "value": "%1$s (%2$s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknown",
+      "value": "Desconhecido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownAddress",
+      "value": "Endereço desconhecido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "USUÁRIO DESCONHECIDO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnlock",
+      "value": "Desbloquear carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "Atualizar Frase Secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfo",
+      "value": "Você receberá uma nova frase para anotar. Endereço e saldo permanecem os mesmos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "Você receberá uma nova frase para anotar. Endereço e saldo permanecem os mesmos.\n\nTaxa da rede: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInsufficientFunds",
+      "value": "Você precisa de %1$s (~%2$s) para atualizar sua Frase Secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUseDevicePasscode",
+      "value": "Use o PIN ou senha do dispositivo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUserWallet",
+      "value": "Carteira de %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Ver no Explorador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWaltFunds",
+      "value": "Você também tem fundos na Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "O que é Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "O que é Dinheiro?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhrase",
+      "value": "Frase Secreta Incorreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhraseInfo",
+      "value": "As palavras que você digitou não correspondem à carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Sua Frase Secreta"
     },
     {
       "_": "types.LangPackString",
@@ -57191,5 +59165,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61144924
+  "version": 61419350
 }

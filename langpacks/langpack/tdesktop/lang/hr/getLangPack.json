@@ -1390,10 +1390,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "{count} Grama",
+      "few_value": "{count} grama",
       "key": "lng_action_gift_for_ton",
-      "one_value": "{count} Gram",
-      "other_value": "{count} Grama"
+      "one_value": "{count} gram",
+      "other_value": "{count} grama"
     },
     {
       "_": "types.LangPackString",
@@ -1420,7 +1420,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_got_ton",
-      "value": "Koristite Gram za kupnju poklona i predlaganje objava kanalima."
+      "value": "Koristite gram za kupnju poklona i predlaganje objava kanalima."
     },
     {
       "_": "types.LangPackString",
@@ -1785,9 +1785,68 @@
       "value": "Grupa {from} je upravo pokrenula darivanje Telegram Premium pretplata svojim članovima."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{amount} grama",
+      "key": "lng_action_gram_transfer_amount",
+      "one_value": "{amount} gram",
+      "other_value": "{amount} grama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_amount_fiat",
+      "value": "{amount} ({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_comment",
+      "value": "{text}: {comment}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_encrypted_comment",
+      "value": "Šifrirani komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_failed_tag",
+      "value": "neuspješno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received",
+      "value": "{user} vam šalje {amount}"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received_tag",
       "value": "primljeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_received_unknown",
+      "value": "Primili ste {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent",
+      "value": "Korisniku {user} ste poslali {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_tag",
+      "value": "poslano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gram_transfer_sent_unknown",
+      "value": "Poslali ste {amount}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "grama",
+      "key": "lng_action_gram_transfer_ticker",
+      "one_value": "gram",
+      "other_value": "grama"
     },
     {
       "_": "types.LangPackString",
@@ -1945,6 +2004,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "Dopustili ste kopiranje sadržaja u ovom razgovoru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "Korisnik {from} je započeo razgovor preko vašeg linka za besplatno slanje poruka"
     },
     {
       "_": "types.LangPackString",
@@ -2319,10 +2383,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "{from} je dobio {count} Grama za objavu poruke.",
+      "few_value": "Kanal {from} je dobio {count} grama za objavu poruke.",
       "key": "lng_action_suggest_success_ton",
-      "one_value": "{from} je dobio {count} Gram za objavu poruke.",
-      "other_value": "{from} je dobio {count} Grama za objavu poruke."
+      "one_value": "Kanal {from} je dobio {count} gram za objavu poruke.",
+      "other_value": "Kanal {from} je dobio {count} grama za objavu poruke."
     },
     {
       "_": "types.LangPackString",
@@ -2425,6 +2489,71 @@
       "key": "lng_action_todo_tasks_fallback",
       "one_value": "{count} zadatak",
       "other_value": "{count} zadataka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted",
+      "value": "Zahtjev aplikacije {app} je prihvaćen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_accepted_unknown",
+      "value": "Zahtjev je prihvaćen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined",
+      "value": "Zahtjev aplikacije {app} je odbijen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_declined_unknown",
+      "value": "Zahtjev je odbijen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_disconnect",
+      "value": "Aplikacija {app} traži prekid veze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired",
+      "value": "Zahtjev od aplikacije {app} je istekao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_expired_unknown",
+      "value": "Zahtjev je istekao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request",
+      "value": "Aplikacija {app} šalje zahtjev"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_request_unknown",
+      "value": "Povezana aplikacija je poslala zahtjev"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_review",
+      "value": "{text}. Kliknite za pregled {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_send_transaction",
+      "value": "Aplikacija {app} je zatražila prijenos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_data",
+      "value": "Aplikacija {app} traži da potpišete podatke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_ton_connect_sign_message",
+      "value": "Aplikacija {app} vas traži da potpišete podatke"
     },
     {
       "_": "types.LangPackString",
@@ -2630,6 +2759,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "Vaš zahtjev za pridruživanje kanalu je odobren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "Započeli ste razgovor preko linka za besplatno slanje poruka"
     },
     {
       "_": "types.LangPackString",
@@ -4344,6 +4478,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "Pretplatite se na {link} da biste otključali ovaj emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_animated_emoji_text",
       "value": "Pretplatite se na **Telegram Premium** i otključajte ove emojije."
     },
@@ -4415,7 +4559,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_archived_add",
-      "value": "Arhiviraj "
+      "value": "Arhiviraj"
     },
     {
       "_": "types.LangPackString",
@@ -4836,7 +4980,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_article_table_align_middle",
-      "value": "Poravnaj po sredinu"
+      "value": "Poravnaj po sredini"
     },
     {
       "_": "types.LangPackString",
@@ -4977,6 +5121,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "Dodaj privitak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "Zvuk"
     },
     {
       "_": "types.LangPackString",
@@ -6675,6 +6824,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera",
+      "value": "Želite li dopustiti ovom botu da koristi vašu kameru?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_camera_microphone",
+      "value": "Želite li dopustiti ovom botu da koristi vašu kameru i mikrofon?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_location",
+      "value": "Želite li dopustiti ovom botu da ima pristup vašoj lokaciji?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_microphone",
+      "value": "Želite li dopustiti ovom botu da koristi vaš mikrofon?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_allow_permission_confirm",
+      "value": "Dopusti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_allow_write",
       "value": "Želite li dopustiti ovom botu da vam šalje poruke?"
     },
@@ -8355,7 +8529,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_history_out_button",
-      "value": "Pogledaj u blockchain pregledniku"
+      "value": "Pogledaj u pregledniku"
     },
     {
       "_": "types.LangPackString",
@@ -8412,7 +8586,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_learn_coin_title",
-      "value": "Što je {emoji} Gram?"
+      "value": "Što je {emoji} gram?"
     },
     {
       "_": "types.LangPackString",
@@ -8427,7 +8601,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_learn_out_about",
-      "value": "Svoje Grame možete preuzeti u bilo kojem trenutku."
+      "value": "Svoje grame možete preuzeti u bilo kojem trenutku."
     },
     {
       "_": "types.LangPackString",
@@ -8437,7 +8611,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_learn_split_about",
-      "value": "Možete dobiti 50% prihoda od oglasa u obliku Grama."
+      "value": "Možete dobiti 50% prihoda od oglasa u obliku grama."
     },
     {
       "_": "types.LangPackString",
@@ -8458,6 +8632,11 @@
       "_": "types.LangPackString",
       "key": "lng_channel_earn_off_about",
       "value": "Ako isključite oglase nećete ispunjavati uvjete za nagrađivanje preko kanala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_channel_earn_out_amount_too_small",
+      "value": "Iznos je premalen za isplatu."
     },
     {
       "_": "types.LangPackString",
@@ -8492,7 +8671,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_earn_transfer_sure_about2",
-      "value": "Ova radnja se ne može poništiti. Ako je gornja adresa pogrešna, izgubit ćete svoje Grame."
+      "value": "Ova radnja se ne može poništiti. Ako je gornja adresa pogrešna, izgubit ćete svoje grame."
     },
     {
       "_": "types.LangPackString",
@@ -9342,6 +9521,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "Odaberite audio datoteku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_choose_cover",
       "value": "Odaberite naslovnicu"
     },
@@ -9588,12 +9772,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting",
-      "value": "Link za potvrdu je poslan na {email}"
+      "value": "Link za potvrdu je poslan na {email}…"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting_code",
-      "value": "Kod je poslan na {email}"
+      "value": "Kod je poslan na {email}…"
     },
     {
       "_": "types.LangPackString",
@@ -10779,6 +10963,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_contact_link_invalid",
+      "value": "Ovaj link je nevažeći ili je istekao."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_contact_mobile_hidden",
       "value": "Broj je skriven"
     },
@@ -11111,6 +11300,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_copy_text_from_image",
+      "value": "—Tekst sa slike—"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_copy_topic_link",
       "value": "Kopiraj link teme"
     },
@@ -11278,6 +11472,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_all_sure_2",
       "value": "**Ova radnja se ne može poništiti.**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_mark_read_archive_sure",
+      "value": "Želite li označiti sve arhivirane razgovore kao pročitane?"
     },
     {
       "_": "types.LangPackString",
@@ -11723,6 +11922,21 @@
       "_": "types.LangPackString",
       "key": "lng_context_translate_selected",
       "value": "Prevedi označeni tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_done",
+      "value": "Korisniku je uklonjena zabrana pristupa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_sure",
+      "value": "Ukloniti zabranu pristupa korisniku {user} u ovoj grupi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_user",
+      "value": "Ukloni zabranu"
     },
     {
       "_": "types.LangPackString",
@@ -12224,7 +12438,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_box_history_entry_play_market",
-      "value": "Trgovina Play"
+      "value": "Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -12382,7 +12596,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_buy_button_short",
-      "value": "Kupi"
+      "value": "Dopuni"
     },
     {
       "_": "types.LangPackString",
@@ -12392,7 +12606,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_currency_summary_about",
-      "value": "Koristite Gram za kupnju poklona i predlaganje objava kanalima."
+      "value": "Koristite gram za kupnju poklona i predlaganje objava kanalima."
     },
     {
       "_": "types.LangPackString",
@@ -12407,7 +12621,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_currency_summary_subtitle",
-      "value": "Svoje Grame možete isplatiti preko Fragmenta."
+      "value": "Svoje grame možete isplatiti preko Fragmenta."
     },
     {
       "_": "types.LangPackString",
@@ -16551,13 +16765,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_deselect",
+      "value": "Poništi odabir"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_failed",
       "value": "Izrada arhive nije uspjela."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack",
+      "value": "Zapakiraj u ZIP arhivu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack_selected",
+      "value": "Zapakiraj odabrano u ZIP arhivu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_select",
+      "value": "Odaberi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_status",
       "value": "ZIP arhiva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_unpack",
+      "value": "Otpakiraj arhivu"
     },
     {
       "_": "types.LangPackString",
@@ -17308,7 +17547,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_buy_resale_only_ton",
-      "value": "Prodavatelj prihvaća samo Gram kao plaćanje."
+      "value": "Prodavatelj prihvaća samo grame kao sredstvo plaćanja."
     },
     {
       "_": "types.LangPackString",
@@ -17703,6 +17942,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_delete_sure_text",
+      "value": "Želite li izbrisati ovaj poklon?\n\nNestat će s vašeg profila i neće se moći vratiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_deleted",
+      "value": "Poklon je izbrisan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_display_done",
       "value": "Ovaj poklon je sada vidljiv na vašem profilu."
     },
@@ -17965,6 +18214,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_menu_delete",
+      "value": "Izbriši poklon"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_menu_hide",
       "value": "Sakrij"
     },
@@ -18011,7 +18265,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_offer_duration_about",
-      "value": "Odaberite koliko dugo {user} može prihvatiti vašu ponudu. Kada istekne, vaši Grami će biti automatski biti vraćeni."
+      "value": "Odaberite koliko dugo {user} može prihvatiti vašu ponudu. Kada istekne, vaši grami će biti automatski biti vraćeni."
     },
     {
       "_": "types.LangPackString",
@@ -18061,7 +18315,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_offer_ton_about",
-      "value": "Unesite iznos u Gramima koji želite ponuditi za {name}."
+      "value": "Unesite iznos u gramima koji želite ponuditi za {name}."
     },
     {
       "_": "types.LangPackString",
@@ -18254,7 +18508,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_resale_switch_to_ton",
-      "value": "Prebaci na Gram"
+      "value": "Prebaci na gram"
     },
     {
       "_": "types.LangPackString",
@@ -18302,10 +18556,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Dobit ćete **{count}** Grama.",
+      "few_value": "Dobit ćete **{count}** grama.",
       "key": "lng_gift_sell_amount_ton",
-      "one_value": "Dobit ćete **{count}* Gram.",
-      "other_value": "Dobit ćete **{count}** Grama."
+      "one_value": "Dobit ćete **{count}** gram.",
+      "other_value": "Dobit ćete **{count}** grama."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18316,20 +18570,20 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Minimalna cijena je {count} Grama.",
+      "few_value": "Minimalna cijena je {count} grama.",
       "key": "lng_gift_sell_min_price_ton",
-      "one_value": "Minimalna cijena je {count} Gram.",
-      "other_value": "Minimalna cijena je {count} Grama."
+      "one_value": "Minimalna cijena je {count} gram.",
+      "other_value": "Minimalna cijena je {count} grama."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_gift_sell_only_ton",
-      "value": "Prihvati samo Gram"
+      "value": "Prihvati samo grame"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_gift_sell_only_ton_about",
-      "value": "Ako kupac koristi Gram za plaćanje, nema rizika od povrata sredstava, za razliku od plaćanja zvjezdicama."
+      "value": "Ako kupac koristi grame za plaćanje, nema rizika od povrata sredstava, za razliku od plaćanja zvjezdicama."
     },
     {
       "_": "types.LangPackString",
@@ -18361,7 +18615,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_sell_title_ton",
-      "value": "Cijena u Gramima"
+      "value": "Cijena u gramima"
     },
     {
       "_": "types.LangPackString",
@@ -18612,6 +18866,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_stars_on_card",
+      "value": "na kartici"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_stars_on_sale",
       "value": "na prodaju"
     },
@@ -18706,10 +18965,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "{count} Grama",
+      "few_value": "{count} grama",
       "key": "lng_gift_ton_amount",
-      "one_value": "{count} Gram",
-      "other_value": "{count} Grama"
+      "one_value": "{count} gram",
+      "other_value": "{count} grama"
     },
     {
       "_": "types.LangPackString",
@@ -18803,6 +19062,76 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts",
+      "value": "Premjesti u moje poklone"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_appear",
+      "value": "Pojavit će se u"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_button",
+      "value": "Premjesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_done",
+      "value": "Poklon je premješten na vaš račun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_path_icons",
+      "value": "{profile} {arrow} {gifts}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_text",
+      "value": "Prenijeti ova primjerak s blockchaina na vaš Telegram račun?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet",
+      "value": "Premjesti u moj novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_appear",
+      "value": "Pojavit će se u"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_button",
+      "value": "Premjesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_done",
+      "value": "Poklon je premješten u vaš novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_keep_on_profile",
+      "value": "Nastavi prikazivati ​​na mom profilu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_path_icons",
+      "value": "{menu} {arrow} {money} {arrow_next} {collectibles}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_text",
+      "value": "Prenijeti ovaj poklon u svoj blockchain novčanik?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_view",
+      "value": "Pogledaj"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_transfer_unlist",
       "value": "Povuci"
     },
@@ -18816,7 +19145,7 @@
       "few_value": "otključava se za {count} dana",
       "key": "lng_gift_transfer_unlocks_days",
       "one_value": "otključava se za {count} dan",
-      "other_value": "otključava se za {count} dan"
+      "other_value": "otključava se za {count} dana"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20869,6 +21198,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_group_call_screen",
+      "value": "Zaslon"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_group_call_screen_share_audio",
       "value": "Podijeli zvuk sustava"
     },
@@ -22597,6 +22931,251 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_alt_text_select",
+      "value": "Odaberi tekst umjesto otvaranja linkova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_attach",
+      "value": "Priloži datoteku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_autoscroll",
+      "value": "Automatski listaj razgovor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_chat_switcher",
+      "value": "Brzo prebacivanje razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_click",
+      "value": "Klik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_drag",
+      "value": "Povlačenje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_edit_last",
+      "value": "Uredi posljednju poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_extend_selection",
+      "value": "Proširi odabir teksta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_folder_numbers",
+      "value": "Otvori mapu s brojem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_hold",
+      "value": "Drži"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_close",
+      "value": "Zatvori brzi pregled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_search",
+      "value": "Pretraži stranicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom",
+      "value": "Povećaj stranicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom_reset",
+      "value": "Poništi promjenu veličine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x",
+      "value": "2x ubrzano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_next",
+      "value": "Sljedeće poglavlje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_prev",
+      "value": "Prethodno poglavlje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_double",
+      "value": "Preko cijelog zaslona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_escape",
+      "value": "Zatvori preglednik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fit",
+      "value": "Prilagodi zaslonu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_flip",
+      "value": "Zrcali fotografiju vodoravno ili okomito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_frame",
+      "value": "Pomiči po sličicu kad je pauzirano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen",
+      "value": "Video preko cijelog zaslona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen_escape",
+      "value": "Izađi iz cijelog zaslona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_hold",
+      "value": "Ubrzaj reprodukciju, povuci za smanjenje brzine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_nav",
+      "value": "Prethodni ili sljedeći medij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_pause",
+      "value": "Pauziraj ili nastavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_percent",
+      "value": "Premotaj na 0-90% videozapisa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_play",
+      "value": "Pokreni ili pauziraj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_save",
+      "value": "Spremi medij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_seek",
+      "value": "Premotaj natrag ili naprijed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom",
+      "value": "Povećaj ili smanji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom_reset",
+      "value": "Poništi promjenu veličine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_new_window",
+      "value": "Otvori razgovor u novom prozoru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_open",
+      "value": "Prikaži ove prečace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_paste_plain",
+      "value": "Zalijepi kao običan tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_pinned_chats",
+      "value": "Otvori prikvačeni razgovor s brojem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_quick_preview",
+      "value": "Prikaži brzi pregled razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_next",
+      "value": "Odgovori na sljedeću poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_prev",
+      "value": "Odgovori na prethodnu poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_chats",
+      "value": "Popis razgovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_compose",
+      "value": "Pisanje poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_fullscreen",
+      "value": "Video preko cijelog zaslona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_general",
+      "value": "Općenito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_iv",
+      "value": "Brzi pregled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_media",
+      "value": "Preglednik medija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_messages",
+      "value": "Poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_title",
+      "value": "Prečaci i pokreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_wheel",
+      "value": "Kotačić"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_language_already",
       "value": "Već koristite ovaj jezik. Uvijek možete promijeniti svoj jezik u postavkama."
     },
@@ -23947,7 +24526,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_manage_peer_reactions_paid_about",
-      "value": "Uključite ako želite svojim pretplatnicima omogućiti reagiranje s Telegram zvjezdicama, koje ćete moći isplatiti kao Grame. {link}"
+      "value": "Uključite ako želite svojim pretplatnicima omogućiti reagiranje s Telegram zvjezdicama, koje ćete moći isplatiti kao grame. {link}"
     },
     {
       "_": "types.LangPackString",
@@ -25867,6 +26446,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "Sada možete besplatno slati poruke korisniku {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "Ovaj link za besplatne poruke je nevažeći ili je istekao."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "Isključi timer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "Trajno ostaje besplatno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "Uključi timer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer_about",
+      "value": "Istječe za 1 minutu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "Resetiraj kod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "Vrati naplaćivanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "Besplatno · Trajno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "Ukloni naknadu od {amount} {emoji}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "Besplatno · Istječe za {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "Kod je istekao, naplaćivanje vraćeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "Ovaj kod će isteći za {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "Ovaj kod će uskoro isteći."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "Kod ostaje trajno besplatan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "Napravljen je novi kod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "Naplaćivanje poruka je vraćeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "Ovaj link za besplatne poruke se ne može koristiti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_no_saved_sublists",
       "value": "Ovdje možete spremati poruke iz drugih razgovora."
     },
@@ -26142,6 +26811,11 @@
       "_": "types.LangPackString",
       "key": "lng_open_link",
       "value": "Otvori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_open_link_suspicious_chars",
+      "value": "Istaknuti znakovi su iz drugog alfabeta od ostatka adrese."
     },
     {
       "_": "types.LangPackString",
@@ -26545,8 +27219,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_date",
+      "value": "Izbjegavajte datume i godine."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_passcode_strength_advice_fine",
       "value": "Ovu lozinku je teško pogoditi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_keyboard",
+      "value": "Izbjegavajte uzorke tipkovnice."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_leet",
+      "value": "Zamjena slova sličnim simbolima ne pomaže."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_repeat",
+      "value": "Izbjegavajte znakove koji se ponavljaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_sequence",
+      "value": "Izbjegavajte nizove kao abc ili 123."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_short",
+      "value": "Koristite najmanje 8 znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_variety",
+      "value": "Produžite je i dodajte više vrsta znakova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_advice_word",
+      "value": "Izbjegavajte uobičajene riječi i imena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passcode_strength_empty",
+      "value": "Procjena jačine lozinke."
     },
     {
       "_": "types.LangPackString",
@@ -27840,7 +28559,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "Instalirajte WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0) pomoću vašeg upravitelja paketa."
+      "value": "Instalirajte WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0) pomoću vašeg upravitelja paketa."
     },
     {
       "_": "types.LangPackString",
@@ -27949,6 +28668,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "Ovaj link će uskoro isteći."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "Ovaj link nije dostupan. Otvorite QR kod i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_phone_desc",
       "value": "Potvrdite kod države i\nunesite svoj broj telefona."
     },
@@ -27984,8 +28713,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "Ukloni zvuk"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "Odaberite radijus kuteva naljpnice."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_corners_circle",
+      "value": "Krug"
     },
     {
       "_": "types.LangPackString",
@@ -28059,6 +28798,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "Dupli klik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_click",
+      "value": "klik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_wheel",
+      "value": "kotačić"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_click",
+      "value": "Srednji klik"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_delete",
       "value": "Izbriši odabrano"
     },
@@ -28066,6 +28830,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_text",
       "value": "Uredi tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes",
+      "value": "Oblici"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "Kotačić"
     },
     {
       "_": "types.LangPackString",
@@ -31434,8 +32208,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_colors",
+      "value": "Boje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_emoji",
+      "value": "Emojiji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "Veličina teksta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts",
+      "value": "Pokloni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "Pretraži poklone"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "Iskoristite svoj kolekcionarski poklon za izgled QR koda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "Nema poklona"
     },
     {
       "_": "types.LangPackString",
@@ -35621,7 +36425,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_currency",
-      "value": "Moj Gram"
+      "value": "Moji grami"
     },
     {
       "_": "types.LangPackString",
@@ -35731,7 +36535,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_downloading_update",
-      "value": "Preuzimanje ažuriranja {progress}..."
+      "value": "Preuzimanje ažuriranja {progress}…"
     },
     {
       "_": "types.LangPackString",
@@ -36169,8 +36973,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_app",
+      "value": "Zaključaj Telegram lozinkom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_lock_off_wallet",
+      "value": "Ova lozinka će biti potrebna samo za potvrdu transakcija, a ne za otvaranje vašeg novčanika."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_settings_passcode_title",
       "value": "Zaključavanje lozinkom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_settings_passcode_wallet_about",
+      "value": "Ova lozinka štiti ključeve novčanika koji su spremljeni na ovom uređaju."
     },
     {
       "_": "types.LangPackString",
@@ -37502,6 +38321,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_reset_sure",
+      "value": "Želite li vratiti sve tipkovničke prečace na zadane vrijednosti?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_rich_editor",
       "value": "Otvori uređivač članaka"
     },
@@ -37554,6 +38378,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "Pošalji utišano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "Odloži ili vrati poruku"
     },
     {
       "_": "types.LangPackString",
@@ -38307,6 +39136,16 @@
       "_": "types.LangPackString",
       "key": "lng_sr_from_me",
       "value": "Ja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_hide",
+      "value": "Sakrij sudionike"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_show",
+      "value": "Prikaži sudionike"
     },
     {
       "_": "types.LangPackString",
@@ -39156,6 +39995,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "Previše ili prevelike datoteke za odlaganje ove skice."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "Pritisnite {shortcut} da odložite ovu skicu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stats_admins_title",
       "value": "Najaktivniji admini"
     },
@@ -39401,6 +40250,31 @@
       "_": "types.LangPackString",
       "key": "lng_status_bot",
       "value": "bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_agent",
+      "value": "agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_ai",
+      "value": "ai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_app",
+      "value": "aplikacija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_game",
+      "value": "igra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_status_bot_gay",
+      "value": "gay"
     },
     {
       "_": "types.LangPackString",
@@ -40379,10 +41253,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Platit ćete **{count} Grama** za objavljivanje upravo sada.",
+      "few_value": "Platit ćete **{count} grama** za objavljivanje upravo sada.",
       "key": "lng_suggest_accept_pay_now_ton",
-      "one_value": "Platit ćete **{count} Gram** za objavljivanje upravo sada.",
-      "other_value": "Platit ćete **{count} Grama** za objavljivanje upravo sada."
+      "one_value": "Platit ćete **{count} gram** za objavljivanje upravo sada.",
+      "other_value": "Platit ćete **{count} grama** za objavljivanje upravo sada."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -40393,10 +41267,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Platit ćete **{count} Grama** za objavljivanje {date}.",
+      "few_value": "Platit ćete **{count} grama** za objavljivanje {date}.",
       "key": "lng_suggest_accept_pay_ton",
-      "one_value": "Platit ćete **{count} Gram** za objavljivanje {date}.",
-      "other_value": "Platit ćete **{count} Grama** za objavljivanje {date}."
+      "one_value": "Platit ćete **{count} gram** za objavljivanje {date}.",
+      "other_value": "Platit ćete **{count} grama** za objavljivanje {date}."
     },
     {
       "_": "types.LangPackString",
@@ -40412,10 +41286,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Kanal {channel} će dobiti **{count} Grama** ({percent}) za objavu upravo sada.",
+      "few_value": "Kanal {channel} će dobiti **{count} grama** ({percent}) za objavu upravo sada.",
       "key": "lng_suggest_accept_receive_now_ton",
-      "one_value": "Kanal {channel} će dobiti **{count} Gram** ({percent}) za objavu upravo sada.",
-      "other_value": "Kanal {channel} će dobiti **{count} Grama** ({percent}) za objavu upravo sada."
+      "one_value": "Kanal {channel} će dobiti **{count} gram** ({percent}) za objavu upravo sada.",
+      "other_value": "Kanal {channel} će dobiti **{count} grama** ({percent}) za objavu upravo sada."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -40426,10 +41300,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Kanal {channel} će dobiti **{count} Grama** ({percent}) za objavu {date}.",
+      "few_value": "Kanal {channel} će dobiti **{count} grama** ({percent}) za objavu {date}.",
       "key": "lng_suggest_accept_receive_ton",
-      "one_value": "Kanal {channel} će dobiti **{count} Gram** ({percent}) za objavu {date}.",
-      "other_value": "Kanal {channel} će dobiti **{count} Grama** ({percent}) za objavu {date}."
+      "one_value": "Kanal {channel} će dobiti **{count} gram** ({percent}) za objavu {date}.",
+      "other_value": "Kanal {channel} će dobiti **{count} grama** ({percent}) za objavu {date}."
     },
     {
       "_": "types.LangPackString",
@@ -40469,7 +41343,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_action_agree_receive_ton",
-      "value": "Kanal {channel} će dobiti Grame nakon što objava bude aktivna 24 sata."
+      "value": "Kanal {channel} će dobiti grame nakon što objava bude aktivna 24 sata."
     },
     {
       "_": "types.LangPackString",
@@ -40479,7 +41353,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_action_agree_removed_ton",
-      "value": " Ako kanal {channel} ukloni objavu prije nego što je bila aktivna 24 sata, vaši Grami će biti vraćeni."
+      "value": " Ako kanal {channel} ukloni objavu prije nego što je bila aktivna 24 sata, vaši grami će biti vraćeni."
     },
     {
       "_": "types.LangPackString",
@@ -40520,10 +41394,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Korisniku {from} su naplaćena **{count} Grama**.",
+      "few_value": "Korisniku {from} su naplaćena **{count} grama**.",
       "key": "lng_suggest_action_his_charged_ton",
-      "one_value": "Korisniku {from} je naplaćen **{count} Gram**.",
-      "other_value": "Korisniku {from} je naplaćeno **{count} Grama**."
+      "one_value": "Korisniku {from} je naplaćen **{count} gram**.",
+      "other_value": "Korisniku {from} je naplaćeno **{count} grama**."
     },
     {
       "_": "types.LangPackString",
@@ -40533,7 +41407,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_action_his_not_enough_ton",
-      "value": "**Transakcija nije uspjela** jer korisnik nije imao dovoljno Grama."
+      "value": "**Transakcija nije uspjela** jer korisnik nije imao dovoljno grama."
     },
     {
       "_": "types.LangPackString",
@@ -40569,10 +41443,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Naplaćena su vam **{count} Grama**.",
+      "few_value": "Naplaćena su vam **{count} grama**.",
       "key": "lng_suggest_action_your_charged_ton",
-      "one_value": "Naplaćen vam je **{count} Gram**.",
-      "other_value": "Naplaćeno vam je **{count} Grama**."
+      "one_value": "Naplaćen vam je **{count} gram**.",
+      "other_value": "Naplaćeno vam je **{count} grama**."
     },
     {
       "_": "types.LangPackString",
@@ -40582,7 +41456,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_action_your_not_enough_ton",
-      "value": "**Transakcija nije uspjela** jer niste imali dovoljno Grama."
+      "value": "**Transakcija nije uspjela** jer niste imali dovoljno grama."
     },
     {
       "_": "types.LangPackString",
@@ -40802,7 +41676,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_options_ton_price",
-      "value": "Cijena u Gramima"
+      "value": "Cijena u gramima"
     },
     {
       "_": "types.LangPackString",
@@ -40812,7 +41686,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_options_ton_request",
-      "value": "Zatraži Gram"
+      "value": "Zatraži gram"
     },
     {
       "_": "types.LangPackString",
@@ -40833,10 +41707,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Dobit ćete {count} Grama ({percent}) za objavljivanje ove poruke.",
+      "few_value": "Dobit ćete {count} grama ({percent}) za objavljivanje ove poruke.",
       "key": "lng_suggest_options_you_get_ton",
-      "one_value": "Dobit ćete {count} Gram ({percent}) za objavljivanje ove poruke.",
-      "other_value": "Dobit ćete {count} Grama ({percent}) za objavljivanje ove poruke."
+      "one_value": "Dobit ćete {count} gram ({percent}) za objavljivanje ove poruke.",
+      "other_value": "Dobit ćete {count} grama ({percent}) za objavljivanje ove poruke."
     },
     {
       "_": "types.LangPackString",
@@ -40852,10 +41726,10 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "{count} Grama",
+      "few_value": "{count} grama",
       "key": "lng_suggest_ton_amount",
-      "one_value": "{count} Gram",
-      "other_value": "{count} Grama"
+      "one_value": "{count} gram",
+      "other_value": "{count} grama"
     },
     {
       "_": "types.LangPackString",
@@ -40870,7 +41744,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_warn_text_ton",
-      "value": "Nećete dobiti **Grame** za ovu objavu ako je sada izbrišete. Objava mora ostati vidljiva najmanje **24 sata** nakon što je objavljena."
+      "value": "Nećete dobiti **grame** za ovu objavu ako je sada izbrišete. Objava mora ostati vidljiva najmanje **24 sata** nakon što je objavljena."
     },
     {
       "_": "types.LangPackString",
@@ -41013,6 +41887,32 @@
       "_": "types.LangPackString",
       "key": "lng_sure_logout",
       "value": "Želite li se odjaviti?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} ključa novčanika su pohranjena samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "key": "lng_sure_logout_wallet_local",
+      "one_value": "Ključ novčanik je pohranjen samo ovdje i Telegram nema njegovu sigurnosnu kopiju. Nastavak ga uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "other_value": "{count} ključeva novčanika je pohranjeno samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ovaj uređaj također sadrži {count} ključa drugih gram novčanika. Nastavak ih uništava, a ti novčanici se mogu vratiti samo pomoću tajnog niza riječi.",
+      "key": "lng_sure_logout_wallet_parked",
+      "one_value": "Ovaj uređaj također sadrži {count} ključ još jednog gram novčanika. Nastavak ih uništava, a ti novčanici se mogu vratiti samo pomoću tajnog niza riječi.",
+      "other_value": "Ovaj uređaj također sadrži {count} ključeva drugih gram novčanika. Nastavak ih uništava, a ti novčanici se mogu vratiti samo pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Promjena {count} ključa novčanika na ovom uređaju još nije potvrđena. Zamjenski ključevi su pohranjeni samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "key": "lng_sure_logout_wallet_rotating",
+      "one_value": "Promjena ključa novčanika na ovom uređaju još nije potvrđena. Njegov zamjenski ključ pohranjen je samo ovdje i Telegram nema njegovu sigurnosnu kopiju. Nastavak ga uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik.",
+      "other_value": "Promjena {count} ključeva novčanika na ovom uređaju još nije potvrđena. Zamjenski ključevi su pohranjeni samo ovdje i Telegram nema njihovu sigurnosnu kopiju. Nastavak ih uništava — ako promjena prođe, samo tajni niz riječi može vratiti novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sure_logout_wallet_unknown",
+      "value": "Ako ovaj uređaj sadrži ključeve gram novčanika, nastavak ih uništava. Mogu se vratiti samo iz sigurnosne kopije Telegrama ili vašeg tajnog niza riječi."
     },
     {
       "_": "types.LangPackString",
@@ -42249,6 +43149,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_about",
+      "value": "{bot} traži povezivanje vašeg novčanika s ovom stranicom. Stranica će vidjeti vašu TON adresu, stanje i aktivnost, ali ne može premještati sredstva bez vašeg dopuštenja. Povezivanjem se stvara digitalni potpis za prijavu, a ne prijenos sredstava."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_connect",
+      "value": "Poveži novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_label",
+      "value": "Novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key",
+      "value": "Ovaj uređaj ne sadrži trenutni ključ ovog novčanika.{link} da ga povežete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key_link",
+      "value": "Obnovi ključ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_reserved",
+      "value": "Ovoj stranici se ne može odobriti pristup novčaniku."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_user_action_choose_sticker",
       "value": "{user} traži naljepnicu"
     },
@@ -42760,8 +43690,100 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_text",
+      "value": "Sve transakcije su zabilježene i mogu se provjeriti u javnom zapisu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_chain_title",
+      "value": "Blockchain potvrda"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Prva {count} slanja dnevno su besplatna. Svako sljedeće košta gotovo ništa.",
+      "key": "lng_wallet_about_fees_text",
+      "one_value": "Prvih {count} slanja dnevno je besplatno. Svako sljedeće košta gotovo ništa.",
+      "other_value": "Prvih {count} slanja dnevno je besplatno. Svako sljedeće košta gotovo ništa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_fees_title",
+      "value": "Bez naknada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_text",
+      "value": "Pošaljite grame u bilo koji razgovor, jednostavno kao da šaljete sliku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_about_instant_title",
+      "value": "Vrlo brzi prijenosi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_add_funds",
       "value": "Dodaj sredstva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_about",
+      "value": "Aplikacije koje ste povezali s ovim novčanikom pomoću TON Connecta. Prekid veze s aplikacijom prekida njezinu vezu na svim vašim uređajima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_failed",
+      "value": "Nije moguće prekinuti vezu s aplikacijom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_sure",
+      "value": "Želite li prekinuti vezu sa {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_disconnect_title",
+      "value": "Prekidanje veze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_empty",
+      "value": "Nema povezanih aplikacija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_title",
+      "value": "Povezane aplikacije"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_apps_unknown",
+      "value": "Nepoznata aplikacija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_on",
+      "value": "Sigurnosna kopija vašeg šifriranog ključa bit će podijeljena u tri dijela i pohranjena na tri kontinenta.\n\nMože se ponovno sastaviti samo na vašim uređajima, tako da nitko — čak ni Telegram — ne može pristupiti vašem ključu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_about_unavailable",
+      "value": "Šifrirana sigurnosna kopija nije dostupna za novčanike uvezene pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_text",
+      "value": "Vaš tajni niz riječi neće biti ažuriran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_cancel_title",
+      "value": "Zadržati kopiju?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable",
+      "value": "Onemogući sigurnosnu kopiju"
     },
     {
       "_": "types.LangPackString",
@@ -42770,8 +43792,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disable_title",
+      "value": "Onemogućiti kopiju?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_text",
+      "value": "Vaš tajni niz riječi sada je jedini način da vratite svoj novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_disabled_title",
+      "value": "Sigurnosna kopija je onemogućena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enable",
+      "value": "Omogući sigurnosnu kopiju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_text",
+      "value": "Vaši ključevi sada su pohranjeni šifrirani u Telegramovim podatkovnim centrima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_enabled_title",
+      "value": "Sigurnosna kopija je omogućena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_error",
+      "value": "Nije moguće promijeniti postavke sigurnosne kopije."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_backup_new_phrase_text",
       "value": "Generiran je novi tajni niz riječi za vaš novčanik. Zapišite ga i čuvajte u tajnosti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_new_phrase_title",
+      "value": "Novi tajni niz riječi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_text",
+      "value": "{reason} Vaša tajni niz nije promijenjen — nastavite koristiti svoj trenutni niz. Nove riječi koje ste zapisali nisu u upotrebi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_failed_title",
+      "value": "Radnja nije uspjela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_rotate_reason_failed",
+      "value": "Ažuriranje nije bilo moguće dovršiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_section",
+      "value": "Šifrirana sigurnosna kopija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_text",
+      "value": "Niste imali dovoljno vremena da zapišete ove riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_sure_title",
+      "value": "Jeste li sigurni?"
     },
     {
       "_": "types.LangPackString",
@@ -42780,8 +43872,110 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_backup_test_title",
+      "value": "Vrijeme je za provjeru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_text",
+      "value": "Potrebno je {amount} GRAM ({fiat}) da ažurirate svoj tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_topup_title",
+      "value": "Nemate dovoljno grama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_check",
+      "value": "Ažuriraj tajni niz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_fee",
+      "value": "Mrežna naknada: {amount} GRAM ({fiat})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_backup_update_text",
+      "value": "Dobit ćete novi tajni niz riječi koje trebate zapisati. Adresa i vaša sredstva ostaju isti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
       "value": "Kupi novcem ili kriptom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_buy_empty",
+      "value": "Nema dostupnih opcija plaćanja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_add",
+      "value": "Dodaj na karticu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_apply_color",
+      "value": "Postavi boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_last",
+      "value": "{all} i {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_one",
+      "value": "{all}, {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_not_allowed",
+      "value": "Ovaj poklon se ne može postaviti kao pozadina kartice."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_only",
+      "value": "Samo pokloni iz kolekcije {collections} se mogu koristiti za promjenu boje vaše kartice."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_drag_hint",
+      "value": "Povucite kolekcionarski primjerak na karticu da je ukrasite."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Možete staviti {count} poklona na svoju karticu.",
+      "key": "lng_wallet_card_limit",
+      "one_value": "Možete staviti {count} poklon na svoju karticu.",
+      "other_value": "Možete staviti {count} poklona na svoju karticu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_not_ready",
+      "value": "Vaša kartica nije spremna za uređivanje. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove",
+      "value": "Ukloni s kartice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove_color",
+      "value": "Ukloni boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_save_error",
+      "value": "Spremanje kartice nije uspjelo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_saved_profile",
+      "value": "Ovaj poklon je vidljiv na vašem profilu. Uklonite ga s profila da biste ga stavili na svoju karticu."
     },
     {
       "_": "types.LangPackString",
@@ -42791,7 +43985,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
-      "value": "Anonimni broj"
+      "value": "Kolekcionarski broj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_chip_username",
+      "value": "Kolekcionarsko korisničko ime"
     },
     {
       "_": "types.LangPackString",
@@ -42800,8 +43999,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_nft_about",
+      "value": "Kolekcionarski primjerak pohranjen na blockchain The Open Network (TON)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_not_owned",
       "value": "Ovaj kolekcionarski primjerak više nije u vašem novčaniku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_number_about",
+      "value": "Kolekcionarski broj {number} se može koristiti za kreiranje Telegram računa koji nije vezan uz SIM karticu."
     },
     {
       "_": "types.LangPackString",
@@ -42810,8 +44019,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_show_in_gifts",
+      "value": "prikaži i u mojim poklonima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_username_about",
+      "value": "Korisničko ime {username} na Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_add",
+      "value": "Dodaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_decryption_failed",
+      "value": "Komentar se nije mogao dešifrirati."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_encryption_failed",
+      "value": "Ovaj komentar nije bilo moguće šifrirati. Pokušajte ponovno, učinite ga javnim, uredite ga ili uklonite."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_key_mismatch",
+      "value": "Ovaj komentar je šifriran za drugi ključ novčanika i ne može se dešifrirati na ovom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_make_public",
       "value": "Neka komentar bude javan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_comment_public",
+      "value": "Javni komentari zapisuju se u blockchain i trajno su vidljivi svima. Nikada nemojte stavljati ​​privatne podatke."
     },
     {
       "_": "types.LangPackString",
@@ -42820,23 +44064,422 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_comment_too_long",
+      "value": "Ovaj komentar je predug."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_bar",
+      "value": "Na ovom uređaju imate i stari novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_existing",
+      "value": "Također imate {amount} u starim novčanicima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch",
+      "value": "Prebaci sada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_switch_error",
+      "value": "Nije moguće ukloniti stari novčanik s ovog uređaja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_conflict_text",
+      "value": "Novčanik koji ste prije koristili na ovom uređaju. Spremite tajni niz riječi prije prebacivanja na svoj Telegram novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_button",
+      "value": "Poveži"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_expired",
+      "value": "Ovaj zahtjev za povezivanje više nije valjan. Ponovno pokrenite povezivanje iz aplikacije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_failed",
+      "value": "Povezivanje novčanika nije uspelo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_invalid",
+      "value": "Podaci o ovoj aplikaciji nisu valjani ili pripadaju drugoj domeni, pa novčanik nije povezan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_manifest_missing",
+      "value": "Nije moguće učitati pojedinosti ove aplikacije, pa novčanik nije bio povezan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_permission",
+      "value": "Aplikacija će moći vidjeti vašu TON adresu, stanje i aktivnost."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_proof",
+      "value": "Aplikacija također traži da potvrdite da je ovaj novčanik vaš. Ovo je potpis za prijavu, a ne prijenos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_reassurance",
+      "value": "Aplikacija neće moći premještati sredstva bez dopuštenja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_actions",
+      "value": "Radnje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_call_contract",
+      "value": "Izvršavanje ugovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_closed",
+      "value": "Ova aplikacija više nije povezana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_confirm",
+      "value": "Potvrdi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_decline",
+      "value": "Odbij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy",
+      "value": "Postavlja pametni ugovor na ovu adresu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_deploy_contract",
+      "value": "Objavljivanje ugovora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_excess",
+      "value": "Višak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_expired",
+      "value": "Zahtjev za transakciju aplikacije je istekao."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_failed",
+      "value": "Odgovaranje na zahtjev nije uspjelo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_failed",
+      "value": "Nije moguće procijeniti mrežnu naknadu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_fee_loading",
+      "value": "Procjena mrežne naknade…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_handled",
+      "value": "Ovaj zahtjev je obrađen na drugom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_locked",
+      "value": "Otključajte svoj novčanik da vidite ovaj zahtjev."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_message",
+      "value": "Poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_messages",
+      "value": "Poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_not_sent",
+      "value": "Transakcija nije poslana. Aplikacija je obavještena da nije uspjela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_other_key",
+      "value": "Ova aplikacija je bila povezana s drugim ključem ovog novčanika, tako da ovaj uređaj ne može odgovoriti na njezine zahtjeve niti prekinuti vezu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_payload",
+      "value": "Payload"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_preview",
+      "value": "Pregled"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} primatelja",
+      "key": "lng_wallet_connect_request_recipients",
+      "one_value": "{count} primatelj",
+      "other_value": "{count} primatelja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_recipients_title",
+      "value": "Primatelji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_sent",
+      "value": "Transakcija je poslana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title",
+      "value": "Zahtjev aplikacije"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_title_app",
+      "value": "{name} zahtjeva prijenos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_total",
+      "value": "Ukupni iznos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_failed",
+      "value": "Pregled pokazuje da dio ove transakcije možda neće uspjeti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_trace_incomplete",
+      "value": "Pregled ove transakcije nije potpun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_transfer",
+      "value": "Prenesi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unavailable",
+      "value": "Ovaj zahtjev više nije dostupan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_undelivered",
+      "value": "Isporuka odgovora aplikaciji nije uspela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unhandled_about",
+      "value": "Možete ga odbiti ili odgovoriti na drugom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unknown_operation",
+      "value": "Nepoznata operacija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unlock",
+      "value": "Otključaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_request_unsupported",
+      "value": "Ovaj zahtjev nije podržan na ovom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_restore",
+      "value": "Ovaj uređaj ne sadrži trenutni ključ ovog novčanika. Oporavite ga da biste koristili povezane aplikacije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_binary",
+      "value": "Binarni sadržaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_blind",
+      "value": "Potpisujete naslijepo. Potpisujte samo podatke iz pouzdanih izvora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_button",
+      "value": "Potpiši"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_data",
+      "value": "Podaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_done",
+      "value": "Podaci su potpisani."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_text_about",
+      "value": "Pažljivo pregledajte poruku, i ako se slažete, potpišite podatke."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_sign_title",
+      "value": "Potpiši podatke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title",
+      "value": "Poveži novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_connect_title_app",
+      "value": "Povežite Novac sa {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_create_error",
+      "value": "Nije moguće izraditi novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_text",
+      "value": "Vaš novi novčanik je spreman za korištenje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_created_title",
+      "value": "Novčanik je kreiran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_none",
+      "value": "Nema pronađenih valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_currency_title",
+      "value": "Odaberite valutu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_delete_text",
       "value": "Izgubit ćete pristup svojim sredstvima osim ako niste spremili svoj tajni niz riječi."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_delete_title",
+      "value": "Izbrisati novčanik?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_address",
+      "value": "Adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_date",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_failed_reason",
+      "value": "Nije uspjelo ({reason})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee",
+      "value": "Naknada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_fee_free",
-      "value": "Besplatno (Telegram je pokrio)"
+      "value": "Besplatno (plaća Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_fee_unknown",
+      "value": "Pretraga nije uspjela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_from_profile",
+      "value": "Premješteno s profila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_to_profile",
+      "value": "Premješteno na profil"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
-      "value": "Otvori moj novčanik"
+      "value": "Otvori moj Novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_operation",
+      "value": "Radnja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_recipient",
+      "value": "Primatelj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_sender",
+      "value": "Pošiljatelj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_status",
+      "value": "Status"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_title",
+      "value": "Prijenos"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_earnings_existing",
       "value": "Također imate {amount} u Gram zaradi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_error_with_type",
+      "value": "{message} (greška: {error})"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\n\nTelegram pokriva vaša prva {count} prijenosa svakog dana.",
+      "key": "lng_wallet_fees_text",
+      "one_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\n\nTelegram pokriva vaših prvih {count} prijenosa svakog dana.",
+      "other_value": "Za svaki prijenos naplaćuje se mala mrežna naknada.\n\nTelegram pokriva vaših prvih {count} prijenosa svakog dana."
     },
     {
       "_": "types.LangPackString",
@@ -42846,12 +44489,102 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_first_rate",
-      "value": "1 Gram trenutno vrijedi {amount}.\nMožete ih:"
+      "value": "1 gram trenutno vrijedi {amount}.\nMožete ih:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_rate_none",
+      "value": "Pomoću grama možete:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_text",
+      "value": "Pošaljite grame bilo kome.\nKliknite {attach} → {money} u razgovorima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_send_title",
+      "value": "Poslati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_text",
+      "value": "Pohranite svoje grame u Telegramu\n({menu} → {wallet}) ili u drugim novčanicima."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_store_title",
+      "value": "Pohraniti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_title",
+      "value": "Vaši prvi grami!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_text",
+      "value": "Pretvorite grame u gotovinu ili kriptovalute na mjenjačnicama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_first_trade_title",
+      "value": "Prodati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_history_searching",
+      "value": "Traženje transakcija"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_how_menu",
       "value": "Što je Novac?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_subtitle",
+      "value": "Samo vi kontrolirate svoja sredstva i\nnitko drugi im ne može pristupiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_how_title",
+      "value": "Kako radi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_button",
+      "value": "Uvezi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_failed",
+      "value": "Nije moguće uvesti novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_scheme",
+      "value": "Ovdje se može uvesti samo tajni niz stvoren u Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_spelling",
+      "value": "Provjerite redoslijed riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_invalid_title",
+      "value": "Nevažeći tajni niz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_key_changing",
+      "value": "Vaš ključ novčanika se mijenja. Pokušajte ponovno kada se potvrdi promjena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_not_verified",
+      "value": "Telegram nije mogao potvrditi vlasništvo nad ovim novčanikom. Čuvajte svoju tajni niz i kontaktirajte podršku."
     },
     {
       "_": "types.LangPackString",
@@ -42861,12 +44594,59 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_import_text",
-      "value": "Unesite tajni niz riječi od vašeg drugog novčanika koji posjedujete."
+      "value": "Unesite tajni niz riječi od\nnovčanika koji posjedujete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_import_title",
+      "value": "Uvoz novčanika"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} riječi",
+      "key": "lng_wallet_import_words",
+      "one_value": "{count} riječ",
+      "other_value": "{count} riječi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_not_stored",
+      "value": "Vaš novčanik je zamijenjen, ali se njegov ključ nije mogao spremiti na ovaj uređaj. Ako ga ne možete poslati odavde, oporavite ga pomoću tajnog niza riječi."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_imported_text",
       "value": "Vaš novčanik je obnovljen pomoću tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_imported_title",
+      "value": "Novčanik je uvezen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_intro_text",
+      "value": "Gram — Digitalna valuta za Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_key_save_error",
+      "value": "Nije moguće spremiti ključ novčanika na ovaj uređaj."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_delete",
+      "value": "Izbriši novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_phrase_about",
+      "value": "Svoj novčanik možete prenijeti na drugi uređaj unosom svojeg tajnog niza riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_keys_restore",
+      "value": "Oporavi pomoću tajnog niza"
     },
     {
       "_": "types.LangPackString",
@@ -42890,8 +44670,75 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot",
+      "value": "Zaboravili ste lozinku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_about",
+      "value": "Bez lozinke ovaj uređaj ne može otvoriti pohranjene ključeve novčanika. Možete ukloniti sve ključeve novčanika na ovom uređaju i lozinku i nastaviti koristiti Telegram — nećete biti odjavljeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_backed",
+      "value": "Vaš novčanik se može vratiti iz sigurnosne kopije Telegrama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_confirm",
+      "value": "Ukloni ključeve"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_done",
+      "value": "Ključevi novčanika i lozinka su uklonjeni s ovog uređaja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_forgot_failed",
+      "value": "Ključevi novčanika se nisu mogli ukloniti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_passcode_remember",
+      "value": "Ne traži lozinku 15 min"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_check_wait",
+      "value": "Moći ćete dovršiti ovu radnju za {duration}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_error",
+      "value": "Nije moguće prikazati tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_phrase_intro_text",
       "value": "Vaš tajni niz je ključ sigurnosne kopije vašeg novčanika. Držite ga tajnim i sigurnim u svakom trenutku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_intro_title",
+      "value": "Tajni niz riječi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_password_description",
+      "value": "Unesite svoju lozinku da biste vidjeli svoj tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zapišite ove {count} riječi i pohranite ih na sigurnom i tajnom mjestu.",
+      "key": "lng_wallet_phrase_text",
+      "one_value": "Zapišite ovu {count} riječ i pohranite ih na sigurnom i tajnom mjestu.",
+      "other_value": "Zapišite ovih {count} riječi i pohranite ih na sigurnom i tajnom mjestu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_title",
+      "value": "Vaš tajni niz riječi"
     },
     {
       "_": "types.LangPackString",
@@ -42905,8 +44752,285 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_phrase_warn_support",
+      "value": "Telegram podrška **vas nikada neće pitati** za vaš tajni niz riječi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "Stanje:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_none",
+      "value": "{name} trenutno nema\nnijedan gram."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{name} posjeduje {amount} grama\nna TON blockchainu.",
+      "key": "lng_wallet_profile_balance_owns",
+      "one_value": "{name} posjeduje {amount} gram\nna TON blockchainu.",
+      "other_value": "{name} posjeduje {amount} grama\nna TON blockchainu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_public",
+      "value": "Stanje vaših sredstava je javno zbog transparentnosti blockchaina."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_how_works",
+      "value": "Kako radi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_send_money",
+      "value": "Pošalji novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protect_account",
+      "value": "Zaštitite svoj račun"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_about",
+      "value": "Odaberite kako su vaša sredstva zaštićena na ovom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_create_about",
+      "value": "Ova lozinka štiti vaš ključ novčanika na ovom uređaju. Ne zaključava Telegram dok to ne uključite u postavkama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_error",
+      "value": "Zaštita ključa novčanika nije se mogla promijeniti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_absent",
+      "value": "Vaš ključ novčanika na ovom uređaju zaštitio je {provider}, ali se taj ključ više ne može koristiti na ovom uređaju. Vratite novčanik iz Telegramove šifrirane sigurnosne kopije ili pomoću svojeg tajnog niza da ponovno pohranite ključ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_failed",
+      "value": "{provider} nije potvrdio da ste to bili vi. Ništa nije promijenjeno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hardware_unavailable",
+      "value": "Vaš ključ novčanika na ovom uređaju zaštitio je {provider}, koji se trenutno ne može koristiti. Ponovo pokrenite Telegram da biste pokušali ponovno ili vratite novčanik iz Telegramove šifrirane sigurnosne kopije ili pomoću vašeg tajnog niza riječi da biste ga zaštitili na drugi način."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_about",
+      "value": "Potvrdite sva plaćanja koristeći Windows PIN."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_hello_label",
+      "value": "Windows Hello"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open",
+      "value": "Ne traži lozinku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_about",
+      "value": "Svatko s pristupom vašem Telegramu može potrošiti vaša sredstva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_confirm",
+      "value": "Svejedno pohrani"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_title",
+      "value": "Pohraniti bez lozinke?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_lock",
+      "value": "Svatko tko dobije pristup otključanom Telegramu na ovom računalu moći će ukrasti sredstva vašeg novčanika.\n\nTo možete promijeniti kasnije u zaključavanju lozinkom u izborniku novčanika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_open_warning_nolock",
+      "value": "Svatko tko dobije pristup ovom računalu moći će ukrasti sredstva iz vašeg novčanika.\n\nTo možete promijeniti kasnije u zaključavanju lozinkom u izborniku novčanika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode",
+      "value": "Zatraži lokalnu lozinku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_about",
+      "value": "Potvrdite sva plaćanja koristeći Telegram lozinku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_change",
+      "value": "Promijeni lozinku {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_changed_error",
+      "value": "Lozinka je promijenjena, ali zaštita novčanika se nije mogla ažurirati. Vratite svoje ključeve novčanika iz sigurnosne kopije ili pomoću tajnog niza."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_passcode_keep",
+      "value": "Nastavi tražiti ovu lozinku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_about",
+      "value": "Odaberite kako će vaša sredstva ostati zaštićena nakon što se lozinka ukloni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_removal_wallets",
+      "value": "Ovo se odnosi na novčanike korisnika {accounts}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained",
+      "value": "Telegram neće ponovno tražiti {provider} 15 minuta. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_retained_ask",
+      "value": "Pitaj sljedeći put"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_title",
+      "value": "Zaključavanje lozinkom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_about",
+      "value": "Potvrdite sva plaćanja svojim otiskom prsta ili Mac lozinkom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_label",
+      "value": "Otisak prsta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_protection_touchid_reason",
+      "value": "otključavanje ključa novčanika"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_provisioning",
+      "value": "Postavljanje vašeg novčanika…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_readonly_bar",
+      "value": "Ovaj uređaj može vidjeti ovaj novčanik, ali ne može slati s njega."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_receive_about",
       "value": "Podijelite svoju adresu ili ovaj QR kod da biste primili GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_caveat",
+      "value": "Za slanje s ovog uređaja potreban je vaš tajni niz riječi ili uređaj na koji je ovaj novčanik uvezen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_receive_copy_hint",
+      "value": "Kliknite za kopiranje adrese"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_create",
+      "value": "Napravi novi novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_import",
+      "value": "Uvezi postojeći novčanik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_replace_title",
+      "value": "Kako želite zamijeniti stari novčanik?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_error",
+      "value": "Nije moguće vratiti pristup ovom novčaniku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_explain_text",
+      "value": "Unesite svoju lozinku za provjeru u dva koraka kako biste vratili ključ ovog novčanika iz svoje šifrirane sigurnosne kopije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_not_saved",
+      "value": "Tajni niz riječi nije spremljen na ovom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_other_text",
+      "value": "Riječi koje ste unijeli ne odgovaraju novčaniku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_outdated_text",
+      "value": "Ove riječi su stari tajni niz za ovaj novčanik.\n\nUnesite novi niz riječi koju ste dobili kada ste zadnji put onemogućili sigurnosnu kopiju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_text",
+      "value": "Unesite tajni niz riječi ovog novčanika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_title",
+      "value": "Oporavak novčanika"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_ton_connect_text",
+      "value": "Unesite tajni niz ovog novčanika za korištenje povezanih aplikacija s ovog uređaja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restore_wrong_title",
+      "value": "Pogrešni tajni niz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_restoring_key",
+      "value": "Vraćanje vašeg ključa novčanika iz šifrirane sigurnosne kopije..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_in",
+      "value": "Dolazni primjerak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_collectible_out",
+      "value": "Odlazni primjerak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_deposit",
+      "value": "Polog"
     },
     {
       "_": "types.LangPackString",
@@ -42914,9 +45038,91 @@
       "value": "Dolazni prijenos"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} primjerka",
+      "key": "lng_wallet_row_items",
+      "one_value": "{count} primjerak",
+      "other_value": "{count} primjeraka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_key_change",
+      "value": "Ažuriranje ključa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_from_profile",
+      "value": "premješten sa profila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_to_profile",
+      "value": "premješten na profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_outgoing",
+      "value": "Odlazni prijenos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_sending",
+      "value": "Slanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_telegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_topup",
+      "value": "Dopuna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_withdrawal",
+      "value": "Isplata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_collectibles",
+      "value": "Kolekcije"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_wallet_rows_hidden_below",
-      "value": "Transakcije manje od {amount} su skrivene."
+      "value": "Transakcije manje od {amount} grama su skrivene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_rows_title",
+      "value": "Transakcije"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_amount",
+      "value": "Pošalji {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_balance",
+      "value": "Stanje: {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_comment_optional",
+      "value": "Neobavezni komentar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_failed",
+      "value": "Prijenos nije mogao biti dovršen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_in_progress",
+      "value": "Još jedan prijenos je u tijeku. Pričekajte da se završi."
     },
     {
       "_": "types.LangPackString",
@@ -42925,18 +45131,133 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_quote_expired",
+      "value": "Podaci o prijenosu su promijenjeni ili ih nije bilo moguće pripremiti. Pregledajte pojedinosti i pokušajte ponovo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_error_too_small",
+      "value": "Minimalni iznos: {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_gram_wallet",
       "value": "Gram novčanik"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_invalid_address",
+      "value": "Nevažeća adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_text",
+      "value": "Ključ ovog novčanika promijenjen je u drugoj aplikaciji, tako da ključ na ovom uređaju više ne radi.\n\nVratite novčanik s trenutnim tajnim nizom riječi da biste ga ponovno koristili na ovom uređaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_key_changed_title",
+      "value": "Ključ novčanika je promijenjen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_expired",
+      "value": "Ovaj link za plaćanje je istekao."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_link_invalid",
+      "value": "Ovaj link nije važeći."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_name_not_found",
+      "value": "Nijedan novčanik nije povezan s ovim imenom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_network_fee",
+      "value": "Mrežna naknada: {amount} GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_recipient_loading",
+      "value": "Traženje novčanika primatelja..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_title",
-      "value": "Pošalji Grame"
+      "value": "Pošalji grame"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_load_error",
+      "value": "Novčanik primatelja se nije mogao učitati."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_title",
+      "value": "Pošalji prema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_unavailable",
+      "value": "Ovaj korisnik ne može primati grame."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_user_wallet_about",
       "value": "Ova TON Blockchain adresa je povezana sa {name} na Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_user_wallet_title",
+      "value": "Novčanik od {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_wallet_loading",
+      "value": "Učitavanje vašeg novčanika..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_sent_toast",
+      "value": "🎉 Grami su poslani na {address}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_state_error",
+      "value": "Učitavanje vašeg novčanika nije uspjelo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_unavailable",
+      "value": "Novac nije dostupan za ovaj račun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_locked",
+      "value": "Ključ novčanika na ovom uređaju je zaključan. Otključajte ga i pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_about",
+      "value": "Ključ novčanika trenutno pohranjen na ovom uređaju više se ne može otvoriti ovdje. Nastavkom se briše s ovog uređaja, zajedno sa svim drugim ključevima novčanika pohranjenim s njim, i pohranjuje ključ ovog novčanika na njegovo mjesto. Ova radnja se ne može poništiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_reset_title",
+      "value": "Izbrisati pohranjeni ključ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_vault_unavailable",
+      "value": "Ključ novčanika pohranjen na ovom uređaju ne može se pročitati."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_walt_existing",
+      "value": "Imate sredstava i u Walt novčaniku"
     },
     {
       "_": "types.LangPackString",
@@ -43079,5 +45400,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 5925099
+  "version": 6008316
 }

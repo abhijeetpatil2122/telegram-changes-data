@@ -20,6 +20,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutRevenueSharingAds",
+      "value": "Over deze advertenties"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccActionDownload",
       "value": "Download"
     },
@@ -30,13 +35,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrChannel",
-      "value": "Kanaal"
+      "key": "AccDescrCloseTrendingStickers",
+      "value": "Populaire stickers sluiten"
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrCloseTrendingStickers",
-      "value": "Populaire stickers sluiten"
+      "key": "AccDescrCollapsePanel",
+      "value": "Paneel inklappen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrExpandPanel",
+      "value": "Paneel uitklappen"
     },
     {
       "_": "types.LangPackString",
@@ -45,8 +55,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrGroup",
-      "value": "Groep"
+      "key": "AccDescrLike",
+      "value": "Vind ik leuk"
     },
     {
       "_": "types.LangPackString",
@@ -90,6 +100,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescrTopic",
+      "value": "Onderwerp"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrVideoMessage",
       "value": "Videobericht opnemen"
     },
@@ -110,18 +125,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccPinnedMessages",
-      "value": "Vastgezette berichten"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AccSwitchToFullscreen",
       "value": "Volledig scherm weergeven"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AccUnpinMessage",
-      "value": "Bericht losmaken"
     },
     {
       "_": "types.LangPackString",
@@ -152,11 +157,6 @@
       "_": "types.LangPackString",
       "key": "ActionAddYou",
       "value": "{from} heeft je toegevoegd aan dit kanaal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionAddYouGroup",
-      "value": "{from} heeft je toegevoegd aan deze groep"
     },
     {
       "_": "types.LangPackString",
@@ -242,11 +242,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionCostCrypto",
-      "value": "{price} ({cryptoPrice})"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionCreatedChannel",
       "value": "Kanaal geopend"
     },
@@ -315,12 +310,6 @@
       "other_value": "Je hebt {count} punten behaald in {game}"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodePremiumText",
-      "one_value": "Je hebt een cadeau van {channel} ontvangen.\n\nJe cadeau is een **Telegram Premium**-abonnement van {months} maand.",
-      "other_value": "Je hebt een cadeau van {channel} ontvangen.\n\nJe cadeau is een **Telegram Premium**-abonnement van {months} maanden."
-    },
-    {
       "_": "types.LangPackString",
       "key": "ActionGiftCodeSubscriptionDuration",
       "value": "Je hebt een cadeau ontvangen van {peer}.\n\nJe cadeau is een Telegram Premium-abonnement van {duration}."
@@ -329,18 +318,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftCodeSubscriptionDurationYou",
       "value": "Je hebt {peer} een cadeaucode gestuurd voor {duration} Telegram Premium."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodeSubscriptionText",
-      "one_value": "Je hebt een cadeau ontvangen van {peer}.\n\nJe cadeau is een Telegram Premium-abonnement van {months} maand.",
-      "other_value": "Je hebt een cadeau ontvangen van {peer}.\n\nJe cadeau is een Telegram Premium-abonnement van {months} maanden."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodeSubscriptionTextYou",
-      "one_value": "Je hebt een cadeau gestuurd naar {peer}.\n\nHet gaat om een Telegram Premium-cadeaucode voor {months} maand.",
-      "other_value": "Je hebt een cadeau gestuurd naar {peer}.\n\nHet gaat om een Telegram Premium-cadeaucode voor {months} maanden."
     },
     {
       "_": "types.LangPackString",
@@ -356,12 +333,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumText",
       "value": "Abonnement voor exclusieve Telegram-functies."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftPremiumTitle",
-      "one_value": "{months} maand premium",
-      "other_value": "{months} maanden premium"
     },
     {
       "_": "types.LangPackString",
@@ -413,12 +384,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiveawayResultPremiumDuration",
       "value": "Je hebt een prijs gewonnen in een winactie van {channel}.\n\nJe prijs is een **Telegram Premium**-abonnement van **{duration}**."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiveawayResultPremiumText",
-      "one_value": "Je hebt een prijs gewonnen in een winactie van {channel}.\n\nJe prijs is een **Telegram Premium**-abonnement van **{months}** maand.",
-      "other_value": "Je hebt een prijs gewonnen in een winactie van {channel}.\n\nJe prijs is een **Telegram Premium**-abonnement van **{months}** maanden."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -477,6 +442,21 @@
       "_": "types.LangPackString",
       "key": "ActionGiveawayStartedGroup",
       "value": "{from} is zojuist een winactie gestart, waarbij leden een Telegram Premium-abonnement kunnen winnen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "Je hebt {from} {amount} gestuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferReceived",
+      "value": "Ontvangen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "Verstuurd"
     },
     {
       "_": "types.LangPackString",
@@ -815,11 +795,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionStarGiftChannelDisplaying",
-      "value": "Dit cadeau is zichtbaar voor bezoekers van je kanaal."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionStarGiftChannelText",
       "value": "Plaats dit cadeau op het profiel van je kanaal of zet het om in {amount}."
     },
@@ -852,11 +827,6 @@
       "_": "types.LangPackString",
       "key": "ActionStarGiftCraftedSelf",
       "value": "Je hebt een nieuw cadeau gecraft!"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionStarGiftDisplaying",
-      "value": "Je hebt dit cadeau op je profiel geplaatst."
     },
     {
       "_": "types.LangPackString",
@@ -1290,16 +1260,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionUnsupportedDescription",
-      "value": "Gebruik één van onze apps om deze handeling uit te voeren."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionUnsupportedTitle",
-      "value": "Actie nog niet mogelijk"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionUserJoined",
       "value": "{from} is lid geworden van de groep"
     },
@@ -1370,6 +1330,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdHidden",
+      "value": "Je ziet geen advertenties meer van Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Toevoegen"
     },
@@ -1385,6 +1350,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AddEffectMessageHint",
+      "value": "Animatie-effect toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AddPhoto",
       "value": "Profielfoto instellen"
     },
@@ -1392,6 +1362,11 @@
       "_": "types.LangPackString",
       "key": "AddToFavorites",
       "value": "Favoriet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditorGeneratePlaceholder",
+      "value": "Genereer tekst, formules of tabellen..."
     },
     {
       "_": "types.LangPackString",
@@ -1445,11 +1420,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AiMessageEditorSelectStyle",
-      "value": "Kies een stijl"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AiMessageEditorStyle",
       "value": "Stijl"
     },
@@ -1462,11 +1432,6 @@
       "_": "types.LangPackString",
       "key": "AiMessageEditorTranslate",
       "value": "Vertalen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AiMessageEditorTranslation",
-      "value": "Vertaling"
     },
     {
       "_": "types.LangPackString",
@@ -1616,8 +1581,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AllReactions",
+      "value": "Alle reacties"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllStoriesCategory",
       "value": "Alle verhalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "Alle weergaven"
     },
     {
       "_": "types.LangPackString",
@@ -1646,6 +1621,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AnonymousForward",
+      "value": "Auteur verborgen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AnonymousPoll",
       "value": "Anonieme peiling"
     },
@@ -1653,12 +1633,6 @@
       "_": "types.LangPackString",
       "key": "AnonymousQuizPoll",
       "value": "Anonieme quiz"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "Answer",
-      "one_value": "{count} antwoord",
-      "other_value": "{count} antwoorden"
     },
     {
       "_": "types.LangPackString",
@@ -1707,6 +1681,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppStore",
+      "value": "App Store"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ApproveNewMembers",
       "value": "Beheerdersgoedkeuring vereist"
     },
@@ -1722,13 +1701,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ApproveNewSubscribersPublicUnavailable",
-      "value": "Deze optie is niet beschikbaar, omdat iedereen het openbare kanaal via de link kan volgen."
+      "key": "Apps",
+      "value": "Apps"
     },
     {
       "_": "types.LangPackString",
-      "key": "Apps",
-      "value": "Apps"
+      "key": "April",
+      "value": "April"
     },
     {
       "_": "types.LangPackString",
@@ -1749,6 +1728,11 @@
       "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "Gearchiveerde chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSure",
+      "value": "Weet je het zeker?"
     },
     {
       "_": "types.LangPackString",
@@ -1804,11 +1788,6 @@
       "_": "types.LangPackString",
       "key": "AriaBackToChatList",
       "value": "Teruggaan naar chatlijst"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaCancelPollCreation",
-      "value": "Peiling annuleren"
     },
     {
       "_": "types.LangPackString",
@@ -1892,16 +1871,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaEditProfilePhoto",
-      "value": "Avatar bewerken"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaExitMessageSelection",
-      "value": "Selectiemodus verlaten"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaGiftPreviewPlay",
       "value": "Willekeurige voorbeeldweergaven afspelen"
     },
@@ -1924,16 +1893,6 @@
       "_": "types.LangPackString",
       "key": "AriaLabelOpenMenu",
       "value": "Menu openen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchGifs",
-      "value": "GIF's zoeken"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchStickers",
-      "value": "Stickers zoeken"
     },
     {
       "_": "types.LangPackString",
@@ -1982,16 +1941,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaSearchByDate",
-      "value": "Zoeken op datum"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaSearchInChat",
-      "value": "Zoeken in chat"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaSearchNewerResult",
       "value": "Focus op vorig resultaat"
     },
@@ -2017,21 +1966,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaToDoCancel",
-      "value": "Creatie van checklist annuleren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleChatNotifications",
-      "value": "Chatmeldingen in-/uitschakelen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleUserNotifications",
-      "value": "Gebruikersmeldingen in-/uitschakelen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Arrow",
       "value": "Pijl"
     },
@@ -2044,11 +1978,6 @@
       "_": "types.LangPackString",
       "key": "AspectRatio",
       "value": "Beeldverhouding"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AtDateAgo",
-      "value": "op {date}"
     },
     {
       "_": "types.LangPackString",
@@ -2102,8 +2031,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AttachMenuMediaBlocked",
-      "value": "Het delen van media is niet toegestaan in deze groep"
+      "key": "AttachMenu",
+      "value": "Bijvoegen..."
     },
     {
       "_": "types.LangPackString",
@@ -2124,11 +2053,6 @@
       "_": "types.LangPackString",
       "key": "AttachStory",
       "value": "Verhaal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AttachTodo",
-      "value": "Checklist"
     },
     {
       "_": "types.LangPackString",
@@ -2225,6 +2149,11 @@
       "other_value": "{count} video's vervangen"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AttachmentSelectFromFiles",
+      "value": "Selecteer uit bestanden"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AttachmentSendAudio",
       "one_value": "Geluidsbestand versturen",
@@ -2292,6 +2221,26 @@
       "_": "types.LangPackString",
       "key": "AudioSaveToMyProfileUnsaved",
       "value": "Geluidsbestand verwijderd van je profiel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchChats",
+      "value": "Gedeelde muziek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchGlobal",
+      "value": "Globaal zoeken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchProfile",
+      "value": "Muziek op profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "August",
+      "value": "Augustus"
     },
     {
       "_": "types.LangPackString",
@@ -2485,13 +2434,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AutoplayMedia",
-      "value": "Media automatisch afspelen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AvatarChangeTitle",
-      "value": "Wijzig je profielfoto"
+      "key": "AvailableReactions",
+      "value": "Beschikbare reacties"
     },
     {
       "_": "types.LangPackString",
@@ -2585,13 +2529,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "BlockUserTitle",
-      "value": "{user} blokkeren"
+      "key": "BlockUser",
+      "value": "Gebruiker blokkeren"
     },
     {
       "_": "types.LangPackString",
-      "key": "BlockedListNotFound",
-      "value": "Geen gebruikers."
+      "key": "BlockUserTitle",
+      "value": "{user} blokkeren"
     },
     {
       "_": "types.LangPackString",
@@ -2610,8 +2554,369 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostChannel",
+      "value": "Kanaal boosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftDateEnds",
+      "value": "Einddatum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsInfo",
+      "value": "Stel in hoeveel sterren je wilt weggeven en hoeveel boosts je wilt ontvangen voor de duur van 1 jaar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGroup",
+      "value": "Groep boosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostReason",
+      "value": "Reden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAddChannelOrGroup",
+      "value": "Groep of kanaal toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAllMembers",
+      "value": "Alle leden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAllSubscribers",
+      "value": "Alle abonnees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAwardSpecificUsers",
+      "value": "Specifieke gebruikers belonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostChannelMenu",
+      "value": "Kanaal boosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostGroupMenu",
+      "value": "Groep boosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostsViaGifts",
+      "value": "Boosts via cadeaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingChannelsGroupsIncludedGiveaway",
+      "value": "Betrokken groepen en kanalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingChooseHowMany",
+      "value": "Stel in hoeveel premium-abonnementen je wilt weggeven en hoeveel boosts je wilt krijgen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDate",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDateWhenGiveawayEnds",
+      "value": "Einddatum van winactie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDurationOfPremium",
+      "value": "Duur van premium-abonnementen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingEligibleUsers",
+      "value": "Gebruikers voor wie de winactie geldt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingFrom",
+      "value": "Van"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingFromAllCountries",
+      "value": "uit alle landen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetBoostsViaGifts",
+      "value": "Kom aan boosts via cadeaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoost",
+      "value": "Geef je kanaal meer boosts door premium aan je volgers te schenken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoosts",
+      "value": "Geef je kanaal meer boosts door premium aan je volgers te schenken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGift",
+      "value": "Cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiftLink",
+      "value": "Cadeaulink"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveAwayAbout",
+      "value": "Over deze winactie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveaway",
+      "value": "Winactie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayAdditionPrizeHint",
+      "value": "Schakel dit in als je, naast premium-abonnementen, ook je eigen prijzen aan winnaars wilt uitreiken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayAdditionalPrizes",
+      "value": "Aanvullende prijzen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayCanceledByPayment",
+      "value": "Het kanaal heeft de prijzen geannuleerd door de betaling terug te boeken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayEnd",
+      "value": "Winactie geëindigd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayEnterYourPrize",
+      "value": "Voer je prijs in"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgAllSubsPlural",
+      "one_value": "Alle abonnees van het kanaal:",
+      "other_value": "Alle abonnees van de kanalen:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayMsgParticipants",
+      "value": "**Deelnemers**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayMsgWithDivider",
+      "value": "met"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleCountry",
+      "value": "Je kunt niet meedoen aan deze winactie, omdat je land niet is inbegrepen bij de deelnemende landen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrivateChannel",
+      "value": "Dit kanaal is privé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrivateChannelWarning",
+      "value": "Weet je zeker dat je een privékanaal wilt toevoegen? Gebruikers kunnen zich alleen met een uitnodigingslink aanmelden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrizes",
+      "value": "**Prijzen van winactie**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayResultsMsgAllWinnersReceivedLinks",
+      "value": "Alle winnaars hebben privéberichten met cadeaulinks ontvangen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayResultsMsgWinnersSelected",
+      "value": "**Winnaars geselecteerd!**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayShowWinners",
+      "value": "Winnaars tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayShowWinnersHint",
+      "value": "Stel in of je de winnaarslijst openbaar wilt maken zodra de winactie voorbij is."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayYouNotWon",
+      "value": "Je hebt geen prijs gewonnen bij deze winactie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayYouWon",
+      "value": "Je hebt een prijs gewonnen bij deze winactie 🏆"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingIncompleteGiveaway",
+      "value": "Onvoltooide winactie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNewMembers",
+      "value": "Alleen nieuwe leden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNewSubscribers",
+      "value": "Alleen nieuwe abonnees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNoRecipient",
+      "value": "Geen ontvanger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingPreparedGiveaways",
+      "value": "Prepaid winacties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingQuantityPrizes",
+      "value": "Aantal prijzen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingReason",
+      "value": "Reden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingRecipientWillBeSelected",
+      "value": "De ontvanger wordt aan het eind van de winactie geselecteerd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSelectCountry",
+      "value": "Landen kiezen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSelectPaidGiveaway",
+      "value": "Selecteer een reeds betaalde winactie om aan de slag te gaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSendLinkToAnyone",
+      "value": "Je kunt deze link ook **als cadeau** naar anderen **versturen**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsOptions",
+      "value": "Sterren om uit te reiken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsQuantityPrizes",
+      "value": "Aantal winnaars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsQuantityPrizesInfo",
+      "value": "Stel in onder hoeveel winnaars je sterren wilt verdelen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveaway",
+      "value": "Winactie starten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveawayConfirmText",
+      "value": "Weet je zeker dat je de winactie nu wilt starten?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveawayConfirmTitle",
+      "value": "Winactie starten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTo",
+      "value": "Aan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingToBeDistributed",
+      "value": "Nog te verdelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingUseLink",
+      "value": "Link gebruiken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingWinnersDate",
+      "value": "**Selectiedatum van winnaars**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingWinnersRandomly",
+      "value": "winnaars worden willekeurig gekozen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Boosts",
+      "value": "Boosts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsMaxLevelReached",
+      "value": "Maximumniveau bereikt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot",
       "value": "bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWrite",
+      "value": "Mag deze bot je berichten sturen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWriteConfirm",
+      "value": "Toestaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWriteTitle",
+      "value": "Berichten toestaan"
     },
     {
       "_": "types.LangPackString",
@@ -2705,8 +3010,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotChangeSettings",
+      "value": "Botinstellingen wijzigen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotChatMiniAppOpen",
       "value": "Openen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarning",
+      "value": "Wijzigingen worden mogelijk niet opgeslagen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningSure",
+      "value": "Toch afsluiten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningTitle",
+      "value": "Waarschuwing"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotDefaultPrivacyPolicy",
+      "value": "https://telegram.org/privacy-tpa"
     },
     {
       "_": "types.LangPackString",
@@ -2722,6 +3052,16 @@
       "_": "types.LangPackString",
       "key": "BotDownloadFileTitle",
       "value": "Bestand downloaden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotEditCommands",
+      "value": "Commando's bewerken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotEditIntro",
+      "value": "Intro bewerken"
     },
     {
       "_": "types.LangPackString",
@@ -2770,6 +3110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotManageInfo",
+      "value": "Gebruik @BotFather om deze bot te beheren."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotOpenPageMessage",
       "value": "**{bot}** wil graag een webpagina openen om verder te gaan.\n\nHet krijgt dan toegang tot je **IP-adres** en andere basale apparaatgegevens."
     },
@@ -2785,6 +3130,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfilePermissionEmojiStatus",
+      "value": "Emojistatus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfilePermissionLocation",
+      "value": "Geolocatie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotReadTextFromClipboardConfirm",
       "value": "Toestaan"
     },
@@ -2797,6 +3152,11 @@
       "_": "types.LangPackString",
       "key": "BotReadTextFromClipboardTitle",
       "value": "Klembordtoegang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotRemoveFromMenuTitle",
+      "value": "Bot verwijderen"
     },
     {
       "_": "types.LangPackString",
@@ -2830,6 +3190,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStop",
+      "value": "Bot blokkeren"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotSuggestedStatus",
       "value": "Wil je deze emojistatus van **{bot}** instellen?"
     },
@@ -2855,6 +3220,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotWebViewStartPermission",
+      "value": "Er wordt verbinding gemaakt met de bijbehorende website, zodat deze web-app kan worden opgestart."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoxRemove",
       "value": "Verwijder"
     },
@@ -2868,6 +3238,56 @@
       "_": "types.LangPackString",
       "key": "Brush",
       "value": "Borstel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursDayClosed",
+      "value": "Gesloten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursDayFullOpened",
+      "value": "24 uur geopend"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfile",
+      "value": "Openingstijden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileNowClosed",
+      "value": "Gesloten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileNowOpen",
+      "value": "Open"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileSwitchLocal",
+      "value": "lokale tijd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileSwitchMy",
+      "value": "mijn tijd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLinkErrorExpired",
+      "value": "Verlopen link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLocationCopied",
+      "value": "Bedrijfsadres gekopieerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessProfileLocation",
+      "value": "Locatie"
     },
     {
       "_": "types.LangPackString",
@@ -2923,11 +3343,6 @@
       "_": "types.LangPackString",
       "key": "ButtonSellGift",
       "value": "Verkopen voor {stars}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ButtonSellGiftTon",
-      "value": "Verkopen voor {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -3115,6 +3530,11 @@
       "value": "Geluid aan"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Calls",
+      "value": "Oproepen"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "CanJoin",
       "one_value": "{count} kan lid worden",
@@ -3124,11 +3544,6 @@
       "_": "types.LangPackString",
       "key": "Cancel",
       "value": "Terug"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Caption",
-      "value": "Onderschrift"
     },
     {
       "_": "types.LangPackString",
@@ -3144,11 +3559,6 @@
       "_": "types.LangPackString",
       "key": "ChangePassword",
       "value": "Wachtwoord wijzigen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChangeRecipient",
-      "value": "Ontvanger wijzigen"
     },
     {
       "_": "types.LangPackString",
@@ -3187,11 +3597,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelAdminDismiss",
-      "value": "Beheerder ontslaan"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChannelAdministrators",
       "value": "Beheerders"
     },
@@ -3204,6 +3609,16 @@
       "_": "types.LangPackString",
       "key": "ChannelBlockedUsers",
       "value": "Verwijderde gebruikers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostBoostChannel",
+      "value": "Kanaal boosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenTitle",
+      "value": "Kan niet te vaak boosten"
     },
     {
       "_": "types.LangPackString",
@@ -3232,18 +3647,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelEarnAvailable",
+      "value": "Beloningen beschikbaar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnBalanceTitle",
+      "value": "Beschikbare beloning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnChartRevenue",
+      "value": "Advertentieopbrengsten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelEarnLearnCoinAbout",
       "value": "Gram is de cryptovaluta van de TON-blockchain, die door Telegram wordt gebruikt vanwege de hoge snelheid en lage commissie op transacties. {link}"
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelEditAdminCannotEdit",
-      "value": "Je kunt de machtigingen van deze beheerder niet aanpassen."
+      "key": "ChannelEarnLearnInAbout",
+      "value": "Telegram kan advertenties tonen op je kanaal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnInSubtitle",
+      "value": "Telegram-advertenties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnOutSubtitle",
+      "value": "Flexibele opname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnSplitSubtitle",
+      "value": "50:50 verdeling van de opbrengst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnTitle",
+      "value": "Verdienen met je kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnReward",
+      "value": "Beloningen sinds vorige opname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnTitle",
+      "value": "Inkomsten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnTotal",
+      "value": "Totale opbrengsten"
     },
     {
       "_": "types.LangPackString",
       "key": "ChannelEditAdminPermissionBanUsers",
       "value": "Leden blokkeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelHideMembers",
+      "value": "Leden verbergen"
     },
     {
       "_": "types.LangPackString",
@@ -3302,11 +3772,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelManagementTitle",
-      "value": "Beheerders"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChannelPermissionDeniedSendMessagesUntil",
       "value": "De beheerders van deze groep hebben je vermogen om berichten te versturen, tot {date} beperkt."
     },
@@ -3332,6 +3797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelPostDeleted",
+      "value": "Sorry, dit bericht is verwijderd uit de discussiegroep."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelPrivate",
       "value": "Privékanaal"
     },
@@ -3354,6 +3824,11 @@
       "_": "types.LangPackString",
       "key": "ChannelPublicInfo",
       "value": "Openbare kanalen zijn te vinden via de zoekfunctie, iedereen kan er lid van worden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelReactionsMaxCountInfo",
+      "value": "Stel een limiet in voor het aantal verschillende reacties per bericht (geldt ook voor oude berichten)."
     },
     {
       "_": "types.LangPackString",
@@ -3392,6 +3867,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelSignMessagesWithProfile",
+      "value": "Auteursprofielen weergeven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelSignProfilesInfo",
+      "value": "Beheerders kunnen namens hun eigen kanaal of persoonlijk account berichten plaatsen, met een link naar hun profiel."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphFollowers",
       "value": "Volgers"
     },
@@ -3422,6 +3907,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphReactions",
+      "value": "Reacties per emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStoriesReactions",
+      "value": "Verhaalreacties"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphViewsByHours",
       "value": "Weergaven per uur (UTC)"
     },
@@ -3442,8 +3937,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerPost",
+      "value": "Reacties per bericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerStory",
+      "value": "Reacties per verhaal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsOverviewSharesPerPost",
       "value": "Delingen per bericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewSharesPerStory",
+      "value": "Delingen per verhaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewViews",
+      "value": "Weergaven"
     },
     {
       "_": "types.LangPackString",
@@ -3452,14 +3967,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelStatsRecentHeader",
-      "value": "Meest populaire recente berichten"
+      "key": "ChannelStatsOverviewViewsPerStory",
+      "value": "Weergaven per verhaal"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "ChannelStatsSharesCount",
-      "one_value": "{count} keer gedeeld",
-      "other_value": "{count} keer gedeeld"
+      "_": "types.LangPackString",
+      "key": "ChannelStatsRecentHeader",
+      "value": "Meest populaire recente berichten"
     },
     {
       "_": "types.LangPackString",
@@ -3476,6 +3990,16 @@
       "_": "types.LangPackString",
       "key": "ChannelSubscribers",
       "value": "Abonnees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelTitleInfo",
+      "value": "Kanaalinformatie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelTopics",
+      "value": "Onderwerpen"
     },
     {
       "_": "types.LangPackString",
@@ -3550,6 +4074,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatContextViewAsTopics",
+      "value": "Bekijken per onderwerp"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Concept:"
     },
@@ -3557,6 +4086,11 @@
       "_": "types.LangPackString",
       "key": "ChatEmptyChat",
       "value": "Nog geen berichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyTopicPlaceholderTitle",
+      "value": "Bijna klaar!"
     },
     {
       "_": "types.LangPackString",
@@ -3573,6 +4107,16 @@
       "_": "types.LangPackString",
       "key": "ChatHistory",
       "value": "Geschiedenis voor nieuwe leden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHistoryHiddenInfo2",
+      "value": "Nieuwe leden krijgen niet meer dan 100 voorgaande berichten te zien."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHistoryVisibleInfo",
+      "value": "Nieuwe leden zien ook berichten van voordat ze lid zijn geworden."
     },
     {
       "_": "types.LangPackString",
@@ -3657,8 +4201,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChatListFilterAddToFolder",
-      "value": "Toevoegen aan map"
+      "key": "ChatListEmptyTopicsTitle",
+      "value": "Nog geen onderwerpen geopend"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterCreateLinkNew",
+      "value": "Uitnodigingslink aanmaken"
     },
     {
       "_": "types.LangPackString",
@@ -3684,6 +4233,26 @@
       "_": "types.LangPackString",
       "key": "ChatListOpenInNewWindow",
       "value": "Openen in nieuw venster"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeChannel",
+      "value": "kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeContact",
+      "value": "contact"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeGroup",
+      "value": "groep"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContactUser",
+      "value": "geen contact"
     },
     {
       "_": "types.LangPackString",
@@ -3722,6 +4291,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholderAction",
+      "value": "Lees meer..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatNonContactUserGroups",
       "value": "Gezamenlijke groepen"
     },
@@ -3734,6 +4308,11 @@
       "_": "types.LangPackString",
       "key": "ChatOutgoingContextMixedReactionCount",
       "value": "{count}/{total} reacties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatPaidMediaPurchased",
+      "value": "Gekocht"
     },
     {
       "_": "types.LangPackString",
@@ -3763,6 +4342,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatPlayOnceVoiceMessageTooltip",
+      "value": "Dit spraakbericht kan maar één keer worden afgespeeld."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatPollTotalVotesResultEmpty",
       "value": "Geen stemmen"
     },
@@ -3770,6 +4354,11 @@
       "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "Nog geen antwoorden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTranslateMenuTo",
+      "value": "Andere taal kiezen"
     },
     {
       "_": "types.LangPackString",
@@ -3801,6 +4390,11 @@
       "key": "ChatUnpinAllMessagesConfirmation",
       "one_value": "Wil je {count} bericht in deze chat losmaken?",
       "other_value": "Wil je alle {count} berichten in deze chat losmaken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoiceSingleDeleteAndClose",
+      "value": "Verwijderen en sluiten"
     },
     {
       "_": "types.LangPackString",
@@ -3850,8 +4444,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Checking",
+      "value": "Controleren..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "Naam kaarthouder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutPasswordEntryTitle",
+      "value": "Betalingsbevestiging"
     },
     {
       "_": "types.LangPackString",
@@ -3870,8 +4474,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChooseStickerMyStickerSets",
+      "value": "Mijn stickerbundels"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Clear",
       "value": "Wissen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMyNotesMessage",
+      "value": "Weet je zeker dat je al je notities wilt verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMyNotesTitle",
+      "value": "Al mijn notities verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryTitleSingle2",
+      "value": "Berichten uit opslag halen"
     },
     {
       "_": "types.LangPackString",
@@ -3880,8 +4504,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ClearRecentEmoji",
-      "value": "Recente emoji's wissen?"
+      "key": "ClearRecentReactionsAlertMessage",
+      "value": "Wil je jouw recente reactie-emoji uit je suggesties wissen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearRecentStickersAlertMessage",
+      "value": "Wil je al je recente stickers wissen?"
     },
     {
       "_": "types.LangPackString",
@@ -4195,6 +4824,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitTitle",
+      "value": "Verbonden accounts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Connecting",
+      "value": "Verbinden..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactInfoNotVerified",
       "value": "Geen officieel account"
     },
@@ -4230,6 +4869,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContactsAndPremium",
+      "value": "Contacten & premium"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactsPhoneNumberNotRegistred",
       "value": "er bestaat geen Telegram-account met dit telefoonnummer."
     },
@@ -4242,6 +4886,11 @@
       "_": "types.LangPackString",
       "key": "ContextArchiveExpand",
       "value": "Uitvouwen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContextArchiveToList",
+      "value": "Verplaatsen naar chatlijst"
     },
     {
       "_": "types.LangPackString",
@@ -4277,11 +4926,6 @@
       "_": "types.LangPackString",
       "key": "ContextCopyText",
       "value": "Tekst kopiëren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ContextForwardMsg",
-      "value": "Doorsturen"
     },
     {
       "_": "types.LangPackString",
@@ -4340,13 +4984,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextRemoveFromGroup",
-      "value": "Uit de groep verwijderen"
+      "key": "ContextQuoteAndReply",
+      "value": "Citeren & antwoorden"
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextReportMsg",
-      "value": "Rapporteren"
+      "key": "ContextRemoveFromGroup",
+      "value": "Uit de groep verwijderen"
     },
     {
       "_": "types.LangPackString",
@@ -4401,16 +5045,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationDeleteManyMessages",
-      "value": "Verwijder berichten"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationDeleteMessagesFor",
-      "value": "Verwijderen voor mij en {user}"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ConversationDeleteMessagesForEveryone",
       "value": "Verwijder voor iedereen"
     },
@@ -4461,18 +5095,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewBot",
-      "value": "Bot bekijken"
+      "key": "ConversationSearchPlaceholder",
+      "value": "In chat zoeken"
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewChannel",
-      "value": "KANAAL OPENEN"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationViewPost",
-      "value": "Bericht bekijken"
+      "key": "ConversationSuggestedPhotoTitle",
+      "value": "Voorgestelde foto"
     },
     {
       "_": "types.LangPackString",
@@ -4556,23 +5185,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "CreditsBoxHistoryEntryGiftOutAbout",
-      "value": "Met sterren kan {user} inhoud en diensten kopen op Telegram. {link}"
+      "key": "CreateTopic",
+      "value": "Onderwerp aanmaken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreditsSummaryOptionsAbout",
+      "value": "Door verder te gaan en sterren te kopen, ga je akkoord met de {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreditsSummaryOptionsAboutLink",
+      "value": "voorwaarden"
     },
     {
       "_": "types.LangPackString",
       "key": "Crop",
       "value": "Bijsnijden"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropImage",
-      "value": "Foto bijsnijden"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropperApply",
-      "value": "Afbeelding bijsnijden"
     },
     {
       "_": "types.LangPackString",
@@ -4601,18 +5230,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CustomEmojiUsedSets",
+      "value": "Gebruikte emojibundels"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CustomHelp",
       "value": "Je ziet geen 'laatst gezien'-tijd of online status van gebruikers als je de jouwe ook niet met hen deelt. In plaats daarvan krijg je een indicatie te zien (recent, afgelopen week, afgelopen maand)."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CustomShareGiftsInfo",
-      "value": "Je kunt gebruikers of groepen toevoegen waarvoor de bovenstaande instellingen niet gelden."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DataAndStorageAutoplayVideos",
-      "value": "Video's"
     },
     {
       "_": "types.LangPackString",
@@ -4631,10 +5255,19 @@
       "other_value": "{count} dagen"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "DaysAgo",
-      "one_value": "1 dag geleden",
-      "other_value": "{count} dagen geleden"
+      "_": "types.LangPackString",
+      "key": "DebugMenuEnableLogs",
+      "value": "Logboek inschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DebugSendLogs",
+      "value": "Logbestanden versturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "December",
+      "value": "December"
     },
     {
       "_": "types.LangPackString",
@@ -4658,8 +5291,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAdditionalActions",
+      "value": "Aanvullende acties"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAll",
       "value": "Alles verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteAllFromUsers",
+      "value": "Alles van deze gebruikers verwijderen"
     },
     {
       "_": "types.LangPackString",
@@ -4688,6 +5331,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteBanUsers",
+      "value": "Gebruikers verbannen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteChat",
       "value": "Chat verwijderen"
     },
@@ -4702,11 +5350,6 @@
       "value": "Verwijder voor iedereen"
     },
     {
-      "_": "types.LangPackString",
-      "key": "DeleteForEveryoneDescription",
-      "value": "Hiermee verwijder je dit voor iedereen in de chat."
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "DeleteForEveryoneHint",
       "one_value": "Hiermee verwijder je dit voor iedereen in de chat.",
@@ -4717,11 +5360,6 @@
       "key": "DeleteForMeChatHint",
       "one_value": "Hiermee verwijder je dit alleen voor jezelf, niet voor andere leden.",
       "other_value": "Hiermee verwijder je deze alleen voor jezelf, niet voor andere leden."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DeleteForMeDescription",
-      "value": "Hiermee verwijder je dit alleen voor jezelf, niet voor andere leden van de chat."
     },
     {
       "_": "types.LangPackString",
@@ -4754,6 +5392,11 @@
       "value": "Verwijder mijn account"
     },
     {
+      "_": "types.LangPackString",
+      "key": "DeleteProceedBtn",
+      "value": "Doorgaan"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "DeleteReactionTitle",
       "one_value": "{count} reactie verwijderen?",
@@ -4766,13 +5409,38 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DeleteSingleMessagesTitle",
-      "value": "Bericht verwijderen"
+      "key": "DeleteRestrictUsers",
+      "value": "Gebruikers beperken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteStorySubtitle",
+      "value": "Weet je zeker dat je dit verhaal wilt verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteStoryTitle",
+      "value": "Verhaal verwijderen"
     },
     {
       "_": "types.LangPackString",
       "key": "DeleteThisChat",
       "value": "Deze chat verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteToggleBanUsers",
+      "value": "Gebruikers volledig verbannen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteToggleRestrictUsers",
+      "value": "Gebruikers gedeeltelijk beperken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Deleted",
+      "value": "Verwijderd"
     },
     {
       "_": "types.LangPackString",
@@ -4791,18 +5459,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DescriptionComposerGiftMinimumCurrencyPrice",
-      "value": "De minimumprijs is **{amount}**."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DescriptionComposerGiftMinimumPrice",
       "value": "De minimumprijs is **{stars}**."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DescriptionComposerGiftResaleCurrencyPrice",
-      "value": "Je krijgt **{amount}**."
     },
     {
       "_": "types.LangPackString",
@@ -4874,6 +5532,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeselectAll",
+      "value": "Alles deselecteren"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DialogListSearchSectionDialogs",
       "value": "Chats en contacten"
     },
@@ -4916,6 +5579,11 @@
       "_": "types.LangPackString",
       "key": "Disable",
       "value": "Uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DisableReactionsInfo",
+      "value": "Leden van deze groep kunnen geen reacties aan berichten toevoegen."
     },
     {
       "_": "types.LangPackString",
@@ -4989,18 +5657,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DisplayGiftsButton",
-      "value": "Toon de cadeauknop"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DlgSearchForMessages",
-      "value": "Zoek berichten"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DoNotAskAgain",
       "value": "Niet opnieuw vragen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotReply",
+      "value": "Niet antwoorden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate",
+      "value": "Niet vertalen"
     },
     {
       "_": "types.LangPackString",
@@ -5011,6 +5679,11 @@
       "_": "types.LangPackString",
       "key": "DoubleTapSetting",
       "value": "Snelle reactie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimited",
+      "value": "Beperkte downloadsnelheid"
     },
     {
       "_": "types.LangPackString",
@@ -5111,6 +5784,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminManageTopics",
       "value": "Onderwerpen beheren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageWelcomeMessages",
+      "value": "Welkomstberichten beheren"
     },
     {
       "_": "types.LangPackString",
@@ -5224,23 +5902,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditTopic",
+      "value": "Onderwerp bewerken"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "Notities zijn alleen voor jou zichtbaar."
     },
     {
       "_": "types.LangPackString",
-      "key": "EditedDate",
-      "value": "gewijzigd: {date}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EditedMessage",
-      "value": "bewerkt"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EmbeddedMessageNoCaption",
       "value": "Bijschrift verwijderd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Emoji",
+      "value": "Emoji"
     },
     {
       "_": "types.LangPackString",
@@ -5281,6 +5959,16 @@
       "_": "types.LangPackString",
       "key": "Emoji8",
       "value": "Vlaggen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EmojiBotInfo",
+      "value": "Artiesten kunnen hun eigen emojibundels toevoegen met onze @stickers-bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EmojiPremiumRestore",
+      "value": "Herstellen"
     },
     {
       "_": "types.LangPackString",
@@ -5339,13 +6027,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EnablePasscode",
-      "value": "Toegangscode inschakelen"
+      "key": "EnableAllReactionsInfo",
+      "value": "Leden van deze groep kunnen alle emoji als reactie op berichten gebruiken."
     },
     {
       "_": "types.LangPackString",
-      "key": "EnableReactions",
-      "value": "Reacties inschakelen"
+      "key": "EnablePasscode",
+      "value": "Toegangscode inschakelen"
     },
     {
       "_": "types.LangPackString",
@@ -5356,6 +6044,11 @@
       "_": "types.LangPackString",
       "key": "EnabledPasswordText",
       "value": "Je hebt tweestapsverificatie ingeschakeld.\nHet wachtwoord dat je hier instelt, heb je later nodig om in te loggen op je Telegram-account."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "English",
+      "value": "Engels"
     },
     {
       "_": "types.LangPackString",
@@ -5406,6 +6099,16 @@
       "_": "types.LangPackString",
       "key": "EphemeralReplyUnavailable",
       "value": "Bericht niet meer beschikbaar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevert",
+      "value": "Terugdraaien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralUpdated",
+      "value": "bijgewerkt"
     },
     {
       "_": "types.LangPackString",
@@ -5552,46 +6255,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EventLogAllAdmins",
-      "value": "Alle beheerders"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogAllEvents",
-      "value": "Alle gebeurtenissen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterChannelInfo",
-      "value": "Kanaalinformatie"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterDeletedMessages",
-      "value": "Verwijderde berichten"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterEditedMessages",
-      "value": "Bewerkte berichten"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterLeavingMembers",
-      "value": "Vertrekkende leden"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewAdmins",
-      "value": "Beheerdersrechten"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewMembers",
-      "value": "Nieuwe leden"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EventLogFilterPinnedMessages",
       "value": "Vastgezette berichten"
     },
@@ -5607,11 +6270,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ExceptionDescriptionPrivacyChargeForMessages",
-      "value": "Selecteer gebruikers of hele groepen die je kosteloos berichten kunnen sturen."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "Kosten verwijderen"
     },
@@ -5619,6 +6277,21 @@
       "_": "types.LangPackString",
       "key": "ExpiredLink",
       "value": "Verlopen link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStory",
+      "value": "Verlopen verhaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStoryMention",
+      "value": "Het verhaal waarin je werd genoemd, is niet meer beschikbaar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FactCheck",
+      "value": "Factcheck"
     },
     {
       "_": "types.LangPackString",
@@ -5639,6 +6312,11 @@
       "_": "types.LangPackString",
       "key": "FavoriteStickersLimitTitle",
       "value": "Favoriete stickers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "February",
+      "value": "Februari"
     },
     {
       "_": "types.LangPackString",
@@ -5827,6 +6505,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkButtonJoinPlural",
+      "one_value": "Deelnemen aan chat",
+      "other_value": "Deelnemen aan chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkButtonRemove",
+      "value": "Map verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkButtonRemoveChats",
+      "value": "Map en chats verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkHeaderAlready",
+      "value": "Chats waaraan je reeds deelneemt"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "FolderLinkNotificationAddedSubtitle",
       "one_value": "Je bent bij nog {count} chat aangemeld",
       "other_value": "Je bent bij nog {count} chats aangemeld"
@@ -5860,6 +6559,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkPreviewLeft",
+      "value": "Alle chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkPreviewRight",
+      "value": "Persoonlijk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailableBot",
+      "value": "Je kunt geen chats met bots delen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailablePublicChannel",
+      "value": "Je hebt niet de vereiste beheerdersrechten om uitnodigingslinks in dit kanaal te delen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailablePublicGroup",
+      "value": "Je hebt niet de vereiste beheerdersrechten om uitnodigingslinks in deze groep te delen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailableUser",
+      "value": "Je kunt geen privéchats delen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenTitle",
+      "value": "Map delen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkSubtitleAdd",
       "value": "Wil je {chats} toevoegen aan de map **{title}**?"
     },
@@ -5881,6 +6615,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkTitleAddChats",
+      "value": "Chats aan map toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleAlready",
+      "value": "Map is al toegevoegd"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkTitleDescription",
       "value": "Iedereen met deze link kan de map {folder} en {chats}, toevoegen."
     },
@@ -5889,6 +6633,11 @@
       "key": "FolderLinkTitleDescriptionChats",
       "one_value": "de chat die hieronder is geselecteerd",
       "other_value": "de {count} chats die hieronder zijn geselecteerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleRemove",
+      "value": "Map verwijderen"
     },
     {
       "_": "types.LangPackString",
@@ -6037,6 +6786,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumCreateTopic",
+      "value": "Nieuw onderwerp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumNoMessages",
+      "value": "Geen berichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumRepliesOnly",
+      "value": "Je kunt op berichten in onderwerpen reageren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumToggleDescription",
+      "value": "De groepschat wordt gesplitst in onderwerpen die door beheerders of gebruikers zijn aangemaakt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicClose",
+      "value": "Onderwerp sluiten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicDeleteSure",
+      "value": "Weet je zeker dat je dit onderwerp wilt verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicEdit",
+      "value": "Onderwerp bewerken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicReopen",
+      "value": "Onderwerp heropenen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicTitle",
+      "value": "Naam van onderwerp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumViewAsMessages",
+      "value": "Bekijken als berichten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Forward",
       "value": "Doorsturen"
     },
@@ -6064,18 +6863,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardTo",
-      "value": "Doorsturen naar..."
+      "key": "ForwardedFrom",
+      "value": "Doorgestuurd van"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardedDate",
-      "value": "Origineel: {date}"
+      "key": "Fragment",
+      "value": "Fragment"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardedMessage",
-      "value": "Doorgestuurd bericht"
+      "key": "FragmentUsernameOpen",
+      "value": "Lees meer"
     },
     {
       "_": "types.LangPackString",
@@ -6171,6 +6970,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2ConvertedTitle",
+      "value": "Omgezet cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransactionSent",
+      "value": "Cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransactionUpgraded",
+      "value": "Verzamelbare upgrade"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftActionHide",
       "value": "Verbergen"
     },
@@ -6236,11 +7050,6 @@
       "_": "types.LangPackString",
       "key": "GiftAuctionAveragePrice",
       "value": "Gemiddelde prijs"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftAuctionBalance",
-      "value": "Saldo"
     },
     {
       "_": "types.LangPackString",
@@ -6749,11 +7558,6 @@
       "value": "Verzamelobject #{number}"
     },
     {
-      "_": "types.LangPackString",
-      "key": "GiftInfoCollectibleBy",
-      "value": "Verzamelobject #{number} van **{owner}**"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoConvert",
       "one_value": "Omzetten in {amount} ster",
@@ -6860,11 +7664,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoModelCrafted",
-      "value": "{model} (gecraft)"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoOwner",
       "value": "Eigenaar"
     },
@@ -6942,11 +7741,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoSent",
-      "value": "Verstuurd cadeau"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoSoldOutDescription",
       "value": "Dit cadeau is uitverkocht"
     },
@@ -7007,11 +7801,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoUpgradeBadge",
-      "value": "upgraden"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoUpgradeForFree",
       "value": "Gratis upgraden"
     },
@@ -7042,11 +7831,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoWithdraw",
-      "value": "Opnemen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftLeftCount",
       "value": "{count} beschikbaar"
     },
@@ -7054,6 +7838,21 @@
       "_": "types.LangPackString",
       "key": "GiftLimited",
       "value": "beperkt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkAbout",
+      "value": "Met deze link kun je een \n**Telegram Premium**-abonnement activeren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkExpired",
+      "value": "Link van cadeaucode verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkTitle",
+      "value": "Cadeaulink"
     },
     {
       "_": "types.LangPackString",
@@ -7311,11 +8110,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftSellTitle",
-      "value": "Cadeau verkopen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftSend",
       "value": "Stuur een cadeau voor {amount}"
     },
@@ -7356,8 +8150,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftStarsOutgoing",
-      "value": "Met sterren kan {user} inhoud en diensten op Telegram kopen."
+      "key": "GiftStarsTitle",
+      "value": "Sterren als cadeau"
     },
     {
       "_": "types.LangPackString",
@@ -7388,11 +8182,6 @@
       "_": "types.LangPackString",
       "key": "GiftTransferTON",
       "value": "Versturen via Blockchain"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftTransferTONBlocked",
-      "value": "beschikbaar over {time}"
     },
     {
       "_": "types.LangPackString",
@@ -7552,6 +8341,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiveawayUsersAboutGroup",
+      "value": "Stel in of de winactie alleen geldt voor gebruikers die na de start van de winactie zijn aangemeld of uit bepaalde landen komen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GlobalSearch",
       "value": "Globaal zoeken"
     },
@@ -7573,13 +8367,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GramGiftReceived",
-      "value": "Gram opwaarderen"
+      "key": "GramEarnings",
+      "value": "Inkomsten in Gram"
     },
     {
       "_": "types.LangPackString",
-      "key": "GramModalHint",
-      "value": "Je kunt je Gram via Fragment opwaarderen."
+      "key": "GramGiftReceived",
+      "value": "Gram opwaarderen"
     },
     {
       "_": "types.LangPackString",
@@ -7593,8 +8387,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostGroup",
+      "value": "Groep boosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextPinCamera",
+      "value": "Video vastzetten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextUnpinCamera",
+      "value": "Video losmaken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallScreenShareStop",
+      "value": "Stoppen met delen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupChatsSearchContext",
       "value": "Groepschats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmoji",
+      "value": "Emoji van groep"
     },
     {
       "_": "types.LangPackString",
@@ -7621,6 +8440,16 @@
       "key": "GroupInfoParticipantCount",
       "one_value": "1 lid",
       "other_value": "{count} leden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfoTitle",
+      "value": "Groepsinformatie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInviteBadLink",
+      "value": "Deze uitnodigingslink is ongeldig of verlopen."
     },
     {
       "_": "types.LangPackString",
@@ -7659,6 +8488,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupMembersMembersHiddenOff",
+      "value": "Schakel dit in om de ledenlijst van deze groep onzichtbaar te maken. Beheerders blijven wel zichtbaar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupMembersMembersHiddenOn",
+      "value": "Schakel dit uit om de ledenlijst in deze groep zichtbaar te maken."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupMessagesChargePrice",
       "value": "Sterren in rekening brengen voor berichten"
     },
@@ -7669,8 +8508,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GroupRemovedRemove",
-      "value": "Gebruiker verwijderen"
+      "key": "GroupPermissionNoManageTopics",
+      "value": "geen onderwerpen"
     },
     {
       "_": "types.LangPackString",
@@ -7854,6 +8693,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Hide",
+      "value": "Verbergen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "HideAd",
       "value": "Verbergen"
     },
@@ -7864,8 +8708,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "HideGiftsButton",
-      "value": "Verberg de cadeauknop"
+      "key": "HideReadTime",
+      "value": "'Gelezen om'-tijd verbergen"
     },
     {
       "_": "types.LangPackString",
@@ -7896,20 +8740,9 @@
       "other_value": "{count} uur"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "HoursAgo",
-      "one_value": "1 uur geleden",
-      "other_value": "{count} uur geleden"
-    },
-    {
       "_": "types.LangPackString",
       "key": "IfInactiveFor",
       "value": "Indien inactief gedurende"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ImageCropTitle",
-      "value": "Sleep om te verplaatsen"
     },
     {
       "_": "types.LangPackString",
@@ -7928,8 +8761,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "InputPlaceholderGiftResalePrice",
-      "value": "Noteer de prijs"
+      "key": "InfoUserTitle",
+      "value": "Gebruikersinfo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InputAttachPopoverMusic",
+      "value": "Audiobestand"
     },
     {
       "_": "types.LangPackString",
@@ -7945,6 +8783,11 @@
       "_": "types.LangPackString",
       "key": "InputTitleSuggestMessageTime",
       "value": "Tijd van publicatie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrder",
+      "value": "Dynamische bundelvolgorde"
     },
     {
       "_": "types.LangPackString",
@@ -8045,6 +8888,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "January",
+      "value": "Januari"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JoinGroup",
       "value": "LID WORDEN"
     },
@@ -8086,13 +8934,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "JoinedViaFolder",
+      "value": "aangemeld via de uitnodigingslink van een map"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "July",
+      "value": "Juli"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JumpToDate",
       "value": "Ga naar datum"
     },
     {
       "_": "types.LangPackString",
+      "key": "June",
+      "value": "Juni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JustNowAgo",
       "value": "zojuist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KickFromSupergroup",
+      "value": "Gebruiker beperken"
     },
     {
       "_": "types.LangPackString",
@@ -8163,6 +9031,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LaunchExeDontAsk",
+      "value": "Niet meer vragen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LaunchSvgWarning",
+      "value": "Als je dit bestand opent, is er kans dat de afzender je IP-adres ziet. Wil je toch doorgaan?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "Lees meer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LearnMoreArrow",
+      "value": "Lees meer >"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeaveAComment",
       "value": "Opmerking toevoegen"
     },
@@ -8185,11 +9073,6 @@
       "_": "types.LangPackString",
       "key": "LeaveGroupDescription",
       "value": "Als je weggaat, wordt **{nextOwner}** na 1 week de nieuwe eigenaar van **{group}**."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "LeaveGroupJoinedDate",
-      "value": "lid geworden op {date}"
     },
     {
       "_": "types.LangPackString",
@@ -8373,6 +9256,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LinkForBoosting",
+      "value": "Link voor boosts"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LinkLimitReached",
       "value": "Limiet bereikt"
     },
@@ -8421,6 +9309,11 @@
       "_": "types.LangPackString",
       "key": "Loading",
       "value": "Bezig met laden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalizationInterfaceLanguage",
+      "value": "Interfacetaal"
     },
     {
       "_": "types.LangPackString",
@@ -8514,18 +9407,28 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "LoopAnimatedStickers",
-      "value": "Geanimeerde stickers herhalen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ManageLinksInfoHelp",
       "value": "Je kunt aanvullende uitnodigingslinks aanmaken met een beperkte levensduur of gebruikslimiet."
     },
     {
       "_": "types.LangPackString",
-      "key": "ManagementRemoveAdminConfirm",
-      "value": "Weet je zeker dat je deze beheerder wilt verwijderen?"
+      "key": "Map",
+      "value": "Kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "March",
+      "value": "Maart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "Maximumaantal reacties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "May",
+      "value": "Mei"
     },
     {
       "_": "types.LangPackString",
@@ -8541,6 +9444,11 @@
       "_": "types.LangPackString",
       "key": "MediaFileEmpty",
       "value": "Nog geen bestanden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaGifEmpty",
+      "value": "Nog geen GIF's aanwezig"
     },
     {
       "_": "types.LangPackString",
@@ -8614,8 +9522,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaviewChannelPhoto",
+      "value": "Kanaalfoto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewGroupPhoto",
+      "value": "Groepsfoto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaviewProfilePhoto",
       "value": "Profielfoto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePhotoByYou",
+      "value": "Foto door jou ingesteld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePublicPhoto",
+      "value": "Openbare foto"
     },
     {
       "_": "types.LangPackString",
@@ -8656,16 +9584,6 @@
       "_": "types.LangPackString",
       "key": "MemberRequestsRequestToJoinChannel",
       "value": "Verzoek om lid te worden van kanaal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionChannel",
-      "value": "Dit kanaal accepteert alleen nieuwe abonnees die door de beheerders zijn goedgekeurd."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionGroup",
-      "value": "Deze groep accepteert alleen nieuwe leden die door de beheerders zijn goedgekeurd."
     },
     {
       "_": "types.LangPackString",
@@ -8716,11 +9634,6 @@
       "_": "types.LangPackString",
       "key": "MenuCopyDate",
       "value": "Datum kopiëren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MenuGram",
-      "value": "Mijn Gram"
     },
     {
       "_": "types.LangPackString",
@@ -8849,16 +9762,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsDoneMultiple",
-      "value": "{peer} heeft {tasks} als voltooid gemarkeerd"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsDoneMultipleYou",
-      "value": "Je hebt {tasks} als voltooid gemarkeerd"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "MessageActionTodoCompletionsAsDoneYou",
       "value": "Je hebt \"{task}\" als voltooid gemarkeerd"
     },
@@ -8866,16 +9769,6 @@
       "_": "types.LangPackString",
       "key": "MessageActionTodoCompletionsAsNotDone",
       "value": "{peer} heeft \"{task}\" als onvoltooid gemarkeerd"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsNotDoneMultiple",
-      "value": "{peer} heeft {tasks} als onvoltooid gemarkeerd"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsNotDoneMultipleYou",
-      "value": "Je hebt {tasks} als onvoltooid gemarkeerd"
     },
     {
       "_": "types.LangPackString",
@@ -8912,6 +9805,16 @@
       "_": "types.LangPackString",
       "key": "MessageMetaImported",
       "value": "geïmporteerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageNotFound",
+      "value": "Bericht bestaat niet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagePremiumUnlock",
+      "value": "Activeer premium"
     },
     {
       "_": "types.LangPackString",
@@ -9067,20 +9970,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessagesPrivacyPremiumAbout",
+      "value": "Abonneer je om deze instelling te kunnen wijzigen en toegang te krijgen tot de andere exclusieve functies van Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppUnavailableError",
       "value": "Mini-app niet beschikbaar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerButton",
+      "value": "Ik ga akkoord met de {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerLink",
+      "value": "Gebruiksvoorwaarden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerText",
+      "value": "Je staat op het punt om een mini-app van derden te gebruiken, die **niet gelieerd is aan Telegram**. Je dient akkoord te gaan met de gebruiksvoorwaarden voor mini-apps om verder te gaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerTitle",
+      "value": "Waarschuwing"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "Minutes",
       "one_value": "{count} minuut",
       "other_value": "{count} minuten"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "MinutesAgo",
-      "one_value": "1 minuut geleden",
-      "other_value": "{count} minuten geleden"
     },
     {
       "_": "types.LangPackString",
@@ -9101,6 +10023,11 @@
       "_": "types.LangPackString",
       "key": "MonetizationInfoGramTitle",
       "value": "Wat is 💎 Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfoLink",
+      "value": "https://telegram.org/tos/content-creator-rewards"
     },
     {
       "_": "types.LangPackString",
@@ -9184,10 +10111,25 @@
       "other_value": "{count} maanden"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MoreSimilar",
+      "value": "Meer kanalen"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "MoreSimilarBotsDescription",
       "one_value": "Abonneer je op **Telegram Premium** om maximaal {count} soortgelijke bot te zien.",
       "other_value": "Abonneer je op **Telegram Premium** om maximaal {count} soortgelijke bots te zien."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MuteForForever",
+      "value": "Permanent dempen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MyNotes",
+      "value": "Mijn notities"
     },
     {
       "_": "types.LangPackString",
@@ -9312,8 +10254,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewTopic",
+      "value": "Nieuw onderwerp"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Next",
       "value": "Volgende"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFiles",
+      "value": "Geen audiobestanden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFilesInfo",
+      "value": "Je muziekcollectie is leeg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFound",
+      "value": "Geen resultaten gevonden"
     },
     {
       "_": "types.LangPackString",
@@ -9329,6 +10291,21 @@
       "_": "types.LangPackString",
       "key": "NoBlockedGroup2",
       "value": "Gebruikers die door beheerders uit de groep zijn verwijderd, kunnen zich niet opnieuw aanmelden via uitnodigingslinks."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoBoostersGroupHint",
+      "value": "Niemand boost deze groep momenteel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoBoostersHint",
+      "value": "Niemand boost je kanaal op dit moment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoComments",
+      "value": "Nog geen opmerkingen..."
     },
     {
       "_": "types.LangPackString",
@@ -9442,6 +10419,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoReactions",
+      "value": "Geen reacties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReplies",
+      "value": "Nog geen reacties..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSavingDescription",
       "value": "Het kopiëren van tekst en het opslaan van foto's en video's onmogelijk maken."
     },
@@ -9477,6 +10464,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "Geen weergaven"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoVoiceMessagesAllowed",
       "value": "**{user}** accepteert geen spraakberichten."
     },
@@ -9487,8 +10479,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Nothing",
-      "value": "Niets"
+      "key": "NobodyViewed",
+      "value": "Geen weergaven"
     },
     {
       "_": "types.LangPackString",
@@ -9588,8 +10580,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "November",
+      "value": "November"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "OK",
       "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "October",
+      "value": "Oktober"
     },
     {
       "_": "types.LangPackString",
@@ -9646,6 +10648,11 @@
       "_": "types.LangPackString",
       "key": "OptionHint",
       "value": "Optie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OptionPremiumRequiredMessage",
+      "value": "Abonneer je op **Telegram Premium** om deze optie te kunnen kiezen."
     },
     {
       "_": "types.LangPackString",
@@ -9721,6 +10728,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeAutoLockDisabled",
+      "value": "Uitgeschakeld"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeChange",
       "value": "Toegangscode wijzigen"
     },
@@ -9753,6 +10765,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeEnterPasscodePlaceholder",
       "value": "Toegangscode invoeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyTitle",
+      "value": "Toegangscode"
     },
     {
       "_": "types.LangPackString",
@@ -9894,11 +10911,6 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckout",
       "value": "Afrekenen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PaymentCheckoutAcceptRecurrent",
-      "value": "IK ga akkoord met de *gebruiksvoorwaarden* van {bot}."
     },
     {
       "_": "types.LangPackString",
@@ -10074,13 +11086,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Permanent",
-      "value": "Primaire link"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PersonalChannelAdd",
-      "value": "Toevoegen"
+      "key": "PermissionNoLocationPosition",
+      "value": "Telegram heeft toegang tot je locatie nodig."
     },
     {
       "_": "types.LangPackString",
@@ -10091,11 +11098,6 @@
       "_": "types.LangPackString",
       "key": "PersonalChannelDescription",
       "value": "Toon het kanaal dat je beheert op je profiel."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PersonalChannelLabel",
-      "value": "Kanaal"
     },
     {
       "_": "types.LangPackString",
@@ -10121,6 +11123,11 @@
       "_": "types.LangPackString",
       "key": "Phone",
       "value": "Telefoon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PhoneCopied",
+      "value": "Nummer gekopieerd naar klembord"
     },
     {
       "_": "types.LangPackString",
@@ -10186,8 +11193,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PlayOnceVideoMessageTooltip",
-      "value": "Dit videobericht kan maar één keer worden afgespeeld."
+      "key": "PlayMarket",
+      "value": "Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -10228,6 +11235,11 @@
       "_": "types.LangPackString",
       "key": "PleaseWait",
       "value": "Even geduld..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PmReadShowWhen",
+      "value": "tonen indien"
     },
     {
       "_": "types.LangPackString",
@@ -10417,7 +11429,7 @@
     {
       "_": "types.LangPackString",
       "key": "PollRestrictToSubscribersDescription",
-      "value": "Alleen abonnees die langer dan 24 uur geleden zijn aangesloten, kunnen stemmen."
+      "value": "Alleen abonnees die langer dan 24 uur lid zijn kunnen stemmen."
     },
     {
       "_": "types.LangPackString",
@@ -10512,8 +11524,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PopularReactions",
+      "value": "Populair"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PostsSearchTransaction",
       "value": "Openbare berichten zoeken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumEmojiStatusTitle",
+      "value": "{user} heeft deze emoji uit {link} als status ingesteld."
     },
     {
       "_": "types.LangPackString",
@@ -10524,6 +11546,26 @@
       "_": "types.LangPackString",
       "key": "PremiumGiftHeader",
       "value": "Premium cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenButton1",
+      "value": "Toon mijn 'laatst gezien'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenButton2",
+      "value": "Abonneer je op Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenHeader1",
+      "value": "Toon je 'laatst gezien'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenSet",
+      "value": "Je 'laatst gezien'-tijd is nu zichtbaar."
     },
     {
       "_": "types.LangPackString",
@@ -10542,8 +11584,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumMessageEffects",
+      "value": "Berichteffecten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumMessageEffectsInfo",
+      "value": "Gebruik meer dan 500 geanimeerde effecten in privéberichten."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumMore",
       "value": "Meer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumOr",
+      "value": "of"
     },
     {
       "_": "types.LangPackString",
@@ -10587,6 +11644,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmoji",
+      "value": "Geanimeerde emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewLastSeen",
+      "value": "'Laatst gezien'-tijd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewLastSeenDescription",
+      "value": "Bekijk de 'laatst gezien' en 'gelezen om'-tijd van anderen, ook als je de jouwe verbergt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewLimits",
       "value": "Verdubbelde limieten"
     },
@@ -10594,6 +11666,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewLimitsDescription",
       "value": "Maximaal {limit1} kanalen, {limit2} mappen, {limit3} vastgezette chats, {limit4} openbare links, {limit5} accounts en meer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewMessagePrivacy",
+      "value": "Privacy van berichten"
     },
     {
       "_": "types.LangPackString",
@@ -10627,8 +11704,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumPreviewReactions",
-      "value": "Unieke reacties"
+      "key": "PremiumPreviewReactions2",
+      "value": "Onbeperkte reacties"
     },
     {
       "_": "types.LangPackString",
@@ -10657,6 +11734,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewTags",
+      "value": "Tags voor berichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTags2",
+      "value": "Tags in bewaarde berichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTagsDescription2",
+      "value": "Orden je bewaarde berichten met tags voor snellere toegang."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewTodo",
       "value": "Checklists"
     },
@@ -10664,6 +11756,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewTodoDescription",
       "value": "Je kunt taken plannen, toewijzen en afvinken - eenvoudig en overzichtelijk."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslations",
+      "value": "Realtime vertaling"
     },
     {
       "_": "types.LangPackString",
@@ -10687,13 +11784,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadButton1",
+      "value": "Toon mijn 'gelezen om'-tijd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadHeader1",
+      "value": "Toon mijn 'gelezen om'-tijd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadHeader2",
+      "value": "Abonneer je op Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadSet",
+      "value": "Je 'gelezen om'-tijd is nu zichtbaar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "Deze bundel bevat premium-stickers zoals deze."
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumStickers",
-      "value": "Premium-stickers"
+      "key": "PremiumStoriesAboutMobile",
+      "value": "* Beschikbaar wanneer je verhalen via de Telegram-app voor iOS of Android plaatst."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesPriority",
+      "value": "Prioriteitsweergave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesPriorityDescription",
+      "value": "Meer weergaven, omdat jouw verhalen bovenaan komen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGallery",
+      "value": "Bewaar verhalen in je galerij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleCaption",
+      "value": "Langere bijschriften*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleExpiration",
+      "value": "Verlooptijd*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleLinks",
+      "value": "Links en opmaak*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesViewsDescription",
+      "value": "Kijk wie je verhalen opent — ook nadat ze verlopen zijn."
     },
     {
       "_": "types.LangPackString",
@@ -10707,6 +11859,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PreviewDeletePhoto",
+      "value": "Foto verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PreviewEditMessage",
       "value": "Bericht bewerken"
     },
@@ -10715,35 +11872,6 @@
       "key": "PreviewForwardedMessage",
       "one_value": "{count} doorgestuurd bericht",
       "other_value": "{count} doorgestuurde berichten"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendAudio",
-      "one_value": "Audio versturen",
-      "other_value": "{count} audiobestanden versturen"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendFile",
-      "one_value": "Bestand versturen",
-      "other_value": "{count} bestanden versturen"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendPhoto",
-      "one_value": "Foto versturen",
-      "other_value": "{count} foto's versturen"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendVideo",
-      "one_value": "Video versturen",
-      "other_value": "{count} video's versturen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PreviewWebPageClose",
-      "value": "Voorbeeld van webpagina wissen"
     },
     {
       "_": "types.LangPackString",
@@ -10777,11 +11905,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Privacy",
-      "value": "Privacyinstellingen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PrivacyAcceptedGiftInfo",
       "value": "Selecteer welke typen cadeaus anderen aan je mogen geven."
     },
@@ -10789,6 +11912,21 @@
       "_": "types.LangPackString",
       "key": "PrivacyAcceptedGiftTitle",
       "value": "Geaccepteerde cadeautypes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBio",
+      "value": "Bio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBioTitle",
+      "value": "Wie kan mijn bio zien?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBirthdayTitle",
+      "value": "Wie ziet mijn verjaardag?"
     },
     {
       "_": "types.LangPackString",
@@ -10807,26 +11945,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PrivacyDisableLimitedEditionStarGifts",
-      "value": "Toon beperkt beschikbare cadeaus met sterren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisablePremiumGifts",
-      "value": "Deactiveer premium cadeaus"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisableUniqueStarGifts",
-      "value": "Deactiveer unieke cadeaus met sterren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisableUnlimitedStarGifts",
-      "value": "Deactiveer beperkt beschikbare cadeaus met sterren"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PrivacyDisplayGift",
       "value": "Cadeau"
     },
@@ -10839,26 +11957,6 @@
       "_": "types.LangPackString",
       "key": "PrivacyDisplayGiftsButton",
       "value": "Cadeaupictogram tonen in chats"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableLimitedEditionStarGifts",
-      "value": "Activeer beperkt beschikbare cadeaus met sterren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnablePremiumGifts",
-      "value": "Activeer premium cadeaus"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableUniqueStarGifts",
-      "value": "Activeer unieke cadeaus met sterren"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableUnlimitedStarGifts",
-      "value": "Activeer onbeperkte cadeaus met sterren"
     },
     {
       "_": "types.LangPackString",
@@ -10917,6 +12015,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremium",
+      "value": "Abonneer je op Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumForPremium",
+      "value": "Geabonneerd op Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumInfo",
+      "value": "Met een premium-abonnement kun je de 'laatst gezien' en 'gelezen om'-tijden van andere gebruikers zien, ook als je de jouwe hebt verborgen (tenzij ze het bewust hebben uitgeschakeld)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumInfoForPremium",
+      "value": "Omdat je een Telegram Premium-abonnee bent, zie je de 'laatst gezien' en 'gelezen om'-tijd van alle gebruikers die deze info met je delen – ook als je de jouwe verborgen hebt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessages",
+      "value": "Berichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessagesContactsAndPremium",
+      "value": "Mijn contacten en premium-gebruikers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessagesTitle",
+      "value": "Wie kan mij berichten sturen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusic",
+      "value": "Bewaarde muziek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusicInfo",
+      "value": "Je kunt exact instellen wie je bewaarde muziek wel en niet mag zien."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyP2P",
       "value": "Peer-to-Peer in oproepen"
     },
@@ -10932,8 +12075,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyPhoneInfo",
+      "value": "Gebruikers die je nummer al hebben opgeslagen in hun contacten zien het ook op Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPhoneInfo3",
+      "value": "Gebruikers die je telefoonnummer aan hun contacten toevoegen, zullen het alleen op Telegram zien als ze ook in jouw contacten staan."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyPhoneTitle",
       "value": "Wie kan mijn telefoonnummer zien?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPhoneTitle2",
+      "value": "Wie kan me vinden via mijn nummer?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPremium",
+      "value": "Premium-gebruikers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPremiumText",
+      "value": "alle Telegram Premium-abonnees"
     },
     {
       "_": "types.LangPackString",
@@ -10942,8 +12110,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoRemovePublicPhoto",
+      "value": "Openbare foto verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoSetPublicPhoto",
+      "value": "Openbare foto instellen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoTitle",
       "value": "Wie kan mijn profielfoto's zien?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoUpdatePublicPhoto",
+      "value": "Openbare foto bijwerken"
     },
     {
       "_": "types.LangPackString",
@@ -10972,8 +12155,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyUserTypes",
+      "value": "Typen gebruikers"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyValueBots",
       "value": "Mini-apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessages",
+      "value": "Spraakberichten"
     },
     {
       "_": "types.LangPackString",
@@ -10986,10 +12179,9 @@
       "value": "Privéchats"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "PrizeCredits2",
-      "one_value": "Je prijs is {count} ster.",
-      "other_value": "Je prijs is {count} sterren."
+      "_": "types.LangPackString",
+      "key": "PrizesResultsWinners",
+      "value": "Winnaars"
     },
     {
       "_": "types.LangPackString",
@@ -11035,6 +12227,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileChannel",
+      "value": "Kanaal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileCopyPhone",
       "value": "Telefoonnummer kopiëren"
     },
@@ -11070,8 +12267,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfilePlaylistEmpty",
-      "value": "Nog geen muziek toegevoegd"
+      "key": "ProfilePhotoSetMainPhoto",
+      "value": "Als primair instellen"
     },
     {
       "_": "types.LangPackString",
@@ -11120,11 +12317,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfileTabPlaylist",
-      "value": "Playlist"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ProfileTabPublicPosts",
       "value": "Openbare berichten"
     },
@@ -11160,11 +12352,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfileTabSubscribers",
-      "value": "Abonnees"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ProfileTabVoice",
       "value": "Spraak"
     },
@@ -11172,6 +12359,11 @@
       "_": "types.LangPackString",
       "key": "ProfileViewChannel",
       "value": "Naar kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PromoteUrl",
+      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -11325,11 +12517,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RankOwnerTag",
-      "value": "Tag van eigenaar"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RatingBadgeAdded",
       "value": "Erbij"
     },
@@ -11406,13 +12593,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Recent",
-      "value": "Recent"
+      "key": "ReactionsAll",
+      "value": "Alles"
     },
     {
       "_": "types.LangPackString",
-      "key": "RecentChatsClear",
-      "value": "Recente chats wissen"
+      "key": "ReactionsOff",
+      "value": "Uit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Recent",
+      "value": "Recent"
     },
     {
       "_": "types.LangPackString",
@@ -11423,6 +12615,11 @@
       "_": "types.LangPackString",
       "key": "RecoveryEmailCode",
       "value": "Herstel e-mailcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RecoveryEmailSubtitle",
+      "value": "Je kunt een herstel-e-mailadres instellen om je wachtwoord te resetten en de toegang tot je Telegram-account te herstellen."
     },
     {
       "_": "types.LangPackString",
@@ -11467,6 +12664,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveFromPosts",
+      "value": "Verhaal verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveGiftDescriptionButton",
       "value": "Verwijderen voor {amount}"
     },
@@ -11492,6 +12694,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveQuote",
+      "value": "Citaat verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveRichFormatting",
       "value": "Opmaak verwijderen"
     },
@@ -11509,6 +12716,11 @@
       "_": "types.LangPackString",
       "key": "RemoveSymbol",
       "value": "Emoji verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Replace",
+      "value": "Vervangen"
     },
     {
       "_": "types.LangPackString",
@@ -11553,13 +12765,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyPrivate",
+      "value": "Dit antwoord komt uit een privéchat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyPrivately",
+      "value": "Privé reageren..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyToAnotherChat",
+      "value": "In andere chat antwoorden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyToGroupStory",
+      "value": "Antwoorden op verhaal..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2Comment",
+      "value": "Opmerking toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2CommentOptional",
+      "value": "Opmerking toevoegen (optioneel)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportAd",
+      "value": "Advertentie rapporteren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportAdHelpURL",
+      "value": "https://ads.telegram.org/guidelines"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportButton",
       "value": "Melden"
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportChat",
-      "value": "{peer} rapporteren"
+      "key": "ReportChatIllegalDrugs",
+      "value": "Illegale drugs"
     },
     {
       "_": "types.LangPackString",
@@ -11568,8 +12820,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportMessageTitle",
-      "value": "Bericht rapporteren"
+      "key": "ReportChatPersonalDetails",
+      "value": "Persoonlijke gegevens"
     },
     {
       "_": "types.LangPackString",
@@ -11585,6 +12837,11 @@
       "_": "types.LangPackString",
       "key": "ReportPeerReport",
       "value": "Melden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportPleaseSelectMessages",
+      "value": "Selecteer de berichten die je wilt rapporteren."
     },
     {
       "_": "types.LangPackString",
@@ -11623,8 +12880,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSend",
+      "value": "Verstuur melding"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportSpamAndLeave",
       "value": "Spam melden en verlaten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSpamTitle",
+      "value": "Spam melden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSponsoredReportedLearn",
+      "value": "Lees meer over ons {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSponsoredReportedLink",
+      "value": "advertentiebeleid en onze richtlijnen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportStory",
+      "value": "Verhaal rapporteren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerRequirements",
+      "value": "Vereisten"
     },
     {
       "_": "types.LangPackString",
@@ -11658,8 +12945,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ResetCrop",
-      "value": "Resetten"
+      "key": "Reset",
+      "value": "Wissen"
     },
     {
       "_": "types.LangPackString",
@@ -11670,6 +12957,41 @@
       "_": "types.LangPackString",
       "key": "RestictionReasonPrivateChat",
       "value": "Dit is een privechat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Retry",
+      "value": "Opnieuw proberen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsAlertSubtitle",
+      "value": "Advertenties op Telegram verschillen sterk van advertenties op andere platforms. Advertenties zoals deze:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo1Title",
+      "value": "Respecteren je privacy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo2Subtitle",
+      "value": "50% van de opbrengst van advertenties op Telegram gaat naar de eigenaar van het kanaal waarin ze verschijnen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo2Title",
+      "value": "Steunen de oprichter van het kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo3Title",
+      "value": "Kunnen verborgen worden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo4Title",
+      "value": "Kan ik een advertentie aanmaken?"
     },
     {
       "_": "types.LangPackString",
@@ -11720,6 +13042,11 @@
       "_": "types.LangPackString",
       "key": "RichEditorBulletList",
       "value": "Opsommingtekens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorButtonCopyText",
+      "value": "Tekst om te kopiëren"
     },
     {
       "_": "types.LangPackString",
@@ -11838,11 +13165,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RichEditorParagraph",
-      "value": "Paragraaf"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RichEditorPullquote",
       "value": "Blikvanger"
     },
@@ -11855,11 +13177,6 @@
       "_": "types.LangPackString",
       "key": "RichEditorQuoteCaptionPlaceholder",
       "value": "Auteur toevoegen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "RichEditorSubheading",
-      "value": "Subkop"
     },
     {
       "_": "types.LangPackString",
@@ -11912,11 +13229,6 @@
       "value": "Randloos"
     },
     {
-      "_": "types.LangPackString",
-      "key": "RichEditorTableDelete",
-      "value": "Verwijderen"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "RichEditorTableDeleteColumn",
       "one_value": "Kolom verwijderen",
@@ -11962,11 +13274,6 @@
       "_": "types.LangPackString",
       "key": "RichEditorTableInsertRowBelow",
       "value": "Rij hieronder toevoegen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "RichEditorTableMenu",
-      "value": "Tabel"
     },
     {
       "_": "types.LangPackString",
@@ -12045,11 +13352,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RichTextEditor",
-      "value": "Rijke teksteditor"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RichTextMapPreview",
       "value": "[map]"
     },
@@ -12080,6 +13382,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Saved",
+      "value": "Opgeslagen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedGifsLimitSubtitle",
       "value": "Sla maximaal {count} GIF's op in je favoriete GIF's"
     },
@@ -12107,6 +13414,36 @@
       "_": "types.LangPackString",
       "key": "SavedOpenChat",
       "value": "Chat openen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagFilterByTag",
+      "value": "Filteren op tag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagLabelTag",
+      "value": "Naam toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagLabelTagText",
+      "value": "Je kunt je emoji-tag een tekstlabel geven."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagReactionsHint2",
+      "value": "Geef het bericht een emoji-tag voor sneller zoeken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagRemoveTag",
+      "value": "Tag verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagRenameTag",
+      "value": "Naam bewerken"
     },
     {
       "_": "types.LangPackString",
@@ -12182,13 +13519,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchAllMessagesTab",
-      "value": "Alle berichten"
+      "key": "SearchApps",
+      "value": "Apps zoeken"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchApps",
-      "value": "Apps zoeken"
+      "key": "SearchAppsMine",
+      "value": "Apps die jij gebruikt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchAsChat",
+      "value": "Als chat weergeven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchAsList",
+      "value": "Als lijst weergeven"
     },
     {
       "_": "types.LangPackString",
@@ -12202,8 +13549,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchFilesTab",
-      "value": "Bestanden"
+      "key": "SearchEmptyViewTitle",
+      "value": "Geen resultaten"
     },
     {
       "_": "types.LangPackString",
@@ -12217,28 +13564,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGifsTab",
-      "value": "GIF"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SearchGifsTitle",
       "value": "GIF's zoeken"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGroupsTab",
-      "value": "Groepen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchLinksTab",
-      "value": "Links"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchMediaTab",
-      "value": "Media"
+      "key": "SearchHashtagsHint",
+      "value": "Hashtags zoeken"
     },
     {
       "_": "types.LangPackString",
@@ -12246,20 +13578,14 @@
       "value": "Berichten"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "SearchMessagesFound",
-      "one_value": "1 bericht gevonden",
-      "other_value": "{count} berichten gevonden"
+      "_": "types.LangPackString",
+      "key": "SearchMusic",
+      "value": "Zoek muziek"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchMusicTab",
-      "value": "Muziek"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchNoResults",
-      "value": "Geen berichten gevonden"
+      "key": "SearchMyMessages",
+      "value": "Mijn chats"
     },
     {
       "_": "types.LangPackString",
@@ -12280,11 +13606,6 @@
       "_": "types.LangPackString",
       "key": "SearchStickers",
       "value": "Stickers zoeken"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchStickersHint",
-      "value": "Zoek stickerbundels"
     },
     {
       "_": "types.LangPackString",
@@ -12338,19 +13659,14 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchVoiceTab",
-      "value": "Spraak"
+      "key": "SearchThisChat",
+      "value": "Deze chat"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "Seconds",
       "one_value": "{count} seconde",
       "other_value": "{count} seconden"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SecretChat",
-      "value": "Geheime chat"
     },
     {
       "_": "types.LangPackString",
@@ -12401,6 +13717,11 @@
       "_": "types.LangPackString",
       "key": "SelectChats",
       "value": "Selecteer chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelectSendAsPeerPremiumHint",
+      "value": "Meld je aan voor **Telegram Premium** om namens je kanalen in elk groepsgesprek te reageren."
     },
     {
       "_": "types.LangPackString",
@@ -12466,6 +13787,11 @@
       "_": "types.LangPackString",
       "key": "SendActionUploadVideo",
       "value": "video versturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SendAnotherGift",
+      "value": "Ander cadeau sturen"
     },
     {
       "_": "types.LangPackString",
@@ -12561,6 +13887,11 @@
       "_": "types.LangPackString",
       "key": "SentGift",
       "value": "Verstuurd cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "September",
+      "value": "September"
     },
     {
       "_": "types.LangPackString",
@@ -12749,16 +14080,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsDisableNightTheme",
-      "value": "Nachtmodus uitschakelen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsEnableNightTheme",
-      "value": "Nachtmodus inschakelen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SettingsExperimental",
       "value": "Experimentele instellingen"
     },
@@ -12819,6 +14140,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsMyStories",
+      "value": "Mijn verhalen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsNotificationsDesc",
       "value": "Geluiden, oproepen, badges"
     },
@@ -12826,11 +14152,6 @@
       "_": "types.LangPackString",
       "key": "SettingsOfflineNotificationUnsupported",
       "value": "Niet ondersteund"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsPasscodeEnabled",
-      "value": "Lokale toegangscode is ingeschakeld"
     },
     {
       "_": "types.LangPackString",
@@ -12946,11 +14267,6 @@
       "_": "types.LangPackString",
       "key": "SettingsPerformanceMediaViewer",
       "value": "Animatie van mediaspeler"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsPerformanceMessageBlur",
-      "value": "Berichtvervaging"
     },
     {
       "_": "types.LangPackString",
@@ -13099,18 +14415,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTipsUsername",
-      "value": "TelegramTips"
+      "key": "SettingsTitleChatName",
+      "value": "Chatnaam weergeven"
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTray",
-      "value": "Pictogram tonen in menubalk"
+      "key": "SettingsWindowSystem",
+      "value": "Venstertitelbalk"
     },
     {
       "_": "types.LangPackString",
       "key": "Share",
       "value": "Delen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareLinkCopied",
+      "value": "Gekopieerd naar klembord"
     },
     {
       "_": "types.LangPackString",
@@ -13153,6 +14474,11 @@
       "value": "Toon de map van elke chat in de lijst."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ShowMore",
+      "value": "Meer tonen"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ShowMoreChats",
       "one_value": "Nog 1 chat weergeven",
@@ -13166,6 +14492,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowOriginalButton",
+      "value": "Origineel weergeven"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShowSenderNames",
       "value": "Afzendernamen tonen"
     },
@@ -13173,6 +14504,16 @@
       "_": "types.LangPackString",
       "key": "ShowSendersName",
       "value": "Naam van afzender tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShowTranslateButton",
+      "value": "Vertaalknop tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SimilarChannelsLimitTitle",
+      "value": "Soortgelijke kanalen"
     },
     {
       "_": "types.LangPackString",
@@ -13196,8 +14537,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SomeReactions",
+      "value": "Sommige reacties"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SomethingWentWrong",
       "value": "Er is iets misgegaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortBy",
+      "value": "Sorteren op"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Reacties eerst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Nieuwste eerst"
     },
     {
       "_": "types.LangPackString",
@@ -13211,6 +14572,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Spoiler",
+      "value": "Spoiler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SponsoredMessage",
+      "value": "advertentie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageAd",
       "value": "Advertentie"
     },
@@ -13218,11 +14589,6 @@
       "_": "types.LangPackString",
       "key": "SponsoredMessageAdWhatIsThis",
       "value": "wat is dit?"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SponsoredMessageAlertLearnMoreUrl",
-      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -13248,6 +14614,11 @@
       "_": "types.LangPackString",
       "key": "SponsoredMessageInfoDescription4",
       "value": "Gesponsorde berichten zijn momenteel nog in de testfase. Zodra ze volledig zijn gelanceerd en zodra Telegram zijn kosten eruit kan halen, zullen we de opbrengst van advertenties in openbare kanalen delen met de eigenaren van de kanalen waarin ze worden weergegeven.\n\nOnline adverteren zou geen synoniem meer moeten zijn voor het aan je laars lappen van de privacy van gebruikers. Laten we samen opnieuw invullen hoe een technologiebedrijf zich zou moeten gedragen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SponsoredMessageSponsor",
+      "value": "Info over adverteerder"
     },
     {
       "_": "types.LangPackString",
@@ -13351,8 +14722,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGiftReason",
+      "value": "Reden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGiftReasonDropOriginalDetails",
       "value": "Beschrijving verwijderd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftReasonUpgrade",
+      "value": "Cadeau verrijkt"
     },
     {
       "_": "types.LangPackString",
@@ -13368,6 +14749,41 @@
       "_": "types.LangPackString",
       "key": "StarGiftUpgradeCostModalTitle",
       "value": "Prijs van upgrade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListBuyMoreStars",
+      "value": "Meer sterren kopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListGetStars",
+      "value": "Sterren verkrijgen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarMediaPurchase",
+      "value": "Media-aankoop"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarMySubscriptions",
+      "value": "Mijn abonnementen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarSubscriptionPurchase",
+      "value": "Maandelijkse abonnementskosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarTransactionFrom",
+      "value": "Van"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsAcquired",
+      "value": "Sterren verkregen!"
     },
     {
       "_": "types.LangPackString",
@@ -13392,6 +14808,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsConfirmPurchaseTitle",
+      "value": "Bevestig je aankoop"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsFailed",
+      "value": "Mislukt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsGiftBought",
       "value": "Je hebt een cadeau gekocht!"
     },
@@ -13412,8 +14838,98 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsGiftReceived",
+      "value": "Ontvangen cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsGiftReceivedTitle",
+      "value": "Ontvangen cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsGiveawayPrizeReceived",
+      "value": "Ontvangen prijs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionAppleTopUpSubtitle",
+      "value": "via App Store"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionAppleTopUpTitle",
+      "value": "Sterren opwaarderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionFragmentTopUpSubtitle",
+      "value": "via Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionFragmentTopUpTitle",
+      "value": "Sterren opwaarderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGiftUnknownUser",
+      "value": "Onbekende gebruiker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGoogleTopUpTitle",
+      "value": "Sterren opwaarderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionPremiumBotTopUpSubtitle",
+      "value": "via Premium Bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionPremiumBotTopUpTitle",
+      "value": "Sterren opwaarderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramAdsSubtitle",
+      "value": "via Telegram Ads"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramAdsTitle",
+      "value": "Opname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramBotApiSubtitle",
+      "value": "Bot API"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramBotApiTitle",
+      "value": "Betaalde uitzending"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionUnsupportedTitle",
+      "value": "Niet ondersteund"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextLink",
+      "value": "Koop **sterren** om je abonnementen op kanalen te behouden."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextSendPaidMessages",
       "value": "Koop **sterren** om berichten te sturen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsParticipantSubscriptionPerMonth",
+      "value": "per maand"
     },
     {
       "_": "types.LangPackString",
@@ -13422,8 +14938,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsPending",
+      "value": "In behandeling"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsPerMonth",
       "value": "⭐️{amount}/maand"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseGetStarsInfo",
+      "value": "Kies hoeveel sterren je wilt kopen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseShowMore",
+      "value": "Meer opties tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionAnonymous",
+      "value": "Anoniem"
     },
     {
       "_": "types.LangPackString",
@@ -13437,8 +14973,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsReactionShowMeInTopSenders",
+      "value": "Toon mij in de lijst van grootste sponsoren"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsReactionTerms",
       "value": "Door sterren te versturen, ga je akkoord met de {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTitle",
+      "value": "Reageren met sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTopSenders",
+      "value": "Grootste sponsoren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionsSent",
+      "value": "Reactie met ster"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSentTitle",
+      "value": "Sterren verzonden!"
     },
     {
       "_": "types.LangPackString",
@@ -13474,6 +15035,116 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscribeTitle",
+      "value": "Abonneren op kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionAgain",
+      "value": "Opnieuw abonneren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotProduct",
+      "value": "Abonnement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancel",
+      "value": "Abonnement annuleren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionChannel",
+      "value": "Abonnement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCompleted",
+      "value": "Abonneren gelukt!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRenew",
+      "value": "Abonnement verlengen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionTitle",
+      "value": "Abonnement"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionUntilExpires",
+      "value": "Verloopt op"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionUntilRenews",
+      "value": "Wordt verlengd op"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTopupLinkEnough",
+      "value": "Je hebt al genoeg sterren op dit moment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTopupLinkTopupAnyway",
+      "value": "Toch opwaarderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionAds",
+      "value": "Advertenties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionBot",
+      "value": "Opwaardeerbot voor sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionDate",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionGiftFrom",
+      "value": "Cadeau van"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionHidden",
+      "value": "Verborgen gebruiker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionId",
+      "value": "Transactienummer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionReactionPost",
+      "value": "Bericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonMiniapp",
+      "value": "Mini-app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonProgram",
+      "value": "Partnerprogramma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonTitle",
+      "value": "Reden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionTOS",
       "value": "Bekijk de {link} voor sterren."
     },
@@ -13489,6 +15160,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransactionTo",
+      "value": "Aan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionUnsupportedTitle",
+      "value": "Niet ondersteund"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionVia",
+      "value": "Via"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionsAll",
       "value": "Alle transacties"
     },
@@ -13501,6 +15187,11 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionsOutgoing",
       "value": "Uitgaand"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Start",
+      "value": "Starten"
     },
     {
       "_": "types.LangPackString",
@@ -13526,6 +15217,21 @@
       "_": "types.LangPackString",
       "key": "Statistics",
       "value": "Statistieken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsBoostsToLevelUp",
+      "value": "Boosts voor volgend niveau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsLevel",
+      "value": "Niveau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsPremiumSubscribers",
+      "value": "Premium-abonnees"
     },
     {
       "_": "types.LangPackString",
@@ -13609,6 +15315,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StatsStoryTitle",
+      "value": "Verhaalstatistieken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatusHiddenShow",
+      "value": "wanneer?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StealthModeButton",
       "value": "Sluipmodus activeren"
     },
@@ -13683,6 +15399,11 @@
       "value": "Sluipmodus"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StickerEffects",
+      "value": "Effecten van stickers"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StickerPackAddEmojiCount",
       "one_value": "{count} emoji toevoegen",
@@ -13739,18 +15460,48 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "StickersInstall",
-      "value": "TOEVOEGEN"
+      "key": "StickersBotInfo",
+      "value": "Ontwerpers kunnen hun eigen stickerbundels toevoegen via onze @stickers-bot."
     },
     {
       "_": "types.LangPackString",
-      "key": "StickersInstalled",
-      "value": "TOEGEVOEGD"
+      "key": "StickersListEmojiItem",
+      "value": "Aangepaste emoji"
     },
     {
       "_": "types.LangPackString",
       "key": "StickersRemoveFromFavorites",
       "value": "Verwijder uit favorieten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryContextRemoveFromProfile",
+      "value": "Verwijderen van profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryExpiredSubtitle",
+      "value": "Dit verhaal is verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHeaderEdited",
+      "value": "bewerkt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListArchivedEmptyStateTitle",
+      "value": "Geen gearchiveerde verhalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListItemActionPin",
+      "value": "Vastzetten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListItemActionUnpin",
+      "value": "Losmaken"
     },
     {
       "_": "types.LangPackString",
@@ -13794,13 +15545,98 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryNotFound",
+      "value": "Dit verhaal is niet meer beschikbaar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertEditTitle",
+      "value": "Privacy-instellingen bewerken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertExcludedContactsTitle",
+      "value": "Uitgesloten contacten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertSelectContactsTitle",
+      "value": "Contacten selecteren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertSubtitleProfile",
+      "value": "Kies wie je verhaal kan zien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyButtonSave",
+      "value": "Instellingen opslaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionCloseFriends",
+      "value": "Goede vrienden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionCloseFriendsDetail",
+      "value": "lijst bewerken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionContactsDetail",
+      "value": "personen uitsluiten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionEveryone",
+      "value": "Iedereen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionSelectedContactsDetail",
+      "value": "lijst bewerken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsHint",
+      "value": "Reactie als privébericht versturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepliesLockedButton",
+      "value": "Ontgrendelen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryRibbonMyStory",
       "value": "Mijn verhaal"
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryStatistics",
+      "value": "Verhaalstatistieken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastRemovedFromProfileText",
+      "value": "Verhaal van je profiel verwijderd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastViewInChat",
+      "value": "Bekijken in chat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryTooltipGifSent",
       "value": "Cadeau verstuurd!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryTooltipMessageSent",
+      "value": "Bericht verzonden."
     },
     {
       "_": "types.LangPackString",
@@ -13814,13 +15650,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryTooltipVideoHasNoSound",
+      "value": "Deze video heeft geen geluid"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryUnsupported",
       "value": "Dit verhaal wordt niet ondersteund door Telegram Web A. Probeer het in de Telegram-app te bekijken."
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryViewListEmptyTextSearch",
+      "value": "Geen weergaven"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SubscribeRequests",
       "value": "Aanmeldingsverzoeken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SubscribeTagAbout",
+      "value": "Orden je bewaarde berichten met tags. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SubscribeTagLink",
+      "value": "Lees meer..."
     },
     {
       "_": "types.LangPackString",
@@ -13857,6 +15713,11 @@
       "_": "types.LangPackString",
       "key": "SubtitlePrivacyAddUsers",
       "value": "Gebruikers toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SuggestAnimatedEmoji",
+      "value": "Geanimeerde emoji voorstellen"
     },
     {
       "_": "types.LangPackString",
@@ -14055,6 +15916,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SupportStatus",
+      "value": "ondersteuning"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SureLogout",
       "value": "Weet je zeker dat je wilt uitloggen?"
     },
@@ -14077,11 +15943,6 @@
       "_": "types.LangPackString",
       "key": "Telegram",
       "value": "Telegram"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TelegramFeatures",
-      "value": "Telegram-functies"
     },
     {
       "_": "types.LangPackString",
@@ -14125,6 +15986,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramPremiumUserGiftedPremiumDialogSubtitle",
+      "value": "Je hebt nu toegang tot extra functies."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStars",
+      "value": "Telegram-sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStarsGift",
+      "value": "Sterren aan vrienden cadeau doen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStarsInfo",
+      "value": "Koop sterren om inhoud en diensten\nte ontgrendelen in mini-apps op Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TerminateAllSessions",
       "value": "Alle andere sessies beëindigen"
     },
@@ -14153,16 +16034,6 @@
       "_": "types.LangPackString",
       "key": "TextSensitiveModal",
       "value": "Deze media kan gevoelige inhoud bevatten die alleen geschikt is voor volwassenen. Wil je het nog steeds bekijken?"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TextShowLess",
-      "value": "minder"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TextShowMore",
-      "value": "meer"
     },
     {
       "_": "types.LangPackString",
@@ -14306,16 +16177,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ToDoListErrorChooseTasks",
-      "value": "Voer tenminste één taak in."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ToDoListErrorChooseTitle",
-      "value": "Voer een titel in."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Today",
       "value": "vandaag"
     },
@@ -14323,6 +16184,11 @@
       "_": "types.LangPackString",
       "key": "Tool",
       "value": "Gereedschap"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TopicClosedByAdmin",
+      "value": "Het onderwerp is gesloten"
     },
     {
       "_": "types.LangPackString",
@@ -14338,6 +16204,11 @@
       "_": "types.LangPackString",
       "key": "TranslateMenuCocoonLinkText",
       "value": "Hoe werkt het?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateSettingsAbout",
+      "value": "De vertaalknop zal verschijnen in het contextmenu van berichten die tekst bevatten."
     },
     {
       "_": "types.LangPackString",
@@ -14461,6 +16332,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Understood",
+      "value": "👌 Begrepen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Undo",
       "value": "Terugdraaien"
     },
@@ -14511,6 +16387,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Unlock",
+      "value": "Ontgrendelen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnlockButtonTitle",
       "value": "Ontgrendelen met Telegram Premium"
     },
@@ -14518,6 +16399,21 @@
       "_": "types.LangPackString",
       "key": "UnlockMoreSimilarBots",
       "value": "Meer apps tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockPremiumEmojiHint",
+      "value": "Meld je aan voor **Telegram Premium** om deze emoji te ontgrendelen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockPremiumEmojiHint2",
+      "value": "Verstuur deze emoji gratis in **Opgeslagen berichten** als test."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockSimilar",
+      "value": "Meer kanalen ontgrendelen"
     },
     {
       "_": "types.LangPackString",
@@ -14558,6 +16454,11 @@
       "_": "types.LangPackString",
       "key": "UploadImage",
       "value": "Afbeelding uploaden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UploadSpeedLimited",
+      "value": "Beperkte uploadsnelheid"
     },
     {
       "_": "types.LangPackString",
@@ -14621,6 +16522,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoCustomPhoto",
+      "value": "foto door jou ingesteld"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfoFirstNamePlaceholder",
       "value": "Voornaam"
     },
@@ -14638,6 +16544,21 @@
       "_": "types.LangPackString",
       "key": "UserInfoNotificationsEnabled",
       "value": "Ingeschakeld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoPublicPhoto",
+      "value": "openbare foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoPublicVideo",
+      "value": "openbare video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoResetCustomPhoto",
+      "value": "Terugzetten naar oorspronkelijke foto"
     },
     {
       "_": "types.LangPackString",
@@ -14691,11 +16612,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "UserRestrictionsEmbedLinks",
-      "value": "Link-voorbeeld sturen"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "UserRestrictionsInviteUsers",
       "value": "Gebruikers toevoegen"
     },
@@ -14716,8 +16632,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendDocs",
+      "value": "geen bestanden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendMedia",
       "value": "geen media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendMusic",
+      "value": "geen muziek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendPhotos",
+      "value": "geen foto's"
     },
     {
       "_": "types.LangPackString",
@@ -14728,6 +16659,21 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendStickers",
       "value": "geen stickers & GIF's"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendText",
+      "value": "kan geen tekstberichten versturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendVideos",
+      "value": "geen video's"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendVoice",
+      "value": "geen spraak"
     },
     {
       "_": "types.LangPackString",
@@ -14782,6 +16728,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernameActivateAlertShow",
+      "value": "Weergeven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameActivateAlertText",
+      "value": "Wil je deze link op je infopagina weergeven?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameActivateAlertTitle",
+      "value": "Gebruikersnaam activeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameAppNotFound",
+      "value": "Bot-applicatie niet gevonden."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernameAvailable",
       "value": "{username} is beschikbaar."
     },
@@ -14789,6 +16755,26 @@
       "_": "types.LangPackString",
       "key": "UsernameByPhoneNotFound",
       "value": "Gebruiker {phone} niet gevonden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameCopied",
+      "value": "Gebruikersnaam gekopieerd naar klembord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertHide",
+      "value": "Verbergen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertText",
+      "value": "Wil je deze link van je infopagina verbergen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertTitle",
+      "value": "Gebruikersnaam deactiveren"
     },
     {
       "_": "types.LangPackString",
@@ -14817,8 +16803,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamePurchaseAvailable",
+      "value": "Sorry, deze link is bezet, maar het staat te koop. {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernameShort",
       "value": "Deze gebruikersnaam is te kort."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActive",
+      "value": "actief"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesDescription",
+      "value": "Sleep met links om de volgorde waarin ze op je infopagina worden weergegeven, te wijzigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesEdit",
+      "value": "klik om te bewerken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesNonActive",
+      "value": "inactief"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesSubtitle",
+      "value": "Volgorde van gebruikersnamen"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14845,6 +16861,11 @@
       "_": "types.LangPackString",
       "key": "ValueGiftSortByPrice",
       "value": "Prijs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VerifyCodesNotifications",
+      "value": "Verificatiecodes"
     },
     {
       "_": "types.LangPackString",
@@ -14900,6 +16921,16 @@
       "_": "types.LangPackString",
       "key": "VideoPlayerFullscreen",
       "value": "Volledig scherm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoUnsupportedDesktop",
+      "value": "__Deze video kan helaas niet op Telegram Web worden afgespeeld. Probeer het via onze [desktopapplicatie](https://getdesktop.telegram.org/) te openen.__"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoUnsupportedMobile",
+      "value": "__Deze video kan helaas niet op Telegram Web worden afgespeeld. Probeer het via onze [mobiele app](https://telegram.org/dl/) te openen.__"
     },
     {
       "_": "types.LangPackString",
@@ -15014,11 +17045,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipCamera",
-      "value": "Camera"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipChatJoin",
       "value": "Deelnemen"
     },
@@ -15026,11 +17052,6 @@
       "_": "types.LangPackString",
       "key": "VoipChatStartScreenCapture",
       "value": "Scherm delen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipChatStopScreenCapture",
-      "value": "Stop schermdeling"
     },
     {
       "_": "types.LangPackString",
@@ -15081,11 +17102,6 @@
       "_": "types.LangPackString",
       "key": "VoipGroupLeave",
       "value": "Verlaten"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipGroupLeaveAlertEndChat",
-      "value": "Videochat beëindigen"
     },
     {
       "_": "types.LangPackString",
@@ -15144,38 +17160,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipMutedByAdmin",
-      "value": "Gedempt door een beheerder"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipMutedTapedForSpeak",
-      "value": "Je vroeg om te spreken"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipPeerIncompatible",
       "value": "**{user}** maakt gebruik van een niet-compatibel protocol voor spraakoproepen en moet eerst een update uitvoeren."
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipSpeaker",
-      "value": "Luidspreker"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipTapToMute",
-      "value": "Je bent live"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipUnmute",
       "value": "Geluid aan"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Vote",
-      "value": "Stemmen"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15190,8 +17181,223 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Saldo toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "Wallet-adres gekopieerd naar klembord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "Er is geen Telegram-account\naan dit adres gekoppeld."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Verzamelbaar cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Verzamelbaar nummer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Verzamelbare gebruikersnaam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Verbinden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "Binaire gegevens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Geld verbinden met {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Verbonden apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Adres kopiëren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Toch verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Wallet verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Saldo toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Back-up uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Back-up uitschakelen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Ontkoppelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Back-up inschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Stuur Grams in elke chat, net als hoe je foto's verstuurt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "Directe overmakingen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "De eerste 5 overmakingen per dag zijn gratis. De rest kost vrijwel niets."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "Geen kosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "Alle transacties worden geregistreerd en zijn verifieerbaar in een openbaar logboek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Blockchainverificatie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "Begrepen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "Bewaar je Grams op Telegram (💬 → ⋮ → Geld)\nof in andere wallets."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "Zet Grams om in contant geld of crypto via wisselplatforms."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Netwerkkosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Plakken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Alleen zichtbaar voor jou en de ontvanger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "De opmerking is voor iedereen zichtbaar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "Geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Versturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Geld sturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipient",
+      "value": "Adres of naam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "Als je deze dienst gebruikt, ga je akkoord met de {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOpenWallet",
+      "value": "Open Mijn geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Opwaardering via crypto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Bekijken in Explorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "Wat is Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Wat is geld?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Je geheime zin"
     },
     {
       "_": "types.LangPackString",
@@ -15202,11 +17408,6 @@
       "_": "types.LangPackString",
       "key": "WebAppAddToAttachmentAdd",
       "value": "Toevoegen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WebAppAddToAttachmentText",
-      "value": "{bot} heeft verzocht om als optie aan je bijlagenmenu te worden toegevoegd, zodat je het vanuit elke chat kunt gebruiken."
     },
     {
       "_": "types.LangPackString",
@@ -15240,78 +17441,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Weekday1",
-      "value": "ma"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday2",
-      "value": "di"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday3",
-      "value": "wo"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday4",
-      "value": "do"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday5",
-      "value": "vr"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday6",
-      "value": "za"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday7",
-      "value": "zo"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayFriday",
-      "value": "vrijdag"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayMonday",
-      "value": "maandag"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySaturday",
-      "value": "zaterdag"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySunday",
-      "value": "zondag"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayThursday",
-      "value": "donderdag"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "WeekdayToday",
       "value": "Vandaag"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayTuesday",
-      "value": "dinsdag"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayWednesday",
-      "value": "woensdag"
     },
     {
       "_": "types.LangPackString",
@@ -15357,6 +17488,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Yes",
+      "value": "Ja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "YourEmailCode",
       "value": "Je e-mailcode"
     },
@@ -15381,5 +17517,5 @@
       "value": "Je naam"
     }
   ],
-  "version": 295942
+  "version": 376806
 }

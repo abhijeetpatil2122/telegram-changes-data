@@ -3601,7 +3601,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "Анонимді нөмір"
+      "value": "Жиынтық нөмір"
     },
     {
       "_": "types.LangPackString",
@@ -5233,6 +5233,41 @@
       "_": "types.LangPackString",
       "key": "AudioAutodownload",
       "value": "Дауысхат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneral",
+      "value": "Жазу теңшеуі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneralInfo",
+      "value": "RNNoise фондық шуды жояды және музыкаға не өте ақырын сөйлеуге әсер етуі мүмкін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppression",
+      "value": "Шу басқыш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionOff",
+      "value": "Өшіру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionRNNoise",
+      "value": "RNNoise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderSettings",
+      "value": "Дауысхат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderUseNewRecorder",
+      "value": "Жаңа жазу теңшеуін қолдану"
     },
     {
       "_": "types.LangPackString",
@@ -9427,6 +9462,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotTypeAI",
+      "value": "ЖИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAgent",
+      "value": "Агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeApp",
+      "value": "Қолданба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeGame",
+      "value": "Ойын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeNonBinary",
+      "value": "Бейбинар"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotUnblock",
       "value": "ҚАЙТАДАН ІСКЕ ҚОСУ"
     },
@@ -10833,7 +10893,7 @@
       "_": "types.LangPackStringPluralized",
       "key": "BusinessRepliesLimit",
       "one_value": "",
-      "other_value": "Шектеу: **%d** хаттан көп жасай аласыз."
+      "other_value": "Шектеу: **%d** хаттан көп жасай алмайсыз"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -10885,7 +10945,7 @@
       "_": "types.LangPackStringPluralized",
       "key": "BusinessRepliesToastLimit",
       "one_value": "",
-      "other_value": "Шектеу: **%d** хат жасай аласыз."
+      "other_value": "Шектеу: **%d** хаттан көп жасай алмайсыз."
     },
     {
       "_": "types.LangPackString",
@@ -11010,7 +11070,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallAvailableIn",
-      "value": "%1$d:%2$02d кейін дыбыстық қоңырау сұрай аласыз"
+      "value": "%1$d:%2$02d кейін қоңырау сұрай аласыз"
     },
     {
       "_": "types.LangPackString",
@@ -13561,7 +13621,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChooseMapPreviewProvider",
-      "value": "Картаның сервисін таңдаңыз"
+      "value": "Картаның көрініс жүйесін таңдаңыз"
     },
     {
       "_": "types.LangPackString",
@@ -15153,7 +15213,7 @@
     {
       "_": "types.LangPackString",
       "key": "ContactInfoPhoneFragment",
-      "value": "Аноним"
+      "value": "Жиынтық"
     },
     {
       "_": "types.LangPackString",
@@ -15509,8 +15569,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameBotLimit",
+      "value": "Бұл боттың Premium қолданушы аты бар. Басқасын қоспас бұрын оны арылтыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameCheckFailed",
+      "value": "Бұл қолданушы атын тексеру мүмкін емес. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameInfo",
       "value": "Қолданушы атын өзгерту үшін басыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameOwnerLimit",
+      "value": "Барлық ботта %2$s деп аяқталатын тек %1$d қолданушы аты болуы мүмкін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequired",
+      "value": "«%1$s» деп аяқталатын қолданушы аттары Telegram Premium-ді талап етеді. **Жазылу ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequiredGeneric",
+      "value": "Бұл қолданушы атына Telegram Premium қажет. **Жазылу ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixMissing",
+      "value": "Қолданушы аты %1$s деп аяқталуы тиіс."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesComma",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesInfo",
+      "value": "**Telegram Premium** арқылы «bot» не «%1$s» деп аяқталуы керек."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesOr",
+      "value": "%1$s не %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -18122,7 +18227,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "Бұндай пошта домені рұқсат етілмеген."
+      "value": "Бұл поштаны қолдана алмайсыз."
     },
     {
       "_": "types.LangPackString",
@@ -21054,7 +21159,7 @@
     {
       "_": "types.LangPackString",
       "key": "ForgotPasscode",
-      "value": "Құлыптау кодын ұмытып қалдыңыз ба?"
+      "value": "Құлыптау кодын ұмыттыңыз ба?"
     },
     {
       "_": "types.LangPackString",
@@ -21869,6 +21974,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2AddToProfile",
+      "value": "Бейінге қосу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2AddedToCollection",
       "value": "**%1$s** **%2$s** қосылды."
     },
@@ -21877,6 +21987,11 @@
       "key": "Gift2AddedToCollectionMany",
       "one_value": "**%1$d сыйлық** **%2$s** жиынтығына қосылды.",
       "other_value": "**%1$d сыйлық** **%2$s** жиынтығына қосылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2AlsoShowInMyGifts",
+      "value": "сыйлықтарымда да көрсету"
     },
     {
       "_": "types.LangPackString",
@@ -22306,6 +22421,11 @@
       "value": "**%d жұлдыз** – **%s** сыйлықтың орташа сатылым бағасы."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2BrowseCollectiblesInfo",
+      "value": "Сыйлықтарды бейініңізде көрсетіңіз. Сирек сыйлықтарды жиынтыққа жаңартып, оларды сата аласыз."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2ButtonSell",
       "one_value": "%d жұлдызға сату",
@@ -22572,6 +22692,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2DeleteOption",
+      "value": "Сыйлықты жою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2DeleteText",
+      "value": "Бұл сыйлықты жоясыз ба?\n\nОл бейініңізден жоғалады және қалпына келтіре алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Deleted",
+      "value": "Сыйлық жойылды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2EditCollectionNameTitle",
       "value": "Атын өңдеу"
     },
@@ -22686,6 +22821,11 @@
       "_": "types.LangPackString",
       "key": "Gift2HideChannelInfo",
       "value": "Осы арнада атыңыз бен хатыңызды жасыра аласыз. Жасырылған ат пен хатты тек әкімшілер көреді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2HideFromProfile",
+      "value": "Бейінімнен жасыру"
     },
     {
       "_": "types.LangPackString",
@@ -22870,6 +23010,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2KeepOnProfile",
+      "value": "Бейінімде көрсету"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2LearnMoreText",
       "value": "%s сыйлықты бірегей жиынтыққа айналдыра алады."
     },
@@ -22989,6 +23134,51 @@
       "_": "types.LangPackString",
       "key": "Gift2More",
       "value": "**Толығырақ >**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Move",
+      "value": "Ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveAppearIn",
+      "value": "Бұнда пайда болады:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGifts",
+      "value": "Сыйлықтарыма ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsInfo",
+      "value": "Оны кез келген уақытта қайтадан блокчейнге ауыстыра аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsText",
+      "value": "Осы жиынтық блокчейннен Telegram тіркелгіңізге ауыстырасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWallet",
+      "value": "Әмияныма ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWalletText",
+      "value": "Бұл сыйлықты блокчейн әмияныңызға аударасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToProfile",
+      "value": "Сыйлық бейініңізге ауыстырылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToWallet",
+      "value": "Сыйлық әмияныңызға ауысытырылды."
     },
     {
       "_": "types.LangPackString",
@@ -23283,6 +23473,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2RemoveFromProfile",
+      "value": "Бейіннен жою"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2RemovedFromCollection",
       "value": "%1$s **%2$s** жиынтығынан жойылады."
     },
@@ -23461,6 +23656,11 @@
       "other_value": "Сыйлықты ⭐️%d сатып алу"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2SendViaFragment",
+      "value": "Fragment арқылы жіберу"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2SendYourBalance",
       "one_value": "Теңгеріміңіз: %d жұлдыз.",
@@ -23481,6 +23681,11 @@
       "_": "types.LangPackString",
       "key": "Gift2ShowGift",
       "value": "Көрсету"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2ShowOnProfile",
+      "value": "Бейінімде көрсету"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23781,6 +23986,36 @@
       "_": "types.LangPackString",
       "key": "Gift2TransferTimeoutTitle",
       "value": "Кейінірек қайталау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfile",
+      "value": "Бейініме аудару"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfileText",
+      "value": "Әмияныңыздан Telegram бейініңізге **%s** аударасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWallet",
+      "value": "Әмияныма ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletSent",
+      "value": "**%s** жақында әмияныңызда пайда болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletText",
+      "value": "Әмияныңызға **%s** аударасыз ба? Ол бейініңізде көрініп тұрады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletTitle",
+      "value": "Әмиянға ауыстыру"
     },
     {
       "_": "types.LangPackString",
@@ -24141,6 +24376,11 @@
       "_": "types.LangPackString",
       "key": "Gift2WearTitle",
       "value": "%s тасу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2WearWalletHidden",
+      "value": "Бұл сыйлықты тасу үшін оны бейініңізде көрсетіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -25524,6 +25764,16 @@
       "_": "types.LangPackString",
       "key": "GramEarnings",
       "value": "Gram табысы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Gram-ды Fragment арқылы шешуге болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "Gram-дарыңыз сыйлықтардан,\nжарнамалардан және Fragment-тен алынды."
     },
     {
       "_": "types.LangPackString",
@@ -28141,7 +28391,7 @@
     {
       "_": "types.LangPackString",
       "key": "LimitReachedSharedFolders",
-      "value": "%1$d буманы ғана бөлісе аласыз.\n**Telegram Premium**-ге жазылып, шектеуді **%2$d** дейін ұлғайта аласыз."
+      "value": "Тек %1$d буманы бөлісе аласыз.\n**Telegram Premium**-ге жазылып, шектеуді **%2$d** дейін ұлғайта аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -31758,6 +32008,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenImported",
+      "value": "Енді **%1$s** тегін жаза аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsed",
+      "value": "un1 QR кодыңызды қолданды және сізге тегін хат жаза алады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsedOut",
+      "value": "un1 QR кодын қолдандыңыз және оларға тегін хат жаза аласыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPhoneFound",
       "value": "Нөмірі тіркелген Telegram тіркелгісі жоқ."
     },
@@ -32014,7 +32279,7 @@
     {
       "_": "types.LangPackString",
       "key": "NoTopicsDescriptionUser",
-      "value": "Топтағы ескі хаттар **’%s’** тақырыбына ауыстырылды."
+      "value": "Топтағы ескі хаттар **«%s»** тақырыбына ауыстырылды."
     },
     {
       "_": "types.LangPackString",
@@ -32502,7 +32767,22 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationGramTransfer",
-      "value": "%1$s сізге жіберді: %2$s"
+      "value": "%1$s сізге %2$s жіберді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s сізге жіберді: %2$s - %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "%2$s алдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "Сіз алдыңыз: %2$s - %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -33028,7 +33308,7 @@
     {
       "_": "types.LangPackString",
       "key": "NotificationWalletTonConnectRequest",
-      "value": "Сізде TON Connect-ке өтініш бар"
+      "value": "Сізде TON Connect-ке сұраным бар"
     },
     {
       "_": "types.LangPackString",
@@ -36584,6 +36864,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PleaseEnterCurrentPasswordGiftWallet",
+      "value": "**%s** әмияныңызға ауыстыру үшін құпиясөзді енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PleaseEnterCurrentPasswordTransfer",
       "value": "Тапсыруды аяқтау үшін құпиясөзіңізді енгізіңіз."
     },
@@ -39687,6 +39972,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%2$s ішінде ойын ұпайыңызға %3$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "Картаңызға %3$s басты"
     },
@@ -39722,6 +40012,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%2$s ішінде сауалнама жаңартуыңызға %3$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "%4$s куизіңізге %3$s басты"
     },
@@ -39737,13 +40032,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%2$s ішіндегі хикаяңызға %3$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "«%4$s» хатыңызға %3$s басты"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%2$s ішінде кейіп өзгерткеңізге %3$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%3$s %2$s тапсырма тізіміңізге %4$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%2$s ішінде тапсырманы жаңартқаңыз үшін %3$s басты"
     },
     {
       "_": "types.LangPackString",
@@ -39772,6 +40082,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "Ойын ұпайыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "Картаңызға %2$s басты"
     },
@@ -39784,6 +40099,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "GIF-іңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "Сыйлық кодыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "%3$s аударымыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%3$s аударымыңызға %2$s басты: %4$s"
     },
     {
       "_": "types.LangPackString",
@@ -39802,8 +40132,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "Ақылы жазбаңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "Суретіңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "Өздігінен жойылатын суретіңізге %2$s басты"
     },
     {
       "_": "types.LangPackString",
@@ -39812,13 +40152,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "Мәлімдемеңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "«%3$s» куизіңізге %2$s басты"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "Төлеміңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "Бейнехатыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "Бірдей тұсқағазға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "Скриншотыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "Құны %3$s жұлдыз тұратын сыйлыққа %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "Құны %3$s жұлдыз тұратын сыйлық жаңартуы үшін %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "Жаңартуға көмектескен сыйлық үшін %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "Жаңартылған сыйлық үшін %2$s басты"
     },
     {
       "_": "types.LangPackString",
@@ -39842,8 +40222,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "Хикаяда атап өтуіңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "Туған күн ұсынысыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "Сурет ұсынуыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "«%3$s» хатыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "Кейіп өзгертуіңізге %2$s басты"
     },
     {
       "_": "types.LangPackString",
@@ -39857,8 +40257,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "Сыйлығыңызға %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "Бейнеңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "Өздігінен жойылатын бейнеңізге %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "TON Connect сұранымына %2$s басты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "Жаңа тұсқағазға %2$s басты"
     },
     {
       "_": "types.LangPackString",
@@ -39902,8 +40322,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrBrowseGifts",
+      "value": "Сыйлық іздеу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrChatNoCollectibles",
+      "value": "Әзірге жиынтық сыйлығы жоқ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCode",
       "value": "QR код"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCollectibles",
+      "value": "Жиынтықтар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCreatingLink",
+      "value": "Сілтеме жасалуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrEmojiPresets",
+      "value": "Стандарт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrGift",
+      "value": "Сыйлық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrLoadingGifts",
+      "value": "Сыйлықтар жүктелуде…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoCollectibles",
+      "value": "Сізде әлі жиынтық сыйлығы жоқ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsInfo",
+      "value": "QR кодыңызды безендіру үшін өзіңізге\nтиесілі жиынтық сыйлығын қолданыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsTitle",
+      "value": "Әзірше сыйлық жоқ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidExpiresIn",
+      "value": "%1$s мерзімі өтеді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidFree",
+      "value": "Тегін"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimer",
+      "value": "Таймерді өшіру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimerInfo",
+      "value": "Тегін, уақыт шектеусіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimer",
+      "value": "Таймерді қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimerInfo",
+      "value": "Мерзімі 1 минутта аяқталады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuReset",
+      "value": "Кодты арылту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuRestoreFee",
+      "value": "Хат ақысын қайтару"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidNoTimeLimit",
+      "value": "Шектеусіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveFee",
+      "value": "Ақы алмау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveStarsFee",
+      "value": "★%1$s ақы алмау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpired",
+      "value": "Хат жазу енді қайтадан ақылы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpires",
+      "value": "Бұл кодтың мерзімі 1 минутта аяқталады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastFeeRestored",
+      "value": "Хаттың ақысы қайтарылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNewCode",
+      "value": "Жаңа код жасалды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNoTimeLimit",
+      "value": "Код тегін, уақыт шектеусіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumEmojiToast",
+      "value": "Барлық эмоджиді қолдану үшін Premium-ге жазылыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumGiftsToast",
+      "value": "QR кодыңыздағы сыйлықтарды\nқолдану үшін Premium-ге жазылыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumSubscribe",
+      "value": "Жазылу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrProfileColors",
+      "value": "Бейін түсі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrSavedToGallery",
+      "value": "QR коды галереяға сақталды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrScanQr",
+      "value": "QR скандау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrThemePremiumOnly",
+      "value": "Эмоджилер мен сыйлықтар үшін Premium қажет"
     },
     {
       "_": "types.LangPackString",
@@ -42153,6 +42738,11 @@
       "_": "types.LangPackString",
       "key": "RoundVideoCameraResolutionMedium",
       "value": "Орташа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Композиция"
     },
     {
       "_": "types.LangPackString",
@@ -48717,7 +49307,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StoryKeepInfo",
-      "one_value": "%d сағат өтсе де, хикая бейініңізде сақтала береді.. Ол таңдалған құпиялық баптауына сәйкес көрсетіледі.",
+      "one_value": "%d сағат өтсе де, хикая бейініңізде сақтала береді. Ол таңдалған құпиялық баптауына сәйкес көрсетіледі.",
       "other_value": "%d сағат өтсе де, хикая бейініңізде сақтала береді. Ол таңдалған құпиялық баптауына сәйкес көрсетіледі."
     },
     {
@@ -56149,22 +56739,22 @@
     {
       "_": "types.LangPackString",
       "key": "WalletActionReceivedGrams",
-      "value": "un1 сізге жіберді: **%1$s**"
+      "value": "un1 сізге **%1$s** жіберді"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletActionReceivedGramsSomeone",
-      "value": "Біреу сізге жіберді: **%1$s**"
+      "value": "Біреу сізге **%1$s** жіберді"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletActionSentGrams",
-      "value": "Сіз жібердіңіз: un1 **%1$s**"
+      "value": "un1 **%1$s** жібердіңіз"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletActionSentGramsShort",
-      "value": "сіз жібердіңіз: **%1$s**"
+      "value": "**%1$s** жібердіңіз"
     },
     {
       "_": "types.LangPackString",
@@ -56224,12 +56814,12 @@
     {
       "_": "types.LangPackString",
       "key": "WalletAppRequestsSignature",
-      "value": "%1$s қолтаңбаңызды талап етеді"
+      "value": "%1$s қолтаңбаңызды сұрап тұр"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletAppRequestsTransfer",
-      "value": "%1$s аударымды талап етеді"
+      "value": "%1$s аударымды сұрап тұр"
     },
     {
       "_": "types.LangPackString",
@@ -56304,12 +56894,22 @@
     {
       "_": "types.LangPackString",
       "key": "WalletBuyWithCashOrCrypto",
-      "value": "Қолма-қол ақшамен не криптомен сатып алу"
+      "value": "Ақша не криптоға сатып алу"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletCancel",
       "value": "Бас тарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard2D",
+      "value": "2D карта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard3D",
+      "value": "3D карта"
     },
     {
       "_": "types.LangPackString",
@@ -56349,7 +56949,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletCommentOptionalMessage",
-      "value": "Міндетті емес хат"
+      "value": "Пікір (міндетті емес)"
     },
     {
       "_": "types.LangPackString",
@@ -56369,7 +56969,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletConfirmWithPasscode",
-      "value": "Құлыптау коды арқылы растаңыз"
+      "value": "Құлыптау коды арқылы растау"
     },
     {
       "_": "types.LangPackString",
@@ -56378,8 +56978,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "Қолданба TON мекенжайыңызды,\nтеңгеріміңізді және әрекетіңізді көре алады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "Қолданба рұқсатсыз қаражатты\nауыстыра алмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofInfo",
+      "value": "Қолданба TON мекенжайыңызды, теңгеріміңізді және әрекетіңізді көре алады және сізді кіру үшін қолтаңба сұрауы мүмкін. Бұл аударым емес."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectToApp",
-      "value": "Әмиянды %1$s қосу"
+      "value": "Ақшаны %1$s қосу"
     },
     {
       "_": "types.LangPackString",
@@ -56613,6 +57228,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "Gram-ды кез келгенге аударыңыз.\nЧатта 📎 → Ақша батырмасын басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletFirstGramsStoreInfo",
       "value": "Gram-ды Telegram-да (💬 → ⋮ → Ақша)\nне басқа әмиянда сақтаңыз."
     },
@@ -56620,6 +57240,51 @@
       "_": "types.LangPackString",
       "key": "WalletFirstGramsTradeInfo",
       "value": "Gram-ды биржада қолма-қол ақшаға не криптаға айырбастаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftAddToCard",
+      "value": "Картаға қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftApplyColor",
+      "value": "Түсті қолдану"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnly",
+      "value": "Картаңыздың түсін өзгерту үшін тек %1$s және %2$s қолдануға болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnlyOne",
+      "value": "Картаңыздың түсін өзгерту үшін тек %1$s қолдануға болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHere",
+      "value": "Бұл жиынтықтық осында жылжытыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHint",
+      "value": "Бұл жиынтықты безендіру үшін оны картаға жылжытыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftOnCard",
+      "value": "Картада"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveColor",
+      "value": "Түсті жою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveFromCard",
+      "value": "Картадан жою"
     },
     {
       "_": "types.LangPackString",
@@ -56649,7 +57314,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletHowItWorksInfo",
-      "value": "Ақшаңызды тек сіз бақылайсыз —\nбасқа ешкімнің қолжетімділігі жоқ."
+      "value": "Ақшаңызды тек сіз бақылайсыз,\nбасқа ешкімнің қолжетімділігі жоқ."
     },
     {
       "_": "types.LangPackString",
@@ -56664,7 +57329,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletImportCurrentPhraseInfo",
-      "value": "Басқа құрылғыдан әмияныңыздың %1$d сөздік құпия тіркесін енгізіңіз."
+      "value": "Басқа құрылғыдан әмияныңыздың %1$d сөзден тұратын құпия тіркесін енгізіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -56753,6 +57418,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletMovedFromProfile",
+      "value": "бейіннен ауыстырылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedToProfile",
+      "value": "бейінге ауыстырылды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNetworkFee",
       "value": "Желі комиссиясы"
     },
@@ -56793,6 +57468,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNotEnoughGramToTransferGift",
+      "value": "Сыйлықты аудару үшін сізге кем дегенде %s қажет."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNotNow",
       "value": "Қазір емес"
     },
@@ -56805,6 +57485,11 @@
       "_": "types.LangPackString",
       "key": "WalletOldWalletsBalance",
       "value": "Ескі әмияндарда да %1$s бар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyMoney",
+      "value": "Ақшамды ашу"
     },
     {
       "_": "types.LangPackString",
@@ -56869,8 +57554,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletProfileOwnsGrams",
+      "value": "%1$s TON блокчейнінде %2$s иелік етеді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsNoGrams",
+      "value": "%1$s әлі бірде-бір Gram жоқ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletProtectAccount",
       "value": "Тіркелгіңізді қорғаңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicBalanceNote",
+      "value": "Теңгеріміңіз блокчейннің\nашықтығына байланысты ашық."
     },
     {
       "_": "types.LangPackString",
@@ -56880,7 +57580,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletReceiveInfo",
-      "value": "GRAM алу үшін QR-код\nне мекенжай бөлісіңіз."
+      "value": "GRAM алу үшін QR код\nне мекенжай бөлісіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -56954,6 +57654,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSearchGifts",
+      "value": "Сыйлық іздеу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSearchNoResults",
       "value": "«%1$s» деген нәтиже табылмады.\nБасқа атауды не мекенжайды енгізіп көріңіз."
     },
@@ -56985,7 +57690,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletSendInstantly",
-      "value": "Ақшаны лезде жіберу"
+      "value": "Жедел аударым"
     },
     {
       "_": "types.LangPackString",
@@ -57065,7 +57770,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletTitle",
-      "value": "Әмиян"
+      "value": "Ақша"
     },
     {
       "_": "types.LangPackString",
@@ -57151,6 +57856,11 @@
       "_": "types.LangPackString",
       "key": "WalletTransactionSimulationFailed",
       "value": "Транзакцияны модельдеу сәтсіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTelegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -57681,8 +58391,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "WelcomeMessagesLimit",
-      "one_value": "Шектеу: %d хаттан көп жасай аласыз.",
-      "other_value": "Шектеу: %d хаттан көп жасай аласыз."
+      "one_value": "Шектеу: %d хаттан көп жасай алмайсыз.",
+      "other_value": "Шектеу: %d хаттан көп жасай алмайсыз."
     },
     {
       "_": "types.LangPackString",
@@ -58355,5 +59065,5 @@
       "value": "Telegram төлқұжат"
     }
   ],
-  "version": 61213075
+  "version": 61418397
 }

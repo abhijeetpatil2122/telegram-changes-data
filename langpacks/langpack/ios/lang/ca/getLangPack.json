@@ -1826,7 +1826,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArchiveInfo.CloseAction",
-      "value": "D'acord"
+      "value": "Entesos"
     },
     {
       "_": "types.LangPackString",
@@ -2150,6 +2150,11 @@
       "_": "types.LangPackString",
       "key": "Attachment.MessagesPreview",
       "value": "Previsualització"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Attachment.Money",
+      "value": "Diners"
     },
     {
       "_": "types.LangPackString",
@@ -5652,8 +5657,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CHAT_REACT_GAME_SCORE",
+      "value": "%2$@|%1$@ ha reaccionat amb %3$@ a la puntuació"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CHAT_REACT_GIVEAWAY",
       "value": "%1$@ ha reaccionat amb %3$@ al grup %2$@ al vostre sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_NOTHEME",
+      "value": "%2$@|%1$@ ha reaccionat amb %3$@ al canvi de tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_POLL_APPEND",
+      "value": "%2$@|%1$@ ha reaccionat amb %3$@ a l'actualització de l'enquesta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_STORY",
+      "value": "%2$@|%1$@ ha reaccionat amb %3$@ a la història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CHAT_REACT_THEME",
+      "value": "%2$@|%1$@ ha reaccionat amb %3$@ al canvi de tema"
     },
     {
       "_": "types.LangPackString",
@@ -6286,7 +6316,7 @@
     {
       "_": "types.LangPackString",
       "key": "Call.StatusWeakSignal",
-      "value": "La cobertura de la xarxa és dèbil"
+      "value": "Poca cobertura mòbil"
     },
     {
       "_": "types.LangPackString",
@@ -6667,6 +6697,11 @@
       "_": "types.LangPackString",
       "key": "Camera.CollageRemoveHint",
       "value": "Toqueu per a eliminar la graella"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Camera.CollageReorderHint",
+      "value": "Manteniu i arrossegueu per a reordenar-los"
     },
     {
       "_": "types.LangPackString",
@@ -11318,6 +11353,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Received",
+      "value": "rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GramTransfer.Sent",
+      "value": "enviat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.GramTransfer.WithFiat",
       "value": "%1$@ us ha enviat %2$@ (%3$@)"
     },
@@ -11653,7 +11698,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.NonContactUser.AnonymousNumber",
-      "value": "Anònim"
+      "value": "Col·leccionable"
     },
     {
       "_": "types.LangPackString",
@@ -14268,6 +14313,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.FolderAllChats",
       "value": "Tots els xats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.FoldersTip",
+      "value": "Manteniu premut #**Xats**\nper a veure totes les carpetes."
     },
     {
       "_": "types.LangPackString",
@@ -19692,7 +19742,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.SecretChatContextBotAlert",
-      "value": "Tingueu present que els bots en línia són propietat de tercers. Perquè el bot funcioni, tot allò que escriviu després del seu nom d'usuari s'enviarà al seu desenvolupador."
+      "value": "Tingueu present que els bots integrats són propietat de tercers. Perquè el bot funcioni, tot allò que escriviu després del seu nom d'usuari s'enviarà al seu desenvolupador."
     },
     {
       "_": "types.LangPackString",
@@ -20756,6 +20806,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEnding",
+      "value": "«%@»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingDelimiter",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameEndingFinalDelimiter",
+      "value": " o "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHint",
+      "value": "Ha d'acabar en %1$@, o en %2$@ amb el [Telegram Premium]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameHintFree",
+      "value": "Ha d'acabar en %@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Checking",
       "value": "S'està comprovant..."
     },
@@ -20777,13 +20852,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Long",
+      "value": "Un nom d'usuari no pot tenir més de 32 caràcters."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Number",
       "value": "El nom d'usuari no pot començar amb un nombre."
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.PremiumRequired",
+      "value": "Els usuaris acabats en %@ requereixen el Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Short",
       "value": "El nom d'usuari ha de tenir almenys 5 caràcters."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.Subscribe",
+      "value": "Subscriu-me >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.UsernameStatus.SuffixLimit",
+      "value": "Només podeu tenir %1$@ acabat en %2$@ en tots els vostres bots."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "one_value": "%d nom d'usuari",
+      "other_value": "%d noms d'usuari"
     },
     {
       "_": "types.LangPackString",
@@ -23341,8 +23442,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "FormattedDate.InHours",
-      "one_value": "en %@ hora",
-      "other_value": "en %@ hores"
+      "one_value": "d'aquí a %@ hora",
+      "other_value": "d'aquí a %@ hores"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24766,6 +24867,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Delete.Success",
+      "value": "Regal eliminat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Text",
+      "value": "Voleu eliminar aquest regal?\n\nDesapareixerà del vostre perfil i no el podreu restablir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "Elimineu el regal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Demo.Description",
       "value": "Els regals són col·leccionables que podeu intercanviar o exhibir al vostre perfil."
     },
@@ -24888,6 +25004,46 @@
       "_": "types.LangPackString",
       "key": "Gift.Message.YourMessage",
       "value": "El vostre missatge..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "S'ha mogut el regal al vostre compte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "Voleu transferir-lo fora de la cadena de blocs, al vostre compte de Telegram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "Mou als meus regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "Apareixerà en"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "Mou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "S'ha mogut el regal a la vostra cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Voleu transferir el regal a la vostra cartera de la cadena de blocs?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Moviment a la meva cartera"
     },
     {
       "_": "types.LangPackString",
@@ -25566,6 +25722,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "Mou als meus regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Mou a la meva cartera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Transfer.SendUnlocks",
       "value": "es desbloca en %@"
     },
@@ -26163,6 +26329,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "Elimina el regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Amaga al perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.Context.SetAsTheme",
       "value": "Estableix com a tema a..."
     },
@@ -26170,6 +26346,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Share",
       "value": "Comparteix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "Mostra al perfil"
     },
     {
       "_": "types.LangPackString",
@@ -30394,7 +30575,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.AnonymousNumbers",
-      "value": "Números anònims"
+      "value": "Números col·leccionables"
     },
     {
       "_": "types.LangPackString",
@@ -31431,12 +31612,12 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN",
-      "value": "Heu rebut %@"
+      "value": "Heu rebut %2$@"
     },
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_GRAM_TRANSFER_UNKNOWN_COMMENT",
-      "value": "Heu rebut %@: %@"
+      "value": "Heu rebut %2$@: %3$@"
     },
     {
       "_": "types.LangPackString",
@@ -31570,8 +31751,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MESSAGE_WALLET_TONCONNECT_REQUEST",
+      "value": "Teniu una sol·licitud de connexió TON"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST_DAPP",
-      "value": "Teniu una sol·licitud de connexió TON de %@"
+      "value": "Teniu una sol·licitud de connexió TON de %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -33731,7 +33917,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TransactionInfo.ViewInExplorer",
-      "value": "Mostra a l'explorador de cadena de blocs"
+      "value": "Mostra a l'explorador"
     },
     {
       "_": "types.LangPackString",
@@ -33742,6 +33928,11 @@
       "_": "types.LangPackString",
       "key": "Monetization.TransactionsTitle",
       "value": "HISTORIAL DE TRANSACCIONS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Monetization.Withdraw.AmountTooSmallError",
+      "value": "No podeu retirar menys de 10 Grams."
     },
     {
       "_": "types.LangPackString",
@@ -33982,8 +34173,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "MuteExpires.Hours",
-      "one_value": "en 1 hora",
-      "other_value": "en %@ hores"
+      "one_value": "d'aquí a 1 hora",
+      "other_value": "d'aquí a %@ hores"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -35046,6 +35237,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransfer",
+      "value": "%1$@ us ha enviat %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransfer.Compact",
       "value": "us ha enviat %@"
     },
@@ -35283,6 +35479,16 @@
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
       "value": "%1$@,\nHem detectat un inici de sessió al vostre compte des d'un dispositiu nou el %2$@, %3$@, a les %4$@\n\nDispositiu: %5$@\nUbicació: %6$@\n\nSi no en sabeu res, aneu a Configuració > Dispositius i finalitzeu aquesta sessió.\n\nSi penseu que una altra persona hi ha iniciat sessió contra la vostra voluntat, podeu activar la verificació en dos passos a la configuració de Privadesa i seguretat.\n\nAtentament,\nL'equip del Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "%@ ha usat el vostre enllaç per a enviar missatges de franc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Heu usat l'enllaç de %@ per a enviar missatges de franc"
     },
     {
       "_": "types.LangPackString",
@@ -36770,8 +36976,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Notifications.ExceptionMuteExpires.Hours",
-      "one_value": "En 1 hora",
-      "other_value": "En %@ hores"
+      "one_value": "D'aquí a 1 hora",
+      "other_value": "D'aquí a %@ hores"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -38209,7 +38415,7 @@
     {
       "_": "types.LangPackString",
       "key": "PUSH_CHAT_REACT_PAID_MEDIA",
-      "value": "%2$@|%1$@ %3$@ per la vostra publicació"
+      "value": "%2$@|%1$@ %3$@ a la publicació de pagament"
     },
     {
       "_": "types.LangPackString",
@@ -38315,6 +38521,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_MESSAGE",
       "value": "Teniu un missatge nou%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_LOCKED_STORY",
+      "value": "Teniu una història nova%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -39066,7 +39277,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.LockWallet",
-      "value": "Bloca els diners"
+      "value": "Blocatge de diners"
     },
     {
       "_": "types.LangPackString",
@@ -39095,6 +39306,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.TurnOffWalletProtectionWarning",
+      "value": "Això també desactivarà el codi de blocatge i la protecció biomètrica de la cartera en aquest dispositiu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.TurnPasscodeOff",
       "value": "Desactiva el codi d'accés"
     },
@@ -39115,6 +39331,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.UpdateError",
+      "value": "No s'ha pogut actualitzar el codi d'accés. Desbloqueu de nou i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.VerificationError",
+      "value": "No s'ha pogut verificar el codi d'accés. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletConfirmWithFaceId",
       "value": "Confirma amb Face ID"
     },
@@ -39130,8 +39356,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletEnableBiometricsReason",
+      "value": "Activeu l'accés biomètric a les vostres carteres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSettings.WalletProtectionError",
+      "value": "No s'ha pogut actualitzar la protecció de la cartera. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeSettings.WalletProtectionInfo",
-      "value": "Necessari en enviar diners o confirmar altres accions delicades de diners."
+      "value": "Necessari en enviar diners o en confirmar altres accions delicades."
     },
     {
       "_": "types.LangPackString",
@@ -41712,8 +41948,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "PeerStatusExpiration.Hours",
-      "one_value": "L'estat caduca en 1 hora",
-      "other_value": "L'estat caduca en %@ hores"
+      "one_value": "L'estat caduca d'aquí a 1 hora",
+      "other_value": "L'estat caduca d'aquí a %@ hores"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42111,6 +42347,11 @@
       "_": "types.LangPackString",
       "key": "PlaybackSpeed.Title",
       "value": "Velocitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Poll.Timer.MinutesSeconds",
+      "value": "%1$@:%2$@"
     },
     {
       "_": "types.LangPackString",
@@ -44614,7 +44855,7 @@
     {
       "_": "types.LangPackString",
       "key": "Privacy.TopPeersWarning",
-      "value": "Això eliminarà totes les dades sobre les persones amb qui us comuniqueu sovint, així com els bots en línia que feu servir."
+      "value": "Això eliminarà totes les dades sobre les persones amb qui us comuniqueu sovint, així com els bots integrats que feu servir."
     },
     {
       "_": "types.LangPackString",
@@ -45497,6 +45738,151 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Profile",
+      "value": "Colors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Colors.Themes",
+      "value": "Temes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Browse",
+      "value": "Explora els regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyText",
+      "value": "Useu un dels vostres col·leccionables\nper a donar estil al codi QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.EmptyTitle",
+      "value": "Encara no hi ha regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Gifts.Title",
+      "value": "Col·leccionables"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimer",
+      "value": "Sense caducitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.DisableTimerInfo",
+      "value": "De franc per a sempre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Expire",
+      "value": "Vàlid per 1 minut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Reset",
+      "value": "Sol·licita un codi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Menu.Restore",
+      "value": "Restableix la tarifa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Imported",
+      "value": "Ja podeu escriure a %@ de franc."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.NoPaidToken.Invalid",
+      "value": "Aquest enllaç no és vàlid o ha caducat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.ExpiresIn",
+      "value": "Caduca d'aquí a %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Free",
+      "value": "De franc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.Permanent",
+      "value": "Permanent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Pill.RemoveFee",
+      "value": "Elimina la tarifa (%@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.CopyLink",
+      "value": "Copia l'enllaç"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Share.Share",
+      "value": "Comparteix…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Expires",
+      "value": "El codi caducarà d'aquí a 1 minut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Failed",
+      "value": "Alguna cosa ha anat malament. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRemoved",
+      "value": "Els missatges amb aquest codi són de franc."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.FeeRestored",
+      "value": "S'ha tornat a aplicar la tarifa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.ImageSaved",
+      "value": "S'ha desat la imatge a Fotos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.LinkCopied",
+      "value": "S'ha copiat l'enllaç al porta-retalls."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.NewCode",
+      "value": "S'ha creat el codi. L'antic ja no funcionarà."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Permanent",
+      "value": "Aquest codi ja no caducarà."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.PremiumEmoji",
+      "value": "Subscriviu-vos al Premium per a poder usar tots els emojis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Toast.Subscribe",
+      "value": "Subscriu-me"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReplies.EmptyState.AddButton",
       "value": "Afegeix una resposta ràpida"
     },
@@ -45625,8 +46011,113 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "REACT_GAME_SCORE",
+      "value": "%1$@|ha reaccionat amb %2$@ a la puntuació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFTCODE",
+      "value": "%1$@|ha reaccionat amb %2$@ al codi regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIFT_THEME",
+      "value": "%1$@|ha reaccionat amb %2$@ al canvi de tema"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "REACT_GIVEAWAY",
       "value": "%1$@ ha reaccionat amb %2$@ al vostre sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GIVEAWAY_STARS",
+      "value": "%1$@|ha reaccionat amb %2$@ al sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER",
+      "value": "%1$@|ha reaccionat amb %2$@ a la transferència de %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_GRAM_TRANSFER_COMMENT",
+      "value": "%1$@|ha reaccionat amb %2$@ a la transferència de %3$@: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_NOTHEME",
+      "value": "%1$@|ha reaccionat amb %2$@ al canvi de tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PAID_MEDIA",
+      "value": "%1$@|ha reaccionat amb %2$@ a la publicació de pagament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PHOTO_SECRET",
+      "value": "%1$@|ha reaccionat amb %2$@ a la foto amb autodestrucció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_PROXIMITY",
+      "value": "%1$@|ha reaccionat amb %2$@ a l'alerta de proximitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_RECURRING_PAY",
+      "value": "%1$@|ha reaccionat amb %2$@ al pagament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SAME_WALLPAPER",
+      "value": "%1$@|ha reaccionat amb %2$@ al mateix fons"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SCREENSHOT",
+      "value": "%1$@|ha reaccionat amb %2$@ a la captura de pantalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT",
+      "value": "%1$@|ha reaccionat amb %2$@ al vostre regal que val %3$@ estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_PREPAID_UPGRADE",
+      "value": "%1$@|ha reaccionat amb %2$@ al regal millorat que val %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UNPACK_UPGRADE",
+      "value": "%1$@|ha reaccionat amb %2$@ al regal que heu ajudat a millorar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STARGIFT_UPGRADE",
+      "value": "%1$@|ha reaccionat amb %2$@ al regal millorat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_STORY_MENTION",
+      "value": "%1$@|ha reaccionat amb %2$@ a la menció en la història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_BIRTHDAY",
+      "value": "%1$@|ha reaccionat amb %2$@ al suggeriment d'aniversari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_SUGGEST_USERPIC",
+      "value": "%1$@|ha reaccionat amb %2$@ al suggeriment de foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_THEME",
+      "value": "%1$@|ha reaccionat amb %2$@ al canvi de tema"
     },
     {
       "_": "types.LangPackString",
@@ -45637,6 +46128,26 @@
       "_": "types.LangPackString",
       "key": "REACT_TODO_DONE",
       "value": "%1$@|ha reaccionat amb %2$@ a la vostra actualització"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_UNIQUE_STARGIFT",
+      "value": "%1$@|ha reaccionat amb %2$@ al regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_VIDEO_SECRET",
+      "value": "%1$@|ha reaccionat amb %2$@ al vídeo amb autodestrucció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLET_TONCONNECT_REQUEST",
+      "value": "%1$@|ha reaccionat amb %2$@ a la sol·licitud de connexió TON"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "REACT_WALLPAPER",
+      "value": "%1$@|ha reaccionat amb %2$@ al fons nou"
     },
     {
       "_": "types.LangPackString",
@@ -46330,6 +46841,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.AddEmoji",
+      "value": "Afegeix un emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.AddMediaTitle",
       "value": "Afegiu fitxers"
     },
@@ -46590,6 +47106,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.MenuButtonInline",
+      "value": "Integrat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.MenuButtonRow",
       "value": "Filera de botons"
     },
@@ -46602,6 +47123,16 @@
       "_": "types.LangPackString",
       "key": "RichText.MenuFormula",
       "value": "Equació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaInline",
+      "value": "Integrada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.MenuFormulaStandalone",
+      "value": "Independent"
     },
     {
       "_": "types.LangPackString",
@@ -46702,6 +47233,11 @@
       "_": "types.LangPackString",
       "key": "RichText.TitleArticle",
       "value": "Títol"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextPreview.Channel",
+      "value": "Canal"
     },
     {
       "_": "types.LangPackString",
@@ -47413,7 +47949,7 @@
     {
       "_": "types.LangPackString",
       "key": "SessionReview.OkAction",
-      "value": "D'acord"
+      "value": "Entesos"
     },
     {
       "_": "types.LangPackString",
@@ -47825,8 +48361,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Settings.LogoutConfirmationTextWithWallets",
+      "value": "Això cancel·larà tots els xats secrets i **eliminarà les còpies de seguretat de les carteres que contenen %@**. Perdreu l'accés a aquests fons si no heu desat les frases secretes respectives.\n\nPodeu usar Telegram en tots els vostres dispositius alhora i fer servir diferents comptes en la mateixa aplicació."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Settings.LogoutConfirmationTitle",
       "value": "Voleu tancar la sessió?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Settings.Money",
+      "value": "Diners"
     },
     {
       "_": "types.LangPackString",
@@ -47841,7 +48387,7 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.MyTon",
-      "value": "Guanys en Grams"
+      "value": "Guanys de Gram"
     },
     {
       "_": "types.LangPackString",
@@ -48930,6 +49476,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShareScreen.Caption",
+      "value": "Afegiu una llegenda..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.CreateGroupTooltip",
+      "value": "Creeu un grup per a compartir-ho"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.RecentChats",
+      "value": "Xats recents"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareScreen.Title",
+      "value": "Comparteix amb"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SharedMedia.CalendarTooltip",
       "value": "Toqueu per a veure el calendari"
     },
@@ -49603,7 +50169,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Info.Done",
-      "value": "D'acord"
+      "value": "Entesos"
     },
     {
       "_": "types.LangPackString",
@@ -49860,7 +50426,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Intro.Transaction.GoogleTopUp.Subtitle",
-      "value": "via la Play Store"
+      "value": "via Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -50590,7 +51156,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Transaction.Subscription.Expired",
-      "value": "La subscripció va caducar el %@."
+      "value": "La subscripció va caducar el dia %@."
     },
     {
       "_": "types.LangPackString",
@@ -52793,6 +53359,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.CollageDraftAllMediaMissing",
+      "value": "Cap dels fitxers d'aquesta composició es troba disponible. L'esborrany s'eliminarà."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.Curves.All",
       "value": "Tot"
     },
@@ -52820,6 +53391,11 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.Done",
       "value": "Fet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.DownloadingMedia",
+      "value": "S'està baixant de l'iCloud..."
     },
     {
       "_": "types.LangPackString",
@@ -52866,6 +53442,16 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.InputPlaceholderAddCaption",
       "value": "Afegiu una llegenda…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailable",
+      "value": "Aquest fitxer no es troba emmagatzemat al vostre dispositiu i no s'ha pogut baixar de l'iCloud. Comproveu la connexió i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.MediaUnavailableSomeSkipped",
+      "value": "Algun dels fitxers no es troba emmagatzemat al vostre dispositiu i no s'ha pogut baixar de l'iCloud. Només es publicaran els elements disponibles."
     },
     {
       "_": "types.LangPackString",
@@ -53312,7 +53898,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Privacy.GrayListSelected",
-      "value": "[%@]() mai veurà cap història vostra."
+      "value": "[%@]() mai no veurà les vostres històries."
     },
     {
       "_": "types.LangPackString",
@@ -54052,7 +54638,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryFeed.MyUploading",
-      "value": "Pujant…"
+      "value": "Es puja..."
     },
     {
       "_": "types.LangPackString",
@@ -56696,7 +57282,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfo.AnonymousNumberLabel",
-      "value": "número anònim"
+      "value": "número col·leccionable"
     },
     {
       "_": "types.LangPackString",
@@ -58647,6 +59233,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Atura"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Title",
       "value": "Títol: %@"
     },
@@ -58948,13 +59539,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AddressCopied",
+      "value": "S'ha copiat l'adreça"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.ActiveConnections",
       "value": "Connexions actives"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllDisconnected",
+      "value": "S'han desconnectat totes les aplicacions."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.AllPermissions",
-      "value": "Les aplicacions connectades poden veure l'adreça, el saldo i l'activitat de la vostra cartera. No poden moure fons sense la vostra aprovació."
+      "value": "Les aplicacions connectades poden veure l'adreça, el saldo i l'activitat de la cartera. No poden moure fons sense la vostra aprovació."
     },
     {
       "_": "types.LangPackString",
@@ -58968,8 +59569,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllAction",
+      "value": "Desconnecta-ho tot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.DisconnectAllError",
       "value": "No s'han pogut desconnectar aquestes aplicacions. Torneu-ho a provar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllText",
+      "value": "Aquestes aplicacions perdran l'accés a la cartera. Podeu connectar-les de nou en qualsevol moment."
     },
     {
       "_": "types.LangPackString",
@@ -58983,8 +59594,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnected",
+      "value": "%@ desconnectada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Permissions",
+      "value": "L'aplicació pot veure l'adreça, el saldo i l'activitat de la cartera. No pot moure fons sense la vostra aprovació."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.Title",
       "value": "Aplicacions connectades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthenticationReason",
+      "value": "Confirmeu l'accés a la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledText",
+      "value": "Activeu la còpia de seguretat xifrada abans de restablir la frase secreta des de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "S'ha desactivat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableText",
+      "value": "La còpia de seguretat xifrada no es troba disponible per a aquesta cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupUnavailableTitle",
+      "value": "Còpia de seguretat no disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordRetryAfter",
+      "value": "Torneu a provar-ho d'aquí a %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.PasswordText",
+      "value": "Introduïu la contrasenya de verificació en dos passos de Telegram per a continuar."
     },
     {
       "_": "types.LangPackString",
@@ -58998,13 +59654,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.SessionRetryAfter",
+      "value": "Per seguretat, torneu a provar-ho d'aquí a %@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.SessionTooNewTitle",
       "value": "La sessió és massa recent"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredText",
+      "value": "Definiu una contrasenya abans de canviar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.TwoStepRequiredTitle",
+      "value": "Cal la verificació en dos passos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.UpdatePhraseErrorText",
+      "value": "La frase secreta nova no s'ha activat. La frase i còpia de seguretat xifrada anteriors encara són vàlides."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Authorization.VerificationExpiredText",
       "value": "La sol·licitud de verificació de la cartera ha caducat. Proveu d'importar-la de nou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "La verificació ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerifyWalletErrorText",
+      "value": "Telegram no ha pogut verificar que aquesta cartera us pertany. Torneu a provar d'importar-la."
     },
     {
       "_": "types.LangPackString",
@@ -59018,8 +59704,158 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.CancelDisablingText",
+      "value": "La clau secreta no s'actualitzarà."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelDisablingTitle",
       "value": "Voleu mantenir la còpia de seguretat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.Disable",
+      "value": "Desactiva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableConfirmationText",
+      "value": "La còpia de seguretat xifrada distribuïda s'eliminarà. La frase secreta serà l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorText",
+      "value": "No s'ha pogut confirmar que s'ha desactivat la còpia de seguretat. Comproveu la connexió de la xarxa i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorTitle",
+      "value": "No s'ha pogut desactivar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdateErrorText",
+      "value": "El canvi de la frase secreta no s'ha pogut completar. Comproveu l'estat de la cartera i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisablePhraseUpdatePendingText",
+      "value": "Telegram no ha pogut confirmar encara en la cadena de blocs el canvi de la frase secreta. Espereu un moment i torneu a tocar en Desactiva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableRetryText",
+      "value": "%@\n\nToqueu Desactiva per a tornar a provar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "Només podreu recuperar els fons introduint de manera manual la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableTitle",
+      "value": "Voleu desactivar la còpia de seguretat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationErrorText",
+      "value": "Telegram no ha pogut verificar que aquesta cartera us pertany. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableVerificationExpiredText",
+      "value": "La sol·licitud de verificació de la cartera ha caducat. Toqueu Desactiva per a tornar a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWalletChangedText",
+      "value": "La frase secreta de la cartera ha canviat mentre actualitzàveu la configuració de la còpia de seguretat. Restabliu l'accés fent servir la frase secreta actual i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableWithNewPhraseText",
+      "value": "S'eliminarà la còpia de seguretat xifrada distribuïda. La cartera canviarà a la nova frase secreta. Aquesta frase serà l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledText",
+      "value": "La frase secreta és ara l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisabledTitle",
+      "value": "S'ha desactivat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableErrorTitle",
+      "value": "No s'ha pogut activar la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnablePhraseUpdatePendingText",
+      "value": "Telegram encara no ha pogut confirmar el canvi de la frase secreta en la cadena de blocs. Espereu un moment i torneu a provar-ho, o introduïu la frase secreta actual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableVerificationExpiredText",
+      "value": "La sol·licitud de verificació de la cartera ha caducat. Proveu d'activar de nou la còpia de seguretat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnableWalletChangedText",
+      "value": "La cartera ha canviat mentre s'activava la còpia de seguretat. Obriu la seva configuració i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledText",
+      "value": "Les claus s'emmagatzemen xifrades als centres de dades de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnabledTitle",
+      "value": "S'ha activat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.EnterCurrentPhrase",
+      "value": "Introduïu la frase secreta actual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InsufficientFundsTitle",
+      "value": "No hi ha prou Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.InvalidPhraseText",
+      "value": "Comproveu totes les paraules de la frase secreta actual i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NetworkFee",
+      "value": "Tarifa de xarxa: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.NewPhraseText",
+      "value": "Obtindreu una altra frase secreta que haureu d'anotar. L'adreça i el saldo romanen iguals."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.PhraseUpdatePendingTitle",
+      "value": "Pendent actualitzar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.RequiredBalanceText",
+      "value": "Afegiu fons fins a arribar a %@ per a poder actualitzar la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.TopUp",
+      "value": "Recarrega"
     },
     {
       "_": "types.LangPackString",
@@ -59028,8 +59864,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhrase",
+      "value": "Actualitza la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseErrorTitle",
+      "value": "No s'ha pogut actualitzar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.UpdatePhraseTopUpText",
+      "value": "Us cal un saldo major que zero per a poder actualitzar la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorText",
+      "value": "La frase secreta d'aquesta cartera podria estar desactualitzada. Introduïu la frase secreta actual per a activar la còpia de seguretat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.VerifyPhraseErrorTitle",
+      "value": "No s'ha pogut verificar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "La cartera ha canviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "mostra-ho també als meus regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "afegeix a la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "aplica el color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "elimina el color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "elimina de la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectibles",
+      "value": "Col·leccionables"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Action",
       "value": "Connecta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Disclaimer",
+      "value": "%@ no podrà moure fons sense el vostre permís."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Error",
+      "value": "No s'ha pogut connectar aquesta aplicació. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Permissions",
+      "value": "Podrà veure l'adreça,\nsaldo i activitat de la cartera."
     },
     {
       "_": "types.LangPackString",
@@ -59038,8 +59949,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "Heu establert una connexió amb [%@]()."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.SuccessTitle",
       "value": "Connexió correcta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Title",
+      "value": "Connecta amb %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Continue",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CopyAddress",
+      "value": "Copia l'adreça"
     },
     {
       "_": "types.LangPackString",
@@ -59048,18 +59979,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.EarningsBalance",
+      "value": "Teniu %@ en guanys de Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Empty.InstantTransfersTitle",
-      "value": "Envieu diners ràpidament"
+      "value": "Transferències instantànies"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Empty.ZeroFeesTitle",
-      "value": "Sense comissions"
+      "value": "Zero comissions"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.GotIt",
-      "value": "D'acord"
+      "value": "Entesos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramTooltip",
+      "value": "Gram — Moneda digital de Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -59068,13 +60009,119 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.HowDoesItWork",
+      "value": "Com funciona?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Action",
+      "value": "Importa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnableBackupText",
+      "value": "Introduïu la frase secreta de 12 o 24 paraules de la vostra cartera per a activar la còpia de seguretat xifrada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.EnterPhraseText",
+      "value": "Introduïu la frase secreta de la vostra\ncartera per a continuar. [Per què?]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorText",
+      "value": "Comproveu la frase secreta i la connexió a la xarxa i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.ErrorTitle",
       "value": "No s'ha pogut importar la cartera"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidCurrentPhraseLength",
+      "value": "La frase secreta actual ha de contenir exactament 12 o 24 paraules. La frase enganxada en conté %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseLength",
+      "value": "Una frase secreta ha de contenir exactament 12 o 24 paraules. La frase que heu enganxat conté %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseText",
+      "value": "Comproveu l'ordre de les paraules.\n\nNomés hi podeu importar una frase secreta creada en Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.InvalidPhraseTitle",
+      "value": "Frase secreta no vàlida"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidWord",
       "value": "Paraula no vàlida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedText",
+      "value": "La clau d'aquesta cartera ha canviat. Introduïu la frase secreta actual de 24 paraules."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.PhraseChangedTitle",
+      "value": "La frase secreta ha canviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Proceed",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.RecoveryExplanation",
+      "value": "Atès que heu desactivat les còpies de seguretat de la cartera, cal que introduïu manualment la frase secreta en cada nova sessió de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestText",
+      "value": "Comproveu que heu escrit correctament la frase secreta.\nIntroduïu les paraules **%1$@**, **%2$@** i **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTextFallback",
+      "value": "Comproveu que heu apuntat correctament la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTitle",
+      "value": "Feu la prova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Text",
+      "value": "Introduïu la frase secreta de 12 o 24 paraules d'altra de les vostres carteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.Title",
+      "value": "Importeu una cartera"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Import.WordCount",
+      "one_value": "%@ paraula",
+      "other_value": "%@ paraules"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseText",
+      "value": "Les paraules que heu introduït no coincideixen amb la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.WrongPhraseTitle",
+      "value": "Frase secreta incorrecta"
     },
     {
       "_": "types.LangPackString",
@@ -59088,13 +60135,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Les tarifes són quasi zero, inclús en transferències grans."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Barata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Les transferències es confirmen en segons, arreu del món."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Ràpida"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsRateText",
       "value": "**1 Gram** equival actualment a **%@**.\nEls podeu:"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "Podeu:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
       "value": "Els vostres primers Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramRateText",
+      "value": "La moneda nativa de la cadena de blocs TON. **1 Gram** equival actualment a **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramText",
+      "value": "La moneda nativa de la cadena de blocs TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramTitle",
+      "value": "Gram"
     },
     {
       "_": "types.LangPackString",
@@ -59105,6 +60192,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.InstantTransfersTitle",
       "value": "Transferències immediates"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.NeverSharePhrase",
+      "value": "**No compartiu mai** la frase secreta amb ningú."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseSupportWarning",
+      "value": "L'Assistència de Telegram **no us demanarà mai** la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.PhraseTheftWarning",
+      "value": "Si algú l'aconseguís, **podrien robar els vostres fons**."
     },
     {
       "_": "types.LangPackString",
@@ -59129,7 +60231,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.Text",
-      "value": "Només vós controleu els vostres fons —\nningú més hi té accés."
+      "value": "Només vós controleu els vostres fons:\nningú més hi té accés."
     },
     {
       "_": "types.LangPackString",
@@ -59148,6 +60250,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Pagueu per aplicacions, serveis i tarifes arreu de l'ecosistema TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Útil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.ZeroFeesText",
       "value": "Les primeres 5 transferències diàries són de franc. La resta costen quasi res."
     },
@@ -59163,8 +60275,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.NetworkError",
+      "value": "Comproveu la connexió i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.OptionalMessage",
+      "value": "Missatge opcional"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "Codi i Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Codi d'accés i Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetText",
+      "value": "El vostre compte s'ha protegit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasswordSetTitle",
+      "value": "S'ha definit la contrasenya"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceNotice",
+      "value": "%1$@ té %2$@ en la cadena de blocs TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PreviousWalletsBalance",
+      "value": "També teniu %@ en carteres antigues"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ProtectAccount",
+      "value": "Protegiu el compte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PublicBalanceNotice",
+      "value": "El vostre saldo és públic a causa de la transparència de la cadena de blocs."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Buy",
+      "value": "Compra amb diners o criptomoneda"
     },
     {
       "_": "types.LangPackString",
@@ -59178,13 +60340,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "Mostra el QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerText",
+      "value": "Envieu Grams a aquesta adreça\no escanegeu el codi QR."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedText",
+      "value": "La compra no s'ha pogut iniciar. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseFailedTitle",
+      "value": "Ha fallat la compra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableText",
+      "value": "La compra no es troba disponible actualment. Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.PurchaseUnavailableTitle",
+      "value": "Compra no disponible"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.ShowQR",
       "value": "Mostra el meu codi QR"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "Compartiu l'adreça o el\ncodi QR per a rebre GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Error",
+      "value": "S'ha produït un error desconegut. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.GramWallet",
+      "value": "Cartera de Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.InvalidAddress",
+      "value": "El text enganxat no és una adreça TON vàlida."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.InvalidAddressText",
       "value": "Aquesta adreça de cartera no és vàlida.\nComproveu-la o proveu-ne una altra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.LinkedAddress",
+      "value": "Aquesta adreça de la cadena de blocs TON està enllaçada a %@ al Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -59208,8 +60425,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Recipient.ScanQR",
+      "value": "Trobeu un codi QR que contingui l'adreça d'una cartera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.Title",
       "value": "Trieu el destinatari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.UnlinkedAddress",
+      "value": "Aquesta adreça de la cadena de blocs TON no té enllaçat cap compte de Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -59218,8 +60445,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Retry",
+      "value": "Torna a provar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ScanQR",
+      "value": "Trobeu un codi QR que contingui l'adreça d'una cartera\no connecteu una aplicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SecretPhrase",
+      "value": "Frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SecretPhraseInfo",
+      "value": "La frase secreta és la clau de la còpia de seguretat de la vostra cartera. Manteniu-la sempre secreta i segura."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send",
       "value": "Envia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Add",
+      "value": "Afegeix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AddComment",
+      "value": "Afegeix un comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Amount",
+      "value": "Envia %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.AmountPlaceholder",
+      "value": "Toqueu per a establir una quantitat"
     },
     {
       "_": "types.LangPackString",
@@ -59228,8 +60495,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.DepositFunds",
+      "value": "Depositeu fons"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.DiscardAlertText",
+      "value": "Voleu descartar la transferència?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.EditComment",
+      "value": "Edita el comentari"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
       "value": "Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.InsufficientFunds",
+      "value": "Fons insuficients."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.NetworkFee",
+      "value": "Tarifa de xarxa:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.PublicComment",
+      "value": "Fes el comentari públic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.RecipientWallet",
+      "value": "Cartera de: %@"
     },
     {
       "_": "types.LangPackString",
@@ -59238,13 +60540,178 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.UnlinkedWallet",
+      "value": "Cartera sense enllaçar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendMoney",
+      "value": "Envia diners"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.Backup",
+      "value": "Còpia de seguretat xifrada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupDisabledInfo",
+      "value": "La clau de la còpia de seguretat xifrada es dividirà en tres parts i s'emmagatzemaran arreu de tres continents.\n\nNomés es pot tornar a unir als vostres dispositius, per la qual cosa ningú (ni tan sols Telegram) hi pot accedir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.BackupEnabledInfo",
+      "value": "La clau de la còpia de seguretat xifrada es divideix en tres parts, i s'emmagatzemen arreu de tres continents.\n\nNomés es pot tornar a unir als vostres dispositius, per la qual cosa ningú (ni tan sols Telegram) hi pot accedir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.CreateWallet",
+      "value": "Crea una altra cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteAnyway",
+      "value": "Elimina-la"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.DeleteWallet",
       "value": "Elimina la cartera"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletText",
+      "value": "Perdreu l'accés als vostres fons llevat que hàgiu desat la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DeleteWalletTitle",
+      "value": "Voleu eliminar la cartera?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.DisableBackup",
+      "value": "Desactiva la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnableBackup",
+      "value": "Activa la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhrase",
+      "value": "Introduïu la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhraseInfo",
+      "value": "Introduïu la frase secreta per a restablir l'accés a aquesta cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ImportWallet",
+      "value": "Importa una cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.LastUsed",
+      "value": "\n%1$@ — usada %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWallets",
+      "value": "Carteres anteriors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWalletsInfo",
+      "value": "Les carteres que heu fet servir abans en aquest dispositiu. Deseu les frases secretes: s'eliminaran si tanqueu la sessió o reinstal·leu l'aplicació."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ReplaceWalletErrorTitle",
       "value": "No s'ha pogut substituir la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ReplaceWalletTitle",
+      "value": "Com voleu reemplaçar la cartera antiga?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.SecretPhraseInfo",
+      "value": "Podeu transferir la cartera a un altre dispositiu copiant la frase secreta de 12 o 24 paraules."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.ShowPhraseErrorTitle",
+      "value": "No s'ha pogut mostrar la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedText",
+      "value": "Està llesta perquè la useu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedTitle",
+      "value": "S'ha creat la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedText",
+      "value": "La cartera s'ha restaurat amb la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletImportedTitle",
+      "value": "S'ha importat la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ShowSecretPhrase",
+      "value": "Mostra la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryContent",
+      "value": "Contingut binari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryWarning",
+      "value": "Ho esteu signant a cegues. Signeu dades només de fonts en què confieu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Confirm",
+      "value": "Confirma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.ConfirmAction",
+      "value": "Confirmeu l'acció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Data",
+      "value": "Dades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Error",
+      "value": "No s'ha pogut completar la sol·licitud. Torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Fee",
+      "value": "Tarifa: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FeeWithFiat",
+      "value": "Tarifa: %1$@ (%2$@)."
     },
     {
       "_": "types.LangPackString",
@@ -59258,13 +60725,148 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "comentari"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Sign.FieldMessage",
       "value": "missatge"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldPayload",
+      "value": "payload (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldStateInit",
+      "value": "stateInit (BOC/Base64)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldValidUntil",
+      "value": "valid_until"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.MessageExplanation",
+      "value": "Reviseu els detalls del missatge i signeu si hi esteu d'acord."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Sign",
+      "value": "Signa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SignData",
+      "value": "Signa les dades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "L'aplicació enviarà la transferència."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SubmissionUntil",
+      "value": "L'aplicació pot enviar la transferència fins a %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.TextExplanation",
+      "value": "Reviseu amb cura el missatge i, si hi esteu d'acord, signeu les dades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.AddToCard",
+      "value": "Afegeix a la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ApplyColor",
+      "value": "Aplica el color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "No es pot establir aquest regal com a fons de la targeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Només es pot usar el %@ per a canviar el color de la targeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.GridFooter",
+      "value": "Manteniu premut un regal per a treure'l i enganxar-lo en la vostra targeta. Manteniu premut un regal en la targeta per a tornar a treure'l, i useu un altre dit per a girar-lo o canviar-lo de mida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "Un d'aquests adhesius no es pot usar en la targeta. Només els regals d'aquesta cartera són compatibles."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.LimitError",
+      "value": "Podeu posar fins a %@ regals en la targeta.\nElimineu-ne un per a afegir-ne un altre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ProfileError",
+      "value": "Un regal mostrat al vostre perfil no pot a més ser un adhesiu de la targeta. Amagueu-lo del perfil primer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveColor",
+      "value": "Elimina el color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.RemoveFromCard",
+      "value": "Elimina de la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "No s'ha pogut desar la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialCard",
+      "value": "Arrossegueu el col·leccionable aquí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialDone",
+      "value": "Podeu afegir diversos col·leccionables."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.TutorialTile",
+      "value": "Arrossegueu el col·leccionable sobre la targeta per a decorar-la."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TermsText",
       "value": "En usar aquest servei, accepteu les seves [Condicions]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TermsText_URL",
+      "value": "https://telegram.org/tos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonAddressCopied",
+      "value": "S'ha copiat l'adreça TON al porta-retalls"
     },
     {
       "_": "types.LangPackString",
@@ -59274,7 +60876,27 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.AnonymousNumber",
-      "value": "Número anònim"
+      "value": "Número col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CallContract",
+      "value": "Crida el contracte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CardTopUp",
+      "value": "Recàrrega de la targeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Collectible",
+      "value": "Col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleGift",
+      "value": "Regal col·leccionable"
     },
     {
       "_": "types.LangPackString",
@@ -59283,8 +60905,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentDecryptionErrorTitle",
+      "value": "No s'ha pogut desxifrar el comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CommentPrivacy",
+      "value": "Privadesa del comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CryptoTopUp",
+      "value": "Recàrrega de criptomoneda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Date",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.DeployContract",
+      "value": "Aplica el contracte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Dipòsit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Excés"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Failed",
       "value": "Ha fallat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FailedOperation",
+      "value": "%@ · Ha fallat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Fee",
+      "value": "Tarifa"
     },
     {
       "_": "types.LangPackString",
@@ -59292,10 +60959,70 @@
       "value": "De franc (pagat per Telegram)"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.GramInfo",
+      "value": "Què són els Grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingCollectible",
+      "value": "Col·leccionable rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.IncomingTransfer",
+      "value": "Transferència rebuda"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Wallet.Transaction.ItemCount",
-      "one_value": "%@ element",
-      "other_value": "%@ elements"
+      "one_value": "%@ ítem",
+      "other_value": "%@ ítems"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.KeyUpdate",
+      "value": "Actualització de la clau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedFromProfile",
+      "value": "moguda del perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedToProfile",
+      "value": "moguda al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesText",
+      "value": "Cada transferència té una petita tarifa de xarxa%1$@.\n\nTelegram cobreix cada dia: %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFeesTitle",
+      "value": "Tarifes de la xarxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OpenWallet",
+      "value": "Obre els meus Diners"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingCollectible",
+      "value": "Col·leccionable enviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OutgoingTransfer",
+      "value": "Transferència enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.PrivateComment",
+      "value": "Visible només per a vós i el destinatari."
     },
     {
       "_": "types.LangPackString",
@@ -59319,8 +61046,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.SendCollectible",
+      "value": "Envia el col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Sender",
       "value": "Remitent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Transfer",
+      "value": "Transferència"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transaction.Transfers",
+      "one_value": "%@ transferència",
+      "other_value": "%@ transferències"
     },
     {
       "_": "types.LangPackString",
@@ -59329,8 +61077,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownOperation",
+      "value": "Operació desconeguda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Username",
       "value": "Nom d'usuari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.WhatIsGram",
+      "value": "Què són els Grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Withdrawal",
+      "value": "Retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transactions",
+      "value": "Transaccions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.AllBalance",
+      "value": "Tot el saldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CollectibleSuccess",
+      "value": "S'ha enviat el col·leccionable a **%@**."
     },
     {
       "_": "types.LangPackString",
@@ -59339,13 +61117,94 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorText",
+      "value": "El comentari no s'ha pogut xifrar per a aquesta cartera. Comproveu la connexió de xarxa i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionErrorTitle",
+      "value": "No s'ha pogut xifrar el comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentEncryptionUnavailable",
+      "value": "La cartera no pot rebre comentaris xifrats actualment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongText",
+      "value": "El comentari xifrat és massa llarg. Acurteu-lo i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.CommentTooLongTitle",
+      "value": "Comentari massa llarg"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.DetailsHeader",
       "value": "DETALLS"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorText",
+      "value": "La transferència no s'ha pogut preparar o enviar. Comproveu l'adreça, el saldo i la connexió de xarxa, i torneu a provar-ho."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ErrorTitle",
+      "value": "Ha fallat la transferència"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "TRANSFERÈNCIA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "TRANSFERÈNCIES"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.KeyChangedText",
       "value": "La clau de la cartera ha canviat. Actualitzeu la cartera i restabliu-ne l'accés amb la frase secreta, si cal. Llavors, torneu a confirmar la transferència."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedTitle",
+      "value": "La clau de la cartera ha canviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingText",
+      "value": "La transferència podria haver-se enviat. No l'envieu de nou mentre es comprova el seu estat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PendingTitle",
+      "value": "Transferència pendent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.PreviewHeader",
+      "value": "PREVISUALITZACIÓ"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Transfer.RecipientCount",
+      "one_value": "%@ destinatari",
+      "other_value": "%@ destinataris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Success",
+      "value": "S'han enviat els Grams a **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.ToAddress",
+      "value": "a %@"
     },
     {
       "_": "types.LangPackString",
@@ -59356,6 +61215,56 @@
       "_": "types.LangPackString",
       "key": "Wallet.Unavailable",
       "value": "Els diners no es troben disponibles actualment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.UnlinkedAddress",
+      "value": "L'adreça no té cap compte de Telegram enllaçat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewInExplorer",
+      "value": "Mostra a l'explorador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewProfile",
+      "value": "Mostra el perfil >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.WaltBalance",
+      "value": "També teniu fons en Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewText",
+      "value": "S'ha generat una frase secreta nova per a la cartera. Apunteu-la i manteniu-la secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.NewTitle",
+      "value": "Frase secreta nova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.Title",
+      "value": "La vostra frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastAction",
+      "value": "D'acord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastText",
+      "value": "No heu tingut prou temps per a apuntar-les."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastTitle",
+      "value": "Ho heu fet?"
     },
     {
       "_": "types.LangPackString",
@@ -60982,7 +62891,7 @@
     {
       "_": "types.LangPackString",
       "key": "WelcomeMessages.ServiceHeader2",
-      "value": "Toqueu per a eliminar-lo"
+      "value": "Manteniu premut per a eliminar-lo"
     },
     {
       "_": "types.LangPackString",
@@ -61085,5 +62994,5 @@
       "value": "Heu introduït un codi de seguretat no vàlid."
     }
   ],
-  "version": 22220812
+  "version": 22412796
 }

@@ -20,6 +20,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutRevenueSharingAds",
+      "value": "حول هذه الإعلانات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccActionDownload",
       "value": "تنزيل"
     },
@@ -30,8 +35,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrChannel",
-      "value": "قناة"
+      "key": "AccDescrCollapsePanel",
+      "value": "تصغير اللوحة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrExpandPanel",
+      "value": "تكبير اللوحة"
     },
     {
       "_": "types.LangPackString",
@@ -40,8 +50,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrGroup",
-      "value": "مجموعة"
+      "key": "AccDescrLike",
+      "value": "إعجاب"
     },
     {
       "_": "types.LangPackString",
@@ -80,6 +90,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescrTopic",
+      "value": "موضوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrVideoMessage",
+      "value": "تسجيل رسالة مرئية"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescrVoiceMessage",
       "value": "تسجيل رسالة صوتية"
     },
@@ -90,18 +110,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccPinnedMessages",
-      "value": "الرسائل المثبتة"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AccSwitchToFullscreen",
       "value": "التبديل إلى ملء الشاشة "
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AccUnpinMessage",
-      "value": "إلغاء تثبيت الرسالة"
     },
     {
       "_": "types.LangPackString",
@@ -132,11 +142,6 @@
       "_": "types.LangPackString",
       "key": "ActionAddYou",
       "value": "⁨{from}⁩ أضافك إلى هذه القناة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionAddYouGroup",
-      "value": "أضافك ⁨{from}⁩ إلى هذه المجموعة."
     },
     {
       "_": "types.LangPackString",
@@ -217,11 +222,6 @@
       "_": "types.LangPackString",
       "key": "ActionChannelJoinedYou",
       "value": "لقد انضممت لهذه القناة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionCostCrypto",
-      "value": "⁨{price}⁩ (⁨{cryptoPrice}⁩)"
     },
     {
       "_": "types.LangPackString",
@@ -312,16 +312,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumText",
       "value": "الاشتراك للحصول على ميزات تيليجرام الحصرية."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "اشتراك المميز لمدة ⁨{months}⁩",
-      "key": "ActionGiftPremiumTitle",
-      "many_value": "اشتراك المميز لمدة ⁨{months}⁩",
-      "one_value": "اشتراك المميز لمدة ⁨{months}⁩",
-      "other_value": "اشتراك المميز لمدة ⁨{months}⁩",
-      "two_value": "اشتراك المميز لمدة ⁨{months}⁩",
-      "zero_value": ""
     },
     {
       "_": "types.LangPackString",
@@ -425,6 +415,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramReceivedPreview",
+      "value": "لقد استلمت ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "لقد أرسلت ⁨{from}⁩ ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "أُرسل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "انتهت المحادثة المرئية (⁨{duration}⁩)"
     },
@@ -487,6 +492,11 @@
       "_": "types.LangPackString",
       "key": "ActionMigratedTo",
       "value": "تم نقلها إلى ⁨{chat}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionNewCreatorPending",
+      "value": "سيصبح ⁨{user}⁩ المالك الجديد بعد ٧ أيام؛ إذا لم يعد ⁨{from}⁩."
     },
     {
       "_": "types.LangPackString",
@@ -675,11 +685,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionStarGiftChannelDisplaying",
-      "value": "يتم عرض هذه الهدية لزوار قناتك."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionStarGiftChannelText",
       "value": "أضف هذه الهدية إلى ملف قناتك أو قم بتحويلها إلى ⁨{amount}⁩"
     },
@@ -707,11 +712,6 @@
       "_": "types.LangPackString",
       "key": "ActionStarGiftCrafted",
       "value": "هدية مصنعة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionStarGiftDisplaying",
-      "value": "لقد أضفت هذه الهدية إلى ملفك الشخصي."
     },
     {
       "_": "types.LangPackString",
@@ -895,6 +895,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionSuggestedBirthday",
+      "value": "اقترح عليك ⁨{user}⁩ إضافة يوم ميلادك."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionSuggestedPhoto",
       "value": "صورة مقترحة من ⁨{user}⁩ لملفك الشخصي."
     },
@@ -927,6 +932,16 @@
       "_": "types.LangPackString",
       "key": "ActionSuggestedVideoTitle",
       "value": "الفيديو المُقترح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelDisabled",
+      "value": "لن يتم حذف الرسائل تلقائيًا في هذه القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouDisabled",
+      "value": "أنت عطّلت مؤقت الحذف التلقائي"
     },
     {
       "_": "types.LangPackString",
@@ -1005,16 +1020,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionUnsupportedDescription",
-      "value": "يُرجى استخدام أحد تطبيقاتنا لإكمال هذا الإجراء."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionUnsupportedTitle",
-      "value": "لم يتم دعم الإجراء بعد"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionUserJoined",
       "value": "انضم ⁨{from}⁩ للمجموعة"
     },
@@ -1080,6 +1085,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdHidden",
+      "value": "لن تظهر لك بعد الآن إعلانات من تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "إضافة"
     },
@@ -1092,6 +1102,11 @@
       "_": "types.LangPackString",
       "key": "AddContactSharedContactExceptionInfo",
       "value": "يمكنك جعل هاتفك ظاهرًا لـ ⁨{user}⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddEffectMessageHint",
+      "value": "إضافة تأثير متحرك"
     },
     {
       "_": "types.LangPackString",
@@ -1145,6 +1160,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Album",
+      "value": "مُجلد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllChatsSearchContext",
       "value": "جميع المحادثات"
     },
@@ -1152,6 +1172,16 @@
       "_": "types.LangPackString",
       "key": "AllGiftsCategory",
       "value": "كل الهدايا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllReactions",
+      "value": "كل التفاعلات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "كل المشاهدين"
     },
     {
       "_": "types.LangPackString",
@@ -1170,6 +1200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AnonymousForward",
+      "value": "الكاتب مخفي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AnonymousPoll",
       "value": "استفتاء سري"
     },
@@ -1177,16 +1212,6 @@
       "_": "types.LangPackString",
       "key": "AnonymousQuizPoll",
       "value": "اختبار سري"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "⁨{count}⁩ إجابات",
-      "key": "Answer",
-      "many_value": "⁨{count}⁩ إجابة",
-      "one_value": "إجابة واحدة",
-      "other_value": "⁨{count}⁩ إجابة",
-      "two_value": "إجابتان",
-      "zero_value": "⁨{count}⁩ إجابات"
     },
     {
       "_": "types.LangPackString",
@@ -1215,6 +1240,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppStore",
+      "value": "متجر التطبيقات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ApproveNewMembers",
       "value": "طلب موافقة المشرفين"
     },
@@ -1227,6 +1257,11 @@
       "_": "types.LangPackString",
       "key": "Apps",
       "value": "تطبيقات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "April",
+      "value": "أبريل"
     },
     {
       "_": "types.LangPackString",
@@ -1247,6 +1282,11 @@
       "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "المحادثات المؤرشفة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSure",
+      "value": "هل أنت متأكد؟"
     },
     {
       "_": "types.LangPackString",
@@ -1275,6 +1315,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "هل تريد فعلًا تسجيل الخروج؟\n\nسيؤدي هذا إلى إلغاء كل محادثاتك السرية و**حذف النسخ الاحتياطية للمحفظة التي تحتوي على ⁨{amount}⁩**. بدون عباراتها السرية، ستفقد الوصول إلى هذه الأموال!\n\nيمكنك استخدام تيليجرام على كل أجهزتك في نفس الوقت، ويمكنك استخدام عدة حسابات في نفس التطبيق."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureSessions",
       "value": "هل تريدون فعلًا إنهاء كل الجلسات الأخرى؟"
     },
@@ -1297,11 +1342,6 @@
       "_": "types.LangPackString",
       "key": "AriaBackToChatList",
       "value": "رجوع لقائمة المحادثة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaCancelPollCreation",
-      "value": "إلغاء إنشاء الاستفتاء"
     },
     {
       "_": "types.LangPackString",
@@ -1345,26 +1385,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaEditProfilePhoto",
-      "value": "تحرير الصورة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaExitMessageSelection",
-      "value": "الخروج من وضع التحديد"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchGifs",
-      "value": "البحث عن GIF"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchStickers",
-      "value": "البحث عن ملصقات"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaMoreButton",
       "value": "إجراءات أكثر"
     },
@@ -1395,16 +1415,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaSearchByDate",
-      "value": "البحث بالتاريخ"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaSearchInChat",
-      "value": "البحث في المحادثة"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaSearchNewerResult",
       "value": "التركيز على النتيجة السابقة"
     },
@@ -1420,23 +1430,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaToggleChatNotifications",
-      "value": "تبديل إشعارات المحادثة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleUserNotifications",
-      "value": "تبديل إشعارات المستخدم"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AskAQuestion",
       "value": "اسأل سؤالًا"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AtDateAgo",
-      "value": "في ⁨{date}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -1470,8 +1465,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AttachMenuMediaBlocked",
-      "value": "إرسال الوسائط غير مسموح به في هذه المجموعة."
+      "key": "AttachLocation",
+      "value": "موقع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AttachMenu",
+      "value": "إرفاق..."
     },
     {
       "_": "types.LangPackString",
@@ -1505,6 +1505,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AttachmentMenuSendAsFiles",
+      "value": "إرسال كملفات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AttachmentSelectFromFiles",
+      "value": "الاختيار من الملفات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioAddToProfile",
+      "value": "إضافة إلى ملفي الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioPause",
       "value": "إيقاف مؤقت للصوت"
     },
@@ -1527,6 +1542,31 @@
       "_": "types.LangPackString",
       "key": "AudioPlayerPrevious",
       "value": "المسار السابق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRemoveFromProfile",
+      "value": "إزالة من الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchChats",
+      "value": "الصوتيات المشتركة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchGlobal",
+      "value": "البحث العام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchProfile",
+      "value": "صوتيات الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "August",
+      "value": "أغسطس"
     },
     {
       "_": "types.LangPackString",
@@ -1615,6 +1655,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AutoDeleteMessages",
+      "value": "الحذف التلقائي للرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeletePopupTitle",
+      "value": "الحذف التلقائي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSettingsInfo",
+      "value": "حذف الرسائل تلقائيًا من عند الجميع بعد فترة زمنية في كل المحادثات الجديدة التي قمت ببدئها."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AutoDownloadFilesTitle",
       "value": "تنزيل تلقائي للملفات"
     },
@@ -1670,13 +1725,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AutoplayMedia",
-      "value": "تشغيل الوسائط تلقائيًا"
+      "key": "AutomaticTranslation",
+      "value": "الترجمة التلقائية"
     },
     {
       "_": "types.LangPackString",
-      "key": "AvatarChangeTitle",
-      "value": "تغيير صورة ملفك الشخصي"
+      "key": "AvailableReactions",
+      "value": "التفاعلات المتاحة"
     },
     {
       "_": "types.LangPackString",
@@ -1710,13 +1765,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "BlockUserTitle",
-      "value": "حظر ⁨{user}⁩"
+      "key": "BlockUser",
+      "value": "حظر المستخدم"
     },
     {
       "_": "types.LangPackString",
-      "key": "BlockedListNotFound",
-      "value": "لم يتم العثور على مستخدمين."
+      "key": "BlockUserTitle",
+      "value": "حظر ⁨{user}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -1735,13 +1790,433 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostChannel",
+      "value": "تعزيز القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftDateEnds",
+      "value": "ينتهي في"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftLimitSubscribersInfo",
+      "value": "يرجى تحديد ما إذا أردت قصر السحب على أولئك الذين انضموا إلى القناة بعد بدء السحب على الجوائز، أو على المستخدمين من دول محددة فقط."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsInfo",
+      "value": "يرحى تحديد عدد النجوم التي تريد منحها وعدد التعزيزات التي ستتلقاها لمدة عام واحد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGroup",
+      "value": "تعزيز المجموعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostReason",
+      "value": "السبب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAddChannelOrGroup",
+      "value": "إضافة مجموعة أو قناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAllMembers",
+      "value": "كل الأعضاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAllSubscribers",
+      "value": "جميع المشتركين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAwardSpecificUsers",
+      "value": "منح مستخدمين محددين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostChannelMenu",
+      "value": "تعزيز القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostGroupMenu",
+      "value": "تعزيز المجموعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostsViaGifts",
+      "value": "تعزيزات عبر الهدايا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingChannelsGroupsIncludedGiveaway",
+      "value": "المجموعات والقنوات المضمنة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingChooseHowMany",
+      "value": "اختيار عدد الاشتراكات المميزة المراد منحها والتعزيزات المراد الحصول عليها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDate",
+      "value": "التاريخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDateWhenGiveawayEnds",
+      "value": "تاريخ انتهاء السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDurationOfPremium",
+      "value": "مدة الاشتراكات المميزة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingEligibleUsers",
+      "value": "المستخدمون المؤهلون للمشاركة في السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingFrom",
+      "value": "من"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingFromAllCountries",
+      "value": "من جميع الدول"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetBoostsViaGifts",
+      "value": "الحصول على تعزيزات عبر الهدايا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoost",
+      "value": "الحصول على مزيد من التعزيزات لقناتك بإهداء الاشتراك المميز للمشتركين."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoosts",
+      "value": "الحصول على مزيد من التعزيزات لقناتك بإهداء اشتراك المُميّز للمشتركين."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGift",
+      "value": "إهداء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiftLink",
+      "value": "رابط الهدية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveAwayAbout",
+      "value": "حول هذا السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveaway",
+      "value": "سحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayAdditionPrizeHint",
+      "value": "يمكنك تشغيل هذا إن أردت منح الفائزين جوائز خاصة منك، بالإضافة إلى اشتراكات المُميّز."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayAdditionalPrizes",
+      "value": "جوائز إضافية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayCanceledByPayment",
+      "value": "ألغت القناة الجوائز برد المبلغ المدفوع منهم."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayEnd",
+      "value": "انتهى السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayEnterYourPrize",
+      "value": "إدخال الجائزة"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "جميع المشتركين في القنوات:",
+      "key": "BoostingGiveawayMsgAllSubsPlural",
+      "many_value": "جميع المشتركين في القنوات:",
+      "one_value": "جميع المشتركين في القناة:",
+      "other_value": "جميع المشتركين في القنوات:",
+      "two_value": "جميع المشتركين في القنوات:",
+      "zero_value": ""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayMsgParticipants",
+      "value": "**المشاركون**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayMsgWithDivider",
+      "value": "مع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleCountry",
+      "value": "للأسف، أنت لست من المؤهلين للمشاركة في هذا السحب؛ لأن دولتك غير مدرجة في شروط السحب."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrivateChannel",
+      "value": "القناة خاصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrivateChannelWarning",
+      "value": "هل أردت فعلًا إضافة قناة خاصة؟ لن يتمكن المستخدمون من الانضمام إليها دون رابط دعوة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrizes",
+      "value": "**جوائز السحب**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayResultsMsgAllWinnersReceivedLinks",
+      "value": "تلقى جميع الفائزين روابط الهدايا عبر رسائل خاصة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayResultsMsgWinnersSelected",
+      "value": "**تم اختيار الفائزين!**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayShowWinners",
+      "value": "إظهار الفائزين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayShowWinnersHint",
+      "value": "اختيار ما إذا أردت جعل قائمة الفائزين ظاهرة عند انتهاء السحب أم لا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayYouNotWon",
+      "value": "ما فزت بجائزة في هذا السحب."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayYouWon",
+      "value": "لقد فزت بجائزة في هذا السحب 🏆"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingIncompleteGiveaway",
+      "value": "سحب غير مكتمل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNewMembers",
+      "value": "الأعضاء الجدد فقط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNewSubscribers",
+      "value": "المشتركون الجدد فقط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNoRecipient",
+      "value": "لا يوجد مستلم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingPreparedGiveaways",
+      "value": "سحب مدفوع مسبقا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingQuantityPrizes",
+      "value": "عدد الجوائز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingReason",
+      "value": "السبب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingRecipientWillBeSelected",
+      "value": "سيتم تحديد المستلم عند انتهاء السحب."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSelectCountry",
+      "value": "تحديد الدول"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSelectPaidGiveaway",
+      "value": "يرجى تحديد السحب الذي دفعت ثمنه سابقا لإعداده."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSendLinkToAnyone",
+      "value": "يمكنك أيضًا **إرسال هذا الرابط** إلى أي شخص كهدية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsOptions",
+      "value": "نجوم للتوزيع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsQuantityPrizes",
+      "value": "عدد الفائزين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsQuantityPrizesInfo",
+      "value": "يرجى تحديد عدد الفائزين الذين ترغب في توزيع النجوم بينهم."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveaway",
+      "value": "بدء السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveawayConfirmText",
+      "value": "هل أردت فعلًا بدء السحب الآن؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveawayConfirmTitle",
+      "value": "بدء السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTo",
+      "value": "إلى"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingToBeDistributed",
+      "value": "يتم توزيعها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingUseLink",
+      "value": "استخدام الرابط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingWinnersDate",
+      "value": "**تاريخ اختيار الفائزين**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingWinnersRandomly",
+      "value": "يتم اختيار الفائزين عشوائيًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Boosts",
+      "value": "التعزيزات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsMaxLevelReached",
+      "value": "تم الوصول لأعلى مستوى"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot",
       "value": "بوت"
     },
     {
       "_": "types.LangPackString",
+      "key": "BotAllowWrite",
+      "value": "السماح لهذا البوت بإرسال الرسائل إليك؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWriteConfirm",
+      "value": "السماح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWriteTitle",
+      "value": "السماح بالمراسلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAuthAllowMessages",
+      "value": "السماح بالرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAuthInfo",
+      "value": "محاولة تسجيل الدخول هذه أتت من الجهاز المذكور أعلاه."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAuthPhoneNumber",
+      "value": "رقم الهاتف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAuthPhoneNumberAccept",
+      "value": "سماح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAuthPhoneNumberDeny",
+      "value": "رفض"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotChangeSettings",
+      "value": "تغيير إعدادات البوت"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotChatMiniAppOpen",
       "value": "فتح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarning",
+      "value": "قد لا يتم حفظ التغييرات التي أجريتها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningSure",
+      "value": "إغلاق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningTitle",
+      "value": "تحذير"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotDefaultPrivacyPolicy",
+      "value": "https://telegram.org/privacy-tpa"
     },
     {
       "_": "types.LangPackString",
@@ -1757,6 +2232,16 @@
       "_": "types.LangPackString",
       "key": "BotDownloadFileTitle",
       "value": "تنزيل الملف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotEditCommands",
+      "value": "تحرير الأوامر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotEditIntro",
+      "value": "تحرير المقدمة"
     },
     {
       "_": "types.LangPackString",
@@ -1805,6 +2290,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotManageInfo",
+      "value": "يُرجى استخدام ‎ @BotFatherلإدارة هذا البوت."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotOpenPageMessage",
       "value": "يرغب **⁨{bot}⁩** بفتح تطبيق الويب الخاص به للمتابعة.\n\nسيتمكن من الوصول إلى **عنوان الـ IP** والمعلومات الأساسية لجهازك."
     },
@@ -1817,6 +2307,21 @@
       "_": "types.LangPackString",
       "key": "BotPermissionGameAlert",
       "value": "السماح لـ ⁨{bot}⁩ بتمرير اسمك وid حسابك على تيليجرام (وليس رقم هاتفك) إلى الصفحات المفتوحة بهذا البوت؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfilePermissionEmojiStatus",
+      "value": "رموز الحالة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfilePermissionLocation",
+      "value": "الموقع الجغرافي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotRemoveFromMenuTitle",
+      "value": "إزالة البوت"
     },
     {
       "_": "types.LangPackString",
@@ -1850,6 +2355,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "الوكيل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "الذكاء الاصطناعي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusApp",
+      "value": "تطبيق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "اللعبة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "غير ثنائي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStop",
+      "value": "حظر البوت"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotSuggestedStatus",
       "value": "تعيين رمز الحالة هذا المقترح من **⁨{bot}⁩**؟"
     },
@@ -1875,8 +2410,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotWebViewStartPermission",
+      "value": "لتشغيل تطبيق الويب هذا؛ سيتم توصيلك بموقع الويب التابع له."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoxRemove",
       "value": "إزالة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursDayClosed",
+      "value": "مغلق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursDayFullOpened",
+      "value": "٢٤ ساعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfile",
+      "value": "ساعات العمل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileNowClosed",
+      "value": "مغلق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileNowOpen",
+      "value": "مفتوح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileSwitchLocal",
+      "value": "التوقيت المحلي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileSwitchMy",
+      "value": "توقيتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLinkErrorExpired",
+      "value": "انتهت صلاحية الرابط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLocationCopied",
+      "value": "تم نسخ عنوان العمل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessProfileLocation",
+      "value": "الموقع"
     },
     {
       "_": "types.LangPackString",
@@ -2054,6 +2644,11 @@
       "value": "إلغاء الكتم"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Calls",
+      "value": "المكالمات"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "⁨{count}⁩ يمكنهم الانضمام",
       "key": "CanJoin",
@@ -2070,11 +2665,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Caption",
-      "value": "الوصف"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "CaptionsLimitSubtitle",
       "value": "كتابة وصف أطول للصور ومقاطع الفيديو"
     },
@@ -2087,11 +2677,6 @@
       "_": "types.LangPackString",
       "key": "ChangePassword",
       "value": "تغيير كلمة المرور"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChangeRecipient",
-      "value": "تغيير المستلم"
     },
     {
       "_": "types.LangPackString",
@@ -2125,11 +2710,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelAdminDismiss",
-      "value": "عزل المشرف"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChannelAdministrators",
       "value": "المشرفون"
     },
@@ -2142,6 +2722,16 @@
       "_": "types.LangPackString",
       "key": "ChannelBlockedUsers",
       "value": "مستخدمون تمت إزالتهم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostBoostChannel",
+      "value": "تعزيز القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenTitle",
+      "value": "لا يمكن التعزيز الآن"
     },
     {
       "_": "types.LangPackString",
@@ -2170,18 +2760,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelEarnAvailable",
+      "value": "المكافآت المتاح سحبها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnBalanceTitle",
+      "value": "المكافآت المتوفرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnChartRevenue",
+      "value": "مكافآت الإعلانات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelEarnLearnCoinAbout",
       "value": "‏**TON** عبارة عن منصة blockchain وعملة مشفرة تستخدمها تيليجرام لسرعتها العالية وعمولاتها المنخفضة على التعاملات.⁨{link}⁩"
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelEditAdminCannotEdit",
-      "value": "لا يمكنك تحرير صلاحيات هذا المشرف."
+      "key": "ChannelEarnLearnInSubtitle",
+      "value": "إعلانات تيليجرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnOutAbout",
+      "value": "يمكنك سحب رصيد جرام في أي وقت."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnSplitSubtitle",
+      "value": "الإيرادات بالمناصفة ٥٠:٥٠"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnReward",
+      "value": "المكافآت منذ السحب الأخير"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnTitle",
+      "value": "تحقيق الدخل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnTotal",
+      "value": "إجمالي المكافآت"
     },
     {
       "_": "types.LangPackString",
       "key": "ChannelEditAdminPermissionBanUsers",
       "value": "حظر المستخدمين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelHideMembers",
+      "value": "إخفاء الأعضاء"
     },
     {
       "_": "types.LangPackString",
@@ -2235,11 +2870,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelManagementTitle",
-      "value": "المشرفون"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChannelPermissionDeniedSendMessagesUntil",
       "value": "قام مشرفو هذه المجموعة بتقييدك من إرسال الرسائل حتى ⁨{date}⁩."
     },
@@ -2262,6 +2892,11 @@
       "_": "types.LangPackString",
       "key": "ChannelPersmissionDeniedSendMessagesForever",
       "value": "قام مشرفو هذه المجموعة بتقييدك من إرسال الرسائل."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelPostDeleted",
+      "value": "المعذرة، تمت إزالة هذا المنشور من مجموعة المناقشة."
     },
     {
       "_": "types.LangPackString",
@@ -2320,6 +2955,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelSignMessagesWithProfile",
+      "value": "عرض الملفات التعريفية للناشرين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelSignProfilesInfo",
+      "value": "إضافة أسماء وصور المشرفين إلى الرسائل التي ينشرونها مع ربطها بملفاتهم الشخصية."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphFollowers",
       "value": "المتابِعون"
     },
@@ -2350,6 +2995,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphReactions",
+      "value": "التفاعلات حسب المشاعر"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphViewsByHours",
       "value": "المشاهدات حسب التوقيت العالمي"
     },
@@ -2370,6 +3020,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerPost",
+      "value": "التفاعلات لكل منشور"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerStory",
+      "value": "التفاعلات لكل قصة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsOverviewSharesPerPost",
       "value": "المشاركات لكل منشور"
     },
@@ -2380,18 +3040,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelStatsRecentHeader",
-      "value": "أحدث المنشورات"
+      "key": "ChannelStatsOverviewViewsPerStory",
+      "value": "المشاهدات لكل قصة"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "⁨{count}⁩ مشاركات",
-      "key": "ChannelStatsSharesCount",
-      "many_value": "⁨{count}⁩ مشاركة",
-      "one_value": "مشاركة واحدة",
-      "other_value": "⁨{count}⁩ مشاركة",
-      "two_value": "مشاركتان",
-      "zero_value": ""
+      "_": "types.LangPackString",
+      "key": "ChannelStatsRecentHeader",
+      "value": "أحدث المنشورات"
     },
     {
       "_": "types.LangPackString",
@@ -2412,6 +3067,16 @@
       "_": "types.LangPackString",
       "key": "ChannelSubscribers",
       "value": "المشتركون "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelTitleInfo",
+      "value": "معلومات القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelTopics",
+      "value": "الموضوعات"
     },
     {
       "_": "types.LangPackString",
@@ -2465,6 +3130,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatAllowedPhotos",
+      "value": "الصور"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedStickers",
+      "value": "الملصقات والصور المتحركة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideoMessages",
+      "value": "الرسائل المرئية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAllowedVideos",
+      "value": "الفيديو"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatBackground",
       "value": "خلفية المحادثة"
     },
@@ -2485,8 +3170,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatContextViewAsTopics",
+      "value": "عرض الموضوعات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatEmptyChat",
       "value": "لا يوجد رسائل هنا بعد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyTopicPlaceholderTitle",
+      "value": "بقيت خطوة واحدة"
     },
     {
       "_": "types.LangPackString",
@@ -2507,6 +3202,31 @@
       "_": "types.LangPackString",
       "key": "ChatHistory",
       "value": "سجل المحادثة للأعضاء الجدد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHistoryHiddenInfo2",
+      "value": "لن يرى الأعضاء الجدد أكثر من 100 رسالة سابقة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHistoryVisibleInfo",
+      "value": "سيتمكن الأعضاء الجدد من مشاهدة الرسائل التي أُرسلت قبل انضمامهم."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListContextAddToFolder",
+      "value": "إضافتها إلى مجلد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListContextMarkAsRead",
+      "value": "اعتبارها مقروءة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListContextMarkAsUnread",
+      "value": "اعتبارها غير مقروءة"
     },
     {
       "_": "types.LangPackString",
@@ -2540,8 +3260,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChatListFilterAddToFolder",
-      "value": "إضافتها إلى مجلد"
+      "key": "ChatListEmptyTopicsTitle",
+      "value": "لا توجد بعد موضوعات هنا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterCreateLinkNew",
+      "value": "إنشاء رابط دعوة"
     },
     {
       "_": "types.LangPackString",
@@ -2552,6 +3277,31 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterErrorTitleEmpty",
       "value": "يرجى إدخال عنوان لهذا المجلد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterInviteLinkIncludeExcludeError",
+      "value": "لا يمكنك مشاركة مجلدات تتضمن أو تستثني أنواع محادثات معينة مثل \"المجموعات\"، \"جهات الاتصال\"..إلخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeChannel",
+      "value": "قناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeContact",
+      "value": "جهة اتصال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeGroup",
+      "value": "مجموعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContactUser",
+      "value": "غير جهات الاتصال"
     },
     {
       "_": "types.LangPackString",
@@ -2580,6 +3330,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholderAction",
+      "value": "معرفة المزيد..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatNonContactUserGroups",
       "value": "المجموعات المشتركة"
     },
@@ -2592,6 +3347,11 @@
       "_": "types.LangPackString",
       "key": "ChatOutgoingContextMixedReactionCount",
       "value": "تفاعل ⁨{count}⁩/⁨{total}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatPaidMediaPurchased",
+      "value": "تم الشراء"
     },
     {
       "_": "types.LangPackString",
@@ -2620,6 +3380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatPlayOnceVoiceMessageTooltip",
+      "value": "هذه الرسالة الصوتية يمكن تشغيلها لمرة واحدة فقط."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatPollTotalVotesResultEmpty",
       "value": "ما من أصوات"
     },
@@ -2627,6 +3392,16 @@
       "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "ما من إجابات بعد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSetPhotoOrVideo",
+      "value": "تعيين صورة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTranslateMenuTo",
+      "value": "اختيار لغة أخرى"
     },
     {
       "_": "types.LangPackString",
@@ -2675,8 +3450,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CheckPrivacyCallsText",
+      "value": "لقد قمت بتقييد من يمكنهم مراسلتك ولكن يستطيع أي شخص مكالمتك. تغيير هذا الإعداد؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckPrivacyInviteText",
+      "value": "لقد قمت بتقييد من يمكنهم مراسلتك، لكن لا يزال بإمكان أي شخص إضافتك إلى المجموعات والقنوات. مراجعة هذه الإعدادات؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Checking",
+      "value": "يتم التحقق..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "اسم حامل البطاقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutPasswordEntryTitle",
+      "value": "تأكيد الدفع"
     },
     {
       "_": "types.LangPackString",
@@ -2695,18 +3490,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChooseStickerMyStickerSets",
+      "value": "حُزم ملصقاتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Clear",
+      "value": "مسح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMyNotesMessage",
+      "value": "هل أردتت فعلًا حذف كل ملاحظاتك؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMyNotesTitle",
+      "value": "حذف كل ملاحظاتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryTitleSingle2",
+      "value": "إلغاء حفظ الرسائل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ClearOtherWebSessionsHelp",
       "value": "يمكنك تسجيل الدخول عبر تيليجرام إلى المواقع التي تدعم ذلك."
     },
     {
       "_": "types.LangPackString",
-      "key": "ClearRecentEmoji",
-      "value": "مسح الرموز التعبيرية الأخيرة؟"
+      "key": "ClearRecentReactionsAlertMessage",
+      "value": "مسح رموز التفاعلات الأخيرة من الاقتراحات؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearRecentStickersAlertMessage",
+      "value": "هل تريدون مسح كل الملصقات الأخيرة؟"
     },
     {
       "_": "types.LangPackString",
       "key": "Close",
       "value": "إغلاق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CocoonFeature1Title",
+      "value": "خاص"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CocoonFeature2Text",
+      "value": "لقد مكّنت تقنية \"كوكون\" من خفض تكلفة الترجمة بمقدار ٦ أضعاف."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CocoonFeature2Title",
+      "value": "فعال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CocoonFeature3Title",
+      "value": "للجميع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CocoonFooterLink",
+      "value": "https://t.me/cocoon?direct"
     },
     {
       "_": "types.LangPackString",
@@ -2737,6 +3587,11 @@
       "other_value": "⁨{count}⁩ تعليق",
       "two_value": "تعليقان",
       "zero_value": "⁨{count}⁩ تعليقات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommentsTitle",
+      "value": "التعليقات"
     },
     {
       "_": "types.LangPackString",
@@ -2890,6 +3745,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitTitle",
+      "value": "الحسابات المتصلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Connecting",
+      "value": "يتم الاتصال..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactInfoNotVerified",
       "value": "ليس حسابًا رسميًا"
     },
@@ -2925,8 +3790,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContactsAndPremium",
+      "value": "جهات الاتصال والمشتركون"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactsPhoneNumberNotRegistred",
       "value": "صاحب هذا الرقم لم يسجل في تلجرام بعد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContextArchiveCollapse",
+      "value": "إخفاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContextArchiveExpand",
+      "value": "إظهار"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContextArchiveToList",
+      "value": "نقل إلى قائمة المحادثات"
     },
     {
       "_": "types.LangPackString",
@@ -2960,18 +3845,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextForwardMsg",
-      "value": "تحويل"
+      "key": "ContextQuoteAndReply",
+      "value": "الاقتباس والرد"
     },
     {
       "_": "types.LangPackString",
       "key": "ContextRemoveFromGroup",
       "value": "إزالة من المجموعة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ContextReportMsg",
-      "value": "الإبلاغ"
     },
     {
       "_": "types.LangPackString",
@@ -3030,16 +3910,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationDeleteManyMessages",
-      "value": "حذف الرسائل"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationDeleteMessagesFor",
-      "value": "حذفها عندي وعند ⁨{user}⁩"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ConversationDeleteMessagesForEveryone",
       "value": "حذف من عند الكل"
     },
@@ -3090,18 +3960,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewBot",
-      "value": "عرض البوت"
+      "key": "ConversationSearchPlaceholder",
+      "value": "البحث في هذه المحادثة"
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewChannel",
-      "value": "فتح القناة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationViewPost",
-      "value": "عرض المنشور"
+      "key": "ConversationSuggestedPhotoTitle",
+      "value": "الصورة المُقترحة"
     },
     {
       "_": "types.LangPackString",
@@ -3122,6 +3987,21 @@
       "_": "types.LangPackString",
       "key": "Create",
       "value": "إنشاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "إنشاء بوت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotUsernameSubscribe",
+      "value": "اشترك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateGeneralTopicTitle",
+      "value": "اختيار اسم للموضوع"
     },
     {
       "_": "types.LangPackString",
@@ -3170,18 +4050,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "CreditsBoxHistoryEntryGiftOutAbout",
-      "value": "مع النجوم، سيتمكن ⁨{user}⁩ من فتح المحتوى والخدمات على تيليجرام. ⁨{link}⁩"
+      "key": "CreateTopic",
+      "value": "إنشاء موضوع"
     },
     {
       "_": "types.LangPackString",
-      "key": "CropImage",
-      "value": "قص الصورة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropperApply",
-      "value": "قص الصورة"
+      "key": "CreateTopicTitle",
+      "value": "اختيار اسم الموضوع وأيقونته"
     },
     {
       "_": "types.LangPackString",
@@ -3195,18 +4070,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CustomEmojiUsedSets",
+      "value": "حزم من الرموز التعبيرية المستخدمة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CustomHelp",
       "value": "في حال عدم كونك من مشتركي المُميّز؛ لن يكون بإمكانك رؤية آخر ظهور أو حالة الاتصال للذين اخترت ألا يروا آخر ظهور لك. سيتم بدل من ذلك عرض آخر ظهور تقريبي (كان قريبًا، خلال أسبوع، خلال شهر)."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CustomShareGiftsInfo",
-      "value": "يمكنك إضافة مستخدمين أو مجموعات بأكملها كاستثناءات تتجاوز القيم في الأعلى."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DataAndStorageAutoplayVideos",
-      "value": "المقاطع المرئية"
     },
     {
       "_": "types.LangPackString",
@@ -3224,14 +4094,19 @@
       "zero_value": "⁨{count}⁩ أيام"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "قبل ⁨{count}⁩ أيام",
-      "key": "DaysAgo",
-      "many_value": "قبل ⁨{count}⁩ يومًا",
-      "one_value": "قبل يوم واحد",
-      "other_value": "قبل ⁨{count}⁩ يوم",
-      "two_value": "قبل يومين",
-      "zero_value": "قبل ⁨{count}⁩ يوم"
+      "_": "types.LangPackString",
+      "key": "DebugMenuEnableLogs",
+      "value": "تفعيل السجلات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DebugSendLogs",
+      "value": "إرسال السجلات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "December",
+      "value": "ديسمبر"
     },
     {
       "_": "types.LangPackString",
@@ -3240,8 +4115,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAdditionalActions",
+      "value": "إجراءات إضافية"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAll",
       "value": "حذف الكل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteAllFromUsers",
+      "value": "حذف كل الرسائل من:"
     },
     {
       "_": "types.LangPackString",
@@ -3260,6 +4145,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteBanUsers",
+      "value": "حظر المستخدمين:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteContact",
       "value": "حذف جهة الاتصال"
     },
@@ -3267,11 +4157,6 @@
       "_": "types.LangPackString",
       "key": "DeleteForAll",
       "value": "حذف من عند كل الأعضاء"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DeleteForEveryoneDescription",
-      "value": "سيؤدي هذا إلى حذفهم لكل من في هذه المحادثة."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3292,11 +4177,6 @@
       "other_value": "هذا سيؤدي للحذف من عندك فقط وليس لباقي المشاركين في هذه المحادثة.",
       "two_value": "هذا سيؤدي للحذف من عندك فقط وليس لباقي المشاركين في هذه المحادثة.",
       "zero_value": "هذا سيؤدي للحذف من عندك فقط وليس لباقي المشاركين في هذه المحادثة."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DeleteForMeDescription",
-      "value": "سيؤدي هذا إلى حذفهم عندك فقط، وليس عند المشاركين الآخرين في المحادثة."
     },
     {
       "_": "types.LangPackString",
@@ -3330,13 +4210,43 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DeleteSingleMessagesTitle",
-      "value": "حذف الرسالة"
+      "key": "DeleteProceedBtn",
+      "value": "متابعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteRestrictUsers",
+      "value": "تقييد المستخدمين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteStorySubtitle",
+      "value": "هل أردت فعلًا حذف هذه القصة؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteStoryTitle",
+      "value": "حذف القصة"
     },
     {
       "_": "types.LangPackString",
       "key": "DeleteThisChat",
       "value": "حذف هذه المحادثة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteToggleBanUsers",
+      "value": "حظر كلي للمستخدمين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteToggleRestrictUsers",
+      "value": "تقييد المستخدمين جزئيًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Deleted",
+      "value": "محذوفة"
     },
     {
       "_": "types.LangPackString",
@@ -3380,6 +4290,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeselectAll",
+      "value": "إلغاء تحديد الكل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DialogListSearchSectionDialogs",
       "value": "المحادثات وجهات الاتصال"
     },
@@ -3397,6 +4312,21 @@
       "_": "types.LangPackString",
       "key": "DialogUnpin",
       "value": "إلغاء التثبيت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Disable",
+      "value": "تعطيل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DisableReactionsInfo",
+      "value": "لا يمكن لأعضاء المجموعة إضافة أي تفاعل على الرسائل."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DisableSharing",
+      "value": "تعطيل المشاركة"
     },
     {
       "_": "types.LangPackString",
@@ -3465,13 +4395,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DlgSearchForMessages",
-      "value": "البحث عن رسائل"
+      "key": "DoNotAskAgain",
+      "value": "لاتسألني مرة أخرى"
     },
     {
       "_": "types.LangPackString",
-      "key": "DoNotAskAgain",
-      "value": "لاتسألني مرة أخرى"
+      "key": "DoNotReply",
+      "value": "عدم الرد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate",
+      "value": "عدم ترجمة"
     },
     {
       "_": "types.LangPackString",
@@ -3482,6 +4417,11 @@
       "_": "types.LangPackString",
       "key": "DoubleTapSetting",
       "value": "التفاعل السريع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimited",
+      "value": "سرعة التنزيل محدودة"
     },
     {
       "_": "types.LangPackString",
@@ -3535,8 +4475,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminDeleteStories",
+      "value": "حذف قصص الآخرين"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminEditMessages",
       "value": "تحرير رسائل الآخرين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminEditStories",
+      "value": "تحرير قصص الآخرين"
     },
     {
       "_": "types.LangPackString",
@@ -3545,8 +4495,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminManageDirect",
+      "value": "إدارة الرسائل الخاصة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminManageTopics",
       "value": "إدارة الموضوعات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageWelcomeMessages",
+      "value": "إدارة رسائل الترحيب"
     },
     {
       "_": "types.LangPackString",
@@ -3557,6 +4517,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminPostMessages",
       "value": "نشر الرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminPostStories",
+      "value": "نشر القصص"
     },
     {
       "_": "types.LangPackString",
@@ -3585,6 +4550,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminTransferChangeOwner",
+      "value": "تغيير المالك"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminTransferSetPassword",
       "value": "تعيين كلمة مرور"
     },
@@ -3592,6 +4562,11 @@
       "_": "types.LangPackString",
       "key": "EditAdminWhatCanDo",
       "value": "ما صلاحيات هذا المشرف؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditFolder",
+      "value": "تعديل المجلّد"
     },
     {
       "_": "types.LangPackString",
@@ -3610,23 +4585,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditTopic",
+      "value": "تعديل الموضوع"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "الملاحظات مرئية لك فقط."
     },
     {
       "_": "types.LangPackString",
-      "key": "EditedDate",
-      "value": "تم التعديل: ⁨{date}⁩"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EditedMessage",
+      "key": "Edited",
       "value": "معدلة"
     },
     {
       "_": "types.LangPackString",
       "key": "EmbeddedMessageNoCaption",
       "value": "تمت إزالة التسمية التوضيحية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Emoji",
+      "value": "الرموز التعبيرية"
     },
     {
       "_": "types.LangPackString",
@@ -3667,6 +4647,16 @@
       "_": "types.LangPackString",
       "key": "Emoji8",
       "value": "أعلام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EmojiBotInfo",
+      "value": "نرحب بالرسامين لإضافة حُزم رموز تعبيرية خاصة بهم باستخدام بوت @stickers."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EmojiPremiumRestore",
+      "value": "استعادة"
     },
     {
       "_": "types.LangPackString",
@@ -3720,18 +4710,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Enable",
+      "value": "تفعيل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableAllReactionsInfo",
+      "value": "يستطيع أعضاء المجموعة استخدام أي رمز تعبيري كتفاعل على الرسائل."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EnablePasscode",
       "value": "تمكين رمز القفل"
     },
     {
       "_": "types.LangPackString",
-      "key": "EnableReactions",
-      "value": "السماح بالتفاعل"
+      "key": "EnableSharing",
+      "value": "تمكين المشاركة"
     },
     {
       "_": "types.LangPackString",
       "key": "EnabledPasswordText",
       "value": "لقد قمت بتفعيل التحقق بخطوتين.\nلتسجيل الدخول إلى حسابك هذا من أجهزة جديدةٍ ستحتاج إلى كلمة المرور التي قمت بتعيينها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "English",
+      "value": "الإنجليزية"
     },
     {
       "_": "types.LangPackString",
@@ -3745,8 +4750,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EnterPassword",
+      "value": "أدخل كلمة المرور"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EnterPriceInGram",
       "value": "أدخل السعر بعملة جرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevert",
+      "value": "تراجع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevertDescription",
+      "value": "يستعيد المحتوى الأصلي للرسالة"
     },
     {
       "_": "types.LangPackString",
@@ -3835,46 +4855,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EventLogAllAdmins",
-      "value": "كل المشرفين"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogAllEvents",
-      "value": "كل الإجراءات"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterChannelInfo",
-      "value": "معلومات القناة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterDeletedMessages",
-      "value": "رسائل محذوفة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterEditedMessages",
-      "value": "رسائل معدلة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterLeavingMembers",
-      "value": "أعضاء مغادرون"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewAdmins",
-      "value": "ترقية الإشراف"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewMembers",
-      "value": "أعضاء جدد"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EventLogFilterPinnedMessages",
       "value": "رسائل مثبتة"
     },
@@ -3890,11 +4870,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ExceptionDescriptionPrivacyChargeForMessages",
-      "value": "إضافة مستخدمين أو مجموعات لن يتم فرض رسوم عليهم عند مراسلتك."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "إزالة الرسوم"
     },
@@ -3902,6 +4877,26 @@
       "_": "types.LangPackString",
       "key": "ExpiredLink",
       "value": "رابط منتهي الصلاحيّة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStory",
+      "value": "قصة منتهية الصلاحية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStoryMention",
+      "value": "القصة التي أُشير إليك فيها لم تعد متاحة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "تصبح قائمة المشاهدين غير متاحة بعد **٢٤ ساعة** من انتهاء صلاحية القصة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FactCheck",
+      "value": "التحقق من البيانات"
     },
     {
       "_": "types.LangPackString",
@@ -3922,6 +4917,11 @@
       "_": "types.LangPackString",
       "key": "FavoriteStickersLimitTitle",
       "value": "الملصقات المفضلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "February",
+      "value": "فبراير"
     },
     {
       "_": "types.LangPackString",
@@ -4020,6 +5020,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FilterMenuDelete",
+      "value": "حذف المجلد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FilterMuted",
       "value": "المكتومة"
     },
@@ -4090,6 +5095,31 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "الانضمام إلى المحادثات",
+      "key": "FolderLinkButtonJoinPlural",
+      "many_value": "الانضمام إلى المحادثات",
+      "one_value": "الانضمام إلى المحادثة",
+      "other_value": "الانضمام إلى المحادثات",
+      "two_value": "الانضمام إلى المحادثتين",
+      "zero_value": ""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkButtonRemove",
+      "value": "إزالة المجلد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkButtonRemoveChats",
+      "value": "إزالة المجلد والمحادثات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkHeaderAlready",
+      "value": "المحادثات التي سبق انضمامك إليها"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "لقد انضممت أيضًا إلى ⁨{count}⁩ محادثات.",
       "key": "FolderLinkNotificationAddedSubtitle",
       "many_value": "لقد انضممت أيضًا إلى ⁨{count}⁩ محادثة.",
@@ -4135,6 +5165,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkPreviewLeft",
+      "value": "كل المحادثات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkPreviewRight",
+      "value": "شخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailableBot",
+      "value": "لا يمكنك مشاركة المحادثات مع البوتات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailablePublicChannel",
+      "value": "ليست لديك صلاحيات الإشراف لمشاركة روابط الدعوة إلى هذه القناة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailablePublicGroup",
+      "value": "ليست لديك صلاحيات الإشراف لمشاركة روابط الدعوة إلى هذه المجموعة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailableUser",
+      "value": "لا يمكنك مشاركة المحادثات الخاصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenTitle",
+      "value": "مشاركة المجلد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkSubtitleAdd",
       "value": "هل تريد إضافة ⁨{chats}⁩ إلى\nالمجلد **⁨{title}⁩**؟"
     },
@@ -4160,6 +5225,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkSubtitleRemove",
+      "value": "هل أردت أيضًا مغادرة المحادثات المضمنة في هذا المجلد؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleAddChats",
+      "value": "إضافة المحادثات إلى المجلد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleAlready",
+      "value": "تمت إضافة المجلد مسبقًا"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkTitleDescription",
       "value": "يمكن لأي شخص لديه هذا الرابط إضافة المجلد ⁨{folder}⁩ و ⁨{chats}⁩ المحددة أدناه."
     },
@@ -4172,6 +5252,11 @@
       "other_value": "الـ ⁨{count}⁩ محادثة",
       "two_value": "المحادثتين",
       "zero_value": ""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleRemove",
+      "value": "إزالة المجلد"
     },
     {
       "_": "types.LangPackString",
@@ -4260,6 +5345,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FormattingLinkUrl",
+      "value": "الرابط"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FormattingMonospaceAria",
       "value": "نص أُحادي المسافة"
     },
@@ -4290,23 +5380,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumCreateTopic",
+      "value": "إنشاء موضوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumNoMessages",
+      "value": "لا توجد رسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumRepliesOnly",
+      "value": "يمكنك الرد على الرسائل في المواضيع."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumToggleDescription",
+      "value": "سيتم تقسيم المجموعة إلى الموضوعات التي أنشأها المشرفون أو المستخدمون."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicClose",
+      "value": "إغلاق الموضوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicDeleteSure",
+      "value": "هل أنت متأكد أنك تريد حذف هذا الموضوع؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicEdit",
+      "value": "تحرير الموضوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicReopen",
+      "value": "إعادة فتح الموضوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicTitle",
+      "value": " اسم الموضوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumViewAsMessages",
+      "value": "عرض كرسائل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Forward",
       "value": "تحويل"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardTo",
-      "value": "تحويل إلى..."
+      "key": "ForwardedFrom",
+      "value": "محولة من"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardedDate",
-      "value": "الأصلية: ⁨{date}⁩"
+      "key": "Fragment",
+      "value": "Fragment"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardedMessage",
-      "value": "تم التحويل من"
+      "key": "FragmentUsernameOpen",
+      "value": "معرفة المزيد"
     },
     {
       "_": "types.LangPackString",
@@ -4315,8 +5455,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FrozenAccountAppealTitle",
+      "value": "طلب الاستئناف قبل إلغاء التنشيط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrozenAccountReadOnlyTitle",
+      "value": "وضع القراءة فقط"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FrozenAccountViolationSubtitle",
       "value": "لقد تم تجميد حسابك بسبب انتهاك شروط خدمة تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrozenAccountViolationTitle",
+      "value": "انتهاك الشروط"
     },
     {
       "_": "types.LangPackString",
@@ -4355,6 +5510,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2ConvertedTitle",
+      "value": "هدية تم تحويلها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransactionSent",
+      "value": "هدية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransactionUpgraded",
+      "value": "ترقية مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftActionHide",
       "value": "إخفاء"
     },
@@ -4385,6 +5555,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftAuctionAveragePrice",
+      "value": "متوسط السعر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftAuctionBidIncreasedTitle",
+      "value": "لقد تم زيادة عرضك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftAuctionBidPlacedTitle",
+      "value": "لقد تم وضع عرضك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftAuctionCurrentRound",
+      "value": "الجولة الحالية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftAuctionEnds",
+      "value": "انتهت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftAuctionInfoTitle",
+      "value": "المزاد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftAuctionLearnMoreAboutGifts",
       "value": "معرفة المزيد حول هدايا تيليجرام >"
     },
@@ -4410,6 +5610,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftCraftFailedTitle",
+      "value": "فشل التصنيع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftCraftInfoTitle",
+      "value": "تصنيع هدية"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftCraftSelectTitle",
       "value": "اختيار هدايا"
     },
@@ -4417,6 +5627,11 @@
       "_": "types.LangPackString",
       "key": "GiftCraftSelectYourGifts",
       "value": "هداياك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftCraftTitle",
+      "value": "تصنيع هدية"
     },
     {
       "_": "types.LangPackString",
@@ -4670,11 +5885,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoSent",
-      "value": "هدية مرسلة"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoSoldOutDescription",
       "value": "لقد بيعت هذه الهدية"
     },
@@ -4725,11 +5935,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoUpgradeBadge",
-      "value": "ترقية"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoUpgradeForFree",
       "value": "ترقية مجانية"
     },
@@ -4750,11 +5955,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoWithdraw",
-      "value": "سحب"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftLeftCount",
       "value": "⁨{count}⁩ متبقي"
     },
@@ -4762,6 +5962,21 @@
       "_": "types.LangPackString",
       "key": "GiftLimited",
       "value": "محدودة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkAbout",
+      "value": "يتيح لك هذا الرابط تفعيل\n اشتراك **تيليجرام المميز**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkExpired",
+      "value": "انتهت صلاحية رابط كود الهدية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkTitle",
+      "value": "رابط الهدية"
     },
     {
       "_": "types.LangPackString",
@@ -4797,6 +6012,11 @@
       "_": "types.LangPackString",
       "key": "GiftMessagePlaceholder",
       "value": "كتابة رسالة (اختياري)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOfferAccept",
+      "value": "قبول"
     },
     {
       "_": "types.LangPackString",
@@ -4880,6 +6100,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftRarityEpic",
+      "value": "ملحمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftRarityLegendary",
+      "value": "أسطورية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftRarityRare",
+      "value": "نادرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftRarityUncommon",
+      "value": "استثنائية"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftRibbonResale",
       "value": "معاد بيعها"
     },
@@ -4925,8 +6165,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftStarsOutgoing",
-      "value": "مع النجوم، سيتمكن ⁨{user}⁩ من فتح المحتوى والخدمات على تيليجرام."
+      "key": "GiftStarsTitle",
+      "value": "إهداء النجوم"
     },
     {
       "_": "types.LangPackString",
@@ -4957,11 +6197,6 @@
       "_": "types.LangPackString",
       "key": "GiftTransferTON",
       "value": "إرسال عبر Blockchain"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftTransferTONBlocked",
-      "value": "يفتح خلال ⁨{time}⁩"
     },
     {
       "_": "types.LangPackString",
@@ -5050,6 +6285,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftValueForSaleOnFragment",
+      "value": "للبيع على Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftValueForSaleOnTelegram",
+      "value": "للبيع على تيليجرام"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftValueTitleAveragePrice",
       "value": "متوسط السعر"
     },
@@ -5085,6 +6330,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiveawayUsersAboutGroup",
+      "value": "اختيار ما إذا كنت تريد حصر السحب فقط على أولئك الذين انضموا إلى المجموعة بعد بدء السحب، أو للمستخدمين من بلدان محددة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GlobalSearch",
+      "value": "البحث العام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "أرباح جرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "عملة «جرام» التي حصلت عليها من الهدايا،\nوالإعلانات، و «Fragment»."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramGiftReceived",
       "value": "شحن جرام"
     },
@@ -5100,8 +6365,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostGroup",
+      "value": "تعزيز المجموعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextPinCamera",
+      "value": "تثبيت الفيديو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextUnpinCamera",
+      "value": "إلغاء تثبيت الفيديو"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallScreenShareStop",
+      "value": "إيقاف المشاركة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupChatsSearchContext",
       "value": "المجموعات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmoji",
+      "value": "رموز المجموعة"
     },
     {
       "_": "types.LangPackString",
@@ -5132,6 +6422,16 @@
       "other_value": "⁨{count}⁩ عضو",
       "two_value": "عضوان",
       "zero_value": "لايوجد أعضاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfoTitle",
+      "value": "معلومات المجموعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInviteBadLink",
+      "value": "رابط الدعوة هذا غير صالح أو قد انتهت مدته."
     },
     {
       "_": "types.LangPackString",
@@ -5170,13 +6470,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupMembersMembersHiddenOff",
+      "value": "يمكنك تشغيل هذا الخيار لإخفاء قائمة الأعضاء في هذه المجموعة. سيبقى المشرفون مرئيين."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupMembersMembersHiddenOn",
+      "value": "يمكنك إيقاف هذا الخيار لإظهار قائمة الأعضاء في هذه المجموعة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupMessagesChargePrice",
+      "value": "فرض رسوم بالنجوم على الرسائل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupName",
       "value": "اسم المجموعة"
     },
     {
       "_": "types.LangPackString",
-      "key": "GroupRemovedRemove",
-      "value": "حظر مستخدم"
+      "key": "GroupPermissionNoManageTopics",
+      "value": "لا موضوعات"
     },
     {
       "_": "types.LangPackString",
@@ -5260,6 +6575,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Hide",
+      "value": "إخفاء"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "HideAd",
       "value": "إخفاء"
     },
@@ -5267,6 +6587,16 @@
       "_": "types.LangPackString",
       "key": "HideCaption",
       "value": "إخفاء الوصف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HideReadTime",
+      "value": "إخفاء وقت القراءة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HideReadTimeInfo",
+      "value": "إخفاء وقت قراءتك للرسائل من الأشخاص الذين لا يمكنهم رؤية «آخر ظهور لك». إذا قمت بتشغيل هذا؛ فسيتم أيضًا إخفاء وقت القراءة عنك (إلا إن كنت مستخدمًا مُميّزا).\n\nلا يؤثر هذا الإعداد على المجموعات."
     },
     {
       "_": "types.LangPackString",
@@ -5289,24 +6619,9 @@
       "zero_value": "⁨{count}⁩ ساعة"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "قبل ⁨{count}⁩ ساعات",
-      "key": "HoursAgo",
-      "many_value": "قبل ⁨{count}⁩ ساعة",
-      "one_value": "قبل ساعة واحدة",
-      "other_value": "قبل ⁨{count}⁩ ساعة",
-      "two_value": "قبل ساعتين",
-      "zero_value": "قبل ⁨{count}⁩ ساعة"
-    },
-    {
       "_": "types.LangPackString",
       "key": "IfInactiveFor",
       "value": "إذا لم تكن نشطة لمدة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ImageCropTitle",
-      "value": "السحب لضبط الموضع"
     },
     {
       "_": "types.LangPackString",
@@ -5322,6 +6637,36 @@
       "_": "types.LangPackString",
       "key": "Info",
       "value": "معلومات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InfoUserTitle",
+      "value": "معلومات المستخدم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InputAttachPopoverMusic",
+      "value": "ملف صوتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrder",
+      "value": "ترتيب الحزم حسب الاستخدام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrderInfo",
+      "value": "سيتم عرض حزم الملصقات المستخدمة حديثًا أعلى الحُزم القديمة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstantView",
+      "value": "عرض فوري"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstantViewWrongLayout",
+      "value": "خلل في العرض؟"
     },
     {
       "_": "types.LangPackString",
@@ -5365,6 +6710,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InviteLinkApprovalRequired",
+      "value": "يتطلب الموافقة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InviteLinkExpired",
       "value": "منتهي"
     },
@@ -5405,6 +6755,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "January",
+      "value": "يناير"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JoinGroup",
       "value": "الانضمام للمجموعة"
     },
@@ -5440,8 +6795,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "JoinedViaFolder",
+      "value": "انضم عبر رابط الدعوة للمجلد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "July",
+      "value": "يوليو"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JumpToDate",
       "value": "اذهب لهذا التاريخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "June",
+      "value": "يونيو"
     },
     {
       "_": "types.LangPackString",
@@ -5450,8 +6820,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KickFromSupergroup",
+      "value": "تقييد المستخدم"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Language",
       "value": "اللغة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "المعذرة، تعذر العثور على هذه اللغة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "تغيير اللغة؟"
     },
     {
       "_": "types.LangPackString",
@@ -5517,6 +6902,26 @@
       "_": "types.LangPackString",
       "key": "LaunchConfetti",
       "value": "إطلاق الحلويات!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LaunchExeDontAsk",
+      "value": "لا تسألني مجددًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LaunchSvgWarning",
+      "value": "قد يؤدي فتح هذا الملف إلى كشف عنوان الـ IP الخاص بك لمنشئ الملف. استمرار؟ "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "معرفة المزيد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LearnMoreArrow",
+      "value": "معرفة المزيد >"
     },
     {
       "_": "types.LangPackString",
@@ -5690,6 +7095,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LinkForBoosting",
+      "value": "رابط التعزيز"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LinkLimitReached",
       "value": "بلغ الحد"
     },
@@ -5702,6 +7112,11 @@
       "_": "types.LangPackString",
       "key": "LinkNameHint",
       "value": "اسم الرابط (اختياري)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LinkPreview",
+      "value": "معاينة الرابط"
     },
     {
       "_": "types.LangPackString",
@@ -5737,6 +7152,11 @@
       "_": "types.LangPackString",
       "key": "Loading",
       "value": "يتم التحميل..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalizationInterfaceLanguage",
+      "value": "لغة الواجهة"
     },
     {
       "_": "types.LangPackString",
@@ -5825,18 +7245,28 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "LoopAnimatedStickers",
-      "value": "تكرار الملصقات المتحركة"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ManageLinksInfoHelp",
       "value": "يمكنك إنشاء روابط دعوة إضافية محدودة بوقت أو بمرات الاستخدام."
     },
     {
       "_": "types.LangPackString",
-      "key": "ManagementRemoveAdminConfirm",
-      "value": "هل أردت فعلًا عزل هذا المشرف؟"
+      "key": "Map",
+      "value": "الخريطة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "March",
+      "value": "مارس"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "الحد الأقصى لعدد التفاعلات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "May",
+      "value": "مايو"
     },
     {
       "_": "types.LangPackString",
@@ -5852,6 +7282,11 @@
       "_": "types.LangPackString",
       "key": "MediaFileEmpty",
       "value": "لا ملفات هنا بعد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaGifEmpty",
+      "value": "مامن صور GIFs هنا"
     },
     {
       "_": "types.LangPackString",
@@ -5890,8 +7325,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaviewChannelPhoto",
+      "value": "صورة القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewGroupPhoto",
+      "value": "صورة المجموعة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaviewProfilePhoto",
       "value": "الصورة الشخصية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePhotoByYou",
+      "value": "صورة قمت بتعيينها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePublicPhoto",
+      "value": "صورة عامة"
     },
     {
       "_": "types.LangPackString",
@@ -5930,18 +7385,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionChannel",
-      "value": "تقبل هذه القناة المشتركين الجدد فقط في حال وافق مشرفوها على طلب الانضمام."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionGroup",
-      "value": "تقبل هذه المجموعة الأعضاء الجدد فقط في حال وافق مشرفوها على طلب الإضافة."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "MemberRequestsRequestToJoinGroup",
       "value": "طلب الانضمام للمجموعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MenuAddAccount",
+      "value": "‎إضافة حساب"
     },
     {
       "_": "types.LangPackString",
@@ -5952,6 +7402,11 @@
       "_": "types.LangPackString",
       "key": "MenuBetaChangelog",
       "value": "سجل التغييرات التجريبية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MenuContacts",
+      "value": "‎جهات الاتصال"
     },
     {
       "_": "types.LangPackString",
@@ -5977,6 +7432,11 @@
       "_": "types.LangPackString",
       "key": "MenuSendGift",
       "value": "إرسال هدية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MenuSettings",
+      "value": "‎الإعدادات"
     },
     {
       "_": "types.LangPackString",
@@ -6030,6 +7490,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessageNotFound",
+      "value": "الرسالة غير موجودة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagePremiumUnlock",
+      "value": "الحصول على المُميّز"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessagePreview",
       "value": "معاينة الرسائل"
     },
@@ -6037,6 +7507,31 @@
       "_": "types.LangPackString",
       "key": "MessageRecommendedLabel",
       "value": "موصى به"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageRepeatPeriodBiweekly",
+      "value": "كل أسبوعين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageRepeatPeriodDaily",
+      "value": "يوميًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageRepeatPeriodMonthly",
+      "value": "شهريا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageRepeatPeriodWeekly",
+      "value": "أسبوعي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageRepeatPeriodYearly",
+      "value": "سنويًا"
     },
     {
       "_": "types.LangPackString",
@@ -6052,6 +7547,11 @@
       "_": "types.LangPackString",
       "key": "MessageScheduledOn",
       "value": "مجدولة حتى ⁨{date}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageScheduledRepeatPremium",
+      "value": "اشترك في **تيليجرام المميز** لجدولة الرسائل المتكررة."
     },
     {
       "_": "types.LangPackString",
@@ -6109,6 +7609,26 @@
       "zero_value": "⁨{count}⁩ رسالة"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerButton",
+      "value": "أوافق على ⁨{link}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerLink",
+      "value": "شروط الاستخدام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerText",
+      "value": "أنت على وشك استخدام تطبيق مصغّر يديره طرف مستقل **لا ينتمي لتيليجرام**. للمتابعة؛ تجب عليك الموافقة على شروط استخدام التطبيقات المُصغّرة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerTitle",
+      "value": "تحذير"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "⁨{count}⁩ دقائق",
       "key": "Minutes",
@@ -6116,16 +7636,6 @@
       "one_value": "دقيقة واحدة",
       "other_value": "⁨{count}⁩ دقيقة",
       "two_value": "دقيقتين",
-      "zero_value": ""
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "قبل ⁨{count}⁩ دقائق",
-      "key": "MinutesAgo",
-      "many_value": "قبل ⁨{count}⁩ دقيقة",
-      "one_value": "قبل دقيقة واحدة",
-      "other_value": "قبل ⁨{count}⁩ دقيقة",
-      "two_value": "قبل دقيقتين",
       "zero_value": ""
     },
     {
@@ -6137,6 +7647,16 @@
       "_": "types.LangPackString",
       "key": "MonetizationBalanceZeroInfo",
       "value": "سيكون بإمكانك جمع المكافآت باستخدام Fragment، وهي منصة تابعة لجهة خارجية يستخدمها المعلنون لدفع ثمن الإعلانات.⁨{link}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfo",
+      "value": "يمكنك استخدام رصيدك من جرام في الإعلانات أو سحبها كمكافآت بعد ٣ أيام من اكتسابها. لا يمكنك سحب أقل من ١٠ جرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfoLink",
+      "value": "https://telegram.org/tos/content-creator-rewards"
     },
     {
       "_": "types.LangPackString",
@@ -6207,6 +7727,21 @@
       "other_value": "⁨{count}⁩ شهر",
       "two_value": "شهران",
       "zero_value": "⁨{count}⁩ شهر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MoreSimilar",
+      "value": "المزيد من القنوات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MuteForForever",
+      "value": "كتم للأبد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MyNotes",
+      "value": "ملاحظاتي"
     },
     {
       "_": "types.LangPackString",
@@ -6325,8 +7860,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewTopic",
+      "value": "موضوع جديد"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Next",
       "value": "التالي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFiles",
+      "value": "لا توجد ملفات صوتية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFilesInfo",
+      "value": "مكتبتك الصوتية فارغة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFound",
+      "value": "لم يتم العثور على نتائج"
     },
     {
       "_": "types.LangPackString",
@@ -6345,6 +7900,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoBoostersGroupHint",
+      "value": "لا يوجد مستخدمون يعززون مجموعتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoBoostersHint",
+      "value": "لا يوجد مستخدمون يعزّزون قناتك حاليًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoComments",
+      "value": "لا توجد تعليقات بعد..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoContactsFound",
       "value": "لم يتم العثور على جهات اتصال "
     },
@@ -6352,6 +7922,11 @@
       "_": "types.LangPackString",
       "key": "NoDiscussionsLinked",
       "value": "لم يُعثَر على مجموعات مناقشة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoEmojiFound",
+      "value": "لم يتم العثور على رموز"
     },
     {
       "_": "types.LangPackString",
@@ -6405,8 +7980,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoReactions",
+      "value": "بلا تفاعلات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReplies",
+      "value": "ما من ردود هنا بعد..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoStickers",
       "value": "لا توجد ملصقات بعد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoStickersFound",
+      "value": "لم يتم العثور على ملصقات"
     },
     {
       "_": "types.LangPackString",
@@ -6425,13 +8015,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "لا توجد مشاهدات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoWordsRecognized",
       "value": "لم يتم التعرف على الكلام"
     },
     {
       "_": "types.LangPackString",
-      "key": "Nothing",
-      "value": "لا شيء"
+      "key": "NobodyViewed",
+      "value": "لم يشاهدها أحد"
     },
     {
       "_": "types.LangPackString",
@@ -6475,8 +8070,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "November",
+      "value": "نوفمبر"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "OK",
       "value": "حسنًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "October",
+      "value": "أكتوبر"
     },
     {
       "_": "types.LangPackString",
@@ -6492,6 +8097,11 @@
       "other_value": "⁨{count}⁩ متصلٍ",
       "two_value": "متصلان",
       "zero_value": ""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OnlyAllowThisReactions",
+      "value": "السماح بهذه التفاعلات فقط"
     },
     {
       "_": "types.LangPackString",
@@ -6525,6 +8135,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "OptionPremiumRequiredMessage",
+      "value": "يرجى الاشتراك في **تيليجرام المُميّز** لتحديد هذا الخيار."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "OtherSessions",
       "value": "الجلسات النشطة"
     },
@@ -6547,6 +8162,11 @@
       "_": "types.LangPackString",
       "key": "P2PNobody",
       "value": "لا أحد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PageContentEmbed",
+      "value": "المحتوى المضمن"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -6590,6 +8210,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeAutoLock1Hour",
+      "value": "إن غبت لساعة واحدة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock1Min",
+      "value": "إن غبت لدقيقة واحدة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock30Min",
+      "value": "إذا غبت لمدة 30 دقيقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock5Min",
+      "value": "إن غبت لـ 5 دقائق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLockDisabled",
+      "value": "معطَّل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLockTitle",
+      "value": "القفل التلقائي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeChange",
       "value": "تغيير رمز القفل"
     },
@@ -6625,6 +8275,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeKeepBackground",
+      "value": "احتفظ بالخلفية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackgroundInfo",
+      "value": "عرض صورة الخلفية على شاشة القفل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLockScreenTitle",
+      "value": "شاشة القفل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyDescription",
+      "value": "استخدم بصمة إصبعك أو وجهك أو رمز PIN الخاص بجهازك بدلاً من كتابة رمز المرور."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyEnable",
+      "value": "إعداد مفتاح المرور"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyTitle",
+      "value": "مفتاح المرور"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeTurnOff",
       "value": "إيقاف رمز القفل"
     },
@@ -6632,6 +8312,11 @@
       "_": "types.LangPackString",
       "key": "PasscodeWrong",
       "value": "رمز القفل خاطئ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasskeyDeleteTitle",
+      "value": "حذف مفتاح المرور"
     },
     {
       "_": "types.LangPackString",
@@ -6677,11 +8362,6 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckout",
       "value": "الدفع"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PaymentCheckoutAcceptRecurrent",
-      "value": "أقبل *بشروط خدمة* ⁨{bot}⁩."
     },
     {
       "_": "types.LangPackString",
@@ -6855,13 +8535,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Permanent",
-      "value": "الرابط الأساسي"
+      "key": "PermissionNoLocationPosition",
+      "value": "يحتاج تيليجرام إلى صلاحية تحديد موقعك."
     },
     {
       "_": "types.LangPackString",
       "key": "Phone",
       "value": "الهاتف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PhoneCopied",
+      "value": "تم نسخ رقم الهاتف للحافظة"
     },
     {
       "_": "types.LangPackString",
@@ -6930,6 +8615,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PlayMarket",
+      "value": "جوجل بلاي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PlayerPlaybackRate",
       "value": "سرعة التشغيل"
     },
@@ -6967,6 +8657,11 @@
       "_": "types.LangPackString",
       "key": "PleaseWait",
       "value": "يُرجى الانتظار..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PmReadShowWhen",
+      "value": "إظهار متى"
     },
     {
       "_": "types.LangPackString",
@@ -7045,13 +8740,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PopularReactions",
+      "value": "شائعة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PostsSearchTransaction",
       "value": "بحث المنشورات العامة"
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumEmojiStatusTitle",
+      "value": "هذا الرمز هو حالة ⁨{user}⁩ من حُزمة ⁨{link}⁩."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumGiftDescription",
       "value": "المميز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenButton1",
+      "value": "إظهار «آخر ظهور لي»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenButton2",
+      "value": "الاشتراك في تيليجرام المُميّز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenHeader1",
+      "value": "إظهار «آخر ظهور لك»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenSet",
+      "value": "أصبح وقت «آخر ظهور لك» مرئيًا الآن."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumMessageEffects",
+      "value": "تأثيرات الرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumMessageEffectsInfo",
+      "value": "إضافة أكثر من ٥٠٠ تأثير متحرك إلى الرسائل الخاصة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumMore",
+      "value": "المزيد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeededForBoosting",
+      "value": "مشتركو **تيليجرام المُميز** هم فقط من يمكنهم تعزيز القنوات. الاشتراك في **تيليجرام المُميّز**؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumOr",
+      "value": "أو"
     },
     {
       "_": "types.LangPackString",
@@ -7085,6 +8835,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmoji",
+      "value": "رموز تعبيرية متحركة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatus",
+      "value": "رموز الحالة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewLastSeen",
+      "value": "أوقات «آخر ظهور»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewLastSeenDescription",
+      "value": "عرض آخر ظهور وأوقات قراءة الآخرين حتى لو أخفيت ظهورك."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewLimits",
       "value": "حدود مضاعفة"
     },
@@ -7092,6 +8862,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewLimitsDescription",
       "value": "ما يصل إلى ⁨{limit1}⁩ قناة و⁨{limit2}⁩ مجلدًا و⁨{limit3}⁩ تثبيتات و⁨{limit4}⁩ رابطًا عامًا و⁨{limit5}⁩ حسابات والمزيد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewMessagePrivacy",
+      "value": "خصوصية المراسلة"
     },
     {
       "_": "types.LangPackString",
@@ -7115,8 +8890,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumPreviewReactions",
-      "value": "تفاعلات فريدة"
+      "key": "PremiumPreviewReactions2",
+      "value": "تفاعلات لانهائية"
     },
     {
       "_": "types.LangPackString",
@@ -7145,8 +8920,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewStoriesDescription",
+      "value": "نشر غير محدود، ترتيب الأولوية، وضع التخفي، سجل مشاهدات دائم، والمزيد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTags",
+      "value": "وسوم للرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTags2",
+      "value": "الوسوم في الرسائل المحفوظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTagsDescription2",
+      "value": "تنظيم رسائلك المحفوظة باستخدام الوسوم للوصول بشكل أسرع."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTodo",
+      "value": "قائمة المهام"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewTodoDescription",
       "value": "تخطيط المهام وتعيينها وإكمالها\nبسلاسة وكفاءة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslations",
+      "value": "الترجمة الفورية"
     },
     {
       "_": "types.LangPackString",
@@ -7170,13 +8975,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadButton1",
+      "value": "إظهار وقت قراءتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadHeader1",
+      "value": "إظهار وقت قراءتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadHeader2",
+      "value": "الترقية إلى المُميّز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadSet",
+      "value": "أصبحت الآن أوقات قراءتك مرئية."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "تحتوي هذه الحزمة على ملصقات مميزة مثل هذه."
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumStickers",
-      "value": "الملصقات المميزة"
+      "key": "PremiumStoriesAboutMobile",
+      "value": "*متاح عند نشر القصص من تطبيقات تيليجرام لنظامي التشغيل iOS و اندرويد."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesCaptionDescription",
+      "value": "إضافة أوصاف أطول بـ ١٠ مرات إلى قصصك؛ حتى ٢٠٤٨ حرفًا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesFormattingDescription",
+      "value": "إضافة الروابط والتنسيق في وصف قصتك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesPriority",
+      "value": "ترتيب الأولوية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesPriorityDescription",
+      "value": "الحصول على مشاهدات أكثر حيث يتم دائمًا عرض قصصك أولًا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGallery",
+      "value": "حفظ القصص في المعرض"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGalleryDescription",
+      "value": "حفظ قصص الآخرين غير المحمية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleCaption",
+      "value": "أوصاف أطول*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleExpiration",
+      "value": "خيارات انتهاء الصلاحية*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleLinks",
+      "value": "الروابط والتنسيق*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesViewsDescription",
+      "value": "معرفة من فتح قصصك، حتى بعد انتهاء صلاحيتها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PreviewDeletePhoto",
+      "value": "حذف الصورة"
     },
     {
       "_": "types.LangPackString",
@@ -7194,51 +9074,6 @@
       "zero_value": "⁨{count}⁩ رسالة محوَّلة"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "إرسال ⁨{count}⁩ ملفات صوتية",
-      "key": "PreviewSenderSendAudio",
-      "many_value": "إرسال ⁨{count}⁩ ملفًا صوتيًا",
-      "one_value": "إرسال ملف صوتي",
-      "other_value": "إرسال ⁨{count}⁩ ملفٍ صوتي",
-      "two_value": "إرسال ملفين صوتيين",
-      "zero_value": ""
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "إرسال ⁨{count}⁩ ملفات",
-      "key": "PreviewSenderSendFile",
-      "many_value": "إرسال ⁨{count}⁩ ملفًا",
-      "one_value": "إرسال ملف واحد",
-      "other_value": "إرسال ⁨{count}⁩ ملفٍ",
-      "two_value": "إرسال ملفين",
-      "zero_value": ""
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "إرسال ⁨{count}⁩ صور",
-      "key": "PreviewSenderSendPhoto",
-      "many_value": "إرسال ⁨{count}⁩ صورةً",
-      "one_value": "إرسال صورة",
-      "other_value": "إرسال ⁨{count}⁩ صورةٍ",
-      "two_value": "إرسال صورتين",
-      "zero_value": ""
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "إرسال ⁨{count}⁩ مقاطع مرئية",
-      "key": "PreviewSenderSendVideo",
-      "many_value": "إرسال ⁨{count}⁩ مقطعًا مرئيًا",
-      "one_value": "إرسال مقطع مرئي",
-      "other_value": "إرسال ⁨{count}⁩ مقطع مرئي",
-      "two_value": "إرسال مقطعين مرئيين",
-      "zero_value": ""
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PreviewWebPageClose",
-      "value": "مسح معاينة صفحة الويب"
-    },
-    {
       "_": "types.LangPackString",
       "key": "PrimaryLinkHelp",
       "value": "يمكن لأي شخص لديه تيليجرام الانضمام إلى مجموعتك عبر هذا الرابط."
@@ -7250,13 +9085,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Privacy",
-      "value": "إعدادات الخصوصية"
+      "key": "PrivacyAcceptedGiftInfo",
+      "value": "تحديد أنواع الهدايا المسموح للآخرين بإرسالها إليك."
     },
     {
       "_": "types.LangPackString",
-      "key": "PrivacyAcceptedGiftInfo",
-      "value": "تحديد أنواع الهدايا المسموح للآخرين بإرسالها إليك."
+      "key": "PrivacyBio",
+      "value": "النبذة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBioTitle",
+      "value": "من يمكنه رؤية نبذتي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBirthdayTitle",
+      "value": "من يمكنهم رؤية يوم ميلادي؟"
     },
     {
       "_": "types.LangPackString",
@@ -7320,6 +9165,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremium",
+      "value": "الاشتراك في تيليجرام المُميّز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumForPremium",
+      "value": "الاشتراك في تيليجرام المُميّز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumInfo",
+      "value": "إذا اشتركت في المُميّز؛ سيظهر لك «آخر وقت » و «وقت القراءة» لدى الآخرين، حتى إن أخفيت وقتك عنهم (إلا إذا كانوا هم يخفونه)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumInfoForPremium",
+      "value": "لأنك من المشتركين في تيليجرام المميّز؛ سيظهر لك \"آخر ظهور\" و \"وقت القراءة\" لكل المستخدمين الذين يشاركونه معك، حتى إن أخفيت آخر ظهور لك و وقت قراءتك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessages",
+      "value": "الرسائل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessagesContactsAndPremium",
+      "value": "جهات اتصالي والمستخدمون المميزون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessagesTitle",
+      "value": "من يمكنهم مراسلتي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusic",
+      "value": "الصوتيات المحفوظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusicInfo",
+      "value": "يمكنك تقييد الأشخاص الذين يمكنهم رؤية الموسيقى المحفوظة لديك بدقة متناهية."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyP2P",
       "value": "النِّدُّ للنِّدِّ في المكالمات"
     },
@@ -7335,8 +9225,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyPhoneInfo",
+      "value": "المستخدمون الذين يملكون رقمك محفوظًا في دليل عناوينهم سيتمكنون من رؤيته في تيليجرام أيضًا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPhoneInfo3",
+      "value": "المستخدمون الذين يحتفظون برقمك في جهات اتصالهم سيرون رقمك في تيليجرام إذا كانوا هم من جهات اتصالك."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyPhoneTitle",
       "value": "من يمكنهم رؤية رقم هاتفي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPhoneTitle2",
+      "value": "من يمكنهم إيجادي برقم هاتفي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPremium",
+      "value": "المستخدمون المميزون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPremiumText",
+      "value": "كل مشتركي تيليجرام المميز"
     },
     {
       "_": "types.LangPackString",
@@ -7345,8 +9260,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoRemovePublicPhoto",
+      "value": "إزالة الصورة العامة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoRemovePublicVideo",
+      "value": "إزالة الصورة العامة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoSetPublicPhoto",
+      "value": "تعيين صورة عامة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoTitle",
       "value": "من يمكنهم رؤية صور ملفّي الشخصي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoUpdatePublicPhoto",
+      "value": "تحديث الصورة العامة"
     },
     {
       "_": "types.LangPackString",
@@ -7370,8 +9305,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyUserTypes",
+      "value": "أنواع المستخدمين"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyValueBots",
       "value": "التطبيقات المصغّرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessages",
+      "value": "الرسائل الصوتية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesInfo",
+      "value": "يمكنك تحديد من يمكنهم إرسال رسائل صوتية أو مرئية إليك بإعدادات دقيقة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesTitle",
+      "value": "من يمكنهم مراسلتي برسائل صوتية أو مرئية؟"
     },
     {
       "_": "types.LangPackString",
@@ -7384,14 +9339,9 @@
       "value": "المحادثات الخاصة"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "جائزتك هي ⁨{count}⁩ نجوم.",
-      "key": "PrizeCredits2",
-      "many_value": "جائزتك هي ⁨{count}⁩ نجمة.",
-      "one_value": "جائزتك هي نجمة واحدة.",
-      "other_value": "جائزتك هي ⁨{count}⁩ نجمة.",
-      "two_value": "جائزتك هي نجمتان.",
-      "zero_value": ""
+      "_": "types.LangPackString",
+      "key": "PrizesResultsWinners",
+      "value": "الفائزون"
     },
     {
       "_": "types.LangPackString",
@@ -7405,8 +9355,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileBirthdayToday",
+      "value": "عيد الميلاد اليوم"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileBotOpenAppInfoLink",
       "value": "https://telegram.org/tos/mini-apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileChannel",
+      "value": "القناة"
     },
     {
       "_": "types.LangPackString",
@@ -7442,6 +9402,16 @@
       "_": "types.LangPackString",
       "key": "ProfileOpenAppTerms",
       "value": "شروط الخدمة للتطبيقات المصغرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotoSetMainPhoto",
+      "value": "تعيينها كصورة أساسية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileSendAGift",
+      "value": "إرسال هدية"
     },
     {
       "_": "types.LangPackString",
@@ -7520,11 +9490,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfileTabSubscribers",
-      "value": "المشتركين"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ProfileTabVoice",
       "value": "صوت "
     },
@@ -7532,6 +9497,11 @@
       "_": "types.LangPackString",
       "key": "ProfileViewChannel",
       "value": "عرض القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PromoteUrl",
+      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -7595,13 +9565,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Recent",
-      "value": "الأخيرة"
+      "key": "ReactionsAll",
+      "value": "الكل"
     },
     {
       "_": "types.LangPackString",
-      "key": "RecentChatsClear",
-      "value": "مسح المحادثات الأخيرة"
+      "key": "ReactionsOff",
+      "value": "معطّلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Recent",
+      "value": "الأخيرة"
     },
     {
       "_": "types.LangPackString",
@@ -7615,8 +9590,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RecoveryEmailSubtitle",
+      "value": "يمكنك تعيين بريد استرداد للتمكن من إعادة تعيين كلمة مرورك واستعادة الوصول إلى حسابك في تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RecoveryEmailTitle",
       "value": "بريد الاسترداد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Redo",
+      "value": "إعادة"
     },
     {
       "_": "types.LangPackString",
@@ -7632,6 +9617,11 @@
       "_": "types.LangPackString",
       "key": "RemoveFeeTitle",
       "value": "إزالة الرسوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RemoveFromPosts",
+      "value": "إزالتها من المنشورات"
     },
     {
       "_": "types.LangPackString",
@@ -7655,8 +9645,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveQuote",
+      "value": "إزالة الاقتباس"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveSymbol",
       "value": "حذف الرمز"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Replace",
+      "value": "استبدال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RepliesTitle",
+      "value": "الردود"
     },
     {
       "_": "types.LangPackString",
@@ -7670,18 +9675,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyPrivate",
+      "value": "هذا الرد من محادثة خاصة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyPrivately",
+      "value": "الرد في الخاص..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyToAnotherChat",
+      "value": "الرد في محادثة أخرى"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyToGroupStory",
+      "value": "التعليق على القصة..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2Comment",
+      "value": "إضافة تعليق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2CommentOptional",
+      "value": "إضافة تعليق (اختياري)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportAd",
+      "value": "الإبلاغ عن الإعلان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportAdHelpURL",
+      "value": "https://ads.telegram.org/guidelines"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportButton",
       "value": "إبلاغ"
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportChat",
-      "value": "الإبلاغ عن ⁨{peer}⁩"
+      "key": "ReportChatIllegalDrugs",
+      "value": "مخدرات"
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportMessageTitle",
-      "value": "إبلاغ عن الرسالة"
+      "key": "ReportChatPersonalDetails",
+      "value": "بيانات شخصية"
     },
     {
       "_": "types.LangPackString",
@@ -7697,6 +9742,11 @@
       "_": "types.LangPackString",
       "key": "ReportPeerReport",
       "value": "إبلاغ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportPleaseSelectMessages",
+      "value": "يرجى تحديد الرسائل للإبلاغ عنها."
     },
     {
       "_": "types.LangPackString",
@@ -7735,8 +9785,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSend",
+      "value": "إرسال البلاغ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportSpamAndLeave",
       "value": "إبلاغ عن إزعاج ومغادرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSpamTitle",
+      "value": "إبلاغ عن إزعاج"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSponsoredReportedLearn",
+      "value": "معرفة المزيد حول ⁨{link}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSponsoredReportedLink",
+      "value": "سياسات الإعلانات وإرشاداتها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportStory",
+      "value": "الإبلاغ عن قصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerRequirements",
+      "value": "المتطلبات"
     },
     {
       "_": "types.LangPackString",
@@ -7750,6 +9830,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Reset",
+      "value": "إعادة تعيين"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RestictionReasonPrivateChannel",
       "value": "هذه قناة خاصة"
     },
@@ -7757,6 +9842,41 @@
       "_": "types.LangPackString",
       "key": "RestictionReasonPrivateChat",
       "value": "هذه محادثة خاصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Retry",
+      "value": "إعادة المحاولة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsAlertSubtitle",
+      "value": "إعلانات تيليجرام تختلف كثيرًا عن الإعلانات على المنصات الأخرى. إعلانات تيليجرام:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo1Title",
+      "value": "تحترم خصوصيتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo2Subtitle",
+      "value": "تذهب ٥٠٪ من إيرادات إعلانات تيليجرام إلى مالك القناة التي عُرضت الإعلانات فيها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo2Title",
+      "value": "تدعم منشئ القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo3Title",
+      "value": "يمكن إزالتها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo4Title",
+      "value": "هل يمكنني نشر إعلان؟"
     },
     {
       "_": "types.LangPackString",
@@ -7782,6 +9902,11 @@
       "_": "types.LangPackString",
       "key": "RevokedLinks",
       "value": "الروابط المعطّلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorButtonCopyText",
+      "value": "النص المراد نسخه"
     },
     {
       "_": "types.LangPackString",
@@ -7815,6 +9940,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SaveToPosts",
+      "value": "نشرها في الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Saved",
+      "value": "المحفوظة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedGifsLimitSubtitle",
       "value": "حفظ ما يصل إلى ⁨{count}⁩ صورة GIF في مفضلتك"
     },
@@ -7835,6 +9970,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedOpenChat",
+      "value": "فتح المحادثة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagFilterByTag",
+      "value": "تصفية حسب الوسم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagLabelTag",
+      "value": "إضافة اسم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagLabelTagText",
+      "value": "يمكنك تسمية وسم رمزك التعبيري باسم نصي."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagReactionsHint2",
+      "value": "وسم الرسالة برمز تعبيري للوصول السريع إليها لاحقًا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagRemoveTag",
+      "value": "إزالة الوسم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagRenameTag",
+      "value": "تعديل الاسم"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ScamMessage",
       "value": "احتيالي"
     },
@@ -7847,6 +10017,16 @@
       "_": "types.LangPackString",
       "key": "ScheduleRepeat",
       "value": "التكرار: ⁨{value}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ScheduleRepeatDaily",
+      "value": "يومي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ScheduleRepeatYearly",
+      "value": "سنوي"
     },
     {
       "_": "types.LangPackString",
@@ -7865,13 +10045,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchAllMessagesTab",
-      "value": "كل الرسائل"
+      "key": "SearchApps",
+      "value": "البحث في التطبيقات"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchApps",
-      "value": "البحث في التطبيقات"
+      "key": "SearchAppsMine",
+      "value": "التطبيقات المستخدمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchAsChat",
+      "value": "عرض كمحادثة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchAsList",
+      "value": "عرض كقائمة"
     },
     {
       "_": "types.LangPackString",
@@ -7880,8 +10070,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchFilesTab",
-      "value": "ملفات"
+      "key": "SearchEmoji",
+      "value": "بحث الرموز التعبيرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchEmptyViewTitle",
+      "value": "ما من نتائج"
     },
     {
       "_": "types.LangPackString",
@@ -7890,28 +10085,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGifsTab",
-      "value": "صور متحركة"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SearchGifsTitle",
       "value": "بحث عن صور متحركة"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGroupsTab",
-      "value": "مجموعات"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchLinksTab",
-      "value": "روابط"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchMediaTab",
-      "value": "وسائط"
+      "key": "SearchHashtagsHint",
+      "value": " البحث عن وسوم"
     },
     {
       "_": "types.LangPackString",
@@ -7919,29 +10099,19 @@
       "value": "الرسائل"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "few_value": "تم العثور على ⁨{count}⁩ رسائل",
-      "key": "SearchMessagesFound",
-      "many_value": "تم العثور على ⁨{count}⁩ رسالةً",
-      "one_value": "تم العثور على رسالة",
-      "other_value": "تم العثور على ⁨{count}⁩ رسالةٍ",
-      "two_value": "تم العثور على رسالتين",
-      "zero_value": ""
+      "_": "types.LangPackString",
+      "key": "SearchMusic",
+      "value": "بحث الصوتيات"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchMusicTab",
-      "value": "ملفات صوتية"
+      "key": "SearchMyMessages",
+      "value": "محادثاتي"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchNoResults",
-      "value": "لم يتم العثور على رسائل"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchStickersHint",
-      "value": "بحث عن حزم الملصقات"
+      "key": "SearchStickers",
+      "value": "البحث عن ملصقات"
     },
     {
       "_": "types.LangPackString",
@@ -7995,8 +10165,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchVoiceTab",
-      "value": "رسائل صوتية"
+      "key": "SearchThisChat",
+      "value": "هذه المحادثة"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -8007,11 +10177,6 @@
       "other_value": "⁨{count}⁩ ثانية",
       "two_value": "⁨{count}⁩ ثانيتان",
       "zero_value": "⁨{count}⁩ ثانية"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SecretChat",
-      "value": "محادثة سرية"
     },
     {
       "_": "types.LangPackString",
@@ -8027,6 +10192,21 @@
       "_": "types.LangPackString",
       "key": "SelectChat",
       "value": "اختر محادثة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelectSendAsPeerPremiumHint",
+      "value": "يرجى الاشتراك في **تيليجرام المُميّز** للتمكن من التعليق بقنواتك في أي مجموعة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelfDestructSessionsDescription",
+      "value": "إذا لم تتصل بالإنترنت من جلسة معينة مرة واحدة على الأقل خلال هذه الفترة، فسيتم إنهاؤها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelfDestructTitle",
+      "value": "التدمير الذاتي للحساب"
     },
     {
       "_": "types.LangPackString",
@@ -8080,8 +10260,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SendAnotherGift",
+      "value": "إرسال هدية أخرى"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SendMediaPermissionFiles",
+      "value": "الملفات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SendMediaPermissionPhotos",
+      "value": "الصور"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SendMediaPermissionPolls",
       "value": "الاستفتاءات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SendMediaPermissionVideos",
+      "value": "المقاطع المرئية"
     },
     {
       "_": "types.LangPackString",
@@ -8117,6 +10317,11 @@
       "_": "types.LangPackString",
       "key": "SentGift",
       "value": "الهدية المرسلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "September",
+      "value": "سبتمبر"
     },
     {
       "_": "types.LangPackString",
@@ -8180,8 +10385,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetAutoDeleteTimer",
+      "value": "تعيين الحذف التلقائي"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetColor",
       "value": "تعيين لون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SetCustomTime",
+      "value": "تعيين وقت مخصص"
     },
     {
       "_": "types.LangPackString",
@@ -8235,13 +10450,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsDisableNightTheme",
-      "value": "تعطيل الوضع الليلي"
+      "key": "SettingsAccount",
+      "value": "الحساب"
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsEnableNightTheme",
-      "value": "تفعيل الوضع الليلي"
+      "key": "SettingsBirthday",
+      "value": "يوم الميلاد"
     },
     {
       "_": "types.LangPackString",
@@ -8275,13 +10490,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsOfflineNotificationUnsupported",
-      "value": "غير مدعوم"
+      "key": "SettingsMyStories",
+      "value": "قصصي"
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsPasscodeEnabled",
-      "value": "رمز القفل المحلي مفعّل"
+      "key": "SettingsOfflineNotificationUnsupported",
+      "value": "غير مدعوم"
     },
     {
       "_": "types.LangPackString",
@@ -8480,18 +10695,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTipsUsername",
-      "value": "TelegramTipsAR"
+      "key": "SettingsTitleChatName",
+      "value": "إظهار اسم المحادثة"
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTray",
-      "value": "إظهار الأيقونة في شريط القائمة"
+      "key": "SettingsWindowSystem",
+      "value": "شريط عنوان النافذة"
     },
     {
       "_": "types.LangPackString",
       "key": "Share",
       "value": "مشاركة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareLinkCopied",
+      "value": "تم النسخ إلى الحافظة"
     },
     {
       "_": "types.LangPackString",
@@ -8519,6 +10739,11 @@
       "value": "إظهار الوصف"
     },
     {
+      "_": "types.LangPackString",
+      "key": "ShowMore",
+      "value": "عرض المزيد"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "إظهار ⁨{count}⁩ محادثات أخرى",
       "key": "ShowMoreChats",
@@ -8540,6 +10765,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowOriginalButton",
+      "value": "إظهار الأصل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShowSenderNames",
       "value": "إظهار أسماء المرسِلين"
     },
@@ -8547,6 +10777,16 @@
       "_": "types.LangPackString",
       "key": "ShowSendersName",
       "value": "إظهار اسم المرسِل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShowTranslateButton",
+      "value": "إظهار زر الترجمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SimilarChannelsLimitTitle",
+      "value": "قنوات مشابهة"
     },
     {
       "_": "types.LangPackString",
@@ -8560,8 +10800,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SomeReactions",
+      "value": "بعض التفاعلات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SomethingWentWrong",
       "value": "حدث خطأ ما"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortBy",
+      "value": "ترتيب حسب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "التفاعلات أولًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "الأحدث أولًا"
     },
     {
       "_": "types.LangPackString",
@@ -8575,6 +10835,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Spoiler",
+      "value": "تشويش"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SponsoredMessage",
+      "value": "إعلان"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageAd",
       "value": "إعلان"
     },
@@ -8582,11 +10852,6 @@
       "_": "types.LangPackString",
       "key": "SponsoredMessageAdWhatIsThis",
       "value": "ما هذا؟"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SponsoredMessageAlertLearnMoreUrl",
-      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -8615,6 +10880,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SponsoredMessageSponsor",
+      "value": "معلومات المُعلِن"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGiftDescription",
       "value": "منح ⁨{user}⁩ هدايا يمكن الاحتفاظ بها في الملف الشخصي أو تحويلها إلى نجوم."
     },
@@ -8635,8 +10905,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGiftReason",
+      "value": "السبب"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGiftReasonDropOriginalDetails",
       "value": "إزالة وصف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftReasonUpgrade",
+      "value": "هدية تمت ترقيتها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListBuyMoreStars",
+      "value": "شراء المزيد من النجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListGetStars",
+      "value": "الحصول على نجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarMediaPurchase",
+      "value": "شراء الوسائط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarMySubscriptions",
+      "value": "اشتراكاتي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarSubscriptionPurchase",
+      "value": "رسوم الاشتراك الشهري"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarTransactionFrom",
+      "value": "من"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsAcquired",
+      "value": "النجوم المكتسبة!"
     },
     {
       "_": "types.LangPackString",
@@ -8660,6 +10975,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsConfirmPurchaseTitle",
+      "value": "تأكيد الشراء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsFailed",
+      "value": "فشل"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsGiftBought",
       "value": "لقد اشتريت هدية!"
     },
@@ -8680,8 +11005,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsGiftReceived",
+      "value": "الهدية المستلمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsGiftReceivedTitle",
+      "value": "الهدية المستلمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsGiveawayPrizeReceived",
+      "value": "الجائزة المستلمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionAppleTopUpSubtitle",
+      "value": "عبر متجر التطبيقات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionAppleTopUpTitle",
+      "value": "شراء النجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionFragmentTopUpSubtitle",
+      "value": "عبر Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionFragmentTopUpTitle",
+      "value": "شراء النجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGiftUnknownUser",
+      "value": "مستخدم غير معروف"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGoogleTopUpTitle",
+      "value": "شراء النجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionPremiumBotTopUpSubtitle",
+      "value": "عبر Premium Bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionPremiumBotTopUpTitle",
+      "value": "شراء النجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramAdsSubtitle",
+      "value": "عبر إعلانات تيليجرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramAdsTitle",
+      "value": "سحب الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramBotApiTitle",
+      "value": "البث المدفوع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionUnsupportedTitle",
+      "value": "غير مدعومة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextLink",
+      "value": "الرجاء شراء **النجوم** لتجديد اشتراكك في القنوات."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextSendPaidMessages",
       "value": "شراء **النجوم** لإرسال الرسائل."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsParticipantSubscriptionPerMonth",
+      "value": "في الشهر"
     },
     {
       "_": "types.LangPackString",
@@ -8690,8 +11100,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsPending",
+      "value": "قيد الانتظار"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsPerMonth",
       "value": "⁨{amount}⁩⭐️/ شهر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseGetStarsInfo",
+      "value": "اختيار عدد النجوم المراد شراؤها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseShowMore",
+      "value": "عرض المزيد من الخيارات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionAnonymous",
+      "value": "مجهول"
     },
     {
       "_": "types.LangPackString",
@@ -8705,8 +11135,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsReactionShowMeInTopSenders",
+      "value": "إظهاري في «أبرز الداعمين»"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsReactionTerms",
       "value": "إرسالك النجوم يعني موافقتك على ⁨{link}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTitle",
+      "value": "التفاعل بالنجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTopSenders",
+      "value": "أشهر الداعمين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionsSent",
+      "value": "التفاعل بالنجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSentTitle",
+      "value": "تم إرسال النجوم!"
     },
     {
       "_": "types.LangPackString",
@@ -8750,6 +11205,131 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscribeTitle",
+      "value": "الاشتراك في القناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionAgain",
+      "value": "إعادة الاشتراك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotCancelledText",
+      "value": "لقد قام البوت بإلغاء اشتراكك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotProduct",
+      "value": "الاشتراك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancel",
+      "value": "إلغاء الاشتراك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelledText",
+      "value": "لقد قمت بإلغاء اشتراكك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionChannel",
+      "value": "الاشتراك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCompleted",
+      "value": "تم الاشتراك بنجاح!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRenew",
+      "value": "تجديد الاشتراك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionStatusCancelled",
+      "value": "تم إلغاؤه"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionTitle",
+      "value": "الاشتراك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionUntilExpires",
+      "value": "ينتهي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionUntilRenews",
+      "value": "التجديد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTopupLinkEnough",
+      "value": "لديك نجوم كافية في الوقت الحالي."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTopupLinkTopupAnyway",
+      "value": "شراء على أية حال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionAds",
+      "value": "الإعلانات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionBot",
+      "value": "بوت شراء النجوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionDate",
+      "value": "التاريخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionGiftFrom",
+      "value": "هدية من"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionHidden",
+      "value": "مجهول"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionId",
+      "value": "رقم العملية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionReactionPost",
+      "value": "المنشور"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonMiniapp",
+      "value": "التطبيق المُصغر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonProgram",
+      "value": "برنامج الجهة المروّجة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonTitle",
+      "value": "السبب"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionTOS",
       "value": "مراجعة ⁨{link}⁩ لنجوم تيليجرام."
     },
@@ -8765,6 +11345,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransactionTo",
+      "value": "إلى"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionUnsupportedTitle",
+      "value": "غير مدعومة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionVia",
+      "value": "عبر"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionsAll",
       "value": "كل العمليات"
     },
@@ -8777,6 +11372,11 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionsOutgoing",
       "value": "الصادرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Start",
+      "value": "بدء"
     },
     {
       "_": "types.LangPackString",
@@ -8802,6 +11402,21 @@
       "_": "types.LangPackString",
       "key": "Statistics",
       "value": "الإحصائيات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsBoostsToLevelUp",
+      "value": "تعزيزات لرفع المستوى"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsLevel",
+      "value": "المستوى"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsPremiumSubscribers",
+      "value": "المشتركون المُميّزون"
     },
     {
       "_": "types.LangPackString",
@@ -8884,6 +11499,26 @@
       "value": "لا مشاركات"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StatsStoryTitle",
+      "value": "إحصائيات القصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatusHiddenShow",
+      "value": "متى؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StealthModeTitle",
+      "value": "وضع التخفي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerEffects",
+      "value": "تأثيرات من الملصقات"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "إضافة ⁨{count}⁩ ملصقات",
       "key": "StickerPackAddStickerCount",
@@ -8930,13 +11565,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "StickersInstall",
-      "value": "إضافة"
+      "key": "StickersBotInfo",
+      "value": "الرسامون مرحب بهم لإضافة حزم ملصقاتهم عبر مراسلة بوت @stickers"
     },
     {
       "_": "types.LangPackString",
-      "key": "StickersInstalled",
-      "value": "أُضيفت"
+      "key": "StickersListEmojiItem",
+      "value": "الرموز التعبيرية المُخصصة"
     },
     {
       "_": "types.LangPackString",
@@ -8945,8 +11580,143 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryContextRemoveFromProfile",
+      "value": "إزالتها من الملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryExpiredSubtitle",
+      "value": "لقد انتهت صلاحية هذه القصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHeaderEdited",
+      "value": "مُعدلة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryKeep",
+      "value": "نشرُها في ملفي الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListArchivedEmptyStateTitle",
+      "value": "لا توجد قصص مؤرشفة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListItemActionPin",
+      "value": "تثبيت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListItemActionUnpin",
+      "value": "إلغاء التثبيت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSavedEmptyStateTitle",
+      "value": "لا توجد قصص منشورة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryNotFound",
+      "value": "لم تعد هذه القصة متاحة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertEditTitle",
+      "value": "تعديل إعدادات الخصوصية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertExcludedContactsTitle",
+      "value": "جهات الاتصال المستثناة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertSelectContactsTitle",
+      "value": "تحديد جهات الاتصال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertSubtitleProfile",
+      "value": "تحديد من يمكنه مشاهدة قصتك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyButtonSave",
+      "value": "حفظ الإعدادات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionCloseFriends",
+      "value": "أصدقاء مقربون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionCloseFriendsDetail",
+      "value": "تحرير القائمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionContactsDetail",
+      "value": "استثناء أشخاص"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionEveryone",
+      "value": "الجميع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionSelectedContacts",
+      "value": "مستخدمون محددون"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionSelectedContactsDetail",
+      "value": "تحرير القائمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsHint",
+      "value": "إرسال التفاعل كرسالة خاصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepliesLockedButton",
+      "value": "فتح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorySave",
+      "value": "نشر للملف الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStatistics",
+      "value": "إحصائيات القصة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastRemovedFromProfileText",
+      "value": "تمت إزالة القصة من ملفك الشخصي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastViewInChat",
+      "value": "عرضه في المحادثة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryTooltipGifSent",
       "value": "تم إرسال الصورة متحركة!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryTooltipMessageSent",
+      "value": "تم إرسال الرسالة."
     },
     {
       "_": "types.LangPackString",
@@ -8960,13 +11730,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryTooltipVideoHasNoSound",
+      "value": "لا يوجد صوت لهذا الفيديو"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryUnsupported",
       "value": "هذه القصة غير مدعومة في تيليجرام ويب A. حاول عرضها في تطبيق تيليجرام."
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryViewListEmptyTextSearch",
+      "value": "لا توجد مشاهدات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SubscribeRequests",
       "value": "طلبات الانضمام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SubscribeTagAbout",
+      "value": "يمكنك تنظيم رسائلك المحفوظة باستخدام الوسوم. ⁨{link}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SubscribeTagLink",
+      "value": "معرفة المزيد…"
     },
     {
       "_": "types.LangPackString",
@@ -8990,6 +11780,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SuggestAnimatedEmoji",
+      "value": "اقتراح رموز تعبيرية متحركة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SuggestStickers",
       "value": "اقتراح الملصقات بالرموز"
     },
@@ -9010,6 +11805,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SupportStatus",
+      "value": "الدعم"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SureLogout",
       "value": "هل ترغب حقًا في تسجيل الخروج؟"
     },
@@ -9017,11 +11817,6 @@
       "_": "types.LangPackString",
       "key": "Telegram",
       "value": "تيليجرام"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TelegramFeatures",
-      "value": "ميزات تيليجرام"
     },
     {
       "_": "types.LangPackString",
@@ -9060,6 +11855,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramPremiumUserGiftedPremiumDialogSubtitle",
+      "value": "يمكنك الآن الوصول إلى ميزات إضافية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStars",
+      "value": "نجوم تيليجرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStarsGift",
+      "value": "إهداء النجوم للأصدقاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStarsInfo",
+      "value": "يمكنك شراء النجوم لفتح محتوى أو خدمات\nفي التطبيقات المصغرة على تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TerminateAllSessions",
       "value": "إنهاء جميع الجلسات الأخرى"
     },
@@ -9067,6 +11882,11 @@
       "_": "types.LangPackString",
       "key": "TerminateOldSessionHeader",
       "value": "إنهاء تلقائي للجلسات القديمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Text",
+      "value": "نص"
     },
     {
       "_": "types.LangPackString",
@@ -9115,6 +11935,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TopicClosedByAdmin",
+      "value": "الموضوع مغلق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateSettingsAbout",
+      "value": "سيظهر زر «الترجمة» في قائمة السياق للرسائل المحتوية على نص."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TurnPasswordOff",
       "value": "تعطيل كلمة المرور"
     },
@@ -9150,6 +11980,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Typing",
+      "value": "يكتب"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Unarchive",
       "value": "إلغاء الأرشفة"
     },
@@ -9167,6 +12002,21 @@
       "_": "types.LangPackString",
       "key": "UnconfirmedAuthDeny",
       "value": "لا، ليس أنا!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnconfirmedAuthTitle",
+      "value": "تمكن شخص للتو من الوصول إلى رسائلك!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Understood",
+      "value": "👌 مفهوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Undo",
+      "value": "تراجع"
     },
     {
       "_": "types.LangPackString",
@@ -9215,8 +12065,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Unlock",
+      "value": "فتح"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnlockMoreSimilarBots",
       "value": "عرض المزيد من التطبيقات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockPremiumEmojiHint",
+      "value": "يرجى الاشتراك في **تيليجرام المُميّز** لفتح هذا الرمز."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockPremiumEmojiHint2",
+      "value": "يمكنك إرسال هذه الرموز في **الرسائل المحفوظة** مجانًا لتجربتها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockSimilar",
+      "value": "فتح قنوات أكثر"
     },
     {
       "_": "types.LangPackString",
@@ -9240,8 +12110,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UpgradedStories",
+      "value": "القصص"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UploadImage",
       "value": "رفع صورة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UploadSpeedLimited",
+      "value": "سرعة الرفع محدودة"
     },
     {
       "_": "types.LangPackString",
@@ -9255,6 +12135,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserActionRecordAudio",
+      "value": "يسجل ⁨{user}⁩ رسالةً صوتية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionRecordRound",
+      "value": "يسجل ⁨{user}⁩ رسالةً مرئية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionRecordVideo",
+      "value": "⁨{user}⁩ يسجل مقطع مرئي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadAudio",
+      "value": "يرسل ⁨{user}⁩ رسالةً صوتية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadFile",
+      "value": "يرسل ⁨{user}⁩ ملفًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadPhoto",
+      "value": "يرسل ⁨{user}⁩ صورةً"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadRound",
+      "value": "يرسل ⁨{user}⁩ رسالةً مرئية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserActionUploadVideo",
+      "value": "يرسل ⁨{user}⁩ مقطعًا مرئيًا"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserBio",
       "value": "النبذة"
     },
@@ -9262,6 +12182,16 @@
       "_": "types.LangPackString",
       "key": "UserInfoBlockConfirmationTitle",
       "value": "هل تريدون حظر ⁨{user}⁩ من مراسلتك والاتصال بك على تيليجرام؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoCustomPhoto",
+      "value": "صورة قمت بتعيينها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoCustomVideo",
+      "value": "صورة قمت بتعيينها"
     },
     {
       "_": "types.LangPackString",
@@ -9285,6 +12215,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoPublicPhoto",
+      "value": "صورة عامة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoPublicVideo",
+      "value": "فيديو عام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoResetCustomPhoto",
+      "value": "استعادة الصورة الأصليّة"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserNoteHint",
       "value": "مرئي لك أنت فقط"
     },
@@ -9292,6 +12237,11 @@
       "_": "types.LangPackString",
       "key": "UserNoteTitle",
       "value": "الملاحظات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserPlayingGame",
+      "value": "⁨{user}⁩ يلعب لعبة"
     },
     {
       "_": "types.LangPackString",
@@ -9320,11 +12270,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "UserRestrictionsEmbedLinks",
-      "value": "معاينة للروابط"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "UserRestrictionsInviteUsers",
       "value": "إضافة مستخدمين"
     },
@@ -9345,8 +12290,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendDocs",
+      "value": "لا ملفات"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendMedia",
       "value": "لا وسائط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendMusic",
+      "value": "لا صوتيات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendPhotos",
+      "value": "لا صور"
     },
     {
       "_": "types.LangPackString",
@@ -9357,6 +12317,21 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendStickers",
       "value": "لا ملصقات وصور متحركة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendText",
+      "value": "لا يمكنهم إرسال رسائل نصية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendVideos",
+      "value": "لا مقاطع مرئية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendVoice",
+      "value": "لا رسائل صوتية"
     },
     {
       "_": "types.LangPackString",
@@ -9372,6 +12347,11 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsSendMedia",
       "value": "إرسال الوسائط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsSendReactions",
+      "value": "إرسال التفاعلات"
     },
     {
       "_": "types.LangPackString",
@@ -9395,6 +12375,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernameActivateAlertShow",
+      "value": "إظهار"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameActivateAlertText",
+      "value": "هل تريدون إظهار هذا الرابط على صفحة معلوماتكم؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameActivateAlertTitle",
+      "value": "تنشيط اسم المستخدم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameAppNotFound",
+      "value": "لم يتم العثور على تطبيق البوت."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernameAvailable",
       "value": "⁨{username}⁩ متاح."
     },
@@ -9402,6 +12402,26 @@
       "_": "types.LangPackString",
       "key": "UsernameByPhoneNotFound",
       "value": "لم يعثر على المستخدم: ⁨{phone}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameCopied",
+      "value": "تم نسخ اسم المستخدم إلى الحافظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertHide",
+      "value": "إخفاء"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertText",
+      "value": "إخفاء هذا الرابط من صفحة معلوماتك؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertTitle",
+      "value": "إلغاء تنشيط اسم المستخدم"
     },
     {
       "_": "types.LangPackString",
@@ -9430,8 +12450,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamePurchaseAvailable",
+      "value": "عذرا ، هذا الرابط مأخوذ. لكنه متاح للشراء، راجع ⁨{link}⁩."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernameShort",
       "value": "اسم المستخدم قصير جدًا"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActive",
+      "value": "نشط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesDescription",
+      "value": "يمكنك سحب وإفلات الروابط لتغيير الترتيب الذي ستُعرض به على صفحة معلوماتك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesEdit",
+      "value": "النقر للتحرير"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesNonActive",
+      "value": "غير نشط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesSubtitle",
+      "value": "ترتيب اسم المستخدم"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -9447,6 +12497,11 @@
       "_": "types.LangPackString",
       "key": "UsesLimitHelp",
       "value": "يمكنك جعل الرابط يعمل فقط لعدد محدد من المستخدمين."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VerifyCodesNotifications",
+      "value": "رموز التحقق"
     },
     {
       "_": "types.LangPackString",
@@ -9595,11 +12650,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipCamera",
-      "value": "الكاميرا"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipChatJoin",
       "value": "انضمام"
     },
@@ -9607,11 +12657,6 @@
       "_": "types.LangPackString",
       "key": "VoipChatStartScreenCapture",
       "value": "مشاركة الشاشة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipChatStopScreenCapture",
-      "value": "إيقاف مشاركة الشاشة"
     },
     {
       "_": "types.LangPackString",
@@ -9662,11 +12707,6 @@
       "_": "types.LangPackString",
       "key": "VoipGroupLeave",
       "value": "مغادرة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipGroupLeaveAlertEndChat",
-      "value": "إنهاء المحادثة المرئية"
     },
     {
       "_": "types.LangPackString",
@@ -9725,28 +12765,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipMutedByAdmin",
-      "value": "التحدّث ممنوع"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipMutedTapedForSpeak",
-      "value": "لقد طلبت التحدّث"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipPeerIncompatible",
       "value": "يستخدم تطبيق تيليجرام الخاص بـ**⁨{user}⁩** بروتوكولًا غيرَ متوافقٍ، ينبغي عليهم تحديث تطبيقهم لتتمكن من الاتصال بهم."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipSpeaker",
-      "value": "مكبّر الصوت"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipTapToMute",
-      "value": "أنت على الهواء"
     },
     {
       "_": "types.LangPackString",
@@ -9755,18 +12775,673 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Vote",
-      "value": "تصويت"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "WaitingForNetwork",
       "value": "في انتظار الشبكة..."
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "إضافة أموال"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "تم نسخ عنوان المحفظة إلى الحافظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "لا يوجد حساب على تيليجرام \nمرتبط بهذا العنوان."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "لديك أيضًا ⁨{amount}⁩ في أرباح جرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "لديك أيضًا ⁨{amount}⁩ في محافظ قديمة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "يتم الآن تخزين مفاتيحك مشفرة عبر مراكز بيانات تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledTitle",
+      "value": "تم تفعيل النسخ الاحتياطي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "يتم تقسيم النسخة الاحتياطية المشفرة لمفتاحك إلى ثلاثة أجزاء وتخزينها في ثلاث قارات مختلفة.\n\nولا يمكن إعادة تجميعها إلا على أجهزتك، لذا لا يمكن لأحد — ولا حتى تيليجرام — الوصول إلى مفتاحك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "سيتم تقسيم نسخة مفتاحك المشفر الاحتياطية إلى ثلاثة أجزاء وتخزينها في ثلاث قارات.\n\nلا يمكن إعادة تجميعها إلا على أجهزتك، لذا لا يمكن لأحد - ولا حتى تطبيق تيليجرام - الوصول إلى مفتاحك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "نسخة احتياطية مشفرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "هدية مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+1 عنصر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemOut",
+      "value": "-1 عنصر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "رقم مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "بيع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTitle",
+      "value": "مقتنيات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTraits",
+      "value": "⁨{model}⁩ على ⁨{backdrop}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "تحويل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "تعذر إعداد عملية نقل المقتنيات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "اسم مستخدم مقتنى رقمي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentTooLong",
+      "value": "التعليق المشفر طويل جدًا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "ربط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "البيانات الثنائية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBlindSign",
+      "value": "أنت توقع على أساس أعمى. لا توقع إلا من مصادر موثوقة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "لن يتمكن التطبيق من تحويل الأموال بدون إذن."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectReviewSign",
+      "value": "يرجى مراجعة الرسالة بعناية والتوقيع على البيانات في حال الموافقة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSign",
+      "value": "توقيع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignData",
+      "value": "توقيع البيانات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "التطبيقات المرتبطة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "نسخ العنوان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "تم إنشاء المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecryptError",
+      "value": "تعذر فك تشفير التعليق."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "حذف على أي حال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteText",
+      "value": "ستفقد إمكانية الوصول إلى أموالك ما لم تكن قد حفظت عبارتك السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "حذف المحفظة؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "حذف المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "إيداع الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "تعطيل النسخ الاحتياطي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "سيتم حذف النسخة الاحتياطية المشفرة الموزعة. سيتم تحويل محفظتك إلى عبارة سرية جديدة. ستكون هذه العبارة السرية هي الطريقة الوحيدة لاستعادة هذه المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "سيتم حذف النسخة الاحتياطية المشفرة الموزعة الخاصة بك. ستكون عبارة الاستعادة السرية هي الطريقة الوحيدة لاستعادة هذه المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "تعطيل النسخ الاحتياطي؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "إلغاء الربط"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "تفعيل النسخ الاحتياطي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "يرجى إدخال العبارة السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "لديك أيضاً أموال في حساب Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "أرسل «عملة جرام» في أي محادثة، تمامًا مثل\nمشاركة صورة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "أرسل الأموال فوراً"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "أول 5 عمليات تحويل يوميًا مجانية. أما البقية فتكلف مبلغًا ضئيلًا للغاية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "بلا رسوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "تُسجل جميع العمليات\nويمكن التحقق منها في سجل عام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "تم التحقق من صحة البيانات باستخدام تقنية البلوك تشين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "فهمت"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "أنت وحدك من يتحكم في أموالك، \nلا يستطيع أحد الوصول إليها."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "كيفية عملها"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendText",
+      "value": "حوّل \"رصيد جرام\" إلى أي شخص.\nاضغط على 📎 ← \"الأموال\" في المحادثات."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "احتفظ بـ«جرام» الخاصة بك في تيليجرام \n(💬 → ⋮ → «الأموال») أو في محافظ أخرى."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreTitle",
+      "value": "تخزين"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "يمكنك تحويل «جرام» إلى نقود أو عملات مشفرة على منصات التداول."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeTitle",
+      "value": "متاجرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroYouCan",
+      "value": "يمكنك:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "رسوم الشبكة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsHint",
+      "value": "المحافظ التي استخدمتها سابقًا على هذا الجهاز. احفظ عبارات الاسترداد الخاصة بها — فستتم إزالتها إذا قمت بتسجيل الخروج أو مسح بيانات المتصفح."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "المحافظ السابقة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "لصق"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "إذا كان لدى شخص ما عبارتك السرية، فإنه **يستطيع سرقة أموالك**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**لا تشارك** عبارتك السرية مع أي شخص."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "**لن يطلب منك** فريق دعم تيليجرام **أبدًا** عبارة السر الخاصة بك."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "لا يراها إلا أنت والمستلم."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "تحقق من ترتيب الكلمات.\n\nفقط عبارة الاسترداد التي تم إنشاؤها في تيليجرام يمكن استيرادها هنا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccountBanner",
+      "value": "حماية حسابك"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "التعليق مرئي للجميع."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveBuy",
+      "value": "الشراء نقدًا أو بالعملات الرقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveNetworkNote",
+      "value": "شارك عنوانك أو رمز الاستجابة السريعة هذا لاستلام عملة جرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerNote",
+      "value": "إرسال جرام إلى هذا العنوان\nأو امسح رمز الاستجابة السريعة هذا."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceivePeerShowQr",
+      "value": "إظهار رمز الاستجابة السريعة (QR)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveTitle",
+      "value": "إضافة أموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "محفظة جرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "يمكنك نقل محفظتك إلى جهاز آخر عن طريق نسخ عبارتك السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "عبارتك السرية هي مفتاح حماية محفظتك. حافظ عليها سرية وآمنة في جميع الأوقات."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceCreate",
+      "value": "إنشاء محفظة جديدة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "استيراد محفظة موجودة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceTitle",
+      "value": "كيف تريد استبدال المحفظة القديمة؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "محفظتك الجديدة جاهزة للاستخدام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "تم استعادة محفظتك باستخدام عبارتك السرية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "استيراد المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "أدخل العبارة السرية لمحفظتك\nلمتابعة العملية. ⁨{why}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "بما أنك قمت بتعطيل النسخ الاحتياطية لمحفظتك، فعليك إدخال العبارة السرية الخاصة بك يدويًا في كل جلسة جديدة على تطبيق تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "إرسال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "يرتبط عنوان TON Blockchain هذا بـ ⁨{name}⁩ على تيليجرام."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "الرصيد: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "تحويل مقتنيات رقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendComment",
+      "value": "تعليق (اختياري)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "متابعة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "الأموال غير كافية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMinAmount",
+      "value": "الحد الأدنى للمبلغ: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "إرسال الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "رسوم الشبكة: ⁨{amount}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipient",
+      "value": "الاسم أو عنوان المحفظة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendTitle",
+      "value": "إرسال جرام"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "محفظة غير مرتبطة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "إظهار العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "المقتميات الرقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "سجل العمليات"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "استعمالك لهذه الخدمة يعني موافقتك على (⁨{link}⁩)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "الأموال"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "العنوان"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "التاريخ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDeposit",
+      "value": "إيداع"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFailed",
+      "value": "فشل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFee",
+      "value": "الرسوم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFeeFree",
+      "value": "مجاني (يتم الدفع عبر تيليجرام)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "تحويل وارد"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncomingCollectible",
+      "value": "المقتنيات الرقمية الواردة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionKeyChange",
+      "value": "تحديث المفتاح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOpenWallet",
+      "value": " فتح أموالي"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "تحويل صادر"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoingCollectible",
+      "value": "المقتنيات الرقمية الصادرة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "المستلم"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "المرسل"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSending",
+      "value": "إرسال…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "تعبئة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "تعبئة رصيد العملات الرقمية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionWithdrawal",
+      "value": "السحب"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "العمليات التي تقل عن ⁨{amount}⁩ مخفية."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "تحديث العبارة السرية"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "ستحصل على عبارة جديدة لتدوينها. يبقى العنوان والرصيد كما هما."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "عرض في المتصفح"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "ما هي عملة جرام؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "ما هي الأموال؟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "الكلمات المُدخلة لا تتطابق مع المحفظة."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseTitle",
+      "value": "العبارة السرية غير صحيحة"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "عبارتك السرية"
     },
     {
       "_": "types.LangPackString",
@@ -9777,11 +13452,6 @@
       "_": "types.LangPackString",
       "key": "WebAppAddToAttachmentAdd",
       "value": "إضافة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WebAppAddToAttachmentText",
-      "value": "يطلب ⁨{bot}⁩ إذنك لإضافته كخيار إلى قائمة المرفقات حتى يكون الوصول إليه متاحًا من أي محادثة."
     },
     {
       "_": "types.LangPackString",
@@ -9815,78 +13485,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Weekday1",
-      "value": "الاثنين"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday2",
-      "value": "الثلاثاء"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday3",
-      "value": "الأربعاء"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday4",
-      "value": "الخميس"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday5",
-      "value": "الجمعة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday6",
-      "value": "السبت"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday7",
-      "value": "الأحد"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayFriday",
-      "value": "الجمعة"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayMonday",
-      "value": "الاثنين"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySaturday",
-      "value": "السبت"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySunday",
-      "value": "الأحد"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayThursday",
-      "value": "الخميس"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "WeekdayToday",
       "value": "اليوم"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayTuesday",
-      "value": "الثلاثاء"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayWednesday",
-      "value": "الأربعاء"
     },
     {
       "_": "types.LangPackString",
@@ -9940,6 +13540,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Yes",
+      "value": "نعم"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "YourEmailCode",
       "value": "رمز بريدك الإلكتروني"
     },
@@ -9964,5 +13569,5 @@
       "value": "اسمك"
     }
   ],
-  "version": 295942
+  "version": 376911
 }

@@ -563,7 +563,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccDescrContactSorting",
-      "value": "Sortering wijzigen"
+      "value": "Anders sorteren"
     },
     {
       "_": "types.LangPackString",
@@ -1795,6 +1795,12 @@
       "key": "ActionGiftPremiumTitle2",
       "one_value": "%d maand premium",
       "other_value": "%d maanden premium"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftPremiumTitle2Days",
+      "one_value": "%d dag premium",
+      "other_value": "%d dagen premium"
     },
     {
       "_": "types.LangPackString",
@@ -3600,7 +3606,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "Anoniem nummer"
+      "value": "Verzamelbaar nummer"
     },
     {
       "_": "types.LangPackString",
@@ -4241,7 +4247,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureClearDraftsTitle",
-      "value": "Wis Cloud-concepten"
+      "value": "Concepten in de cloud verwijderen"
     },
     {
       "_": "types.LangPackString",
@@ -4427,6 +4433,11 @@
       "_": "types.LangPackString",
       "key": "AreYouSureLogout",
       "value": "Weet je zeker dat je wilt uitloggen?\n\nDoor deze handeling worden al je geheime chats verwijderd.\n\nVergeet niet dat je Telegram naadloos op al je apparaten tegelijk kunt gebruiken en dat je meerdere accounts aan dezelfde app kunt toevoegen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Weet je zeker dat je wilt uitloggen?\n\nHierdoor worden al je geheime chats geannuleerd en worden de **back-ups van je wallet met %s erin** verwijderd. Zonder de geheime zinnen raak je de toegang tot deze middelen kwijt.\n\nJe kunt Telegram op al je apparaten tegelijk gebruiken en meerdere accounts in dezelfde app actief hebben."
     },
     {
       "_": "types.LangPackString",
@@ -5227,6 +5238,41 @@
       "_": "types.LangPackString",
       "key": "AudioAutodownload",
       "value": "Spraakberichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneral",
+      "value": "Opname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneralInfo",
+      "value": "RNNoise verwijdert achtergrondgeluid, maar kan van invloed zijn op muziek of zeer zachte spraak."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppression",
+      "value": "Ruisonderdrukking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionOff",
+      "value": "Uit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionRNNoise",
+      "value": "RNNoise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderSettings",
+      "value": "Spraakberichten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderUseNewRecorder",
+      "value": "Nieuwe opnametool gebruiken"
     },
     {
       "_": "types.LangPackString",
@@ -9418,6 +9464,31 @@
       "_": "types.LangPackString",
       "key": "BotStop",
       "value": "Bot blokkeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAI",
+      "value": "AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAgent",
+      "value": "Agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeApp",
+      "value": "App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeGame",
+      "value": "Spel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeNonBinary",
+      "value": "Non-binair"
     },
     {
       "_": "types.LangPackString",
@@ -14189,7 +14260,7 @@
     {
       "_": "types.LangPackString",
       "key": "ColorViolet",
-      "value": "Paars"
+      "value": "Violet"
     },
     {
       "_": "types.LangPackString",
@@ -15147,7 +15218,7 @@
     {
       "_": "types.LangPackString",
       "key": "ContactInfoPhoneFragment",
-      "value": "Anoniem"
+      "value": "Verzamelobject"
     },
     {
       "_": "types.LangPackString",
@@ -15503,8 +15574,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameBotLimit",
+      "value": "Deze bot heeft al een premium gebruikersnaam. Verwijder het voordat je een andere toevoegt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameCheckFailed",
+      "value": "Gebruikersnaam kon niet worden gecontroleerd. Probeer het opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameInfo",
       "value": "Tik om de gebruikersnaam te wijzigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameOwnerLimit",
+      "value": "Je kunt maximaal %1$d gebruikersnamen hebben die op %2$s eindigen voor al je bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequired",
+      "value": "Voor gebruikersnamen die op '%1$s' eindigen, heb je Telegram Premium nodig. **Abonneren ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequiredGeneric",
+      "value": "Voor deze gebruikersnaam heb je Telegram Premium nodig. **Abonneren ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixMissing",
+      "value": "De gebruikersnaam moet eindigen op %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesComma",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesInfo",
+      "value": "Moet op 'bot' eindigen – of %1$s met **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesOr",
+      "value": "%1$s of %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -15599,7 +15715,7 @@
     {
       "_": "types.LangPackString",
       "key": "CreateTopic",
-      "value": "Onderwerp maken"
+      "value": "Nieuw onderwerp"
     },
     {
       "_": "types.LangPackString",
@@ -16175,12 +16291,12 @@
     {
       "_": "types.LangPackString",
       "key": "DeleteAllCalls",
-      "value": "Alle Oproepen Verwijderen"
+      "value": "Alle oproepen verwijderen"
     },
     {
       "_": "types.LangPackString",
       "key": "DeleteAllCallsText",
-      "value": "Alle recente oproepen wissen?"
+      "value": "Wil je alle recente oproepen wissen?"
     },
     {
       "_": "types.LangPackString",
@@ -16322,7 +16438,7 @@
     {
       "_": "types.LangPackString",
       "key": "DeleteCallsForEveryone",
-      "value": "Verwijder voor iedereen"
+      "value": "Voor iedereen verwijderen"
     },
     {
       "_": "types.LangPackString",
@@ -17101,7 +17217,7 @@
     {
       "_": "types.LangPackString",
       "key": "Disconnect",
-      "value": "Verbreken"
+      "value": "Ontkoppelen"
     },
     {
       "_": "types.LangPackString",
@@ -18116,7 +18232,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "Dit e-maildomein is niet toegestaan."
+      "value": "Dit e-mailadres kan niet worden gebruikt."
     },
     {
       "_": "types.LangPackString",
@@ -21594,7 +21710,7 @@
     {
       "_": "types.LangPackString",
       "key": "GetQRCode",
-      "value": "Krijg QR code"
+      "value": "Krijg QR-code"
     },
     {
       "_": "types.LangPackString",
@@ -21953,6 +22069,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2AddToProfile",
+      "value": "Toevoegen aan profiel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2AddedToCollection",
       "value": "**%1$s** toegevoegd aan **%2$s**."
     },
@@ -21961,6 +22082,11 @@
       "key": "Gift2AddedToCollectionMany",
       "one_value": "**%1$d cadeau** toegevoegd aan **%2$s**.",
       "other_value": "**%1$d cadeaus** toegevoegd aan **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2AlsoShowInMyGifts",
+      "value": "ook weergeven in mijn cadeaus"
     },
     {
       "_": "types.LangPackString",
@@ -22390,6 +22516,11 @@
       "value": "De gemiddelde verkoopprijs van **%s** is **%d sterren**."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2BrowseCollectiblesInfo",
+      "value": "Toon cadeaus op je profiel. Zet beperkte edities om in verhandelbare verzamelobjecten."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2ButtonSell",
       "one_value": "verkopen voor %d ster",
@@ -22656,6 +22787,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2DeleteOption",
+      "value": "Cadeau verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2DeleteText",
+      "value": "Wil je dit cadeau verwijderen?\n\nHet zal dan verdwijnen van je profiel en kan niet worden hersteld."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Deleted",
+      "value": "Cadeau verwijderd"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2EditCollectionNameTitle",
       "value": "Naam wijzigen"
     },
@@ -22770,6 +22916,11 @@
       "_": "types.LangPackString",
       "key": "Gift2HideChannelInfo",
       "value": "Je kunt je naam en bericht verbergen voor alle bezoekers van dit kanaal behalve de beheerders."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2HideFromProfile",
+      "value": "Verbergen van profiel"
     },
     {
       "_": "types.LangPackString",
@@ -22954,6 +23105,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2KeepOnProfile",
+      "value": "Blijft zichtbaar op mijn profiel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2LearnMoreText",
       "value": "Laat %s dit cadeau omzetten in een uniek verzamelobject."
     },
@@ -23073,6 +23229,51 @@
       "_": "types.LangPackString",
       "key": "Gift2More",
       "value": "**Meer info over sterren >**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Move",
+      "value": "Verplaatsen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveAppearIn",
+      "value": "Het is dan vindbaar via"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGifts",
+      "value": "Verplaatsen naar mijn cadeaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsInfo",
+      "value": "Je kunt het op elk moment weer op de chain plaatsen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsText",
+      "value": "Wil je dit cadeau van de chain halen en naar je Telegram-account verplaatsen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWallet",
+      "value": "Verplaatsen naar Mijn Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWalletText",
+      "value": "Wil je dit cadeau verplaatsen naar je blockchain-wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToProfile",
+      "value": "Cadeau verplaatst naar je profiel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToWallet",
+      "value": "Cadeau verplaatst naar je wallet."
     },
     {
       "_": "types.LangPackString",
@@ -23367,6 +23568,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2RemoveFromProfile",
+      "value": "Verwijderen van profiel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2RemovedFromCollection",
       "value": "**%1$s** verwijderd uit **%2$s**."
     },
@@ -23545,6 +23751,11 @@
       "other_value": "Koop een cadeau voor ⭐️%d"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2SendViaFragment",
+      "value": "Versturen via Fragment"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2SendYourBalance",
       "one_value": "Je saldo is %d ster",
@@ -23565,6 +23776,11 @@
       "_": "types.LangPackString",
       "key": "Gift2ShowGift",
       "value": "Tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2ShowOnProfile",
+      "value": "Tonen op profiel"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23865,6 +24081,36 @@
       "_": "types.LangPackString",
       "key": "Gift2TransferTimeoutTitle",
       "value": "Probeer het later"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfile",
+      "value": "Overzetten naar mijn profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfileText",
+      "value": "Wil je **%s** verplaatsen van je wallet naar je Telegram-profiel?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWallet",
+      "value": "Verplaatsen naar Mijn Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletSent",
+      "value": "**%s** is onderweg naar je wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletText",
+      "value": "Wil je **%s** overzetten naar je wallet? Het blijft zichtbaar op je profiel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletTitle",
+      "value": "Verplaatsen naar Wallet"
     },
     {
       "_": "types.LangPackString",
@@ -24225,6 +24471,11 @@
       "_": "types.LangPackString",
       "key": "Gift2WearTitle",
       "value": "Draag %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2WearWalletHidden",
+      "value": "Toon dit cadeau op je profiel om het te dragen."
     },
     {
       "_": "types.LangPackString",
@@ -25592,6 +25843,43 @@
       "_": "types.LangPackString",
       "key": "Grain",
       "value": "Korreligheid"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "one_value": "%1$s GRAM",
+      "other_value": "%1$s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramCurrency",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Inkomsten in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "Je kunt je Grams via Fragment opnemen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "Je Gram uit cadeaus,\nadvertenties en Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsTitle",
+      "value": "Inkomsten in Gram"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Grams",
+      "one_value": "%1$s Gram",
+      "other_value": "%1$s Grams"
     },
     {
       "_": "types.LangPackString",
@@ -30874,7 +31162,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "In blockchainverkenner weergeven"
+      "value": "Bekijken in Explorer"
     },
     {
       "_": "types.LangPackString",
@@ -31451,12 +31739,12 @@
     {
       "_": "types.LangPackString",
       "key": "NoAudioFilesInfo",
-      "value": "Je muziekcollectie is leeg"
+      "value": "Je muziekcollectie is leeg."
     },
     {
       "_": "types.LangPackString",
       "key": "NoAudioFound",
-      "value": "Geen resultaten"
+      "value": "Geen resultaten gevonden"
     },
     {
       "_": "types.LangPackString",
@@ -31561,7 +31849,7 @@
     {
       "_": "types.LangPackString",
       "key": "NoComments",
-      "value": "Nog geen opmerkingen"
+      "value": "Nog geen opmerkingen..."
     },
     {
       "_": "types.LangPackString",
@@ -31820,6 +32108,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenImported",
+      "value": "Je kunt **%1$s** nu kosteloos berichten sturen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsed",
+      "value": "un1 heeft jouw QR-code gebruikt en kan je kosteloos berichten sturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsedOut",
+      "value": "Je hebt de QR-code van un1 gebruikt waardoor je hem/haar kosteloos berichten kan sturen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPhoneFound",
       "value": "Er bestaat geen Telegram-account onder dit telefoonnummer."
     },
@@ -31906,7 +32209,7 @@
     {
       "_": "types.LangPackString",
       "key": "NoReplies",
-      "value": "Nog geen reacties hier..."
+      "value": "Nog geen reacties..."
     },
     {
       "_": "types.LangPackString",
@@ -32563,6 +32866,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGramTransfer",
+      "value": "%1$s heeft je %2$s gestuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s heeft je %2$s gestuurd: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "Je hebt %2$s ontvangen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "Je hebt %2$s ontvangen: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGroupAddMember",
       "value": "%1$s heeft %3$s uitgenodigd voor de groep %2$s"
     },
@@ -33081,6 +33404,16 @@
       "_": "types.LangPackString",
       "key": "NotificationUnrecognizedDevice",
       "value": "%1$s,\nEr is op %2$s vanaf een nieuw apparaat op je account ingelogd.\n\nApparaat: %3$s\nLocatie: %4$s\n\nAls dit niet door jou is gedaan, kun je gaan naar Instellingen > Apparaten en deze sessie beëindigen.\n\nAls je gelooft dat iemand zonder jouw toestemming op je account is ingelogd, kun je tweestapsverificatie inschakelen via Instellingen > Privacy en veiligheid.\n\nMet vriendelijke groet,\nHet Telegram-team"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequest",
+      "value": "Je hebt een TON-verbindingsverzoek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "Je hebt een TON-verbindingsverzoek van %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -34216,7 +34549,7 @@
     {
       "_": "types.LangPackString",
       "key": "PaintDuplicate",
-      "value": "Klonen"
+      "value": "Dupliceren"
     },
     {
       "_": "types.LangPackString",
@@ -36628,6 +36961,11 @@
       "_": "types.LangPackString",
       "key": "PleaseEnterCurrentPasswordGiftTransfer",
       "value": "Voer je wachtwoord in om **%s** naar Fragment te versturen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PleaseEnterCurrentPasswordGiftWallet",
+      "value": "Voer je wachtwoord in om **%s** naar je wallet te verplaatsen."
     },
     {
       "_": "types.LangPackString",
@@ -39734,6 +40072,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%3$s op je spelscore in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "%3$s op je map"
     },
@@ -39769,6 +40112,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%3$s op je peiling-update in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "%3$s op je quiz %4$s"
     },
@@ -39784,13 +40132,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s op je verhaal in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "%3$s op je \"%4$s\""
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%3$s op je themawijziging in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%3$s op je checklist %4$s in %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%3$s op je taakupdate in %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -39819,6 +40182,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "%2$s op je spelscore"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "%2$s op je kaart"
     },
@@ -39831,6 +40199,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "%2$s op je GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "%2$s op je cadeaucode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "%2$s op je overdracht van %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%2$s op je overdracht van %3$s: %4$s"
     },
     {
       "_": "types.LangPackString",
@@ -39849,8 +40232,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "%2$s op je betaalde bericht"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "%2$s op je foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "%2$s op je zelfvernietigende foto"
     },
     {
       "_": "types.LangPackString",
@@ -39859,13 +40252,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "%2$s op je nabijheidsmelding"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "%2$s op je quiz %3$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "%2$s op je betaling"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "%2$s op je videobericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "%2$s op dezelfde achtergrond"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "%2$s op je screenshot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "%2$s op je cadeau ter waarde van %3$s sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "%2$s op je cadeau-upgrade ter waarde van %3$s sterren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "%2$s op het cadeau dat je hebt helpen upgraden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "%2$s op je geüpgradede cadeau"
     },
     {
       "_": "types.LangPackString",
@@ -39889,8 +40322,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "%2$s op je verhaalvermelding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "%2$s op je verjaardagssuggestie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "%2$s op je fotosuggestie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "%2$s op je \"%3$s\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "%2$s op je themawijziging"
     },
     {
       "_": "types.LangPackString",
@@ -39899,8 +40352,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactTodoUpdate",
+      "value": "%2$s op je taakupdate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "%2$s op je cadeau"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "%2$s op je video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "%2$s op je zelfvernietigende video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "%2$s op je TON-verbindingsverzoek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "%2$s op de nieuwe achtergrond"
     },
     {
       "_": "types.LangPackString",
@@ -39944,8 +40422,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrBrowseGifts",
+      "value": "Blader door cadeaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrChatNoCollectibles",
+      "value": "Er zijn hier nog geen verzamelbare cadeaus."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCode",
       "value": "QR-code"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCollectibles",
+      "value": "Verzamelobjecten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCreatingLink",
+      "value": "Link wordt aangemaakt…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrEmojiPresets",
+      "value": "Vooraf geselecteerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrGift",
+      "value": "Cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrLoadingGifts",
+      "value": "Cadeaus worden geladen…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoCollectibles",
+      "value": "Je bezit nog geen verzamelbare cadeaus."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsInfo",
+      "value": "Gebruik elk verzamelbare cadeau dat je bezit\nom je QR-code te stijlen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsTitle",
+      "value": "Nog geen cadeaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidExpiresIn",
+      "value": "Verloopt over %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidFree",
+      "value": "Gratis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimer",
+      "value": "Timer uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimerInfo",
+      "value": "Blijft gratis, geen limiet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimer",
+      "value": "Timer inschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimerInfo",
+      "value": "Verloopt over 1 minuut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuReset",
+      "value": "Code resetten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuRestoreFee",
+      "value": "Weer kosten instellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidNoTimeLimit",
+      "value": "Geen tijdslimiet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveFee",
+      "value": "Kosten op berichten verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveStarsFee",
+      "value": "Verwijder de kosten van ★%1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpired",
+      "value": "Code verlopen, er zijn nu weer kosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpires",
+      "value": "Deze code verloopt over 1 minuut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastFeeRestored",
+      "value": "Kosten opnieuw ingesteld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNewCode",
+      "value": "Nieuwe code aangemaakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNoTimeLimit",
+      "value": "Code blijft gratis, geen tijdslimiet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumEmojiToast",
+      "value": "Abonneer je op premium om alle emoji te gebruiken."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumGiftsToast",
+      "value": "Activeer premium om cadeaus\nop je QR-code te plaatsen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumSubscribe",
+      "value": "Abonneren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrProfileColors",
+      "value": "Profielkleuren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrSavedToGallery",
+      "value": "QR-code opgeslagen in galerij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrScanQr",
+      "value": "QR scannen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrThemePremiumOnly",
+      "value": "Premium is vereist voor emoji en cadeaus"
     },
     {
       "_": "types.LangPackString",
@@ -40215,7 +40858,7 @@
     {
       "_": "types.LangPackString",
       "key": "RateCallDropped",
-      "value": "Oproep onverwacht afgebroken"
+      "value": "Gesprek onverwacht afgebroken"
     },
     {
       "_": "types.LangPackString",
@@ -40225,7 +40868,7 @@
     {
       "_": "types.LangPackString",
       "key": "RateCallInterruptions",
-      "value": "De andere kant viel constant weg"
+      "value": "De ander viel constant weg"
     },
     {
       "_": "types.LangPackString",
@@ -40235,22 +40878,22 @@
     {
       "_": "types.LangPackString",
       "key": "RateCallSilentLocal",
-      "value": "Ik kon de andere kant niet horen"
+      "value": "Ik kon de ander niet horen"
     },
     {
       "_": "types.LangPackString",
       "key": "RateCallSilentRemote",
-      "value": "De andere kant kon me niet horen"
+      "value": "De ander kon mij niet horen"
     },
     {
       "_": "types.LangPackString",
       "key": "RateCallVideoDistorted",
-      "value": "Video was vervormd"
+      "value": "Het beeld was vervormd"
     },
     {
       "_": "types.LangPackString",
       "key": "RateCallVideoPixelated",
-      "value": "Video was korrelig"
+      "value": "Het beeld was korrelig"
     },
     {
       "_": "types.LangPackString",
@@ -42170,6 +42813,76 @@
       "_": "types.LangPackString",
       "key": "RoamingUsage",
       "value": "Dataverbruik bij roaming"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "Bitrate van video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "Cameraresolutie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "Hoog"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "Laag"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "Middelmatig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "Beeldopbouw"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "Styling van ronde video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "Schakel styling uit om een gewone vierkant op te nemen zonder vervanging van de buitencirkel, dimmen of Telegram-overlays."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "Framesnelheid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneral",
+      "value": "Opname"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "60 FPS wordt alleen gebruikt wanneer de voor- en achtercamera het ondersteunen. Anders valt de opname terug naar 30 FPS."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "Uitvoerresolutie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "Ronde video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "Opname via Camera2"
     },
     {
       "_": "types.LangPackString",
@@ -44817,7 +45530,7 @@
     {
       "_": "types.LangPackString",
       "key": "ShareYouLocationUnable",
-      "value": "Huidige locatie kon niet worden vastgesteld"
+      "value": "Je huidige locatie kon niet door de app worden vastgesteld  "
     },
     {
       "_": "types.LangPackString",
@@ -46950,7 +47663,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsReactionsSent",
-      "value": "Reacties met sterren"
+      "value": "Reactie met ster"
     },
     {
       "_": "types.LangPackString",
@@ -47448,7 +48161,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionViewInBlockchainExplorer",
-      "value": "Bekijken in blockchainverkenner"
+      "value": "Bekijken in verkenner"
     },
     {
       "_": "types.LangPackString",
@@ -47735,7 +48448,7 @@
     {
       "_": "types.LangPackString",
       "key": "StickersBotInfo",
-      "value": "Ontwerpers kunnen stickerbundels toevoegen via onze bot: @stickers."
+      "value": "Ontwerpers kunnen hun eigen stickerbundels toevoegen via onze @stickers-bot."
     },
     {
       "_": "types.LangPackString",
@@ -51677,7 +52390,7 @@
     {
       "_": "types.LangPackString",
       "key": "TopicCreated",
-      "value": "Onderwerp gemaakt"
+      "value": "Onderwerp aangemaakt"
     },
     {
       "_": "types.LangPackString",
@@ -52879,7 +53592,7 @@
     {
       "_": "types.LangPackString",
       "key": "UnsupportedAttachment",
-      "value": "Bestandstype niet ondersteund"
+      "value": "Niet-ondersteund bestandstype"
     },
     {
       "_": "types.LangPackString",
@@ -55895,7 +56608,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipRateCallAlert",
-      "value": "Beoordeel de kwaliteit van je Telegram-oproep."
+      "value": "Beoordeel de kwaliteit van je Telegram-oproep"
     },
     {
       "_": "types.LangPackString",
@@ -56125,8 +56838,98 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGrams",
+      "value": "un1 heeft je **%1$s** gestuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsSomeone",
+      "value": "Iemand heeft je **%1$s** gestuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGrams",
+      "value": "Je hebt un1 **%1$s** gestuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGramsShort",
+      "value": "Je hebt **%1$s** verstuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActions",
+      "value": "Acties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActiveConnections",
+      "value": "Actieve verbindingen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddComment",
+      "value": "Opmerking toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Saldo toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddress",
+      "value": "Adres"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "Wallet-adres gekopieerd naar klembord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedBulletin",
+      "value": "Adres gekopieerd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedShort",
+      "value": "Adres gekopieerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressLinkedToUser",
+      "value": "Dit TON-blockchainadres is gekoppeld aan **%1$s** op Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "Er is geen Telegram-account\naan dit adres gekoppeld."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressOrName",
+      "value": "Adres of naam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsSignature",
+      "value": "%1$s vraagt om je handtekening"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsTransfer",
+      "value": "%1$s vraagt om een overmaking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAttachMoney",
+      "value": "Geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAuthorizeTransactionPasscode",
+      "value": "Voer je huidige Telegram-toegangscode in om de transactie goed te keuren."
     },
     {
       "_": "types.LangPackString",
@@ -56135,8 +56938,248 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupDisabled",
+      "value": "Back-up uitgeschakeld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledDescription",
+      "value": "Je gecodeerde sleutel wordt in drie delen gesplitst en wordt op drie verschillende continenten opgeslagen.\n\nAlleen op jouw apparaten kan het weer in elkaar worden gezet, dus niemand anders — ook Telegram niet — heeft toegang tot je sleutel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledInfo",
+      "value": "Je geheime zin is nu de enige manier om je wallet te herstellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabled",
+      "value": "Back-up ingeschakeld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "Je gecodeerde sleutel is in drie delen gesplitst en wordt op drie verschillende continenten opgeslagen.\n\nAlleen op jouw apparaten kan het weer in elkaar worden gezet, dus niemand anders — ook Telegram niet — heeft toegang tot je sleutel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledInfo",
+      "value": "Je sleutels worden nu gecodeerd opgeslagen in de datacenters van Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBalanceAmount",
+      "value": "Saldo: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "Binaire gegevens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "Je tekent blindelings. Onderteken alleen uit betrouwbare bronnen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerified",
+      "value": "Blockchainverificatie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerifiedInfo",
+      "value": "Alle transacties worden geregistreerd en zijn verifieerbaar in een openbaar logboek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyWithCashOrCrypto",
+      "value": "Kopen met contact geld of crypto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCancel",
       "value": "Annuleren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard2D",
+      "value": "2D-kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard3D",
+      "value": "3D-kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectible",
+      "value": "Verzamelobject"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Verzamelbaar cadeau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleModelBackdrop",
+      "value": "%1$s op %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Verzamelbaar nummer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "Het is niet gelukt om de overdracht van het verzamelobject voor te bereiden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Verzamelbare gebruikersnaam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibles",
+      "value": "Verzamelobjecten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentOptionalMessage",
+      "value": "Optioneel bericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirm",
+      "value": "Bevestigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmAction",
+      "value": "Handeling bevestigen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithFingerprint",
+      "value": "Bevestigen met vingerafdruk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithPasscode",
+      "value": "Bevestigen met toegangscode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Verbinden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "De app krijgt inzicht in je\nTON-adres, saldo en activiteit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "De app kan geen saldo overmaken\nzonder goedkeuring."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofInfo",
+      "value": "De app krijgt inzicht in je TON-adres, saldo en activiteit en zal een handtekening vragen om je te laten inloggen. Dit is geen overmaking."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Geld verbinden met %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToDApp",
+      "value": "Wallet verbinden met dApp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApp",
+      "value": "Verbonden app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppInfo",
+      "value": "Deze app heeft inzicht in het adres, saldo en de activiteit van je wallet. Het kan geen gelden overmaken zonder jouw goedkeuring."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Verbonden apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppsInfo",
+      "value": "Verbonden apps zien het adres, saldo en de activiteit van je wallet. Ze kunnen geen gelden overmaken zonder jouw goedkeuring."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContinue",
+      "value": "Doorgaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "Contractoproep"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Adres kopiëren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreateNew",
+      "value": "Een nieuwe wallet aanmaken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreated",
+      "value": "Wallet aangemaakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedInfo",
+      "value": "Je nieuwe wallet is klaar voor gebruik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrency",
+      "value": "Valuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyUSD",
+      "value": "Amerikaanse dollar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhrase",
+      "value": "Huidige geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhraseInfo",
+      "value": "De persoon die deze zin kent, beslist over je wallet. Schrijf het op en bewaar het op een veilige plek. Als je het kwijtraakt, raak je ook je saldo kwijt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDate",
+      "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecline",
+      "value": "Afwijzen"
     },
     {
       "_": "types.LangPackString",
@@ -56145,8 +57188,433 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Toch verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Wallet verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "Je raakt de toegang tot je saldo kwijt, tenzij je geheime zin van 12 woorden ergens is opgeslagen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "Wallet verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Saldo toevoegen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "Uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Back-up uitschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "Je gecodeerde back-up elders wordt verwijderd. Je wallet schakelt over naar de nieuwe geheime zin. Deze geheime zin zal dan de enige manier zijn om je wallet te herstellen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "Je gecodeerde back-up elders wordt verwijderd. Je geheime zin zal dan de enige manier zijn om deze wallet te herstellen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "De enige manier om de toegang tot je geld te herstellen, is door je geheime zin handmatig in te voeren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Back-up uitschakelen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Ontkoppelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDomain",
+      "value": "Domein"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "Gereed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Back-up inschakelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "Versleutelde back-up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Voer de geheime zin van je wallet in\nom verder te gaan. **Waarom?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhraseInfo",
+      "value": "Omdat je back-ups hebt uitgeschakeld voor je wallet, moet je geheime zin handmatig worden ingevoerd bij elke nieuwe Telegram-sessie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailed",
+      "value": "Mislukt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailedTransfer",
+      "value": "Mislukte overdracht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFee",
+      "value": "Kosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmount",
+      "value": "Kosten: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmountWithCurrency",
+      "value": "Kosten: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeePaidByTelegram",
+      "value": "Gratis (betaald door Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFingerprintRetry",
+      "value": "Vingerafdruk niet herkend. Probeer het opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "Je eerste Grams!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsActions",
+      "value": "Je kunt:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "%1$s is momenteel gelijk aan %2$s USD\nJe kunt:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "Maak Grams over naar iedereen die je wilt.\nTik op 📎 → Geld in chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsStoreInfo",
+      "value": "Bewaar je Grams op Telegram (💬 → ⋮ → Geld)\nof in andere wallets."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsTradeInfo",
+      "value": "Zet Grams om in contant geld of crypto via wisselplatforms."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftAddToCard",
+      "value": "Toevoegen aan kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftApplyColor",
+      "value": "Kleur toepassen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnly",
+      "value": "Alleen %1$s en %2$s kunnen worden gebruikt om de kleur van je kaart aan te passen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnlyOne",
+      "value": "Alleen %1$s kan/kunnen worden gebruikt om de kleur van je kaart aan te passen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHere",
+      "value": "Sleep het verzamelobject hiernaartoe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHint",
+      "value": "Sleep het verzamelobject naar een kaart om het te versieren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftOnCard",
+      "value": "Op kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveColor",
+      "value": "Kleur verwijderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveFromCard",
+      "value": "Verwijderen van kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGotIt",
+      "value": "Begrepen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramEarningsBalance",
+      "value": "Je hebt nog %1$s aan inkomsten in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramWalletAddress",
+      "value": "Gram Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHiddenTransactions",
+      "value": "Transacties van minder dan %1$s zijn verborgen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorks",
+      "value": "Hoe werkt het?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksInfo",
+      "value": "Alleen jij beheert je fondsen —\nniemand anders heeft toegang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImport",
+      "value": "Wallet importeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportButton",
+      "value": "Importeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportCurrentPhraseInfo",
+      "value": "Voer de geheime zin van %1$d woorden in die bij de wallet op het andere apparaat hoort."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportExisting",
+      "value": "Een bestaande wallet importeren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "Voer de geheime zin van %1$d woorden in die bij je andere wallet hoort."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportThisWallet",
+      "value": "Importeer deze wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImported",
+      "value": "Wallet geïmporteerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "Je wallet is hersteld dankzij je geheime zin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingCollectibleAmount",
+      "value": "+1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransfer",
+      "value": "Inkomende overmaking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransferNft",
+      "value": "Inkomend verzamelobject"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInsufficientFunds",
+      "value": "Onvoldoende saldo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "Ongeldige geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhraseInfo",
+      "value": "Controleer de woordvolgorde.\n\nAlleen een geheime zin die binnen Telegram is aangemaakt, kan hier worden ingevoerd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyUpdate",
+      "value": "Sleutel vernieuwd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeysAndBackup",
+      "value": "Sleutels en back-up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLock",
+      "value": "Geld vergrendelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLockInfo",
+      "value": "Vereist wanneer je fondsen overmaakt of andere gevoelige handelingen bevestigt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMakeCommentPublic",
+      "value": "Opmerking openbaar maken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMinimumAmount",
+      "value": "Minimumbedrag: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedFromProfile",
+      "value": "verplaatst van profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedToProfile",
+      "value": "verplaatst naar profiel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFee",
+      "value": "Netwerkkosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeAmount",
+      "value": "Netwerkkosten: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeInfo",
+      "value": "Voor elke overmaking betaal je een klein bedrag aan netwerkkosten (**~%1$s**). Telegram dekt je eerste **5** overmakingen per dag."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhrase",
+      "value": "Nieuwe geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "Er is een nieuwe geheime zin aangemaakt voor je wallet. Schrijf het op en houd het geheim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "Geen kosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFeesInfo",
+      "value": "De eerste 5 overmakingen per dag zijn gratis. De rest kost vrijwel niets."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGram",
+      "value": "Onvoldoende Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGramToTransferGift",
+      "value": "Je hebt tenminste %s nodig om het cadeau over te dragen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotNow",
+      "value": "Niet nu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOK",
       "value": "Oké"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOldWalletsBalance",
+      "value": "Je hebt nog %1$s in oude wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyMoney",
+      "value": "Open Mijn geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "Open Mijn geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOptionalComment",
+      "value": "Optioneel bericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransfer",
+      "value": "Uitgaande overmaking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransferNft",
+      "value": "Uitgaand verzamelobject"
     },
     {
       "_": "types.LangPackString",
@@ -56161,8 +57629,478 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletPreview",
+      "value": "Voorbeeld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletLastUsed",
+      "value": "%1$s — voor het laatst gebruikt: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWallets",
+      "value": "Eerdere wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletsInfo",
+      "value": "Wallets die je eerder op dit apparaat hebt gebruikt. Bewaar hun geheime zin goed — ze worden verwijderd als je uitlogt of de app opnieuw installeert."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Alleen zichtbaar voor jou en de ontvanger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsGrams",
+      "value": "%1$s bezit %2$s op de TON-Blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsNoGrams",
+      "value": "%1$s bezit nog geen Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccount",
+      "value": "Bescherm je account"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicBalanceNote",
+      "value": "Je saldo is openbaar omdat\nde blockchain transparant is."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "De opmerking is voor iedereen zichtbaar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveInfo",
+      "value": "Deel je adres of deze QR-code\nom GRAM te ontvangen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipient",
+      "value": "Ontvanger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientUnavailable",
+      "value": "Wallet van ontvanger niet beschikbaar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Als iemand je geheime zin kent, **kan die je geld stelen**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Je geheime zin is de sleutel die als back-up van je wallet dient en kan worden gebruikt om het te herstellen. Houd het te allen tijde geheim en veilig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "Geheime zin tonen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "Je geheime zin is de sleutel die als back-up van je wallet dient. Houd het te allen tijde geheim en veilig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "Geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "Deel je geheime zin **nooit** met iemand anders."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "Telegram Support **zal nooit vragen** naar je geheime zin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "Je kunt je wallet naar een ander apparaat overzetten door je geheime zin van 12 woorden te kopiëren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceWalletTitle",
+      "value": "Hoe wil je de oude wallet vervangen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "Beoordeel het bericht zorgvuldig. Teken alleen als je akkoord gaat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSaveOnDevice",
+      "value": "Huidige wallet op dit apparaat bewaren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletScanQRCode",
+      "value": "QR-code scannen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchGifts",
+      "value": "Cadeaus zoeken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchNoResults",
+      "value": "Geen resultaten gevonden voor \"%1$s\".\nProbeer een andere naam of adres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhrase",
+      "value": "Geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "Verkopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Versturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Stuur %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGrams",
+      "value": "Stuur Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Directe overmakingen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantlyInfo",
+      "value": "Stuur Grams in elke chat, net als hoe je foto's verstuurt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Geld sturen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoneyTo",
+      "value": "Stuur geld naar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSender",
+      "value": "Afzender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSending",
+      "value": "Sturen…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowMyQR",
+      "value": "Toon mijn QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSign",
+      "value": "Tekenen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSignData",
+      "value": "Data ondertekenen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningData",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "Data gekopieerd naar klembord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "Bewaren"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTapToSetAmount",
+      "value": "Tik om het bedrag in te stellen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "Als je deze dienst gebruikt, ga je akkoord met de **voorwaarden**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhrase",
+      "value": "Een korte test"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "Dubbelcheck of je geheime zin goed is bewaard. Voer woord nummer **%1$d**, **%2$d** en **%3$d** in."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectManifestLoadFailed",
+      "value": "Laden van dApp-manifest mislukt: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppDeclined",
+      "value": "Transactieverzoek van %s geweigerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "Transactieverzoek van %s verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s heeft een transactie aangevraagd. Tik om het te beoordelen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppProcessed",
+      "value": "Transactieverzoek van %s verwerkt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "Transactieverzoek van app afgewezen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "Transactieverzoek van app verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "Een verbonden app heeft een transactie aangevraagd. Tik om het te beoordelen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "Transactieverzoek van app verwerkt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestUnavailable",
+      "value": "Dit TON-verbindingsverzoek is niet beschikbaar of is reeds beantwoord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "TON-verbindingssessie gesloten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionResponseEmpty",
+      "value": "Lege reactie op TON-verbindingssessie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTopUp",
+      "value": "Opwaarderen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTouchFingerprint",
+      "value": "Raak de vingerafdruksensor aan om je wallet te ontgrendelen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTrade",
+      "value": "Verhandelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAmountStatus",
+      "value": "%1$s · %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "Transactiesimulatie mislukt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTelegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Opwaardering met een kaart"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Opwaardering via crypto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactions",
+      "value": "Transacties"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransfer",
+      "value": "Overmaking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferCollectible",
+      "value": "Verzamelobject overdragen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusFailed",
+      "value": "mislukt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusReceived",
+      "value": "ontvangen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusSent",
+      "value": "verstuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferTo",
+      "value": "aan %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferToMultiple",
+      "value": "naar %1$s  +%2$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransferWorth",
       "value": "%1$s (%2$s)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknown",
+      "value": "Onbekend"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownAddress",
+      "value": "Onbekend adres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "ONBEKENDE GEBRUIKER"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnlock",
+      "value": "Wallet ontgrendelen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "Geheime zijn vernieuwen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfo",
+      "value": "Je krijgt een nieuwe zin om op te schrijven. Het adres en saldo blijven ongewijzigd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "Je krijgt een nieuwe zin om op te schrijven. Je adres en saldo blijven ongewijzigd.\n\nNetwerkkosten: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInsufficientFunds",
+      "value": "Je hebt %1$s (~%2$s) nodig om je geheime zin te vernieuwen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUseDevicePasscode",
+      "value": "Gebruik de pincode of het wachtwoord van het apparaat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUserWallet",
+      "value": "De wallet van %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Bekijken in Explorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWaltFunds",
+      "value": "Je hebt ook saldo in Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "Wat is Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Wat is geld?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhrase",
+      "value": "Verkeerde geheime zin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhraseInfo",
+      "value": "De ingevoerde woorden komen niet overeen met de wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Je geheime zin"
     },
     {
       "_": "types.LangPackString",
@@ -57227,5 +59165,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61188940
+  "version": 61470522
 }

@@ -20,6 +20,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutRevenueSharingAds",
+      "value": "Quant als anuncis"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccActionDownload",
       "value": "Baixa"
     },
@@ -30,13 +35,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrChannel",
-      "value": "Canal"
+      "key": "AccDescrCloseTrendingStickers",
+      "value": "Tanca els adhesius destacats"
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrCloseTrendingStickers",
-      "value": "Tanca els adhesius destacats"
+      "key": "AccDescrCollapsePanel",
+      "value": "Replega el tauler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrExpandPanel",
+      "value": "Desplega el tauler"
     },
     {
       "_": "types.LangPackString",
@@ -45,8 +55,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrGroup",
-      "value": "Grup"
+      "key": "AccDescrLike",
+      "value": "M'agrada"
     },
     {
       "_": "types.LangPackString",
@@ -76,7 +86,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccDescrReactionMentionDown",
-      "value": "Aneu a la pròxima reacció per llegir"
+      "value": "Vés a la pròxima reacció per llegir"
     },
     {
       "_": "types.LangPackString",
@@ -87,6 +97,11 @@
       "_": "types.LangPackString",
       "key": "AccDescrStickers",
       "value": "Adhesius"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescrTopic",
+      "value": "Tema"
     },
     {
       "_": "types.LangPackString",
@@ -110,18 +125,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccPinnedMessages",
-      "value": "Missatges fixats"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AccSwitchToFullscreen",
       "value": "Canvia a pantalla completa"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AccUnpinMessage",
-      "value": "Deixa de fixar"
     },
     {
       "_": "types.LangPackString",
@@ -152,11 +157,6 @@
       "_": "types.LangPackString",
       "key": "ActionAddYou",
       "value": "{from} us ha afegit a aquest canal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionAddYouGroup",
-      "value": "{from} us ha afegit a aquest grup"
     },
     {
       "_": "types.LangPackString",
@@ -242,11 +242,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionCostCrypto",
-      "value": "{price} ({cryptoPrice})"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionCreatedChannel",
       "value": "S'ha creat el canal"
     },
@@ -315,12 +310,6 @@
       "other_value": "Heu fet {count} punts al {game}"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodePremiumText",
-      "one_value": "Heu rebut un regal del {channel}.\n\nEl regal és una subscripció al **Telegram Premium** per **{months}** mes.",
-      "other_value": "Heu rebut un regal del {channel}.\n\nEl regal és una subscripció al **Telegram Premium** per **{months}** mesos."
-    },
-    {
       "_": "types.LangPackString",
       "key": "ActionGiftCodeSubscriptionDuration",
       "value": "Hey rebut un regal de: {peer}.\n\nEl regal és una subscripció al Telegram Premium per a {duration}."
@@ -329,18 +318,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftCodeSubscriptionDurationYou",
       "value": "Heu enviat a {peer} un codi regal per {duration} de Telegram Premium."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodeSubscriptionText",
-      "one_value": "Heu rebut un regal de: {peer}.\n\nEl regal és una subscripció al Telegram Premium per {months} mes.",
-      "other_value": "Heu rebut un regal de: {peer}.\n\nEl regal és una subscripció al Telegram Premium per {months} mesos."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodeSubscriptionTextYou",
-      "one_value": "Heu enviat un regal a {peer}.\n\nUn codi de regal per a una subscripció al Telegram Premium per {months} mes.",
-      "other_value": "Heu enviat un regal a {peer}.\n\nUn codi de regal per a una subscripció al Telegram Premium per {months} mesos."
     },
     {
       "_": "types.LangPackString",
@@ -356,12 +333,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumText",
       "value": "Subscripció per a funcions de Telegram exclusives."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftPremiumTitle",
-      "one_value": "Premium per {months} mes",
-      "other_value": "Premium per {months} mesos"
     },
     {
       "_": "types.LangPackString",
@@ -413,12 +384,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiveawayResultPremiumDuration",
       "value": "Heu guanyat un premi en un sorteig organitzat per {channel}.\n\nEl premi és una subscripció al **Telegram Premium** per a **{duration}**."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiveawayResultPremiumText",
-      "one_value": "Heu guanyat un premi en el sorteig organitzat per {channel}.\n\nEl premi és una subscripció al **Telegram Premium** per **{months}** mes.",
-      "other_value": "Heu guanyat un premi en el sorteig organitzat per {channel}.\n\nEl premi és una subscripció al **Telegram Premium** per **{months}** mesos."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -477,6 +442,26 @@
       "_": "types.LangPackString",
       "key": "ActionGiveawayStartedGroup",
       "value": "{from} ha iniciat un sorteig de subscripcions al Telegram Premium per als membres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramReceivedPreview",
+      "value": "Heu rebut {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreview",
+      "value": "{from} us ha enviat {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferReceived",
+      "value": "Rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "Enviat"
     },
     {
       "_": "types.LangPackString",
@@ -815,11 +800,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionStarGiftChannelDisplaying",
-      "value": "El regal és visible per a qui visiti el canal."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionStarGiftChannelText",
       "value": "Deseu-lo al perfil del canal o convertiu-lo en {amount}."
     },
@@ -852,11 +832,6 @@
       "_": "types.LangPackString",
       "key": "ActionStarGiftCraftedSelf",
       "value": "Heu fabricat un regal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionStarGiftDisplaying",
-      "value": "Heu desat el regal al perfil."
     },
     {
       "_": "types.LangPackString",
@@ -1290,16 +1265,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionUnsupportedDescription",
-      "value": "Useu una de les nostres aplicacions per a completar l'acció."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionUnsupportedTitle",
-      "value": "L'acció encara no és compatible"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionUserJoined",
       "value": "{from} s'ha unit al grup"
     },
@@ -1370,6 +1335,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AdHidden",
+      "value": "Ja no veureu anuncis del Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Add",
       "value": "Afegeix"
     },
@@ -1382,6 +1352,11 @@
       "_": "types.LangPackString",
       "key": "AddContactSharedContactExceptionInfo",
       "value": "Podeu mostrar a {user} el vostre telèfon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AddEffectMessageHint",
+      "value": "Afegiu un efecte animat"
     },
     {
       "_": "types.LangPackString",
@@ -1465,11 +1440,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AiMessageEditorSelectStyle",
-      "value": "Seleccioneu un estil"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AiMessageEditorStyle",
       "value": "Estil"
     },
@@ -1481,11 +1451,6 @@
     {
       "_": "types.LangPackString",
       "key": "AiMessageEditorTranslate",
-      "value": "Traducció"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AiMessageEditorTranslation",
       "value": "Traducció"
     },
     {
@@ -1636,8 +1601,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AllReactions",
+      "value": "Totes les reaccions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AllStoriesCategory",
       "value": "Totes les històries"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AllViewers",
+      "value": "Tots els espectadors"
     },
     {
       "_": "types.LangPackString",
@@ -1666,6 +1641,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AnonymousForward",
+      "value": "Autor ocult"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AnonymousPoll",
       "value": "Enquesta anònima"
     },
@@ -1673,12 +1653,6 @@
       "_": "types.LangPackString",
       "key": "AnonymousQuizPoll",
       "value": "Concurs anònim"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "Answer",
-      "one_value": "{count} resposta",
-      "other_value": "{count} respostes"
     },
     {
       "_": "types.LangPackString",
@@ -1727,6 +1701,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppStore",
+      "value": "App Store"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ApproveNewMembers",
       "value": "Sol·licita aprovació"
     },
@@ -1742,13 +1721,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ApproveNewSubscribersPublicUnavailable",
-      "value": "L'opció no està disponible perquè tothom es pot unir al canal públic usant l'enllaç."
+      "key": "Apps",
+      "value": "Aplicacions"
     },
     {
       "_": "types.LangPackString",
-      "key": "Apps",
-      "value": "Aplicacions"
+      "key": "April",
+      "value": "Abril"
     },
     {
       "_": "types.LangPackString",
@@ -1769,6 +1748,11 @@
       "_": "types.LangPackString",
       "key": "ArchivedChats",
       "value": "Xats arxivats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AreYouSure",
+      "value": "N'esteu segur?"
     },
     {
       "_": "types.LangPackString",
@@ -1802,6 +1786,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Segur que voleu tancar la sessió?\n\nAixò cancel·larà tots els xats secrets i **eliminarà les còpies de seguretat de les carteres que contenen {amount}**. Perdreu l'accés a aquests fons si no heu desat les frases secretes respectives.\n\nPodeu usar Telegram en tots els vostres dispositius alhora i fer servir diferents comptes en la mateixa aplicació."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureSessions",
       "value": "Segur que voleu tancar totes les altres sessions?"
     },
@@ -1824,11 +1813,6 @@
       "_": "types.LangPackString",
       "key": "AriaBackToChatList",
       "value": "Torna a la llista de xats"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaCancelPollCreation",
-      "value": "Cancel·la l'enquesta"
     },
     {
       "_": "types.LangPackString",
@@ -1912,16 +1896,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaEditProfilePhoto",
-      "value": "Edita l'avatar"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaExitMessageSelection",
-      "value": "Surt del mode de selecció"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaGiftPreviewPlay",
       "value": "Reprodueix previsualitzacions aleatòries"
     },
@@ -1944,16 +1918,6 @@
       "_": "types.LangPackString",
       "key": "AriaLabelOpenMenu",
       "value": "Obre el menú"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchGifs",
-      "value": "Cerqueu GIF"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchStickers",
-      "value": "Cerca adhesius"
     },
     {
       "_": "types.LangPackString",
@@ -2002,16 +1966,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaSearchByDate",
-      "value": "Cerca per data"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaSearchInChat",
-      "value": "Cerca al xat"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaSearchNewerResult",
       "value": "Vés al resultat anterior"
     },
@@ -2037,21 +1991,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaToDoCancel",
-      "value": "Cancel·la la creació de la llista"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleChatNotifications",
-      "value": "Commuta les notificacions del xat"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleUserNotifications",
-      "value": "Commuta les notificacions d'usuari"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Arrow",
       "value": "Fletxa"
     },
@@ -2064,11 +2003,6 @@
       "_": "types.LangPackString",
       "key": "AspectRatio",
       "value": "Relació d'aspecte"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AtDateAgo",
-      "value": "el dia {date}"
     },
     {
       "_": "types.LangPackString",
@@ -2122,8 +2056,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AttachMenuMediaBlocked",
-      "value": "No es permet enviar contingut multimèdia al grup."
+      "key": "AttachMenu",
+      "value": "Adjunta..."
     },
     {
       "_": "types.LangPackString",
@@ -2144,11 +2078,6 @@
       "_": "types.LangPackString",
       "key": "AttachStory",
       "value": "Història"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AttachTodo",
-      "value": "Llista"
     },
     {
       "_": "types.LangPackString",
@@ -2243,6 +2172,11 @@
       "key": "AttachmentReplaceVideo",
       "one_value": "Substitueix el vídeo",
       "other_value": "Substitueix els {count} vídeos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AttachmentSelectFromFiles",
+      "value": "Selecciona des d'Arxius"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -2340,6 +2274,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioSearchChats",
+      "value": "Música compartida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchGlobal",
+      "value": "Cerca global"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchProfile",
+      "value": "Música al perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioShowInChat",
       "value": "Mostra al xat"
     },
@@ -2347,6 +2296,11 @@
       "_": "types.LangPackString",
       "key": "AudioShuffleList",
       "value": "Mescla la llista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "August",
+      "value": "Agost"
     },
     {
       "_": "types.LangPackString",
@@ -2540,13 +2494,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AutoplayMedia",
-      "value": "Reproducció automàtica"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AvatarChangeTitle",
-      "value": "Canvieu la foto de perfil"
+      "key": "AvailableReactions",
+      "value": "Reaccions disponibles"
     },
     {
       "_": "types.LangPackString",
@@ -2640,13 +2589,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "BlockUserTitle",
-      "value": "Bloca {user}"
+      "key": "BlockUser",
+      "value": "Bloca"
     },
     {
       "_": "types.LangPackString",
-      "key": "BlockedListNotFound",
-      "value": "No s'ha trobat cap usuari."
+      "key": "BlockUserTitle",
+      "value": "Bloca {user}"
     },
     {
       "_": "types.LangPackString",
@@ -2665,8 +2614,374 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BoostChannel",
+      "value": "Impulsa el canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftDateEnds",
+      "value": "Finalització"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftLimitSubscribersInfo",
+      "value": "Trieu si voleu restringir el sorteig només per a aquells que s'han unit al canal després d'iniciar-lo, o per a usuaris de països específics."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGiftStarsInfo",
+      "value": "Trieu quantes estrelles sortejar i quants impulsos rebre per 1 any."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostGroup",
+      "value": "Impulsa el grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostReason",
+      "value": "Motiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAddChannelOrGroup",
+      "value": "Afegeix un grup o canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAllMembers",
+      "value": "Tots els membres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAllSubscribers",
+      "value": "Tots els subscriptors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingAwardSpecificUsers",
+      "value": "Premia usuaris concrets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostChannelMenu",
+      "value": "Impulsa el canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostGroupMenu",
+      "value": "Impulsa el grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingBoostsViaGifts",
+      "value": "Impulsos via regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingChannelsGroupsIncludedGiveaway",
+      "value": "Grups i canals inclosos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingChooseHowMany",
+      "value": "Trieu quantes subscripcions prèmium voleu sortejar i quants impulsos rebre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDate",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDateWhenGiveawayEnds",
+      "value": "Data de finalització del sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingDurationOfPremium",
+      "value": "Durada de les subscripcions Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingEligibleUsers",
+      "value": "Usuaris candidats al sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingFrom",
+      "value": "De"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingFromAllCountries",
+      "value": "de tots els països"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetBoostsViaGifts",
+      "value": "Obteniu impulsos via regals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoost",
+      "value": "Obteniu més impulsos per al canal regalant el Premium als subscriptors."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGetMoreBoosts",
+      "value": "Obteniu més impulsos per al canal regalant el Premium als subscriptors."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGift",
+      "value": "Regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiftLink",
+      "value": "Enllaç regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveAwayAbout",
+      "value": "Quant al sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveaway",
+      "value": "Sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayAdditionPrizeHint",
+      "value": "Activeu-ho si voleu donar als guanyadors els vostres premis a més de les subscripcions al Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayAdditionalPrizes",
+      "value": "Premis addicionals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayCanceledByPayment",
+      "value": "El canal ha reemborsat el pagament dels premis, cancel·lant-los."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayEnd",
+      "value": "El sorteig ha finalitzat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayEnterYourPrize",
+      "value": "Introduïu el premi"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayMsgAllSubsPlural",
+      "one_value": "Tots els subscriptors del canal:",
+      "other_value": "Tots els subscriptors dels canals:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayMsgParticipants",
+      "value": "**Participants**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayMsgWithDivider",
+      "value": "amb"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayNotEligibleCountry",
+      "value": "No sou candidat a participar en el sorteig perquè el vostre país no està inclòs en les seves condicions."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrivateChannel",
+      "value": "El canal és privat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrivateChannelWarning",
+      "value": "Segur que voleu afegir un canal privat? Els usuaris no s'hi podran unir sense un enllaç d'invitació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayPrizes",
+      "value": "**Premis del sorteig**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayResultsMsgAllWinnersReceivedLinks",
+      "value": "Tots els guanyadors han rebut enllaços regal per privat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayResultsMsgWinnersSelected",
+      "value": "**S'han triat els guanyadors**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayShowWinners",
+      "value": "Mostra els guanyadors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayShowWinnersHint",
+      "value": "Trieu si voleu fer pública la llista de guanyadors quan finalitzi el sorteig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayYouNotWon",
+      "value": "No heu guanyat res en aquest sorteig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingGiveawayYouWon",
+      "value": "Heu guanyat un premi al sorteig 🏆"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingIncompleteGiveaway",
+      "value": "Sorteig incomplet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNewMembers",
+      "value": "Només els membres nous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNewSubscribers",
+      "value": "Només subscriptors nous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingNoRecipient",
+      "value": "Cap destinatari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingPreparedGiveaways",
+      "value": "Sortejos pagats de bestreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingQuantityPrizes",
+      "value": "Quantitat de premis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingReason",
+      "value": "Motiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingRecipientWillBeSelected",
+      "value": "El destinatari se seleccionarà quan el sorteig finalitzi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSelectCountry",
+      "value": "Selecció de països"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSelectPaidGiveaway",
+      "value": "Seleccioneu un sorteig que ja hàgiu pagat per a configurar-lo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingSendLinkToAnyone",
+      "value": "També podeu **enviar aquest enllaç** com a regal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsOptions",
+      "value": "Estrelles per repartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsQuantityPrizes",
+      "value": "Nombre de guanyadors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStarsQuantityPrizesInfo",
+      "value": "Trieu entre quants guanyadors voleu repartir les estrelles."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveaway",
+      "value": "Inicia el sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveawayConfirmText",
+      "value": "Segur que voleu iniciar el sorteig ara?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingStartGiveawayConfirmTitle",
+      "value": "Inicia el sorteig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingTo",
+      "value": "A"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingToBeDistributed",
+      "value": "Per repartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingUseLink",
+      "value": "Usa l'enllaç"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingWinnersDate",
+      "value": "**Data de tria de guanyadors**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostingWinnersRandomly",
+      "value": "els guanyadors es trien a l'atzar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Boosts",
+      "value": "Impulsos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BoostsMaxLevelReached",
+      "value": "Nivell màxim assolit"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot",
       "value": "bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWrite",
+      "value": "Voleu permetre que el bot us enviï missatges?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWriteConfirm",
+      "value": "Permet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotAllowWriteTitle",
+      "value": "Permet els missatges"
     },
     {
       "_": "types.LangPackString",
@@ -2760,8 +3075,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotChangeSettings",
+      "value": "Configuració del bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotChatMiniAppOpen",
       "value": "Obre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarning",
+      "value": "No es desaran els canvis que heu fet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningSure",
+      "value": "Tanca igualment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotCloseWarningTitle",
+      "value": "Atenció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotDefaultPrivacyPolicy",
+      "value": "https://telegram.org/privacy-tpa"
     },
     {
       "_": "types.LangPackString",
@@ -2782,6 +3122,16 @@
       "_": "types.LangPackString",
       "key": "BotDraftStop",
       "value": "Atura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotEditCommands",
+      "value": "Edita les ordres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotEditIntro",
+      "value": "Edita la introducció"
     },
     {
       "_": "types.LangPackString",
@@ -2830,6 +3180,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotManageInfo",
+      "value": "Useu @BotFather per a gestionar el bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotOpenPageMessage",
       "value": "El **{bot}** voldria obrir el seu web per a continuar.\n\nPodrà accedir a la vostra **adreça IP** i a informació bàsica del dispositiu."
     },
@@ -2845,6 +3200,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfilePermissionEmojiStatus",
+      "value": "Estat d'emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfilePermissionLocation",
+      "value": "Geolocalització"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotReadTextFromClipboardConfirm",
       "value": "Permet"
     },
@@ -2857,6 +3222,11 @@
       "_": "types.LangPackString",
       "key": "BotReadTextFromClipboardTitle",
       "value": "Accés al porta-retalls"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotRemoveFromMenuTitle",
+      "value": "Elimina el bot"
     },
     {
       "_": "types.LangPackString",
@@ -2890,6 +3260,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusAgent",
+      "value": "Agent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusAi",
+      "value": "IA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusGame",
+      "value": "Joc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "No binari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotStop",
+      "value": "Bloca el bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotSuggestedStatus",
       "value": "Voleu establir aquest estat d'emoji suggerit per **{bot}**?"
     },
@@ -2915,6 +3310,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotWebViewStartPermission",
+      "value": "Per a iniciar l'aplicació web, us connectareu al seu lloc web."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BoxRemove",
       "value": "Elimina"
     },
@@ -2928,6 +3328,56 @@
       "_": "types.LangPackString",
       "key": "Brush",
       "value": "Retolador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursDayClosed",
+      "value": "Tancat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursDayFullOpened",
+      "value": "Obert 24 hores"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfile",
+      "value": "Horari comercial"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileNowClosed",
+      "value": "Tancat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileNowOpen",
+      "value": "Obert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileSwitchLocal",
+      "value": "hora local"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessHoursProfileSwitchMy",
+      "value": "la meva hora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLinkErrorExpired",
+      "value": "L'enllaç ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLocationCopied",
+      "value": "S'ha copiat l'adreça de l'empresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessProfileLocation",
+      "value": "Ubicació"
     },
     {
       "_": "types.LangPackString",
@@ -2983,11 +3433,6 @@
       "_": "types.LangPackString",
       "key": "ButtonSellGift",
       "value": "Ven-lo per {stars}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ButtonSellGiftTon",
-      "value": "Ven per {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -3175,6 +3620,11 @@
       "value": "Activa"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Calls",
+      "value": "Trucades"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "CanJoin",
       "one_value": "{count} ús",
@@ -3184,11 +3634,6 @@
       "_": "types.LangPackString",
       "key": "Cancel",
       "value": "Cancel·la"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Caption",
-      "value": "Llegenda"
     },
     {
       "_": "types.LangPackString",
@@ -3204,11 +3649,6 @@
       "_": "types.LangPackString",
       "key": "ChangePassword",
       "value": "Canvia la contrasenya"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChangeRecipient",
-      "value": "Canvia el destinatari"
     },
     {
       "_": "types.LangPackString",
@@ -3247,11 +3687,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelAdminDismiss",
-      "value": "Cessa l'administrador"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChannelAdministrators",
       "value": "Administradors"
     },
@@ -3264,6 +3699,16 @@
       "_": "types.LangPackString",
       "key": "ChannelBlockedUsers",
       "value": "Usuaris expulsats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostBoostChannel",
+      "value": "Impulsa el canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelBoostErrorBoostTooOftenTitle",
+      "value": "No podeu impulsar tan sovint"
     },
     {
       "_": "types.LangPackString",
@@ -3292,18 +3737,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelEarnAvailable",
+      "value": "Recompenses disponibles per retirar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnBalanceTitle",
+      "value": "Recompensa disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnChartRevenue",
+      "value": "Recompenses per publicitat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelEarnLearnCoinAbout",
       "value": "Gram és la criptomoneda de la plataforma de cadena de blocs TON, que Telegram utilitza per la seva rapidesa i baixes comissions en les transaccions. {link}"
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelEditAdminCannotEdit",
-      "value": "No podeu editar els permisos d'aquest administrador."
+      "key": "ChannelEarnLearnInAbout",
+      "value": "El Telegram pot mostrar anuncis al vostre canal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnInSubtitle",
+      "value": "Anuncis del Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnOutAbout",
+      "value": "Podeu retirar els vostres Grams en qualsevol moment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnOutSubtitle",
+      "value": "Retirades flexibles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnSplitSubtitle",
+      "value": "Ingressos a mitges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnLearnTitle",
+      "value": "Obteniu beneficis pel canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnReward",
+      "value": "Recompenses des de l'última retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnTitle",
+      "value": "Monetització"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelEarnTotal",
+      "value": "Recompenses històriques totals"
     },
     {
       "_": "types.LangPackString",
       "key": "ChannelEditAdminPermissionBanUsers",
       "value": "Bandejar usuaris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelHideMembers",
+      "value": "Amaga els membres"
     },
     {
       "_": "types.LangPackString",
@@ -3362,11 +3867,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelManagementTitle",
-      "value": "Admins"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChannelPermissionDeniedSendMessagesUntil",
       "value": "L'administració del grup us ha restringit l'escriptura fins al dia {date}."
     },
@@ -3392,6 +3892,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelPostDeleted",
+      "value": "S'ha eliminat la publicació del grup de debat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelPrivate",
       "value": "Canal privat"
     },
@@ -3414,6 +3919,11 @@
       "_": "types.LangPackString",
       "key": "ChannelPublicInfo",
       "value": "Els canals públics es poden trobar a la cerca i qualsevol s'hi pot unir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelReactionsMaxCountInfo",
+      "value": "Limiteu el nombre de reaccions diferents que es poden afegir a una publicació, incloses les ja publicades."
     },
     {
       "_": "types.LangPackString",
@@ -3452,6 +3962,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelSignMessagesWithProfile",
+      "value": "Mostra el perfil dels autors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelSignProfilesInfo",
+      "value": "Afegeix el nom i la foto dels administradors als missatges que hi envien, enllaçant el seu perfil."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphFollowers",
       "value": "SEGUIDORS"
     },
@@ -3482,6 +4002,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsGraphReactions",
+      "value": "REACCIONS PER EMOCIÓ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsGraphStoriesReactions",
+      "value": "REACCIONS A LA HISTÒRIA"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsGraphViewsByHours",
       "value": "VISTES PER HORES (UTC)"
     },
@@ -3502,8 +4032,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerPost",
+      "value": "Reaccions per publicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewReactionsPerStory",
+      "value": "Reaccions per història"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelStatsOverviewSharesPerPost",
       "value": "Comparticions per publicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewSharesPerStory",
+      "value": "Comparticions per història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelStatsOverviewViews",
+      "value": "Visualitzacions"
     },
     {
       "_": "types.LangPackString",
@@ -3512,14 +4062,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChannelStatsRecentHeader",
-      "value": "PUBLICACIONS RECENTS"
+      "key": "ChannelStatsOverviewViewsPerStory",
+      "value": "Visualitzacions per història"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "ChannelStatsSharesCount",
-      "one_value": "{count} compartició",
-      "other_value": "{count} comparticions"
+      "_": "types.LangPackString",
+      "key": "ChannelStatsRecentHeader",
+      "value": "PUBLICACIONS RECENTS"
     },
     {
       "_": "types.LangPackString",
@@ -3536,6 +4085,16 @@
       "_": "types.LangPackString",
       "key": "ChannelSubscribers",
       "value": "Subscriptors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelTitleInfo",
+      "value": "Informació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelTopics",
+      "value": "Temes"
     },
     {
       "_": "types.LangPackString",
@@ -3610,6 +4169,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatContextViewAsTopics",
+      "value": "Vista de temes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatDraftPrefix",
       "value": "Esborrany:"
     },
@@ -3617,6 +4181,11 @@
       "_": "types.LangPackString",
       "key": "ChatEmptyChat",
       "value": "Encara no hi ha cap missatge..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatEmptyTopicPlaceholderTitle",
+      "value": "Ja quasi ho tenim"
     },
     {
       "_": "types.LangPackString",
@@ -3633,6 +4202,16 @@
       "_": "types.LangPackString",
       "key": "ChatHistory",
       "value": "Historial per als membres nous"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHistoryHiddenInfo2",
+      "value": "Els membres nous només veuran els últims 100 missatges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHistoryVisibleInfo",
+      "value": "Els membres nous veuran els missatges enviats abans que s'unissin al grup."
     },
     {
       "_": "types.LangPackString",
@@ -3717,8 +4296,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChatListFilterAddToFolder",
-      "value": "Afegeix a la carpeta..."
+      "key": "ChatListEmptyTopicsTitle",
+      "value": "Encara no hi ha temes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterCreateLinkNew",
+      "value": "Crea un enllaç"
     },
     {
       "_": "types.LangPackString",
@@ -3729,6 +4313,11 @@
       "_": "types.LangPackString",
       "key": "ChatListFilterErrorTitleEmpty",
       "value": "Introduïu un títol per a aquesta carpeta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListFilterInviteLinkIncludeExcludeError",
+      "value": "No podeu compartir carpetes que incloguin o excloguin tipus de xat com «Grups», «Contactes», etc."
     },
     {
       "_": "types.LangPackString",
@@ -3744,6 +4333,26 @@
       "_": "types.LangPackString",
       "key": "ChatListOpenInNewWindow",
       "value": "Obre en una finestra nova"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeChannel",
+      "value": "canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeContact",
+      "value": "contacte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeGroup",
+      "value": "grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatListPeerTypeNonContactUser",
+      "value": "no és contacte"
     },
     {
       "_": "types.LangPackString",
@@ -3782,6 +4391,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatMessagingRestrictedPlaceholderAction",
+      "value": "Més informació…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatNonContactUserGroups",
       "value": "Grups en comú"
     },
@@ -3794,6 +4408,11 @@
       "_": "types.LangPackString",
       "key": "ChatOutgoingContextMixedReactionCount",
       "value": "{count}/{total} han reaccionat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatPaidMediaPurchased",
+      "value": "Comprat"
     },
     {
       "_": "types.LangPackString",
@@ -3823,6 +4442,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatPlayOnceVoiceMessageTooltip",
+      "value": "El missatge de veu només es pot reproduir una vegada."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatPollTotalVotesResultEmpty",
       "value": "Sense vots"
     },
@@ -3830,6 +4454,16 @@
       "_": "types.LangPackString",
       "key": "ChatQuizTotalVotesEmpty",
       "value": "Sense respostes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSetPhotoOrVideo",
+      "value": "Estableix una foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTranslateMenuTo",
+      "value": "Trieu una altra llengua"
     },
     {
       "_": "types.LangPackString",
@@ -3861,6 +4495,11 @@
       "key": "ChatUnpinAllMessagesConfirmation",
       "one_value": "Voleu deixar de fixar el missatge del xat?",
       "other_value": "Voleu deixar de fixar els {count} missatges del xat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoiceSingleDeleteAndClose",
+      "value": "Elimina i tanca"
     },
     {
       "_": "types.LangPackString",
@@ -3910,8 +4549,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Checking",
+      "value": "S'està comprovant…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CheckoutNewCardCardholderNamePlaceholder",
       "value": "Nom del titular"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CheckoutPasswordEntryTitle",
+      "value": "Confirmació del pagament"
     },
     {
       "_": "types.LangPackString",
@@ -3930,8 +4579,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChooseStickerMyStickerSets",
+      "value": "Els meus paquets d'adhesius"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Clear",
       "value": "Esborra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMyNotesMessage",
+      "value": "Segur que voleu eliminar totes les notes?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryMyNotesTitle",
+      "value": "Elimina totes les notes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearHistoryTitleSingle2",
+      "value": "Elimina els missatges"
     },
     {
       "_": "types.LangPackString",
@@ -3940,8 +4609,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ClearRecentEmoji",
-      "value": "Voleu esborrar els emojis recents?"
+      "key": "ClearRecentReactionsAlertMessage",
+      "value": "Voleu esborrar els emojis de reaccions recents dels suggeriments?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ClearRecentStickersAlertMessage",
+      "value": "Voleu esborrar tots els adhesius recents?"
     },
     {
       "_": "types.LangPackString",
@@ -4255,6 +4929,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ConnectedAccountsLimitTitle",
+      "value": "Comptes connectats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Connecting",
+      "value": "S'està connectant..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactInfoNotVerified",
       "value": "No és un compte oficial"
     },
@@ -4290,6 +4974,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContactsAndPremium",
+      "value": "Contactes i Premium"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactsPhoneNumberNotRegistred",
       "value": "La persona amb aquest telèfon encara no està registrada al Telegram."
     },
@@ -4302,6 +4991,11 @@
       "_": "types.LangPackString",
       "key": "ContextArchiveExpand",
       "value": "Amplia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContextArchiveToList",
+      "value": "Mou a la llista de xats"
     },
     {
       "_": "types.LangPackString",
@@ -4337,11 +5031,6 @@
       "_": "types.LangPackString",
       "key": "ContextCopyText",
       "value": "Copia el text"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ContextForwardMsg",
-      "value": "Reenvia"
     },
     {
       "_": "types.LangPackString",
@@ -4400,13 +5089,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextRemoveFromGroup",
-      "value": "Expulsa del grup"
+      "key": "ContextQuoteAndReply",
+      "value": "Cita i respon"
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextReportMsg",
-      "value": "Denuncia"
+      "key": "ContextRemoveFromGroup",
+      "value": "Expulsa del grup"
     },
     {
       "_": "types.LangPackString",
@@ -4461,16 +5150,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationDeleteManyMessages",
-      "value": "Elimina els missatges"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationDeleteMessagesFor",
-      "value": "Elimina per a mi i {user}"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ConversationDeleteMessagesForEveryone",
       "value": "Elimina per a tothom"
     },
@@ -4521,18 +5200,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewBot",
-      "value": "MOSTRA EL BOT"
+      "key": "ConversationSearchPlaceholder",
+      "value": "Cerca en aquest xat"
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewChannel",
-      "value": "MOSTRA EL CANAL"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationViewPost",
-      "value": "MOSTRA LA PUBLICACIÓ"
+      "key": "ConversationSuggestedPhotoTitle",
+      "value": "Foto suggerida"
     },
     {
       "_": "types.LangPackString",
@@ -4568,6 +5242,16 @@
       "_": "types.LangPackString",
       "key": "Create",
       "value": "Crea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBotTitle",
+      "value": "Creeu un bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateGeneralTopicTitle",
+      "value": "Trieu el nom del tema"
     },
     {
       "_": "types.LangPackString",
@@ -4616,23 +5300,28 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "CreditsBoxHistoryEntryGiftOutAbout",
-      "value": "Amb les estrelles, {user} podrà desblocar contingut i serveis al Telegram. {link}"
+      "key": "CreateTopic",
+      "value": "Crea un tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateTopicTitle",
+      "value": "Trieu un nom i icona del tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreditsSummaryOptionsAbout",
+      "value": "En continuar i comprar estrelles, accepteu els {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreditsSummaryOptionsAboutLink",
+      "value": "Termes i condicions"
     },
     {
       "_": "types.LangPackString",
       "key": "Crop",
       "value": "Escapça"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropImage",
-      "value": "Retalla la imatge"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropperApply",
-      "value": "Escapça la imatge"
     },
     {
       "_": "types.LangPackString",
@@ -4661,18 +5350,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CustomEmojiUsedSets",
+      "value": "Paquets d'emojis usats"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CustomHelp",
       "value": "Llevat que sigueu un usuari Premium, no veureu l'estat de connexió de la gent amb qui no compartiu el vostre, ni si són en línia. En lloc d'això, es mostraran temps aproximats (fa poc, fa uns dies, fa unes setmanes)."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CustomShareGiftsInfo",
-      "value": "Podeu afegir usuaris o grups sencers com a excepcions que substituiran la configuració anterior."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DataAndStorageAutoplayVideos",
-      "value": "Vídeos"
     },
     {
       "_": "types.LangPackString",
@@ -4691,10 +5375,19 @@
       "other_value": "{count} dies"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "DaysAgo",
-      "one_value": "fa {count} dia",
-      "other_value": "fa {count} dies"
+      "_": "types.LangPackString",
+      "key": "DebugMenuEnableLogs",
+      "value": "Activa el registre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DebugSendLogs",
+      "value": "Envia els registres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "December",
+      "value": "Desembre"
     },
     {
       "_": "types.LangPackString",
@@ -4718,8 +5411,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteAdditionalActions",
+      "value": "Accions addicionals"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteAll",
       "value": "Elimina-ho tot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteAllFromUsers",
+      "value": "Elimina-ho tot dels usuaris"
     },
     {
       "_": "types.LangPackString",
@@ -4748,6 +5451,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeleteBanUsers",
+      "value": "Bandeja els usuaris"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DeleteChat",
       "value": "Elimina el xat"
     },
@@ -4762,11 +5470,6 @@
       "value": "Elimina per a tothom"
     },
     {
-      "_": "types.LangPackString",
-      "key": "DeleteForEveryoneDescription",
-      "value": "Això ho eliminarà per a tothom en aquest xat"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "DeleteForEveryoneHint",
       "one_value": "S'eliminarà per a tothom en aquest xat.",
@@ -4777,11 +5480,6 @@
       "key": "DeleteForMeChatHint",
       "one_value": "S'eliminarà només del vostre historial, no del dels altres membres.",
       "other_value": "S'eliminaran només del vostre historial, no del dels altres membres."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DeleteForMeDescription",
-      "value": "Això ho eliminarà només del vostre historial, no del de la resta de membres"
     },
     {
       "_": "types.LangPackString",
@@ -4814,6 +5512,11 @@
       "value": "Elimina el meu compte"
     },
     {
+      "_": "types.LangPackString",
+      "key": "DeleteProceedBtn",
+      "value": "Continua"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "DeleteReactionTitle",
       "one_value": "Voleu eliminar {count} reacció?",
@@ -4826,13 +5529,38 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DeleteSingleMessagesTitle",
-      "value": "Elimina el missatge"
+      "key": "DeleteRestrictUsers",
+      "value": "Restringeix els usuaris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteStorySubtitle",
+      "value": "Segur que voleu eliminar aquesta història?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteStoryTitle",
+      "value": "Eliminació de la història"
     },
     {
       "_": "types.LangPackString",
       "key": "DeleteThisChat",
       "value": "Elimina aquest xat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteToggleBanUsers",
+      "value": "Bandeja'ls completament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DeleteToggleRestrictUsers",
+      "value": "Restringeix-los parcialment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Deleted",
+      "value": "Eliminat"
     },
     {
       "_": "types.LangPackString",
@@ -4851,18 +5579,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DescriptionComposerGiftMinimumCurrencyPrice",
-      "value": "El preu mínim és **{amount}**."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DescriptionComposerGiftMinimumPrice",
       "value": "El preu mínim és **{stars}**."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DescriptionComposerGiftResaleCurrencyPrice",
-      "value": "Rebreu **{amount}**."
     },
     {
       "_": "types.LangPackString",
@@ -4934,6 +5652,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DeselectAll",
+      "value": "Desmarca-ho tot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DialogListSearchSectionDialogs",
       "value": "Xats i contactes"
     },
@@ -4976,6 +5699,11 @@
       "_": "types.LangPackString",
       "key": "Disable",
       "value": "Desactiva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DisableReactionsInfo",
+      "value": "Els membres del grup no poden reaccionar a cap missatge."
     },
     {
       "_": "types.LangPackString",
@@ -5049,18 +5777,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DisplayGiftsButton",
-      "value": "Mostra el botó Regals"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DlgSearchForMessages",
-      "value": "Cerca missatges"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DoNotAskAgain",
       "value": "No ho tornis a demanar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotReply",
+      "value": "No responguis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate",
+      "value": "No tradueixis"
     },
     {
       "_": "types.LangPackString",
@@ -5071,6 +5799,11 @@
       "_": "types.LangPackString",
       "key": "DoubleTapSetting",
       "value": "Reacció ràpida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadSpeedLimited",
+      "value": "Velocitat de baixada limitada"
     },
     {
       "_": "types.LangPackString",
@@ -5289,23 +6022,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditTopic",
+      "value": "Edita el tema"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditUserNoteHint",
       "value": "Ningú més pot veure les notes."
     },
     {
       "_": "types.LangPackString",
-      "key": "EditedDate",
-      "value": "Edició: {date}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EditedMessage",
+      "key": "Edited",
       "value": "editat"
     },
     {
       "_": "types.LangPackString",
       "key": "EmbeddedMessageNoCaption",
       "value": "S'ha eliminat la llegenda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Emoji",
+      "value": "Emojis"
     },
     {
       "_": "types.LangPackString",
@@ -5346,6 +6084,16 @@
       "_": "types.LangPackString",
       "key": "Emoji8",
       "value": "Banderes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EmojiBotInfo",
+      "value": "Animem els artistes a afegir els seus propis paquets usant el bot @stickers."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EmojiPremiumRestore",
+      "value": "Restaura"
     },
     {
       "_": "types.LangPackString",
@@ -5404,13 +6152,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EnablePasscode",
-      "value": "Activa el codi d'accés"
+      "key": "EnableAllReactionsInfo",
+      "value": "Els membres del grup poden usar qualsevol emoji com a reacció als missatges."
     },
     {
       "_": "types.LangPackString",
-      "key": "EnableReactions",
-      "value": "Activa les reaccions"
+      "key": "EnablePasscode",
+      "value": "Activa el codi d'accés"
     },
     {
       "_": "types.LangPackString",
@@ -5421,6 +6169,11 @@
       "_": "types.LangPackString",
       "key": "EnabledPasswordText",
       "value": "Heu activat la verificació en dos passos.\nUs caldrà la contrasenya que heu indicat aquí per a iniciar sessió al Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "English",
+      "value": "Anglès"
     },
     {
       "_": "types.LangPackString",
@@ -5637,46 +6390,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EventLogAllAdmins",
-      "value": "Tots els administradors"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogAllEvents",
-      "value": "Totes les accions"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterChannelInfo",
-      "value": "Informació del canal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterDeletedMessages",
-      "value": "Missatges eliminats"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterEditedMessages",
-      "value": "Missatges editats"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterLeavingMembers",
-      "value": "Membres sortints"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewAdmins",
-      "value": "Drets d'administració"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewMembers",
-      "value": "Membres nous"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EventLogFilterPinnedMessages",
       "value": "Missatges fixats"
     },
@@ -5692,11 +6405,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ExceptionDescriptionPrivacyChargeForMessages",
-      "value": "Afegiu usuaris o grups sencers que no hauran de pagar per enviar-vos missatges."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ExceptionTitlePrivacyChargeForMessages",
       "value": "Elimina la tarifa"
     },
@@ -5704,6 +6412,26 @@
       "_": "types.LangPackString",
       "key": "ExpiredLink",
       "value": "Enllaç caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStory",
+      "value": "La història ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredStoryMention",
+      "value": "La història on us havien mencionat ja no està disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExpiredViewsStub",
+      "value": "La llista d'espectadors desapareix **24 hores** després que la història caduqui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FactCheck",
+      "value": "Verificació d'informació"
     },
     {
       "_": "types.LangPackString",
@@ -5724,6 +6452,11 @@
       "_": "types.LangPackString",
       "key": "FavoriteStickersLimitTitle",
       "value": "Adhesius preferits"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "February",
+      "value": "Febrer"
     },
     {
       "_": "types.LangPackString",
@@ -5912,6 +6645,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "FolderLinkButtonJoinPlural",
+      "one_value": "Afegeix-m'hi",
+      "other_value": "Afegeix-m'hi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkButtonRemove",
+      "value": "Elimina la carpeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkButtonRemoveChats",
+      "value": "Elimina la carpeta i els xats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkHeaderAlready",
+      "value": "Xats on ja us heu unit"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "FolderLinkNotificationAddedSubtitle",
       "one_value": "També us heu unit a {count} xat.",
       "other_value": "També us heu unit a {count} xats."
@@ -5945,6 +6699,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkPreviewLeft",
+      "value": "Tots els xats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkPreviewRight",
+      "value": "Personal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailableBot",
+      "value": "No podeu compartir xats amb bots"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailablePublicChannel",
+      "value": "No teniu els permisos per a compartir invitacions a aquest canal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailablePublicGroup",
+      "value": "No teniu els permisos per a compartir invitacions a aquest grup."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenAlertTextUnavailableUser",
+      "value": "No podeu compartir xats privats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkScreenTitle",
+      "value": "Comparteix la carpeta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkSubtitleAdd",
       "value": "Voleu afegir {chats} a la carpeta **{title}**?"
     },
@@ -5966,6 +6755,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkSubtitleRemove",
+      "value": "Voleu també abandonar els xats inclosos en aquesta carpeta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleAddChats",
+      "value": "Afegiu xats a la carpeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleAlready",
+      "value": "Carpeta ja afegida"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkTitleDescription",
       "value": "Amb aquest enllaç, qualsevol pot afegir la carpeta {folder} i {chats} de sota."
     },
@@ -5974,6 +6778,11 @@
       "key": "FolderLinkTitleDescriptionChats",
       "one_value": "el xat",
       "other_value": "els {count} xats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkTitleRemove",
+      "value": "Elimina la carpeta"
     },
     {
       "_": "types.LangPackString",
@@ -6122,6 +6931,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ForumCreateTopic",
+      "value": "Crea un tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumNoMessages",
+      "value": "Cap missatge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumRepliesOnly",
+      "value": "Podeu respondre als missatges en els temes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumToggleDescription",
+      "value": "El grup es dividirà per temes creats per l'administració o usuaris."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicClose",
+      "value": "Tanca el tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicDeleteSure",
+      "value": "Segur que voleu eliminar aquest tema?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicEdit",
+      "value": "Edita el tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicReopen",
+      "value": "Reobre el tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumTopicTitle",
+      "value": "Nom del tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ForumViewAsMessages",
+      "value": "Vista de missatges"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Forward",
       "value": "Reenvia"
     },
@@ -6149,18 +7008,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardTo",
-      "value": "Reenvia a..."
+      "key": "ForwardedFrom",
+      "value": "Reenviat de:"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardedDate",
-      "value": "Original: {date}"
+      "key": "Fragment",
+      "value": "Fragment"
     },
     {
       "_": "types.LangPackString",
-      "key": "ForwardedMessage",
-      "value": "Missatge reenviat"
+      "key": "FragmentUsernameOpen",
+      "value": "Més informació"
     },
     {
       "_": "types.LangPackString",
@@ -6256,6 +7115,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2ConvertedTitle",
+      "value": "S'ha convertit el regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransactionSent",
+      "value": "Regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransactionUpgraded",
+      "value": "Millora de col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftActionHide",
       "value": "Amaga"
     },
@@ -6321,11 +7195,6 @@
       "_": "types.LangPackString",
       "key": "GiftAuctionAveragePrice",
       "value": "Preu mitjà"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftAuctionBalance",
-      "value": "Saldo"
     },
     {
       "_": "types.LangPackString",
@@ -6834,11 +7703,6 @@
       "value": "Col·leccionable núm. {number}"
     },
     {
-      "_": "types.LangPackString",
-      "key": "GiftInfoCollectibleBy",
-      "value": "Col·leccionable núm. {number} per **{owner}**"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoConvert",
       "one_value": "Converteix en {amount} estrella",
@@ -6945,11 +7809,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoModelCrafted",
-      "value": "{model} (fabricat)"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoOwner",
       "value": "Propietat"
     },
@@ -7027,11 +7886,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoSent",
-      "value": "Regal enviat"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoSoldOutDescription",
       "value": "Aquest regal s'ha esgotat"
     },
@@ -7092,11 +7946,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoUpgradeBadge",
-      "value": "millora"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoUpgradeForFree",
       "value": "Millora de franc"
     },
@@ -7127,11 +7976,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoWithdraw",
-      "value": "Retira"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftLeftCount",
       "value": "{count} restants"
     },
@@ -7139,6 +7983,21 @@
       "_": "types.LangPackString",
       "key": "GiftLimited",
       "value": "limitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkAbout",
+      "value": "L'enllaç us permet activar una subscripció al **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkExpired",
+      "value": "L'enllaç del codi regal ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftLinkTitle",
+      "value": "Enllaç regal"
     },
     {
       "_": "types.LangPackString",
@@ -7396,11 +8255,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftSellTitle",
-      "value": "Venda del regal"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftSend",
       "value": "Envia un regal que val {amount}"
     },
@@ -7441,8 +8295,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftStarsOutgoing",
-      "value": "Amb les estrelles, {user} podrà desblocar contingut i serveis al Telegram."
+      "key": "GiftStarsTitle",
+      "value": "Regaleu estrelles"
     },
     {
       "_": "types.LangPackString",
@@ -7473,11 +8327,6 @@
       "_": "types.LangPackString",
       "key": "GiftTransferTON",
       "value": "Envia-ho via cadena de blocs"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftTransferTONBlocked",
-      "value": "es desbloca en {time}"
     },
     {
       "_": "types.LangPackString",
@@ -7637,6 +8486,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiveawayUsersAboutGroup",
+      "value": "Trieu si voleu limitar el sorteig només a qui s'uneixi al grup després d'iniciar el sorteig o a usuaris de països concrets."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GlobalSearch",
       "value": "Cerca global"
     },
@@ -7658,13 +8512,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GramGiftReceived",
-      "value": "Recàrrega de Grams"
+      "key": "GramEarnings",
+      "value": "Guanys de Gram"
     },
     {
       "_": "types.LangPackString",
-      "key": "GramModalHint",
-      "value": "Podeu recarregar Grams mitjançant Fragment."
+      "key": "GramEarningsText",
+      "value": "Els vostres Grams de regals, anuncis i Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramGiftReceived",
+      "value": "Recàrrega de Grams"
     },
     {
       "_": "types.LangPackString",
@@ -7678,8 +8537,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupBoostBoostGroup",
+      "value": "Impulsa el grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextPinCamera",
+      "value": "Fixa el vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallContextUnpinCamera",
+      "value": "No fixis el vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupCallScreenShareStop",
+      "value": "Deixa de compartir"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupChatsSearchContext",
       "value": "Grups"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupEmoji",
+      "value": "Emojis del grup"
     },
     {
       "_": "types.LangPackString",
@@ -7706,6 +8590,16 @@
       "key": "GroupInfoParticipantCount",
       "one_value": "1 member",
       "other_value": "{count} membres"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInfoTitle",
+      "value": "Informació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupInviteBadLink",
+      "value": "Aquest enllaç d'invitació no és vàlid o ha caducat."
     },
     {
       "_": "types.LangPackString",
@@ -7744,6 +8638,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GroupMembersMembersHiddenOff",
+      "value": "Activeu-ho per a amagar la llista de membres del grup (no afecta els administradors)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupMembersMembersHiddenOn",
+      "value": "Desactiveu-ho per a mostrar la llista de membres del grup."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GroupMessagesChargePrice",
       "value": "Cobra estrelles pels missatges"
     },
@@ -7754,8 +8658,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GroupRemovedRemove",
-      "value": "Expulsa un usuari"
+      "key": "GroupPermissionNoManageTopics",
+      "value": "ni temes"
     },
     {
       "_": "types.LangPackString",
@@ -7939,6 +8843,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Hide",
+      "value": "Amaga"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "HideAd",
       "value": "Amaga"
     },
@@ -7949,8 +8858,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "HideGiftsButton",
-      "value": "Amaga el botó Regals"
+      "key": "HideReadTime",
+      "value": "Amaga el temps de lectura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HideReadTimeInfo",
+      "value": "Amaga la vostra marca de temps de lectura de missatges a la gent que no pot veure la vostra última connexió. Si ho activeu, també s'amagaran els seus temps de lectura (llevat que sigueu un usuari Premium).\n\nAquest paràmetre no afecta els grups."
     },
     {
       "_": "types.LangPackString",
@@ -7981,20 +8895,9 @@
       "other_value": "{count} hores"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "HoursAgo",
-      "one_value": "fa {count} hora",
-      "other_value": "fa {count} hores"
-    },
-    {
       "_": "types.LangPackString",
       "key": "IfInactiveFor",
       "value": "Si són inactives durant"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ImageCropTitle",
-      "value": "Arrossegueu per a ordenar"
     },
     {
       "_": "types.LangPackString",
@@ -8013,8 +8916,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "InputPlaceholderGiftResalePrice",
-      "value": "Introduïu un preu"
+      "key": "InfoUserTitle",
+      "value": "Informació de l'usuari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InputAttachPopoverMusic",
+      "value": "Fitxer d'àudio"
     },
     {
       "_": "types.LangPackString",
@@ -8030,6 +8938,16 @@
       "_": "types.LangPackString",
       "key": "InputTitleSuggestMessageTime",
       "value": "Hora de publicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrder",
+      "value": "Ordre dinàmic dels paquets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InstalledStickersDynamicPackOrderInfo",
+      "value": "Els paquets d'adhesius utilitzats recentment es mostraran per sobre dels més antics."
     },
     {
       "_": "types.LangPackString",
@@ -8130,6 +9048,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "January",
+      "value": "Gener"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JoinGroup",
       "value": "AFEGEIX-M'HI"
     },
@@ -8171,13 +9094,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "JoinedViaFolder",
+      "value": "s'hi ha unit amb un enllaç d'invitació a una carpeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "July",
+      "value": "Juliol"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JumpToDate",
       "value": "Vés a la data"
     },
     {
       "_": "types.LangPackString",
+      "key": "June",
+      "value": "Juny"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JustNowAgo",
       "value": "ara mateix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KickFromSupergroup",
+      "value": "Restringeix l'usuari"
     },
     {
       "_": "types.LangPackString",
@@ -8188,6 +9131,16 @@
       "_": "types.LangPackString",
       "key": "Language",
       "value": "Llengua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageNotFound",
+      "value": "Aquest paquet de llengua no existeix."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LanguageTitle",
+      "value": "Voleu canviar la llengua?"
     },
     {
       "_": "types.LangPackString",
@@ -8248,6 +9201,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LaunchExeDontAsk",
+      "value": "No m'ho tornis a demanar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LaunchSvgWarning",
+      "value": "Obrir el fitxer podria permetre al creador veure la vostra IP. Voleu continuar?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LearnMore",
+      "value": "Més informació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LearnMoreArrow",
+      "value": "Més informació >"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LeaveAComment",
       "value": "Deixa un comentari"
     },
@@ -8270,11 +9243,6 @@
       "_": "types.LangPackString",
       "key": "LeaveGroupDescription",
       "value": "Si hi sortiu, **{nextOwner}** esdevindrà el nou propietari del **{group}** en 1 setmana."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "LeaveGroupJoinedDate",
-      "value": "s'hi va unir el dia {date}"
     },
     {
       "_": "types.LangPackString",
@@ -8458,6 +9426,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LinkForBoosting",
+      "value": "Enllaç per a impulsar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LinkLimitReached",
       "value": "Límit assolit"
     },
@@ -8506,6 +9479,11 @@
       "_": "types.LangPackString",
       "key": "Loading",
       "value": "S'està carregant..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalizationInterfaceLanguage",
+      "value": "Llengua de la interfície"
     },
     {
       "_": "types.LangPackString",
@@ -8599,18 +9577,28 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "LoopAnimatedStickers",
-      "value": "Repeteix els adhesius animats"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ManageLinksInfoHelp",
       "value": "Podeu crear enllaços addicionals amb límit de temps o de nombre d'usuaris."
     },
     {
       "_": "types.LangPackString",
-      "key": "ManagementRemoveAdminConfirm",
-      "value": "Segur que voleu demetre l'administrador?"
+      "key": "Map",
+      "value": "Mapa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "March",
+      "value": "Març"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MaximumReactionsHeader",
+      "value": "Nombre de reaccions màxim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "May",
+      "value": "Maig"
     },
     {
       "_": "types.LangPackString",
@@ -8626,6 +9614,11 @@
       "_": "types.LangPackString",
       "key": "MediaFileEmpty",
       "value": "Encara no hi ha cap fitxer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaGifEmpty",
+      "value": "Encara no hi ha cap GIF"
     },
     {
       "_": "types.LangPackString",
@@ -8699,8 +9692,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaviewChannelPhoto",
+      "value": "Foto del canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewGroupPhoto",
+      "value": "Foto del grup"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaviewProfilePhoto",
       "value": "Foto de perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePhotoByYou",
+      "value": "Foto personalitzada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaviewProfilePublicPhoto",
+      "value": "Foto pública"
     },
     {
       "_": "types.LangPackString",
@@ -8741,16 +9754,6 @@
       "_": "types.LangPackString",
       "key": "MemberRequestsRequestToJoinChannel",
       "value": "Sol·licita accés al canal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionChannel",
-      "value": "Aquest canal accepta subscriptors nous només després que l'administració ho aprovi."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionGroup",
-      "value": "Aquest grup accepta membres nous només després que l'administració ho aprovi."
     },
     {
       "_": "types.LangPackString",
@@ -8801,11 +9804,6 @@
       "_": "types.LangPackString",
       "key": "MenuCopyDate",
       "value": "Copia la data"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MenuGram",
-      "value": "Els meus Grams"
     },
     {
       "_": "types.LangPackString",
@@ -8934,16 +9932,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsDoneMultiple",
-      "value": "{peer} ha marcat {tasks} com a feta"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsDoneMultipleYou",
-      "value": "Heu marcat {tasks} com a feta"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "MessageActionTodoCompletionsAsDoneYou",
       "value": "Heu marcat «{task}» com a feta"
     },
@@ -8951,16 +9939,6 @@
       "_": "types.LangPackString",
       "key": "MessageActionTodoCompletionsAsNotDone",
       "value": "{peer} ha marcat «{task}» com a no feta"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsNotDoneMultiple",
-      "value": "{peer} ha marcat {tasks} com a no feta"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsNotDoneMultipleYou",
-      "value": "Heu marcat {tasks} com a no feta"
     },
     {
       "_": "types.LangPackString",
@@ -8997,6 +9975,16 @@
       "_": "types.LangPackString",
       "key": "MessageMetaImported",
       "value": "Importat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageNotFound",
+      "value": "El missatge no existeix."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagePremiumUnlock",
+      "value": "Aconseguiu el Premium"
     },
     {
       "_": "types.LangPackString",
@@ -9152,20 +10140,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessagesPrivacyPremiumAbout",
+      "value": "Subscriviu-vos per a canviar aquest paràmetre i accedir a altres funcions exclusives del Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppUnavailableError",
       "value": "La miniaplicació no està disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerButton",
+      "value": "Accepto les {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerLink",
+      "value": "Condicions d'ús"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerText",
+      "value": "Esteu a punt d'usar una miniaplicació operada per un tercer independent **no afiliat amb Telegram**. Cal que accepteu les seves Condicions d'ús per a continuar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppsDisclaimerTitle",
+      "value": "Atenció"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "Minutes",
       "one_value": "{count} minut",
       "other_value": "{count} minuts"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "MinutesAgo",
-      "one_value": "fa {count} minut",
-      "other_value": "fa {count} minuts"
     },
     {
       "_": "types.LangPackString",
@@ -9186,6 +10193,16 @@
       "_": "types.LangPackString",
       "key": "MonetizationInfoGramTitle",
       "value": "Què és 💎 Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfo",
+      "value": "Podeu invertir els Grams del saldo total en anuncis o retirar-los 3 dies després de guanyar-los. No podeu retirar menys de 10 Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MonetizationProceedsTONInfoLink",
+      "value": "https://telegram.org/tos/content-creator-rewards"
     },
     {
       "_": "types.LangPackString",
@@ -9269,10 +10286,25 @@
       "other_value": "{count} mesos"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MoreSimilar",
+      "value": "Més canals"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "MoreSimilarBotsDescription",
       "one_value": "Subscriviu-vos al **Telegram Premium** per a desblocar fins a {count} bot similar.",
       "other_value": "Subscriviu-vos al **Telegram Premium** per a desblocar fins a {count} bots similars."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MuteForForever",
+      "value": "Silencia per sempre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MyNotes",
+      "value": "Les meves notes"
     },
     {
       "_": "types.LangPackString",
@@ -9397,8 +10429,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewTopic",
+      "value": "Creació d'un tema"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Next",
       "value": "Següent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFiles",
+      "value": "No hi ha fitxers d'àudio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFilesInfo",
+      "value": "La vostra discoteca està buida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFound",
+      "value": "No s'han trobat resultats"
     },
     {
       "_": "types.LangPackString",
@@ -9414,6 +10466,21 @@
       "_": "types.LangPackString",
       "key": "NoBlockedGroup2",
       "value": "Els usuaris expulsats per l'administració no s'hi poden tornar a unir amb enllaços d'invitació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoBoostersGroupHint",
+      "value": "Actualment cap usuari impulsa el grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoBoostersHint",
+      "value": "Ningú no impulsa el canal actualment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoComments",
+      "value": "Encara no hi ha cap comentari..."
     },
     {
       "_": "types.LangPackString",
@@ -9527,6 +10594,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoReactions",
+      "value": "Cap reacció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoReplies",
+      "value": "Encara no hi ha cap resposta..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSavingDescription",
       "value": "Desactiva copiar el text i desar fotos o vídeos."
     },
@@ -9562,6 +10639,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoViews",
+      "value": "Cap vista"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoVoiceMessagesAllowed",
       "value": "**{user}** no accepta missatges de veu."
     },
@@ -9572,8 +10654,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Nothing",
-      "value": "Res"
+      "key": "NobodyViewed",
+      "value": "Vist per: ningú"
     },
     {
       "_": "types.LangPackString",
@@ -9673,8 +10755,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "November",
+      "value": "Novembre"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "OK",
       "value": "D'acord"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "October",
+      "value": "Octubre"
     },
     {
       "_": "types.LangPackString",
@@ -9696,6 +10788,11 @@
       "_": "types.LangPackString",
       "key": "OnlyAcceptGramDescription",
       "value": "A diferència de les estrelles, si el comprador us paga amb Grams no hi ha risc de reemborsaments."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OnlyAllowThisReactions",
+      "value": "Permet només aquestes reaccions"
     },
     {
       "_": "types.LangPackString",
@@ -9731,6 +10828,11 @@
       "_": "types.LangPackString",
       "key": "OptionHint",
       "value": "Opció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OptionPremiumRequiredMessage",
+      "value": "Subscriviu-vos al **Telegram Premium** per a seleccionar aquesta opció."
     },
     {
       "_": "types.LangPackString",
@@ -10022,11 +11124,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PaymentCheckoutAcceptRecurrent",
-      "value": "Accepto les *Condicions del servei* del {bot}."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PaymentCheckoutMethod",
       "value": "Mètode de pagament"
     },
@@ -10199,13 +11296,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Permanent",
-      "value": "Enllaç principal"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PersonalChannelAdd",
-      "value": "Afegeix"
+      "key": "PermissionNoLocationPosition",
+      "value": "El Telegram necessita accedir a la ubicació."
     },
     {
       "_": "types.LangPackString",
@@ -10216,11 +11308,6 @@
       "_": "types.LangPackString",
       "key": "PersonalChannelDescription",
       "value": "Mostra el canal que gestioneu al perfil."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PersonalChannelLabel",
-      "value": "Canal"
     },
     {
       "_": "types.LangPackString",
@@ -10246,6 +11333,11 @@
       "_": "types.LangPackString",
       "key": "Phone",
       "value": "Telèfon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PhoneCopied",
+      "value": "S'ha copiat el telèfon al porta-retalls"
     },
     {
       "_": "types.LangPackString",
@@ -10311,8 +11403,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PlayOnceVideoMessageTooltip",
-      "value": "Aquest missatge de vídeo només es pot reproduir una vegada."
+      "key": "PlayMarket",
+      "value": "Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -10363,6 +11455,11 @@
       "_": "types.LangPackString",
       "key": "PleaseWait",
       "value": "Espereu..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PmReadShowWhen",
+      "value": "mostra quan"
     },
     {
       "_": "types.LangPackString",
@@ -10647,8 +11744,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PopularReactions",
+      "value": "Populars"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PostsSearchTransaction",
       "value": "Cerca de publicacions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumEmojiStatusTitle",
+      "value": "\n{user} ha establert aquest emoji de: {link} com a estat actual."
     },
     {
       "_": "types.LangPackString",
@@ -10659,6 +11766,26 @@
       "_": "types.LangPackString",
       "key": "PremiumGiftHeader",
       "value": "Regal prèmium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenButton1",
+      "value": "Mostra la meva última connexió"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenButton2",
+      "value": "Subscriu-me al Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenHeader1",
+      "value": "Mostreu la vostra última connexió"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumLastSeenSet",
+      "value": "La vostra última connexió ara és visible."
     },
     {
       "_": "types.LangPackString",
@@ -10677,8 +11804,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumMessageEffects",
+      "value": "Efectes als missatges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumMessageEffectsInfo",
+      "value": "Afegiu vora 500 efectes animats als missatges privats."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumMore",
       "value": "Més"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumNeededForBoosting",
+      "value": "Només els subscriptors del **Telegram Premium** poden impulsar canals. Us voleu subscriure al **Telegram Premium**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumOr",
+      "value": "o bé"
     },
     {
       "_": "types.LangPackString",
@@ -10722,6 +11869,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewEmoji",
+      "value": "Emojis animats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewEmojiStatus",
+      "value": "Estats d'emojis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewLastSeen",
+      "value": "Temps d'última visualització"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewLastSeenDescription",
+      "value": "Mireu l'última connexió i el temps de lectura dels altres, fins i tot si amagueu els vostres."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewLimits",
       "value": "Límits duplicats"
     },
@@ -10729,6 +11896,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewLimitsDescription",
       "value": "Fins a {limit1} canals, {limit2} carpetes, {limit3} fixats, {limit4} enllaços públics, {limit5} comptes i més."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewMessagePrivacy",
+      "value": "Privadesa dels missatges"
     },
     {
       "_": "types.LangPackString",
@@ -10762,8 +11934,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumPreviewReactions",
-      "value": "Reaccions úniques"
+      "key": "PremiumPreviewReactions2",
+      "value": "Reaccions infinites"
     },
     {
       "_": "types.LangPackString",
@@ -10792,6 +11964,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumPreviewStoriesDescription",
+      "value": "Publicacions il·limitades, ordre prioritari, mode d'incògnit, historial de vistes permanent i molt més."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTags",
+      "value": "Etiquetes per als missatges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTags2",
+      "value": "Etiquetes a Missatges desats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTagsDescription2",
+      "value": "Organitzeu els Missatges desats amb etiquetes per a un accés més ràpid."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumPreviewTodo",
       "value": "Llistes de comprovació"
     },
@@ -10799,6 +11991,11 @@
       "_": "types.LangPackString",
       "key": "PremiumPreviewTodoDescription",
       "value": "Planifiqueu, assigneu i completeu tasques de manera fluida i eficient."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewTranslations",
+      "value": "Traducció en temps real"
     },
     {
       "_": "types.LangPackString",
@@ -10822,13 +12019,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PremiumReadButton1",
+      "value": "Mostra el meu temps de lectura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadHeader1",
+      "value": "Mostreu la data de lectura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadHeader2",
+      "value": "Milloreu fent-vos Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumReadSet",
+      "value": "El vostre temps de lectura ara és visible."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PremiumStickerTooltip",
       "value": "El paquet conté adhesius prèmium com aquest."
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumStickers",
-      "value": "Adhesius prèmium"
+      "key": "PremiumStoriesAboutMobile",
+      "value": "* Disponible en publicar històries des del Telegram per a iOS i Android."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesCaptionDescription",
+      "value": "Afegiu llegendes deu vegades més llargues: fins a 2048 caràcters."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesFormattingDescription",
+      "value": "Afegiu enllaços i format a les llegendes de les històries."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesPriority",
+      "value": "Ordre prioritari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesPriorityDescription",
+      "value": "Obteniu més vistes: les vostres històries sempre es mostren primer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGallery",
+      "value": "Deseu les històries a la galeria"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSaveToGalleryDescription",
+      "value": "Deseu les històries no protegides d'altres persones."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleCaption",
+      "value": "Llegendes més llargues*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleExpiration",
+      "value": "Opcions de caducitat*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesSubtitleLinks",
+      "value": "Enllaços i format*"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumStoriesViewsDescription",
+      "value": "Mireu qui obre les vostres històries, fins i tot després de caducar."
     },
     {
       "_": "types.LangPackString",
@@ -10842,6 +12109,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PreviewDeletePhoto",
+      "value": "Elimina la foto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PreviewEditMessage",
       "value": "Edició del missatge"
     },
@@ -10850,35 +12122,6 @@
       "key": "PreviewForwardedMessage",
       "one_value": "{count} missatge a reenviar",
       "other_value": "{count} missatges a reenviar"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendAudio",
-      "one_value": "Envia l'àudio",
-      "other_value": "Envia {count} àudios"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendFile",
-      "one_value": "Envia el fitxer",
-      "other_value": "Envia {count} fitxers"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendPhoto",
-      "one_value": "Envia la foto",
-      "other_value": "Envia {count} fotos"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendVideo",
-      "one_value": "Envia el vídeo",
-      "other_value": "Envia {count} videos"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PreviewWebPageClose",
-      "value": "Esborra la vista prèvia"
     },
     {
       "_": "types.LangPackString",
@@ -10912,11 +12155,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Privacy",
-      "value": "Configuració de privadesa"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PrivacyAcceptedGiftInfo",
       "value": "Trieu els tipus de regals que admeteu rebre."
     },
@@ -10924,6 +12162,21 @@
       "_": "types.LangPackString",
       "key": "PrivacyAcceptedGiftTitle",
       "value": "Tipus de regals admesos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBio",
+      "value": "Biografia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBioTitle",
+      "value": "Qui pot veure la meva biografia?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyBirthdayTitle",
+      "value": "Qui pot veure la meva data de naixement?"
     },
     {
       "_": "types.LangPackString",
@@ -10942,26 +12195,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PrivacyDisableLimitedEditionStarGifts",
-      "value": "Desactiva els regals d'edició limitada"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisablePremiumGifts",
-      "value": "Desactiva els regals prèmium"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisableUniqueStarGifts",
-      "value": "Desactiva els regals únics"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisableUnlimitedStarGifts",
-      "value": "Desactiva els regals il·limitats"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PrivacyDisplayGift",
       "value": "Regal"
     },
@@ -10974,26 +12207,6 @@
       "_": "types.LangPackString",
       "key": "PrivacyDisplayGiftsButton",
       "value": "Mostra la icona del regal als xats"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableLimitedEditionStarGifts",
-      "value": "Activa els regals d'edició limitada"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnablePremiumGifts",
-      "value": "Activa els regals prèmium"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableUniqueStarGifts",
-      "value": "Activa els regals únics"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableUnlimitedStarGifts",
-      "value": "Activa els regals il·limitats"
     },
     {
       "_": "types.LangPackString",
@@ -11052,6 +12265,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremium",
+      "value": "Subscriu-me al Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumForPremium",
+      "value": "Subscrit al Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumInfo",
+      "value": "Si us subscriviu al Premium, podreu veure l'última connexió i el temps de lectura dels altres, encara que amagueu els vostres (excepte si ho han restringit explícitament)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyLastSeenPremiumInfoForPremium",
+      "value": "Per ser subscriptor del Telegram Premium, veureu l'última connexió i el temps de lectura de tots els usuaris que ho comparteixen, fins i tot si amagueu els vostres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessages",
+      "value": "Missatges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessagesContactsAndPremium",
+      "value": "Els contactes i usuaris Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMessagesTitle",
+      "value": "Qui pot enviar-me missatges?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyMusic",
       "value": "Música desada"
     },
@@ -11082,8 +12330,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyPhoneInfo",
+      "value": "Els usuaris que tinguin el vostre número als contactes també el veuran al Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPhoneInfo3",
+      "value": "Els usuaris només veuran el vostre número al Telegram si també teniu el seu als vostres contactes."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyPhoneTitle",
       "value": "Qui pot veure el meu número?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPhoneTitle2",
+      "value": "Qui em pot trobar pel meu número?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPremium",
+      "value": "Usuaris prèmium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyPremiumText",
+      "value": "tots els subscriptors del Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -11092,8 +12365,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoRemovePublicPhoto",
+      "value": "Elimina la foto pública"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoRemovePublicVideo",
+      "value": "Elimina la foto pública"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoSetPublicPhoto",
+      "value": "Estableix una foto pública"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyProfilePhotoTitle",
       "value": "Qui pot veure les meves fotos de perfil?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyProfilePhotoUpdatePublicPhoto",
+      "value": "Actualitza la foto pública"
     },
     {
       "_": "types.LangPackString",
@@ -11122,8 +12415,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyUserTypes",
+      "value": "Tipus d'usuaris"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyValueBots",
       "value": "Miniaplicacions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessages",
+      "value": "Missatges de veu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesInfo",
+      "value": "Podeu restringir qui pot enviar-vos missatges de veu o vídeo amb precisió total."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyVoiceMessagesTitle",
+      "value": "Qui pot enviar-me missatges de veu o vídeo?"
     },
     {
       "_": "types.LangPackString",
@@ -11136,10 +12449,9 @@
       "value": "Xats privats"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "PrizeCredits2",
-      "one_value": "El premi és {count} estrella.",
-      "other_value": "El premi són {count} estrelles."
+      "_": "types.LangPackString",
+      "key": "PrizesResultsWinners",
+      "value": "Guanyadors"
     },
     {
       "_": "types.LangPackString",
@@ -11185,6 +12497,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileChannel",
+      "value": "Canal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileCopyPhone",
       "value": "Copia el número de telèfon"
     },
@@ -11220,8 +12537,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfilePlaylistEmpty",
-      "value": "Encara no s'ha afegit música"
+      "key": "ProfilePhotoSetMainPhoto",
+      "value": "Fes-la foto principal"
     },
     {
       "_": "types.LangPackString",
@@ -11270,11 +12587,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfileTabPlaylist",
-      "value": "Llista de reproducció"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ProfileTabPolls",
       "value": "Enquestes"
     },
@@ -11315,11 +12627,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ProfileTabSubscribers",
-      "value": "Subscriptors"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ProfileTabVoice",
       "value": "Veu"
     },
@@ -11327,6 +12634,11 @@
       "_": "types.LangPackString",
       "key": "ProfileViewChannel",
       "value": "Mostra el canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PromoteUrl",
+      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -11480,11 +12792,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RankOwnerTag",
-      "value": "Etiqueta de propietari"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RatingBadgeAdded",
       "value": "Hi sumen"
     },
@@ -11561,13 +12868,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Recent",
-      "value": "Recent"
+      "key": "ReactionsAll",
+      "value": "Totes"
     },
     {
       "_": "types.LangPackString",
-      "key": "RecentChatsClear",
-      "value": "Esborra els xats recents"
+      "key": "ReactionsOff",
+      "value": "Desactivades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Recent",
+      "value": "Recent"
     },
     {
       "_": "types.LangPackString",
@@ -11578,6 +12890,11 @@
       "_": "types.LangPackString",
       "key": "RecoveryEmailCode",
       "value": "Codi de recuperació de l'adreça"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RecoveryEmailSubtitle",
+      "value": "Establiu una adreça de recuperació per a poder restaurar la contrasenya i recuperar l'accés al compte de Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -11622,6 +12939,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveFromPosts",
+      "value": "Elimina de les publicacions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveGiftDescriptionButton",
       "value": "Elimina per {amount}"
     },
@@ -11647,6 +12969,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveQuote",
+      "value": "Elimina la cita"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveRichFormatting",
       "value": "Elimina el format"
     },
@@ -11664,6 +12991,11 @@
       "_": "types.LangPackString",
       "key": "RemoveSymbol",
       "value": "Elimina l'emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Replace",
+      "value": "Substitueix"
     },
     {
       "_": "types.LangPackString",
@@ -11708,13 +13040,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyPrivate",
+      "value": "La resposta prové d'un xat privat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyPrivately",
+      "value": "Responeu per privat…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyToAnotherChat",
+      "value": "Respon en un altre xat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyToGroupStory",
+      "value": "Comenteu la història…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2Comment",
+      "value": "Afegiu un comentari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report2CommentOptional",
+      "value": "Afegiu un comentari (opcional)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportAd",
+      "value": "Denuncia l'anunci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportAdHelpURL",
+      "value": "https://ads.telegram.org/guidelines"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportButton",
       "value": "Denuncia"
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportChat",
-      "value": "Denuncia {peer}"
+      "key": "ReportChatIllegalDrugs",
+      "value": "Drogues il·legals"
     },
     {
       "_": "types.LangPackString",
@@ -11723,8 +13095,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportMessageTitle",
-      "value": "Informa del missatge"
+      "key": "ReportChatPersonalDetails",
+      "value": "Informació personal"
     },
     {
       "_": "types.LangPackString",
@@ -11740,6 +13112,11 @@
       "_": "types.LangPackString",
       "key": "ReportPeerReport",
       "value": "Denuncia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportPleaseSelectMessages",
+      "value": "Seleccioneu els missatges a denunciar."
     },
     {
       "_": "types.LangPackString",
@@ -11778,8 +13155,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReportSend",
+      "value": "Denuncia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReportSpamAndLeave",
       "value": "Denuncia brossa i surt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSpamTitle",
+      "value": "Denuncia brossa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSponsoredReportedLearn",
+      "value": "Llegiu més informació sobre les {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportSponsoredReportedLink",
+      "value": "Polítiques i Directrius dels anuncis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportStory",
+      "value": "Denuncia la història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerRequirements",
+      "value": "Requisits"
     },
     {
       "_": "types.LangPackString",
@@ -11813,7 +13220,7 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ResetCrop",
+      "key": "Reset",
       "value": "Restableix"
     },
     {
@@ -11830,6 +13237,36 @@
       "_": "types.LangPackString",
       "key": "Retry",
       "value": "Reintenta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsAlertSubtitle",
+      "value": "Els anuncis del Telegram són molt diferents dels d'altres plataformes. Anuncis així:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo1Title",
+      "value": "Respecten la vostra privacitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo2Subtitle",
+      "value": "El 50 % dels ingressos pels anuncis del Telegram es destina al propietari del canal on es mostren."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo2Title",
+      "value": "Donen suport al creador del canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo3Title",
+      "value": "Es poden eliminar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RevenueSharingAdsInfo4Title",
+      "value": "Puc llançar un anunci?"
     },
     {
       "_": "types.LangPackString",
@@ -11888,6 +13325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichButtonInline",
+      "value": "Botó integrat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichButtonLeft",
       "value": "Esquerra"
     },
@@ -11895,11 +13337,6 @@
       "_": "types.LangPackString",
       "key": "RichButtonPrimary",
       "value": "Blau"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "RichButtonRemove",
-      "value": "Elimina el botó"
     },
     {
       "_": "types.LangPackString",
@@ -11999,7 +13436,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorFormulaToInline",
-      "value": "Converteix a equació en línia"
+      "value": "Converteix a equació integrada"
     },
     {
       "_": "types.LangPackString",
@@ -12068,11 +13505,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RichEditorParagraph",
-      "value": "Paràgraf"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RichEditorPullquote",
       "value": "Cita destacada"
     },
@@ -12085,11 +13517,6 @@
       "_": "types.LangPackString",
       "key": "RichEditorQuoteCaptionPlaceholder",
       "value": "Afegiu l'autor"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "RichEditorSubheading",
-      "value": "Subtítol"
     },
     {
       "_": "types.LangPackString",
@@ -12147,11 +13574,6 @@
       "value": "Compacta"
     },
     {
-      "_": "types.LangPackString",
-      "key": "RichEditorTableDelete",
-      "value": "Elimina"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "RichEditorTableDeleteColumn",
       "one_value": "Elimina la columna",
@@ -12200,11 +13622,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RichEditorTableMenu",
-      "value": "Taula"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RichEditorTableMergeCells",
       "value": "Combina les cel·les"
     },
@@ -12216,7 +13633,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorTableMoveDown",
-      "value": "Mou a baix"
+      "value": "Mou avall"
     },
     {
       "_": "types.LangPackString",
@@ -12231,7 +13648,7 @@
     {
       "_": "types.LangPackString",
       "key": "RichEditorTableMoveUp",
-      "value": "Mou a sobre"
+      "value": "Mou amunt"
     },
     {
       "_": "types.LangPackString",
@@ -12290,11 +13707,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RichTextEditor",
-      "value": "Editor de text enriquit"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RichTextMapPreview",
       "value": "[mapa]"
     },
@@ -12325,6 +13737,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SaveToPosts",
+      "value": "Publica al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Saved",
+      "value": "Desat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedGifsLimitSubtitle",
       "value": "Deseu fins a {count} GIF als preferits"
     },
@@ -12352,6 +13774,36 @@
       "_": "types.LangPackString",
       "key": "SavedOpenChat",
       "value": "Obre el xat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagFilterByTag",
+      "value": "Filtra per etiqueta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagLabelTag",
+      "value": "Nom de l'etiqueta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagLabelTagText",
+      "value": "Podeu afegir un text a l'etiqueta emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagReactionsHint2",
+      "value": "Etiqueteu-lo amb un emoji per a trobar-lo més ràpid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagRemoveTag",
+      "value": "Elimina l'etiqueta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedTagRenameTag",
+      "value": "Edita el nom"
     },
     {
       "_": "types.LangPackString",
@@ -12427,13 +13879,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchAllMessagesTab",
-      "value": "Tots els missatges"
+      "key": "SearchApps",
+      "value": "Cerca aplicacions"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchApps",
-      "value": "Cerca aplicacions"
+      "key": "SearchAppsMine",
+      "value": "Aplicacions que useu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchAsChat",
+      "value": "Mostra-ho com a xat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchAsList",
+      "value": "Mostra com a llista"
     },
     {
       "_": "types.LangPackString",
@@ -12447,8 +13909,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchFilesTab",
-      "value": "Fitxers"
+      "key": "SearchEmptyViewTitle",
+      "value": "Cap resultat"
     },
     {
       "_": "types.LangPackString",
@@ -12462,28 +13924,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGifsTab",
-      "value": "GIF"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SearchGifsTitle",
       "value": "Cerqueu GIF"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGroupsTab",
-      "value": "Grups"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchLinksTab",
-      "value": "Enllaços"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchMediaTab",
-      "value": "Fotos"
+      "key": "SearchHashtagsHint",
+      "value": "Cerqueu etiquetes"
     },
     {
       "_": "types.LangPackString",
@@ -12491,20 +13938,14 @@
       "value": "Missatges"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "SearchMessagesFound",
-      "one_value": "S'ha trobat 1 missatge",
-      "other_value": "S'han trobat {count} missatges"
+      "_": "types.LangPackString",
+      "key": "SearchMusic",
+      "value": "Cerqueu música"
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchMusicTab",
-      "value": "Música"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchNoResults",
-      "value": "No s'ha trobat cap missatge"
+      "key": "SearchMyMessages",
+      "value": "Els meus xats"
     },
     {
       "_": "types.LangPackString",
@@ -12525,11 +13966,6 @@
       "_": "types.LangPackString",
       "key": "SearchStickers",
       "value": "Cerqueu adhesius"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchStickersHint",
-      "value": "Cerca paquets d'adhesius"
     },
     {
       "_": "types.LangPackString",
@@ -12583,19 +14019,14 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchVoiceTab",
-      "value": "Veu"
+      "key": "SearchThisChat",
+      "value": "Aquest xat"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "Seconds",
       "one_value": "{count} segon",
       "other_value": "{count} segons"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SecretChat",
-      "value": "Xat secret"
     },
     {
       "_": "types.LangPackString",
@@ -12646,6 +14077,11 @@
       "_": "types.LangPackString",
       "key": "SelectChats",
       "value": "Seleccioneu xats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelectSendAsPeerPremiumHint",
+      "value": "Subscriviu-vos al **Telegram Premium** per a poder comentar en nom dels vostres canals en qualsevol grup."
     },
     {
       "_": "types.LangPackString",
@@ -12711,6 +14147,11 @@
       "_": "types.LangPackString",
       "key": "SendActionUploadVideo",
       "value": "està enviant un vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SendAnotherGift",
+      "value": "Envia'n un altre"
     },
     {
       "_": "types.LangPackString",
@@ -12806,6 +14247,11 @@
       "_": "types.LangPackString",
       "key": "SentGift",
       "value": "Regal enviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "September",
+      "value": "Setembre"
     },
     {
       "_": "types.LangPackString",
@@ -12994,16 +14440,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsDisableNightTheme",
-      "value": "Desactiva el mode nocturn"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsEnableNightTheme",
-      "value": "Activa el mode nocturn"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SettingsExperimental",
       "value": "Opcions experimentals"
     },
@@ -13064,6 +14500,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsMyStories",
+      "value": "Les meves històries"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsNotificationsDesc",
       "value": "Sons, trucades, indicadors"
     },
@@ -13071,11 +14512,6 @@
       "_": "types.LangPackString",
       "key": "SettingsOfflineNotificationUnsupported",
       "value": "No compatible"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsPasscodeEnabled",
-      "value": "El codi d'accés és actiu"
     },
     {
       "_": "types.LangPackString",
@@ -13191,11 +14627,6 @@
       "_": "types.LangPackString",
       "key": "SettingsPerformanceMediaViewer",
       "value": "Animacions al visor multimèdia"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsPerformanceMessageBlur",
-      "value": "Difuminat del missatge"
     },
     {
       "_": "types.LangPackString",
@@ -13344,18 +14775,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTipsUsername",
-      "value": "TelegramTips"
+      "key": "SettingsTitleChatName",
+      "value": "Mostra el nom del xat"
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTray",
-      "value": "Mostra la icona en la barra de menú"
+      "key": "SettingsWindowSystem",
+      "value": "Barra de títol de la finestra"
     },
     {
       "_": "types.LangPackString",
       "key": "Share",
       "value": "Comparteix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareLinkCopied",
+      "value": "S'ha copiat al porta-retalls"
     },
     {
       "_": "types.LangPackString",
@@ -13398,6 +14834,11 @@
       "value": "Mostra els noms de les carpetes a cada xat de la llista de xats."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ShowMore",
+      "value": "Mostra'n més"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ShowMoreChats",
       "one_value": "Mostra 1 xat més",
@@ -13411,6 +14852,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShowOriginalButton",
+      "value": "Mostra l'original"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShowSenderNames",
       "value": "Mostra els remitents"
     },
@@ -13418,6 +14864,16 @@
       "_": "types.LangPackString",
       "key": "ShowSendersName",
       "value": "Mostra el remitent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShowTranslateButton",
+      "value": "Mostra el botó «Tradueix»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SimilarChannelsLimitTitle",
+      "value": "Canals similars"
     },
     {
       "_": "types.LangPackString",
@@ -13441,8 +14897,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SomeReactions",
+      "value": "Algunes reaccions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SomethingWentWrong",
       "value": "Alguna cosa ha anat malament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortBy",
+      "value": "Ordena per"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByReactions",
+      "value": "Les reaccions primer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SortByTime",
+      "value": "Les noves primer"
     },
     {
       "_": "types.LangPackString",
@@ -13456,6 +14932,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Spoiler",
+      "value": "Espòiler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SponsoredMessage",
+      "value": "anunci"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageAd",
       "value": "Anunci"
     },
@@ -13463,11 +14949,6 @@
       "_": "types.LangPackString",
       "key": "SponsoredMessageAdWhatIsThis",
       "value": "què és això?"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SponsoredMessageAlertLearnMoreUrl",
-      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -13493,6 +14974,11 @@
       "_": "types.LangPackString",
       "key": "SponsoredMessageInfoDescription4",
       "value": "Els missatges patrocinats estan en proves. Una vegada s'hagin llançat del tot i permetin que Telegram cobreixi els seus costos bàsics, començarem a compartir els ingressos publicitaris amb els propietaris dels canals públics en els quals es mostren els missatges patrocinats.\n\nEls anuncis no haurien de ser sinònim d'abús de la privadesa dels usuaris. Redefinim com hauria d'operar una empresa tecnològica: fem-ho junts."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SponsoredMessageSponsor",
+      "value": "Quant a l'anunciant"
     },
     {
       "_": "types.LangPackString",
@@ -13596,8 +15082,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGiftReason",
+      "value": "Motiu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGiftReasonDropOriginalDetails",
       "value": "S'ha eliminat la descripció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftReasonUpgrade",
+      "value": "S'ha millorat el regal"
     },
     {
       "_": "types.LangPackString",
@@ -13613,6 +15109,41 @@
       "_": "types.LangPackString",
       "key": "StarGiftUpgradeCostModalTitle",
       "value": "Cost de la millora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListBuyMoreStars",
+      "value": "Compra més estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarListGetStars",
+      "value": "Obteniu estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarMediaPurchase",
+      "value": "Compra de contingut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarMySubscriptions",
+      "value": "Les meves subscripcions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarSubscriptionPurchase",
+      "value": "Tarifa de subscripció mensual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarTransactionFrom",
+      "value": "De:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsAcquired",
+      "value": "Heu adquirit estrelles"
     },
     {
       "_": "types.LangPackString",
@@ -13637,6 +15168,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsConfirmPurchaseTitle",
+      "value": "Confirmeu la compra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsFailed",
+      "value": "Ha fallat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsGiftBought",
       "value": "Heu comprat un regal"
     },
@@ -13657,8 +15198,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsGiftReceived",
+      "value": "Regal rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsGiftReceivedTitle",
+      "value": "Regal rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsGiveawayPrizeReceived",
+      "value": "Premi rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionAppleTopUpSubtitle",
+      "value": "via l'App Store"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionAppleTopUpTitle",
+      "value": "Recàrrega d'estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionFragmentTopUpSubtitle",
+      "value": "via Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionFragmentTopUpTitle",
+      "value": "Recàrrega d'estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGiftUnknownUser",
+      "value": "Usuari desconegut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGoogleTopUpSubtitle",
+      "value": "via Google Play"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionGoogleTopUpTitle",
+      "value": "Recàrrega d'estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionPremiumBotTopUpSubtitle",
+      "value": "via el Premium Bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionPremiumBotTopUpTitle",
+      "value": "Recàrrega d'estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramAdsSubtitle",
+      "value": "via Telegram Ads"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramAdsTitle",
+      "value": "Retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramBotApiSubtitle",
+      "value": "API dels bots"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionTelegramBotApiTitle",
+      "value": "Difusió de pagament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsIntroTransactionUnsupportedTitle",
+      "value": "No compatible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsNeededTextLink",
+      "value": "Compreu **estrelles** per a mantenir les subscripcions als canals."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsNeededTextSendPaidMessages",
       "value": "Compreu **estrelles* per a enviar missatges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsParticipantSubscriptionPerMonth",
+      "value": "al mes"
     },
     {
       "_": "types.LangPackString",
@@ -13667,8 +15303,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsPending",
+      "value": "Pendent"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsPerMonth",
       "value": "{amount}⭐️/mes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseGetStarsInfo",
+      "value": "Trieu quantes estrelles voleu comprar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsPurchaseShowMore",
+      "value": "Mostra més opcions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionAnonymous",
+      "value": "Anònim"
     },
     {
       "_": "types.LangPackString",
@@ -13682,8 +15338,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsReactionShowMeInTopSenders",
+      "value": "Mostra'm a la classificació"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsReactionTerms",
       "value": "En enviar estrelles, accepteu les {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTitle",
+      "value": "Reacció amb estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionTopSenders",
+      "value": "Classificació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsReactionsSent",
+      "value": "Reacció d'estrella"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSentTitle",
+      "value": "S'han enviat les estrelles"
     },
     {
       "_": "types.LangPackString",
@@ -13719,6 +15400,136 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscribeTitle",
+      "value": "Subscriviu-vos al canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionAgain",
+      "value": "Torna a subscriure'm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotCancelledText",
+      "value": "El bot ha cancel·lat la vostra subscripció."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionBotProduct",
+      "value": "Subscripció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancel",
+      "value": "Cancel·la la subscripció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCancelledText",
+      "value": "Heu cancel·lat la subscripció."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionChannel",
+      "value": "Subscripció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionCompleted",
+      "value": "Subscripció correcta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionExpiredInfo",
+      "value": "La subscripció va caducar el dia {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionRenew",
+      "value": "Renova la subscripció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionStatusCancelled",
+      "value": "cancel·lada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionTitle",
+      "value": "Subscripció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionUntilExpires",
+      "value": "Caduca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionUntilRenews",
+      "value": "Renovació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTopupLinkEnough",
+      "value": "Teniu prou estrelles ara mateix."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTopupLinkTopupAnyway",
+      "value": "Recarrega igualment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionAds",
+      "value": "Anuncis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionBot",
+      "value": "Bot de recàrrega d'estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionDate",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionGiftFrom",
+      "value": "Regal de"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionHidden",
+      "value": "Usuari ocult"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionId",
+      "value": "ID de la transacció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionReactionPost",
+      "value": "Publicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonMiniapp",
+      "value": "Miniaplicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonProgram",
+      "value": "Programa d'afiliació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionStarRefReasonTitle",
+      "value": "Motiu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionTOS",
       "value": "Llegiu les {link} de les estrelles."
     },
@@ -13734,6 +15545,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsTransactionTo",
+      "value": "Per a"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionUnsupportedTitle",
+      "value": "No compatible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsTransactionVia",
+      "value": "Via"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarsTransactionsAll",
       "value": "Totes"
     },
@@ -13746,6 +15572,11 @@
       "_": "types.LangPackString",
       "key": "StarsTransactionsOutgoing",
       "value": "Enviades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Start",
+      "value": "Inicia"
     },
     {
       "_": "types.LangPackString",
@@ -13771,6 +15602,21 @@
       "_": "types.LangPackString",
       "key": "Statistics",
       "value": "Estadístiques"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsBoostsToLevelUp",
+      "value": "Impulsos necessaris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsLevel",
+      "value": "Nivell"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatsBoostsPremiumSubscribers",
+      "value": "Subscriptors prèmium"
     },
     {
       "_": "types.LangPackString",
@@ -13854,6 +15700,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StatsStoryTitle",
+      "value": "Estadístiques de la història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StatusHiddenShow",
+      "value": "quan?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StealthModeButton",
       "value": "Activa el mode d'incògnit"
     },
@@ -13928,6 +15784,11 @@
       "value": "Mode d'incògnit"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StickerEffects",
+      "value": "Efectes dels adhesius"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StickerPackAddEmojiCount",
       "one_value": "Afegeix l'emoji",
@@ -13984,18 +15845,58 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "StickersInstall",
-      "value": "AFEGEIX"
+      "key": "StickersBotInfo",
+      "value": "Animem els artistes a afegir els seus propis paquets usant el bot @stickers."
     },
     {
       "_": "types.LangPackString",
-      "key": "StickersInstalled",
-      "value": "AFEGIT"
+      "key": "StickersListEmojiItem",
+      "value": "Emojis personalitzats"
     },
     {
       "_": "types.LangPackString",
       "key": "StickersRemoveFromFavorites",
       "value": "Elimina'l dels preferits"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryContextRemoveFromProfile",
+      "value": "Elimina del perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryExpiredSubtitle",
+      "value": "Aquesta història ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryHeaderEdited",
+      "value": "editada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryKeep",
+      "value": "Publica al meu perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListArchivedEmptyStateTitle",
+      "value": "Cap història arxivada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListItemActionPin",
+      "value": "Fixa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListItemActionUnpin",
+      "value": "Deixa de fixar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryListSavedEmptyStateTitle",
+      "value": "Cap història publicada"
     },
     {
       "_": "types.LangPackString",
@@ -14039,13 +15940,108 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryNotFound",
+      "value": "Aquesta història ja no està disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertEditTitle",
+      "value": "Configuració de privadesa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertExcludedContactsTitle",
+      "value": "Contactes exclosos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertSelectContactsTitle",
+      "value": "Seleccioneu contactes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyAlertSubtitleProfile",
+      "value": "Trieu qui pot veure la vostra història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyButtonSave",
+      "value": "Desa la configuració"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionCloseFriends",
+      "value": "Amics íntims"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionCloseFriendsDetail",
+      "value": "edita la llista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionContactsDetail",
+      "value": "exclou persones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionEveryone",
+      "value": "Tothom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionSelectedContacts",
+      "value": "Usuaris seleccionats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryPrivacyOptionSelectedContactsDetail",
+      "value": "edita la llista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryReactionsHint",
+      "value": "Envieu la reacció com a missatge privat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryRepliesLockedButton",
+      "value": "Desbloca"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryRibbonMyStory",
       "value": "Història"
     },
     {
       "_": "types.LangPackString",
+      "key": "StorySave",
+      "value": "Publica al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStatistics",
+      "value": "Estadístiques de la història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastRemovedFromProfileText",
+      "value": "S'ha eliminat del vostre perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryToastViewInChat",
+      "value": "Mostra al xat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryTooltipGifSent",
       "value": "S'ha enviat el regal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryTooltipMessageSent",
+      "value": "S'ha enviat el missatge."
     },
     {
       "_": "types.LangPackString",
@@ -14059,13 +16055,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryTooltipVideoHasNoSound",
+      "value": "El vídeo no té so"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryUnsupported",
       "value": "Aquesta història no és compatible amb el Telegram Web A. Proveu de veure-la en altra aplicació."
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryViewListEmptyTextSearch",
+      "value": "No s'ha trobat cap vista"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SubscribeRequests",
       "value": "Sol·licituds d'unió"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SubscribeTagAbout",
+      "value": "Organitzeu els missatges desats amb etiquetes. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SubscribeTagLink",
+      "value": "Més informació…"
     },
     {
       "_": "types.LangPackString",
@@ -14102,6 +16118,11 @@
       "_": "types.LangPackString",
       "key": "SubtitlePrivacyAddUsers",
       "value": "Afegeix usuaris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SuggestAnimatedEmoji",
+      "value": "Suggereix emojis animats"
     },
     {
       "_": "types.LangPackString",
@@ -14300,6 +16321,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SupportStatus",
+      "value": "assistència"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SureLogout",
       "value": "Segur que voleu tancar la sessió?"
     },
@@ -14322,11 +16348,6 @@
       "_": "types.LangPackString",
       "key": "Telegram",
       "value": "Telegram"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TelegramFeatures",
-      "value": "Funcions del Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -14370,6 +16391,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramPremiumUserGiftedPremiumDialogSubtitle",
+      "value": "Ara teniu accés a funcions extra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStars",
+      "value": "Estrelles del Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStarsGift",
+      "value": "Regaleu estrelles a les amistats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramStarsInfo",
+      "value": "Compreu estrelles per a desblocar contingut i serveis en miniaplicacions al Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TerminateAllSessions",
       "value": "Tanca les altres sessions"
     },
@@ -14398,16 +16439,6 @@
       "_": "types.LangPackString",
       "key": "TextSensitiveModal",
       "value": "Aquest contingut podria incloure contingut delicat apte només per a adults. Encara el voleu veure?"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TextShowLess",
-      "value": "menys"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TextShowMore",
-      "value": "més"
     },
     {
       "_": "types.LangPackString",
@@ -14551,16 +16582,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ToDoListErrorChooseTasks",
-      "value": "Introduïu com a mínim una tasca."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ToDoListErrorChooseTitle",
-      "value": "Introduïu un títol."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ToDoListTasksLimitReached",
       "value": "Heu afegit el nombre màxim de tasques."
     },
@@ -14576,6 +16597,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TopicClosedByAdmin",
+      "value": "El tema està tancat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Transfer",
       "value": "Transfereix"
     },
@@ -14588,6 +16614,11 @@
       "_": "types.LangPackString",
       "key": "TranslateMenuCocoonLinkText",
       "value": "Com funciona?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateSettingsAbout",
+      "value": "El botó «Tradueix» apareixerà al menú contextual dels missatges de text."
     },
     {
       "_": "types.LangPackString",
@@ -14711,6 +16742,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Understood",
+      "value": "👌 Entesos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Undo",
       "value": "Desfés"
     },
@@ -14761,6 +16797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Unlock",
+      "value": "Desbloca"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnlockButtonTitle",
       "value": "Desbloca amb el Telegram Premium"
     },
@@ -14768,6 +16809,21 @@
       "_": "types.LangPackString",
       "key": "UnlockMoreSimilarBots",
       "value": "Mostra més bots"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockPremiumEmojiHint",
+      "value": "Subscriviu-vos al **Telegram Premium** per a desblocar aquest emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockPremiumEmojiHint2",
+      "value": "Proveu d'enviar-los als **Missatges desats** per a provar-los de franc."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnlockSimilar",
+      "value": "Desbloqueu més canals"
     },
     {
       "_": "types.LangPackString",
@@ -14806,8 +16862,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UpgradedStories",
+      "value": "Històries"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UploadImage",
       "value": "Puja una imatge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UploadSpeedLimited",
+      "value": "Velocitat de pujada limitada"
     },
     {
       "_": "types.LangPackString",
@@ -14871,6 +16937,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfoCustomPhoto",
+      "value": "foto personalitzada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoCustomVideo",
+      "value": "foto personalitzada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfoFirstNamePlaceholder",
       "value": "Nom"
     },
@@ -14888,6 +16964,21 @@
       "_": "types.LangPackString",
       "key": "UserInfoNotificationsEnabled",
       "value": "Activades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoPublicPhoto",
+      "value": "foto pública"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoPublicVideo",
+      "value": "vídeo públic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfoResetCustomPhoto",
+      "value": "Restableix la foto original"
     },
     {
       "_": "types.LangPackString",
@@ -14941,11 +17032,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "UserRestrictionsEmbedLinks",
-      "value": "Incrustar enllaços"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "UserRestrictionsInviteUsers",
       "value": "Afegir usuaris"
     },
@@ -14966,8 +17052,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendDocs",
+      "value": "ni fitxers"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendMedia",
       "value": "ni fitxers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendMusic",
+      "value": "ni música"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendPhotos",
+      "value": "ni fotos"
     },
     {
       "_": "types.LangPackString",
@@ -14978,6 +17079,21 @@
       "_": "types.LangPackString",
       "key": "UserRestrictionsNoSendStickers",
       "value": "ni adhesius ni GIF"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendText",
+      "value": "no pot enviar missatges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendVideos",
+      "value": "ni vídeos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserRestrictionsNoSendVoice",
+      "value": "ni missatges de veu"
     },
     {
       "_": "types.LangPackString",
@@ -15032,6 +17148,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernameActivateAlertShow",
+      "value": "Mostra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameActivateAlertText",
+      "value": "Voleu mostrar aquest enllaç a la pàgina d'informació?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameActivateAlertTitle",
+      "value": "Activeu el nom d'usuari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameAppNotFound",
+      "value": "No s'ha trobat l'aplicació del bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernameAvailable",
       "value": "{username} és disponible."
     },
@@ -15039,6 +17175,26 @@
       "_": "types.LangPackString",
       "key": "UsernameByPhoneNotFound",
       "value": "No s'ha trobat l'usuari {phone}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameCopied",
+      "value": "S'ha copiat el nom d'usuari."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertHide",
+      "value": "Amaga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertText",
+      "value": "Voleu amagar aquest enllaç de la vostra pàgina d'informació?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernameDeactivateAlertTitle",
+      "value": "Desactiveu el nom d'usuari"
     },
     {
       "_": "types.LangPackString",
@@ -15067,8 +17223,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamePurchaseAvailable",
+      "value": "L'enllaç ja es troba en ús. Però el podeu adquirir. {link}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernameShort",
       "value": "El nom d'usuari és massa curt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActive",
+      "value": "actiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesDescription",
+      "value": "Arrossegueu i amolleu els enllaços per a canviar l'ordre en el qual es mostraran a la pàgina d'informació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesEdit",
+      "value": "feu clic per a editar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesNonActive",
+      "value": "inactiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesSubtitle",
+      "value": "Ordre dels noms d'usuari"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15095,6 +17281,11 @@
       "_": "types.LangPackString",
       "key": "ValueGiftSortByPrice",
       "value": "Preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VerifyCodesNotifications",
+      "value": "Codis de verificació"
     },
     {
       "_": "types.LangPackString",
@@ -15150,6 +17341,16 @@
       "_": "types.LangPackString",
       "key": "VideoPlayerFullscreen",
       "value": "Pantalla completa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoUnsupportedDesktop",
+      "value": "__Malauradament, aquest vídeo no es pot reproduir al Telegram Web. Proveu d'obrir-lo amb l'[aplicació d'escriptori](https://getdesktop.telegram.org/).__"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VideoUnsupportedMobile",
+      "value": "__Malauradament, aquest vídeo no es pot reproduir al Telegram Web. Proveu d'obrir-lo amb l'[aplicació mòbil](https://telegram.org/dl/).__"
     },
     {
       "_": "types.LangPackString",
@@ -15264,11 +17465,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipCamera",
-      "value": "Càmera"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipChatJoin",
       "value": "Entra"
     },
@@ -15276,11 +17472,6 @@
       "_": "types.LangPackString",
       "key": "VoipChatStartScreenCapture",
       "value": "Comparteix la pantalla"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipChatStopScreenCapture",
-      "value": "Deixa de compartir"
     },
     {
       "_": "types.LangPackString",
@@ -15331,11 +17522,6 @@
       "_": "types.LangPackString",
       "key": "VoipGroupLeave",
       "value": "Surt"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipGroupLeaveAlertEndChat",
-      "value": "Finalitza el xat de vídeo"
     },
     {
       "_": "types.LangPackString",
@@ -15394,38 +17580,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipMutedByAdmin",
-      "value": "Silenciat per l'administrador"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipMutedTapedForSpeak",
-      "value": "Heu demanat parlar"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipPeerIncompatible",
       "value": "L'aplicació de **{user}** usa un protocol incompatible. Cal que l'actualitzi per a poder trucar-li."
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipSpeaker",
-      "value": "Altaveu"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipTapToMute",
-      "value": "Tothom us sent"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipUnmute",
       "value": "Activa el micro"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Vote",
-      "value": "Vota"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15440,8 +17601,699 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Afegeix fons"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "S'ha copiat l'adreça al porta-retalls"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "L'adreça no té cap compte\nde Telegram enllaçat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "També teniu {amount} en guanys de Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "També teniu {amount} en carteres antigues"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "Les claus s'emmagatzemen xifrades als centres de dades de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledTitle",
+      "value": "S'ha activat la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "La clau de la còpia de seguretat xifrada es divideix en tres parts, i s'emmagatzemen arreu de tres continents.\n\nNomés es pot tornar a unir als vostres dispositius, per la qual cosa ningú (ni tan sols Telegram) hi pot accedir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "La clau de la còpia de seguretat xifrada es dividirà en tres parts i s'emmagatzemaran arreu de tres continents.\n\nNomés es pot tornar a unir als vostres dispositius, per la qual cosa ningú (ni tan sols Telegram) hi pot accedir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "Còpia de seguretat xifrada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Regal col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+1 ítem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemOut",
+      "value": "-1 ítem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Número col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "Ven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTitle",
+      "value": "Col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTraits",
+      "value": "{model} en {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "Transferència"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "No s'ha pogut preparar la transferència del col·leccionable."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Nom d'usuari col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Connecta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectAccess",
+      "value": "Les aplicacions connectades poden veure l'adreça, el saldo i l'activitat de la cartera. No poden moure fons sense la vostra aprovació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectApp",
+      "value": "Aplicació connectada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "Contingut binari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBlindSign",
+      "value": "Ho esteu signant a cegues. Signeu només de fonts en què confieu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnected",
+      "value": "{name} desconnectada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnectedAll",
+      "value": "S'han desconnectat totes les aplicacions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFeeUnavailable",
+      "value": "Ha fallat la simulació de la transacció."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "L'aplicació no podrà moure fons sense el vostre permís."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofAccess",
+      "value": "L'aplicació podrà veure la vostra adreça, saldo i activitat de la cartera, i demanar una signatura per a registrar-vos-hi. Això no és una transferència."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppDeclined",
+      "value": "S'ha rebutjat la sol·licitud de transacció de: {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppExpired",
+      "value": "La sol·licitud de transacció de {name} ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppProcessed",
+      "value": "S'ha processat la sol·licitud de transacció de: {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestTitle",
+      "value": "{name} sol·licita una transferència"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectReviewSign",
+      "value": "Reviseu amb cura el missatge i, si hi esteu d'acord, signeu les dades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSign",
+      "value": "Signa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignData",
+      "value": "Signa les dades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignTitle",
+      "value": "{name} requereix la vostra signatura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Connecta Diners amb {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Aplicacions connectades"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Copia l'adreça"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "S'ha creat la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Elimina-la"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteText",
+      "value": "Perdreu l'accés als vostres fons llevat que hàgiu desat la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "Voleu eliminar la cartera?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Elimina la cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Depositeu fons"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Desactiva la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "S'eliminarà la còpia de seguretat xifrada distribuïda. La cartera canviarà a la nova frase secreta. Aquesta frase serà l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "La còpia de seguretat xifrada distribuïda s'eliminarà. La frase secreta serà l'única manera de recuperar la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Voleu desactivar la còpia de seguretat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Desconnecta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllConfirm",
+      "value": "Desconnecta-ho tot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllText",
+      "value": "Aquestes aplicacions perdran l'accés a la cartera. Podeu connectar-les de nou en qualsevol moment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Activa la còpia de seguretat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Introduïu la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "També teniu fons en Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Envieu Grams en qualsevol xat, com si compartíssiu una foto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "Transferències instantànies"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "Les primeres 5 transferències diàries són de franc. La resta costen quasi res."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "Zero comissions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "Totes les transaccions queden registrades i són verificables en un registre públic."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Verificat a la cadena de blocs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "Entesos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "Només vós controleu els vostres fons: ningú més hi té accés."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroRate",
+      "value": "1 Gram equival actualment a {rate}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendText",
+      "value": "Transferiu els Grams a qualsevol.\nToqueu 📎 → Diners als xats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "Manteniu els Grams al Telegram \n(💬 → ⋮ → Diners) o a altres carteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreTitle",
+      "value": "Emmagatzemar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTitle",
+      "value": "Els vostres primers Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "Convertiu Grams a diners o criptomonedes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeTitle",
+      "value": "Intercanviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroYouCan",
+      "value": "Podeu:"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfo",
+      "one_value": "Cada transferència té una petita tarifa de xarxa (**~{fee} Grams**). Telegram cobreix cada dia **la primera** transferència.",
+      "other_value": "Cada transferència té una petita tarifa de xarxa (**~{fee} Grams**). Telegram cobreix cada dia les primeres **{count}** transferències."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Tarifes de la xarxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsHint",
+      "value": "Les carteres que heu fet servir abans en aquest dispositiu. Deseu les frases secretes: s'eliminaran si tanqueu la sessió o esborreu les dades del navegador."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "Carteres anteriors"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Enganxa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "Si algú l'aconseguís, **podrien robar els vostres fons**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**No compartiu mai** la frase secreta amb ningú."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "L'Assistència de Telegram **no us demanarà mai** la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Visible només per a vós i el destinatari."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Comproveu l'ordre de les paraules.\n\nNomés hi podeu importar una frase secreta creada en Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccountBanner",
+      "value": "Protegiu el compte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "El comentari és visible per a tothom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveBuy",
+      "value": "Compreu amb diners o criptomonedes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveNetworkNote",
+      "value": "Compartiu l'adreça o el codi QR per a rebre GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientGramWallet",
+      "value": "Cartera de Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "Podeu transferir la cartera a un altre dispositiu copiant la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "La frase secreta és la clau de la còpia de seguretat de la vostra cartera. Manteniu-la sempre secreta i segura."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceCreate",
+      "value": "Crea una altra cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Importa una cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceTitle",
+      "value": "Com voleu reemplaçar la cartera antiga?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "Està llesta perquè la useu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "La cartera s'ha restaurat amb la frase secreta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "Importeu una cartera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "Introduïu la frase secreta de la vostra cartera per a continuar. {why}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "Frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "Atès que heu desactivat les còpies de seguretat de la cartera, cal que introduïu manualment la frase secreta en cada nova sessió de Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Envia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "Aquesta adreça de la cadena de blocs TON està enllaçada a **{name}** al Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "Transfereix el col·leccionable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendComment",
+      "value": "Comentari (opcional)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "Fons insuficients."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMinAmount",
+      "value": "Transferència mínima: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Envia diners"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "Tarifa de xarxa: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendTitle",
+      "value": "Envia Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendUnlinkedWallet",
+      "value": "Cartera sense enllaçar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "Mostra la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "Col·leccionables"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "Transaccions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Diners"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "Adreça"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDeposit",
+      "value": "Dipòsit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFailed",
+      "value": "Ha fallat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFee",
+      "value": "Tarifa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "Transferència rebuda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncomingCollectible",
+      "value": "Col·leccionable rebut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionKeyChange",
+      "value": "Actualització de la clau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOpenWallet",
+      "value": "Obre els meus Diners"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "Transferència enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoingCollectible",
+      "value": "Col·leccionable enviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "Destinatari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "Remitent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Recarrega"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Recàrrega de criptomoneda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionWithdrawal",
+      "value": "Retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "Actualitza la frase secreta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "Obtindreu una altra frase secreta que haureu d'anotar. L'adreça i el saldo romanen iguals."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "Mostra a l'explorador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "Què són els Grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Què és Diners?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "Les paraules que heu introduït no coincideixen amb la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseTitle",
+      "value": "Frase secreta incorrecta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "La vostra frase secreta"
     },
     {
       "_": "types.LangPackString",
@@ -15452,11 +18304,6 @@
       "_": "types.LangPackString",
       "key": "WebAppAddToAttachmentAdd",
       "value": "Afegeix"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WebAppAddToAttachmentText",
-      "value": "El {bot} demana permís per a afegir-se com a opció al vostre menú d'adjunts, perquè el pugueu fer servir des de qualsevol xat."
     },
     {
       "_": "types.LangPackString",
@@ -15490,78 +18337,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Weekday1",
-      "value": "dl."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday2",
-      "value": "dt."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday3",
-      "value": "dc."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday4",
-      "value": "dj."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday5",
-      "value": "dv."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday6",
-      "value": "ds."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday7",
-      "value": "dg."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayFriday",
-      "value": "Divendres"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayMonday",
-      "value": "Dilluns"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySaturday",
-      "value": "Dissabte"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySunday",
-      "value": "Diumenge"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayThursday",
-      "value": "Dijous"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "WeekdayToday",
       "value": "Avui"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayTuesday",
-      "value": "Dimarts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayWednesday",
-      "value": "Dimecres"
     },
     {
       "_": "types.LangPackString",
@@ -15607,6 +18384,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Yes",
+      "value": "Sí"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "YourEmailCode",
       "value": "El codi del vostre correu"
     },
@@ -15631,5 +18413,5 @@
       "value": "El vostre nom"
     }
   ],
-  "version": 295942
+  "version": 376931
 }

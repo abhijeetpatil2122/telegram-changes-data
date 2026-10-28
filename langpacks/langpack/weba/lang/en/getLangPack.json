@@ -30,18 +30,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccDescrChannel",
-      "value": "Channel"
+      "key": "AccDescrCloseTrendingStickers",
+      "value": "Close trending stickers"
     },
     {
       "_": "types.LangPackString",
       "key": "AccDescrGoBack",
       "value": "Go back"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AccDescrGroup",
-      "value": "Group"
     },
     {
       "_": "types.LangPackString",
@@ -105,18 +100,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AccPinnedMessages",
-      "value": "Pinned Messages"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AccSwitchToFullscreen",
       "value": "Switch to fullscreen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AccUnpinMessage",
-      "value": "Unpin Message"
     },
     {
       "_": "types.LangPackString",
@@ -150,8 +135,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionAddYouGroup",
-      "value": "{from} added you to this group"
+      "key": "ActionAddedToCommunity",
+      "value": "{from} added this chat to {community}"
     },
     {
       "_": "types.LangPackString",
@@ -232,11 +217,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionCostCrypto",
-      "value": "{price} ({cryptoPrice})"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionCreatedChannel",
       "value": "Channel created"
     },
@@ -305,12 +285,6 @@
       "other_value": "You scored {count} in {game}"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodePremiumText",
-      "one_value": "You've received a gift from {channel}.\n\nYour gift is a **Telegram Premium** subscription for {months} month.",
-      "other_value": "You've received a gift from {channel}.\n\nYour gift is a **Telegram Premium** subscription for {months} months."
-    },
-    {
       "_": "types.LangPackString",
       "key": "ActionGiftCodeSubscriptionDuration",
       "value": "You've received a gift from {peer}.\n\nYour gift is a Telegram Premium subscription for {duration}."
@@ -319,18 +293,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftCodeSubscriptionDurationYou",
       "value": "You sent {peer} a gift code for {duration} of Telegram Premium."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodeSubscriptionText",
-      "one_value": "You've received a gift from {peer}.\n\nYour gift is a Telegram Premium subscription for {months} month.",
-      "other_value": "You've received a gift from {peer}.\n\nYour gift is a Telegram Premium subscription for {months} months."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftCodeSubscriptionTextYou",
-      "one_value": "You've sent a gift to {peer}.\n\nTelegram Premium subscription giftcode for {months} month.",
-      "other_value": "You've sent a gift to {peer}.\n\nTelegram Premium subscription giftcode for {months} months."
     },
     {
       "_": "types.LangPackString",
@@ -346,12 +308,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumText",
       "value": "Subscription for exclusive Telegram features."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiftPremiumTitle",
-      "one_value": "{months} Month Premium",
-      "other_value": "{months} Months Premium"
     },
     {
       "_": "types.LangPackString",
@@ -403,12 +359,6 @@
       "_": "types.LangPackString",
       "key": "ActionGiveawayResultPremiumDuration",
       "value": "You won a prize in a giveaway organized by {channel}.\n\nYour prize is a **Telegram Premium** subscription for **{duration}**."
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "ActionGiveawayResultPremiumText",
-      "one_value": "You won a prize in a giveaway organized by {channel}.\n\nYour prize is a **Telegram Premium** subscription for **{months}** month.",
-      "other_value": "You won a prize in a giveaway organized by {channel}.\n\nYour prize is a **Telegram Premium** subscription for **{months}** months."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -470,6 +420,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramReceivedPreview",
+      "value": "You received {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramReceivedText",
+      "value": "You received {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreview",
+      "value": "{from} sent you {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferPreviewYou",
+      "value": "You sent {from} {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferReceived",
+      "value": "Received"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferSent",
+      "value": "Sent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferText",
+      "value": "{from} sent you {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTextYou",
+      "value": "You sent {from} {amount}{worth}:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferTicker",
+      "value": "Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionGramTransferWorth",
+      "value": "({fiat})"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "Live stream finished ({duration})"
     },
@@ -512,6 +512,11 @@
       "_": "types.LangPackString",
       "key": "ActionJoinedByRequestYou",
       "value": "Your request to join the group was approved"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionJoinedViaCommunity",
+      "value": "{from} joined via {community} community"
     },
     {
       "_": "types.LangPackString",
@@ -730,6 +735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionRemovedFromCommunity",
+      "value": "{from} removed this chat from the community"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionRemovedPhoto",
       "value": "{from} removed group photo"
     },
@@ -742,6 +752,11 @@
       "_": "types.LangPackString",
       "key": "ActionRemovedPhotoYou",
       "value": "You removed group photo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionRequestedPeer",
+      "value": "You shared {peer} with {bot}"
     },
     {
       "_": "types.LangPackString",
@@ -800,11 +815,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ActionStarGiftChannelDisplaying",
-      "value": "This gift is displayed to visitors of your channel."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ActionStarGiftChannelText",
       "value": "Add this gift to your channel's profile or convert it to {amount}."
     },
@@ -837,11 +847,6 @@
       "_": "types.LangPackString",
       "key": "ActionStarGiftCraftedSelf",
       "value": "You crafted a new gift!"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionStarGiftDisplaying",
-      "value": "You added this gift to your profile."
     },
     {
       "_": "types.LangPackString",
@@ -1080,6 +1085,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionSuggestedBirthday",
+      "value": "{user} suggested you add your birthday"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionSuggestedBirthdayYou",
+      "value": "You suggested {user} to add a birthday"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionSuggestedChangesIncoming",
       "value": "**{user}** suggested a new {changes} for this post."
     },
@@ -1160,6 +1175,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionTTLChanged",
+      "value": "{from} set messages to auto-delete in {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelChanged",
+      "value": "Messages in this channel will be automatically deleted after {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLChannelDisabled",
+      "value": "Messages in this channel will no longer be automatically deleted"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLDisabled",
+      "value": "{from} disabled the auto-delete timer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouChanged",
+      "value": "You set messages to auto-delete in {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionTTLYouDisabled",
+      "value": "You disabled the auto-delete timer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionTopicClosed",
       "value": "{from} closed {topic}"
     },
@@ -1232,16 +1277,6 @@
       "_": "types.LangPackString",
       "key": "ActionUnsupported",
       "value": "Unsupported message"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionUnsupportedDescription",
-      "value": "Please use one of our apps to complete this action."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ActionUnsupportedTitle",
-      "value": "Action not supported yet"
     },
     {
       "_": "types.LangPackString",
@@ -1340,6 +1375,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditorGenerate",
+      "value": "Generate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditorGeneratePlaceholder",
+      "value": "Generate text, formulas, or tables…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditorPrompt",
+      "value": "Prompt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditorRewritePlaceholder",
+      "value": "Describe how to rewrite the text…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiMessageEditor",
       "value": "AI Editor"
     },
@@ -1390,11 +1445,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AiMessageEditorSelectStyle",
-      "value": "Select Style"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AiMessageEditorStyle",
       "value": "Style"
     },
@@ -1407,11 +1457,6 @@
       "_": "types.LangPackString",
       "key": "AiMessageEditorTranslate",
       "value": "Translate"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AiMessageEditorTranslation",
-      "value": "Translation"
     },
     {
       "_": "types.LangPackString",
@@ -1600,12 +1645,6 @@
       "value": "Anonymous Quiz"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "Answer",
-      "one_value": "{count} answer",
-      "other_value": "{count} answers"
-    },
-    {
       "_": "types.LangPackString",
       "key": "ApiMessageActionPaidMessagesRefundedIncoming",
       "value": "{user} refunded **{stars}** to you"
@@ -1667,11 +1706,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ApproveNewSubscribersPublicUnavailable",
-      "value": "This option is unavailable because anyone can join the public channel through the link."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Apps",
       "value": "Apps"
     },
@@ -1727,6 +1761,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "Are you sure you want to log out?\n\nThis will cancel all your Secret Chats and **delete wallet backups holding {amount}**. Without their recovery phrases, you'll lose access to these funds.\n\nYou can use Telegram on all your devices at once and use several accounts in the same app."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureSessions",
       "value": "Are you sure you want to terminate all other sessions?"
     },
@@ -1752,11 +1791,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaCancelPollCreation",
-      "value": "Cancel poll creation"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaCloseAttachmentModal",
       "value": "Discard attachments"
     },
@@ -1774,6 +1808,16 @@
       "_": "types.LangPackString",
       "key": "AriaComposerCancelVoice",
       "value": "Cancel voice recording"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AriaComposerCloseRichInput",
+      "value": "Collapse editor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AriaComposerOpenRichInput",
+      "value": "Open full editor"
     },
     {
       "_": "types.LangPackString",
@@ -1827,16 +1871,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaEditProfilePhoto",
-      "value": "Edit avatar"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaExitMessageSelection",
-      "value": "Exit select mode"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaGiftPreviewPlay",
       "value": "Play random previews"
     },
@@ -1859,16 +1893,6 @@
       "_": "types.LangPackString",
       "key": "AriaLabelOpenMenu",
       "value": "Open menu"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchGifs",
-      "value": "Search GIFs"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaLabelSearchStickers",
-      "value": "Search stickers"
     },
     {
       "_": "types.LangPackString",
@@ -1917,16 +1941,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaSearchByDate",
-      "value": "Search by date"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaSearchInChat",
-      "value": "Search in chat"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AriaSearchNewerResult",
       "value": "Focus previous result"
     },
@@ -1952,21 +1966,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AriaToDoCancel",
-      "value": "Cancel checklist creation"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleChatNotifications",
-      "value": "Toggle chat notifications"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AriaToggleUserNotifications",
-      "value": "Toggle user notifications"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Arrow",
       "value": "Arrow"
     },
@@ -1979,11 +1978,6 @@
       "_": "types.LangPackString",
       "key": "AspectRatio",
       "value": "Aspect ratio"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AtDateAgo",
-      "value": "on {date}"
     },
     {
       "_": "types.LangPackString",
@@ -2037,11 +2031,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AttachMenuMediaBlocked",
-      "value": "Sending media is not allowed in this group."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AttachMusic",
       "value": "Music"
     },
@@ -2062,11 +2051,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AttachTodo",
-      "value": "Checklist"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "AttachVideo",
       "value": "Video"
     },
@@ -2084,6 +2068,11 @@
       "_": "types.LangPackString",
       "key": "AttachmentDragAddItems",
       "value": "Add Items"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AttachmentMenuArticle",
+      "value": "Article"
     },
     {
       "_": "types.LangPackString",
@@ -2155,6 +2144,11 @@
       "other_value": "Replace {count} Videos"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AttachmentSelectFromFiles",
+      "value": "Select from Files"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AttachmentSendAudio",
       "one_value": "Send Audio",
@@ -2180,6 +2174,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioAddToProfile",
+      "value": "Add to Profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioAddToSaved",
+      "value": "Add to Saved Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioForwardedToChat",
+      "value": "Audio forwarded to a chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioForwardedToSaved",
+      "value": "Audio forwarded to **Saved Messages**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioOpenPlaylist",
+      "value": "Playlist"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioPause",
       "value": "Pause audio"
     },
@@ -2187,6 +2206,16 @@
       "_": "types.LangPackString",
       "key": "AudioPlay",
       "value": "Play audio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioPlaybackOrder",
+      "value": "Playback order"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioPlaybackRate",
+      "value": "Playback speed"
     },
     {
       "_": "types.LangPackString",
@@ -2202,6 +2231,66 @@
       "_": "types.LangPackString",
       "key": "AudioPlayerPrevious",
       "value": "Previous track"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRemoveFromProfile",
+      "value": "Remove from Profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRepeatList",
+      "value": "Repeat list"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRepeatSong",
+      "value": "Repeat song"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioReverseOrder",
+      "value": "Reverse order"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSaveToMyProfileSaved",
+      "value": "Audio added to your profile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSaveToMyProfileUnsaved",
+      "value": "Audio removed from your profile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchChats",
+      "value": "Shared Music"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchGlobal",
+      "value": "Global Search"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioSearchProfile",
+      "value": "Profile Music"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioShowInChat",
+      "value": "Show in Chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioShuffleList",
+      "value": "Shuffle list"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioVolume",
+      "value": "Volume"
     },
     {
       "_": "types.LangPackString",
@@ -2250,8 +2339,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeDays",
+      "value": "d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeHours",
+      "value": "h"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeMinutes",
+      "value": "m"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeMonths",
+      "value": "m"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeSeconds",
+      "value": "s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeWeeks",
+      "value": "w"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteBadgeYears",
+      "value": "y"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AutoDeleteConfirm",
       "value": "Confirm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteGlobalAction",
+      "value": "{from} uses a self-destruct timer for all chats.\nAll new messages in this chat will be automatically deleted {time} after they are sent."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteGlobalActionFromYou",
+      "value": "You set a self-destruct timer for all chats.\nAll new messages in this chat will be automatically deleted {time} after they were sent."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteIn",
+      "value": "Auto-deletes in {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteMessages",
+      "value": "Auto-Delete Messages"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteNever",
+      "value": "Never"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeletePopupDescription",
+      "value": "Automatically delete messages sent in this chat after a certain period of time."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeletePopupTitle",
+      "value": "Auto-Delete"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSetInfo",
+      "value": "Messages in this chat are automatically deleted {time} after they are sent."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutoDeleteSettingsInfo",
+      "value": "Automatically delete messages for everyone after a period of time in all new chats you start."
     },
     {
       "_": "types.LangPackString",
@@ -2315,16 +2484,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "AutoplayMedia",
-      "value": "Autoplay media"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "AvatarChangeTitle",
-      "value": "Change your profile photo"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Back",
       "value": "Back"
     },
@@ -2335,6 +2494,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BackgroundPatternIntensity",
+      "value": "Pattern Intensity"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BioLimitSubtitle",
       "value": "Add more characters and use links in your bio"
     },
@@ -2342,6 +2506,16 @@
       "_": "types.LangPackString",
       "key": "BioLimitTitle",
       "value": "Bio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BirthdayAddToProfile",
+      "value": "Add to My Profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BirthdayHideYear",
+      "value": "Hide Year"
     },
     {
       "_": "types.LangPackString",
@@ -2380,6 +2554,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BirthdaySuggest",
+      "value": "Suggest Date of Birth"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BirthdayTitleForPeer",
+      "value": "{user}'s Date of Birth"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Block",
       "value": "BLOCK"
     },
@@ -2392,11 +2576,6 @@
       "_": "types.LangPackString",
       "key": "BlockUserTitle",
       "value": "Block {user}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "BlockedListNotFound",
-      "value": "No users found."
     },
     {
       "_": "types.LangPackString",
@@ -2530,6 +2709,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotDraftStop",
+      "value": "Stop"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotForumActionNew",
       "value": "New Thread"
     },
@@ -2635,6 +2819,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotStatusNonBinary",
+      "value": "Gay"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotSuggestedStatus",
       "value": "Do you want to set this emoji status suggested by **{bot}**?"
     },
@@ -2728,11 +2917,6 @@
       "_": "types.LangPackString",
       "key": "ButtonSellGift",
       "value": "Sell for {stars}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ButtonSellGiftTon",
-      "value": "Sell for {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -2932,11 +3116,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Caption",
-      "value": "Caption"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "CaptionsLimitSubtitle",
       "value": "Use longer descriptions for your photos and videos"
     },
@@ -2949,11 +3128,6 @@
       "_": "types.LangPackString",
       "key": "ChangePassword",
       "value": "Change Password"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChangeRecipient",
-      "value": "Change Recipient"
     },
     {
       "_": "types.LangPackString",
@@ -2989,11 +3163,6 @@
       "_": "types.LangPackString",
       "key": "ChannelAdmin",
       "value": "Admin"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChannelAdminDismiss",
-      "value": "Dismiss Admin"
     },
     {
       "_": "types.LangPackString",
@@ -3039,11 +3208,6 @@
       "_": "types.LangPackString",
       "key": "ChannelEarnLearnCoinAbout",
       "value": "Gram is the cryptocurrency of the TON blockchain platform that Telegram uses for its high speed and low commissions on transactions. {link}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChannelEditAdminCannotEdit",
-      "value": "You can't edit the rights of this admin."
     },
     {
       "_": "types.LangPackString",
@@ -3104,11 +3268,6 @@
       "_": "types.LangPackString",
       "key": "ChannelManagementLinkPrivate",
       "value": "Anyone from the channel will be able to see messages in this group"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ChannelManagementTitle",
-      "value": "Admins"
     },
     {
       "_": "types.LangPackString",
@@ -3261,12 +3420,6 @@
       "value": "TOP RECENT POSTS"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "ChannelStatsSharesCount",
-      "one_value": "{count} share",
-      "other_value": "{count} shares"
-    },
-    {
       "_": "types.LangPackString",
       "key": "ChannelStatsTitle",
       "value": "Channel Statistics"
@@ -3336,6 +3489,11 @@
       "_": "types.LangPackString",
       "key": "ChatBackground",
       "value": "Chat Wallpaper"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatBackgroundColorThemes",
+      "value": "Colors, Gradients & Patterns"
     },
     {
       "_": "types.LangPackString",
@@ -3457,11 +3615,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ChatListFilterAddToFolder",
-      "value": "Add to folder..."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ChatListFilterErrorEmpty",
       "value": "Please add some chats or chat types to the folder."
     },
@@ -3578,6 +3731,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatTypeCommunity",
+      "value": "Community"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatTypeFallback",
       "value": "Chat"
     },
@@ -3672,11 +3830,6 @@
       "_": "types.LangPackString",
       "key": "ClearOtherWebSessionsHelp",
       "value": "You can log in on websites that support signing in with Telegram."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ClearRecentEmoji",
-      "value": "Clear recent emoji?"
     },
     {
       "_": "types.LangPackString",
@@ -3804,6 +3957,68 @@
       "_": "types.LangPackString",
       "key": "CommonSelect",
       "value": "Select"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatNotAccessible",
+      "value": "This chat is not accessible."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityChatsCount",
+      "one_value": "{count} chat",
+      "other_value": "{count} chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouAreIn",
+      "value": "Chats you are in"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouCanJoin",
+      "value": "Chats you can request to join"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityChatsYouCanView",
+      "value": "Chats you can view"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityJoinChatConfirm",
+      "value": "Do you want to join this chat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityNoChatsFound",
+      "value": "No chats found"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityOpenPanel",
+      "value": "Show community chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitySearchChats",
+      "value": "Search chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityShowAsOneChat",
+      "value": "Show as One Chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityShowAsOneChatHint",
+      "value": "Group all community chats into one item in the chat list."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CommunityWithChats",
+      "one_value": "Community with {count} chat",
+      "other_value": "Community with {count} chats"
     },
     {
       "_": "types.LangPackString",
@@ -4013,11 +4228,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextForwardMsg",
-      "value": "Forward"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ContextLinkLargerMedia",
       "value": "Larger Media"
     },
@@ -4078,11 +4288,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ContextReportMsg",
-      "value": "Report"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ContextSaveGif",
       "value": "Save GIF"
     },
@@ -4131,16 +4336,6 @@
       "_": "types.LangPackString",
       "key": "ConversationDefaultRestrictedMedia",
       "value": "Sending media isn't allowed in this group."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationDeleteManyMessages",
-      "value": "Delete Messages"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationDeleteMessagesFor",
-      "value": "Delete for me and {user}"
     },
     {
       "_": "types.LangPackString",
@@ -4194,23 +4389,23 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ConversationViewBot",
-      "value": "VIEW BOT"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationViewChannel",
-      "value": "VIEW CHANNEL"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ConversationViewPost",
-      "value": "VIEW POST"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Copy",
       "value": "Copy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyAsHtml",
+      "value": "Copy as HTML"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyAsMarkdown",
+      "value": "Copy as Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CopyAsText",
+      "value": "Copy as text"
     },
     {
       "_": "types.LangPackString",
@@ -4274,23 +4469,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "CreditsBoxHistoryEntryGiftOutAbout",
-      "value": "With Stars, {user} will be able to unlock content and services on Telegram. {link}"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Crop",
       "value": "Crop"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropImage",
-      "value": "Crop image"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "CropperApply",
-      "value": "Crop Image"
     },
     {
       "_": "types.LangPackString",
@@ -4324,16 +4504,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "CustomShareGiftsInfo",
-      "value": "You can add users or entire groups as exceptions that will override the settings above."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DataAndStorageAutoplayVideos",
-      "value": "Videos"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DataSettings",
       "value": "Data and Storage"
     },
@@ -4347,12 +4517,6 @@
       "key": "Days",
       "one_value": "{count} day",
       "other_value": "{count} days"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "DaysAgo",
-      "one_value": "1 day ago",
-      "other_value": "{count} days ago"
     },
     {
       "_": "types.LangPackString",
@@ -4420,11 +4584,6 @@
       "value": "Delete for all members"
     },
     {
-      "_": "types.LangPackString",
-      "key": "DeleteForEveryoneDescription",
-      "value": "This will delete them for everyone in this chat"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "DeleteForEveryoneHint",
       "one_value": "This will delete it for everyone in this chat.",
@@ -4435,11 +4594,6 @@
       "key": "DeleteForMeChatHint",
       "one_value": "This will delete it just for you, not for other participants of the chat.",
       "other_value": "This will delete them just for you, not for other participants of the chat."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DeleteForMeDescription",
-      "value": "This will delete them just for you, not for other participants in the chat"
     },
     {
       "_": "types.LangPackString",
@@ -4484,11 +4638,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DeleteSingleMessagesTitle",
-      "value": "Delete message"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DeleteThisChat",
       "value": "Delete this chat"
     },
@@ -4509,18 +4658,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DescriptionComposerGiftMinimumCurrencyPrice",
-      "value": "Minimum price is **{amount}**."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DescriptionComposerGiftMinimumPrice",
       "value": "Minimum price is **{stars}**."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DescriptionComposerGiftResaleCurrencyPrice",
-      "value": "You will receive **{amount}**."
     },
     {
       "_": "types.LangPackString",
@@ -4707,16 +4846,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "DisplayGiftsButton",
-      "value": "Display Gifts Button"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "DlgSearchForMessages",
-      "value": "Search for messages"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "DoNotAskAgain",
       "value": "Don't ask again"
     },
@@ -4827,8 +4956,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditAdminManageLinkedChannels",
+      "value": "Manage Linked Channels"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditAdminManageTopics",
       "value": "Manage Topics"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditAdminManageWelcomeMessages",
+      "value": "Manage Welcome Messages"
     },
     {
       "_": "types.LangPackString",
@@ -4947,16 +5086,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EditedDate",
-      "value": "Edited: {date}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EditedMessage",
-      "value": "edited"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EmbeddedMessageNoCaption",
       "value": "Caption removed"
     },
@@ -5062,11 +5191,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EnableReactions",
-      "value": "Enable Reactions"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EnableSharing",
       "value": "Enable Sharing"
     },
@@ -5104,6 +5228,46 @@
       "_": "types.LangPackString",
       "key": "EnterPriceInStars",
       "value": "Enter Price in Stars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralAnchoredNotice",
+      "value": "This version of the message is only visible to you."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralContextMenuNotice",
+      "value": "Only you see this message. It will disappear after you log in again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisible",
+      "value": "Only visible to you"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralOnlyVisibleToBot",
+      "value": "Only visible to {bot}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralReplyUnavailable",
+      "value": "Message is no longer available"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevert",
+      "value": "Revert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralRevertDescription",
+      "value": "Restores the message to its original content"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EphemeralUpdated",
+      "value": "updated"
     },
     {
       "_": "types.LangPackString",
@@ -5193,6 +5357,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ErrorRichMessageTableTooWide",
+      "value": "A table in the message has too many columns. The maximum is {count}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ErrorRichMessageTooDeep",
+      "value": "The message is nested too deeply. The maximum depth is {count}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ErrorRichMessageTooManyBlocks",
+      "one_value": "The message has too many blocks. Please remove {count} block.",
+      "other_value": "The message has too many blocks. Please remove {count} blocks."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ErrorRichMessageTooManyMedia",
+      "one_value": "The message has too many media items. Please remove {count} item.",
+      "other_value": "The message has too many media items. Please remove {count} items."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ErrorSendRestrictedStickersAll",
       "value": "Sorry, sending stickers is not allowed in this group"
     },
@@ -5228,46 +5414,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "EventLogAllAdmins",
-      "value": "All admins"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogAllEvents",
-      "value": "All actions"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterChannelInfo",
-      "value": "Channel info"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterDeletedMessages",
-      "value": "Deleted messages"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterEditedMessages",
-      "value": "Edited messages"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterLeavingMembers",
-      "value": "Members leaving"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewAdmins",
-      "value": "Admin rights"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "EventLogFilterNewMembers",
-      "value": "New members"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "EventLogFilterPinnedMessages",
       "value": "Pinned messages"
     },
@@ -5280,11 +5426,6 @@
       "_": "types.LangPackString",
       "key": "EventLogInfoDetailChannel",
       "value": "This is a list of all notable actions by channel admins in the last 48 hours."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ExceptionDescriptionPrivacyChargeForMessages",
-      "value": "Add users or entire groups who won't be charged for sending messages to you."
     },
     {
       "_": "types.LangPackString",
@@ -5658,6 +5799,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FormattingClearAria",
+      "value": "Clear formatting"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FormattingEnterUrl",
       "value": "Enter URL..."
     },
@@ -5665,6 +5811,16 @@
       "_": "types.LangPackString",
       "key": "FormattingItalicAria",
       "value": "Italic text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FormattingLinkUrl",
+      "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FormattingMarkedAria",
+      "value": "Highlighted text"
     },
     {
       "_": "types.LangPackString",
@@ -5680,6 +5836,16 @@
       "_": "types.LangPackString",
       "key": "FormattingStrikethroughAria",
       "value": "Strikethrough text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FormattingSubscriptAria",
+      "value": "Subscript text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FormattingSuperscriptAria",
+      "value": "Superscript text"
     },
     {
       "_": "types.LangPackString",
@@ -5712,21 +5878,6 @@
       "key": "ForwardPaidChatsSelected",
       "one_value": "You selected **{paidChatsCount}** chat that charges Stars for messages.",
       "other_value": "You selected **{paidChatsCount}** chats that charge Stars for messages."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ForwardTo",
-      "value": "Forward to..."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ForwardedDate",
-      "value": "Original: {date}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ForwardedMessage",
-      "value": "Forwarded message"
     },
     {
       "_": "types.LangPackString",
@@ -5778,6 +5929,12 @@
       "key": "FwdMessagesToChats",
       "one_value": "Message forwarded to {count} chat",
       "other_value": "Message forwarded to {count} chats"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "FwdMessagesToSaved",
+      "one_value": "Message forwarded to **Saved Messages**",
+      "other_value": "Messages forwarded to **Saved Messages**"
     },
     {
       "_": "types.LangPackString",
@@ -5881,11 +6038,6 @@
       "_": "types.LangPackString",
       "key": "GiftAuctionAveragePrice",
       "value": "Average Price"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftAuctionBalance",
-      "value": "Balance"
     },
     {
       "_": "types.LangPackString",
@@ -6394,11 +6546,6 @@
       "value": "Collectible #{number}"
     },
     {
-      "_": "types.LangPackString",
-      "key": "GiftInfoCollectibleBy",
-      "value": "Collectible #{number} by **{owner}**"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "GiftInfoConvert",
       "one_value": "Convert to {amount} Star",
@@ -6505,11 +6652,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoModelCrafted",
-      "value": "{model} (crafted)"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoOwner",
       "value": "Owner"
     },
@@ -6587,11 +6729,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoSent",
-      "value": "Sent Gift"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoSoldOutDescription",
       "value": "This gift has been sold out"
     },
@@ -6652,11 +6789,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftInfoUpgradeBadge",
-      "value": "upgrade"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftInfoUpgradeForFree",
       "value": "Upgrade For Free"
     },
@@ -6684,11 +6816,6 @@
       "_": "types.LangPackString",
       "key": "GiftInfoWear",
       "value": "Wear"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftInfoWithdraw",
-      "value": "Withdraw"
     },
     {
       "_": "types.LangPackString",
@@ -6956,11 +7083,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftSellTitle",
-      "value": "Sell Gift"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftSend",
       "value": "Send a Gift for {amount}"
     },
@@ -7001,11 +7123,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GiftStarsOutgoing",
-      "value": "With Stars, {user} will be able to unlock content and services on Telegram."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "GiftTransferConfirmButton",
       "value": "Transfer for {amount}"
     },
@@ -7033,11 +7150,6 @@
       "_": "types.LangPackString",
       "key": "GiftTransferTON",
       "value": "Send via Blockchain"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GiftTransferTONBlocked",
-      "value": "unlocks in {time}"
     },
     {
       "_": "types.LangPackString",
@@ -7206,6 +7318,11 @@
       "value": "💎{amount}"
     },
     {
+      "_": "types.LangPackString",
+      "key": "GramAmountIconLast",
+      "value": "{amount}💎"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "GramAmountText",
       "one_value": "{amount} Gram",
@@ -7213,13 +7330,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "GramGiftReceived",
-      "value": "Gram Top-Up"
+      "key": "GramEarnings",
+      "value": "Gram Earnings"
     },
     {
       "_": "types.LangPackString",
-      "key": "GramModalHint",
-      "value": "You can top up your Gram using Fragment."
+      "key": "GramEarningsText",
+      "value": "Your Gram from gifts, ads and Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramGiftReceived",
+      "value": "Gram Top-Up"
     },
     {
       "_": "types.LangPackString",
@@ -7306,11 +7428,6 @@
       "_": "types.LangPackString",
       "key": "GroupName",
       "value": "Group name"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "GroupRemovedRemove",
-      "value": "Remove User"
     },
     {
       "_": "types.LangPackString",
@@ -7504,11 +7621,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "HideGiftsButton",
-      "value": "Hide Gifts Button"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "HideSenderNames",
       "value": "Hide Sender Names"
     },
@@ -7536,20 +7648,9 @@
       "other_value": "{count} hours"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "HoursAgo",
-      "one_value": "1 hour ago",
-      "other_value": "{count} hours ago"
-    },
-    {
       "_": "types.LangPackString",
       "key": "IfInactiveFor",
       "value": "If inactive for"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ImageCropTitle",
-      "value": "Drag to reposition"
     },
     {
       "_": "types.LangPackString",
@@ -7565,11 +7666,6 @@
       "_": "types.LangPackString",
       "key": "Info",
       "value": "Info"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "InputPlaceholderGiftResalePrice",
-      "value": "Enter Price"
     },
     {
       "_": "types.LangPackString",
@@ -7690,6 +7786,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "JoinRequestAcceptAll",
+      "value": "Accept all"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "JoinRequestAcceptAllDescription",
       "value": "Are you sure you want to accept all requests?"
     },
@@ -7697,6 +7798,11 @@
       "_": "types.LangPackString",
       "key": "JoinRequestAcceptAllTitle",
       "value": "Accept all requests?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequestDismissAll",
+      "value": "Dismiss all"
     },
     {
       "_": "types.LangPackString",
@@ -7815,11 +7921,6 @@
       "_": "types.LangPackString",
       "key": "LeaveGroupDescription",
       "value": "If you leave, **{nextOwner}** will become the new owner of **{group}** in 1 week."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "LeaveGroupJoinedDate",
-      "value": "joined {date}"
     },
     {
       "_": "types.LangPackString",
@@ -8144,18 +8245,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "LoopAnimatedStickers",
-      "value": "Loop Animated Stickers"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "ManageLinksInfoHelp",
       "value": "You can create additional invite links that have a limited time or number of users."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ManagementRemoveAdminConfirm",
-      "value": "Are you sure you want to dismiss this admin?"
     },
     {
       "_": "types.LangPackString",
@@ -8289,16 +8380,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionChannel",
-      "value": "This channel accepts new subscribers only after they are approved by its admins."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MemberRequestsRequestToJoinDescriptionGroup",
-      "value": "This group accepts new members only after they are approved by its admins."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "MemberRequestsRequestToJoinGroup",
       "value": "Request to Join Group"
     },
@@ -8346,11 +8427,6 @@
       "_": "types.LangPackString",
       "key": "MenuCopyDate",
       "value": "Copy Date"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MenuGram",
-      "value": "My Gram"
     },
     {
       "_": "types.LangPackString",
@@ -8479,16 +8555,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsDoneMultiple",
-      "value": "{peer} marked {tasks} as done"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsDoneMultipleYou",
-      "value": "You marked {tasks} as done"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "MessageActionTodoCompletionsAsDoneYou",
       "value": "You marked \"{task}\" as done"
     },
@@ -8496,16 +8562,6 @@
       "_": "types.LangPackString",
       "key": "MessageActionTodoCompletionsAsNotDone",
       "value": "{peer} marked \"{task}\" as not done"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsNotDoneMultiple",
-      "value": "{peer} marked {tasks} as not done"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "MessageActionTodoCompletionsAsNotDoneMultipleYou",
-      "value": "You marked {tasks} as not done"
     },
     {
       "_": "types.LangPackString",
@@ -8705,12 +8761,6 @@
       "key": "Minutes",
       "one_value": "{count} minute",
       "other_value": "{count} minutes"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "MinutesAgo",
-      "one_value": "1 minute ago",
-      "other_value": "{count} minutes ago"
     },
     {
       "_": "types.LangPackString",
@@ -8947,6 +8997,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoAudioFiles",
+      "value": "No audio files"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFilesInfo",
+      "value": "Your music library is empty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFound",
+      "value": "No results found"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoAudioFoundInfo2",
+      "value": "There are no matches with **{query}**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoBlocked",
       "value": "No blocked users yet"
     },
@@ -8969,6 +9039,11 @@
       "_": "types.LangPackString",
       "key": "NoDiscussionsLinked",
       "value": "No discussion groups found"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoEmojiFound",
+      "value": "No emoji found"
     },
     {
       "_": "types.LangPackString",
@@ -9082,6 +9157,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoStickersFound",
+      "value": "No stickers found"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoSubscribeRequestsDescription",
       "value": "There are no pending join requests."
     },
@@ -9104,11 +9184,6 @@
       "_": "types.LangPackString",
       "key": "NoWordsRecognized",
       "value": "No words recognized."
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Nothing",
-      "value": "Nothing"
     },
     {
       "_": "types.LangPackString",
@@ -9264,6 +9339,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "OpenUrlWarning",
+      "value": "This link contains misleading characters or hides its real destination. Be careful when opening it."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "OptionHint",
       "value": "Option"
     },
@@ -9341,6 +9421,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeAutoLock1Hour",
+      "value": "If away for 1 hour"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock1Min",
+      "value": "If away for 1 minute"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock30Min",
+      "value": "If away for 30 minutes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLock5Min",
+      "value": "If away for 5 minutes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLockDisabled",
+      "value": "Disabled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeAutoLockTitle",
+      "value": "Auto-Lock"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeChange",
       "value": "Change passcode"
     },
@@ -9371,13 +9481,108 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeDataCorrupted",
+      "value": "Your encrypted data could not be restored. To continue using Telegram, log out of all accounts and log in again."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeEnterPasscodePlaceholder",
       "value": "Enter your passcode"
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeForgotHelp",
+      "value": "Note: if you forget your passcode, you'll need to {logOut}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeForgotHelpLink",
+      "value": "log out from all accounts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackground",
+      "value": "Keep Background"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeKeepBackgroundInfo",
+      "value": "Show your background image on the lock screen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLockScreenTitle",
+      "value": "Lock Screen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLogOutAllAccounts",
+      "value": "Log Out All Accounts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeLogOutAllConfirm",
+      "value": "Remove all accounts and local data from this browser? These sessions will remain active until you terminate them in Settings > Devices."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyDescription",
+      "value": "Use your fingerprint, face, or device PIN instead of typing the passcode."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyEnable",
+      "value": "Set Up Passkey"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyError",
+      "value": "Passkey unlock failed. Please use your passcode."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyName",
+      "value": "Local Passcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyRemovedChange",
+      "value": "Your passkey was removed because the passcode changed. Add it again to keep using passkey unlock."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyTitle",
+      "value": "Passkey"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodePasskeyUnsupported",
+      "value": "Your device or browser does not support passkey unlock."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeSwitchToKInfo",
+      "value": "To switch to the K version, disable your local passcode first."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeTooManyAttempts",
+      "value": "Too many attempts. Please try again later."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeTurnOff",
       "value": "Turn Passcode Off"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeUsePasskey",
+      "value": "Unlock with Passkey"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeWalletKeyOtherAccounts",
+      "value": "Wallet keys in another Telegram account are protected by this passcode. Switch to each account and remove its wallet keys before turning off the app passcode."
     },
     {
       "_": "types.LangPackString",
@@ -9514,11 +9719,6 @@
       "_": "types.LangPackString",
       "key": "PaymentCheckout",
       "value": "Checkout"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PaymentCheckoutAcceptRecurrent",
-      "value": "I accept the *Terms of Service* of {bot}."
     },
     {
       "_": "types.LangPackString",
@@ -9694,8 +9894,33 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Permanent",
-      "value": "Primary link"
+      "key": "PersonalChannelAddHint",
+      "value": "Add your channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PersonalChannelDescription",
+      "value": "Display the channel you manage in your profile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PersonalChannelNoChannels",
+      "value": "You have no eligible channels."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PersonalChannelPickerTitle",
+      "value": "Select Channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PersonalChannelRemove",
+      "value": "Remove Channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PersonalChannelTitle",
+      "value": "Personal Channel"
     },
     {
       "_": "types.LangPackString",
@@ -9766,11 +9991,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PlayOnceVideoMessageTooltip",
-      "value": "This video message can only be played once."
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PlayerPlaybackRate",
       "value": "Playback Rate"
     },
@@ -9783,6 +10003,21 @@
       "_": "types.LangPackString",
       "key": "PlayingGame",
       "value": "playing a game"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Playlist",
+      "value": "Playlist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PlaylistTitle",
+      "value": "{peer}'s Playlist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PlaylistYourTitle",
+      "value": "Your Playlist"
     },
     {
       "_": "types.LangPackString",
@@ -10207,13 +10442,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumPreviewReactions",
-      "value": "Unique Reactions"
+      "key": "PremiumPreviewReactionsDescription",
+      "value": "Additional animated reactions on messages, available only to Premium subscribers."
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumPreviewReactionsDescription",
-      "value": "Additional animated reactions on messages, available only to Premium subscribers."
+      "key": "PremiumPreviewRichFormatting",
+      "value": "Rich Formatting"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumPreviewRichFormattingDescription",
+      "value": "Format your messages with headings, lists, quotes and other rich blocks."
     },
     {
       "_": "types.LangPackString",
@@ -10262,8 +10502,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PremiumStickers",
-      "value": "Premium Stickers"
+      "key": "PremiumUnlockEmoji",
+      "value": "Subscribe to Telegram Premium to unlock premium emoji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PremiumUnlockStickers",
+      "value": "Subscribe to Telegram Premium to unlock premium stickers."
     },
     {
       "_": "types.LangPackString",
@@ -10275,35 +10520,6 @@
       "key": "PreviewForwardedMessage",
       "one_value": "{count} forwarded message",
       "other_value": "{count} forwarded messages"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendAudio",
-      "one_value": "Send Audio",
-      "other_value": "Send {count} Audios"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendFile",
-      "one_value": "Send File",
-      "other_value": "Send {count} Files"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendPhoto",
-      "one_value": "Send Photo",
-      "other_value": "Send {count} Photos"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PreviewSenderSendVideo",
-      "one_value": "Send Video",
-      "other_value": "Send {count} Videos"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PreviewWebPageClose",
-      "value": "Clear Webpage Preview"
     },
     {
       "_": "types.LangPackString",
@@ -10337,11 +10553,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "Privacy",
-      "value": "Privacy Settings"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PrivacyAcceptedGiftInfo",
       "value": "Choose the types of gifts that you allow others to send you."
     },
@@ -10367,26 +10578,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "PrivacyDisableLimitedEditionStarGifts",
-      "value": "Disable Limited-Edition Star Gifts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisablePremiumGifts",
-      "value": "Disable Premium Gifts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisableUniqueStarGifts",
-      "value": "Disable Unique Star Gifts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyDisableUnlimitedStarGifts",
-      "value": "Disable Unlimited Star Gifts"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "PrivacyDisplayGift",
       "value": "Gift"
     },
@@ -10399,26 +10590,6 @@
       "_": "types.LangPackString",
       "key": "PrivacyDisplayGiftsButton",
       "value": "Show gift icon in chats"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableLimitedEditionStarGifts",
-      "value": "Enable Limited-Edition Star Gifts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnablePremiumGifts",
-      "value": "Enable Premium Gifts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableUniqueStarGifts",
-      "value": "Enable Unique Star Gifts"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "PrivacyEnableUnlimitedStarGifts",
-      "value": "Enable Unlimited Star Gifts"
     },
     {
       "_": "types.LangPackString",
@@ -10474,6 +10645,21 @@
       "_": "types.LangPackString",
       "key": "PrivacyLastSeen",
       "value": "Last Seen & Online"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusic",
+      "value": "Saved Music"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusicInfo",
+      "value": "You can restrict who can see your saved music with granular precision."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyMusicTitle",
+      "value": "Who can see my saved music in profile?"
     },
     {
       "_": "types.LangPackString",
@@ -10544,12 +10730,6 @@
       "_": "types.LangPackString",
       "key": "PrivateChatsSearchContext",
       "value": "Private Chats"
-    },
-    {
-      "_": "types.LangPackStringPluralized",
-      "key": "PrizeCredits2",
-      "one_value": "Your prize is {count} Star.",
-      "other_value": "Your prize is {count} Stars."
     },
     {
       "_": "types.LangPackString",
@@ -10630,6 +10810,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfilePollsEmpty",
+      "value": "No polls yet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileSendAGift",
+      "value": "Send a Gift"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileTabBotPreview",
       "value": "Preview"
     },
@@ -10670,6 +10860,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileTabPolls",
+      "value": "Polls"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileTabPublicPosts",
       "value": "Public Posts"
     },
@@ -10702,11 +10897,6 @@
       "_": "types.LangPackString",
       "key": "ProfileTabStoriesArchive",
       "value": "Story Archive"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ProfileTabSubscribers",
-      "value": "Subscribers"
     },
     {
       "_": "types.LangPackString",
@@ -10870,11 +11060,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RankOwnerTag",
-      "value": "Owner Tag"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RatingBadgeAdded",
       "value": "Added"
     },
@@ -10956,11 +11141,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "RecentChatsClear",
-      "value": "Clear recent chats"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RecentStickers",
       "value": "Recently Used"
     },
@@ -11032,6 +11212,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RemoveMember",
+      "value": "Remove member"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RemoveRichFormatting",
+      "value": "Remove Formatting"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RemoveRichFormattingText",
+      "value": "This message uses rich formatting, which requires **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RemoveRichFormattingTitle",
+      "value": "Remove Formatting?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RemoveSymbol",
       "value": "Delete emoji"
     },
@@ -11083,13 +11283,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ReportChat",
-      "value": "Report {peer}"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "ReportMessageTitle",
-      "value": "Report message"
+      "key": "ReportChatMessagesRequired",
+      "value": "Select messages to include in your report."
     },
     {
       "_": "types.LangPackString",
@@ -11147,6 +11342,116 @@
       "value": "Report spam and leave"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseBot",
+      "one_value": "Choose a Bot",
+      "other_value": "Choose Bots"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseChannel",
+      "one_value": "Choose a Channel",
+      "other_value": "Choose Channels"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseGroup",
+      "one_value": "Choose a Group",
+      "other_value": "Choose Groups"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerChooseUser",
+      "one_value": "Choose User",
+      "other_value": "Choose Users"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirm",
+      "value": "Are you sure you want to send **{peer}** to **{bot}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmAddBot",
+      "value": "This will also add **{bot}** to **{peer}**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerConfirmBotRights",
+      "value": "This will also add **{bot}** to **{peer}** with the following admin rights: {rights}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqAdminRights",
+      "value": "You must have these admin rights: {rights}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqBotMember",
+      "value": "The bot must be in the group."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqForum",
+      "value": "The group must have topics turned on."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqNoForum",
+      "value": "The group must have topics turned off."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqNoPremium",
+      "value": "The user must not have a Premium subscription."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqOwnerChannel",
+      "value": "You must be the owner of the channel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqOwnerGroup",
+      "value": "You must be the owner of the group."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPremium",
+      "value": "The user must have a Premium subscription."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPrivateChannel",
+      "value": "The channel must be private."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPrivateGroup",
+      "value": "The group must be private."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPublicChannel",
+      "value": "The channel must be public."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerReqPublicGroup",
+      "value": "The group must be public."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RequestPeerRequirements",
+      "value": "Requirements"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RequestPeerSelectLimit",
+      "one_value": "You can select up to {count}.",
+      "other_value": "You can select up to {count}."
+    },
+    {
       "_": "types.LangPackString",
       "key": "RequestToJoinChannelDeclined",
       "value": "Your request to join the channel was declined."
@@ -11178,11 +11483,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ResetCrop",
-      "value": "Reset"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "RestictionReasonPrivateChannel",
       "value": "This is a private channel"
     },
@@ -11190,6 +11490,11 @@
       "_": "types.LangPackString",
       "key": "RestictionReasonPrivateChat",
       "value": "This is a private chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Retry",
+      "value": "Retry"
     },
     {
       "_": "types.LangPackString",
@@ -11220,6 +11525,464 @@
       "_": "types.LangPackString",
       "key": "RevokedLinks",
       "value": "Revoked Links"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonAdd",
+      "value": "Add Button to Row"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonAlign",
+      "value": "Alignment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonCenter",
+      "value": "Center"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonCopy",
+      "value": "Copy Text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonDanger",
+      "value": "Red"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonDefault",
+      "value": "Default"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonDisabled",
+      "value": "Disabled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonEdit",
+      "value": "Edit Button"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonInline",
+      "value": "Inline Button"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonInvalidUrl",
+      "value": "Enter a valid URL."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonLeft",
+      "value": "Left"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonPrimary",
+      "value": "Blue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonProfile",
+      "value": "Open Profile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonRight",
+      "value": "Right"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonRow",
+      "value": "Button Row"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonSelectUser",
+      "value": "Select User"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonStretch",
+      "value": "Stretch"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonStyle",
+      "value": "Style"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonSuccess",
+      "value": "Green"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonUnknownUser",
+      "value": "Choose a user whose profile you have opened."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichButtonUrl",
+      "value": "Open Link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorBlockMenu",
+      "value": "Insert block"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorBlockPlaceholder",
+      "value": "Type something"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorBlockquote",
+      "value": "Quote"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorBulletList",
+      "value": "Bulleted list"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorButtonCopyText",
+      "value": "Text to copy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorChecklist",
+      "value": "Checklist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorCodeBlock",
+      "value": "Code block"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorCodeLanguageAuto",
+      "value": "Auto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorDetails",
+      "value": "Details"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorDivider",
+      "value": "Divider"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorFooter",
+      "value": "Footer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorFormula",
+      "value": "Formula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorFormulaPrompt",
+      "value": "Enter formula..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorFormulaToBlock",
+      "value": "Convert to block formula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorFormulaToInline",
+      "value": "Convert to inline formula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorHeading",
+      "value": "Heading"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorHeadingLevel",
+      "value": "Heading {level}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListCheckmarks",
+      "value": "Checkmarks"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListMenu",
+      "value": "Lists"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListNumberingDecimal",
+      "value": "Numbers (1, 2, 3)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListNumberingLowercaseLetters",
+      "value": "Lowercase letters (a, b, c)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListNumberingLowercaseRoman",
+      "value": "Lowercase Roman (i, ii, iii)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListNumberingType",
+      "value": "Numbering type"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListNumberingUppercaseLetters",
+      "value": "Uppercase letters (A, B, C)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListNumberingUppercaseRoman",
+      "value": "Uppercase Roman (I, II, III)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListOptions",
+      "value": "List options"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorListReverseOrder",
+      "value": "Reverse order"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorOrderedList",
+      "value": "Numbered list"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorPullquote",
+      "value": "Pullquote"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorPullquotePlaceholder",
+      "value": "Type a quote here"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorQuoteCaptionPlaceholder",
+      "value": "Add author"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTable",
+      "value": "Table"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableActionsAria",
+      "value": "Open table actions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlign",
+      "value": "Alignment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlignBottom",
+      "value": "Align bottom"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlignCenter",
+      "value": "Align center"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlignLeft",
+      "value": "Align left"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlignMiddle",
+      "value": "Align middle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlignRight",
+      "value": "Align right"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableAlignTop",
+      "value": "Align top"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableBorderless",
+      "value": "Borderless"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableCompact",
+      "value": "Compact Table"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RichEditorTableDeleteColumn",
+      "one_value": "Delete column",
+      "other_value": "Delete {count} columns"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RichEditorTableDeleteRow",
+      "one_value": "Delete row",
+      "other_value": "Delete {count} rows"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableDeleteTable",
+      "value": "Delete table"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableHighlight",
+      "value": "Highlight"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableInsert",
+      "value": "Insert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableInsertColumnLeft",
+      "value": "Insert column left"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableInsertColumnRight",
+      "value": "Insert column right"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableInsertRowAbove",
+      "value": "Insert row above"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableInsertRowBelow",
+      "value": "Insert row below"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableMergeCells",
+      "value": "Merge cells"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableMove",
+      "value": "Move"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableMoveDown",
+      "value": "Move down"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableMoveLeft",
+      "value": "Move left"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableMoveRight",
+      "value": "Move right"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableMoveUp",
+      "value": "Move up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableRemoveHighlight",
+      "value": "Remove highlight"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableResizeSelectionAria",
+      "value": "Resize cell selection"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableSelectColumnAria",
+      "value": "Select column"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableSelectRowAria",
+      "value": "Select row"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableSelectTableAria",
+      "value": "Select table"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableSplitCell",
+      "value": "Split cell"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichEditorTableStriped",
+      "value": "Striped rows"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichFormattingSubscribe",
+      "value": "Subscribe to Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMediaCollage",
+      "value": "Collage"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMediaRetry",
+      "value": "Retry upload"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "RichMediaSkippedFiles",
+      "one_value": "Skipped {count} file.",
+      "other_value": "Skipped {count} files."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMediaSlideshow",
+      "value": "Slideshow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMediaUploadFailed",
+      "value": "Upload failed"
     },
     {
       "_": "types.LangPackString",
@@ -11280,6 +12043,11 @@
       "_": "types.LangPackString",
       "key": "SavedMessagesShort",
       "value": "Saved"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedOpenChat",
+      "value": "Open Chat"
     },
     {
       "_": "types.LangPackString",
@@ -11355,11 +12123,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchAllMessagesTab",
-      "value": "All messages"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SearchApps",
       "value": "Search Apps"
     },
@@ -11370,8 +12133,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchFilesTab",
-      "value": "Files"
+      "key": "SearchEmoji",
+      "value": "Search Emoji"
     },
     {
       "_": "types.LangPackString",
@@ -11385,28 +12148,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchGifsTab",
-      "value": "GIF"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "SearchGifsTitle",
       "value": "Search GIFs"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchGroupsTab",
-      "value": "Groups"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchLinksTab",
-      "value": "Links"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchMediaTab",
-      "value": "Media"
     },
     {
       "_": "types.LangPackString",
@@ -11414,20 +12157,9 @@
       "value": "Messages"
     },
     {
-      "_": "types.LangPackStringPluralized",
-      "key": "SearchMessagesFound",
-      "one_value": "1 message found",
-      "other_value": "{count} messages found"
-    },
-    {
       "_": "types.LangPackString",
-      "key": "SearchMusicTab",
-      "value": "Music"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SearchNoResults",
-      "value": "No messages found"
+      "key": "SearchMusic",
+      "value": "Search music"
     },
     {
       "_": "types.LangPackString",
@@ -11446,8 +12178,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SearchStickersHint",
-      "value": "Search sticker sets"
+      "key": "SearchStickers",
+      "value": "Search Stickers"
     },
     {
       "_": "types.LangPackString",
@@ -11500,20 +12232,10 @@
       "value": "Voice"
     },
     {
-      "_": "types.LangPackString",
-      "key": "SearchVoiceTab",
-      "value": "Voice"
-    },
-    {
       "_": "types.LangPackStringPluralized",
       "key": "Seconds",
       "one_value": "{count} second",
       "other_value": "{count} seconds"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SecretChat",
-      "value": "Secret Chat"
     },
     {
       "_": "types.LangPackString",
@@ -11792,8 +12514,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetAutoDeleteTimer",
+      "value": "Set Auto-Delete"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SetColor",
       "value": "Set a color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SetCustomTime",
+      "value": "Set Custom Time"
     },
     {
       "_": "types.LangPackString",
@@ -11857,6 +12589,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsAccount",
+      "value": "Account"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsAccountDesc",
+      "value": "Username, Bio, Birthday"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsAutomaticTextReplacements",
+      "value": "Automatic text replacements"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsAutomaticTextReplacementsInfo",
+      "value": "Convert --, << and >> as you type"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsBirthday",
       "value": "Birthday"
     },
@@ -11877,13 +12629,8 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsDisableNightTheme",
-      "value": "Disable night mode"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsEnableNightTheme",
-      "value": "Enable night mode"
+      "key": "SettingsDataDesc",
+      "value": "Media Download, Cache"
     },
     {
       "_": "types.LangPackString",
@@ -11902,8 +12649,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsFoldersDesc",
+      "value": "Sort chats into folders"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsFoldersEmpty",
       "value": "You have no folders yet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsGeneralDesc",
+      "value": "Wallpaper, Theme, Keyboard"
     },
     {
       "_": "types.LangPackString",
@@ -11932,13 +12689,18 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsOfflineNotificationUnsupported",
-      "value": "Not supported"
+      "key": "SettingsLanguageDesc",
+      "value": "{language}, Translate Messages"
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsPasscodeEnabled",
-      "value": "Local Passcode is Enabled"
+      "key": "SettingsNotificationsDesc",
+      "value": "Sounds, Calls, Badges"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsOfflineNotificationUnsupported",
+      "value": "Not supported"
     },
     {
       "_": "types.LangPackString",
@@ -12027,6 +12789,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsPerformanceDesc",
+      "value": "Animations, Transitions, Autoplay"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsPerformanceGranularTitle",
       "value": "Resource-Intensive Processes"
     },
@@ -12049,11 +12816,6 @@
       "_": "types.LangPackString",
       "key": "SettingsPerformanceMediaViewer",
       "value": "Media Viewer Animations"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsPerformanceMessageBlur",
-      "value": "Message Blur"
     },
     {
       "_": "types.LangPackString",
@@ -12127,6 +12889,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsPrivacyDesc",
+      "value": "Last Seen, Password, Blocked Users"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsSaveChanges",
       "value": "Save changes"
     },
@@ -12172,6 +12939,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsSessionsDesc",
+      "value": "Sessions, Automatically terminate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SettingsStickersDesc",
+      "value": "Stickers, Emoji, Reactions"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsTimeFormat",
       "value": "Time format"
     },
@@ -12187,18 +12964,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "SettingsTipsUsername",
-      "value": "TelegramTips"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SettingsTray",
-      "value": "Show Icon in Menu Bar"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "Share",
       "value": "Share"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShareLinkCopied",
+      "value": "Copied to Clipboard"
     },
     {
       "_": "types.LangPackString",
@@ -12239,6 +13011,11 @@
       "_": "types.LangPackString",
       "key": "ShowFolderTagsHint",
       "value": "Display folder names for each chat in the chat list."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShowMore",
+      "value": "Show more"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12299,6 +13076,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SponsoredMessage",
+      "value": "ad"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageAd",
       "value": "Ad"
     },
@@ -12306,11 +13088,6 @@
       "_": "types.LangPackString",
       "key": "SponsoredMessageAdWhatIsThis",
       "value": "what's this?"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "SponsoredMessageAlertLearnMoreUrl",
-      "value": "https://ads.telegram.org"
     },
     {
       "_": "types.LangPackString",
@@ -12461,6 +13238,11 @@
       "_": "types.LangPackString",
       "key": "StarsAmount",
       "value": "⭐️{amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsAmountIconLast",
+      "value": "{amount}⭐️"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12767,6 +13549,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPackAddEmojiCount",
+      "one_value": "Add {count} emoji",
+      "other_value": "Add {count} emoji"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPackAddStickerCount",
       "one_value": "Add {count} sticker",
       "other_value": "Add {count} stickers"
@@ -12775,6 +13563,12 @@
       "_": "types.LangPackString",
       "key": "StickerPackErrorNotFound",
       "value": "Sorry, this sticker set doesn't seem to exist."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPackRemoveEmojiCount",
+      "one_value": "Remove {count} emoji",
+      "other_value": "Remove {count} emoji"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12790,6 +13584,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerSearchGlobalResult",
+      "value": "Global Search Result"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerSearchResult",
+      "value": "Search Result"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stickers",
       "value": "Stickers"
     },
@@ -12797,16 +13601,6 @@
       "_": "types.LangPackString",
       "key": "StickersAddToFavorites",
       "value": "Add to Favorites"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "StickersInstall",
-      "value": "ADD"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "StickersInstalled",
-      "value": "ADDED"
     },
     {
       "_": "types.LangPackString",
@@ -13107,7 +13901,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestionBirthdaySetupMessage",
-      "value": "Let your contacts know when you’re celebrating"
+      "value": "Let your contacts know when to celebrate."
     },
     {
       "_": "types.LangPackString",
@@ -13138,11 +13932,6 @@
       "_": "types.LangPackString",
       "key": "Telegram",
       "value": "Telegram"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TelegramFeatures",
-      "value": "Telegram Features"
     },
     {
       "_": "types.LangPackString",
@@ -13214,16 +14003,6 @@
       "_": "types.LangPackString",
       "key": "TextSensitiveModal",
       "value": "This media may contain sensitive content suitable only for adults. Do you still want to view it?"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TextShowLess",
-      "value": "less"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "TextShowMore",
-      "value": "more"
     },
     {
       "_": "types.LangPackString",
@@ -13367,13 +14146,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "ToDoListErrorChooseTasks",
-      "value": "Please enter at least one task."
+      "key": "ToDoListTasksLimitReached",
+      "value": "Maximum number of tasks reached."
     },
     {
       "_": "types.LangPackString",
-      "key": "ToDoListErrorChooseTitle",
-      "value": "Please enter a title."
+      "key": "ToDoListTasksTitle",
+      "value": "Tasks"
     },
     {
       "_": "types.LangPackString",
@@ -13419,6 +14198,16 @@
       "_": "types.LangPackString",
       "key": "TranslationToneNeutral",
       "value": "Neutral"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TrendingPremiumStickers",
+      "value": "Trending Premium Stickers"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TrendingStickers",
+      "value": "Trending Stickers"
     },
     {
       "_": "types.LangPackString",
@@ -13742,11 +14531,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "UserRestrictionsEmbedLinks",
-      "value": "Embed Links"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "UserRestrictionsInviteUsers",
       "value": "Add Users"
     },
@@ -14065,11 +14849,6 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipCamera",
-      "value": "Camera"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipChatJoin",
       "value": "Join"
     },
@@ -14077,11 +14856,6 @@
       "_": "types.LangPackString",
       "key": "VoipChatStartScreenCapture",
       "value": "Share screen"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipChatStopScreenCapture",
-      "value": "Stop sharing screen"
     },
     {
       "_": "types.LangPackString",
@@ -14132,11 +14906,6 @@
       "_": "types.LangPackString",
       "key": "VoipGroupLeave",
       "value": "Leave"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipGroupLeaveAlertEndChat",
-      "value": "End video chat"
     },
     {
       "_": "types.LangPackString",
@@ -14195,38 +14964,13 @@
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipMutedByAdmin",
-      "value": "Muted by admin"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipMutedTapedForSpeak",
-      "value": "You asked to speak"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipPeerIncompatible",
       "value": "**{user}**'s app is using an incompatible protocol. They need to update their app before you can call them."
     },
     {
       "_": "types.LangPackString",
-      "key": "VoipSpeaker",
-      "value": "Speaker"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "VoipTapToMute",
-      "value": "You're live"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "VoipUnmute",
       "value": "Unmute"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Vote",
-      "value": "Vote"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14241,8 +14985,1456 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "Add Funds"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "Wallet address copied to clipboard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "This address has no linked\nTelegram account."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveEarnings",
+      "value": "You also have {amount} in Gram Earnings"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAlsoHaveOldWallets",
+      "value": "You also have {amount} in old wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodeDescription",
+      "value": "Enter your passcode to continue."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppPasscodePlaceholder",
+      "value": "Passcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledError",
+      "value": "Backup is disabled for this wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledText",
+      "value": "Your keys are now stored encrypted across Telegram's datacenters."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledTitle",
+      "value": "Backup Enabled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupFailedError",
+      "value": "Failed to update the wallet backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupHint",
+      "value": "Your encrypted key backup is split into three parts and stored across three continents.\n\nIt can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupOffHint",
+      "value": "Your encrypted key backup will be split into three parts and stored across three continents.\n\nIt can only be reassembled on your devices, so no one — not even Telegram — can access your key."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupPartsMissingError",
+      "value": "The wallet backup is incomplete on the server"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupTitle",
+      "value": "Encrypted Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyAmountLabel",
+      "value": "You pay in {currency}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyBuyWith",
+      "value": "Buy with"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyContinue",
+      "value": "Buy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyCurrency",
+      "value": "Currency"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyError",
+      "value": "Could not start the purchase. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyExtraFee",
+      "value": "Extra fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyFee",
+      "value": "Fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodAchBankTransfer",
+      "value": "ACH Bank Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodApplePay",
+      "value": "Apple Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCard",
+      "value": "Card"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodCrossChain",
+      "value": "Cross-Chain Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGbpBankTransfer",
+      "value": "GBP Bank Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodGooglePay",
+      "value": "Google Pay"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodOpenBanking",
+      "value": "Open Banking"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodP2pExpress",
+      "value": "P2P Express"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPaypal",
+      "value": "PayPal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodPix",
+      "value": "PIX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodSepaBankTransfer",
+      "value": "SEPA Bank Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodVenmo",
+      "value": "Venmo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMethodWalletBalance",
+      "value": "Wallet Balance"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyMinMax",
+      "value": "Min {min} · Max {max}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyNetworkFee",
+      "value": "Network fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyPayWith",
+      "value": "Pay with"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTitle",
+      "value": "Buy Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyTotal",
+      "value": "Total"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyUnavailable",
+      "value": "Buying Grams is not available in your region."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyYouGet",
+      "value": "you get"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "Collectible Gift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemIn",
+      "value": "+1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleItemOut",
+      "value": "−1 item"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNotOwned",
+      "value": "This collectible is no longer in your wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNotReady",
+      "value": "This collectible is not ready to be transferred yet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "Collectible Number"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleOnSale",
+      "value": "This collectible is up for sale. Take it off sale to transfer it."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleSell",
+      "value": "Sell"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTitle",
+      "value": "Collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTraits",
+      "value": "{model} on {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransfer",
+      "value": "Transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUnavailable",
+      "value": "Unable to prepare collectible transfer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "Collectible Username"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentEncrypted",
+      "value": "🔒 Encrypted comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentEncryptionUnavailable",
+      "value": "This wallet can't receive encrypted comments yet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentTooLong",
+      "value": "Encrypted comment is too long"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "Connect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectAccess",
+      "value": "Connected apps can see your wallet address, balance and activity. They can't move funds without your approval."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActive",
+      "value": "Active connections"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectApp",
+      "value": "Connected app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectAppAccess",
+      "value": "This app can see your wallet address, balance and activity. It can't move funds without your approval."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBinaryData",
+      "value": "Binary Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBlindSign",
+      "value": "You are signing blindly. Sign only from trusted sources."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectBusyError",
+      "value": "Another wallet request is in progress"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectConfirmed",
+      "value": "Confirmed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectContractData",
+      "value": "Contract data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDataCopied",
+      "value": "Data is copied to clipboard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDeclined",
+      "value": "Declined"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnected",
+      "value": "{name} disconnected"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectDisconnectedAll",
+      "value": "All apps disconnected"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectEmpty",
+      "value": "No connected apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectError",
+      "value": "Couldn't complete the wallet request. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectExpired",
+      "value": "This request has expired."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletConnectExpiresIn",
+      "one_value": "Expires in {count} minute",
+      "other_value": "Expires in {count} minutes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFee",
+      "value": "Estimated network fee: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectFeeUnavailable",
+      "value": "Transaction simulation failed."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectHandled",
+      "value": "This request was handled on another device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInvalid",
+      "value": "This wallet request is invalid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectManifestError",
+      "value": "Couldn't load valid information about this app. Try connecting again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "The app won't be able to move funds without permission."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofAccess",
+      "value": "The app will be able to view your wallet address, balance and activity, and request a signature to sign you in. This is not a transfer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRemaining",
+      "value": "Time remaining: {seconds}s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequest",
+      "value": "Wallet request"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppDeclined",
+      "value": "{name}'s transaction request declined"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppExpired",
+      "value": "{name}'s transaction request expired"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppPending",
+      "value": "{name} requests a transaction. Tap to review."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestAppProcessed",
+      "value": "{name}'s transaction request processed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestMissing",
+      "value": "This request is no longer available."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRequestTitle",
+      "value": "{name} requests a transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectRetry",
+      "value": "Retry"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectReviewSign",
+      "value": "Carefully review the message, and if you agree, sign data."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectScreenTitle",
+      "value": "Wallet Request"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionChanged",
+      "value": "The wallet or the TON Connect session has changed. Open the request again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSessionClosed",
+      "value": "This connection is no longer active."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSign",
+      "value": "Sign"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignData",
+      "value": "Sign Data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignMessageNote",
+      "value": "This transfer is signed but not sent. The app can send it later, and the funds will move then."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSignTitle",
+      "value": "{name} requests your signature"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStale",
+      "value": "This request is out of date. Request a new one from the app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectStateInit",
+      "value": "Contract deployment data"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectSuccess",
+      "value": "Connected to {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectTitle",
+      "value": "Connect Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "Connect Money to {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectTransfer",
+      "value": "Confirm transaction"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnavailable",
+      "value": "Your wallet is not available."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnlock",
+      "value": "Unlock to view request"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectUnsupported",
+      "value": "This app requested a method that isn't supported. You can send a refusal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "Connected Apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "Copy Address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedTitle",
+      "value": "Wallet Created"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyTicker",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecryptError",
+      "value": "Failed to decrypt the comment. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "Delete anyway"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteSave",
+      "value": "Save this wallet on this device"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteText",
+      "value": "You'll lose access to your funds unless you've saved your Secret Phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteTitle",
+      "value": "Delete Wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Delete Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "Deposit funds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Disable Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirm",
+      "value": "Disable"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupFee",
+      "value": "Network fee: {amount} GRAM{fiat}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupRotateText",
+      "value": "Your distributed encrypted backup will be deleted. Your wallet will switch to the new secret phrase. This secret phrase will be the only way to recover this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupText",
+      "value": "Your distributed encrypted backup will be deleted. Your secret phrase will be the only way to recover this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Disable Backup?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "Disconnect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAll",
+      "value": "Disconnect All Apps"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllConfirm",
+      "value": "Disconnect All"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllText",
+      "value": "These apps will lose access to your wallet. You can connect them again at any time."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnectAllTitle",
+      "value": "Disconnect All Apps?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "Enable Backup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseSubtitle",
+      "value": "Enter the recovery phrase of your wallet to turn the backup back on."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterPhraseTitle",
+      "value": "Enter Recovery Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "Enter Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExistingWaltBalance",
+      "value": "You also have funds in Walt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletExportError",
+      "value": "Failed to export the recovery phrase. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantText",
+      "value": "Send Grams in any chat, just like sharing a photo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureInstantTitle",
+      "value": "Send Money Instantly"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesText",
+      "value": "First 5 transfers each day are free, the rest cost almost nothing."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureNoFeesTitle",
+      "value": "No Fees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedText",
+      "value": "All transactions are recorded and verifiable on a public ledger."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeatureVerifiedTitle",
+      "value": "Blockchain Verified"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksDone",
+      "value": "Got it"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksSubtitle",
+      "value": "Only you control your funds — no one else has access."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksTitle",
+      "value": "How It Works"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseSubtitle",
+      "value": "Enter the recovery phrase of the wallet you want to import."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroRate",
+      "value": "1 Gram currently equals {rate}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendText",
+      "value": "Transfer Grams to anyone.\nTap 📎 → Money in chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroSendTitle",
+      "value": "Send"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreText",
+      "value": "Keep your Grams in Telegram\n(💬 → ⋮ → Money) or other wallets."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroStoreTitle",
+      "value": "Store"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTitle",
+      "value": "Your first Grams!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeText",
+      "value": "Convert Grams to cash or crypto on exchanges."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroTradeTitle",
+      "value": "Trade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIntroYouCan",
+      "value": "You can:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyMismatchError",
+      "value": "The wallet key was changed on another device. Enter the current Secret Phrase to keep sending from this device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLinkNoWallet",
+      "value": "This user has no wallet yet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLoadError",
+      "value": "Couldn't load your wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLogoutWarning",
+      "value": "The Secret Phrases saved on this device for your wallets will be deleted when you log out. Make sure each phrase has a cloud backup or a written copy first."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMenuItem",
+      "value": "Money"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfo",
+      "one_value": "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfer each day.",
+      "other_value": "Every transfer costs a small network fee (**~{fee} Grams**). Telegram covers your first **{count}** transfers each day."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletNetworkFeesInfoShort",
+      "one_value": "Every transfer costs a small network fee. Telegram covers your first **{count}** transfer each day.",
+      "other_value": "Every transfer costs a small network fee. Telegram covers your first **{count}** transfers each day."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeesTitle",
+      "value": "Network Fees"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoLocalSecretError",
+      "value": "The wallet key is not stored on this device"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsHint",
+      "value": "Wallets you used before on this device. Save their recovery phrases — they'll be removed if you log out or clear the browser data."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOtherWalletsTitle",
+      "value": "Previous wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeInvalid",
+      "value": "Wrong passcode, please try again"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredSetUp",
+      "value": "Set Up Passcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredText",
+      "value": "A wallet key is kept on this device only under the app passcode, which protects it together with everything else stored here."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeRequiredTitle",
+      "value": "Passcode Required"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPasscodeTitle",
+      "value": "Passcode"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "Paste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPastePhrase",
+      "value": "Paste from Clipboard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase12Words",
+      "value": "12 words"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhrase24Words",
+      "value": "24 words"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoCanSteal",
+      "value": "If someone has your Recovery Phrase they **can steal your funds**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoNeverShare",
+      "value": "**Never share** your Recovery Phrase with anyone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseInfoSupport",
+      "value": "Telegram Support **will never ask you** for your Recovery Phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseKeepError",
+      "value": "Couldn't keep the phrase on this device. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseKept",
+      "value": "Your Secret Phrase is now kept on this device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseNotKept",
+      "value": "Your wallet was restored, but the recovery phrase could not be saved on this device. Enter it again to send from this wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPhraseOutdatedError",
+      "value": "This recovery phrase no longer controls the wallet. Enter its current phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "Visible only to you and the recipient."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProofInvalidError",
+      "value": "Check the word order.\n\nOnly a recovery phrase created in Telegram can be imported here."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccountBanner",
+      "value": "Protect your account"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectBanner",
+      "value": "Protect your Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProvisioning",
+      "value": "Creating your wallet…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "The comment is visible to everyone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveBuy",
+      "value": "Buy with cash or crypto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveCopyHint",
+      "value": "Click to copy address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveNetworkNote",
+      "value": "Share your address or QR code to receive GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveTitle",
+      "value": "Add Funds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseHint",
+      "value": "You can transfer your wallet to another device by copying your recovery phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSubtitle",
+      "value": "Your Secret Recovery Phrase is the key to back up your wallet. Keep it secret and secure at all times."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTitle",
+      "value": "Recovery Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyRemove",
+      "value": "Remove Keys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyText",
+      "value": "Your Gram wallet keys are protected by the app passcode and go with it. Make sure the backup is on or the recovery phrases are written down before turning it off."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReleaseKeyTitle",
+      "value": "Wallet Key"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceCreate",
+      "value": "Create a New Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceError",
+      "value": "Failed to replace the wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceImport",
+      "value": "Import an Existing Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceTitle",
+      "value": "How do you want to replace the old wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaced",
+      "value": "Your new wallet is ready to use."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplacedElsewhere",
+      "value": "Your wallet was replaced on another device."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRestored",
+      "value": "Your wallet was restored from your recovery phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRotationPendingError",
+      "value": "The key change is still being confirmed. Please try again in a minute."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSavedImport",
+      "value": "Import This Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseSubtitle",
+      "value": "Enter your wallet's Secret Phrase to continue. {why}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseTitle",
+      "value": "Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhy",
+      "value": "Why?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhraseWhyText",
+      "value": "Since you disabled backups for your wallet, you have to manually enter your Secret Phrase in every new Telegram session."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "Send"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAddressLinked",
+      "value": "This TON Blockchain address is linked to **{name}** on Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Amount"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendBalance",
+      "value": "Balance: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleSuccess",
+      "value": "Collectible sent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendCollectibleTitle",
+      "value": "Transfer Collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendComment",
+      "value": "Comment (optional)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendContinue",
+      "value": "Continue"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainLookupFailed",
+      "value": "Couldn't check the domain. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendDomainNotFound",
+      "value": "This domain has no wallet address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendError",
+      "value": "Failed to send Grams. Please try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendFeeUnavailable",
+      "value": "Couldn't estimate the network fee."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGaslessUnavailable",
+      "value": "The free transfer is not available right now. Check the network fee and try again."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInactiveAddress",
+      "value": "This address has never been used, so the transfer would come back. Ask the recipient for the address shown in their wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInsufficientFunds",
+      "value": "Insufficient funds."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInvalidAddress",
+      "value": "Invalid wallet address."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMax",
+      "value": "Max"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMinAmount",
+      "value": "Minimum transfer: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "Send Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendNetworkFee",
+      "value": "Network fee: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendPendingError",
+      "value": "Your previous transfer is still on its way. Please try again in a minute."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecent",
+      "value": "Recent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendRecipient",
+      "value": "Address or name"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccess",
+      "value": "Grams sent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccessGasless",
+      "value": "Grams sent, no fee charged"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendTitle",
+      "value": "Send Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendWalletChanged",
+      "value": "Your wallet has changed. Please start over."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSessionTooFreshError",
+      "value": "For security reasons, this action is unavailable during the first 24 hours after logging in. Please try again later."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSettingsTitle",
+      "value": "Settings"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowAddress",
+      "value": "Show Address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowRecoveryPhrase",
+      "value": "Show Recovery Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchAnyway",
+      "value": "Switch without keeping it"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchConfirm",
+      "value": "Switch Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchKeep",
+      "value": "Keep current wallet on this device"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchText",
+      "value": "The wallet {address} will take the place of your current one. Keep the current wallet on this device to switch back later, otherwise you'll lose access to its funds unless you've saved its recovery phrase."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSwitchTitle",
+      "value": "Switch Wallet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabCollectibles",
+      "value": "Collectibles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTabTransactions",
+      "value": "Transactions"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsLink",
+      "value": "Terms of Service"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsNotice",
+      "value": "By using this service you agree to its {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAddress",
+      "value": "Address"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionComment",
+      "value": "Comment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDate",
+      "value": "Date"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDeposit",
+      "value": "Deposit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionDomain",
+      "value": "Domain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFailed",
+      "value": "Failed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFee",
+      "value": "Fee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionFeeFree",
+      "value": "Free (paid by Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncoming",
+      "value": "Incoming transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionIncomingCollectible",
+      "value": "Incoming collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionKeyChange",
+      "value": "Key Update"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionNotFound",
+      "value": "Transaction is not found."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOpenWallet",
+      "value": "Open My Wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoing",
+      "value": "Outgoing transfer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionOutgoingCollectible",
+      "value": "Outgoing collectible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionProvider",
+      "value": "Provider"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionRecipient",
+      "value": "Recipient"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSender",
+      "value": "Sender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSending",
+      "value": "Sending…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTitle",
+      "value": "Transaction"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "Top Up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "Crypto Top-up"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionUnsupportedPeer",
+      "value": "Unsupported"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionWithdrawal",
+      "value": "Withdrawal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionsHidden",
+      "value": "Transactions under {amount} are hidden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnavailable",
+      "value": "Gram Wallet is not available yet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "Unknown User"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnsupportedWallet",
+      "value": "This wallet is not supported yet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhrase",
+      "value": "Update Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdatePhraseHint",
+      "value": "You'll get a new phrase to write down. Address and balance stay the same."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "View in Explorer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "What is Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "What is Money?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseError",
+      "value": "This recovery phrase does not match your wallet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseText",
+      "value": "The words you entered don't match the wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongPhraseTitle",
+      "value": "Wrong Secret Phrase"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Your Recovery Phrase"
     },
     {
       "_": "types.LangPackString",
@@ -14253,11 +16445,6 @@
       "_": "types.LangPackString",
       "key": "WebAppAddToAttachmentAdd",
       "value": "Add"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WebAppAddToAttachmentText",
-      "value": "{bot} requests your permission to be added as an option to your attachment menu, so you can access it from any chat."
     },
     {
       "_": "types.LangPackString",
@@ -14286,83 +16473,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebLoginInvalid",
+      "value": "This login link is invalid or has expired. Open a fresh link or log in normally."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebSessionsTitle",
       "value": "Logged In with Telegram"
     },
     {
       "_": "types.LangPackString",
-      "key": "Weekday1",
-      "value": "Mon"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday2",
-      "value": "Tue"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday3",
-      "value": "Wed"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday4",
-      "value": "Thu"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday5",
-      "value": "Fri"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday6",
-      "value": "Sat"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "Weekday7",
-      "value": "Sun"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayFriday",
-      "value": "Friday"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayMonday",
-      "value": "Monday"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySaturday",
-      "value": "Saturday"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdaySunday",
-      "value": "Sunday"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayThursday",
-      "value": "Thursday"
-    },
-    {
-      "_": "types.LangPackString",
       "key": "WeekdayToday",
       "value": "Today"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayTuesday",
-      "value": "Tuesday"
-    },
-    {
-      "_": "types.LangPackString",
-      "key": "WeekdayWednesday",
-      "value": "Wednesday"
     },
     {
       "_": "types.LangPackString",
@@ -14432,5 +16554,5 @@
       "value": "Your Name"
     }
   ],
-  "version": 295942
+  "version": 377925
 }

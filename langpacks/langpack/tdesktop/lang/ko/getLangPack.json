@@ -1051,7 +1051,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_about_dice",
-      "value": "대화방에 🎲 이모지를 보내어 텔레그램으로 무작위 숫자를 얻으세요."
+      "value": "어느 대화에서나 🎲 이모지를 보내 텔레그램에서 무작위 숫자를 받아 보세요."
     },
     {
       "_": "types.LangPackString",
@@ -1066,7 +1066,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_about_random",
-      "value": "{emoji} 이모티콘을 보내어 운수를 시험해 보세요."
+      "value": "어느 대화에서나 {emoji} 이모지를 보내 운을 시험해 보세요."
     },
     {
       "_": "types.LangPackString",
@@ -1371,7 +1371,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_action_gift_for_ton",
-      "other_value": "그램 {count}개"
+      "other_value": "{count}그램"
     },
     {
       "_": "types.LangPackString",
@@ -1596,7 +1596,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_sent_upgrade_other",
-      "value": "{from}님이 {user}님에게서 받은 선물에 대해 {cost} 상당의 업그레이드를 보냈습니다."
+      "value": "회원님이 {user}님에게 받은 선물에 {from}님이 {cost} 상당의 업그레이드를 보냈습니다."
     },
     {
       "_": "types.LangPackString",
@@ -1621,7 +1621,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_transferred",
-      "value": "{user}님이 선물을 전송했습니다"
+      "value": "{user}님이 회원님에게 선물을 보냈습니다"
     },
     {
       "_": "types.LangPackString",
@@ -1631,12 +1631,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_transferred_mine",
-      "value": "{user}님에게 선물을 전송했습니다"
+      "value": "{user}님에게 선물을 보냈습니다"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_transferred_self",
-      "value": "고유 수집품을 전송했습니다"
+      "value": "고유 수집품을 이전했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -1646,7 +1646,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_transferred_unknown",
-      "value": "누군가 나에게 선물을 전송했습니다"
+      "value": "누군가 회원님에게 선물을 보냈습니다"
     },
     {
       "_": "types.LangPackString",
@@ -1751,7 +1751,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_action_gram_transfer_amount",
-      "other_value": "{amount} 그램"
+      "other_value": "{amount}그램"
     },
     {
       "_": "types.LangPackString",
@@ -1962,6 +1962,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "이 대화에서 공유를 활성화했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "{from}님이 회원님의 무료 메시지 링크로 대화를 시작했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -2692,6 +2697,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_you_joined_by_request_channel",
       "value": "채널 입장 요청 승인됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "무료 메시지 링크로 대화를 시작했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -4021,7 +4031,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_ai_compose_create_placeholder",
-      "value": "생성할 내용을 알려주세요..."
+      "value": "텍스트, 수식 또는 표를 생성하세요..."
     },
     {
       "_": "types.LangPackString",
@@ -4387,6 +4397,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "이 이모지를 사용하려면 {link}을 구독하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "텔레그램 프리미엄"
     },
     {
       "_": "types.LangPackString",
@@ -5017,6 +5037,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "첨부 파일 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "오디오"
     },
     {
       "_": "types.LangPackString",
@@ -6226,7 +6251,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_boost_error_flood_text",
-      "value": "하루에 한번만 채널에 부스트를 할 수 있습니다. {left} 이후에 다음 부스트를 할 수 있습니다."
+      "value": "부스트할 채널은 하루에 한 번만 변경할 수 있습니다. {left} 후에 부스트할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -6726,7 +6751,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_bot_download_retry",
-      "value": "다시 보내기"
+      "value": "다시 시도"
     },
     {
       "_": "types.LangPackString",
@@ -7316,7 +7341,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_bots_password_confirm_title",
-      "value": "2단계 검증"
+      "value": "2단계 인증"
     },
     {
       "_": "types.LangPackString",
@@ -7671,7 +7696,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_fingerprint_tooltip",
-      "value": "{user}님과 이모티콘이 일치한다면, 이 통화는 100% 안전합니다."
+      "value": "{user}님과 회원님의 화면에 표시된 이모지가 같다면, 이 통화는 100% 안전합니다."
     },
     {
       "_": "types.LangPackString",
@@ -8626,7 +8651,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_chart_title_group_message_content",
-      "value": "메시지들"
+      "value": "메시지"
     },
     {
       "_": "types.LangPackString",
@@ -9206,7 +9231,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_chatbots_transfer_gifts",
-      "value": "선물 전송 및 업그레이드"
+      "value": "선물 이전 및 업그레이드"
     },
     {
       "_": "types.LangPackString",
@@ -9242,6 +9267,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "봇 {bot}이 계정의 **사용자명을 설정하거나 제거**할 수 있게 되며, 이로 인해 현재 사용자명을 잃을 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "오디오 파일 선택"
     },
     {
       "_": "types.LangPackString",
@@ -9491,12 +9521,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting",
-      "value": "{email}(으)로 인증 메일을 보냈습니다..."
+      "value": "{email}(으)로 인증 링크를 보냈습니다…"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_cloud_password_waiting_code",
-      "value": " {email} 편으로 인증 코드를 보냈습니다..."
+      "value": "{email}(으)로 인증 코드를 보냈습니다…"
     },
     {
       "_": "types.LangPackString",
@@ -9606,7 +9636,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_collectible_username_title",
-      "value": "{username}은 구독 가능한 사용자명으로 아래의 소유자가 가지고 있습니다"
+      "value": "{username}은(는) 수집형 사용자명이며, 소유자는 다음과 같습니다"
     },
     {
       "_": "types.LangPackString",
@@ -10561,7 +10591,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_contact_add_notes",
-      "value": "알림음"
+      "value": "메모"
     },
     {
       "_": "types.LangPackString",
@@ -10637,6 +10667,11 @@
       "_": "types.LangPackString",
       "key": "lng_contact_details_url",
       "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_contact_link_invalid",
+      "value": "이 링크가 유효하지 않거나 만료되었습니다."
     },
     {
       "_": "types.LangPackString",
@@ -10756,7 +10791,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_context_animated_emoji_many",
-      "other_value": "이 메시지에 **{count} 묶음**의 이모지가 들어있습니다."
+      "other_value": "이 메시지에는 **{count}묶음**의 이모지가 들어 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -10957,6 +10992,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_copy_text",
       "value": "텍스트 복사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_copy_text_from_image",
+      "value": "—이미지에서 추출한 텍스트—"
     },
     {
       "_": "types.LangPackString",
@@ -11572,6 +11612,21 @@
       "_": "types.LangPackString",
       "key": "lng_context_translate_selected",
       "value": "선택한 텍스트 번역"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_done",
+      "value": "사용자 차단이 해제되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_sure",
+      "value": "이 그룹에서 {user}님의 차단을 해제하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_user",
+      "value": "차단 해제"
     },
     {
       "_": "types.LangPackString",
@@ -14456,7 +14511,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_emoji_nothing_found",
-      "value": "발견된 이모티콘 없음"
+      "value": "발견된 이모지 없음"
     },
     {
       "_": "types.LangPackString",
@@ -15056,7 +15111,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_export_option_sessions_about",
-      "value": "설정 > 개인 정보 및 보안 > 모든 세션 표시에서 연결된 기기를 보여주기 위해 이 정보를 저장할 수 있습니다."
+      "value": "설정 > 개인정보 및 보안 > 활성 세션에서 연결된 기기를 표시하기 위해 이 정보를 저장할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -15556,7 +15611,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_filters_by_link_about_quit",
-      "value": "종료하고 싶지 않은 대화는 선택해제를 할 수 있습니다."
+      "value": "나가지 않을 대화는 선택을 해제할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -15626,7 +15681,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_filters_by_link_quit",
-      "other_value": "종료할 대화 {count}개"
+      "other_value": "나갈 대화 {count}개"
     },
     {
       "_": "types.LangPackString",
@@ -16230,13 +16285,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_deselect",
+      "value": "선택 해제"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_failed",
       "value": "압축 파일을 만들지 못했습니다."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack",
+      "value": "ZIP으로 압축"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack_selected",
+      "value": "선택한 항목을 ZIP으로 압축"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_select",
+      "value": "선택"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_status",
       "value": "ZIP 아카이브"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_unpack",
+      "value": "압축 풀기"
     },
     {
       "_": "types.LangPackString",
@@ -16486,7 +16566,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_forum_topic_created_body",
-      "value": "메시지를 보내어\n토론을 시작해보세요."
+      "value": "메시지를 보내어\n주제를 시작해보세요."
     },
     {
       "_": "types.LangPackString",
@@ -17350,6 +17430,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_delete_sure_text",
+      "value": "이 선물을 삭제하시겠습니까?\n\n프로필에서 사라지며 복구할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_deleted",
+      "value": "선물이 삭제되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_display_done",
       "value": "이 선물이 이제 프로필에 표시됩니다."
     },
@@ -17607,6 +17697,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_many_pinned_title",
       "value": "고정된 선물이 너무 많음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_menu_delete",
+      "value": "선물 삭제"
     },
     {
       "_": "types.LangPackString",
@@ -18225,6 +18320,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_stars_on_card",
+      "value": "카드에 표시됨"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_stars_on_sale",
       "value": "판매 중"
     },
@@ -18316,7 +18416,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_ton_amount",
-      "other_value": "그램 {count}개"
+      "other_value": "{count}그램"
     },
     {
       "_": "types.LangPackString",
@@ -18341,7 +18441,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_confirm_text",
-      "value": "타사 서비스 Fragment를 사용해 {name}을 TON 블록체인으로 전송할 수 있습니다. 이후에는 TON 지갑 앱에서 NFT로 관리할 수 있습니다.\n\nFragment를 통해 이러한 NFT를 텔레그램 계정으로 다시 옮길 수도 있습니다."
+      "value": "타사 서비스인 Fragment를 사용해 {name}을(를) TON 블록체인으로 전송할 수 있습니다. 이후에는 어떤 TON 지갑 앱에서든 NFT로 관리할 수 있습니다.\n\nFragment를 통해 이러한 NFT를 다시 텔레그램 계정으로 옮길 수도 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -18351,12 +18451,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_early",
-      "value": "{duration} 후 이 선물을 전송할 수 있습니다."
+      "value": "{duration} 후 이 선물을 이전할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_locked_text",
-      "value": "이 작업을 사용하려면 이 선물을 Fragment에 연결된 회원님의 텔레그램 계정으로 전송하세요."
+      "value": "이 작업을 잠금 해제하려면 이 선물을 Fragment의 텔레그램 계정으로 전송하세요."
     },
     {
       "_": "types.LangPackString",
@@ -18407,6 +18507,76 @@
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_title",
       "value": "{name} 전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts",
+      "value": "내 선물로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_appear",
+      "value": "표시 위치"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_button",
+      "value": "이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_done",
+      "value": "선물이 회원님의 계정으로 이동했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_path_icons",
+      "value": "{profile} {arrow} {gifts}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_text",
+      "value": "이 수집품을 블록체인 밖으로 옮겨 회원님의 텔레그램 계정으로 가져오시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet",
+      "value": "내 지갑으로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_appear",
+      "value": "표시 위치"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_button",
+      "value": "이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_done",
+      "value": "선물이 회원님의 지갑으로 이동했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_keep_on_profile",
+      "value": "내 프로필에 계속 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_path_icons",
+      "value": "{menu} {arrow} {money} {arrow_next} {collectibles}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_text",
+      "value": "이 선물을 회원님의 블록체인 지갑으로 전송하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_view",
+      "value": "보기"
     },
     {
       "_": "types.LangPackString",
@@ -18656,7 +18826,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_upgrade_about",
-      "value": "선물을 전송하거나 경매에 올릴 수 있는\n고유 수집품으로 바꾸세요."
+      "value": "선물을 이전하거나 경매에 올릴 수 있는\n고유 수집품으로 바꾸세요."
     },
     {
       "_": "types.LangPackString",
@@ -20410,6 +20580,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_group_call_screen",
+      "value": "화면"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_group_call_screen_share_audio",
       "value": "시스템 오디오 공유"
     },
@@ -22080,6 +22255,251 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_alt_text_select",
+      "value": "링크를 열지 않고 텍스트 선택"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_attach",
+      "value": "파일 첨부"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_autoscroll",
+      "value": "대화 자동 스크롤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_chat_switcher",
+      "value": "빠른 대화 전환"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_click",
+      "value": "클릭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_drag",
+      "value": "드래그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_edit_last",
+      "value": "마지막 메시지 수정"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_extend_selection",
+      "value": "텍스트 선택 범위 확장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_folder_numbers",
+      "value": "번호로 폴더 열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_hold",
+      "value": "길게 누르기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_close",
+      "value": "즉시 보기 닫기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_search",
+      "value": "페이지 내 검색"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom",
+      "value": "페이지 확대/축소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom_reset",
+      "value": "확대/축소 초기화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x",
+      "value": "2배속"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_next",
+      "value": "다음 챕터"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_prev",
+      "value": "이전 챕터"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_double",
+      "value": "전체 화면 전환"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_escape",
+      "value": "뷰어 닫기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fit",
+      "value": "화면에 맞추기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_flip",
+      "value": "사진 좌우 또는 상하 반전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_frame",
+      "value": "일시 정지 상태에서 프레임 단위로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen",
+      "value": "동영상 전체 화면 전환"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen_escape",
+      "value": "전체 화면 종료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_hold",
+      "value": "빠르게 재생, 드래그하여 속도 조절"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_nav",
+      "value": "이전 또는 다음 미디어"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_pause",
+      "value": "일시 정지 또는 재개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_percent",
+      "value": "동영상의 0-90% 위치로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_play",
+      "value": "재생 또는 일시 정지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_save",
+      "value": "미디어 저장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_seek",
+      "value": "재생 위치를 앞뒤로 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom",
+      "value": "확대 또는 축소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom_reset",
+      "value": "확대/축소 초기화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_new_window",
+      "value": "새 창에서 대화 열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_open",
+      "value": "이 단축키 목록 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_paste_plain",
+      "value": "일반 텍스트로 붙여넣기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_pinned_chats",
+      "value": "번호로 고정된 대화 열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_quick_preview",
+      "value": "빠른 대화 미리보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_next",
+      "value": "다음 메시지에 답장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_prev",
+      "value": "이전 메시지에 답장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_chats",
+      "value": "대화 목록"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_compose",
+      "value": "메시지 작성"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_fullscreen",
+      "value": "전체 화면 동영상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_general",
+      "value": "일반"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_iv",
+      "value": "즉시 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_media",
+      "value": "미디어 뷰어"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_messages",
+      "value": "메시지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_title",
+      "value": "단축키 및 제스처"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_wheel",
+      "value": "휠"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_language_already",
       "value": "이 언어 묶음을 이미 사용하고 계십니다. 설정에서 언제든지 언어를 되돌리실 수 있습니다."
     },
@@ -22156,7 +22576,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_lastseen_premium_about",
-      "value": "구독시 내 마지막 상태를 보여주지 않고도 **{user}**님의 정보를 볼 수 있습니다."
+      "value": "구독하면 내 마지막 접속 시간을 공개하지 않고도 **{user}**님의 마지막 접속 상태를\n볼 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -23381,7 +23801,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_manage_peer_reactions_own",
-      "value": "이모티콘 묶음을 {link} 사용할 수도 있습니다."
+      "value": "이모지 묶음을 {link} 반응으로 사용할 수도 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -25237,6 +25657,96 @@
       "_": "types.LangPackString",
       "key": "lng_no_mic_permission",
       "value": "텔레그램에서 전화와 음성 메시지 녹음을 하기 위해 마이크 접근 권한이 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "이제 {user}님에게 무료로 메시지를 보낼 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "이 무료 메시지 링크가 유효하지 않거나 만료되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "타이머 끄기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "시간제한 없이 무료 유지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "타이머 켜기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer_about",
+      "value": "1분 후 만료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "코드 초기화"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "메시지 요금 다시 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "무료 · 시간제한 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "{emoji} {amount} 요금 없애기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "무료 · {time} 후 만료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "코드가 만료되어 메시지 요금이 다시 적용됐습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "이 코드는 {duration} 후 만료됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "이 코드가 곧 만료됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "코드가 시간제한 없이 무료로 유지됩니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "새 코드가 생성됐습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "메시지 요금이 다시 적용됐습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "이 무료 메시지 링크를 사용할 수 없습니다."
     },
     {
       "_": "types.LangPackString",
@@ -27221,7 +27731,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "패키지 관리자를 사용해 WebKitGTK(webkit2gtk-4.1/webkit2gtk-4.0)를 설치하세요."
+      "value": "패키지 관리자를 사용해 WebKitGTK(webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0)를 설치하세요."
     },
     {
       "_": "types.LangPackString",
@@ -27330,6 +27840,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "이 링크가 곧 만료됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "이 링크를 사용할 수 없습니다. QR 코드를 다시 열어 시도해 주세요."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_phone_desc",
       "value": "국가 번호를 확인하고\n휴대전화 번호를 입력해 주세요."
     },
@@ -27365,8 +27885,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "오디오 제거"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "스티커 모서리를 얼마나 둥글게 할지 선택하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_corners_circle",
+      "value": "원"
     },
     {
       "_": "types.LangPackString",
@@ -27440,6 +27970,206 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas",
+      "value": "캔버스"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_pan",
+      "value": "확대된 캔버스 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_paste",
+      "value": "이미지, 스티커, 파일 또는 링크 붙여넣기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_redo",
+      "value": "다시 실행"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_undo",
+      "value": "실행 취소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "커서 위치에서 캔버스 확대/축소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop",
+      "value": "자르기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "사진 바깥으로 캔버스 확장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "축소하여 사진 주변에 여백 만들기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "두 번 클릭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_pan",
+      "value": "프레임 안에서 사진 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom",
+      "value": "프레임 안에서 사진 확대/축소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom_fine",
+      "value": "더 세밀하게 확대/축소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_click",
+      "value": "클릭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "드래그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "가장자리 드래그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "조절점 드래그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_wheel",
+      "value": "휠"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "이 단축키 표시"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_click",
+      "value": "마우스 가운데 버튼 클릭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_drag",
+      "value": "마우스 가운데 버튼으로 드래그"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects",
+      "value": "개체"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_delete",
+      "value": "선택 항목 삭제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_duplicate",
+      "value": "선택 항목 복제"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_flip",
+      "value": "선택 항목 좌우 반전"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_rotate",
+      "value": "45° 단위로 회전만 하기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_snap",
+      "value": "캔버스 안내선에 맞추기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_stretch",
+      "value": "도형을 자유롭게 늘리기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_text",
+      "value": "텍스트 편집"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes",
+      "value": "도형"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_instant",
+      "value": "메뉴에서 도형을 바로 배치"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_proportions",
+      "value": "비율 유지 또는 화살표 각도 맞추기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline",
+      "value": "타임라인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_scroll",
+      "value": "타임라인 스크롤"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_window",
+      "value": "자르기 구간 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_zoom",
+      "value": "타임라인 확대/축소"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "키보드 단축키"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "마우스 휠"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "링크 텍스트 편집"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_menu_delete",
       "value": "삭제"
     },
@@ -27507,6 +28237,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_text_style_semi_transparent",
       "value": "반투명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_trim_shortest",
+      "value": "가장 짧은 길이에 맞춰 자르기"
     },
     {
       "_": "types.LangPackString",
@@ -28391,7 +29126,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_emoji_status_about",
-      "value": "이모지 상태는 프리미엄 기능입니다. 다양한 기능이 포함된 **텔레그램 프리미엄**에 대해 살펴보세요."
+      "value": "이모지 상태는 프리미엄 기능입니다. **텔레그램 프리미엄**에 포함된 다른 기능:"
     },
     {
       "_": "types.LangPackString",
@@ -28661,7 +29396,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_summary_about_animated_emoji",
-      "value": "보내는 메시지마다 개성 넘치는 움직이는 이모지를 넣어보세요."
+      "value": "보내는 메시지마다 다양한 묶음의 움직이는 이모지를 넣어 보세요."
     },
     {
       "_": "types.LangPackString",
@@ -29006,7 +29741,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_unlock_emoji",
-      "value": "움직이는 이모티콘 잠금 해제"
+      "value": "움직이는 이모지 잠금 해제"
     },
     {
       "_": "types.LangPackString",
@@ -30630,8 +31365,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_colors",
+      "value": "색상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_emoji",
+      "value": "이모지"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "폰트 크기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts",
+      "value": "선물"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "선물 둘러보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "보유한 수집용 선물로 QR 코드를 꾸며 보세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "아직 선물이 없습니다"
     },
     {
       "_": "types.LangPackString",
@@ -30806,7 +31571,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_readtime_premium_about",
-      "value": "구독시 내 읽음 시간을 보여주지 않고도 **{user}**님의 정보를 볼 수 있습니다."
+      "value": "구독하면 내 읽음 시간을 공개하지 않고도 **{user}**님의 읽음 시간을\n볼 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -34861,7 +35626,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_downloading_update",
-      "value": "업데이트 {progress} 다운로드 중..."
+      "value": "업데이트 {progress} 다운로드 중…"
     },
     {
       "_": "types.LangPackString",
@@ -35301,7 +36066,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_passcode_lock_off_wallet",
-      "value": "지갑은 이 암호로 계속 보호됩니다. 앱 실행 시 잠금만 꺼집니다."
+      "value": "이 암호는 거래를 확인할 때만 필요하며, 지갑을 열 때는 필요하지 않습니다."
     },
     {
       "_": "types.LangPackString",
@@ -36625,6 +37390,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_reset_sure",
+      "value": "모든 키보드 단축키를 기본값으로 초기화하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_rich_editor",
       "value": "아티클 편집기 열기"
     },
@@ -36677,6 +37447,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "무음 전송"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "메시지 임시 보관 또는 복원"
     },
     {
       "_": "types.LangPackString",
@@ -37412,6 +38187,16 @@
       "_": "types.LangPackString",
       "key": "lng_sr_from_me",
       "value": "나"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_hide",
+      "value": "참가자 숨기기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_show",
+      "value": "참가자 보기"
     },
     {
       "_": "types.LangPackString",
@@ -38242,6 +39027,21 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "시작하기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "임시 보관할 파일이 너무 많거나 너무 큽니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "{shortcut}을(를) 눌러 이 초안을 임시 보관하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "임시 보관한 메시지 복원"
     },
     {
       "_": "types.LangPackString",
@@ -39886,7 +40686,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_suggest_ton_amount",
-      "other_value": "그램 {count}개"
+      "other_value": "{count}그램"
     },
     {
       "_": "types.LangPackString",
@@ -40046,7 +40846,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_sure_logout_wallet_local",
-      "other_value": "그램 지갑 {count}개의 키는 이 기기에만 저장되어 있으며 텔레그램에 백업이 없습니다. 계속하면 해당 키가 삭제되며, 비밀 문구로만 해당 지갑을 복구할 수 있습니다."
+      "other_value": "회원님의 지갑 {count}개의 키는 이 기기에만 저장되어 있으며 텔레그램에 백업이 없습니다. 계속하면 해당 키가 삭제되며, 각 지갑의 비밀 문구로만 지갑을 복구할 수 있습니다."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -41280,6 +42080,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_about",
+      "value": "{bot}에서 회원님의 지갑을 이 사이트에 연결하도록 요청합니다. 사이트는 회원님의 TON 주소, 잔액 및 활동 내역을 볼 수 있지만, 회원님의 허락 없이 자금을 옮길 수는 없습니다. 연결 시에는 전송이 아닌 로그인을 위한 서명을 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_connect",
+      "value": "지갑 연결"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_label",
+      "value": "지갑"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key",
+      "value": "이 기기에는 이 지갑의 현재 키가 없습니다. 지갑을 연결하려면 {link}가 필요합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key_link",
+      "value": "키 복구"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_reserved",
+      "value": "이 사이트에는 지갑 접근 권한을 부여할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_user_action_choose_sticker",
       "value": "{user}님이 스티커 고르는 중"
     },
@@ -41776,7 +42606,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_about_chain_text",
-      "value": "모든 거래는 공개 장부에 기록되어 검증할 수 있습니다."
+      "value": "모든 거래는 공개 원장에 기록되며 검증할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -41846,7 +42676,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_about_on",
-      "value": "암호화 백업은 키를 세 부분으로 나누어 세 대륙에 분산 저장합니다.\n\n회원님의 기기에서만 다시 합칠 수 있으므로 텔레그램을 포함해 누구도 회원님의 키에 접근할 수 없습니다."
+      "value": "암호화된 키 백업은 세 부분으로 나뉘어 세 대륙에 분산 저장됩니다.\n\n회원님의 기기에서만 다시 합칠 수 있으므로 텔레그램을 포함해 누구도 회원님의 키에 접근할 수 없습니다."
     },
     {
       "_": "types.LangPackString",
@@ -41861,7 +42691,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_cancel_title",
-      "value": "백업 끄기를 취소하시겠습니까?"
+      "value": "백업을 유지하시겠습니까?"
     },
     {
       "_": "types.LangPackString",
@@ -41881,7 +42711,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_disabled_text",
-      "value": "이제 비밀 문구만으로 지갑을 복구할 수 있습니다."
+      "value": "이제 비밀 문구로만 지갑을 복구할 수 있습니다."
     },
     {
       "_": "types.LangPackString",
@@ -41961,7 +42791,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_backup_topup_text",
-      "value": "비밀 문구를 변경하려면 {amount} 그램({fiat})이 필요합니다."
+      "value": "비밀 문구를 변경하려면 {amount}그램({fiat})이 필요합니다."
     },
     {
       "_": "types.LangPackString",
@@ -41986,7 +42816,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_buy_button",
-      "value": "카드 또는 암호화폐로 구매"
+      "value": "현금 또는 암호화폐로 구매"
     },
     {
       "_": "types.LangPackString",
@@ -41995,8 +42825,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_card_add",
+      "value": "카드에 추가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_apply_color",
+      "value": "색상 적용"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_last",
+      "value": "{all} 및 {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_one",
+      "value": "{all}, {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_not_allowed",
+      "value": "이 선물은 카드 배경으로 설정할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_only",
+      "value": "{collections} 선물만 카드 색상을 바꾸는 데 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_drag_hint",
+      "value": "이 수집품을 카드로 드래그하여 꾸며 보세요."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_card_limit",
+      "other_value": "카드에는 선물을 최대 {count}개까지 놓을 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_not_ready",
+      "value": "아직 카드를 편집할 수 없습니다. 다시 시도해 주세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove",
+      "value": "카드에서 제거"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove_color",
+      "value": "색상 제거"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_save_error",
+      "value": "카드를 저장하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_saved_profile",
+      "value": "이 선물은 프로필에 표시되어 있습니다. 카드에 넣으려면 먼저 프로필에서 숨기세요."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_gift",
-      "value": "수집품 선물"
+      "value": "수집형 선물"
     },
     {
       "_": "types.LangPackString",
@@ -42006,12 +42901,17 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
-      "value": "익명 번호"
+      "value": "수집형 번호"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_chip_username",
-      "value": "수집 가능한 사용자명"
+      "value": "수집형 사용자명"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_gift_attributes",
+      "value": "{backdrop} 배경의 {model}"
     },
     {
       "_": "types.LangPackString",
@@ -42020,8 +42920,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_not_owned",
+      "value": "이 수집품은 더 이상 회원님의 지갑에 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_number_about",
-      "value": "SIM 카드에 연결되지 않은 텔레그램 계정을 만드는 데 사용할 수 있는 익명 번호 {number}입니다."
+      "value": "수집형 번호 {number}은(는) SIM 카드에 연결되지 않은 텔레그램 계정을 만드는 데 사용할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_own_wallet",
+      "value": "이 수집품은 이미 회원님의 지갑에 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_send",
+      "value": "{name} 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_show_in_gifts",
+      "value": "내 선물에도 표시"
     },
     {
       "_": "types.LangPackString",
@@ -42351,7 +43271,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_title_app",
-      "value": "{name}에 지갑 연결"
+      "value": "{name}에 자산 연결"
     },
     {
       "_": "types.LangPackString",
@@ -42420,8 +43340,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_from_profile",
+      "value": "프로필에서 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_to_profile",
+      "value": "프로필로 이동"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_details_open_wallet",
-      "value": "내 지갑 열기"
+      "value": "내 자산 열기"
     },
     {
       "_": "types.LangPackString",
@@ -42471,7 +43401,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_first_rate",
-      "value": "현재 1 그램의 가치는 {amount}입니다.\n다음을 할 수 있습니다:"
+      "value": "현재 1그램의 가치는 {amount}입니다.\n다음을 할 수 있습니다:"
     },
     {
       "_": "types.LangPackString",
@@ -42521,7 +43451,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_how_menu",
-      "value": "지갑이란?"
+      "value": "자산이란 무엇인가요?"
     },
     {
       "_": "types.LangPackString",
@@ -42576,7 +43506,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_import_text",
-      "value": "회원님 소유의 다른 지갑에서 비밀 문구를 입력하세요."
+      "value": "회원님이 소유한 다른 지갑의 비밀 문구를 입력하세요."
     },
     {
       "_": "types.LangPackString",
@@ -42721,7 +43651,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_warn_share",
-      "value": "비밀 문구를 누구에게도 **절대 공개하지 마세요**."
+      "value": "비밀 문구를 누구에게도 **절대 공유하지 마세요**."
     },
     {
       "_": "types.LangPackString",
@@ -42731,7 +43661,32 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_phrase_warn_support",
-      "value": "**텔레그램 지원팀**은 회원님의 비밀 문구를 절대 요구하지 않습니다."
+      "value": "텔레그램 지원팀은 회원님의 비밀 문구를 **절대 요구하지 않습니다**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "잔액:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_none",
+      "value": "{name}은(는) 아직\n그램을 보유하고 있지 않습니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_profile_balance_owns",
+      "other_value": "{name}의 TON 블록체인 보유 잔액은\n{amount}그램입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_public",
+      "value": "블록체인의 투명성으로 인해 회원님의 잔액은 공개됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_how_works",
+      "value": "어떻게 사용하나요?"
     },
     {
       "_": "types.LangPackString",
@@ -43000,6 +43955,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_from_profile",
+      "value": "프로필에서 이동"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_to_profile",
+      "value": "프로필로 이동"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_outgoing",
       "value": "보낸 자금"
     },
@@ -43007,6 +43972,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_sending",
       "value": "전송 중"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_telegram",
+      "value": "텔레그램"
     },
     {
       "_": "types.LangPackString",
@@ -43061,7 +44031,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_error_insufficient",
-      "value": "이 전송에 필요한 그램이 부족합니다."
+      "value": "잔액이 부족합니다."
     },
     {
       "_": "types.LangPackString",
@@ -43072,6 +44042,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_send_error_too_small",
       "value": "최소 전송 금액은 {amount} 그램입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "그램 지갑"
     },
     {
       "_": "types.LangPackString",
@@ -43116,7 +44091,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_title",
-      "value": "그램 보내기"
+      "value": "그램 전송"
     },
     {
       "_": "types.LangPackString",
@@ -43126,7 +44101,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_user_title",
-      "value": "{user}님에게 보내기"
+      "value": "송금 대상"
     },
     {
       "_": "types.LangPackString",
@@ -43151,7 +44126,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_unavailable",
-      "value": "이 계정에서는 지갑을 사용할 수 없습니다."
+      "value": "이 계정에서는 자산 기능을 사용할 수 없습니다."
     },
     {
       "_": "types.LangPackString",
@@ -43176,7 +44151,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_walt_existing",
-      "value": "Walt에도 자산이 있습니다"
+      "value": "Walt에도 자금이 있습니다"
     },
     {
       "_": "types.LangPackString",
@@ -43309,5 +44284,5 @@
       "other_value": "{count} 스타를 결제했습니다."
     }
   ],
-  "version": 5916340
+  "version": 6003462
 }

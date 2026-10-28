@@ -1784,6 +1784,11 @@
       "other_value": "%d 个月高级版订阅"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "ActionGiftPremiumTitle2Days",
+      "other_value": "%d 天高级版订阅"
+    },
+    {
       "_": "types.LangPackString",
       "key": "ActionGiftPremiumView",
       "value": "查看"
@@ -3556,7 +3561,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "匿名号码"
+      "value": "典藏号码"
     },
     {
       "_": "types.LangPackString",
@@ -3851,7 +3856,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "ApproveNewMembersEnableForLinks",
-      "other_value": "同时启用此群组中 %1$d 个现有邀请链接的 **批准新成员** 功能？"
+      "other_value": "同时启用此群组中 %1$d 个现有邀请链接的**批准新订阅者**功能？"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -3961,7 +3966,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArchiveHintSection1",
-      "value": "已归档的动态"
+      "value": "已存档聊天"
     },
     {
       "_": "types.LangPackString",
@@ -4380,6 +4385,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AreYouSureLogoutGrams",
+      "value": "此操作将取消您所有的秘密聊天，并 **删除存储 %s 的钱包备份**。如果您尚未保存这些钱包的助记词，将无法再访问其中的资金。\n\n您可以在所有设备上同时使用 Telegram，并在同一应用中登录多个账号。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AreYouSureRegistration",
       "value": "您确定要取消注册吗？"
     },
@@ -4781,7 +4791,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArticleListTodo",
-      "value": "核对列表"
+      "value": "代办"
     },
     {
       "_": "types.LangPackString",
@@ -5177,6 +5187,41 @@
       "_": "types.LangPackString",
       "key": "AudioAutodownload",
       "value": "语音消息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneral",
+      "value": "录音机"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderGeneralInfo",
+      "value": "RNNoise 可以消除背景噪音，但可能会影响音乐或非常轻声的谈话。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppression",
+      "value": "噪声抑制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionOff",
+      "value": "离开"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderNoiseSuppressionRNNoise",
+      "value": "RNNoise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderSettings",
+      "value": "语音消息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderUseNewRecorder",
+      "value": "使用新的录音机"
     },
     {
       "_": "types.LangPackString",
@@ -9245,6 +9290,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotTypeAI",
+      "value": "人工智能"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeAgent",
+      "value": "代理人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeApp",
+      "value": "应用程序"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeGame",
+      "value": "游戏"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotTypeNonBinary",
+      "value": "非二元性别"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotUnblock",
       "value": "重新启用"
     },
@@ -12346,7 +12416,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelPostDeleted",
-      "value": "抱歉，该贴文已从讨论群组中移除。"
+      "value": "抱歉，此公告已从讨论群组移除。"
     },
     {
       "_": "types.LangPackString",
@@ -14926,7 +14996,7 @@
     {
       "_": "types.LangPackString",
       "key": "ContactInfoPhoneFragment",
-      "value": "匿名"
+      "value": "典藏"
     },
     {
       "_": "types.LangPackString",
@@ -15280,8 +15350,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameBotLimit",
+      "value": "此机器人已拥有高级用户名。请先移除现有用户名，再添加其他用户名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameCheckFailed",
+      "value": "无法验证此用户名。请重试。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameInfo",
       "value": "点击以编辑机器人名称"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameOwnerLimit",
+      "value": "您的所有机器人中，最多只能拥有 %1$d 个以「%2$s」结尾的用户名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequired",
+      "value": "使用以「%1$s」结尾的用户需要订阅 Telegram 高级版。**订阅 ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequiredGeneric",
+      "value": "此用户名需要订阅 Telegram 高级版。**订阅 ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixMissing",
+      "value": "用户名必须以「%1$s」结尾。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesComma",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesInfo",
+      "value": "必须以「bot」结尾——或有 **Telegram 高级版** 订阅的情况下，可以「%1$s」结尾。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesOr",
+      "value": "%1$s 或者 %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -17876,7 +17991,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "此电子邮件域名不允许使用。"
+      "value": "无法使用此邮箱地址。"
     },
     {
       "_": "types.LangPackString",
@@ -19026,7 +19141,7 @@
     {
       "_": "types.LangPackString",
       "key": "EventLogPinTopic",
-      "value": "un1 置顶话题 un2"
+      "value": "un1 已置顶话题 un2"
     },
     {
       "_": "types.LangPackString",
@@ -21570,6 +21685,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2AddToProfile",
+      "value": "添加到个人资料"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2AddedToCollection",
       "value": "**%1$s** 已添加至 **%2$s**。"
     },
@@ -21577,6 +21697,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "Gift2AddedToCollectionMany",
       "other_value": "**%1$d 份礼物** 已添加到 **%2$s**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2AlsoShowInMyGifts",
+      "value": "同时显示在我的礼物中"
     },
     {
       "_": "types.LangPackString",
@@ -21994,6 +22119,11 @@
       "value": "**%d** 颗星星是 **%s ** 份礼物的平均成交价。"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2BrowseCollectiblesInfo",
+      "value": "在个人资料页面展示礼物。将限量版商品升级为可交易的收藏品。"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2ButtonSell",
       "other_value": "以 %d 颗星星的价格售出"
@@ -22250,6 +22380,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2DeleteOption",
+      "value": "删除礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2DeleteText",
+      "value": "要删除这份礼物吗？\n\n它将从你的个人资料中消失，且无法恢复。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Deleted",
+      "value": "礼物已删除"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2EditCollectionNameTitle",
       "value": "编辑名称"
     },
@@ -22362,6 +22507,11 @@
       "_": "types.LangPackString",
       "key": "Gift2HideChannelInfo",
       "value": "你可以对此频道的所有访客（管理员除外）隐藏您的名字和消息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2HideFromProfile",
+      "value": "从个人资料中隐藏"
     },
     {
       "_": "types.LangPackString",
@@ -22535,6 +22685,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2KeepOnProfile",
+      "value": "继续显示在我的个人资料中"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2LearnMoreText",
       "value": "让 %s 将该礼物转换为独家典藏品。"
     },
@@ -22652,6 +22807,51 @@
       "_": "types.LangPackString",
       "key": "Gift2More",
       "value": "**更多关于星星的介绍 >**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2Move",
+      "value": "移动"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveAppearIn",
+      "value": "它将出现在"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGifts",
+      "value": "移至我的礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsInfo",
+      "value": "您可以随时将其移回区块链上。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyGiftsText",
+      "value": "要将此收藏品通过链下方式转移到你的 Telegram 账号吗？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWallet",
+      "value": "移至我的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MoveToMyWalletText",
+      "value": "是否将这份礼物转入您的区块链钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToProfile",
+      "value": "礼物已添加到您的个人资料。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2MovedToWallet",
+      "value": "礼物已转入您的钱包。"
     },
     {
       "_": "types.LangPackString",
@@ -22940,6 +23140,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift2RemoveFromProfile",
+      "value": "从个人资料中移除"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift2RemovedFromCollection",
       "value": "**%1$s** 已从 **%2$s** 移除。"
     },
@@ -23109,6 +23314,11 @@
       "other_value": "以 ⭐️%d 购买礼物"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Gift2SendViaFragment",
+      "value": "通过 Fragment 发送"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Gift2SendYourBalance",
       "other_value": "你的余额为 %d 颗星星"
@@ -23127,6 +23337,11 @@
       "_": "types.LangPackString",
       "key": "Gift2ShowGift",
       "value": "显示"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2ShowOnProfile",
+      "value": "在个人资料中显示"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -23422,6 +23637,36 @@
       "_": "types.LangPackString",
       "key": "Gift2TransferTimeoutTitle",
       "value": "稍后再试"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfile",
+      "value": "转到我的个人资料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyProfileText",
+      "value": "要将 **%s** 从你的钱包转移到你的 Telegram 个人资料吗？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWallet",
+      "value": "转到我的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletSent",
+      "value": "**%s** 正在转入你的钱包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletText",
+      "value": "您想将 **%s** 转入您的钱包吗？它将一直显示在您的个人资料中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2TransferToMyWalletTitle",
+      "value": "转账至钱包"
     },
     {
       "_": "types.LangPackString",
@@ -23782,6 +24027,11 @@
       "_": "types.LangPackString",
       "key": "Gift2WearTitle",
       "value": "佩戴 %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift2WearWalletHidden",
+      "value": "在你的个人资料中显示这份礼物即可佩戴。"
     },
     {
       "_": "types.LangPackString",
@@ -25127,6 +25377,41 @@
       "_": "types.LangPackString",
       "key": "Grain",
       "value": "噪点"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "other_value": "%1$s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramCurrency",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarnings",
+      "value": "Gram 收入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsHint",
+      "value": "您可以通过 Fragment 提取您的 Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "您通过礼物、\n广告及 Fragment 获得的 Gram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsTitle",
+      "value": "Gram 收入"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Grams",
+      "other_value": "%1$s Gram"
     },
     {
       "_": "types.LangPackString",
@@ -30326,7 +30611,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationTransactionDetailWithdrawButton",
-      "value": "在区块链检索器中查看"
+      "value": "在浏览器中查看"
     },
     {
       "_": "types.LangPackString",
@@ -31265,6 +31550,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenImported",
+      "value": "您现在可以免费向 **%1$s** 发送消息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsed",
+      "value": "un1 已使用您的二维码，可以免费给您发送消息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesTokenUsedOut",
+      "value": "你扫描了 un1 的二维码，可以免费向对方发送消息。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPhoneFound",
       "value": "没有绑定此电话号的 Telegram 账号。"
     },
@@ -32005,6 +32305,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGramTransfer",
+      "value": "%1$s 发给你 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferComment",
+      "value": "%1$s 发给你 %2$s：%3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknown",
+      "value": "您已收到 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferUnknownComment",
+      "value": "您已收到 %2$s：%3$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGroupAddMember",
       "value": "%1$s 已邀请 %3$s 加入群组 %2$s"
     },
@@ -32517,6 +32837,16 @@
       "_": "types.LangPackString",
       "key": "NotificationUnrecognizedDevice",
       "value": "%1$s，\n我们发现您的帐号在 %2$s 从新的设备登录\n\n设备：%3$s\n位置：%4$s\n\n如果这不是您本人，您可以前往「Telegram 设置 > 隐私和安全 > 设备」中将该对话进行注销。\n\n如果您认为其他人在您不知情的情况下登录了您的账号，您可以在「Telegram 设置 > 隐私和安全」中开启「两步验证」。\n\n此致，\nTelegram 团队"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequest",
+      "value": "您有一个 Gram Connect 请求"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationWalletTonConnectRequestDapp",
+      "value": "您收到一则来自Gram Connect 的请求%1$s"
     },
     {
       "_": "types.LangPackString",
@@ -36035,6 +36365,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PleaseEnterCurrentPasswordGiftWallet",
+      "value": "请输入密码，将 **%s** 转入你的钱包。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PleaseEnterCurrentPasswordTransfer",
       "value": "请输入密码完成转让。"
     },
@@ -37026,7 +37361,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewBusinessStoriesDescription",
-      "value": "在您的页面上发布您的商品或服务的照片和视频。"
+      "value": "在您的页面上发布商品或服务的照片和视频。"
     },
     {
       "_": "types.LangPackString",
@@ -39110,6 +39445,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactGameScore",
+      "value": "%3$s 对你的游戏分数作出了 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactGeo",
       "value": "对您的地图 %3$s"
     },
@@ -39145,6 +39485,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactPollUpdate",
+      "value": "%3$s 对你的投票更新作出 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactQuiz",
       "value": "对您的 %4$s 问答 %3$s"
     },
@@ -39160,13 +39505,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactStory",
+      "value": "%3$s 对你的动态作出了 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactText",
       "value": "对您的 “%4$s” %3$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushChatReactThemeChange",
+      "value": "%3$s 对您的主题更改作出 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushChatReactTodo",
       "value": "%3$s 于 %2$s 对您的核对清单作出 %4$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushChatReactTodoUpdate",
+      "value": "%3$s 对你的任务更新作出 %2$s 回应"
     },
     {
       "_": "types.LangPackString",
@@ -39195,6 +39555,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactGameScore",
+      "value": "%2$s 对你的游戏分数作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactGeo",
       "value": "对您的地图 %2$s"
     },
@@ -39207,6 +39572,21 @@
       "_": "types.LangPackString",
       "key": "PushReactGif",
       "value": "对您的 GIF 动态图 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGiftCode",
+      "value": "%2$s 对你的礼品码作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransfer",
+      "value": "%2$s 对您的 %3$s 转账作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactGramTransferComment",
+      "value": "%2$s 对您的 %3$s 转账：作出了 %4$s 回应"
     },
     {
       "_": "types.LangPackString",
@@ -39225,8 +39605,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactPaidMedia",
+      "value": "%2$s 对您的付费贴文作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactPhoto",
       "value": "对您的图片 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactPhotoSecret",
+      "value": "对您的阅后即焚视频作出 %2$s 回应"
     },
     {
       "_": "types.LangPackString",
@@ -39235,13 +39625,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactProximity",
+      "value": "%2$s 对您的附近提醒作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactQuiz",
       "value": "对您的 %3$s 问答 %2$s"
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactRecurringPay",
+      "value": "%2$s 对你的付款作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactRound",
       "value": "对您的视频消息 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSameWallpaper",
+      "value": "%2$s 对相同的背景作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactScreenshot",
+      "value": "对您的截图作出了 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGift",
+      "value": "对您的价值 %3$s 星星的礼物做出 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftPrepaidUpgrade",
+      "value": "%2$s 对您价值 %3$s 颗星星的礼物升级作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUnpackUpgrade",
+      "value": "%2$s 对您协助升级的礼物作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactStarGiftUpgrade",
+      "value": "%2$s 对您升级后的礼物作出了回应"
     },
     {
       "_": "types.LangPackString",
@@ -39265,8 +39695,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactStoryMention",
+      "value": "%2$s 对你的动态提及作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestBirthday",
+      "value": "%2$s 对你的生日建议作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactSuggestUserpic",
+      "value": "%2$s 对你的照片建议作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactText",
       "value": "对您的 “%3$s” %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactThemeChange",
+      "value": "%2$s 对你的主题更改作出了回应"
     },
     {
       "_": "types.LangPackString",
@@ -39275,8 +39725,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PushReactTodoUpdate",
+      "value": "对你的任务更新作出 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactUniqueStarGift",
+      "value": "%2$s 对你的礼物作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PushReactVideo",
       "value": "对您的视频 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactVideoSecret",
+      "value": "对您的阅后即焚视频作出 %2$s 回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWalletTonConnectRequest",
+      "value": "%2$s 对您的 TON Connect 请求作出了回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PushReactWallpaper",
+      "value": "%2$s 对你的新背景作出了回应"
     },
     {
       "_": "types.LangPackString",
@@ -39320,8 +39795,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrBrowseGifts",
+      "value": "浏览礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrChatNoCollectibles",
+      "value": "这里目前还没有任何收藏品。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrCode",
       "value": "二维码 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCollectibles",
+      "value": "收藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrCreatingLink",
+      "value": "正在创建链接…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrEmojiPresets",
+      "value": "预设"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrGift",
+      "value": "礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrLoadingGifts",
+      "value": "正在加载礼物……"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoCollectibles",
+      "value": "你还没有收藏品。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsInfo",
+      "value": "使用你拥有的任何收藏品\n来设计你的二维码。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoGiftsTitle",
+      "value": "目前还没有礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidExpiresIn",
+      "value": "到期时间 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidFree",
+      "value": "免费"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimer",
+      "value": "停用计时器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuDisableTimerInfo",
+      "value": "永久免费，无时间限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimer",
+      "value": "启用计时器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuEnableTimerInfo",
+      "value": "1 分钟后失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuReset",
+      "value": "重置二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidMenuRestoreFee",
+      "value": "恢复消息费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidNoTimeLimit",
+      "value": "没有时间限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveFee",
+      "value": "移除信息费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidRemoveStarsFee",
+      "value": "免收 ★%1$s 费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpired",
+      "value": "二维码已失效，重新开始收费"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastExpires",
+      "value": "此二维码将在 1 分钟后失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastFeeRestored",
+      "value": "已恢复消息费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNewCode",
+      "value": "创建了新二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrNoPaidToastNoTimeLimit",
+      "value": "二维码永久免费，无时间限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumEmojiToast",
+      "value": "订阅高级版即可使用所有表情符号。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumGiftsToast",
+      "value": "订阅高级版，\n将礼物添加到你的二维码。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrPremiumSubscribe",
+      "value": "订阅"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrProfileColors",
+      "value": "个人资料颜色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrSavedToGallery",
+      "value": "已将二维码保存到相册"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrScanQr",
+      "value": "扫描二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrThemePremiumOnly",
+      "value": "表情符号和礼物需要高级版才能使用。"
     },
     {
       "_": "types.LangPackString",
@@ -41522,6 +42162,76 @@
       "_": "types.LangPackString",
       "key": "RoamingUsage",
       "value": "漫游流量使用情况"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoBitrate",
+      "value": "视频比特率"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolution",
+      "value": "相机分辨率"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionHigh",
+      "value": "高解析度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionLow",
+      "value": "低解析度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCameraResolutionMedium",
+      "value": "中解析度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoComposition",
+      "value": "构图"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionEnabled",
+      "value": "圆形视频样式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoCompositionInfo",
+      "value": "禁用样式，以录制一个没有外圈模糊、变暗或 Telegram 叠加效果的普通正方形。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoFrameRate",
+      "value": "帧率"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneral",
+      "value": "录音机"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoGeneralInfo",
+      "value": "只有当前后摄像头都支持 60 帧/秒时才会使用 60 帧/秒。否则，录制帧率将降至 30 帧/秒。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoOutputResolution",
+      "value": "输出分辨率"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoSettings",
+      "value": "圆形视频"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RoundVideoUseNewRecorder",
+      "value": "使用 Camera2 录影机"
     },
     {
       "_": "types.LangPackString",
@@ -46736,7 +47446,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionViewInBlockchainExplorer",
-      "value": "到区块链浏览器查看"
+      "value": "在浏览器中查看"
     },
     {
       "_": "types.LangPackString",
@@ -48971,7 +49681,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestStickers",
-      "value": "根据表情联想贴纸"
+      "value": "根据表情符号建议贴纸"
     },
     {
       "_": "types.LangPackString",
@@ -53006,7 +53716,7 @@
     {
       "_": "types.LangPackString",
       "key": "UsernameAlso",
-      "value": "同时 %1$s"
+      "value": "还有 %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -55325,8 +56035,1268 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGrams",
+      "value": "un1 向您转账 **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsSomeone",
+      "value": "某人转帐 **%1$s** 给你"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGrams",
+      "value": "您已转给 un1 **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionSentGramsShort",
+      "value": "您发送了 **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActions",
+      "value": "操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActiveConnections",
+      "value": "活跃连接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddComment",
+      "value": "添加评论"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddFunds",
+      "value": "充值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddress",
+      "value": "地址"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "钱包地址已复制到剪贴板"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedBulletin",
+      "value": "地址已复制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedShort",
+      "value": "地址已复制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressLinkedToUser",
+      "value": "此 TON 区块链地址已关联到 Telegram 上的 %1$s。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressNoLinkedAccount",
+      "value": "此地址未连接任何 Telegram 账号。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressOrName",
+      "value": "名称或钱包地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsSignature",
+      "value": "%1$s 请您签名"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAppRequestsTransfer",
+      "value": "%1$s 请求转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAttachMoney",
+      "value": "钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAuthorizeTransactionPasscode",
+      "value": "请输入您当前的 Telegram 密码以授权交易。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBack",
+      "value": "返回"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabled",
+      "value": "已禁用备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledDescription",
+      "value": "您的加密密钥备份将分为三部分，分别保存在三大洲。\n\n它只能在您的设备上重新组合，因此任何人 — 即使是包括 Telegram，也无法访问您的密钥。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupDisabledInfo",
+      "value": "现在，恢复短语是恢复您钱包的唯一方法。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabled",
+      "value": "已启用备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "您的加密密钥备份分为三部分，分别存储于三大洲。\n\n它只能在您的设备上重组，所以没有人 — 连 Telegram 也无法 — 能访问您的密钥。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledInfo",
+      "value": "您的密钥现已在 Telegram 各数据中心加密存储。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBalanceAmount",
+      "value": "余额: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryData",
+      "value": "二进制内容"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBinaryDataWarning",
+      "value": "您正在盲目签名。请仅对来自可信来源的资料进行签名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerified",
+      "value": "经区块链验证"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBlockchainVerifiedInfo",
+      "value": "所有交易都会被记录下来，并可在公开账本上进行验证。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyWithCashOrCrypto",
+      "value": "用现金或加密货币购买"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCancel",
+      "value": "取消"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard2D",
+      "value": "2D 卡片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCard3D",
+      "value": "3D 卡片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectible",
+      "value": "收藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleGift",
+      "value": "典藏品礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleModelBackdrop",
+      "value": "%1$s 在 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleNumber",
+      "value": "典藏号码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleTransferPrepareFailed",
+      "value": "无法准备收藏转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibleUsername",
+      "value": "收藏家用户名"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCollectibles",
+      "value": "收藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentOptionalMessage",
+      "value": "可选消息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirm",
+      "value": "确认"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmAction",
+      "value": "确认操作"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithFingerprint",
+      "value": "通过指纹确认"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConfirmWithPasscode",
+      "value": "使用密码确认"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnect",
+      "value": "连接"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectInfo",
+      "value": "该应用程序将能够查看您的 TON 地址、\n余额和活动记录。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectPermissionInfo",
+      "value": "未经授权，该应用程序无法转移资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectProofInfo",
+      "value": "该应用可以查看您的 TON 地址、余额和交易记录，并要求您签名才能登录。这并非转账。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToApp",
+      "value": "将钱包连接到 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectToDApp",
+      "value": "将钱包连接到 dApp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApp",
+      "value": "已连接的应用程序"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppInfo",
+      "value": "此应用可查看您的钱包地址、余额及交易记录。未经您批准，它无法转移资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedApps",
+      "value": "已连接的 App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectedAppsInfo",
+      "value": "已连接的应用程序可以查看您的钱包地址、余额及交易记录。未经您批准，它们无法转移资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContinue",
+      "value": "继续"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "呼叫合同"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCopyAddress",
+      "value": "复制地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreateNew",
+      "value": "创建新钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreated",
+      "value": "钱包已创建"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCreatedInfo",
+      "value": "您的新钱包已可正常使用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrency",
+      "value": "货币"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrencyUSD",
+      "value": "美元"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhrase",
+      "value": "当前密语"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCurrentSecretPhraseInfo",
+      "value": "谁拥有这组助记词，谁就能控制你的钱包。请将其抄写下来并妥善保管。如果丢失，你将失去其中的资金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDate",
+      "value": "日期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDecline",
+      "value": "拒绝"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDelete",
+      "value": "删除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteAnyway",
+      "value": "仍然删除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "删除钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "如果您没有保存助记词，您将失去对资金的访问权限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "删除钱包?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDepositFunds",
+      "value": "存款资金"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "禁用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "禁用备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupConfirmInfo",
+      "value": "您的分布式加密备份将被删除。您的钱包将切换至新的助记词，此后该助记词将是恢复此钱包的唯一方式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupExistingPhraseInfo",
+      "value": "您的全部加密备份将被删除。此后，密语将成为恢复此钱包的唯一方式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "恢复资金的唯一方式是手动输入您的助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "禁用备份？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisconnect",
+      "value": "断开"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDomain",
+      "value": "领域"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "完成"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnableBackup",
+      "value": "启用备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "加密备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhrase",
+      "value": "请输入您的钱包助记词\n以继续。**为什么？**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEnterSecretPhraseInfo",
+      "value": "由于您已禁用钱包的备份功能，因此您必须每次在新的 Telegram 连线中手动输入您的密语。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailed",
+      "value": "失败"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFailedTransfer",
+      "value": "转账失败"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFee",
+      "value": "费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmount",
+      "value": "费用: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeeAmountWithCurrency",
+      "value": "费用: %1$s (%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFeePaidByTelegram",
+      "value": "免费（由 Telegram 支付）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFingerprintRetry",
+      "value": "指纹识别失败，请重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGrams",
+      "value": "您的第一笔 Gram！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsActions",
+      "value": "你可以:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsRate",
+      "value": "%1$s 目前等于 %2$s 美元。\n您可以："
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsSendInfo",
+      "value": "将 Gram 转账给任何人。\n在聊天中点击  📎 → 我的钱包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsStoreInfo",
+      "value": "将您的 Gram 存放在 Telegram \n(💬 → ⋮ →  我的钱包）或其他钱包中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletFirstGramsTradeInfo",
+      "value": "在交易所将 Gram 兑换成现金或加密货币。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftAddToCard",
+      "value": "添加至卡片 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftApplyColor",
+      "value": "应用颜色 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnly",
+      "value": "仅有 %1$s 和 %2$s 可用于更改卡片颜色。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftColorOnlyOne",
+      "value": "只能使用 %1$s 来更改卡片的颜色。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHere",
+      "value": "将此收藏品拖到此处。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftDragHint",
+      "value": "将此收藏品拖到卡片上进行装饰。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftOnCard",
+      "value": "卡片上"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveColor",
+      "value": "移除颜色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGiftRemoveFromCard",
+      "value": "从卡片中移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGotIt",
+      "value": "了解"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramEarningsBalance",
+      "value": "您的 Gram 收益中还有 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletGramWalletAddress",
+      "value": "Gram 钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHiddenTransactions",
+      "value": "金额低于 %1$s 的交易已隐藏。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorks",
+      "value": "运作原理"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletHowItWorksInfo",
+      "value": "只有您能掌控您的资金——\n其他人无法存取。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImport",
+      "value": "导入钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportButton",
+      "value": "导入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportCurrentPhraseInfo",
+      "value": "请从另一台设备输入您钱包的 %1$d 字助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportExisting",
+      "value": "导入一个已有钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportPhraseInfo",
+      "value": "请输入您拥有的另一只钱包中的 %1$d 字助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportThisWallet",
+      "value": "导入此钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImported",
+      "value": "已导入钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "您的钱包已通过密语恢复。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingCollectibleAmount",
+      "value": "+1 件物品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransfer",
+      "value": "转入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletIncomingTransferNft",
+      "value": "转入典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInsufficientFunds",
+      "value": "资金不足。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "密语无效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhraseInfo",
+      "value": "请检查词序。\n\n此处仅能导入在 Telegram 中创建的密语。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeyUpdate",
+      "value": "密钥更新"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletKeysAndBackup",
+      "value": "秘钥和备份"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLock",
+      "value": "锁定钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletLockInfo",
+      "value": "转账或确认其他敏感操作时，此为需要此步骤。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMakeCommentPublic",
+      "value": "公开评论"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMinimumAmount",
+      "value": "最低金额：%1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedFromProfile",
+      "value": "已从个人资料中移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMovedToProfile",
+      "value": "已移至个人资料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFee",
+      "value": "网络费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeAmount",
+      "value": "网络费用: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNetworkFeeInfo",
+      "value": "每次转账都会收取一小笔网络费用 (**~%1$s**)。\n\n每天的前 **5** 由 Telegram 为您承担。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhrase",
+      "value": "新密语"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNewSecretPhraseInfo",
+      "value": "已生成您钱包的新密语。请抄写并妥善保管，切勿泄露。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "无手续费 "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNoFeesInfo",
+      "value": "每天前 5 笔转账免费，其余转账费用也几乎可以忽略不计。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGram",
+      "value": "Gram 不足"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotEnoughGramToTransferGift",
+      "value": "你至少需要 %s 才能转让礼物。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletNotNow",
+      "value": "现在不要"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOK",
+      "value": "确定"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOldWalletsBalance",
+      "value": "您的旧钱包中还持有 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyMoney",
+      "value": "打开我的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "打开 “我的钱包”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOptionalComment",
+      "value": "可选评论"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 件"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransfer",
+      "value": "转出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingTransferNft",
+      "value": "转出典藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPaste",
+      "value": "粘贴"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletPhraseWords",
+      "other_value": "%d 个单词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreview",
+      "value": "预览"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletLastUsed",
+      "value": "\n%1$s — 上次使用于 %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWallets",
+      "value": "以前使用的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPreviousWalletsInfo",
+      "value": "您此前在此设备上使用过的钱包。请保存它们的密语——如果您退出登录或重新安装应用，它们将被移除。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPrivateCommentInfo",
+      "value": "仅你和接收方可见。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsGrams",
+      "value": "%1$s 在 TON 区块链上拥有 %2$s。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProfileOwnsNoGrams",
+      "value": "%1$s 目前还没有 Gram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletProtectAccount",
+      "value": "保护你的账号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicBalanceNote",
+      "value": "由于区块链的透明性，您的余额是公开的。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletPublicCommentInfo",
+      "value": "评论对所有人可见。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReceiveInfo",
+      "value": "分享您的地址或此\n二维码以接收 GRAM。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipient",
+      "value": "接收方"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecipientUnavailable",
+      "value": "收款人钱包不可用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "如果有人取得您的助记词，他们 **便能偷取您的资金**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "您的助记词是备份和恢复钱包的关键。请务必始终妥善保管。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "显示密语"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "您的密语是备份钱包的关键。请始终对其保密并妥善保管。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "密语"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "**千万不要** 把您的助记词告诉任何人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "Telegram 客服 **绝对不会要求你** 提供助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "您可以通过复制您的 12 个单词的密语将您的钱包转移到另一台设备。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReplaceWalletTitle",
+      "value": "您想要如何替换旧钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletReviewSigningData",
+      "value": "请仔细核对消息内容，如同意请对数据进行签名。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSaveOnDevice",
+      "value": "将目前钱包保存至此设备"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletScanQRCode",
+      "value": "扫描二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchGifts",
+      "value": "搜索礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSearchNoResults",
+      "value": "搜索 \"%1$s\" 未找到任何结果。\n请尝试输入其他名称或地址。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSecretPhrase",
+      "value": "助记词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSell",
+      "value": "卖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSend",
+      "value": "发送"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "发送%1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendGrams",
+      "value": "发送 Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "即时转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantlyInfo",
+      "value": "在任何聊天中发送 Gram，就像分享照片一样简单。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoney",
+      "value": "转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendMoneyTo",
+      "value": "转账至"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSender",
+      "value": "发送方"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSending",
+      "value": "正在发送…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowMyQR",
+      "value": "显示我的二维码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSign",
+      "value": "签名"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSignData",
+      "value": "签名资料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningData",
+      "value": "数据"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSigningDataCopied",
+      "value": "数据已复制到剪贴板"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletStore",
+      "value": "储存"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTapToSetAmount",
+      "value": "点击设置金额"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTermsOfService",
+      "value": "使用此服务，即表示您同意 **条款**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhrase",
+      "value": "测试时间"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTestPhraseInfo",
+      "value": "确认你已正确写下你的助记词。\n请输入 **%1$d**、**%2$d** 及 **%3$d** 这三个单词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectManifestLoadFailed",
+      "value": "无法加载 dApp 清单：%1$s "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppDeclined",
+      "value": "%s 交易请求被拒绝"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppExpired",
+      "value": "%s 的交易请求已过期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppPending",
+      "value": "%s 请求交易。点击查看。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestAppProcessed",
+      "value": "%s 交易请求已处理"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestDeclined",
+      "value": "应用程序交易请求被拒绝"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestExpired",
+      "value": "应用程序交易请求已过期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestPending",
+      "value": "已连接的应用请求交易。点击查看。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestProcessed",
+      "value": "应用程序交易请求已处理"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectRequestUnavailable",
+      "value": "此 TON Connect 请求不可用或已被回复"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionClosed",
+      "value": "TON Connect 会话已关闭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTonConnectSessionResponseEmpty",
+      "value": "TON Connect 会话响应为空"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTopUp",
+      "value": "充值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTouchFingerprint",
+      "value": "触摸指纹传感器即可解锁钱包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTrade",
+      "value": "交易"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionAmountStatus",
+      "value": "%1$s · %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "交易模拟失败"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTelegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUp",
+      "value": "银行卡充值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactionTopUpCrypto",
+      "value": "加密货币充值"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransactions",
+      "value": "转账"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransfer",
+      "value": "转移"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferCollectible",
+      "value": "转移收藏品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusFailed",
+      "value": "失败"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusReceived",
+      "value": "已收到"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferStatusSent",
+      "value": "已发送"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferTo",
+      "value": "至 %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferToMultiple",
+      "value": "到 %1$s  +%2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTransferWorth",
+      "value": "%1$s（%2$s）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknown",
+      "value": "未知"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownAddress",
+      "value": "未知地址"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnknownUser",
+      "value": "未知用户"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUnlock",
+      "value": "解锁钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "更新助记词"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfo",
+      "value": "您将收到一句新短语，请将其写下来。地址和余额维持不变。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "您将收到一条新的短语需要记下。地址和余额保持不变。\n网络费用：%1$s（~%2$s）。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInsufficientFunds",
+      "value": "您需要 %1$s (~%2$s) 才能更新助记词。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUseDevicePasscode",
+      "value": "使用设备 PIN 码或密码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUserWallet",
+      "value": "%1$s 的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletViewInExplorer",
+      "value": "在浏览器上查看"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWaltFunds",
+      "value": "您在 Walt 中也有余额"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsGram",
+      "value": "什么是 Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "什么是钱包？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhrase",
+      "value": "密语错误"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletWrongSecretPhraseInfo",
+      "value": "您输入的词语与该钱包不符。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "你的助记词"
     },
     {
       "_": "types.LangPackString",
@@ -56384,5 +58354,5 @@
       "value": "Telegram 通行证"
     }
   ],
-  "version": 61158357
+  "version": 61485232
 }

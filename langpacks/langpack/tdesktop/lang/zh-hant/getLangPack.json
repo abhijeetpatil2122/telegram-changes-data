@@ -1596,7 +1596,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gift_sent_upgrade_other",
-      "value": "{from} 為您從 {user} 收到的禮物贈送了價值 {cost} 的升級機會。"
+      "value": "{from} 為您從 {user} 處收到的禮物贈送了價值 {cost} 的升級機會。"
     },
     {
       "_": "types.LangPackString",
@@ -1741,7 +1741,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_giveaway_started",
-      "value": "{from} 剛發起向其訂閲者贈送 Telegram Premium 的贈獎活動。"
+      "value": "{from} 剛發起向其訂閱者贈送 Telegram Premium 的贈獎活動。"
     },
     {
       "_": "types.LangPackString",
@@ -1781,7 +1781,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_action_gram_transfer_received_tag",
-      "value": "已接收"
+      "value": "已收到"
     },
     {
       "_": "types.LangPackString",
@@ -1962,6 +1962,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_no_forwards_you_enabled",
       "value": "您已啟用此聊天中的分享功能"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_no_paid_token_used",
+      "value": "{from} 透過您的免費訊息連結發起了聊天"
     },
     {
       "_": "types.LangPackString",
@@ -2695,6 +2700,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_you_no_paid_token_used",
+      "value": "您已透過免費訊息連結開啟一個聊天室"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_you_proximity_reached",
       "value": "您現在距離 {user} 約 {distance}之內"
     },
@@ -3096,7 +3106,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_admin_log_changed_linked_channel",
-      "value": "{from} 連結了本群組與 «{chat}» 頻道"
+      "value": "{from} 將綁定的頻道變更為「{chat}」"
     },
     {
       "_": "types.LangPackString",
@@ -3346,7 +3356,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_admin_log_filter_sub_extend",
-      "value": "更新訂閲"
+      "value": "更新訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -3661,7 +3671,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_admin_log_removed_linked_channel",
-      "value": "{from} 移除了已連結的頻道"
+      "value": "{from} 已移除綁定的頻道"
     },
     {
       "_": "types.LangPackString",
@@ -3841,7 +3851,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_admin_log_subscription_extend",
-      "value": "{name} 已更新訂閲至 {date}"
+      "value": "{name} 已更新訂閱至 {date}"
     },
     {
       "_": "types.LangPackString",
@@ -4021,7 +4031,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_ai_compose_create_placeholder",
-      "value": "請告訴我們要產生什麼…"
+      "value": "產生文字、公式或表格……"
     },
     {
       "_": "types.LangPackString",
@@ -4387,6 +4397,16 @@
       "_": "types.LangPackString",
       "key": "lng_animated_emoji_saved_open",
       "value": "打開"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe",
+      "value": "訂閱 {link} 以解鎖此表情符號。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_animated_emoji_subscribe_link",
+      "value": "Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -5017,6 +5037,11 @@
       "_": "types.LangPackString",
       "key": "lng_attach",
       "value": "加入附件"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_attach_audio",
+      "value": "音訊"
     },
     {
       "_": "types.LangPackString",
@@ -6501,12 +6526,12 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_boosts_prepaid_giveaway_moths",
-      "other_value": "{count} 個月的訂閲"
+      "other_value": "{count} 個月的訂閱"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_boosts_prepaid_giveaway_quantity",
-      "other_value": "{count} 份 Telegram Premium"
+      "other_value": "{count} Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -7981,12 +8006,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_caption_move_down",
-      "value": "下移説明文字"
+      "value": "下移說明文字"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_caption_move_up",
-      "value": "上移説明文字"
+      "value": "上移說明文字"
     },
     {
       "_": "types.LangPackString",
@@ -9161,7 +9186,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_chatbots_read",
-      "value": "閲讀訊息"
+      "value": "閱讀訊息"
     },
     {
       "_": "types.LangPackString",
@@ -9237,6 +9262,11 @@
       "_": "types.LangPackString",
       "key": "lng_chatbots_warning_username_text",
       "value": "機器人 {bot} 將有權對您的帳號**設定和移除用戶名稱**，這可能會導致您遺失目前的用戶名稱。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_choose_audio",
+      "value": "選擇一個音訊檔"
     },
     {
       "_": "types.LangPackString",
@@ -10635,6 +10665,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_contact_link_invalid",
+      "value": "此連結無效或已過期。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_contact_mobile_hidden",
       "value": "手機號碼已隱藏"
     },
@@ -10952,6 +10987,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_copy_text",
       "value": "複製文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_copy_text_from_image",
+      "value": "—圖片文字—"
     },
     {
       "_": "types.LangPackString",
@@ -11565,6 +11605,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_unban_done",
+      "value": "解除用戶封禁"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_sure",
+      "value": "要在此群組中解除 {user} 的封禁嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_unban_user",
+      "value": "解除封鎖"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_unmute",
       "value": "開啟通知"
     },
@@ -12061,7 +12116,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_box_history_entry_play_market",
-      "value": "Play Store"
+      "value": "Google Play"
     },
     {
       "_": "types.LangPackString",
@@ -12166,7 +12221,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_credits_box_out_subscription_confirm",
-      "other_value": "以{emoji} {count}/月訂閲"
+      "other_value": "以{emoji} {count}/月訂閱"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -12191,7 +12246,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_box_subscription_title",
-      "value": "訂閲"
+      "value": "訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -12411,17 +12466,17 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_subscription_on_about",
-      "value": "如果您現在取消訂閲，您在 {date} 之前仍然可以存取您的訂閱内容。"
+      "value": "如果您現在取消訂閱，您在 {date} 之前仍然可以存取您的訂閱内容。"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_credits_subscription_on_button",
-      "value": "取消訂閲"
+      "value": "取消訂閱"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_credits_subscription_row_from",
-      "value": "已訂閲"
+      "value": "已訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -12441,7 +12496,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_subscription_row_to",
-      "value": "訂閲"
+      "value": "訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -12456,7 +12511,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_credits_subscription_section",
-      "value": "我的訂閲"
+      "value": "我的訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -13426,7 +13481,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_edit_lastseen_subscribe",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -13811,7 +13866,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_edit_privacy_gifts_premium",
-      "value": "Premium 訂閲"
+      "value": "Premium 訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -15616,7 +15671,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_filters_by_link_quit",
-      "other_value": "退出 {count} 個聊天室"
+      "other_value": "將退出 {count} 個聊天室"
     },
     {
       "_": "types.LangPackString",
@@ -16220,13 +16275,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_deselect",
+      "value": "取消選取"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_failed",
       "value": "建立壓縮檔失敗。"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack",
+      "value": "壓縮成 ZIP 檔"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_pack_selected",
+      "value": "將選取的檔案打包成 ZIP 檔"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_select",
+      "value": "選取"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_folder_archive_status",
       "value": "ZIP 封存"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_folder_archive_unpack",
+      "value": "解壓縮檔案"
     },
     {
       "_": "types.LangPackString",
@@ -16566,7 +16646,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_forward_action_hide_captions",
-      "value": "隱藏説明文字"
+      "value": "隱藏說明文字"
     },
     {
       "_": "types.LangPackString",
@@ -17340,6 +17420,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_delete_sure_text",
+      "value": "您要刪除此禮物嗎？ \n\n它將從您的個人資料中消失，且無法復原。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_deleted",
+      "value": "禮物已刪除"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_display_done",
       "value": "此禮物現已在您的個人資料頁上顯示。"
     },
@@ -17597,6 +17687,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_many_pinned_title",
       "value": "太多置頂的禮物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_menu_delete",
+      "value": "刪除禮物"
     },
     {
       "_": "types.LangPackString",
@@ -18215,6 +18310,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_stars_on_card",
+      "value": "卡片上"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_stars_on_sale",
       "value": "在售"
     },
@@ -18397,6 +18497,76 @@
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_title",
       "value": "轉讓 {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts",
+      "value": "移至我的禮物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_appear",
+      "value": "它將出現在"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_button",
+      "value": "移動"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_done",
+      "value": "禮物已轉入您的帳號。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_path_icons",
+      "value": "{profile} {arrow} {gifts}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_gifts_text",
+      "value": "將此典藏品透過鏈下方式轉移到您的 Telegram 帳號？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet",
+      "value": "移至我的錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_appear",
+      "value": "它將出現在"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_button",
+      "value": "移動"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_done",
+      "value": "禮物已轉入您的錢包。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_keep_on_profile",
+      "value": "繼續顯示在我的個人檔案中"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_path_icons",
+      "value": "{menu} {arrow} {money} {arrow_next} {collectibles}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_text",
+      "value": "要將此禮物轉帳至您的區塊鏈錢包嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_transfer_to_wallet_view",
+      "value": "查看"
     },
     {
       "_": "types.LangPackString",
@@ -19136,7 +19306,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_giveaway_awarded_title",
-      "value": "已贈送 Premium 訂閲"
+      "value": "已贈送 Premium 訂閱"
     },
     {
       "_": "types.LangPackString",
@@ -19326,7 +19496,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_giveaway_prizes_additional",
-      "other_value": "所有獎品：**{count}** 份 {prize} 以及為期 {duration} 的 Telegram Premium 訂閲。"
+      "other_value": "所有獎品：**{count}** 份 {prize} 以及為期 {duration} 的 Telegram Premium 訂閱。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20400,6 +20570,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_group_call_screen",
+      "value": "螢幕"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_group_call_screen_share_audio",
       "value": "分享系統音訊"
     },
@@ -20911,7 +21086,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_invite_joined_row_date",
-      "value": "已訂閲"
+      "value": "訂閱於"
     },
     {
       "_": "types.LangPackString",
@@ -21101,7 +21276,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_invite_subscription_info_subtitle",
-      "value": "訂閲費"
+      "value": "訂閱費"
     },
     {
       "_": "types.LangPackString",
@@ -21566,7 +21741,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_in_dlg_video_message_ttl",
-      "value": "閲後即焚視訊訊息"
+      "value": "閱後即焚視訊訊息"
     },
     {
       "_": "types.LangPackString",
@@ -21576,7 +21751,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_in_dlg_voice_message_ttl",
-      "value": "閲後即焚語音訊息"
+      "value": "閱後即焚語音訊息"
     },
     {
       "_": "types.LangPackString",
@@ -21831,7 +22006,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_intro_fragment_about",
-      "value": "在 Fragment 上的「號碼」（Numbers）部分獲取 {phone_number} 的驗證碼。"
+      "value": "在 Fragment 上的「號碼」部分獲取 {phone_number} 的驗證碼。"
     },
     {
       "_": "types.LangPackString",
@@ -22070,6 +22245,251 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_alt_text_select",
+      "value": "選取文字而非開啟連結"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_attach",
+      "value": "附加檔案"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_autoscroll",
+      "value": "自動捲動聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_chat_switcher",
+      "value": "快速聊天切換"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_click",
+      "value": "點擊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_drag",
+      "value": "拖動"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_edit_last",
+      "value": "編輯最後一則訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_extend_selection",
+      "value": "擴展文字選取範圍"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_folder_numbers",
+      "value": "依編號開啟資料夾"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_hold",
+      "value": "按住"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_close",
+      "value": "關閉即時瀏覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_search",
+      "value": "搜尋頁面"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom",
+      "value": "縮放頁面"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_iv_zoom_reset",
+      "value": "重設縮放"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x",
+      "value": "2 倍速"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_next",
+      "value": "下一章"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_chapter_prev",
+      "value": "上一章"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_double",
+      "value": "切換全螢幕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_escape",
+      "value": "關閉媒體瀏覽器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fit",
+      "value": "適應螢幕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_flip",
+      "value": "水平或垂直翻轉照片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_frame",
+      "value": "暫停時逐幀瀏覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen",
+      "value": "切換全螢幕影片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_fullscreen_escape",
+      "value": "離開全螢幕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_hold",
+      "value": "加快播放速度，拖動以調整播放速度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_nav",
+      "value": "上一個或下一個媒體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_pause",
+      "value": "暫停或繼續"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_percent",
+      "value": "跳至影片的 0-90% 處"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_play",
+      "value": "播放或暫停"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_save",
+      "value": "儲存媒體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_seek",
+      "value": "快進或快退"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom",
+      "value": "放大或縮小"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_zoom_reset",
+      "value": "重設縮放"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_new_window",
+      "value": "在新視窗中開啟聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_open",
+      "value": "顯示這些快速鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_paste_plain",
+      "value": "以純文字貼上"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_pinned_chats",
+      "value": "依編號開啟指定聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_quick_preview",
+      "value": "顯示快速聊天預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_next",
+      "value": "回覆下一則訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_reply_prev",
+      "value": "回覆上一則訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_chats",
+      "value": "聊天室清單"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_compose",
+      "value": "寫訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_fullscreen",
+      "value": "全螢幕影片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_general",
+      "value": "一般"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_iv",
+      "value": "即時瀏覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_media",
+      "value": "媒體瀏覽器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_section_messages",
+      "value": "訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_title",
+      "value": "快速鍵與手勢"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_wheel",
+      "value": "滾輪"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_language_already",
       "value": "您已經在使用此語言包。您可以隨時在「設定」中變更語言。"
     },
@@ -22151,7 +22571,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_lastseen_premium_button",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -24576,7 +24996,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_message_paid_ph",
-      "value": "花費 {amount} 傳送訊息"
+      "value": "每則訊息 {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -24636,7 +25056,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_messages_privacy_premium_button",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -25161,7 +25581,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_new_contact_updated_photo",
-      "value": "用戶於 {when} 更新了照片"
+      "value": "用戶於 {when}更新了照片"
     },
     {
       "_": "types.LangPackString",
@@ -25227,6 +25647,96 @@
       "_": "types.LangPackString",
       "key": "lng_no_mic_permission",
       "value": "Telegram 需要麥克風使用權，讓您可以通話和錄製語音訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_applied",
+      "value": "您現在可以免費向 {user} 傳送訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_invalid",
+      "value": "此免費訊息連結無效或已過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer",
+      "value": "停用計時器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_disable_timer_about",
+      "value": "永久免費，無時間限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer",
+      "value": "啟用計時器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_enable_timer_about",
+      "value": "1 分鐘之後過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_reset",
+      "value": "重置 QR code"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_menu_restore",
+      "value": "恢復訊息費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_permanent",
+      "value": "免費 · 無時間限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_remove_fee",
+      "value": "免收 {emoji}{amount} 費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_pill_temporary",
+      "value": "免費 · {time} 後到期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expired",
+      "value": "QR code 已過期，費用將重新收取"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expires",
+      "value": "此 QR code 將在 {duration}後過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_expiring",
+      "value": "此 QR code 即將過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_permanent",
+      "value": "QR code 永久免費，無時間限制"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_reset",
+      "value": "已建立新 QR code"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_toast_restored",
+      "value": "已恢復訊息費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_no_paid_token_user_invalid",
+      "value": "此免費訊息連結無法使用。"
     },
     {
       "_": "types.LangPackString",
@@ -25606,7 +26116,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_paid_price",
-      "value": "以 {price} 解鎖"
+      "value": "花 {price} 解鎖"
     },
     {
       "_": "types.LangPackString",
@@ -27211,7 +27721,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_payments_webview_install_webkit",
-      "value": "請使用您的套件管理工具安裝 WebKitGTK (webkit2gtk-4.1/webkit2gtk-4.0)。"
+      "value": "請使用您的套件管理工具安裝 WebKitGTK (webkitgtk-6.0/webkit2gtk-4.1/webkit2gtk-4.0)。"
     },
     {
       "_": "types.LangPackString",
@@ -27320,6 +27830,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_expiring",
+      "value": "此連結即將過期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_peer_qr_link_unavailable",
+      "value": "此連結無法使用。請重新開啟 QR code 以再次嘗試。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_phone_desc",
       "value": "請確認您的國際電話區號\n並輸入您的電話號碼。"
     },
@@ -27355,8 +27875,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_audio_remove",
+      "value": "移除音訊"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_corners_about",
       "value": "選擇貼圖邊角的圓角程度。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_corners_circle",
+      "value": "圓形"
     },
     {
       "_": "types.LangPackString",
@@ -27430,6 +27960,206 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas",
+      "value": "畫布"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_pan",
+      "value": "平移已縮放的畫布"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_paste",
+      "value": "貼上圖片、貼圖、檔案或連結"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_redo",
+      "value": "重做"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_undo",
+      "value": "復原"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_canvas_zoom",
+      "value": "以游標位置為中心縮放畫布"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop",
+      "value": "裁切"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_expand",
+      "value": "將畫布擴展至照片邊界之外"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_crop_room",
+      "value": "縮小以在照片周圍留出空間"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_double_click",
+      "value": "雙擊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_pan",
+      "value": "在畫框內移動圖片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom",
+      "value": "縮放畫框內的圖片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_fixed_zoom_fine",
+      "value": "以更精細的程度放大"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture",
+      "value": "{modifier}-{gesture}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_click",
+      "value": "點擊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag",
+      "value": "拖曳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_edge",
+      "value": "拖曳邊緣"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_drag_handle",
+      "value": "拖曳控制柄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_gesture_wheel",
+      "value": "滾輪"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_legend",
+      "value": "顯示這些快速鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_click",
+      "value": "中鍵點擊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_middle_drag",
+      "value": "中鍵拖曳"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects",
+      "value": "物品"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_delete",
+      "value": "刪除所選"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_duplicate",
+      "value": "複製選取範圍"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_flip",
+      "value": "水平翻轉選取範圍"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_rotate",
+      "value": "僅旋轉，以 45° 為增量"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_snap",
+      "value": "對齊至畫布輔助線"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_stretch",
+      "value": "自由拉伸形狀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_text",
+      "value": "編輯文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes",
+      "value": "形狀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_instant",
+      "value": "立即從選單中放置形狀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_shapes_proportions",
+      "value": "保持比例或對齊箭頭角度"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline",
+      "value": "時間軸"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_scroll",
+      "value": "捲動時間軸"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_window",
+      "value": "移動修剪範圍"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_timeline_zoom",
+      "value": "縮放時間軸"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_tooltip",
+      "value": "鍵盤快速鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_wheel",
+      "value": "滾輪"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_link_customize",
+      "value": "自訂連結文字"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_menu_delete",
       "value": "刪除"
     },
@@ -27497,6 +28227,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_text_style_semi_transparent",
       "value": "半透明"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_trim_shortest",
+      "value": "修剪至最短邊"
     },
     {
       "_": "types.LangPackString",
@@ -28246,7 +28981,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_posts_subscribe",
-      "value": "訂閲 Premium"
+      "value": "訂閱 Premium"
     },
     {
       "_": "types.LangPackString",
@@ -28531,7 +29266,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_stories_about_caption",
-      "value": "為您的動態加入十倍長的説明文字 - 最多 2048 個符號。"
+      "value": "為您的動態加入十倍長的說明文字——最多 2048 個符號。"
     },
     {
       "_": "types.LangPackString",
@@ -28546,7 +29281,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_stories_about_links",
-      "value": "在動態説明文字中添加連結和格式。"
+      "value": "在動態說明文字中加入連結和格式。"
     },
     {
       "_": "types.LangPackString",
@@ -28571,7 +29306,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_stories_subtitle_caption",
-      "value": "更長的説明文字*"
+      "value": "更長的說明文字*"
     },
     {
       "_": "types.LangPackString",
@@ -28696,7 +29431,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_summary_about_infinite_reactions",
-      "value": "從數千個表情符號選擇要做出的反應 - 每則訊息您最多可有 3 個反應。"
+      "value": "從數千個表情符號選擇要做出的反應——每則訊息可進行多次反應。"
     },
     {
       "_": "types.LangPackString",
@@ -28716,7 +29451,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_premium_summary_about_no_ads",
-      "value": "Telegram 有時會顯示廣告的公開頻道中不再有廣告。"
+      "value": "有時會顯示廣告的 Telegram 公開頻道中不再有廣告。"
     },
     {
       "_": "types.LangPackString",
@@ -28856,12 +29591,12 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_premium_summary_subtitle_gift_days",
-      "other_value": "{user} 贈送了您 {count} 天的 Telegram Premium 訂閲。"
+      "other_value": "{user} 贈送了您 {count} 天的 Telegram Premium 訂閱。"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_premium_summary_subtitle_gift_days_me",
-      "other_value": "您贈送了 {user} {count} 個月的 Telegram Premium 訂閲。"
+      "other_value": "您贈送了 {user} {count} 個月的 Telegram Premium 訂閱。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -30620,8 +31355,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_colors",
+      "value": "顏色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_emoji",
+      "value": "表情符號"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_font_size",
       "value": "字體大小"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts",
+      "value": "禮物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_browse",
+      "value": "瀏覽禮物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about",
+      "value": "使用您擁有的任何典藏品來設計您的 QR code。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_title",
+      "value": "還沒有禮物"
     },
     {
       "_": "types.LangPackString",
@@ -30801,7 +31566,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_readtime_premium_button",
-      "value": "訂閲 Telegram Premium"
+      "value": "訂閱 Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -31026,7 +31791,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_record_once_first_tooltip",
-      "value": "點擊以設定此訊息**閲後即焚*。"
+      "value": "點擊以設定此訊息**閱後即焚*。"
     },
     {
       "_": "types.LangPackString",
@@ -31806,7 +32571,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_request_user_premium_no",
-      "value": "此用戶必須沒有訂閱 Premium。"
+      "value": "用戶必須尚未訂閱 Premium。"
     },
     {
       "_": "types.LangPackString",
@@ -32186,12 +32951,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_rich_paste_toast_premium",
-      "value": "{link} 貼上時保留格式。"
+      "value": "{link} 即可在貼上時保留格式。"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_rich_paste_toast_premium_link",
-      "value": "訂閲 Premium"
+      "value": "訂閱 Premium"
     },
     {
       "_": "types.LangPackString",
@@ -33486,7 +34251,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_send_as_premium_required",
-      "value": "訂閲 {link} 可以讓您在任何群聊中以頻道身分發言！"
+      "value": "訂閱 {link} 可以讓您在任何群聊中以頻道身分發言！"
     },
     {
       "_": "types.LangPackString",
@@ -33551,7 +34316,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_send_gif_with_caption",
-      "value": "傳送帶有説明文字的 GIF"
+      "value": "傳送帶有說明文字的 GIF"
     },
     {
       "_": "types.LangPackString",
@@ -33611,7 +34376,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_send_non_premium_text",
-      "value": "訂閲 **Premium** 以傳訊息給 {user}。"
+      "value": "訂閱 **Premium** 以傳訊息給 {user}。"
     },
     {
       "_": "types.LangPackString",
@@ -35291,7 +36056,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_passcode_lock_off_wallet",
-      "value": "您的錢包會受到此解鎖碼的保護。目前僅關閉啟動鎖定。"
+      "value": "此解鎖碼僅用於確認交易，而非開啟您的錢包。"
     },
     {
       "_": "types.LangPackString",
@@ -36615,6 +37380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_shortcuts_reset_sure",
+      "value": "您確定要將所有鍵盤快速鍵重設為預設值嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_shortcuts_rich_editor",
       "value": "開啟文章編輯器"
     },
@@ -36667,6 +37437,11 @@
       "_": "types.LangPackString",
       "key": "lng_shortcuts_silent_send",
       "value": "無聲傳送"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_shortcuts_stash_message",
+      "value": "暫存或還原訊息"
     },
     {
       "_": "types.LangPackString",
@@ -37402,6 +38177,16 @@
       "_": "types.LangPackString",
       "key": "lng_sr_from_me",
       "value": "我"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_hide",
+      "value": "隱藏參與者"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_sr_group_call_column_show",
+      "value": "顯示參與者"
     },
     {
       "_": "types.LangPackString",
@@ -38232,6 +39017,21 @@
       "_": "types.LangPackString",
       "key": "lng_start_msgs",
       "value": "開始傳訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_files_limit",
+      "value": "待暫存的檔案數量過多或檔案過大。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_hint",
+      "value": "按下 {shortcut} 將此草稿暫存。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_stash_restore",
+      "value": "還原已暫存的訊息"
     },
     {
       "_": "types.LangPackString",
@@ -39326,7 +40126,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_stories_reaction_as_message",
-      "value": "以私訊形式傳送反應"
+      "value": "以私訊傳送反應"
     },
     {
       "_": "types.LangPackString",
@@ -40931,7 +41731,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_ttl_period_once",
-      "value": "閲後即焚"
+      "value": "閱後即焚"
     },
     {
       "_": "types.LangPackString",
@@ -41272,6 +42072,36 @@
       "_": "types.LangPackString",
       "key": "lng_url_auth_unverified_app",
       "value": "未經驗證的應用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_about",
+      "value": "{bot} 要求將您的錢包連線至此網站。該網站將能查看您的 TON 地址、餘額及交易紀錄，但未經您許可無法轉移資金。連線時僅會簽署登入簽名，並非轉帳操作。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_connect",
+      "value": "連線錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_label",
+      "value": "錢包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key",
+      "value": "此裝置未儲存此錢包的目前金鑰。請點擊 {link} 進行連線。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_no_key_link",
+      "value": "還原金鑰"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_url_auth_wallet_reserved",
+      "value": "無法授予此網站錢包存取權限。"
     },
     {
       "_": "types.LangPackString",
@@ -41736,7 +42566,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "lng_views_tooltip",
-      "other_value": "閲讀：{count}"
+      "other_value": "閱讀：{count}"
     },
     {
       "_": "types.LangPackString",
@@ -41786,7 +42616,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_about_fees_title",
-      "value": "無費用"
+      "value": "零費用"
     },
     {
       "_": "types.LangPackString",
@@ -41990,6 +42820,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_card_add",
+      "value": "加入到卡片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_apply_color",
+      "value": "套用顏色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_last",
+      "value": "{all} 和 {one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_and_one",
+      "value": "{all}，{one}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_not_allowed",
+      "value": "此禮物無法設定為卡片背景。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_color_only",
+      "value": "僅有 {collections} 中的禮物可用來變更卡片的顏色。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_drag_hint",
+      "value": "將這件典藏品拖到卡片上進行裝飾。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_card_limit",
+      "other_value": "您最多可在卡片上放置 {count} 份禮物。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_not_ready",
+      "value": "您的卡片暫不支援編輯。請再試一次。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove",
+      "value": "從卡片中移除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_remove_color",
+      "value": "移除顏色"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_save_error",
+      "value": "無法儲存卡片"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_card_saved_profile",
+      "value": "此禮物顯示在您的個人資料中。請先在個人資料中隱藏它，才能將其放上卡片。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_chip_gift",
       "value": "典藏品禮物"
     },
@@ -42001,7 +42896,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_chip_number",
-      "value": "典藏電話號碼"
+      "value": "典藏號碼"
     },
     {
       "_": "types.LangPackString",
@@ -42010,13 +42905,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_gift_attributes",
+      "value": "{model} 搭配 {backdrop}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_nft_about",
       "value": "這是一件儲存於 The Open Network (TON) 區塊鏈上的典藏品。"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_not_owned",
+      "value": "此典藏品已不在您的錢包中。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_number_about",
-      "value": "匿名號碼 {number}，可用於建立一個不與 SIM 卡綁定的 Telegram 帳號。"
+      "value": "典藏號碼 {number} 可用於建立一個不與 SIM 卡綁定的 Telegram 帳號。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_own_wallet",
+      "value": "此典藏品已經在您的錢包中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_send",
+      "value": "傳送 {name}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_show_in_gifts",
+      "value": "也顯示在我的禮物中"
     },
     {
       "_": "types.LangPackString",
@@ -42091,7 +43011,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_button",
-      "value": "連接"
+      "value": "連線"
     },
     {
       "_": "types.LangPackString",
@@ -42351,7 +43271,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_title_app",
-      "value": "連接錢包至 {name}"
+      "value": "連線錢包至 {name}"
     },
     {
       "_": "types.LangPackString",
@@ -42417,6 +43337,16 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_fee_unknown",
       "value": "查詢失敗"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_from_profile",
+      "value": "已從個人檔案移出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_moved_to_profile",
+      "value": "已移至個人資料"
     },
     {
       "_": "types.LangPackString",
@@ -42735,6 +43665,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance",
+      "value": "餘額："
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_none",
+      "value": "{name} 目前\n還沒有 Gram。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_wallet_profile_balance_owns",
+      "other_value": "{name} 在 TON 區塊鏈上擁有 {amount}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_balance_public",
+      "value": "由於區塊鏈的透明性，您的餘額是公開的。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_profile_how_works",
+      "value": "它是如何運作的？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_profile_send_money",
       "value": "轉帳"
     },
@@ -42936,7 +43891,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_restore_other_text",
-      "value": "您輸入的字詞與該錢包不符。"
+      "value": "您輸入的助記詞與該錢包不符。"
     },
     {
       "_": "types.LangPackString",
@@ -43000,6 +43955,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_from_profile",
+      "value": "已從個人檔案移出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_moved_to_profile",
+      "value": "已移至個人資料"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_outgoing",
       "value": "轉出"
     },
@@ -43007,6 +43972,11 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_sending",
       "value": "正在傳送"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_telegram",
+      "value": "Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -43075,6 +44045,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_send_gram_wallet",
+      "value": "Gram 錢包"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_send_invalid_address",
       "value": "無效地址"
     },
@@ -43116,7 +44091,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_title",
-      "value": "轉出 Grams"
+      "value": "轉出 Gram"
     },
     {
       "_": "types.LangPackString",
@@ -43126,7 +44101,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_send_user_title",
-      "value": "轉帳至 {user}"
+      "value": "轉帳至"
     },
     {
       "_": "types.LangPackString",
@@ -43319,5 +44294,5 @@
       "other_value": "您支付了 {count} 顆星星。"
     }
   ],
-  "version": 5924272
+  "version": 6009038
 }

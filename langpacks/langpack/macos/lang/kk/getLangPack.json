@@ -237,13 +237,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsRate",
+      "value": "1 Gram қазіргі уақытта %1$@ USD тең.\nМүмкіндіктеріңіз:"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AboutFeature.ModalController.FirstGramsSend",
       "value": "Жіберу"
     },
     {
       "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsSendInfo",
+      "value": "Gram-ды кез келгенге аударыңыз.\nЧатта тіркеме → Ақша батырмасын басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AboutFeature.ModalController.FirstGramsStore",
       "value": "Сақтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AboutFeature.ModalController.FirstGramsStoreInfo",
+      "value": "Gram-ды Telegram-да (Баптау → Ақша) не басқа әмиянда сақтаңыз."
     },
     {
       "_": "types.LangPackString",
@@ -304,6 +319,11 @@
       "_": "types.LangPackString",
       "key": "Account.ViewController.Money",
       "value": "Ақша"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.ViewController.WalletUnavailable",
+      "value": "Әмиян қазір қолжетімсіз."
     },
     {
       "_": "types.LangPackString",
@@ -1301,6 +1321,11 @@
       "_": "types.LangPackString",
       "key": "App.MaxFileSizeNew",
       "value": "Файл үшін ең көп көлем - %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "App.Menu.Services",
+      "value": "Қызметтер"
     },
     {
       "_": "types.LangPackString",
@@ -4615,6 +4640,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.Permission.ManageWelcomeMessages",
+      "value": "Сәлемдесу хатын басқару"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.EditAdmin.Permission.PinMessages",
       "value": "Хат бекіту"
     },
@@ -4652,6 +4682,11 @@
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.Permission.SendVoice",
       "value": "Дауысхат жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.EditAdmin.Permission.SendWelcomeMessages",
+      "value": "Сәлемдесу хатын жіберу"
     },
     {
       "_": "types.LangPackString",
@@ -9100,6 +9135,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.SponsoredInfo",
+      "value": "Telegram өзге қолданбалардай жеке дерегіңізге сүйеніп жарнама жасамайды. [Толығырақ құпиялық саясатында](https://telegram.org/privacy/kz#5-6-paidalanushini-hattarini-derekterne-negzdelgen-zharnamalar-z)\n\nTelegram өзге қолданбалардай демеуші хатын басқаныңызды тіркемейді әрі соған сүйеніп сіз жайлы дерек жинамайды. Сондай-ақ, біз жарнамалардағы сыртқы сілтемелерді ашпас бұрын, үшінші тұлғалар қолданушыларымызға тыңшылық жасай алмайтындай етіп ескерту береміз.\n\nTelegram серверлік және трафиктік шығындары бар жүздеген миллион қолданушыларға ақысыз және шектеусіз қызмет ұсынады. Тәуелсіз және өз құндылықтарына адал болу үшін Telegram қолданушылардың құпиялығын ескере отырып, хаттарды көтеру үшін ақылы құрал құрды. Біз жауапты жарнама берушілерді шақырамыз:\n[url]\nЕнді онлайн жарнама қолданушының жеке өміріне қол сұғумен байланыстырылмауы керек. Технологиялық компания қалай жұмыс істеу керектігін жаңадан ұсынайық – сізбен бірге."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.MonoforumUI.AllTab",
       "value": "Бәрі"
     },
@@ -9329,8 +9369,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Chat.QuickReplyMessageLimitReachedText",
-      "one_value": "Шектеу: %d хаттан көп жасай аласыз.",
-      "other_value": "Шектеу: %d хаттан көп жасай аласыз."
+      "one_value": "Шектеу: %d хаттан көп жасай алмайсыз",
+      "other_value": "Шектеу: %d хаттан көп жасай алмайсыз"
     },
     {
       "_": "types.LangPackString",
@@ -9458,6 +9498,11 @@
       "_": "types.LangPackString",
       "key": "Chat.ReplyQuotePanelTitle",
       "value": "%@ дәйексөзіне жауап"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.RichText.ShowMore",
+      "value": "Толығырақ"
     },
     {
       "_": "types.LangPackString",
@@ -9829,8 +9874,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.GramTransfer",
+      "value": "%1$@ сізге %2$@ жіберді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.GramTransferIncoming",
+      "value": "сізге %1$@ жіберді"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.GramTransferUnknown",
-      "value": "Біреу сізге жіберді: %1$@"
+      "value": "Біреу сізге %1$@ жіберді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.GramTransferYou",
+      "value": "%1$@ %2$@ жібердіңіз"
     },
     {
       "_": "types.LangPackString",
@@ -10687,6 +10747,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequest",
+      "value": "Әмиян сұранымы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestAccepted",
+      "value": "Әмиян сұранымы қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestDeclined",
+      "value": "Әмиян сұранымы қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFrom",
+      "value": "%1$@ жіберген әмиян сұранымы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFromAccepted",
+      "value": "%1$@ жіберген әмиян сұранымы қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Service.WalletRequestFromDeclined",
+      "value": "%1$@ жіберген әмиян сұранымы қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Service.WebData",
       "value": "«%@» батырма арқылы деректерді ботқа жіберіңіз"
     },
@@ -10707,13 +10797,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.GramTransfer",
+      "value": "%1$@ сізге %2$@ жіберді"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ServiceItem.GramTransferFiat",
       "value": " (%1$@)"
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.ServiceItem.GramTransferUnknown",
-      "value": "Біреу сізге жіберді: %1$@"
+      "value": "Біреу сізге %1$@ жіберді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.GramTransferYou",
+      "value": "%1$@ %2$@ жібердіңіз"
     },
     {
       "_": "types.LangPackString",
@@ -10729,6 +10829,41 @@
       "_": "types.LangPackString",
       "key": "Chat.ServiceItem.UnknownUser",
       "value": "БЕЙТАНЫС ҚОЛДАНУШЫ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequest",
+      "value": "Әмиян сұранымы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestAccepted",
+      "value": "Әмиян сұранымы қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestDeclined",
+      "value": "Әмиян сұранымы қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFrom",
+      "value": "%1$@ жіберген әмиян сұранымы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFromAccepted",
+      "value": "%1$@ жіберген әмиян сұранымы қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletRequestFromDeclined",
+      "value": "%1$@ жіберген әмиян сұранымы қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.WalletUnavailable",
+      "value": "Әмиян қазір қолжетімсіз."
     },
     {
       "_": "types.LangPackString",
@@ -11125,6 +11260,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Unsupported.BlockInfo",
+      "value": "Хаттың осы бөлігін көру үшін Telegram-ды жаңартыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.BlockTitle",
+      "value": "Қолдауы жоқ блок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.MessageInfo",
+      "value": "Бұл хатты көру үшін Telegram-ды жаңартыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.MessageTitle",
+      "value": "Қолдауы жоқ хат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Unsupported.Update",
+      "value": "Жаңарту"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Unsupported.UpdatedApp",
       "value": "ЖАҢАРТУ"
     },
@@ -11393,7 +11553,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatEmpty.ManagedBot.Tap",
-      "value": "Жаңа чатботыңызды тексеру үшін төмендегі"
+      "value": "Басу"
     },
     {
       "_": "types.LangPackString",
@@ -11437,6 +11597,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExport.Completed",
+      "value": "Чат тарихы экспортталды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Controller.ChooseDate",
+      "value": "Күнді таңдау…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Controller.DateRange",
+      "value": "КҮН АРАЛЫҒЫ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Controller.RangeFrom",
+      "value": "Басы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatExport.Controller.RangeOldest",
       "value": "Ең ескісінен"
     },
@@ -11447,8 +11627,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExport.Controller.RangeTo",
+      "value": "Соңы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Downloading",
+      "value": "ЖҮКТЕП ЖАТЫР"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.DownloadingFiles",
+      "value": "ФАЙЛДАРДЫ ЖҮКТЕП АЛУ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatExport.Export",
       "value": "Экспорт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.ExportingTitle",
+      "value": "Чат тарихын экспорттау"
     },
     {
       "_": "types.LangPackString",
@@ -11472,8 +11672,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExport.MediaHeader",
+      "value": "МЕДИАНЫ ҚОСУ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatExport.MediaSection",
       "value": "Медиа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.MenuTitle",
+      "value": "Экспорт…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.MessagesProgress",
+      "value": "{done} / {total} хат"
     },
     {
       "_": "types.LangPackString",
@@ -11482,8 +11697,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExport.PathHeader",
+      "value": "САҚТАУ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatExport.Photos",
       "value": "Сурет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Preparing",
+      "value": "Дайындалуда…"
     },
     {
       "_": "types.LangPackString",
@@ -11497,8 +11722,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExport.SizeLimitInfo",
+      "value": "{size} үлкен медиафайлдар жүктелмейді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.SizeLimitInfoUnlimited",
+      "value": "Көлеміне қарамастан, барлық медиафайл жүктеледі."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatExport.Stickers",
       "value": "Стикер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.Title",
+      "value": "Чатты экспорттау"
     },
     {
       "_": "types.LangPackString",
@@ -11519,6 +11759,11 @@
       "_": "types.LangPackString",
       "key": "ChatExport.VoiceMessages",
       "value": "Дауысхат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatExport.WaitingMedia",
+      "value": "Күтуде…"
     },
     {
       "_": "types.LangPackString",
@@ -11685,6 +11930,11 @@
       "_": "types.LangPackString",
       "key": "ChatInput.RecordingView.Resume",
       "value": "Жалғастыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatInput.RecordingView.ResumeDiscardTrimmed",
+      "value": "Жалғастырсаңыз, жазбаңыздың кесілген бөлігі біржола жойылады."
     },
     {
       "_": "types.LangPackString",
@@ -15381,8 +15631,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CrashRecovery.AppStore",
+      "value": "App Store-дан жаңарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.AppStoreDetail",
+      "value": "App Store-да Telegram-ның ең жаңа нұсқасы бар."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CrashRecovery.Cancel",
       "value": "Бас тарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.CheckAgain",
+      "value": "Қайта тексеру"
     },
     {
       "_": "types.LangPackString",
@@ -15391,8 +15656,209 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CrashRecovery.CheckingDetail",
+      "value": "Telegram-ның жаңа нұсқасын іздеп жатырмын."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ContinueAnyway",
+      "value": "Сонда да жалғастыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Description",
+      "value": "Telegram ашылғаннан кейін бірден жабылды. Соңғы нұсқа әдетте бұны түзетеді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.DownloadProgress",
+      "value": "%1$@ / %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.DownloadStarting",
+      "value": "Жүктеп алуды бастау…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.DownloadingButton",
+      "value": "Жүктеп алынуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.DownloadingUpdate",
+      "value": "Жаңартуды жүктеп алу…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.DownloadingVersion",
+      "value": "Telegram %1$@ жүктеп алынуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Failed",
+      "value": "Telegram жаңартылмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.FailedDetail",
+      "value": "Қайталап көріңіз не macos.telegram.org сайтынан соңғы нұсқасын жүктеп алыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Install",
+      "value": "Орнатып, қайта іске қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Installing",
+      "value": "Жаңарту орнатылуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.InstallingButton",
+      "value": "Орнатылуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.InstallingDetail",
+      "value": "Telegram қазір қайта ашылады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.OpenAppStore",
+      "value": "App Store дүкенін ашу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.OpenWebsite",
+      "value": "macos.telegram.org сайтын ашу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.PreparingButton",
+      "value": "Дайындалуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.PreparingDetail",
+      "value": "Бұл бір сәтке ғана созылады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.PreparingUpdate",
+      "value": "Жаңарту дайындалуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.PreparingVersion",
+      "value": "Telegram %1$@ дайындалуда…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CrashRecovery.Quit",
       "value": "Telegram-нан шығу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ReadyDetail",
+      "value": "Telegram жаңа нұсқамен қайта іске қосылады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ReadyUpdate",
+      "value": "Жаңарту дайын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ReadyVersion",
+      "value": "Telegram %1$@ дайын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Reset",
+      "value": "Жергілікті деректерді арылту…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ResetConfirm",
+      "value": "Арылту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ResetInfo",
+      "value": "Telegram осы Mac-тағы барлық тіркелгіден шығып, оның жергілікті деректерін, соның ішінде құпия чаттар мен жүктелген файлдарды жояды. Сервердегі чаттар қайта кіргеннен кейін қолжетімді болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.ResetTitle",
+      "value": "Жергілікті деректерді арылтасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Title",
+      "value": "Telegram-нан күтпеген жерден шығу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.TryAgain",
+      "value": "Қайта көру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.UpToDate",
+      "value": "Сізде соңғы нұсқасы орнатылған"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.UpToDateDetail",
+      "value": "Telegram жұмысын тоқтата берсе, оның жергілікті деректерін қалпына келтіріп көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Update",
+      "value": "Telegram жаңарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.Website",
+      "value": "Соңғы нұсқасын жүктеп алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.WebsiteDetail",
+      "value": "Ең жаңа Telegram әрқашан macos.telegram.org сайтында қолжетімді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashRecovery.WebsiteLink",
+      "value": "macos.telegram.org сайтынан жүктеп алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashReport.Caption",
+      "value": "Telegram-дағы %1$@ (%2$@, %3$@) істен шығу жайлы шағым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashReport.CardInfo",
+      "value": "Оны түзетуге көмектесу үшін шағым жіберіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashReport.CardTitle",
+      "value": "Telegram-нан күтпеген жерден шығу"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CrashReport.CardTitleTimes",
+      "one_value": "",
+      "other_value": "Telegram %1$d рет күтпеген жерден шықты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashReport.CouldNotOpenBot",
+      "value": "@%1$@ ашылмады"
     },
     {
       "_": "types.LangPackString",
@@ -17376,6 +17842,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExportData.AccountHeader",
+      "value": "ТІРКЕЛГІ ДЕРЕКТЕРІ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExportData.BotChats",
       "value": "Ботпен чат"
     },
@@ -17386,6 +17857,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExportData.ChatsProgress",
+      "value": "{done} / {total} чат"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExportData.ChatsSection",
       "value": "Чат"
     },
@@ -17393,6 +17869,11 @@
       "_": "types.LangPackString",
       "key": "ExportData.Contacts",
       "value": "Контакт тізімі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExportData.ContactsAbout",
+      "value": "Рұқсат берсеңіз, контактілер әрдайым Telegram-мен үйлестіріледі. Оны ұялы құрылғада Баптау > Құпиялық пен қауіпсіздік бөлімінде реттей аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -17408,6 +17889,11 @@
       "_": "types.LangPackString",
       "key": "ExportData.DelayText",
       "value": "Қауіпсіздік үшін сіз деректеріңізді {hours} кейін ғана жүктей аласыз. Барлық құрылғыны дұрыс кіргенін тексеріп, жауап беруіңіз үшін уақыт беріп, экспорт жайлы мәлім еткенбіз.\n\n{date} күні қайтып келіп, сол құрылғы арқылы қайтадан сұратым қалдырыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExportData.ExportingTitle",
+      "value": "Telegram деректерін экспорттау"
     },
     {
       "_": "types.LangPackString",
@@ -17441,6 +17927,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExportData.MenuRowInfo",
+      "value": "Тіркелгі деректерін, жеке ақпаратты, контактілерді, белсенді сеанстарды, хикаялар мұрағатын және чаттар тарихын HTML және/немесе JSON файлдары бумасына экспорттаңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExportData.Other",
       "value": "Әртүрлі дерек"
     },
@@ -17456,6 +17947,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExportData.OverallHeader",
+      "value": "ҮДЕРІС"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExportData.PersonalChats",
       "value": "Жеке чат"
     },
@@ -17468,6 +17964,11 @@
       "_": "types.LangPackString",
       "key": "ExportData.PersonalInfoAbout",
       "value": "Таңдаған атыңыз, қолданушы аты, телефон нөмірі мен бейін суреті."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExportData.Preparing",
+      "value": "Дайындалуда…"
     },
     {
       "_": "types.LangPackString",
@@ -17496,6 +17997,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ExportData.SessionsAbout",
+      "value": "Қосылған құрылғы тізімі Баптау > Белсенді сеансты бөлімінде"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ExportData.Stories",
       "value": "Мұрағат"
     },
@@ -17503,6 +18009,11 @@
       "_": "types.LangPackString",
       "key": "ExportData.StoriesAbout",
       "value": "Telegram ұялы қолданбасын арқылы жарияланған барлық хикаяңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ExportData.TakeoutFailed",
+      "value": "Экспорттау басталмады. Кейінірек қайта көріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -17564,7 +18075,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExportedInvitation.Status.ExpiresIn",
-      "value": "%@ мерзімі өтті"
+      "value": "%@ мерзімі өтеді"
     },
     {
       "_": "types.LangPackString",
@@ -18158,6 +18669,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentMonetization.Controller.WithdrawMinimum",
+      "value": "10 Gram-нан кем шеше алмаймыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FreezeAccount.ClickDetails",
       "value": "Толығырақ білу үшін басыңыз"
     },
@@ -18218,6 +18734,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gallery.Context.CopySubject",
+      "value": "Нысанды көшіру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gallery.Context.CopyToClipboard",
       "value": "Көшіру"
     },
@@ -18240,6 +18761,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.Context.SaveVideo",
       "value": "Сақтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Context.SendSubjectAsSticker",
+      "value": "Стикер қып жіберу"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18311,6 +18837,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gallery.PageController.Live",
+      "value": "LIVE"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gallery.PublicPhoto",
       "value": "жария сурет"
     },
@@ -18328,6 +18859,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.SendHere",
       "value": "Өңдеп жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.Subject.NotFound",
+      "value": "Бұл суретте нысан табылмады."
     },
     {
       "_": "types.LangPackString",
@@ -20688,6 +21224,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InAppLinks.InvalidWalletLink",
+      "value": "Бұл сілтеме жарамсыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InAppLinks.LoginExpired",
       "value": "Кіру сілтемесінің мерзімі өтті."
     },
@@ -21314,6 +21855,11 @@
       "_": "types.LangPackString",
       "key": "LastSeen.HoursAgo_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeleteForAllSubscribers",
+      "value": "Барлық жазылушы үшін жою"
     },
     {
       "_": "types.LangPackString",
@@ -22669,7 +23215,7 @@
     {
       "_": "types.LangPackString",
       "key": "Message.Placeholder.ReplyToTopic",
-      "value": "%@ жауап беру"
+      "value": "%@ жауап беру…"
     },
     {
       "_": "types.LangPackString",
@@ -24596,6 +25142,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.SettingsViewController.ConfirmWithPasscode",
+      "value": "Құлыптау коды арқылы растау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.ConfirmWithTouchId",
       "value": "Touch ID арқылы растау"
     },
@@ -24643,6 +25194,12 @@
       "_": "types.LangPackString",
       "key": "PasscodeController.Change.Title",
       "value": "Құлыптау кодын өзгерту"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "PasscodeController.Cooldown",
+      "one_value": "",
+      "other_value": "Тым көп әрекет. %1$d секундтан кейін қайта көріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -24712,12 +25269,17 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeController.WalletProtection.Title",
-      "value": "Құлыптау коды арқылы растаңыз"
+      "value": "Құлыптау коды арқылы растау"
     },
     {
       "_": "types.LangPackString",
       "key": "PasscodeController.WalletProtectionFailed",
       "value": "Әмиян қорғанысы жаңартылмады. Қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletProtectionInfo",
+      "value": "Ақша жіберу не басқа да маңызды ақша әрекетін растау кезінде талап етіледі."
     },
     {
       "_": "types.LangPackString",
@@ -29563,6 +30125,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProxySettings.WEB",
+      "value": "WEB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.FixedPort",
+      "value": "WEB проксилері 443 портында HTTPS қолданады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidHost",
+      "value": "Схемасыз, жолсыз не портсыз жарамды DNS хост атын енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.InvalidSecret",
+      "value": "Жарамды 16 байттық құпия кілтін не dd-префиксі бар 17 байттық құпия кілтін енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.NotTested",
+      "value": "тексерілмеген"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Enable",
+      "value": "Қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Text",
+      "value": "Бұл прокси жасырын браузерде провайдер басқаратын JavaScript жүктейді. Провайдер трафик уақытын, топтаманы, толтыруды және желі қолдануды өзгерте алады және процессорды, жадты не батареяны тұтынуы мүмкін. Telegram тіркелгілері мен жергілікті API әдейі ашылмайды, бірақ провайдер коды сенімсіз болып қалады. Өзіңіз сенетін провайдерлерді ғана қосыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProxySettings.Web.Warning.Title",
+      "value": "WEB прокси қосасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickLook.Preview",
       "value": "Көрініс"
     },
@@ -30501,6 +31103,11 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.Table.BordersOn",
       "value": "Жиектерді көрсету"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.Table.CompactOff",
+      "value": "Қалыпты толтыру"
     },
     {
       "_": "types.LangPackString",
@@ -34260,6 +34867,11 @@
       "value": "Қайтым"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Star.List.SpendTopupUnavailable",
+      "value": "Бұл әрекетті аяқтау үшін теңгеріміңізде жұлдыз жеткіліксіз."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Star.List.StarsNeeded",
       "one_value": "%d жұлдыз керек",
@@ -34366,6 +34978,11 @@
       "value": "теңгеріміңіз"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawMinimumGrams",
+      "value": "10 Gram-нан кем шеше алмаймыз."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "Star.Marketplace.ResaleAvailable",
       "one_value": "%d сатылымда",
@@ -34410,6 +35027,16 @@
       "_": "types.LangPackString",
       "key": "Star.Nft.Gift.Confirm.Title",
       "value": "Сыйлық сатып алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.Info",
+      "value": "Бұл сыйлықтың бағасы өсті: %1$@ → %2$@. Жаңа бағамен сатып аласыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.Nft.Gift.PriceChanged.OK",
+      "value": "%1$@ төлеп, сатып алу"
     },
     {
       "_": "types.LangPackString",
@@ -35012,6 +35639,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.InputPlaceholder",
+      "value": "Хат қосу..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.AddMessage.MakePublic",
       "value": "Хатты жария ету"
     },
@@ -35024,6 +35656,16 @@
       "_": "types.LangPackString",
       "key": "StarGift.AddMessage.SendNow",
       "value": "Қазір жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.Title",
+      "value": "Хат қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.AddMessage.YourMessage",
+      "value": "Хатыңыз..."
     },
     {
       "_": "types.LangPackString",
@@ -35351,6 +35993,11 @@
       "_": "types.LangPackString",
       "key": "StarGift.Preview.Title.Buy",
       "value": "Сыйлықты сатып алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Preview.WishPlaceholder",
+      "value": "Хат қосу..."
     },
     {
       "_": "types.LangPackString",
@@ -38709,6 +39356,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextUtils.JoinedViaCommunity",
+      "value": "%1$@ бірлестік арқылы топқа қосылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.JoinedViaCommunityYou",
+      "value": "Бірлестік арқылы топқа қосылдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextUtils.ManagedBotCreated",
       "value": "%2$@ жасаған %1$@"
     },
@@ -39109,6 +39766,16 @@
       "_": "types.LangPackString",
       "key": "Toast.Unmuted",
       "value": "Үнмен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TonAmountFormat.Gram",
+      "value": "%1$@ Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TonAmountFormat.Grams",
+      "value": "%1$@ Gram"
     },
     {
       "_": "types.LangPackString",
@@ -41751,6 +42418,32 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AmountRowItem.Gram",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Әмиянға кіру үшін Telegram-дағы құлыптау кодыңызды енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Құлыптау кодын енгізіңіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Passcode",
+      "value": "Құлыптау коды"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.AuthorizeController.TooManyAttempts",
+      "one_value": "",
+      "other_value": "Тым көп әрекет. %1$d секундтан кейін қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizeController.VerifyFailed",
       "value": "Құлыптау коды расталмады. Қайта көріңіз."
     },
@@ -41786,8 +42479,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupVerifyFailedInfo",
+      "value": "Бұл құпия тіркес әмияныңыз үшін ескірген болуы мүмкін. Сақтық көшірмені қосу үшін қазіргі құпия тіркесті енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.BackupVerifyFailedTitle",
       "value": "Құпия тіркес расталмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Cancel",
+      "value": "Бас тарту"
     },
     {
       "_": "types.LangPackString",
@@ -41796,13 +42499,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CommentTooLongInfo",
+      "value": "Шифрланған пікір тым ұзын. Қысқартып, қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.CommentTooLongTitle",
+      "value": "Пікір тым ұзын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Continue",
+      "value": "Жалғастыру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.DecryptFailedInfo",
-      "value": "Пікірдің шифрын ашу мүмкін емес."
+      "value": "Пікірдің шифры ашылмады."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.DecryptFailedTitle",
-      "value": "Пікір дешифрланбады"
+      "value": "Пікірдің шифры ашылмады"
     },
     {
       "_": "types.LangPackString",
@@ -41821,8 +42539,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptRecipientUnavailableInfo",
+      "value": "Бұл әмиян қазір шифрланған пікірлерді қабылдай алмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EnterCurrentPhrase",
+      "value": "Қазіргі құпия тіркесті енгізіңіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPassword",
+      "value": "Жарамсыз құпиясөз. Қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.InvalidPhraseInfo",
       "value": "Қазіргі құпия тіркестің барлық сөзін тексеріп, қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.InvalidPhraseTitle",
+      "value": "Жарамсыз құпия тіркес"
     },
     {
       "_": "types.LangPackString",
@@ -41831,8 +42569,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.KeyRotationFailedTitle",
+      "value": "Құпия тіркес жаңартылмады"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.PasswordInfo",
       "value": "Жалғастыру үшін Telegram-дағы екі сатылы растау құпиясөзін енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordPlaceholder",
+      "value": "Құпиясөз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTitle",
+      "value": "Telegram құпиясөзі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PasswordTooNewInfo",
+      "value": "%1$@ кейін қайта көріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -41841,13 +42599,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedInfo",
+      "value": "Бұл әмиянның кілті өзгерді. 24 сөзден тұратын қазіргі құпия тіркесті енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.PhraseChangedTitle",
+      "value": "Құпия тіркес өзгертілді"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.ProofExpiredInfo",
       "value": "Әмиянды растау өтінішінің мерзімі аяқталды. Оны қайта импорттап көріңіз."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofExpiredTitle",
+      "value": "Растау мерзімі аяқталды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.ProofInvalidInfo",
       "value": "Telegram бұл әмиянның сізге тиесілі екенін растай алмады. Оны қайта импорттап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.ProofInvalidTitle",
+      "value": "Әмиян расталмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.Retry",
+      "value": "Қайталау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingInfo",
+      "value": "Telegram әзірге блокчейндегі құпия тіркестің өзгергенін растай алмады. Сәл күте тұрып, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.RotationPendingTitle",
+      "value": "Құпия тіркес жаңартылуда"
     },
     {
       "_": "types.LangPackString",
@@ -41876,13 +42669,133 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletChangedTitle",
+      "value": "Әмиян өзгертілді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.WalletKeyChangedInfo",
+      "value": "Әмиян кілті өзгерді. Қажет болса, әмиянды жаңартып, оның ағымдағы құпия тіркесімен қолжетімділікті қалпына келтіріңіз, содан кейін аударымды қайта растаңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.WalletKeyChangedTitle",
       "value": "Әмиян кілті өзгертілді"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Biometrics.ConfirmAccess",
+      "value": "Әмияныңызға қолжетімділікті растаңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Biometrics.EnableReason",
       "value": "Әмияныңыз үшін биометрияны іске қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CardView.GramUnit",
+      "value": " Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CardView.GramsUnit",
+      "value": " Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionSell",
+      "value": "сату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionTransfer",
+      "value": "аударым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ActionWear",
+      "value": "тасу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Address",
+      "value": "Мекенжай"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.AnonymousNumber",
+      "value": "Жиынтық нөмір"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Backdrop",
+      "value": "Тұсқағаз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collectible",
+      "value": "Жиынтық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.CollectibleGift",
+      "value": "Жиынтық сыйлығы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Collection",
+      "value": "Жиынтық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Model",
+      "value": "Модель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.NextCollectible",
+      "value": "Келесі жиынтық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OK",
+      "value": "OK"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Owner",
+      "value": "Иесі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.OwnerYou",
+      "value": "Сіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
+      "value": "Алдыңғы жиынтық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.StillSyncing",
+      "value": "Әмиян әлі де үйлестірілуде. Сәлден соң қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Symbol",
+      "value": "Таңба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Type",
+      "value": "Түрі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.Username",
+      "value": "Қолданушы аты"
     },
     {
       "_": "types.LangPackString",
@@ -41911,6 +42824,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Cancel",
+      "value": "Бас тарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnect",
+      "value": "Ажырату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.DisconnectAll",
+      "value": "Барлығын ажырату"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.DisconnectAllApps",
       "value": "Барлық қолданбаны ажырату"
     },
@@ -41936,6 +42864,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ConnectedAppsController.Disconnecting",
+      "value": "Ажыратылуда…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.Footer",
       "value": "Байланысқан қолданбалар әмияныңыздың мекенжайын, теңгерімі мен әрекетін көре алады. Олар рұқсатыңызсыз қаражатты ауыстыра алмайды."
     },
@@ -41946,8 +42879,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.AccountProtected",
+      "value": "Тіркелгіңіз енді қорғалған."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.AddFunds",
       "value": "Толтыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerified",
+      "value": "Блокчейнде тексеру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.BlockchainVerifiedInfo",
+      "value": "Барлық транзакция жария\nтізілімде тіркеліп тексеріледі."
     },
     {
       "_": "types.LangPackString",
@@ -41956,13 +42904,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Cancel",
+      "value": "Бас тарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Collectibles",
+      "value": "Жиынтық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Confirm",
+      "value": "Растау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConfirmAction",
+      "value": "Әрекетті растау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Connect",
       "value": "Қосылу"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectApp",
+      "value": "Қолданбаны қосу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.ConnectFailed",
       "value": "Бұл қолданбаға қосылу мүмкін емес. Қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInfo",
+      "value": "Браузеріңізде қолданбаны ашып, Telegram-ды таңдаңыз, содан кейін қосылу сілтемесін көшіріп, осы жерге қойыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkInvalid",
+      "value": "Бұл жарамсыз TON Connect сілтемесі не әмиян мекенжайы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectLinkPlaceholder",
+      "value": "TON Connect сілтемесі не мекенжайы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ConnectTo",
+      "value": "%1$@ қосылу"
     },
     {
       "_": "types.LangPackString",
@@ -41981,8 +42974,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.Currency",
+      "value": "Валюта"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.DeployContract",
       "value": "Смарт-контрактіні орналастыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Deposit",
+      "value": "Салым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerPrefix",
+      "value": "Сізде "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.EarningsBannerSuffix",
+      "value": " Gram табысында бар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataMismatch",
+      "value": "Бұл әмиянның сақталған деректері сервердегі әмиянмен сәйкес келмейді, сондықтан оны ашылмайды. Бұл әмиянды жойып, оны құпия тіркесіңізбен қалпына келтіре аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorDataUnreadable",
+      "value": "Сақталған әмиян деректерін оқылмайды. Бұл әмиянды жойып, оны құпия тіркесіңізбен қалпына келтіре аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.ErrorStorageUnavailable",
+      "value": "Әмиян қоймасы қолжетімсіз. Қолданбаны қайта іске қосып, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Excess",
+      "value": "Артық"
     },
     {
       "_": "types.LangPackString",
@@ -41991,8 +43024,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.FailedSuffix",
+      "value": "%1$@ · Сәтсіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.HowItWorks",
+      "value": "Бұл қалай жұмыс істейді"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.InstantTransfers",
-      "value": "Ақшаны лезде жіберу"
+      "value": "Жедел аударым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.InstantTransfersInfo",
+      "value": "Чатта сурет жібергендей\nGram жіберіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.KeysAndBackup",
+      "value": "Кілт пен көшірме"
     },
     {
       "_": "types.LangPackString",
@@ -42003,6 +43056,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.NoFundsWithoutPermission",
       "value": "%1$@ рұқсатсыз қаражатты ауыстыра алмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PasscodeAndTouchId",
+      "value": "Құлыптау коды мен Touch ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PasswordSet",
+      "value": "Құпиясөз орнату"
     },
     {
       "_": "types.LangPackString",
@@ -42021,6 +43084,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.PreviousWalletsBannerPrefix",
+      "value": "Сондай-ақ сізде "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.PreviousWalletsBannerSuffix",
+      "value": " ескі әмияныңызда бар"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Proceed",
       "value": "Жалғастыру"
     },
@@ -42036,8 +43109,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequired",
+      "value": "Құпия тіркес керек"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SecretPhraseRequiredToSend",
+      "value": "Ақша жіберу үшін осы әмиянға қолжетімділікті қалпына келтіру үшін 12 не 24 сөзден тұратын құпия тіркесті енгізуіңіз керек."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Send",
       "value": "Жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.SettingUp",
+      "value": "Әмиянды баптау. Бұл әдетте бірнеше секундқа созылады..."
     },
     {
       "_": "types.LangPackString",
@@ -42061,13 +43149,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.StillSyncing",
+      "value": "Әмиян әлі де үйлестірілуде. Сәлден соң қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.TermsAgreement",
       "value": "Бұл қызметті қолдану арқылы [шарттарға](%1$@) келісесіз."
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Controller.ToAddress",
+      "value": "→ %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Controller.Transactions",
       "value": "Транзакциялар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.Transfer",
+      "value": "Аударым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TransferHeader",
+      "value": "АУДАРЫМ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.TransfersHeader",
+      "value": "АУДАРЫМДАР"
     },
     {
       "_": "types.LangPackString",
@@ -42078,6 +43191,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Controller.WalletImported",
       "value": "Әмиян импортталды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Controller.WalletImportedInfo",
+      "value": "Әмияныңыз құпия тіркес арқылы қалпына келтірілді."
     },
     {
       "_": "types.LangPackString",
@@ -42095,6 +43213,12 @@
       "value": "Комиссиясыз"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Controller.ZeroFeesInfo",
+      "one_value": "",
+      "other_value": "Әр күнгі алғашқы %1$d аударым тегін. Қалғаны көзге білінбейді."
+    },
+    {
       "_": "types.LangPackString",
       "key": "Wallet.FlowAuthorization.Cancel",
       "value": "Бас тарту"
@@ -42106,8 +43230,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.ConfirmAccessReason",
+      "value": "Әмияныңызға қолжетімділікті растаңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.FlowAuthorization.RestoreFailedTitle",
-      "value": "Әмиянды қалпына келтірілмеді"
+      "value": "Әмиян қалпына келтірілмеді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.FlowAuthorization.RestoreReason",
+      "value": "Әмиянды қалпына келтіру"
     },
     {
       "_": "types.LangPackString",
@@ -42148,6 +43282,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.EnableBackupInfo",
       "value": "Шифрланған сақтық көшірмені қосу үшін әмияныңыздың қазіргі 12 не 24 сөзді құпия тіркесін енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Import",
+      "value": "Импорт"
     },
     {
       "_": "types.LangPackString",
@@ -42210,6 +43349,46 @@
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.PhraseChangedInfo",
       "value": "Бұл әмиянның кілті өзгерді. 24 сөзден тұратын қазіргі құпия тіркесті енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.PhraseChangedTitle",
+      "value": "Құпия тіркес өзгертілді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Proceed",
+      "value": "Жалғастыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.Replace",
+      "value": "Ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletInfo",
+      "value": "Бұл құпия тіркес басқа әмиянға тиесілі. Қазіргі әмиянды ауыстырсаңыз, бұл құрылғыда оған қолжетімділік жойылады. Жалғастырмас бұрын оның құпия тіркесін сақтағаныңызды тексеріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.ReplaceWalletTitle",
+      "value": "Әмиянды ауыстыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.RestoreFailedTitle",
+      "value": "Әмиян қалпына келтірілмеді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedInfo",
+      "value": "Құрылғының құлпын ашып, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ImportController.SaveFailedTitle",
+      "value": "Әмиян сақталмады"
     },
     {
       "_": "types.LangPackString",
@@ -42364,12 +43543,17 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.HowItWorksInfo",
-      "value": "Ақшаңызды тек сіз бақылайсыз —\nбасқа ешкімнің қолжетімділігі жоқ."
+      "value": "Ақшаңызды тек сіз бақылайсыз,\nбасқа ешкімнің қолжетімділігі жоқ."
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.InstantTransfers",
       "value": "Жедел аударым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.InstantTransfersInfo",
+      "value": "Чатта сурет жібергендей Gram жіберіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -42380,6 +43564,31 @@
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.SecretPhrase",
       "value": "Құпия тіркес"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SecretPhraseInfo",
+      "value": "Құпия тіркесіңіз — әмияныңыздың сақтық көшірмесін жасау кілті. Оны әрқашан құпия және қауіпсіз сақтаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Send",
+      "value": "Жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.SendInfo",
+      "value": "Gram-ды кез келгенге аударыңыз.\nЧатта  # → Ақша батырмасын басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.ShowSecretPhrase",
+      "value": "Құпия тіркесті көрсету"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.Store",
+      "value": "Сақтау"
     },
     {
       "_": "types.LangPackString",
@@ -42395,6 +43604,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.InfoController.Trade",
       "value": "Сауда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.InfoController.TradeInfo",
+      "value": "Gram-ды биржада қолма-қол ақшаға не криптаға айырбастаңыз."
     },
     {
       "_": "types.LangPackString",
@@ -42460,12 +43674,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.Buy",
-      "value": "Қолма-қол ақшамен не криптомен сатып алу"
+      "value": "Ақша не криптоға сатып алу"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.Caption",
-      "value": "GRAM алу үшін QR-код\nне мекенжай бөлісіңіз."
+      "value": "GRAM алу үшін QR код\nне мекенжай бөлісіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -42509,8 +43723,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.DepositFunds",
+      "value": "Толтыру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.RecipientController.InvalidAddress",
       "value": "Жарамсыз мекенжай"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.PeopleHeader",
+      "value": "АДАМДАР"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecentHeader",
+      "value": "СОҢҒЫ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.RecipientHeader",
+      "value": "АЛУШЫ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.Resolving",
+      "value": "Алушы ізделуде…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientController.ShowMore",
+      "value": "Толығырақ"
     },
     {
       "_": "types.LangPackString",
@@ -42531,6 +43775,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.RecipientNoResultsItem.NoResultsFor",
       "value": "«%1$@» деген нәтиже табылмады.\nБасқа атауды не мекенжайды енгізіп көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RecipientNoResultsItem.Title",
+      "value": "Ештеңе жоқ"
     },
     {
       "_": "types.LangPackString",
@@ -42564,8 +43813,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedInfo",
+      "value": "Әмияныңыз құпия тіркес арқылы қалпына келтірілді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.ImportedTitle",
+      "value": "Әмиян импортталды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReplaceController.ReplaceFailedTitle",
       "value": "Әмиян ауыстырылмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReplaceController.Title",
+      "value": "Әмиянды ауыстыру"
     },
     {
       "_": "types.LangPackString",
@@ -42590,7 +43854,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SendController.CommentPlaceholder",
-      "value": "Міндетті емес хат"
+      "value": "Пікір (міндетті емес)"
     },
     {
       "_": "types.LangPackString",
@@ -42601,6 +43865,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.DepositFunds",
       "value": "Толтыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.DepositFundsLink",
+      "value": "Толтыру ›"
     },
     {
       "_": "types.LangPackString",
@@ -42619,6 +43888,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.InsufficientFundsInfo",
+      "value": "Бұл аудармды жіберу үшін сізге %1$@, соның ішінде желі комиссиясы қажет."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.InsufficientFundsTitle",
       "value": "Қаражат жеткіліксіз"
     },
@@ -42634,8 +43908,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.OpenChat",
+      "value": "Чатты ашу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.PublicCommentInfo",
+      "value": "Жария пікірді блокчейндегі кез келген адам оқи алады. Әйтпесе, оны тек сіз және алушы оқи алады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.Resolving",
+      "value": "Алушы ізделуде…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.Save",
       "value": "Сақтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.SendFailedInfo",
+      "value": "Аударым жіберілмеді. Теңгерім мен желі байланысын тексеріп, қайталап көріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -42649,6 +43943,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.StillSyncing",
+      "value": "Әмиян әлі де үйлестірілуде. Сәлден соң қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SendController.Title",
       "value": "Ақша жіберу"
     },
@@ -42656,6 +43955,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SendController.TransferFailedDetailedInfo",
       "value": "Аударым дайындалмады не жіберілмеді. Мекенжайды, теңгерімді және желі байланысын тексеріп, қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferFailedInfo",
+      "value": "Аударым дайындалмады не жіберілмеді."
     },
     {
       "_": "types.LangPackString",
@@ -42711,6 +44015,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.CheckNetwork",
       "value": "Желі байланысын тексеріп, қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DataUnreadable",
+      "value": "Бұл құрылғыда сақталған әмиян деректерін оқу мүмкін емес, сондықтан құпия тіркес пен сақтық көшірме баптауы қолжетімсіз. Бұл әмиянды жойып, оны құпия сөзіңізден қалпына келтіре аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -42804,6 +44113,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorInsufficientBalanceTitle",
+      "value": "Gram жеткіліксіз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ErrorKeyRotationFailed",
       "value": "Құпия тіркесін өзгерту аяқталмады. Әмиян күйін тексеріп, қайта көріңіз."
     },
@@ -42884,6 +44198,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.Proceed",
+      "value": "Жалғастыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseHeader",
+      "value": "ҚҰПИЯ ТІРКЕС"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseNotStored",
+      "value": "Бұл әмиянның құпия сөзі бұл құрылғыда енді сақталмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequired",
+      "value": "Құпия тіркес керек"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequiredForBackup",
+      "value": "Сақтық көшірме баптауын өзгерту үшін осы әмиянға қолжетімділікті қалпына келтіру үшін 12 не 24 сөзден тұратын құпия тіркесті енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SettingUp",
+      "value": "Әмиянды баптау. Бұл әдетте бірнеше секундқа созылады...\n\nҚұпия тіркес пен сақтық көшірме баптауы дайын болғаннан кейін осында пайда болады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhrase",
       "value": "Құпия тіркесті көрсету"
     },
@@ -42896,6 +44240,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhraseInfo",
       "value": "12 не 24 сөзден тұратын құпия тіркесті көшіру арқылы әмияныңызды басқа құрылғыға ауыстыруға болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.TopUp",
+      "value": "Толықтыру"
     },
     {
       "_": "types.LangPackString",
@@ -42949,6 +44298,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Processing",
+      "value": "Өңдеуде..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionAmountRowItem.Usdt",
       "value": "USDT"
     },
@@ -42960,12 +44314,17 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.AnonymousNumber",
-      "value": "Анонимді нөмір"
+      "value": "Жиынтық нөмір"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Cancel",
       "value": "Бас тарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CollectibleGift",
+      "value": "Жиынтық сыйлығы"
     },
     {
       "_": "types.LangPackString",
@@ -42976,6 +44335,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CommentEncryptedPrivacy",
       "value": "Тек сізге және алушыға көрінеді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentPlaceholder",
+      "value": "Міндетті емес хат"
     },
     {
       "_": "types.LangPackString",
@@ -42991,6 +44355,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CommentTooLongTitle",
       "value": "Пікір тым ұзын"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Confirmation",
+      "value": "Растау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Date",
+      "value": "Күні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.DecryptFailedInfo",
+      "value": "Пікірдің шифры ашылмады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.DecryptFailedTitle",
+      "value": "Пікірдің шифры ашылмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptFailedInfo",
+      "value": "Бұл әмиян үшін пікір шифрланбады. Желі байланысын тексеріп, қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptFailedTitle",
+      "value": "Пікір шифрланбаған"
     },
     {
       "_": "types.LangPackString",
@@ -43011,6 +44405,17 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.FeeFree",
       "value": "Тегін (Telegram есебінен)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.TransactionController.NetworkFeeGasless",
+      "one_value": "",
+      "other_value": ".\n\nTelegram күн сайын алғашқы %1$d қамтиды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NetworkFeeInfo",
+      "value": "Әрбір аударым үшін шағын желі комиссия алынады"
     },
     {
       "_": "types.LangPackString",
@@ -43049,6 +44454,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SecretPhraseRequiredInfo",
+      "value": "Осы әмиянға қолжетімділікті қалпына келтіру үшін құпия тіркес енгізіп, пікірдің шифрын ашыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SecretPhraseRequiredTitle",
+      "value": "Құпия тіркес керек"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Send",
       "value": "жіберу"
     },
@@ -43056,6 +44471,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.SendAmount",
       "value": "%1$@ жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendCollectible",
+      "value": "Жиынтық сыйлығын жіберу"
     },
     {
       "_": "types.LangPackString",
@@ -43069,8 +44489,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TopUp",
+      "value": "Толықтыру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Transaction",
       "value": "Транзакция"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TransferFailedInfo",
+      "value": "Аударым дайындалмады не жіберілмеді. Мекенжайды, теңгерімді және желі байланысын тексеріп, қайта көріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -43104,8 +44534,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionKeyUpdateRowItem.Title",
+      "value": "Кілттің жаңаруы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.AnonymousNumber",
-      "value": "Анонимді нөмір"
+      "value": "Жиынтық нөмір"
     },
     {
       "_": "types.LangPackString",
@@ -43171,6 +44606,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingTransfer",
       "value": "Шығыс аударым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Sending",
+      "value": "Жіберілуде"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.TelegramUser",
+      "value": "Telegram қолданушысы"
     },
     {
       "_": "types.LangPackString",
@@ -43770,13 +45215,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessage.Disable.Text",
+      "value": "Бұны өшіру барлық сәлемдесу хатын жояды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessage.Disable.Title",
+      "value": "Сәлемдесу хаттарын өшіресіз бе?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessage.Empty.Text",
+      "value": "Біреу қосылғанда өздігінен жіберілетін хаттарды қосыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessage.Empty.Title",
+      "value": "Жаңа мүшелерді қарсы алыңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessage.Enable",
       "value": "Сәлемдесу хатын жіберу"
     },
     {
       "_": "types.LangPackString",
+      "key": "WelcomeMessage.Header",
+      "value": "Жаңа мүшені бірден қарсы алыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WelcomeMessage.InputPlaceholder",
       "value": "Хат қосу…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessage.LimitReached",
+      "value": "%d сәлемдесу хатына дейін қоса аласыз."
     },
     {
       "_": "types.LangPackString",
@@ -43787,6 +45262,11 @@
       "_": "types.LangPackString",
       "key": "WelcomeMessage.OnlyVisibleToYou",
       "value": "Тек сізге көрінеді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WelcomeMessage.Service.Delete",
+      "value": "Оны жою үшін басыңыз"
     },
     {
       "_": "types.LangPackString",
@@ -44169,5 +45649,5 @@
       "value": "Алмастыруды көрсету"
     }
   ],
-  "version": 2374745
+  "version": 2392173
 }

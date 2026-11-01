@@ -192,6 +192,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AccDescr.ShowPassword",
+      "value": "Прикажи лозинку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AccDescr.ShowStreamKey",
       "value": "Прикажи кључ стрима"
     },
@@ -811,7 +816,7 @@
     {
       "_": "types.LangPackString",
       "key": "AddToFolderSearch",
-      "value": "Унесите текст за претрагу"
+      "value": "Тражите уносом назива"
     },
     {
       "_": "types.LangPackString",
@@ -1441,7 +1446,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdminRecentActionMessage.StartGroupCall",
-      "value": "Покренут групни позив"
+      "value": "Започет групни позив"
     },
     {
       "_": "types.LangPackString",
@@ -4897,7 +4902,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallSettings.Title",
-      "value": "Подешавања"
+      "value": "Подеси"
     },
     {
       "_": "types.LangPackString",
@@ -5957,7 +5962,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Placeholder.Caption",
-      "value": "Додајте опис"
+      "value": "Додајте опис..."
     },
     {
       "_": "types.LangPackString",
@@ -7747,6 +7752,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.Menu.SwitchTo.A.Passcode",
+      "value": "Да бисте прешли на верзију А, прво онемогућите локални приступни кôд."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.Menu.SwitchTo.Webogram",
       "value": "Пређи на стару верзију"
     },
@@ -9173,12 +9183,12 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Create.Text",
-      "value": "Придружићете се са искљученим микрофоном. Друге учеснике можете позвати након што конференција почне."
+      "value": "Придружићете се са искљученим микрофоном. Друге учеснике можете позвати након што групни позив почне."
     },
     {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Create.Title",
-      "value": "Започети шифровани групни позив?"
+      "value": "Шифрован групни позив"
     },
     {
       "_": "types.LangPackString",
@@ -9637,7 +9647,7 @@
     {
       "_": "types.LangPackString",
       "key": "CreateBot.TooManyBotsCreated",
-      "value": "Направили сте превише ботова. Сачекајте %s пре него што направите нови."
+      "value": "Направили сте превише ботова. Сачекајте %s пре него што направите новог."
     },
     {
       "_": "types.LangPackString",
@@ -11159,6 +11169,326 @@
       "_": "types.LangPackString",
       "key": "Exceptions",
       "value": "Изузеци"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y",
+      "value": "Тастатура и читачи екрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y.Subtitle",
+      "value": "Кретање помоћу тастатуре, показатељи фокуса и подршка за читач екрана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.BubbleSandbox",
+      "value": "Безбедно окружење облачића"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Connection",
+      "value": "Веза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo",
+      "value": "Копирај податке о грешкама"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo.Subtitle",
+      "value": "Верзија, прегледач и горња подешавања — користе се за пријаву грешке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug",
+      "value": "Режим за отклањање грешака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug.Subtitle",
+      "value": "Детаљни дневници у конзоли сваке нити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.DebugInfoCopied",
+      "value": "Подаци за отклањање грешака копирани."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debugging",
+      "value": "Отклањање грешака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Engine",
+      "value": "Мотор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks",
+      "value": "Сакриј везе од особа ван контаката"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks.Subtitle",
+      "value": "Чак и када сервер то не захтева"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.IconLibrary",
+      "value": "Библиотека икона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "Алатке за тестирање и отклањање грешака. Оне могу успорити Telegram или га учинити мање стабилним, па их мењајте само ако знате шта раде."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Interface",
+      "value": "Интерфејс"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs",
+      "value": "Дневници за отклањање грешака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Clear",
+      "value": "Очисти дневнике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Cleared",
+      "value": "Дневници очишћени."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect",
+      "value": "Прикупљај дневнике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Debug",
+      "value": "Увек укључено у режиму за отклањање грешака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Subtitle",
+      "value": "Радње које Telegram обавља, сачуване у меморији овог уређаја"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Download",
+      "value": "Преузми дневнике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Empty",
+      "value": "Још нема дневника. Укључите опцију „Прикупљај дневнике” и поновите радњу при којој је дошло до грешке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Info",
+      "value": "Дневници напуштају овај уређај само када их пошаљете. Могу садржати називе ћаскања и делове порука, па их шаљите само особама којима верујете."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Ready",
+      "value": "Дневници су спремни за дељење."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Send",
+      "value": "Пошаљи дневнике у ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentTo",
+      "value": "Дневници послати примаоцу %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentToSavedMessages",
+      "value": "Дневници сачувани у **Сачуване поруке**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Share",
+      "value": "Подели дневнике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch",
+      "value": "Праћење меморије"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch.Subtitle",
+      "value": "Прати коришћење меморије на сваких 15 минута — додато у дневнике"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas",
+      "value": "Налепнице у позадини"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas.Subtitle",
+      "value": "Анимиране налепнице се исцртавају ван главне нити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OnNotice",
+      "value": "Огледна подешавања су укључена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs",
+      "value": "Савршена тајност прослеђивања (PFS)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs.Subtitle",
+      "value": "Привремени кључеви за шифровање, који се мењају свака 24 часа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.PopupSandbox",
+      "value": "Безбедно окружење искачућих прозора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL",
+      "value": "Распоред здесна налево"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL.Subtitle",
+      "value": "Поставља распоред апликације здесна налево за било који језик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia",
+      "value": "Уклањај медије из радне меморије"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia.Subtitle",
+      "value": "Уклања слике и видео-записе из радне меморије који се више не приказују"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ResetAll",
+      "value": "Ресетуј све"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart",
+      "value": "Покрени поново"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.EveryTab",
+      "value": "Измене ступају на снагу након поновног покретања: свака картица Telegram-а на овом сајту се поново учитава."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.ThisTab",
+      "value": "Измене ступају на снагу након поновног учитавања ове картице."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.Title",
+      "value": "Поновно покретање Telegram-а"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker",
+      "value": "Сервисни радник (Service Worker)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker.Subtitle",
+      "value": "Стримовање видео-записа, преузимања и обавештења"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker",
+      "value": "Дељена веза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker.Subtitle",
+      "value": "Све картице деле исту везу и исти кеш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds",
+      "value": "Прикажи ИД профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds.Subtitle",
+      "value": "ИД и центар података корисника, ботова, група и канала, који се приказују на њиховим профилима"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer",
+      "value": "Тестни сервер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer.Subtitle",
+      "value": "Telegram-ови тестни сервери са засебним налозима. Само у овој картици."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Title",
+      "value": "Огледна подешавања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Tools",
+      "value": "Алати за програмере"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport",
+      "value": "Саобраћај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto",
+      "value": "Аутоматски"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto.Subtitle",
+      "value": "Пребацује између протокола WebSocket и HTTP, у зависности од тога који ради"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.HTTP",
+      "value": "Само HTTP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.WebSocket",
+      "value": "Само WebSocket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker",
+      "value": "Мрежа у позадини"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker.Subtitle",
+      "value": "Када је искључено, веза се одвија у самој картици — за потребе отклањања грешака"
     },
     {
       "_": "types.LangPackString",
@@ -12778,6 +13108,11 @@
       "_": "types.LangPackString",
       "key": "IVInteractionsChartTitle",
       "value": "Активности на брзом прегледу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "IdCopied",
+      "value": "ИД копиран."
     },
     {
       "_": "types.LangPackString",
@@ -14457,6 +14792,11 @@
       "_": "types.LangPackString",
       "key": "Login.Code.SmsAvailableIn",
       "value": "Можете захтевати СМС за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.TooManyAttempts",
+      "value": "Превише покушаја. Покушајте поново за %s"
     },
     {
       "_": "types.LangPackString",
@@ -17511,6 +17851,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.DataCenter",
+      "value": "ЦП %d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.DeleteChannel",
       "value": "Избриши канал"
     },
@@ -17528,6 +17873,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.Discussion.Add",
       "value": "Додај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.Id",
+      "value": "ИД"
     },
     {
       "_": "types.LangPackString",
@@ -25260,6 +25610,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Text.CopyLabel_Id",
+      "value": "Копирај ИД"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Text.CopyLabel_Note",
       "value": "Копирај белешку"
     },
@@ -25836,6 +26191,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UnsavedChangesDescription.Experimental",
+      "value": "Нека подешавања која сте променили ступају на снагу тек након поновног покретања. Поново покренути сада?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UnsavedChangesDescription.Group",
       "value": "Променили сте нека подешавања у овој групи. Сачувати промене?"
     },
@@ -25848,6 +26208,16 @@
       "_": "types.LangPackString",
       "key": "UnsupportedAttachment",
       "value": "Неподржан прилог"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageMessage",
+      "value": "Ажурирајте Telegram да бисте видели ову поруку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsupportedMessageTitle",
+      "value": "Неподржана порука"
     },
     {
       "_": "types.LangPackString",
@@ -26966,5 +27336,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 366894
+  "version": 369418
 }

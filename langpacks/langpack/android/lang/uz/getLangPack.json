@@ -3601,7 +3601,7 @@
     {
       "_": "types.LangPackString",
       "key": "AnonymousNumber",
-      "value": "Anonim raqam"
+      "value": "Kolleksion raqam"
     },
     {
       "_": "types.LangPackString",
@@ -5221,6 +5221,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AudioRecorderGeneral",
+      "value": "Ovoz yozuvchisi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AudioRecorderGeneralInfo",
       "value": "RNNoise fon shovqinini yoʻqotadi, lekin musiqa yoki juda past ovozdagi nutqqa taʼsir qilishi mumkin."
     },
@@ -5243,6 +5248,11 @@
       "_": "types.LangPackString",
       "key": "AudioRecorderSettings",
       "value": "Ovozli xabarlar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AudioRecorderUseNewRecorder",
+      "value": "Yangi ovoz yozuvchisidan foydalanish"
     },
     {
       "_": "types.LangPackString",
@@ -7322,9 +7332,21 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextDateEnd",
+      "one_value": "**%2$s** kuni Telegram **%6$s** kuni soat **%5$s** dan keyin **%4$s** kanaliga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi.",
+      "other_value": "**%2$s** kuni Telegram **%6$s** kuni soat **%5$s** dan keyin **%4$s** kanaliga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextDateSeveral",
       "one_value": "**%2$s**da Telegram **%7$s** kuni soat **%6$s** dan keyin **%4$s** va yana **%5$s** ta kanalga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanlaydi.",
       "other_value": "**%2$s**da Telegram **%7$s** kuni soat **%6$s** dan keyin **%4$s** va yana **%5$s** ta kanalga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanlaydi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextDateSeveralEnd",
+      "one_value": "**%2$s** kuni Telegram **%7$s** kuni soat **%6$s** dan keyin **%4$s** va yana **%5$s** ta roʻyxatdagi kanalga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi.",
+      "other_value": "**%2$s** kuni Telegram **%7$s** kuni soat **%6$s** dan keyin **%4$s** va yana **%5$s** ta roʻyxatdagi kanalga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -7340,9 +7362,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveral1",
+      "one_value": "**%2$s** kuni Telegram **%4$s** %5$sga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanlaydi.",
+      "other_value": "**%2$s** kuni Telegram **%4$s** %5$sga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanlaydi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "BoostingGiveawayHowItWorksSubTextSeveral2",
       "one_value": "va yana **%1$d** ta roʻyxatdagi kanal",
       "other_value": "va yana **%1$d** ta roʻyxatdagi kanal"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd",
+      "one_value": "**%2$s** kuni Telegram **%4$s** va yana **%5$s** ta roʻyxatdagi kanalga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi.",
+      "other_value": "**%2$s** kuni Telegram **%4$s** va yana **%5$s** ta roʻyxatdagi kanalga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BoostingGiveawayHowItWorksSubTextSeveralEnd1",
+      "one_value": "**%2$s** kuni Telegram **%4$s** %5$sga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi.",
+      "other_value": "**%2$s** kuni Telegram **%4$s** %5$sga qoʻshilgan **%3$s** ta tasodifiy foydalanuvchini avtomatik tanladi."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -8946,7 +8986,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotMonetizationInfoTONTitle",
-      "value": "💎 TON nima?"
+      "value": "💎 Gram nima?"
     },
     {
       "_": "types.LangPackString",
@@ -12902,6 +12942,16 @@
       "_": "types.LangPackString",
       "key": "ChartInTON",
       "value": "Gramdagi %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChartInUSD",
+      "value": "USD dagi %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChartInXTR",
+      "value": "Yulduzlardagi %s"
     },
     {
       "_": "types.LangPackString",
@@ -18132,7 +18182,7 @@
     {
       "_": "types.LangPackString",
       "key": "EmailNotAllowed",
-      "value": "Bu email domeni taqiqlangan."
+      "value": "Bu email manzilidan foydalanish imkonsiz."
     },
     {
       "_": "types.LangPackString",
@@ -19771,7 +19821,7 @@
     {
       "_": "types.LangPackString",
       "key": "ExpiredViewsStubPremiumDescription",
-      "value": "Eskirgan va joylangan hikoyalar uchun koʻrganlar roʻyxatini ochish uchun **Telegram Premium**ga obuna boʻling."
+      "value": "Eskirgan va joylangan hikoyalarda kelgusi koʻrganlar roʻyxatini ochish uchun **Telegram Premium**ga obuna boʻling."
     },
     {
       "_": "types.LangPackString",
@@ -21255,7 +21305,7 @@
     {
       "_": "types.LangPackString",
       "key": "ForwardsRestrictedInfoBot",
-      "value": "Bu botdan nusxa olish va uzatish taqiqlangan."
+      "value": "Bu chatdan nusxa olish va uzatish taqiqlangan."
     },
     {
       "_": "types.LangPackString",
@@ -22370,7 +22420,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift2BuyPriceOnlyTON",
-      "value": "Sotuvchi toʻlov sifatida faqat TON qabul qiladi."
+      "value": "Sotuvchi toʻlov sifatida faqat Gram qabul qiladi."
     },
     {
       "_": "types.LangPackString",
@@ -22835,7 +22885,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift2Info2OutExpired",
-      "value": "%1$s ushbu hadyani profilida saqlashi mumkin."
+      "value": "%1$s bu hadyani oʻz profiliga qoʻshishi mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -22987,7 +23037,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift2MadePublic",
-      "value": "Hadya endi **profilingizda** koʻrinadi."
+      "value": "Bu hadya endi **profilingizda** koʻrinadi."
     },
     {
       "_": "types.LangPackString",
@@ -25153,8 +25203,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "GiftPreviewCountSymbols",
-      "one_value": "Bu hadyada **%d** ta unikal naqsh mavjud",
-      "other_value": "Bu hadyada **%d** ta unikal naqsh mavjud"
+      "one_value": "Bu kolleksiyada **%d** ta unikal belgi mavjud",
+      "other_value": "Bu kolleksiyada **%d** ta unikal belgi mavjud"
     },
     {
       "_": "types.LangPackString",
@@ -28409,7 +28459,7 @@
     {
       "_": "types.LangPackString",
       "key": "LinkDesktopDevice",
-      "value": "Desktop qurilmasini ulash"
+      "value": "Qurilma qoʻshish"
     },
     {
       "_": "types.LangPackString",
@@ -30800,7 +30850,7 @@
     {
       "_": "types.LangPackString",
       "key": "MonetizationInfoFeature3Text",
-      "value": "TON summangizni istalgan vaqtda yechib olishingiz mumkin."
+      "value": "Gramlaringizni istalgan vaqtda yechib olishingiz mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -32621,6 +32671,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationChatReactGiveaway",
+      "value": "%1$s %2$s guruhidagi yutuqli oʻyiningizga %3$s reaksiya bildirdi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationChatStory",
       "value": "%s guruhga hikoya ulashdi"
     },
@@ -32791,6 +32846,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationMessageChannelGiveaway",
+      "value": "%1$s %2$sx %3$s oylik Premium obunalari yutuqli oʻyinini joyladi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationMessageChannelStarsGiveaway",
       "value": "%1$s %2$s ta gʻolib oʻrtasida taqsimlanadigan %3$s yulduzlik yutuqli oʻyin eʼlon qildi"
     },
@@ -32798,6 +32858,11 @@
       "_": "types.LangPackString",
       "key": "NotificationMessageChannelStarsGiveaway2",
       "value": "%1$s %2$s %3$s yulduz yutuqli oʻyinini joyladi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationMessageChatGiveaway",
+      "value": "%1$s %2$s guruhiga %3$sx %4$s oylik Premium obunalari yutuqli oʻyinini yubordi"
     },
     {
       "_": "types.LangPackString",
@@ -32853,6 +32918,11 @@
       "_": "types.LangPackString",
       "key": "NotificationMessageGiftCode",
       "value": "%1$s sizga %2$slik Telegram Premium hadya kodini yubordi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationMessageGiveaway",
+      "value": "%1$s sizga %2$sx %3$s oylik Premium obunalari yutuqli oʻyinini yubordi"
     },
     {
       "_": "types.LangPackString",
@@ -37840,7 +37910,7 @@
     {
       "_": "types.LangPackString",
       "key": "PremiumPreviewMessagePrivacyDescription",
-      "value": "Siz tanimaydigan odamlarning sizga xabar yuborishini cheklang."
+      "value": "Notanish odamlarning sizga xabar yuborishini cheklang yoki kiruvchi xabarlar uchun haq belgilang."
     },
     {
       "_": "types.LangPackString",
@@ -41955,7 +42025,7 @@
     {
       "_": "types.LangPackString",
       "key": "ResellGiftPriceOnlyTON",
-      "value": "Faqat TON qabul qilish"
+      "value": "Faqat Gram qabul qilish"
     },
     {
       "_": "types.LangPackString",
@@ -41965,7 +42035,7 @@
     {
       "_": "types.LangPackString",
       "key": "ResellGiftPriceTitleTON",
-      "value": "Narxni TONda kiriting"
+      "value": "Narxni Gramda kiriting"
     },
     {
       "_": "types.LangPackString",
@@ -42739,7 +42809,7 @@
     {
       "_": "types.LangPackString",
       "key": "SMSFeeTitle",
-      "value": "SMS haqi"
+      "value": "Bir martalik SMS toʻlovi"
     },
     {
       "_": "types.LangPackString",
@@ -43563,6 +43633,11 @@
       "_": "types.LangPackString",
       "key": "SearchEngine1Name",
       "value": "Google"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SearchEngineInfo",
+      "value": "Brauzer qidiruv satrida qidirish va avtomatik toʻldirish"
     },
     {
       "_": "types.LangPackString",
@@ -47001,6 +47076,16 @@
       "other_value": "⭐️ %d yulduzni tasdiqlash va toʻlash"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StarsConfirmPurchaseMedia1",
+      "value": "**%2$s**dagi %1$sni **%3$s** evaziga ochmoqchimisiz?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsConfirmPurchaseMedia2",
+      "value": "**%3$s**dagi %1$s va %2$sni **%4$s** evaziga ochmoqchimisiz?"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StarsConfirmPurchaseMediaBotOne2",
       "one_value": "**%3$s**dan %2$sni **%1$d yulduz** evaziga ochmoqchimisiz?",
@@ -47896,7 +47981,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsTransactionTONDate",
-      "value": "TON tranzaksiyasi sanasi"
+      "value": "Gram tranzaksiyasi sanasi"
     },
     {
       "_": "types.LangPackString",
@@ -49989,7 +50074,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryViewsPremiumHint",
-      "value": "Eskirgan va joylangan hikoyalar uchun koʻrganlar roʻyxatini ochish uchun **Telegram Premium**ga obuna boʻling."
+      "value": "Eskirgan va joylangan hikoyalarda kelgusi koʻrganlar roʻyxatini ochish uchun **Telegram Premium**ga obuna boʻling."
     },
     {
       "_": "types.LangPackString",
@@ -50588,7 +50673,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestionTONWillBeLost",
-      "value": "TON yoʻqotiladi"
+      "value": "Gramlar yoʻqotiladi"
     },
     {
       "_": "types.LangPackString",
@@ -53738,7 +53823,7 @@
     {
       "_": "types.LangPackString",
       "key": "UserBirthdayHint",
-      "value": "🎂 %1$s bugun tugʻilgan kunini nishonlamoqda. %1$sga tugʻilgan kun hadyasi sifatida **Telegram Premium** berishingiz mumkin."
+      "value": "🎂 Bugun %1$sga tugʻilgan kuni uchun hadya yuborishingiz mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -56888,6 +56973,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletContractCall",
+      "value": "Smart-kontrakt chaqiruvi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletCopyAddress",
       "value": "Manzilni nusxalash"
     },
@@ -57545,7 +57635,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletSendInstantly",
-      "value": "Pulni bir zumda yuborish"
+      "value": "Bir zumda oʻtkazmalar"
     },
     {
       "_": "types.LangPackString",
@@ -58094,6 +58184,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebForward",
+      "value": "Oldinga"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebHistory",
       "value": "Tarix"
     },
@@ -58149,8 +58244,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebViewRequestCameraMicPermissionWithHint",
+      "value": "**%1$s** kamera va mikrofoningizdan foydalanishiga ruxsat berasizmi?\n\nBu veb-sayt ochiq boʻlganda **%1$s** kamera va mikrofoningizdan foydalana oladi.\n\nSozlamalar > Ruxsatlar > Kamera ruknida kamera ruxsatini yoqing."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebViewRequestCameraPermission",
       "value": "**%1$s** kamerangizdan foydalanishiga ruxsat berasizmi?\n\nBu veb-sayt ochiq boʻlganda **%1$s** kamerangizdan foydalana oladi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebViewRequestCameraPermissionWithHint",
+      "value": "**%1$s** kamerangizdan foydalanishiga ruxsat berasizmi?\n\nBu veb-sayt ochiq boʻlganda **%1$s** kamerangizdan foydalana oladi.\n\nSozlamalar > Ruxsatlar > Kamera ruknida kamera ruxsatini yoqing."
     },
     {
       "_": "types.LangPackString",
@@ -58905,5 +59010,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61492404
+  "version": 61558913
 }

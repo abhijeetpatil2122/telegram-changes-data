@@ -2123,6 +2123,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_pinned_deleted",
+      "value": "{from} закрепил(а) удалённое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_pinned_media",
       "value": "{from} закрепил(а) {media}"
     },
@@ -2502,6 +2507,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_todo_marked_not_done_self",
       "value": "Вы отметили {tasks} как невыполненное"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_todo_task_quote",
+      "value": "«{task}»"
     },
     {
       "_": "types.LangPackString",
@@ -4905,6 +4915,14 @@
       "value": "Статья"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "При вставке к сообщению будут прикреплены {count} файла с компьютера:",
+      "key": "lng_article_paste_attach_files",
+      "many_value": "При вставке к сообщению будут прикреплены {count} файлов с компьютера:",
+      "one_value": "При вставке к сообщению будет прикреплён {count} файл с компьютера:",
+      "other_value": "При вставке к сообщению будут прикреплены {count} файла с компьютера:"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_article_paste_truncated",
       "value": "Не удалось вставить целиком, часть была обрезана."
@@ -6489,7 +6507,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_boost_channel_you_title",
-      "value": "Вы проголосовали за {channel}!"
+      "value": "Голос отдан за {channel}!"
     },
     {
       "_": "types.LangPackString",
@@ -6897,7 +6915,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_bot_add_as_admin",
-      "value": "Назначить бота администратором"
+      "value": "Назначить администратором"
     },
     {
       "_": "types.LangPackString",
@@ -8018,7 +8036,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_error_camera_outdated",
-      "value": "Приложение {user} не поддерживает видеозвонки. Пользователю необходимо обновить приложение, чтобы Вы могли ему позвонить."
+      "value": "Приложение {user} не поддерживает видеозвонки. Пользователю требуется обновить приложение."
     },
     {
       "_": "types.LangPackString",
@@ -8128,7 +8146,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_redial",
-      "value": "Перезвонить"
+      "value": "Повторить"
     },
     {
       "_": "types.LangPackString",
@@ -8811,7 +8829,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_channel_invite_subscription_terms",
-      "value": "Оформляя подписку, Вы принимаете {link} Telegram."
+      "value": "Оформляя подписку, Вы принимаете {link}."
     },
     {
       "_": "types.LangPackString",
@@ -10166,7 +10184,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_community_admin_promote_title",
-      "value": "Назначение админом сообщества"
+      "value": "Администратор сообщества"
     },
     {
       "_": "types.LangPackString",
@@ -11571,7 +11589,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_context_fee_free",
-      "value": "{name} может отправлять сообщения бесплатно."
+      "value": "{name} может писать бесплатно."
     },
     {
       "_": "types.LangPackString",
@@ -11636,7 +11654,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_context_mark_read_mentions_all",
-      "value": "Отметить упоминания как прочитанные"
+      "value": "Прочитать все упоминания"
     },
     {
       "_": "types.LangPackString",
@@ -12206,7 +12224,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_create_bot_username_available",
-      "value": "Имя пользователя {username} свободно."
+      "value": "Имя {username} свободно."
     },
     {
       "_": "types.LangPackString",
@@ -13331,6 +13349,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}д",
+      "key": "lng_days_badge",
+      "many_value": "{count}д",
+      "one_value": "{count}д",
+      "other_value": "{count}д"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}д",
       "key": "lng_days_tiny",
       "many_value": "{count}д",
       "one_value": "{count}д",
@@ -13875,7 +13901,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_drag_proxy_here",
-      "value": "Для подключения к прокси"
+      "value": "Подключить прокси"
     },
     {
       "_": "types.LangPackString",
@@ -16803,7 +16829,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_filters_name_unmuted",
-      "value": "С уведомлениями"
+      "value": "Важные"
     },
     {
       "_": "types.LangPackString",
@@ -16918,7 +16944,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_filters_title",
-      "value": "Папки"
+      "value": "Папки с чатами"
     },
     {
       "_": "types.LangPackString",
@@ -16968,7 +16994,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_filters_type_no_muted",
-      "value": "Без уведомлений"
+      "value": "Без звука"
     },
     {
       "_": "types.LangPackString",
@@ -17805,12 +17831,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_buy_resale_pay_stars",
-      "value": "Оплата в звёздах"
+      "value": "В звёздах"
     },
     {
       "_": "types.LangPackString",
       "key": "lng_gift_buy_resale_pay_ton",
-      "value": "Оплата в GRAM"
+      "value": "В GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -18993,7 +19019,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_send_small",
-      "value": "отправить подарок"
+      "value": "подарок"
     },
     {
       "_": "types.LangPackString",
@@ -19289,7 +19315,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_gift_transfer_locked_text",
-      "value": "Действие станет доступно после отправки подарка в Ваш аккаунт пользователя Telegram на платформе Fragment."
+      "value": "Действие станет доступно после переноса подарка из кошелька в профиль."
     },
     {
       "_": "types.LangPackString",
@@ -20259,7 +20285,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_giveaway_credits_new_about_group",
-      "value": "Разыгрывайте призы, чтобы получить больше\nголосов и привлечь новых участников."
+      "value": "Разыгрывайте призы, чтобы получить больше голосов и участников."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -21026,7 +21052,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_join_as_header_channel",
-      "value": "Присоединиться к трансляции как..."
+      "value": "Присоединиться как..."
     },
     {
       "_": "types.LangPackString",
@@ -21538,7 +21564,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_set_reminder",
-      "value": "Установить напоминание"
+      "value": "Напомнить"
     },
     {
       "_": "types.LangPackString",
@@ -21588,7 +21614,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_start_now",
-      "value": "Начать сейчас"
+      "value": "Начать"
     },
     {
       "_": "types.LangPackString",
@@ -21863,7 +21889,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_invite_approval_required",
-      "value": "подтверждение админом"
+      "value": "с проверкой"
     },
     {
       "_": "types.LangPackString",
@@ -21953,11 +21979,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "осталось {count} дня",
+      "few_value": "ещё {count} дня",
       "key": "lng_group_invite_days_left",
-      "many_value": "осталось {count} дней",
-      "one_value": "остался {count} день",
-      "other_value": "осталось {count} дня"
+      "many_value": "ещё {count} дней",
+      "one_value": "ещё {count} день",
+      "other_value": "ещё {count} дня"
     },
     {
       "_": "types.LangPackString",
@@ -22507,6 +22533,14 @@
       "value": "Добавить часы работы"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}ч",
+      "key": "lng_hours_badge",
+      "many_value": "{count}ч",
+      "one_value": "{count}ч",
+      "other_value": "{count}ч"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_hours_closed",
       "value": "Закрыто"
@@ -22534,7 +22568,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_hours_on_next_day",
-      "value": "Следующий день, {time}"
+      "value": "След. день, {time}"
     },
     {
       "_": "types.LangPackString",
@@ -22748,6 +22782,11 @@
       "_": "types.LangPackString",
       "key": "lng_in_dlg_voice_message_ttl",
       "value": "Одноразовое голосовое сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_in_dlg_widget",
+      "value": "Виджет"
     },
     {
       "_": "types.LangPackString",
@@ -23119,7 +23158,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_invite_upgrade_title",
-      "value": "Станьте Premium-пользователем"
+      "value": "Оформите Premium"
     },
     {
       "_": "types.LangPackString",
@@ -23349,6 +23388,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x_hold",
+      "value": "Скорость x2 при удержании"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_media_chapter_next",
       "value": "Следующий эпизод"
     },
@@ -23426,6 +23470,11 @@
       "_": "types.LangPackString",
       "key": "lng_keys_legend_media_seek",
       "value": "Перемотка назад / вперёд"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_speed_scrub",
+      "value": "Зажать — ускорение, вести — выбор скорости"
     },
     {
       "_": "types.LangPackString",
@@ -23509,6 +23558,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_space",
+      "value": "Пробел"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_title",
       "value": "Сочетания клавиш и жесты"
     },
@@ -23584,6 +23638,11 @@
       "many_value": "{count} языков",
       "one_value": "{count} язык",
       "other_value": "{count} языка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_languages_custom",
+      "value": "Свой языковой пакет"
     },
     {
       "_": "types.LangPackString",
@@ -24156,6 +24215,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_mac_cant_open_chooser",
+      "value": "Не удалось открыть окно выбора приложения."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_choose_app",
       "value": "Выберите приложение"
     },
@@ -24482,7 +24546,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_manage_history_visibility_title",
-      "value": "История чата для новых участников"
+      "value": "История для новых участников"
     },
     {
       "_": "types.LangPackString",
@@ -24963,7 +25027,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_manage_peer_request_apply_title",
-      "value": "Применить к действующим ссылкам"
+      "value": "Применить к текущим ссылкам"
     },
     {
       "_": "types.LangPackString",
@@ -25053,7 +25117,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_manage_private_peer_noforwards_title",
-      "value": "Частный с запретом на копирование"
+      "value": "Частный, без копирования"
     },
     {
       "_": "types.LangPackString",
@@ -25228,6 +25292,11 @@
       "_": "types.LangPackString",
       "key": "lng_media_audio_empty",
       "value": "Здесь пока нет голосовых сообщений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_media_audio_empty_search",
+      "value": "Голосовые сообщения не найдены"
     },
     {
       "_": "types.LangPackString",
@@ -26054,7 +26123,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_menu_insert_unicode",
-      "value": "Вставить управляющий символ Unicode"
+      "value": "Вставить управляющий символ"
     },
     {
       "_": "types.LangPackString",
@@ -26526,6 +26595,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}м",
+      "key": "lng_months_badge",
+      "many_value": "{count}м",
+      "one_value": "{count}м",
+      "other_value": "{count}м"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}м",
       "key": "lng_months_tiny",
       "many_value": "{count}м",
       "one_value": "{count}м",
@@ -26554,7 +26631,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_mute_box_title",
-      "value": "Выключить уведомления на..."
+      "value": "Выкл. уведомления на..."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -27221,6 +27298,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_open_link_unsupported",
+      "value": "Telegram не может открыть эту ссылку."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_open_menu",
       "value": "Открыть меню навигации"
     },
@@ -27445,7 +27527,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_participant_invite_history",
-      "value": "Показать последние 100 сообщений"
+      "value": "Показ последних 100 сообщений"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -27857,7 +27939,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passport_about_password",
-      "value": "Этот пароль также потребуется для входа с новых устройств."
+      "value": "Пароль также потребуется\nдля входа с новых устройств."
     },
     {
       "_": "types.LangPackString",
@@ -29892,7 +29974,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_polls_create_option_link_description",
-      "value": "Укажите ссылку, которую хотите прикрепить к этому варианту ответа."
+      "value": "Прикрепите ссылку к варианту ответа."
     },
     {
       "_": "types.LangPackString",
@@ -31615,7 +31697,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_prizes_you_won_credits",
-      "value": "Вы выиграли {amount} в этом розыгрыше {cup}."
+      "value": "Вы выиграли {amount} в розыгрыше {cup}"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -32897,6 +32979,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about_chat",
+      "value": "Коллекционных подарков пока нет."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_gifts_empty_title",
       "value": "Подарков пока нет"
     },
@@ -33207,16 +33294,16 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "Переподключение через {count} секунды...",
+      "few_value": "Повтор через {count} сек...",
       "key": "lng_reconnecting",
-      "many_value": "Переподключение через {count} секунд...",
-      "one_value": "Переподключение через {count} секунду...",
-      "other_value": "Переподключение через {count} секунд..."
+      "many_value": "Повтор через {count} сек...",
+      "one_value": "Повтор через {count} сек...",
+      "other_value": "Повтор через {count} сек..."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_reconnecting_try_now",
-      "value": "Попробовать снова"
+      "value": "Повторить"
     },
     {
       "_": "types.LangPackString",
@@ -33917,8 +34004,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_channel_delete_stories",
+      "value": "удалять чужие истории"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_channel_edit_messages",
       "value": "редактировать чужие сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_edit_stories",
+      "value": "редактировать чужие истории"
     },
     {
       "_": "types.LangPackString",
@@ -33944,6 +34041,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_channel_post_messages",
       "value": "отправлять сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_post_stories",
+      "value": "публиковать истории"
     },
     {
       "_": "types.LangPackString",
@@ -33997,6 +34099,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_group_delete_stories",
+      "value": "удалять чужие истории"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_edit_stories",
+      "value": "редактировать чужие истории"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_group_invite",
       "value": "приглашать пользователей по ссылке"
     },
@@ -34024,6 +34136,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_group_pin_messages",
       "value": "закреплять сообщения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_post_stories",
+      "value": "публиковать истории"
     },
     {
       "_": "types.LangPackString",
@@ -34062,6 +34179,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_peer_confirm_add_maybe",
+      "value": "{bot} также будет добавлен в {chat}, если его там ещё нет."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы точно хотите отправить {count} чата боту {bot}?",
+      "key": "lng_request_peer_confirm_many",
+      "many_value": "Вы точно хотите отправить {count} чатов боту {bot}?",
+      "one_value": "Вы точно хотите отправить {count} чат боту {bot}?",
+      "other_value": "Вы точно хотите отправить {count} чата боту {bot}?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_peer_confirm_rights",
       "value": "{bot} также будет добавлен в {chat} и получит следующие права: {rights}."
     },
@@ -34084,6 +34214,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_peer_rights_and",
       "value": "{rights} и {last}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_peer_rights_other",
+      "value": "другие права администратора"
     },
     {
       "_": "types.LangPackString",
@@ -35596,7 +35731,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_select_next_owner_box_empty_list",
-      "value": "Нет участников, которым можно передать права владельца."
+      "value": "Нет участников, которых можно назначить владельцем."
     },
     {
       "_": "types.LangPackString",
@@ -37287,7 +37422,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_enable_opengl",
-      "value": "Включить рендеринг OpenGL для мультимедиа"
+      "value": "Рендеринг OpenGL для мультимедиа"
     },
     {
       "_": "types.LangPackString",
@@ -37798,7 +37933,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_password_abort",
-      "value": "Прервать настройку облачного пароля"
+      "value": "Прервать настройку пароля"
     },
     {
       "_": "types.LangPackString",
@@ -38023,7 +38158,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_quick_dialog_action_unarchive",
-      "value": "Вернуть из архива"
+      "value": "Вернуть"
     },
     {
       "_": "types.LangPackString",
@@ -38053,7 +38188,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_rename_device_title",
-      "value": "Переименовать текущее устройство"
+      "value": "Переименовать устройство"
     },
     {
       "_": "types.LangPackString",
@@ -38970,7 +39105,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_shortcuts_media_play_pause",
-      "value": "Воспроизведение/пауза"
+      "value": "Запуск/пауза"
     },
     {
       "_": "types.LangPackString",
@@ -39311,6 +39446,26 @@
       "_": "types.LangPackString",
       "key": "lng_similar_channels_view_all",
       "value": "Показать все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_bytes",
+      "value": "Б"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_gigabytes",
+      "value": "ГБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_kilobytes",
+      "value": "КБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_megabytes",
+      "value": "МБ"
     },
     {
       "_": "types.LangPackString",
@@ -40647,7 +40802,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_stars_rating_negative_label",
-      "value": "Отрицательный рейтинг"
+      "value": "Рейтинг ниже нуля"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -41013,7 +41168,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_status_bot_not_reads_all",
-      "value": "не имеет доступа к сообщениям"
+      "value": "нет доступа к сообщениям"
     },
     {
       "_": "types.LangPackString",
@@ -42401,7 +42556,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_options_stars_offer",
-      "value": "Предложить звёзды"
+      "value": "Звёзды"
     },
     {
       "_": "types.LangPackString",
@@ -42431,7 +42586,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_suggest_options_ton_offer",
-      "value": "Предложить GRAM"
+      "value": "GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -42523,7 +42678,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_summarize_header_about",
-      "value": "Нажмите для возврата к сообщению"
+      "value": "Показать оригинал"
     },
     {
       "_": "types.LangPackString",
@@ -42864,6 +43019,21 @@
       "_": "types.LangPackString",
       "key": "lng_text_copied",
       "value": "Текст скопирован в буфер обмена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_copied",
+      "value": "Скопировано: {text}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_log",
+      "value": "Журнал виджета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_stopped",
+      "value": "Виджет остановлен"
     },
     {
       "_": "types.LangPackString",
@@ -43445,7 +43615,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_translate_settings_use_platform_linux",
-      "value": "Использовать Crow Translate от KDE"
+      "value": "Включить Crow Translate от KDE"
     },
     {
       "_": "types.LangPackString",
@@ -44261,6 +44431,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_video_editor_gif_too_large",
+      "value": "Видео больше {size} нельзя преобразовать в GIF"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_video_quality_original",
       "value": "Исходное"
     },
@@ -44699,7 +44874,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_card_add",
-      "value": "Поместить на карту"
+      "value": "На карту"
     },
     {
       "_": "types.LangPackString",
@@ -44782,7 +44957,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_chip_username",
-      "value": "Коллекционное имя пользователя"
+      "value": "Коллекционное имя"
     },
     {
       "_": "types.LangPackString",
@@ -44807,7 +44982,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_collectible_own_wallet",
-      "value": "Этот коллекционный предмет уже в Вашем кошельке."
+      "value": "Уже в Вашем кошельке."
     },
     {
       "_": "types.LangPackString",
@@ -46108,6 +46283,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}н",
+      "key": "lng_weeks_badge",
+      "many_value": "{count}н",
+      "one_value": "{count}н",
+      "other_value": "{count}н"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}н",
       "key": "lng_weeks_tiny",
       "many_value": "{count}н",
       "one_value": "{count}н",
@@ -46189,6 +46372,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}г",
+      "key": "lng_years_badge",
+      "many_value": "{count}г",
+      "one_value": "{count}г",
+      "other_value": "{count}г"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}г",
       "key": "lng_years_tiny",
       "many_value": "{count}г",
       "one_value": "{count}г",
@@ -46208,5 +46399,5 @@
       "other_value": "Вы заплатили {count} звезды."
     }
   ],
-  "version": 6032497
+  "version": 6048051
 }

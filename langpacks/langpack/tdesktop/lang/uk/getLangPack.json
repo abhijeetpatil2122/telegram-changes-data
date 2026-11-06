@@ -2123,6 +2123,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_pinned_deleted",
+      "value": "{from} прикріплює видалене повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_pinned_media",
       "value": "{from} прикріплює {media}"
     },
@@ -2502,6 +2507,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_todo_marked_not_done_self",
       "value": "Ви позначаєте {tasks} як невиконане"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_todo_task_quote",
+      "value": "«{task}»"
     },
     {
       "_": "types.LangPackString",
@@ -3558,7 +3568,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_admin_log_messages_ttl_changed",
-      "value": "{from} змінює час автовидалення повідомлень з {previous} до {duration}"
+      "value": "{from} змінює час автовидалення повідомлень з {previous} на {duration}"
     },
     {
       "_": "types.LangPackString",
@@ -4903,6 +4913,14 @@
       "_": "types.LangPackString",
       "key": "lng_article_menu_item",
       "value": "Стаття"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Якщо вставити цей вміст, до повідомлення буде прикріплено {count} файли з компʼютера:",
+      "key": "lng_article_paste_attach_files",
+      "many_value": "Якщо вставити цей вміст, до повідомлення буде прикріплено {count} файлів з компʼютера:",
+      "one_value": "Якщо вставити цей вміст, до повідомлення буде прикріплено {count} файл з компʼютера:",
+      "other_value": "Якщо вставити цей вміст, до повідомлення буде прикріплено {count} файлів з компʼютера:"
     },
     {
       "_": "types.LangPackString",
@@ -8018,7 +8036,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_error_camera_outdated",
-      "value": "Застосунок, яким користується {user}, не підтримує відеовикликів. Попросіть співрозмовника оновити Telegram."
+      "value": "Застосунок {user} не підтримує відеовиклики. Користувачу необхідно оновити Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -8248,7 +8266,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_window_pinned_on_top",
-      "value": "Вікно виклику прикріплено й показується зверху."
+      "value": "Виклик прикріплено поверх усіх вікон."
     },
     {
       "_": "types.LangPackString",
@@ -11571,7 +11589,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_context_fee_free",
-      "value": "{name} може надсилати повідомлення безплатно."
+      "value": "{name} може писати безплатно."
     },
     {
       "_": "types.LangPackString",
@@ -13331,6 +13349,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}д",
+      "key": "lng_days_badge",
+      "many_value": "{count}д",
+      "one_value": "{count}д",
+      "other_value": "{count}д"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}д",
       "key": "lng_days_tiny",
       "many_value": "{count}д",
       "one_value": "{count}д",
@@ -13875,7 +13901,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_drag_proxy_here",
-      "value": "Підʼєднайтеся до проксі"
+      "value": "Підʼєднатися до проксі"
     },
     {
       "_": "types.LangPackString",
@@ -21134,12 +21160,12 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_mac_recording",
-      "value": "Дозвольте **Запис екрана** для Telegram у Параметрах приватності."
+      "value": "Дозвольте **Запис екрана** для Telegram у системних налаштуваннях приваності."
     },
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_mac_screencast_access",
-      "value": "Telegram Desktop не має доступу до записування екрана, що необхідне для демонстрації екрана."
+      "value": "Telegram Desktop не має доступу до записування екрана, що необхідно для демонстрації екрана."
     },
     {
       "_": "types.LangPackString",
@@ -22111,7 +22137,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_invite_no_joined",
-      "value": "Ніхто ще не приєднався"
+      "value": "Ніхто не приєднався"
     },
     {
       "_": "types.LangPackString",
@@ -22507,6 +22533,14 @@
       "value": "Додати години роботи"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}г",
+      "key": "lng_hours_badge",
+      "many_value": "{count}г",
+      "one_value": "{count}г",
+      "other_value": "{count}г"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_hours_closed",
       "value": "Вихідний"
@@ -22748,6 +22782,11 @@
       "_": "types.LangPackString",
       "key": "lng_in_dlg_voice_message_ttl",
       "value": "Одноразове голосове повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_in_dlg_widget",
+      "value": "Віджет"
     },
     {
       "_": "types.LangPackString",
@@ -23119,7 +23158,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_invite_upgrade_title",
-      "value": "Перейти на Premium"
+      "value": "Перейдіть на Premium"
     },
     {
       "_": "types.LangPackString",
@@ -23349,6 +23388,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x_hold",
+      "value": "Утримуйте — відтворити зі швидкістю 2x"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_media_chapter_next",
       "value": "Наступний епізод"
     },
@@ -23426,6 +23470,11 @@
       "_": "types.LangPackString",
       "key": "lng_keys_legend_media_seek",
       "value": "Перемотати назад або вперед"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_speed_scrub",
+      "value": "Утримуйте — пришвидшити,\nперетягуйте — змінити швидкість"
     },
     {
       "_": "types.LangPackString",
@@ -23509,6 +23558,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_space",
+      "value": "Пробіл"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_title",
       "value": "Сполучення клавіш та жести"
     },
@@ -23584,6 +23638,11 @@
       "many_value": "{count} мов",
       "one_value": "{count} мова",
       "other_value": "{count} мов"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_languages_custom",
+      "value": "Сторонній переклад"
     },
     {
       "_": "types.LangPackString",
@@ -24153,6 +24212,11 @@
       "_": "types.LangPackString",
       "key": "lng_mac_always_open_with",
       "value": "Завжди відкривати в цій програмі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_mac_cant_open_chooser",
+      "value": "Не вдалося відкрити вікно вибору програми."
     },
     {
       "_": "types.LangPackString",
@@ -25231,6 +25295,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_media_audio_empty_search",
+      "value": "Голосових повідомлень не знайдено"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_media_audio_title",
       "value": "Голосові повідомлення"
     },
@@ -26054,7 +26123,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_menu_insert_unicode",
-      "value": "Вставте керівний символ Unicode"
+      "value": "Вставити керівний символ Unicode"
     },
     {
       "_": "types.LangPackString",
@@ -26522,6 +26591,14 @@
       "many_value": "{count} місяців",
       "one_value": "{count} місяць",
       "other_value": "{count} місяців"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}м",
+      "key": "lng_months_badge",
+      "many_value": "{count}м",
+      "one_value": "{count}м",
+      "other_value": "{count}м"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -27218,6 +27295,11 @@
       "_": "types.LangPackString",
       "key": "lng_open_link_suspicious_chars",
       "value": "Виділені символи написані з використанням іншої абетки, ніж решта адреси."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_open_link_unsupported",
+      "value": "Telegram не може відкрити це посилання."
     },
     {
       "_": "types.LangPackString",
@@ -27947,7 +28029,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passport_app_out_of_date",
-      "value": "Ваша версія Telegram застаріла і не може обробити запит. Оновіть Telegram."
+      "value": "Ваша версія Telegram застаріла й не може обробити цей запит. Оновіть Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -28102,7 +28184,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_passport_error_too_large",
-      "value": "Це завеликий файл."
+      "value": "Цей файл завеликий."
     },
     {
       "_": "types.LangPackString",
@@ -32897,6 +32979,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about_chat",
+      "value": "Колекційних подарунків поки немає."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_gifts_empty_title",
       "value": "Подарунків ще немає"
     },
@@ -33917,8 +34004,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_channel_delete_stories",
+      "value": "видаляти історії інших"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_channel_edit_messages",
       "value": "змінювати повідомлення інших"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_edit_stories",
+      "value": "змінювати історії інших"
     },
     {
       "_": "types.LangPackString",
@@ -33944,6 +34041,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_channel_post_messages",
       "value": "публікувати повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_post_stories",
+      "value": "публікувати історії"
     },
     {
       "_": "types.LangPackString",
@@ -33997,6 +34099,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_group_delete_stories",
+      "value": "видаляти історії інших"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_edit_stories",
+      "value": "змінювати історії інших"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_group_invite",
       "value": "запрошувати учасників за посиланням"
     },
@@ -34024,6 +34136,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_group_pin_messages",
       "value": "прикріплювати повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_post_stories",
+      "value": "публікувати історії"
     },
     {
       "_": "types.LangPackString",
@@ -34062,6 +34179,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_peer_confirm_add_maybe",
+      "value": "Це також додасть {bot} до {chat}, якщо його там ще немає."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ви впевнені, що хочете надіслати {count} чати боту {bot}?",
+      "key": "lng_request_peer_confirm_many",
+      "many_value": "Ви впевнені, що хочете надіслати {count} чатів боту {bot}?",
+      "one_value": "Ви впевнені, що хочете надіслати {count} чат боту {bot}?",
+      "other_value": "Ви впевнені, що хочете надіслати {count} чатів боту {bot}?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_peer_confirm_rights",
       "value": "Це також додасть {bot} до {chat} з наступними правами: {rights}."
     },
@@ -34084,6 +34214,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_peer_rights_and",
       "value": "{rights} та {last}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_peer_rights_other",
+      "value": "інші права адміна"
     },
     {
       "_": "types.LangPackString",
@@ -35030,7 +35165,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_rights_transfer_check_password",
-      "value": "• **Двоетапна перевірка** у вашому акаунті увімкнена не менше ніж **7 діб**."
+      "value": "• **Двоетапна перевірка** у вашому акаунті увімкнена не менше ніж **7 діб тому**."
     },
     {
       "_": "types.LangPackString",
@@ -39314,6 +39449,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_size_bytes",
+      "value": "Б"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_gigabytes",
+      "value": "ГБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_kilobytes",
+      "value": "кБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_megabytes",
+      "value": "МБ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_slowmode_enabled",
       "value": "Діє повільний режим. Ви зможете написати через {left}."
     },
@@ -39333,7 +39488,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_slowmode_too_long",
-      "value": "Цей текст завеликий і його не можна надіслати одним повідомленням.\n\nДіє повільний режим. Не можна надіслати декілька повідомлень за раз."
+      "value": "Текст задовгий для одного повідомлення.\n\nДіє повільний режим. Не можна надіслати декілька повідомлень за раз."
     },
     {
       "_": "types.LangPackString",
@@ -42808,7 +42963,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_terms_agree_to_proceed",
-      "value": "Погодьтеся та продовжіть у {bot}."
+      "value": "Погодьтеся та продовжте у {bot}."
     },
     {
       "_": "types.LangPackString",
@@ -42864,6 +43019,21 @@
       "_": "types.LangPackString",
       "key": "lng_text_copied",
       "value": "Текст скопійовано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_copied",
+      "value": "Скопійовано: {text}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_log",
+      "value": "Лог віджета"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_stopped",
+      "value": "Віджет зупинено"
     },
     {
       "_": "types.LangPackString",
@@ -44261,6 +44431,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_video_editor_gif_too_large",
+      "value": "Відео розміром понад {size} не можна перетворити на GIF"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_video_quality_original",
       "value": "Оригінал"
     },
@@ -44807,7 +44982,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_collectible_own_wallet",
-      "value": "Цей колекційний предмет вже у вашому гаманці."
+      "value": "Вже у вашому гаманці."
     },
     {
       "_": "types.LangPackString",
@@ -45767,7 +45942,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_replace_title",
-      "value": "Як ви хочете замінити старий гаманець?"
+      "value": "Яким гаманцем замінити старий?"
     },
     {
       "_": "types.LangPackString",
@@ -46108,6 +46283,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}т",
+      "key": "lng_weeks_badge",
+      "many_value": "{count}т",
+      "one_value": "{count}т",
+      "other_value": "{count}т"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}т",
       "key": "lng_weeks_tiny",
       "many_value": "{count}т",
       "one_value": "{count}т",
@@ -46189,6 +46372,14 @@
     {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count}р",
+      "key": "lng_years_badge",
+      "many_value": "{count}р",
+      "one_value": "{count}р",
+      "other_value": "{count}р"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count}р",
       "key": "lng_years_tiny",
       "many_value": "{count}р",
       "one_value": "{count}р",
@@ -46208,5 +46399,5 @@
       "other_value": "Ви заплатили {count} зірок."
     }
   ],
-  "version": 6047047
+  "version": 6048569
 }

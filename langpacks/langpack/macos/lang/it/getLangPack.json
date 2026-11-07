@@ -6352,6 +6352,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "Impossibile confermare i permessi aggiornati. Controlla i permessi del membro prima di riprovare."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.EditTag",
       "value": "Modifica tag"
     },
@@ -8566,8 +8571,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Accessibility",
+      "value": "Correggi punteggiatura e grammatica nel testo dettato"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Enhance.Editor",
       "value": "Editor IA…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Enhance.Fix",
+      "value": "Correggi grammatica"
     },
     {
       "_": "types.LangPackString",
@@ -8578,6 +8593,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Enhancing",
       "value": "Miglioro…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Dictation.Error.NoInput",
+      "value": "Nessun microfono trovato. Collega un microfono e riprova."
     },
     {
       "_": "types.LangPackString",
@@ -11660,10 +11680,20 @@
       "value": "Trascrizione audio non riuscita. Riprova."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Impossibile trascrivere questo audio. Usa una registrazione tra 1 secondo e 30 minuti."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "one_value": "Troppe richieste di trascrizione. Riprova tra %1$d secondo.",
       "other_value": "Troppe richieste di trascrizione. Riprova tra %1$d secondi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Le tue trascrizioni gratuite sono terminate. Serve Telegram Premium per trascrivere più audio."
     },
     {
       "_": "types.LangPackString",
@@ -13755,6 +13785,11 @@
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.PlainForbidden",
       "value": "Non puoi inviare messaggi di testo in questa chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "Impossibile inviare questo messaggio. Errore del server: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -17318,8 +17353,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToFill",
+      "value": "Passa a riempimento"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasControls.SwitchToOneSidedArrow",
       "value": "Passa a freccia unidirezionale"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToOutline",
+      "value": "Passa a contorno"
     },
     {
       "_": "types.LangPackString",
@@ -22487,6 +22532,16 @@
       "value": "Condividi…"
     },
     {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.Share",
+      "value": "Condividi codice QR"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLink.QrCode.Title",
+      "value": "Invita con codice QR"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "InviteLink.Remaining",
       "one_value": "• %d rimanente",
@@ -25774,6 +25829,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.Exceptions.MutedUntil",
+      "value": "Silenziato fino a %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.Exceptions.Remove",
       "value": "Rimuovi dalle eccezioni"
     },
@@ -25946,6 +26006,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.Stories.Important",
       "value": "Storie importanti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.Stories.ImportantInfo",
+      "value": "Sempre attive per i 5 migliori contatti."
     },
     {
       "_": "types.LangPackString",
@@ -34233,7 +34298,7 @@
     {
       "_": "types.LangPackString",
       "key": "SessionModal.Controller.LastActive",
-      "value": "Ultima accesso"
+      "value": "Ultimo accesso"
     },
     {
       "_": "types.LangPackString",
@@ -44150,6 +44215,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Poll.RecentVoters",
+      "value": "Votanti recenti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PollFinalResults",
       "value": "Risultati finali"
     },
@@ -44598,6 +44668,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Clear",
+      "value": "Cancella"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Close",
       "value": "Chiudi"
     },
@@ -44690,6 +44765,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.EmojiStatus",
       "value": "Stato emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ExitFullscreen",
+      "value": "Esci da schermo intero"
     },
     {
       "_": "types.LangPackString",
@@ -45043,6 +45123,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Recording",
+      "value": "Registro"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Redo",
       "value": "Ripeti"
     },
@@ -45253,6 +45338,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Toggle",
+      "value": "Interruttore"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.TonAmount",
       "value": "Importo in Gram"
     },
@@ -45280,6 +45370,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Unlock",
       "value": "Sblocca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unpin",
+      "value": "Togli"
     },
     {
       "_": "types.LangPackString",
@@ -45500,6 +45595,26 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.TextStyle",
       "value": "Stile testo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.InstantPage.DecreaseFontSize",
+      "value": "Riduci dimensione carattere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.InstantPage.IncreaseFontSize",
+      "value": "Aumenta dimensione carattere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.InstantPage.ResetFontSize",
+      "value": "Ripristina dimensione carattere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Location.Map",
+      "value": "Mappa"
     },
     {
       "_": "types.LangPackString",
@@ -46242,6 +46357,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.PreviousCollectible",
       "value": "Collezionabile precedente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ReplayGiftAnimation",
+      "value": "Ripeti animazione regalo"
     },
     {
       "_": "types.LangPackString",
@@ -49185,5 +49305,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2423086
+  "version": 2424241
 }

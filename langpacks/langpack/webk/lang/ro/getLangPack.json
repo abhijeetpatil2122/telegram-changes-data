@@ -24,6 +24,18 @@
       "value": "Arată Deasupra Mesajului"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%d stele",
+      "key": "AccDescr.CallRatingStars",
+      "one_value": "%d stea",
+      "other_value": "%d de stele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AccDescr.CallSignalStrength",
+      "value": "Putere semnal: %1$d din %2$d"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AccDescr.ContactDetails",
       "value": "Detaliile lui %s de contact"
@@ -1725,8 +1737,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.Create.AddToMessage",
+      "value": "Adaugă la Mesaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.Create.InLanguage",
+      "value": "În %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.Create.Placeholder",
       "value": "Generează text, formule, sau tabele..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.Create.Title",
+      "value": "Creează cu AI"
     },
     {
       "_": "types.LangPackString",
@@ -1747,6 +1774,16 @@
       "_": "types.LangPackString",
       "key": "AiEditor.Fix",
       "value": "Corectare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.Generate",
+      "value": "Generează"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.MessageChanged",
+      "value": "Mesajul s-a modificat. Redeschide editorul AI pentru a aplica un rezultat mesajului curent."
     },
     {
       "_": "types.LangPackString",
@@ -1807,6 +1844,16 @@
       "_": "types.LangPackString",
       "key": "AiEditor.PremiumFlood",
       "value": "Ai atins limita momentan. Abonează-te la [Telegram Premium]() pentru a extinde limita de 50 de ori sau încearcă mai târziu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.Prompt",
+      "value": "Prompt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.PromptPlaceholder",
+      "value": "Scrie un prompt..."
     },
     {
       "_": "types.LangPackString",
@@ -4049,6 +4096,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BusinessHours.SearchKeywords",
+      "value": "oră deschidere, orar, program, program de funcționare, deschis, închis"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BusinessHoursCopied",
       "value": "Orar business copiat"
     },
@@ -4182,6 +4234,11 @@
       "_": "types.LangPackString",
       "key": "BusinessLocation",
       "value": "Locație"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessLocation.SearchKeywords",
+      "value": "adresă, hartă, locație, locație business"
     },
     {
       "_": "types.LangPackString",
@@ -4451,6 +4508,11 @@
       "_": "types.LangPackString",
       "key": "CallBack",
       "value": "Apelează Înapoi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallLink.RevokeAlert",
+      "value": "Sigur vrei să revoci acest link? Un link nou va fi generat și nimeni nu se va mai putea alătura folosind linkul precedent."
     },
     {
       "_": "types.LangPackString",
@@ -5284,6 +5346,26 @@
       "value": "Previzualizarea acestui fișier ar putea expune adresa ta IP creatorului acestuia."
     },
     {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToLatestMessage",
+      "value": "Margi la ultimul mesaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToNextMention",
+      "value": "Mergi la următoarea mențiune"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToNextPollVote",
+      "value": "Mergi la următorul vot al sondajului"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.GoToNextReaction",
+      "value": "Mergi la următoarea reacție"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d cereri de alăturare",
       "key": "Chat.Header.RequestToJoin",
@@ -5317,8 +5399,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Action",
+      "value": "Acțiune"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionCopy",
+      "value": "Copiază"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionDisabled",
+      "value": "Dezactivat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionMention",
+      "value": "Menționare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ActionUrl",
+      "value": "Link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.ChooseUser",
+      "value": "Alege Utilizator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.CopyText",
+      "value": "Text de copiat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.CreateTitle",
+      "value": "Adăugare Buton"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Delete",
+      "value": "Șterge Butonul"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.EditTitle",
+      "value": "Editare Buton"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.NoUser",
+      "value": "Alege un utilizator pentru buton."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.SeparateLine",
+      "value": "Buton pe Rând Separat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Style",
+      "value": "Stil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Button.StyleDanger",
       "value": "Roșu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.StyleDefault",
+      "value": "Predefinit"
     },
     {
       "_": "types.LangPackString",
@@ -5329,6 +5481,61 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Button.StyleSuccess",
       "value": "Verde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Button.Text",
+      "value": "Text Buton"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.Add",
+      "value": "Adaugă Buton"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.AlignCenter",
+      "value": "Aliniere Centru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.AlignLeft",
+      "value": "Aliniere Stânga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.AlignRight",
+      "value": "Aliniere Dreapta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.Delete",
+      "value": "Șterge Rând"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.ButtonRow.Stretch",
+      "value": "Lățime Completă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Auto",
+      "value": "Auto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Choose",
+      "value": "Alege limbaj cod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.Custom",
+      "value": "Limbaj personalizat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.CodeLanguage.CustomTitle",
+      "value": "Setează limbaj cod"
     },
     {
       "_": "types.LangPackString",
@@ -5347,8 +5554,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Link.EditTitle",
+      "value": "Editează Link"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Link.Text",
+      "value": "Text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Link.Title",
+      "value": "Creează Link"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.List.Decimal",
       "value": "Zecimal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.List.ItemStyle",
+      "value": "Marcator articol curent"
     },
     {
       "_": "types.LangPackString",
@@ -5412,6 +5639,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.EditTitle",
+      "value": "Editare Formula Matematică"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Latex",
+      "value": "LaTeX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Placeholder",
+      "value": "Formulă LaTeX"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Result",
+      "value": "Rezultat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.SeparateLine",
+      "value": "Rând separat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Math.Title",
+      "value": "Inserare Formulă Matematică"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.Add",
+      "value": "Adaugă media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.Edit",
+      "value": "Editează Media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.GroupAsCollage",
+      "value": "Grupează articolele selectate ca, colaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.GroupAsSlideshow",
+      "value": "Grupează articolele selectate ca prezentare"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Media.Next",
       "value": "Articolul următor"
     },
@@ -5424,6 +5701,21 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Media.Remove",
       "value": "Elimină articol"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.Replace",
+      "value": "Înlocuiește media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.Spoiler",
+      "value": "Comută spoiler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Media.Ungroup",
+      "value": "Degrupează media"
     },
     {
       "_": "types.LangPackString",
@@ -5472,6 +5764,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Table.CellPlaceholder",
+      "value": "Celulă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Table.HeaderPlaceholder",
+      "value": "Antet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Table.TitlePlaceholder",
+      "value": "Adaugă titlu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.AI",
       "value": "Editor AI"
     },
@@ -5492,8 +5799,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Button",
+      "value": "Buton"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Checklist",
       "value": "Listă de sarcini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Code",
+      "value": "Bloc de cod"
     },
     {
       "_": "types.LangPackString",
@@ -5547,8 +5864,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.InlineMath",
+      "value": "Matematică pe rând"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Link",
+      "value": "Adaugă link"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.Lists",
       "value": "Liste și detalii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Math",
+      "value": "Formulă matematică"
     },
     {
       "_": "types.LangPackString",
@@ -5574,6 +5906,186 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Toolbar.ShowAsSlideshow",
       "value": "Arată ca prezentare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.Table",
+      "value": "Inserează tabel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAddCells",
+      "value": "Adaugă Celule"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlign",
+      "value": "Aliniere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignBottom",
+      "value": "Aliniază jos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignCenter",
+      "value": "Aliniază la centru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignLeft",
+      "value": "Aliniază la stânga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignMiddle",
+      "value": "Aliniază la mijloc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignRight",
+      "value": "Aliniază la dreapta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableAlignTop",
+      "value": "Aliniază sus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableBorderless",
+      "value": "Tabel Fără Margini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableCellActions",
+      "value": "Acțiuni celulă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableColumnLeft",
+      "value": "Adaugă Coloană la Stânga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableColumnRight",
+      "value": "Adaugă Coloană la Dreapta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableCompact",
+      "value": "Tabel Compact"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDelete",
+      "value": "Șterge tabel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteCells",
+      "value": "Șterge Celule"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteColumn",
+      "value": "Șterge Coloană"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteColumns",
+      "value": "Șterge Coloane"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteRow",
+      "value": "Șterge Rând"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableDeleteRows",
+      "value": "Șterge Rânduri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableHeaderCell",
+      "value": "Celulă de Antet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMove",
+      "value": "Mută"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveDown",
+      "value": "Mută în jos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveLeft",
+      "value": "Mută la stânga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveRight",
+      "value": "Mută la dreapta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableMoveUp",
+      "value": "Mută în sus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableRowAbove",
+      "value": "Adaugă Rând Deasupra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableRowBelow",
+      "value": "Adaugă Rând Dedesubt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectColumn",
+      "value": "Selectează coloană"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectRow",
+      "value": "Selectează rând"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectTable",
+      "value": "Selectează tabel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSelectionEnd",
+      "value": "Redimensionează selecția de la final"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableSplitCell",
+      "value": "Scindează Celule"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableStriped",
+      "value": "Tabel Dungat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Toolbar.TableUniteCells",
+      "value": "Îmbină Celule"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.TrailingPlaceholder",
+      "value": "Tastează ceva..."
     },
     {
       "_": "types.LangPackString",
@@ -5887,6 +6399,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Search.NextResult",
+      "value": "Rezultat următor căutare"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Search.NoMessagesFound",
       "value": "Niciun mesaj găsit"
     },
@@ -5894,6 +6411,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Search.NothingFound",
       "value": "Nimic interesant aici încă..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Search.PreviousResult",
+      "value": "Rezultat precedent căutare"
     },
     {
       "_": "types.LangPackString",
@@ -6983,6 +7505,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.Menu.SwitchTo.A.Passcode",
+      "value": "Pentru a comuta la versiunea A, dezactivează-ți codul de acces local mai întâi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.Menu.SwitchTo.Webogram",
       "value": "Comută la Versiunea Veche"
     },
@@ -7168,8 +7695,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatTips.Appearance",
+      "value": "Aspect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Appearance.Dark",
+      "value": "Întunecos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatTips.Appearance.Description",
       "value": "Poți modifica acești parametri și mulți alții în Setări > [Setări Generale]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Appearance.Light",
+      "value": "Luminos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Appearance.System",
+      "value": "Sistem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Chats",
+      "value": "Conversații"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Chats.Empty",
+      "value": "Nimic aici încă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Chats.Popular",
+      "value": "Populare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Chats.RecentSearch",
+      "value": "Căutate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Chats.RecentlyClosed",
+      "value": "Închise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.NextTip",
+      "value": "Sfatul Următor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.PreviousTip",
+      "value": "Sfatul Precedent"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Stickers.Description",
+      "value": "Mai multe stickere populare sunt disponibile la [Stickere Populare]()."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTips.Title",
+      "value": "Sfaturi"
     },
     {
       "_": "types.LangPackString",
@@ -8297,7 +8889,7 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Controls.HideParticipants",
-      "value": "Ascunde participanți"
+      "value": "Ascunde participanții"
     },
     {
       "_": "types.LangPackString",
@@ -8307,7 +8899,7 @@
     {
       "_": "types.LangPackString",
       "key": "ConferenceCall.Controls.ShowParticipants",
-      "value": "Afișează participanți"
+      "value": "Afișează participanții"
     },
     {
       "_": "types.LangPackString",
@@ -10069,6 +10661,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ephemeral.AnchoredAbout",
+      "value": "Această versiune a mesajului este vizibilă doar ție."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ephemeral.CantSchedule",
       "value": "Mesajele efemere nu pot fi programate."
     },
@@ -10099,6 +10696,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ephemeral.Revert",
+      "value": "Revino"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.Revert.About",
+      "value": "restabilește mesajul la conținutul său original"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ephemeral.SendFailed",
       "value": "Trimiterea acestui mesaj privat eșuată."
     },
@@ -10116,6 +10723,11 @@
       "_": "types.LangPackString",
       "key": "Ephemeral.UnsupportedContent",
       "value": "Acest conținut nu poate fi trimis ca mesaj efemer."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ephemeral.Updated",
+      "value": "actualizat"
     },
     {
       "_": "types.LangPackString",
@@ -10194,8 +10806,173 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.A11y",
+      "value": "Tastatură și Cititor de Ecran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.A11y.Subtitle",
+      "value": "Navigare tastatură, focalizare și suport pt. cititor de ecran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.BubbleSandbox",
+      "value": "Bubble Sandbox"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Connection",
+      "value": "Conexiune"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo",
+      "value": "Copiază Info Depanare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.CopyDebugInfo.Subtitle",
+      "value": "Versiune, browser și setările de mai sus, pentru un bug report"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug",
+      "value": "Mod Depanare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debug.Subtitle",
+      "value": "Jurnal detaliat în consola fiecărui thread"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.DebugInfoCopied",
+      "value": "Info depanare copiate în clipboard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Debugging",
+      "value": "Depanare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Engine",
+      "value": "Engine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks",
+      "value": "Ascunde Linkurile de la Necunoscuți"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.HideNonContactLinks.Subtitle",
+      "value": "Chiar și când nu o solicită serverul"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.IconLibrary",
+      "value": "Librărie Iconițe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "Unelte pentru testare și depanare. Pot face ca Telegram să funcționeze mai încet sau mai puțin stabil, modifică-le doar dacă știi ce fac."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Interface",
       "value": "Interfață"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs",
+      "value": "Jurnal Depanare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Clear",
+      "value": "Curăță Jurnal Evenimente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Cleared",
+      "value": "Jurnal curățat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect",
+      "value": "Colectează Evenimente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Debug",
+      "value": "Mereu în modul depanare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Collect.Subtitle",
+      "value": "Ce face Telegram, păstrate în memoria dispozitivului"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Download",
+      "value": "Descarcă Evenimentele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Empty",
+      "value": "Nu sunt evenimente încă. Pornește Colectează Evenimente și repetă ce nu a funcționat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Info",
+      "value": "Evenimentele părăsesc dispozitivul doar când le trimiți tu. Ar putea conține nume de conversații și părți din mesaje, așa că trimite-le doar persoanelor în care ai încredere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Ready",
+      "value": "Evenimentele sunt gata de partajare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Send",
+      "value": "Trimite Evenimentele într-o Conversație"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentTo",
+      "value": "Evenimente trimise către %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.SentToSavedMessages",
+      "value": "Evenimente salvate la **Mesaje Salvate**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Logs.Share",
+      "value": "Partajează Evenimentele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch",
+      "value": "Memory Watch"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.MemoryWatch.Subtitle",
+      "value": "Memoria folosită la fiecare 15, adăugată în jurnal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas",
+      "value": "Stickere în Fundal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.OffscreenCanvas.Subtitle",
+      "value": "Stickerele animate sunt extrase de pe thread-ul principal"
     },
     {
       "_": "types.LangPackString",
@@ -10204,8 +10981,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.Pfs",
+      "value": "Secretizare Perfectă Redirecționare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Pfs.Subtitle",
+      "value": "Chei de criptare temporare, înlocuite la 24 de ore"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.PopupSandbox",
+      "value": "Popup Sandbox"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL",
+      "value": "Amplasare de la dreapta la stânga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.RTL.Subtitle",
+      "value": "Aranjează aplicațiile de la dreapt la stânga în orice limbă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia",
+      "value": "Eliberare Memorie Media"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ReleaseMedia.Subtitle",
+      "value": "Eliberează pozele și clipurile care nu mai sunt afișate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ResetAll",
+      "value": "Resetează Toate"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Restart",
       "value": "Repornește"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.EveryTab",
+      "value": "Modificările se aplică după o repornire: toate filele Telegram ale acestui site se reîncarcă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Restart.ThisTab",
+      "value": "Modificările se aplică după ce fila se reîncarcă."
     },
     {
       "_": "types.LangPackString",
@@ -10214,8 +11041,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker",
+      "value": "Service Worker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ServiceWorker.Subtitle",
+      "value": "Stream video, descărcări și notificări"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker",
+      "value": "Conexiune Împărțită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.SharedWorker.Subtitle",
+      "value": "Toate filele împart o conexiune și o memorie cache"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds",
+      "value": "Arată ID-urile Peer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.ShowPeerIds.Subtitle",
+      "value": "ID-urile și centrele de date ale utilizatorilor, roboților, grupurilor și canalelor, la profilurile lor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer",
+      "value": "Server de Teste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.TestServer.Subtitle",
+      "value": "Serverele de teste Telegram, cu conturi proprii. Doar în această filă"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Title",
       "value": "Experimental"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Tools",
+      "value": "Unelte Dezvoltator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport",
+      "value": "Transport"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto",
+      "value": "Automat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.Auto.Subtitle",
+      "value": "Comutare între WebSocket și HTTP, oricare funcționează"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.HTTP",
+      "value": "Doar HTTP"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Transport.WebSocket",
+      "value": "Doar WebSocket"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker",
+      "value": "Rețea în Fundal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Experimental.Worker.Subtitle",
+      "value": "Oprită, conexiunea rulează în filă, pentru depanare"
     },
     {
       "_": "types.LangPackString",
@@ -11848,6 +12755,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Input.Quote.Collapse",
+      "value": "Trimite citat restrâns"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Input.Quote.Collapsed",
       "value": "Textul citat va fi restrâns"
     },
@@ -13310,6 +14222,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiteMode.Key.motion.HeldBySystem",
+      "value": "Oprit cât timp mișcare redusă este activată în setările tale de sistem pentru accesibilitate."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiteMode.Key.stickers.Title",
       "value": "Animații Stickere"
     },
@@ -13372,6 +14289,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Login.Code.CallAvailableIn",
+      "value": "Poți solicita un apel în %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.ResendCall",
+      "value": "[Primește codul prin apel]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.ResendFragment",
+      "value": "[Primește un code prin Fragment]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.ResendSms",
+      "value": "[Trimite codul ca SMS]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SecretPhrase",
+      "value": "Frază secretă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.SecretWord",
+      "value": "Cuvânt secret"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Login.Code.SentCall",
       "value": "Te vom apela și dicta\ncodul."
     },
@@ -13397,8 +14344,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Login.Code.SmsAvailableIn",
+      "value": "Poți solicita un SMS în %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Login.Code.TooManyAttempts",
       "value": "Prea multe încercări, încearcă peste %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.WordBeginningInvalid",
+      "value": "Cuvânt incorect"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Login.Code.WordInvalid",
+      "value": "Incorect, te rugăm încearcă iar"
     },
     {
       "_": "types.LangPackString",
@@ -13730,7 +14692,7 @@
     {
       "_": "types.LangPackString",
       "key": "MediaEditor.Adjustments.Vignette",
-      "value": "Vignette"
+      "value": "Vignetare"
     },
     {
       "_": "types.LangPackString",
@@ -18343,6 +19305,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplaceFile",
+      "value": "Înlocuiește fișierul"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReplaceGIF",
       "value": "Înlocuiește GIF"
     },
@@ -18768,8 +19735,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichMessage.Error.InsertTargetChanged",
+      "value": "Mesajul s-a modificat înainte ca fișierul să poată fi inserat. Încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.MediaUnsupported",
+      "value": "Textul avansat nu poate fi combinat cu atașamente media. Trimite-l ca mesaj separat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooDeep",
+      "value": "Mesajul cu text avansat este imbricat prea adânc (%1$d din %2$d niveluri)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooLarge",
+      "value": "Mesajul cu text avansat este prea mare (%1$d of %2$d de octeți)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooLong",
+      "value": "Mesajul cu text avansat este prea lung (%1$d din %2$d de caractere)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyBlocks",
+      "value": "Mesajul cu text avansat are prea multe blocuri (%1$d din %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyMedia",
+      "value": "Mesajul cu text avansat are prea multe articole media (%1$d din %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.TooManyTableColumns",
+      "value": "Un tabel are prea multe coloane (%1$d of %2$d)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Error.UnsupportedContent",
+      "value": "Mesajul cu text avansat are conținut pe care acest editor nu îl poate edita în siguranță încă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.PremiumRequired.Title",
+      "value": "Eliminare Formatare?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichMessage.RemoveFormatting",
       "value": "Elimină Formatarea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.SubscribeToPremium",
+      "value": "Abonează-te la Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Unavailable.Title",
+      "value": "Textul Avansat Este Indisponibil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Upload.Preparing",
+      "value": "Pregătire…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Upload.Processing",
+      "value": "Procesare…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichMessage.Upload.Retry",
+      "value": "Încearcă Iar"
     },
     {
       "_": "types.LangPackString",
@@ -20325,6 +21367,13 @@
       "key": "StarGiftConvertButton",
       "one_value": "vinde pentru %d Stea",
       "other_value": "vinde pentru %d de Stele"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Vrei să vinzi acest cadou pentru **%d Stele**? Acțiunea este ireversibilă.",
+      "key": "StarGiftConvertText",
+      "one_value": "Vrei să vinzi acest cadou pentru **%d Stea**? Acțiunea este ireversibilă.",
+      "other_value": "Vrei să vinzi acest cadou pentru **%d de Stele**? Acțiunea este ireversibilă."
     },
     {
       "_": "types.LangPackString",
@@ -22594,6 +23643,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.ToastStealthModeActiveText",
+      "value": "Creatorii poveștilor pe care le vizionezi în următoarele **%s** nu te vor vedea în lista lor de spectatori."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.ToastStealthModeActiveTitle",
       "value": "Ești în Modul Ascuns acum"
     },
@@ -22606,6 +23660,11 @@
       "_": "types.LangPackString",
       "key": "Story.Tooltip.ReactionSent",
       "value": "Reacție Trimisă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Unsupported",
+      "value": "Povestea nu este suportată pe Telegram Web încă. Încearcă să o deschizi într-o altă aplicație Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -23369,6 +24428,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TelegramBusiness.SearchKeywords",
+      "value": "business, magazin, companie, muncă"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TelegramBusinessSubscribedSubtitle",
       "value": "Ai deblocat acum aceste funcționalități de business adiționale."
     },
@@ -23616,6 +24680,11 @@
       "_": "types.LangPackString",
       "key": "TimezoneTitle",
       "value": "Fus Orar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TimezoneTitle.SearchKeywords",
+      "value": "fus orar, timezone, utc, gmt, decalaj"
     },
     {
       "_": "types.LangPackString",
@@ -24082,6 +25151,11 @@
       "_": "types.LangPackString",
       "key": "UnsavedChangesDescription.ChatAutomation",
       "value": "Ți-ai modificat setările automatizării conversației. Salvezi modificările?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UnsavedChangesDescription.Experimental",
+      "value": "Unele setări pe care le-ai modificat se aplică doar după o repornire. Repornești acum?"
     },
     {
       "_": "types.LangPackString",
@@ -24786,6 +25860,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.HandRaised",
+      "value": "Mână ridicată"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Invite.InviteMembers",
       "value": "Invită membri"
     },
@@ -24811,6 +25890,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.Participants.Hide",
+      "value": "Ascunde participanții"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.Participants.Show",
+      "value": "Afișează participanții"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.PinScreencast",
       "value": "Fixează difuzare ecran"
     },
@@ -24818,6 +25907,11 @@
       "_": "types.LangPackString",
       "key": "VoiceChat.PinVideo",
       "value": "Fixează video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChat.RaiseHand",
+      "value": "Ridică mâna"
     },
     {
       "_": "types.LangPackString",
@@ -25168,5 +26262,5 @@
       "other_value": "%1$d de mesaje"
     }
   ],
-  "version": 370655
+  "version": 378483
 }

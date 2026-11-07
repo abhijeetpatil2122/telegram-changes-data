@@ -7722,6 +7722,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.AIRewriteFailed",
+      "value": "La IA no pudo reescribir este mensaje. Pulsa Enviar de nuevo para enviar el original."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.AddMembers",
       "value": "Añadir miembros"
     },
@@ -13818,6 +13823,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelRestricted",
+      "value": "Tienes restricciones para publicar en este canal."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChannelWriteForbidden",
       "value": "No puedes publicar en este canal ahora mismo."
     },
@@ -13830,6 +13840,16 @@
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChatWriteForbidden",
       "value": "No puedes enviar mensajes en este chat ahora mismo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.EntitiesTooLong",
+      "value": "Este mensaje tiene demasiado formato para enviarlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.FileReferenceExpired",
+      "value": "La referencia a la multimedia expiró. Intenta enviar la multimedia de nuevo."
     },
     {
       "_": "types.LangPackString",
@@ -13850,6 +13870,16 @@
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.MediaForbidden",
       "value": "No puedes enviar este tipo de mensaje en este chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MessageTooLong",
+      "value": "Este mensaje es demasiado largo para enviarlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PlainForbidden",
+      "value": "No puedes enviar mensajes de texto en este chat."
     },
     {
       "_": "types.LangPackString",
@@ -13880,6 +13910,11 @@
       "_": "types.LangPackString",
       "key": "ChatSend.PaymentConfirmation.PriceChanged",
       "value": "Precio cambiado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "El precio para enviar mensajes en este chat cambió, por lo que tu mensaje no fue enviado. Revisa el nuevo precio y envíalo de nuevo."
     },
     {
       "_": "types.LangPackString",
@@ -14288,6 +14323,11 @@
       "_": "types.LangPackString",
       "key": "ChatVoice.Transcription.RecordMessage",
       "value": "Grabar mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.ShortcutInfo",
+      "value": "Qué hace ⌘R en la zona de escritura. Si seleccionas Automático, dicta cuando el campo tiene texto y graba un mensaje cuando está vacío."
     },
     {
       "_": "types.LangPackString",
@@ -15854,6 +15894,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledBot",
       "value": "Los reenvíos desde este bot están restringidos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledChannel",
+      "value": "Reenviar desde este canal está restringido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledGroup",
+      "value": "Reenviar desde este grupo está restringido"
     },
     {
       "_": "types.LangPackString",
@@ -20080,6 +20130,11 @@
       "_": "types.LangPackString",
       "key": "Gift.MoveToGifts.Success",
       "value": "Regalo movido a tu cuenta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "¿Quieres transferir este objeto coleccionable off-chain a tu cuenta de Telegram?"
     },
     {
       "_": "types.LangPackString",
@@ -31854,6 +31909,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameInfo",
+      "value": "Este nombre se muestra en la lista de sesiones activas en tus otros dispositivos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RenameDevice.Controller.Title",
       "value": "Renombrar dispositivo"
     },
@@ -39076,6 +39136,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageLessThan",
+      "value": "Telegram usa menos de un %1$@ del almacenamiento de tu dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageText",
+      "value": "Telegram usa un **%1$@** del almacenamiento de tu dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StorageUsage.Header",
       "value": "Uso de almacenamiento"
     },
@@ -44473,6 +44543,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Reply",
+      "value": "Respuesta al mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyFrom",
+      "value": "Respuesta al mensaje de: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyToYourMessage",
+      "value": "Respuesta a tu mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyingToMessage",
+      "value": "En respuesta al mensaje: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SearchByMember",
       "value": "Buscar por miembro"
     },
@@ -49536,5 +49626,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2423269
+  "version": 2423406
 }

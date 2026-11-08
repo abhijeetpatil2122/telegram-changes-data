@@ -1937,6 +1937,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.SendLabel",
+      "value": "%1$s, ВИ уређивач: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.TurnOff",
+      "value": "Искључи %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.Chat.ViewStyle",
       "value": "Погледај стил"
     },
@@ -2839,7 +2849,7 @@
     {
       "_": "types.LangPackString",
       "key": "AutoDeleteMessages.SectionCaption",
-      "value": "Ако је омогућено, све нове поруке у ћаскањима која започнете аутоматски ће се избрисати за све у неком тренутку након слања. Ово неће утицати на ваша постојећа ћаскања."
+      "value": "Ако је тајмер самоуништења укључен, све нове поруке у ћаскањима која започнете аутоматски ће се избрисати за све у неком тренутку након слања. Ово неће утицати на ваша постојећа ћаскања."
     },
     {
       "_": "types.LangPackString",
@@ -2965,6 +2975,11 @@
       "_": "types.LangPackString",
       "key": "AutoNightSystemDefault",
       "value": "Као систем"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AutodeleteTimerDisabledForChats",
+      "value": "Тајмер самоуништења је искључен у %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -16783,8 +16798,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.Invalid",
+      "value": "Ова веза за бесплатне поруке није важећа или је истекла."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoPaidMessagesToken.Used",
       "value": "Корисник %s је искористио ваш QR кôд и може вам бесплатно слати поруке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.UserInvalid",
+      "value": "Ова веза за бесплатне поруке не може се искористити."
     },
     {
       "_": "types.LangPackString",
@@ -20186,6 +20211,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.LinkExpiring",
+      "value": "Ова веза ускоро истиче."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.LoadingGifts",
       "value": "Учитавање поклона…"
     },
@@ -20221,6 +20251,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Menu.EnableTimer",
+      "value": "Укључи тајмер"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.NoPaid.Menu.EnableTimerInfo",
       "value": "Истиче за 1 минут"
     },
@@ -20246,8 +20281,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expired",
+      "value": "Кôд истекао, накнада обновљена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expires",
+      "value": "Овај кôд ће истећи за 1 минут"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.Expiring",
+      "value": "Овај кôд ускоро истиче."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.NoPaid.Toast.FeeRestored",
       "value": "Накнада за поруке обновљена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.NoPaid.Toast.NewCode",
+      "value": "Нови кôд направљен"
     },
     {
       "_": "types.LangPackString",
@@ -22545,12 +22600,12 @@
     {
       "_": "types.LangPackString",
       "key": "SoundOff",
-      "value": "Онемогући звук"
+      "value": "Искључи звук"
     },
     {
       "_": "types.LangPackString",
       "key": "SoundOn",
-      "value": "Омогући звук"
+      "value": "Укључи звук"
     },
     {
       "_": "types.LangPackString",
@@ -25332,7 +25387,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.SoundTooltip",
-      "value": "Кликните овде да омогућите звук."
+      "value": "Кликните овде да укључите звук."
     },
     {
       "_": "types.LangPackString",
@@ -27680,6 +27735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChat.JoinConfirm.Channel",
+      "value": "Желите ли да се придружите преносу уживо **%@**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChat.Leave",
       "value": "Напусти"
     },
@@ -27852,6 +27912,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoipChannelEditTitle",
+      "value": "Уреди назив преноса уживо"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoipChannelJoinAs",
       "value": "Придружите се преносу као..."
     },
@@ -27874,6 +27939,11 @@
       "_": "types.LangPackString",
       "key": "VoipGroupDisplayAs",
       "value": "Прикажи ме као..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoipGroupEditTitle",
+      "value": "Уреди назив видео-ћаскања"
     },
     {
       "_": "types.LangPackString",
@@ -28117,8 +28187,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.RotateReasonFailed",
+      "value": "Ажурирање није успело."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.SureOk",
       "value": "У реду"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.SureText",
+      "value": "Нисте имали довољно времена да запишете ове речи."
     },
     {
       "_": "types.LangPackString",
@@ -28154,6 +28234,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Card.Address",
       "value": "Адреса новчаника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.OwnWallet",
+      "value": "Овај колекционарски предмет је већ у вашем новчанику."
     },
     {
       "_": "types.LangPackString",
@@ -29723,5 +29808,5 @@
       "other_value": "%1$d порука"
     }
   ],
-  "version": 379066
+  "version": 379194
 }

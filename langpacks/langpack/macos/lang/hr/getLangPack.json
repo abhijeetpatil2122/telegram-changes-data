@@ -6384,6 +6384,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "Nije bilo moguće potvrditi ažurirana dopuštenja. Provjerite dopuštenja člana prije ponovnog pokušaja."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.EditTag",
       "value": "Uredi oznaku"
     },
@@ -9926,6 +9931,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SendMessageSlowmodeError",
       "value": "Spori način je uključen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SendReactionRestricted",
+      "value": "U ovom razgovoru ne možete postavljati reakcije."
     },
     {
       "_": "types.LangPackString",
@@ -13966,6 +13976,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.FileReferenceExpired",
+      "value": "Referenca medija je istekla. Pokušajte ponovno poslati medij."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.ForwardsRestricted",
       "value": "Ne možete proslijediti poruke iz zaštićenog razgovora."
     },
@@ -13973,6 +13988,11 @@
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.Generic",
       "value": "Poruka nije poslana. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.GuestSendForbidden",
+      "value": "Prije komentiranja pridružite se grupi za komentiranje."
     },
     {
       "_": "types.LangPackString",
@@ -13996,6 +14016,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "Poruku nije bilo moguće poslati. Pogreška poslužitelja: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.SlowModeWait",
       "value": "Spori način je aktivan. Pokušajte ponovno za %1$@."
     },
@@ -14003,6 +14028,21 @@
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.TopicDeleted",
       "value": "Ova tema je izbrisana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.UserBlocked",
+      "value": "Ne možete poslati ovu poruku jer vas je primatelj blokirao."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChanged",
+      "value": "Cijena je promijenjena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "Cijena za slanje poruka u ovom razgovoru se promijenila, pa vaša poruka nije poslana. Provjerite novu cijenu i pošaljite je ponovno."
     },
     {
       "_": "types.LangPackString",
@@ -16003,6 +16043,21 @@
       "value": "Prosljeđivanje od ovog bota je ograničeno"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledChannel",
+      "value": "Prosljeđivanje iz ovog kanala je ograničeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledGroup",
+      "value": "Prosljeđivanje iz ove grupe je ograničeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledSecret",
+      "value": "Prosljeđivanje je ograničeno"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Iskoristili ste **%d** besplatne transkripcije za ovaj tjedan.",
       "key": "Conversation.FreeTranscriptionCooldownTooltip",
@@ -17628,6 +17683,16 @@
       "_": "types.LangPackString",
       "key": "EditImage.CanvasControls.Text",
       "value": "Tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.TextAlignment",
+      "value": "Poravnanje teksta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.TextStyle",
+      "value": "Stil teksta"
     },
     {
       "_": "types.LangPackString",
@@ -20130,6 +20195,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Delete.Success",
+      "value": "Poklon je izbrisan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Text",
+      "value": "Želite li izbrisati ovaj poklon?\n\nNestat će s vašeg profila i neće se moći vratiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Delete.Title",
+      "value": "Izbriši poklon"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Displayed.NewText",
       "value": "Poklon je sada vidljiv na vašem profilu."
     },
@@ -20233,6 +20313,46 @@
       "_": "types.LangPackString",
       "key": "Gift.Marketplace.Sort.Price",
       "value": "Sortiraj po cijeni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "Poklon je premješten na vaš račun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Text",
+      "value": "Prenijeti ova primjerak s blockchaina na vaš Telegram račun?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Title",
+      "value": "Premjesti u moje poklone"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Location",
+      "value": "Pojavit će se u"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Move",
+      "value": "Premjesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Success",
+      "value": "Poklon je premješten u vaš novčanik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Text",
+      "value": "Prenijeti ovaj poklon u svoj blockchain novčanik?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.Title",
+      "value": "Premjesti u moj novčanik"
     },
     {
       "_": "types.LangPackString",
@@ -20398,6 +20518,16 @@
       "_": "types.LangPackString",
       "key": "Gift.Transfer.Confirmation.TransferFree",
       "value": "Prijenos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToGifts",
+      "value": "Premjesti u moje poklone"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Transfer.MoveToWallet",
+      "value": "Premjesti u moj novčanik"
     },
     {
       "_": "types.LangPackString",
@@ -20686,6 +20816,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "Izbriši poklon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.HideFromProfile",
+      "value": "Sakrij s profila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.ShowOnProfile",
+      "value": "Prikaži na profilu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.View.DisplayedInfoHide",
       "value": "Ovaj poklon je vidljiv na vašem profilu. [Sakrij >]()"
     },
@@ -20771,8 +20916,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Withdraw.ComeBackLater",
+      "value": "\n\nVratite se ponovno kasnije."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Withdraw.Proceed",
       "value": "Otvori fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Withdraw.SecurityCheck",
+      "value": "Sigurnosna provjera"
     },
     {
       "_": "types.LangPackString",
@@ -22102,8 +22257,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "HTMLBubble.State.WidgetStopped",
+      "value": "Widget je zaustavljen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.AllWidgets",
+      "value": "Svi widgeti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.AllWidgetsWebKit",
+      "value": "Svi widgeti — WebKit"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "HTMLDemo.Catalog.StatsCommandDescription",
       "value": "Prikažite ili sakrijte statistike iscrtavanja uživo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOff",
+      "value": "Statistike u stvarnom vremenu su isključene. Pošaljite %1$@ da ih prikažete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOn",
+      "value": "Statistike u stvarnom vremenu su uključene. Svaka HTML poruka prikazuje vrijeme iscrtavanja po okviru, okvire u sekundi, procesor i memoriju, te procesor i memoriju cijele aplikacije. Pošaljite %1$@ da ih sakrijete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.TypeToPick",
+      "value": "Upišite / za odabir poruke"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -22111,6 +22296,41 @@
       "key": "HTMLDemo.Catalog.WidgetsCount",
       "one_value": "%1$d widget",
       "other_value": "%1$d widgeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.ChatContents.You",
+      "value": "Vi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.Litehtml",
+      "value": "litehtml"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.LitehtmlGPU",
+      "value": "litehtml GPU"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.LitehtmlOptimized",
+      "value": "litehtml optimizirano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.Twidget",
+      "value": "twidget"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.WebKit",
+      "value": "WebKit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLWidget.Store.WidgetUnavailable",
+      "value": "Widget nije dostupan"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -24325,6 +24545,16 @@
       "value": "Kopiraj naziv pjesme"
     },
     {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.ClearHistoryForTheseDays",
+      "value": "Izbriši povijest u odabranim danima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.ClearHistoryForThisDay",
+      "value": "Izbriši povijest u odabranom danu"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "odabrana su %1$d dana",
       "key": "MessageCalendar.DaysSelectedTitle",
@@ -24361,6 +24591,11 @@
       "_": "types.LangPackString",
       "key": "MessageCalendar.Select",
       "value": "Odaberi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessageCalendar.Title",
+      "value": "Kalendar"
     },
     {
       "_": "types.LangPackString",
@@ -25656,6 +25891,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsed",
+      "value": "Korisnik %@ je iskoristio vašu link da vam besplatno pošalje poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.NoPaidMessagesTokenUsedYou",
+      "value": "Iskoristili ste link korisnika %@ da mu besplatno pošaljete poruku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.PaidMessage",
       "value": "%1$@ vam uplaćuje %2$@ za slanje poruke"
     },
@@ -26052,6 +26297,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.NotificationTone",
       "value": "Zvuk obavijesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.NotifyMeAbout",
+      "value": "OBAVIJESTI ZA..."
     },
     {
       "_": "types.LangPackString",
@@ -31618,6 +31868,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Controller.ImageCopied",
+      "value": "Slika je kopirana u međuspremnik."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Controller.LinkCopied",
       "value": "Link je kopiran u međuspremnik."
     },
@@ -31940,6 +32195,16 @@
       "_": "types.LangPackString",
       "key": "RecentSessions.TTL.Text",
       "value": "Ako su neaktivne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameHeader",
+      "value": "NAZIV UREĐAJA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameInfo",
+      "value": "Ovo ime prikazuje se u popisu aktivnih sesija na vašim drugim uređajima."
     },
     {
       "_": "types.LangPackString",
@@ -32712,6 +32977,11 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.WindowController.ActionURL",
       "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.ActionUserProfile",
+      "value": "Profil korisnika"
     },
     {
       "_": "types.LangPackString",
@@ -34511,8 +34781,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.ConnectionHeader",
+      "value": "Veza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.DeviceHeader",
+      "value": "Uređaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.FirstSignedAt",
+      "value": "Prva prijava"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LastActive",
+      "value": "Zadnja aktivnost"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionModal.Controller.LocationNotFound",
       "value": "Lokacija nije pronađena. Pokušajte ponovno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OS",
+      "value": "OS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OfficialApp",
+      "value": "Ova sesija je iz službene Telegram aplikacije"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.Version",
+      "value": "Verzija"
     },
     {
       "_": "types.LangPackString",
@@ -39202,6 +39507,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageLessThan",
+      "value": "Telegram koristi manje od %1$@ pohrane vašeg uređaja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageText",
+      "value": "Telegram koristi **%1$@** pohrane vašeg uređaja."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StorageUsage.Header",
       "value": "Korištenje pohrane"
     },
@@ -41185,6 +41500,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextUtils.Widget",
+      "value": "Widget"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextView.Transform.Bold",
       "value": "Podebljano"
     },
@@ -42343,6 +42663,11 @@
       "_": "types.LangPackString",
       "key": "TranslateModal.Controller.AlwaysUse",
       "value": "Uvijek koristite u ovom razgovoru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateModal.Controller.AlwaysUseInfo",
+      "value": "Primijenite odabrane AI postavke na nove tekstovne poruke prije slanja."
     },
     {
       "_": "types.LangPackString",
@@ -44234,8 +44559,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.AttachMedia",
+      "value": "Pošalji medij"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.AuthSessions.CurrentSession",
+      "value": "Trenutna sesija"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Boost.Progress",
       "value": "%1$@ od %2$@ pojačanja za %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.BotCommands",
+      "value": "Naredbe bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.BotKeyboard",
+      "value": "Tipkovnica bota"
     },
     {
       "_": "types.LangPackString",
@@ -44335,11 +44680,66 @@
       "value": "Vrijednost"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedSticker",
+      "value": "Animirana naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnimatedStickerFrom",
+      "value": "Animirana naljepnica, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPoll",
+      "value": "Anonimna anketa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.AnonymousPollFrom",
+      "value": "Anonimna anketa, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Caption",
+      "value": "Opis: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ChannelInfo",
+      "value": "Podaci o kanalu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Contact",
+      "value": "Podijeljeni kontakt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactEmail",
+      "value": "E pošta"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d adrese e-pošte",
       "key": "VoiceOver.Chat.ContactEmailCount",
       "one_value": "%d adresa e-pošte",
       "other_value": "%d adresa e-pošte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactFrom",
+      "value": "Podijeljeni kontakt, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactOrganization",
+      "value": "Organizacija: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ContactPhoneNumber",
+      "value": "Broj telefona"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44350,8 +44750,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Duration",
+      "value": "Trajanje: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Editor",
       "value": "Uređivač"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Failed",
+      "value": "Neuspjelo slanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.File",
+      "value": "Datoteka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.FileFrom",
+      "value": "Datoteka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFrom",
+      "value": "Proslijeđeno od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ForwardedFromYou",
+      "value": "Proslijedili ste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GoToOriginalMessage",
+      "value": "Idi na poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GroupInfo",
+      "value": "Podaci o grupi"
     },
     {
       "_": "types.LangPackString",
@@ -44359,11 +44799,41 @@
       "value": "Rezultati medija"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Message",
+      "value": "Poruka"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d odabrane poruke",
       "key": "VoiceOver.Chat.MessagesSelected",
       "one_value": "%d odabrana poruka",
       "other_value": "%d odabranih poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Music",
+      "value": "Glazbena poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicFrom",
+      "value": "Glazbena datoteka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.MusicTitle",
+      "value": "%1$@, od %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipient",
+      "value": "Primatelj nije reproducirao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NotPlayedByRecipients",
+      "value": "Primatelji nisu reproducirali"
     },
     {
       "_": "types.LangPackString",
@@ -44377,8 +44847,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.OptionSelected",
+      "value": "označene"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PagePreview",
+      "value": "Pregled stranice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Photo",
+      "value": "Slika"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PhotoFrom",
+      "value": "Slika, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PlayHint",
       "value": "Pritisnite za reprodukciju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipient",
+      "value": "Primatelj je reproducirao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PlayedByRecipients",
+      "value": "Primatelji su reproducirali"
     },
     {
       "_": "types.LangPackString",
@@ -44392,8 +44892,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollFinalResults",
+      "value": "Odgovori"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.PollFrom",
       "value": "Anketa, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PollNoVotes",
+      "value": "Nema glasova"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44411,6 +44921,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Profile",
+      "value": "Profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Record",
       "value": "Snimi"
     },
@@ -44421,8 +44936,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVideoMessage",
+      "value": "Videoporuka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordModeVoiceMessage",
+      "value": "Glasovna poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.RecordPreviewVoiceMessage",
+      "value": "Slušanje glasovne poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Reply",
+      "value": "Odgovori na poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyFrom",
+      "value": "Odgovori na poruku od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyToYourMessage",
+      "value": "Odgovori na svoju poruku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.ReplyingToMessage",
+      "value": "Kao odgovor na poruku: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SearchByMember",
+      "value": "Pretraga po članu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipient",
+      "value": "Primatelj je pročitao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.SeenByRecipients",
+      "value": "Primatelj je pročitao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Selected",
+      "value": "Odabrane"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SendAs",
       "value": "Pošalji kao"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sending",
+      "value": "Slanje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Size",
+      "value": "Veličina: %@"
     },
     {
       "_": "types.LangPackString",
@@ -44431,8 +45011,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Sticker",
+      "value": "Naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StickerFrom",
+      "value": "Naljepnica, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Stop",
+      "value": "Zaustavi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.SwitchTopicsView",
       "value": "Promijeni prikaz tema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Title",
+      "value": "Naziv: %@"
     },
     {
       "_": "types.LangPackString",
@@ -44463,8 +45063,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.Video",
+      "value": "Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoFrom",
+      "value": "Videozapis, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessage",
+      "value": "Videoporuka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VideoMessageFrom",
+      "value": "Videoporuka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessage",
+      "value": "Glasovna poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.VoiceMessageFrom",
+      "value": "Glasovna poruka, od: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.WebWidget",
       "value": "Interaktivni widget"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourAnimatedSticker",
+      "value": "Vaša animirana naljepnica"
     },
     {
       "_": "types.LangPackString",
@@ -44473,8 +45108,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourContact",
+      "value": "Vaši podijeljeni kontakti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourFile",
+      "value": "Vaša datoteka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMessage",
+      "value": "Vaša poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourMusic",
+      "value": "Vaša glazbena poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourPhoto",
+      "value": "Vaša slika"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.YourPoll",
       "value": "Vaša anketa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourSticker",
+      "value": "Vaša naljepnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideo",
+      "value": "Vaš videozapis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVideoMessage",
+      "value": "Vaša videoporuka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.YourVoiceMessage",
+      "value": "Vaša glasovna poruka"
     },
     {
       "_": "types.LangPackString",
@@ -44488,8 +45168,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.Message",
+      "value": "Poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageEmpty",
+      "value": "Prazno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageFrom",
+      "value": "Od: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageRead",
+      "value": "Pročitana"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.OpenCommunity",
       "value": "Otvori zajednicu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.OutgoingMessage",
+      "value": "Odlazna poruka"
     },
     {
       "_": "types.LangPackString",
@@ -44993,6 +45698,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Off",
+      "value": "Isključeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.On",
+      "value": "Uključeno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Online",
       "value": "Online"
     },
@@ -45443,6 +46158,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.DiscardPreparedContent",
+      "value": "Odbaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DismissContextMenu",
+      "value": "Odbaci kontekstni izbornik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Editing.ClearText",
+      "value": "Očisti tekst"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Entertainment.Tabs",
       "value": "Emojiji i naljepnice"
     },
@@ -45490,6 +46220,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Gift.PriceFrom",
       "value": "od %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.GiftPremium",
+      "value": "Pokloni Telegram Premium"
     },
     {
       "_": "types.LangPackString",
@@ -45628,8 +46363,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPause",
+      "value": "Pauziraj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPlay",
+      "value": "Pokreni"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Media.PlaybackRate",
       "value": "Brzina reprodukcije"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRateFast",
+      "value": "Ubrzano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackRateNormal",
+      "value": "Normalno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackStop",
+      "value": "Zaustavi reprodukciju"
     },
     {
       "_": "types.LangPackString",
@@ -45650,6 +46410,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextDelete",
+      "value": "Izbriši"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextForward",
+      "value": "Proslijedi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextOpenMessageMenu",
+      "value": "Otvori izbornik poruka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReply",
+      "value": "Odgovori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextReport",
+      "value": "Prijavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextSend",
+      "value": "Pošalji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageContextShare",
+      "value": "Podijeli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MessageSelectionButtonTag",
+      "value": "Oznaka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.Compose",
+      "value": "Snimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.ProxySettings",
+      "value": "Proxy postavke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Navigation.Search",
+      "value": "Pretraga"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.News.Feeds",
       "value": "Novosti"
     },
@@ -45657,6 +46472,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Permissions.BoostsRequired",
       "value": "Potrebna pojačanja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.StopAndPreview",
+      "value": "Zaustavi i preslušaj"
     },
     {
       "_": "types.LangPackString",
@@ -45677,6 +46497,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.RichEditor.List",
       "value": "Popis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ScheduledMessages",
+      "value": "Zakazane poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ScrollStatus",
+      "value": "Red %1$@ od %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -45710,8 +46540,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.SelfDestructTimerOff",
+      "value": "Timer za automatsko brisanje je isključen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SelfDestructTimerOn",
+      "value": "Automatsko brisanje: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ShortPeer.TagAction",
       "value": "Oznaka: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SilentPostOff",
+      "value": "Utišano emitiranje je isključeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SilentPostOn",
+      "value": "Utišano emitiranje je uključeno"
     },
     {
       "_": "types.LangPackString",
@@ -45720,8 +46570,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Stickers",
+      "value": "Naljepnice"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.StorageUsage.ChatsAndMedia",
       "value": "Razgovori i mediji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.SuggestPost",
+      "value": "Predloži objavu"
     },
     {
       "_": "types.LangPackString",
@@ -46124,6 +46984,31 @@
       "_": "types.LangPackString",
       "key": "Wallet.Collectables.RemoveFromCard",
       "value": "Ukloni s kartice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.AlsoShowInMyGifts",
+      "value": "prikaži i u mojim poklonima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.AddToCard",
+      "value": "dodaj na karticu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.ApplyColor",
+      "value": "postavi boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveColor",
+      "value": "ukloni boju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Collectible.Header.RemoveFromCard",
+      "value": "ukloni s kartice"
     },
     {
       "_": "types.LangPackString",
@@ -47775,6 +48660,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestricted",
+      "value": "Za promjenu boje kartice može se koristiti samo %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.ColorRestrictedCollection",
+      "value": "%@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.StickerTutorial.Card",
       "value": "Povucite ovaj kolekcionarski primjerak ovdje."
     },
@@ -49188,5 +50083,5 @@
       "value": "Prikaži zamjene"
     }
   ],
-  "version": 2427136
+  "version": 2428692
 }

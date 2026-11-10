@@ -2071,6 +2071,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_pinned_deleted",
+      "value": "{from} festet en slettet melding"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_pinned_media",
       "value": "{from} festet {media}"
     },
@@ -2442,6 +2447,11 @@
       "_": "types.LangPackString",
       "key": "lng_action_todo_marked_not_done_self",
       "value": "Du merket {tasks} som ikke fullført"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_todo_task_quote",
+      "value": "\"{task}\""
     },
     {
       "_": "types.LangPackString",
@@ -3415,7 +3425,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_admin_log_filter_voice_chats",
-      "value": "Videosamtale"
+      "value": "Videosamtaler"
     },
     {
       "_": "types.LangPackString",
@@ -4819,6 +4829,12 @@
       "_": "types.LangPackString",
       "key": "lng_article_menu_item",
       "value": "Artikkel"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_article_paste_attach_files",
+      "one_value": "Hvis du limer inn dette, blir {count} fil fra datamaskinen din lagt ved meldingen:",
+      "other_value": "Hvis du limer inn dette, blir {count} filer fra datamaskinen din lagt ved meldingen:"
     },
     {
       "_": "types.LangPackString",
@@ -7755,7 +7771,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_declined",
-      "value": "Avvist samtale"
+      "value": "Avvist anrop"
     },
     {
       "_": "types.LangPackString",
@@ -7785,7 +7801,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_error_camera_not_started",
-      "value": "Du kan bytte til videosamtale så snart samtalen er koblet til."
+      "value": "Du kan bytte til videoanrop så snart du er koblet til."
     },
     {
       "_": "types.LangPackString",
@@ -7805,7 +7821,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_error_outdated",
-      "value": "Appen {user} bruker støtter ikke samtaler. De må oppdatere appen sin før du kan foreta anrop til vedkommende."
+      "value": "{user} sin applikasjon støtter ikke anrop. Vedkommende må oppdatere appen sin før du kan foreta anrop til dem."
     },
     {
       "_": "types.LangPackString",
@@ -7850,7 +7866,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_leave_to_other_sure_channel",
-      "value": "Vil du avslutte din aktive samtale og bli med en direktesending i denne kanalen?"
+      "value": "Vil du avslutte det aktive anropet ditt og bli med i en direktesending i denne kanalen?"
     },
     {
       "_": "types.LangPackString",
@@ -7885,7 +7901,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_rate_description",
-      "value": "Vennligst ranger kvaliteten på denne samtalen."
+      "value": "Vennligst ranger kvaliteten på dette anropet."
     },
     {
       "_": "types.LangPackString",
@@ -8000,7 +8016,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_video_declined",
-      "value": "Avvist videosamtale"
+      "value": "Avslått videoanrop"
     },
     {
       "_": "types.LangPackString",
@@ -8010,7 +8026,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_call_video_missed",
-      "value": "Tapt videosamtale"
+      "value": "Tapt videoanrop"
     },
     {
       "_": "types.LangPackString",
@@ -12950,6 +12966,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_days_badge",
+      "one_value": "{count}d",
+      "other_value": "{count}d"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_days_tiny",
       "one_value": "{count}d",
       "other_value": "{count}d"
@@ -13900,7 +13922,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_edit_privacy_calls_p2p_title",
-      "value": "P2P i samtaler"
+      "value": "P2P i anrop"
     },
     {
       "_": "types.LangPackString",
@@ -20106,7 +20128,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_chat_no_camera",
-      "value": "Du kan ikke slå av video i denne samtalen."
+      "value": "Du kan ikke slå på video i denne samtalen."
     },
     {
       "_": "types.LangPackString",
@@ -20396,7 +20418,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_join_as_changed_channel",
-      "value": "Deltakere i denne samtalen vil nå se deg som {name}"
+      "value": "Deltakere i denne direktesendingen vil nå se deg som {name}"
     },
     {
       "_": "types.LangPackString",
@@ -20588,7 +20610,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_group_call_noise_suppression",
-      "value": "Aktiver støykansellering"
+      "value": "Aktiver støydemping"
     },
     {
       "_": "types.LangPackString",
@@ -21855,6 +21877,12 @@
       "value": "Legg til flere timer"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_hours_badge",
+      "one_value": "{count}t",
+      "other_value": "{count}t"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_hours_closed",
       "value": "Stengt"
@@ -22084,6 +22112,11 @@
       "_": "types.LangPackString",
       "key": "lng_in_dlg_voice_message_ttl",
       "value": "Engangs talemelding"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_in_dlg_widget",
+      "value": "Widget"
     },
     {
       "_": "types.LangPackString",
@@ -22473,7 +22506,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_iv_details_state_collapsed",
-      "value": "Sammentrukket"
+      "value": "Sammenslått"
     },
     {
       "_": "types.LangPackString",
@@ -22663,6 +22696,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_2x_hold",
+      "value": "Hold mellomrom for 2x hastighet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_media_chapter_next",
       "value": "Neste kapittel"
     },
@@ -22709,7 +22747,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_keys_legend_media_hold",
-      "value": "Hurtig avspilling, dra for å skrubbe hastigheten"
+      "value": "Hurtig avspilling, dra for å justere hastigheten"
     },
     {
       "_": "types.LangPackString",
@@ -22740,6 +22778,11 @@
       "_": "types.LangPackString",
       "key": "lng_keys_legend_media_seek",
       "value": "Søk bakover eller fremover"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_keys_legend_media_speed_scrub",
+      "value": "Hold for hurtig avspilling, dra for å justere hastigheten"
     },
     {
       "_": "types.LangPackString",
@@ -22823,6 +22866,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_keys_legend_space",
+      "value": "Mellomrom"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_keys_legend_title",
       "value": "Snarveier og bevegelser"
     },
@@ -22896,6 +22944,11 @@
       "key": "lng_languages_count",
       "one_value": "{count} språk",
       "other_value": "{count} språk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_languages_custom",
+      "value": "Egendefinert språkpakke"
     },
     {
       "_": "types.LangPackString",
@@ -23439,6 +23492,11 @@
       "_": "types.LangPackString",
       "key": "lng_mac_always_open_with",
       "value": "Alltid åpne med"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_mac_cant_open_chooser",
+      "value": "Kunne ikke åpne applikasjonsvelgeren."
     },
     {
       "_": "types.LangPackString",
@@ -24494,6 +24552,11 @@
       "_": "types.LangPackString",
       "key": "lng_media_audio_empty",
       "value": "Ingen talemeldinger her enda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_media_audio_empty_search",
+      "value": "Ingen talemeldinger funnet"
     },
     {
       "_": "types.LangPackString",
@@ -25745,6 +25808,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_months_badge",
+      "one_value": "{count}m",
+      "other_value": "{count}m"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_months_tiny",
       "one_value": "{count}m",
       "other_value": "{count}m"
@@ -26414,6 +26483,11 @@
       "_": "types.LangPackString",
       "key": "lng_open_link_suspicious_chars",
       "value": "Uthevede tegn er fra et annet alfabet enn resten av adressen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_open_link_unsupported",
+      "value": "Telegram kan ikke åpne denne lenken."
     },
     {
       "_": "types.LangPackString",
@@ -31889,6 +31963,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_qr_box_gifts_empty_about_chat",
+      "value": "Det er ingen samlebare gaver her ennå."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_qr_box_gifts_empty_title",
       "value": "Ingen gaver ennå"
     },
@@ -32130,7 +32209,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_recent_frequent",
-      "value": "Ofte brukte kontakter"
+      "value": "Ofte kontaktet"
     },
     {
       "_": "types.LangPackString",
@@ -32899,8 +32978,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_channel_delete_stories",
+      "value": "slette andres historier"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_channel_edit_messages",
       "value": "redigere andres meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_edit_stories",
+      "value": "redigere andres historier"
     },
     {
       "_": "types.LangPackString",
@@ -32926,6 +33015,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_channel_post_messages",
       "value": "legge ut meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_channel_post_stories",
+      "value": "legge ut historier"
     },
     {
       "_": "types.LangPackString",
@@ -32979,6 +33073,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_group_delete_stories",
+      "value": "slette andres historier"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_edit_stories",
+      "value": "redigere andres historier"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_group_invite",
       "value": "invitere brukere via lenke"
     },
@@ -33006,6 +33110,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_group_pin_messages",
       "value": "feste meldinger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_group_post_stories",
+      "value": "legge ut historier"
     },
     {
       "_": "types.LangPackString",
@@ -33044,6 +33153,17 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_request_peer_confirm_add_maybe",
+      "value": "Dette vil også legge til {bot} i {chat} hvis den ikke er medlem ennå."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_request_peer_confirm_many",
+      "one_value": "Er du sikker på at du vil sende {count} samtale til {bot}?",
+      "other_value": "Er du sikker på at du vil sende {count} samtaler til {bot}?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_request_peer_confirm_rights",
       "value": "Dette vil også legge til {bot} i {chat} med disse rettighetene: {rights}."
     },
@@ -33066,6 +33186,11 @@
       "_": "types.LangPackString",
       "key": "lng_request_peer_rights_and",
       "value": "{rights} og {last}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_request_peer_rights_other",
+      "value": "andre administratorrettigheter"
     },
     {
       "_": "types.LangPackString",
@@ -35507,7 +35632,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_calls_peer_to_peer",
-      "value": "P2P i samtaler"
+      "value": "P2P i anrop"
     },
     {
       "_": "types.LangPackString",
@@ -36745,7 +36870,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_peer_to_peer_about",
-      "value": "Deaktivering av likemannsnettverk (P2P) vil veksle alle samtaler via telegram servere for å unngå å avsløre din IP-adresse, men kan redusere lyd- og bildekvaliteten."
+      "value": "Deaktivering av likemannsnettverk (P2P) vil veksle alle anrop via Telegram-servere for å unngå å avsløre IP-adressen din, men kan redusere lyd- og bildekvaliteten."
     },
     {
       "_": "types.LangPackString",
@@ -38208,6 +38333,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_size_bytes",
+      "value": "B"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_gigabytes",
+      "value": "GB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_kilobytes",
+      "value": "KB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_size_megabytes",
+      "value": "MB"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_slowmode_enabled",
       "value": "Saktemodus er aktivert.\nDu kan sende din neste melding om {left}"
     },
@@ -38421,7 +38566,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_sr_ai_compose_collapse_original",
-      "value": "Trekk sammen original"
+      "value": "Slå sammen original"
     },
     {
       "_": "types.LangPackString",
@@ -39015,7 +39160,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_sr_scroll_to_top",
-      "value": "Rull til toppen"
+      "value": "Bla til toppen"
     },
     {
       "_": "types.LangPackString",
@@ -41649,6 +41794,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_tgw_copied",
+      "value": "Kopiert: {text}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_log",
+      "value": "Widgetlogg"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_stopped",
+      "value": "Widget stoppet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_theme_delete",
       "value": "Slett"
     },
@@ -43017,6 +43177,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_video_editor_gif_too_large",
+      "value": "Videoer over {size} kan ikke konverteres til GIF"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_video_quality_original",
       "value": "Original"
     },
@@ -43758,7 +43923,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_connect_request_not_sent",
-      "value": "Transaksjonen ble ikke sendt. Applikasjonen ble fortalt at den mislyktes."
+      "value": "Transaksjonen ble ikke sendt. Applikasjonen ble fortalt at den feilet."
     },
     {
       "_": "types.LangPackString",
@@ -44313,7 +44478,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_wallet_profile_balance_public",
-      "value": "Saldoen din er offentlig på grunn av blokkjedens transparens."
+      "value": "Saldoen din er offentlig på grunn av blokkjedens åpenhet."
     },
     {
       "_": "types.LangPackString",
@@ -44839,6 +45004,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_weeks_badge",
+      "one_value": "{count}u",
+      "other_value": "{count}u"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_weeks_tiny",
       "one_value": "{count}u",
       "other_value": "{count}u"
@@ -44916,6 +45087,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_years_badge",
+      "one_value": "{count}å",
+      "other_value": "{count}å"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_years_tiny",
       "one_value": "{count}å",
       "other_value": "{count}å"
@@ -44932,5 +45109,5 @@
       "other_value": "Du betalte {count} stjerner."
     }
   ],
-  "version": 6031903
+  "version": 6153442
 }

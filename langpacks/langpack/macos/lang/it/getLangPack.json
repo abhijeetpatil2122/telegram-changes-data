@@ -9590,6 +9590,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Recording.Transcribe.Active",
+      "value": "Trascrivo. Clicca ovunque per interrompere."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Recording.Transcribe.Swipe",
       "value": "← Scorri per dettare"
     },
@@ -11694,6 +11699,16 @@
       "_": "types.LangPackString",
       "key": "ChatAudio.FileTranscription.PremiumRequired",
       "value": "Le tue trascrizioni gratuite sono terminate. Serve Telegram Premium per trascrivere più audio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "L'audio è troppo grande per trascriverlo. Taglia la registrazione a meno di 1 MB."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooLong",
+      "value": "L''audio è troppo lungo per trascriverlo. Taglia la registrazione a 30 minuti o meno."
     },
     {
       "_": "types.LangPackString",
@@ -16304,8 +16319,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "CreateBot.Username.Count",
-      "one_value": "%1$d username",
-      "other_value": "%1$d username"
+      "one_value": "%1$d username che termina",
+      "other_value": "%1$d username che terminano"
     },
     {
       "_": "types.LangPackString",
@@ -16331,6 +16346,11 @@
       "_": "types.LangPackString",
       "key": "CreateBot.Username.PremiumRequired",
       "value": "Gli username che terminano con %1$@ richiedono Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateBot.Username.SuffixLimit",
+      "value": "Puoi avere solo %1$@ con %2$@ in tutti i tuoi bot."
     },
     {
       "_": "types.LangPackString",
@@ -26019,6 +26039,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationSettings.ResetAllInfo",
+      "value": "Annulla tutte le impostazioni di notifica personalizzate per i tuoi contatti, gruppi e canali."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationSettings.ResetNotifications",
       "value": "Ripristina le notifiche"
     },
@@ -31818,6 +31843,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameInfo",
+      "value": "Questo nome è mostrato nella lista delle sessioni attive sugli altri tuoi dispositivi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RenameDevice.Controller.Title",
       "value": "Rinomina il dispositivo"
     },
@@ -34414,6 +34444,11 @@
       "_": "types.LangPackString",
       "key": "SessionModal.Controller.OS",
       "value": "OS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OfficialApp",
+      "value": "Questa sessione viene dall'app ufficiale di Telegram"
     },
     {
       "_": "types.LangPackString",
@@ -38626,6 +38661,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.EditNameTitle",
+      "value": "Modifica nome set di sticker"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerPack.PreviewModalController.EditStickers",
       "value": "MODIFICA STICKER"
     },
@@ -38638,6 +38678,11 @@
       "_": "types.LangPackString",
       "key": "StickerPack.PreviewModalController.Reorder",
       "value": "Riordina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerPack.PreviewModalController.ReplaceSticker",
+      "value": "Sostituisci sticker"
     },
     {
       "_": "types.LangPackString",
@@ -44046,6 +44091,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Boost.Progress",
+      "value": "%1$@ di %2$@ potenziamenti per %3$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.BotCommands",
       "value": "Comandi del bot"
     },
@@ -44129,6 +44179,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chart.Period",
       "value": "Periodo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Series",
+      "value": "%1$@, massimo %2$@ il %3$@, minimo %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.SeriesAtTime",
+      "value": "%1$@, massimo %2$@ alle %3$@, minimo %4$@"
     },
     {
       "_": "types.LangPackString",
@@ -44454,6 +44514,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chat.Size",
       "value": "Dimensione: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.StakeAmounts",
+      "value": "Importi in stake"
     },
     {
       "_": "types.LangPackString",
@@ -45015,6 +45080,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Live",
       "value": "Live"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Loading",
+      "value": "Caricamento"
     },
     {
       "_": "types.LangPackString",
@@ -45738,6 +45808,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ShadeOf",
+      "value": "%1$@, sfumatura %2$d di %3$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.TextAlignment",
       "value": "Allineamento testo"
     },
@@ -45906,6 +45981,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Recording.StopAndPreview",
       "value": "Arresta e anteprima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.RichEditor.AICompose",
+      "value": "Composizione IA"
     },
     {
       "_": "types.LangPackString",
@@ -47434,6 +47514,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.PeerBalanceNotice",
+      "value": "%1$@ possiede %2$@ sulla blockchain TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PeerBalanceController.PublicBalanceNotice",
+      "value": "Il tuo saldo è pubblico grazie alla trasparenza della blockchain."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.AddressCopied",
       "value": "✓ Indirizzo copiato"
     },
@@ -47459,6 +47549,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PeerCaption",
+      "value": "Invia Gram a questo indirizzo\no scansiona questo codice QR."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PurchaseFailedInfo",
       "value": "Non è stato possibile avviare l'acquisto. Riprova."
     },
@@ -47476,6 +47571,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PurchaseUnavailableTitle",
       "value": "Acquisto non disponibile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.ShowPeerQr",
+      "value": "Mostra il QR"
     },
     {
       "_": "types.LangPackString",
@@ -49470,5 +49570,5 @@
       "value": "Mostra sostituzioni"
     }
   ],
-  "version": 2429039
+  "version": 2429474
 }

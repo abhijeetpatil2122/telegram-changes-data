@@ -20936,7 +20936,7 @@
     {
       "_": "types.LangPackString",
       "key": "Input.Quote.Collapsed",
-      "value": "El text de la cita es reduirà"
+      "value": "El text de la cita es replegarà"
     },
     {
       "_": "types.LangPackString",
@@ -24489,6 +24489,11 @@
       "_": "types.LangPackString",
       "key": "NotificationSettings.NotificationTone",
       "value": "To de la notificació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationSettings.ResetAllInfo",
+      "value": "Desfà la configuració de les notificacions per als contactes, grups i canals."
     },
     {
       "_": "types.LangPackString",
@@ -42073,6 +42078,16 @@
       "value": "Minimitza la trucada"
     },
     {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VideoCallCanceled",
+      "value": "Videotrucada cancel·lada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Call.VoiceCallCanceled",
+      "value": "Trucada cancel·lada"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "VoiceOver.Calls.RatingStars",
       "one_value": "%d estrella",
@@ -42121,6 +42136,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Accept",
+      "value": "Accepta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Add",
+      "value": "Afegeix"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.AspectRatio",
       "value": "Relació d'aspecte"
     },
@@ -42131,8 +42156,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Cancel",
+      "value": "Cancel·la"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.CancelDownload",
+      "value": "Cancel·la la baixada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Clear",
+      "value": "Esborra"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Close",
       "value": "Tanca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Collapse",
+      "value": "Replega"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Copy",
+      "value": "Copia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Decline",
+      "value": "Rebutja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Download",
+      "value": "Baixa"
     },
     {
       "_": "types.LangPackString",
@@ -42141,8 +42201,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.EndCall",
+      "value": "Penja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Expand",
       "value": "Amplia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Filter",
+      "value": "Filtra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Forward",
+      "value": "Reenvia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Hide",
+      "value": "Amaga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Lock",
+      "value": "Bloca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Maximize",
+      "value": "Maximitza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Minimize",
+      "value": "Minimitza"
     },
     {
       "_": "types.LangPackString",
@@ -42158,6 +42253,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Mute",
       "value": "Silencia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Open",
+      "value": "Obre"
     },
     {
       "_": "types.LangPackString",
@@ -42181,13 +42281,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Remove",
+      "value": "Elimina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Report",
+      "value": "Denuncia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Retry",
+      "value": "Torna a provar-ho"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Rotate",
+      "value": "Gira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Save",
+      "value": "Desa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Schedule",
+      "value": "Programa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollDown",
+      "value": "Desplaça avall"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollToBottom",
+      "value": "Desplaça al capdavall"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ScrollUp",
+      "value": "Desplaça amunt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Select",
+      "value": "Seleccioneu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Share",
       "value": "Comparteix"
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ShareScreen",
+      "value": "Comparteix la pantalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Sort",
+      "value": "Ordena"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.TonAmount",
       "value": "Quantitat de Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Translate",
+      "value": "Tradueix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Unlock",
+      "value": "Desbloca"
     },
     {
       "_": "types.LangPackString",
@@ -42198,6 +42368,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Unpin",
       "value": "No fixis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ZoomIn",
+      "value": "Amplia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.ZoomOut",
+      "value": "Redueix"
     },
     {
       "_": "types.LangPackString",
@@ -43156,6 +43336,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ReceiveController.PeerCaption",
+      "value": "Envieu Grams a aquesta adreça\no escanegeu el codi QR."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PurchaseFailedInfo",
       "value": "La compra no s'ha pogut iniciar. Torneu a provar-ho."
     },
@@ -43828,6 +44013,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingTransfer",
       "value": "Transferència enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Sending",
+      "value": "S'està enviant"
     },
     {
       "_": "types.LangPackString",
@@ -44816,5 +45006,5 @@
       "value": "Mostra les substitucions"
     }
   ],
-  "version": 2429434
+  "version": 2433949
 }

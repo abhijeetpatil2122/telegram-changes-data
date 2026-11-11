@@ -3476,6 +3476,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CalendarSearch.Controller.Search",
+      "value": "Іздеу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.Accept",
       "value": "Қабылдау"
     },
@@ -6349,6 +6354,11 @@
       "_": "types.LangPackString",
       "key": "ChannelParticipant.AddTag",
       "value": "Белгі қосу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelParticipant.Controller.PermissionsUnverified",
+      "value": "Жаңартылған рұқсаттар расталмады. Қайталамас бұрын мүшенің рұқсаттарын тексеріңіз."
     },
     {
       "_": "types.LangPackString",
@@ -11700,10 +11710,30 @@
       "value": "Аудионы мәтінге айналдыру сәтсіз аяқталды. Қайталап көріңіз."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Бұл аудио танылмады. 1 секундтан 30 минутқа дейінгі аудионы қолданыңыз."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "one_value": "",
       "other_value": "Танылу сұранымы тым көп. %1$d секундтан кейін қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Тегін танылуларыңыз қолданылды. Көбірек аудио танылу үшін Telegram Premium қажет."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "Аудио танылу үшін тым үлкен. Аудионы 1 МБ-тан кем етіп қысқартыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooLong",
+      "value": "Аудио танылу үшін тым үлкен. Аудионы 30 минуттан кем етіп қысқартыңыз."
     },
     {
       "_": "types.LangPackString",
@@ -12005,6 +12035,11 @@
       "_": "types.LangPackString",
       "key": "ChatGift.Title.Unclaimed",
       "value": "**Алынбаған жүлде**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatHTML.RowItem.NetworkWarning",
+      "value": "Басу бот серверіне деректер жіберуі мүмкін"
     },
     {
       "_": "types.LangPackString",
@@ -13783,8 +13818,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.AdminRequired",
+      "value": "Хатты тек әкімші жібере алады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelRestricted",
+      "value": "Сізге бұл арнада жазба жариялауға тыйым салынған."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelWriteForbidden",
+      "value": "Дәл қазір бұл арнада жариялай алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatInaccessible",
+      "value": "Бұл арна не топ енді сізге қолжетімсіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatWriteForbidden",
+      "value": "Дәл қазір бұл чатта хат жібере алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.EntitiesTooLong",
+      "value": "Бұл хат жіберу үшін тым көп пішімделген."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.FileReferenceExpired",
+      "value": "Медиа сілтемесінің мерзімі өтті. Медианы қайта жіберіп көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ForwardsRestricted",
+      "value": "Қорғалған чаттан хаттарды жөнелте алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.Generic",
+      "value": "Бұл хат жіберілмеді. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.GuestSendForbidden",
+      "value": "Пікір қалдырмас бұрын талқы тобына қосылыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MediaForbidden",
+      "value": "Бұл чатта хаттың бұл түрін жібере алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MessageTooLong",
+      "value": "Бұл хат жіберу үшін тым ұзын."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PlainForbidden",
+      "value": "Бұл чатта мәтін хаттарын жібере алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PremiumRequired",
+      "value": "Бұл хатты жіберу үшін Telegram Premium қажет."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ServerError",
+      "value": "Бұл хат жіберілмеді. Сервер қатесі: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.SlowModeWait",
+      "value": "Баяу режім қосулы. %1$@ кейін қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.TopicDeleted",
+      "value": "Бұл тақырып жойылды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.UserBlocked",
+      "value": "Алушы сізді бұғаттағандықтан бұл хатты жібере алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.PaymentConfirmation.PriceChanged",
       "value": "Баға өзгерді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "Бұл чатқа хат жіберу бағасы өзгергендіктен, хатыңыз жіберілмеді. Жаңа бағаны тексеріп, қайта жіберіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -14173,6 +14303,11 @@
       "_": "types.LangPackString",
       "key": "ChatTitle.ReportMessages",
       "value": "Шағыну"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.AutomaticPunctuation",
+      "value": "Автоматты тыныс белгілері"
     },
     {
       "_": "types.LangPackString",
@@ -15757,6 +15892,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledBot",
+      "value": "Бұл боттан жөнелту шектеулі"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledChannel",
       "value": "Бұл арнадан жөнелту шектелген"
     },
@@ -16757,6 +16897,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetAppLoginNotPreserved",
+      "value": "Кіру деректері сақталмады. Деректер базасы тазаланбады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DiceRoll.EmojiStake",
       "value": "Emoji бәс тігу"
     },
@@ -17258,6 +17403,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasColorPicker.PickFromImage",
+      "value": "Суреттен түс таңдау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasColorPicker.Red",
       "value": "ҚЫЗЫЛ"
     },
@@ -17348,8 +17498,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToFill",
+      "value": "Толтыруға ауысу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToLine",
+      "value": "Сызыққа ауысу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToOneSidedArrow",
+      "value": "Біржақты жебеге ауысу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasControls.SwitchToOutline",
       "value": "Сұлбаға ауысу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasControls.SwitchToTwoSidedArrow",
+      "value": "Екіжақты жебеге ауысу"
     },
     {
       "_": "types.LangPackString",
@@ -17645,6 +17815,11 @@
       "_": "types.LangPackString",
       "key": "EditVideo.ToolsController.Shadows",
       "value": "Көлеңке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditVideo.ToolsController.ShowEdited",
+      "value": "Өңделгенді көрсету"
     },
     {
       "_": "types.LangPackString",
@@ -18993,6 +19168,11 @@
       "value": "Бұл топ әкімші не қолданушы құрған тақырыптарға бөлінеді."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ForumSidebar.RowsView.DeleteTopics",
+      "value": "Тақырыптарды жою"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "ForumSidebar.RowsView.DeleteTopicsInfo",
       "one_value": "",
@@ -19747,6 +19927,11 @@
       "_": "types.LangPackString",
       "key": "GeneralSettings.ShowCallsTab",
       "value": "Қоңырау таңбасын көрсету"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GeneralSettings.ShowContactsTab",
+      "value": "Контакт таңбасын көрсету"
     },
     {
       "_": "types.LangPackString",
@@ -21815,10 +22000,80 @@
       "value": "Грамматика мен қатені тексеру"
     },
     {
+      "_": "types.LangPackString",
+      "key": "HTMLBubble.State.WidgetStopped",
+      "value": "Виджет тоқтатылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.AllWidgets",
+      "value": "Барлық виджет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.AllWidgetsWebKit",
+      "value": "Барлық виджет — WebKit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsCommandDescription",
+      "value": "Нақты уақыттағы рендерлеу статистикасын көрсету не жасыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOff",
+      "value": "Нақты уақыттағы статистика өшірулі. Көрсету үшін %1$@ жіберіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.StatsOn",
+      "value": "Нақты уақыттағы статистика қосылған. Әрбір HTML хаты кадрдағы бейнелеу уақытын, секундтағы кадрларды, процессор мен жадты, сондай-ақ бүкіл қолданбаның процессоры мен жадын көрсетеді. Оларды жасыру үшін %1$@ жіберіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.Catalog.TypeToPick",
+      "value": "Хат таңдау үшін / жазыңыз"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "HTMLDemo.Catalog.WidgetsCount",
       "one_value": "%1$d виджет",
       "other_value": "%1$d виджет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLDemo.ChatContents.You",
+      "value": "Сіз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.Litehtml",
+      "value": "litehtml"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.LitehtmlGPU",
+      "value": "litehtml GPU"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.LitehtmlOptimized",
+      "value": "litehtml оңтайландырылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.Twidget",
+      "value": "twidget"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLRender.Engine.WebKit",
+      "value": "WebKit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "HTMLWidget.Store.WidgetUnavailable",
+      "value": "Виджет қолжетімсіз"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -31259,8 +31514,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QrStudio.Controller.CopyImage",
+      "value": "Суретті көшіру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.Controller.FeeRestored",
       "value": "Хат жазу енді қайтадан ақылы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QrStudio.Controller.ImageCopied",
+      "value": "Сурет көшірілді."
     },
     {
       "_": "types.LangPackString",
@@ -31554,6 +31819,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RecentSessions.Controller.Rename",
+      "value": "Қайта атау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RecentSessions.Error.FreshReset",
       "value": "Қауіпсіздік үшін жаңа ғана қосылған құрылғыдан бұрынғы сеансты өшіре алмайсыз. Кішкене бертін қосылған сенасты таңдаңыз не бірер сағат күте тұрыңыз."
     },
@@ -31584,8 +31854,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.DeviceNameHeader",
+      "value": "ҚҰРЫЛҒЫ АТАУЫ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RenameDevice.Controller.DeviceNameInfo",
       "value": "Бұл атау басқа құрылғыңыздағы белсенді сеанс тізімінде көрсетіледі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RenameDevice.Controller.Title",
+      "value": "Құрылғыны қайта атау"
     },
     {
       "_": "types.LangPackString",
@@ -32362,6 +32642,11 @@
       "_": "types.LangPackString",
       "key": "RichTextEditor.WindowController.ChooseUser",
       "value": "Қолданушы таңдау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichTextEditor.WindowController.CopyTextPlaceholder",
+      "value": "Көшіруге арналған мәтін"
     },
     {
       "_": "types.LangPackString",
@@ -34148,8 +34433,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SessionModal.Controller.ConnectionHeader",
+      "value": "Қосылым"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.DeviceHeader",
+      "value": "Құрылғы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.FirstSignedAt",
+      "value": "Алғаш кірген уақыты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LastActive",
+      "value": "Соңғы белсенділік"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.LocationNotFound",
+      "value": "Бұл орын табылмады. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SessionModal.Controller.OS",
       "value": "ОЖ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.OfficialApp",
+      "value": "Бұл сеанс ресми Telegram қолданбасынан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SessionModal.Controller.Version",
+      "value": "Нұсқа"
     },
     {
       "_": "types.LangPackString",
@@ -38771,6 +39091,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageLessThan",
+      "value": "Telegram құрылғыңыздың %1$@ аз жадын қолданады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StorageUsage.Controller.UsageText",
+      "value": "Telegram құрылғыңыздың **%1$@** жадын қолданады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StorageUsage.Header",
       "value": "Жадтың жұмсалуы"
     },
@@ -40740,6 +41070,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextUtils.Widget",
+      "value": "Виджет"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextView.Transform.Bold",
       "value": "Жуан"
     },
@@ -41885,6 +42220,11 @@
       "_": "types.LangPackString",
       "key": "Translate.TranslateEntireChat",
       "value": "Чатты толық аудару"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TranslateModal.Controller.AlwaysUse",
+      "value": "Бұл чатта әрқашан қолдану"
     },
     {
       "_": "types.LangPackString",
@@ -43787,6 +44127,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Boost.Progress",
+      "value": "%1$@ / %2$@ дауыс %3$@ берілді"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.BotCommands",
       "value": "Боттың пәрмендері"
     },
@@ -43870,6 +44215,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chart.Period",
       "value": "Кезең"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.Series",
+      "value": "%1$@, ең жоғарысы %2$@ — %3$@ күні, ең төмені %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chart.SeriesAtTime",
+      "value": "%1$@, ең жоғарысы %2$@ — %3$@, ең төмені %4$@"
     },
     {
       "_": "types.LangPackString",
@@ -44249,6 +44604,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.MessageFrom",
+      "value": "Кімнен: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.MessageRead",
       "value": "Оқу"
     },
@@ -44256,6 +44616,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.OpenCommunity",
       "value": "Бірлестікті ашу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.OutgoingMessage",
+      "value": "Шығыс хат"
     },
     {
       "_": "types.LangPackString",
@@ -45350,7 +45715,12 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.ImageEditor.Shade",
-      "value": "Реңк"
+      "value": "Көлеңке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.ImageEditor.ShadeOf",
+      "value": "%1$@, көлеңке %2$d / %3$d"
     },
     {
       "_": "types.LangPackString",
@@ -45406,6 +45776,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Media.Forward15",
       "value": "15 секунд алға жылжыту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackPause",
+      "value": "Үзіліс"
     },
     {
       "_": "types.LangPackString",
@@ -45505,6 +45880,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.StopAndPreview",
+      "value": "Тоқтатып, алдын ала көру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.RichEditor.AICompose",
       "value": "ЖИ-мен жазу"
     },
@@ -45546,7 +45926,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.Segment.RecoveryPhraseLength",
-      "value": "Тіркестің ұзындығын қалпына келтіру"
+      "value": "Құпия тіркестің ұзындығы"
     },
     {
       "_": "types.LangPackString",
@@ -45612,6 +45992,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Wallpaper.Pattern",
       "value": "Нақыш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Wallpaper.PatternItem",
+      "value": "Нақыш %1$d"
     },
     {
       "_": "types.LangPackString",
@@ -46038,6 +46423,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.CollectibleDetailsController.Collection",
       "value": "Жиынтық"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.CollectibleDetailsController.ContextSell",
+      "value": "Сату"
     },
     {
       "_": "types.LangPackString",
@@ -47036,7 +47426,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ReceiveController.PeerCaption",
-      "value": "GRAM-ды мына мекенжайға\nжіберіңіз не QR кодты скандаңыз."
+      "value": "Gram-ды мына мекенжайға\nжіберіңіз не QR кодты скандаңыз."
     },
     {
       "_": "types.LangPackString",
@@ -47436,7 +47826,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DisableBackupZeroBalance",
-      "value": "Құпия тіркесін жаңарту үшін теңгерім нөл болуы керек."
+      "value": "Сізге құпия тіркесті жаңарту үшін теңгеріміңіз оң болуы қажет."
     },
     {
       "_": "types.LangPackString",
@@ -47992,7 +48382,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingItem",
-      "value": "–1 жиынтық"
+      "value": "-1 жиынтық"
     },
     {
       "_": "types.LangPackString",
@@ -49046,5 +49436,5 @@
       "value": "Алмастыруды көрсету"
     }
   ],
-  "version": 2426743
+  "version": 2434024
 }

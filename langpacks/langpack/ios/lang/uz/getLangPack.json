@@ -317,7 +317,7 @@
     {
       "_": "types.LangPackString",
       "key": "AdsInfo.Respect.Text",
-      "value": "Telegramdagi reklamalar shaxsiy axborotlaringizdan foydalanmaydi va siz ularni koʻradigan kanalga asoslanadi."
+      "value": "Biz shaxsiy chatlaringiz yoki kontaktlar roʻyxatingiz kontentidan reklamani target qilish yoki boshqa tijoriy maqsadlarda foydalanmaymiz."
     },
     {
       "_": "types.LangPackString",
@@ -724,6 +724,16 @@
       "_": "types.LangPackString",
       "key": "AgeVerification.Verify",
       "value": "Yoshimni tasdiqlash"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Key.Header",
+      "value": "API kaliti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Key.Title",
+      "value": "API kaliti"
     },
     {
       "_": "types.LangPackString",
@@ -1437,6 +1447,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Appstore.new.Private.title",
+      "value": "Maxfiy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Appstore.new.Public.iv.link",
       "value": "ft.com"
     },
@@ -1444,6 +1459,11 @@
       "_": "types.LangPackString",
       "key": "Appstore.new.Public.title",
       "value": "Ommaviy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appstore.new.Secure.subtitle",
+      "value": "Barcha chatlar kuchli shifrlash\nbilan himoyalangan."
     },
     {
       "_": "types.LangPackString",
@@ -2862,7 +2882,7 @@
     {
       "_": "types.LangPackString",
       "key": "BalanceNeeded.FragmentSubtitle",
-      "value": "Uchinchi tomon platformasi Fragment orqali balansingizga TON qoʻshishingiz mumkin."
+      "value": "Uchinchi tomon platformasi Fragment orqali balansingizga Gram qoʻshishingiz mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -4085,6 +4105,11 @@
       "_": "types.LangPackString",
       "key": "Business.Links.CreateAction",
       "value": "Chatga havola yaratish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Business.Links.DeleteItemAlert.Title",
+      "value": "Havola oʻchirilsinmi?"
     },
     {
       "_": "types.LangPackString",
@@ -7604,6 +7629,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Continue",
+      "value": "Davom etish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivatePublicLinkAlert",
       "value": "Unutmang, agar kanalingiz uchun ommaviy havola tanlasangiz, har kim qidiruvda uni topishi va qoʻshilishi mumkin.\n\nAgar kanalingiz maxfiy qolishini xohlasangiz, bu havolani yaratmang."
     },
@@ -10674,7 +10704,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.NonContactUser.AnonymousNumber",
-      "value": "Anonim"
+      "value": "Kolleksion"
     },
     {
       "_": "types.LangPackString",
@@ -11293,7 +11323,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.PriceSectionTon",
-      "value": "NARXNI TON DA KIRITING"
+      "value": "NARXNI GRAMDA KIRITING"
     },
     {
       "_": "types.LangPackString",
@@ -11710,6 +11740,16 @@
       "_": "types.LangPackString",
       "key": "Chat.SensitiveContentShort",
       "value": "18+"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SideList.DirectMessages",
+      "value": "Shaxsiy xabarlar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SideList.NewTopic",
+      "value": "Yangi mavzu"
     },
     {
       "_": "types.LangPackString",
@@ -13461,7 +13501,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.Search.SectionPopularApps",
-      "value": "OMMABOP ILOVALAR"
+      "value": "ENG DAROMADLI ILOVALAR"
     },
     {
       "_": "types.LangPackString",
@@ -13675,6 +13715,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Sukutdan chiqarish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "Barcha chatlarni koʻrsatish"
     },
     {
       "_": "types.LangPackString",
@@ -14283,12 +14328,12 @@
     {
       "_": "types.LangPackString",
       "key": "ChatbotSetup.BotSectionFooter",
-      "value": "Chatlaringizni avtomatik qayta ishlashni istagan Telegram botning foydalanuvchi nomi yoki URL manzilini kiriting."
+      "value": "Chatlaringizni avtomatik boshqarishi uchun bot tanlang."
     },
     {
       "_": "types.LangPackString",
       "key": "ChatbotSetup.ErrorBotNotBusinessCapable",
-      "value": "Bu bot hali Telegram Biznesni dastaklamaydi."
+      "value": "Bu bot hali Kotib rejimini qoʻllab-quvvatlamaydi."
     },
     {
       "_": "types.LangPackString",
@@ -14484,7 +14529,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatbotSetup.Text",
-      "value": "Hisobingizga siz oladigan xabarlarni avtomatik qayta ishlaydigan va ularga javob beradigan bot qoʻshing. [Batafsil >]()"
+      "value": "Nomingizdan xabarlarga javob berishi uchun bot qoʻshing."
     },
     {
       "_": "types.LangPackString",
@@ -18261,7 +18306,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.ShareBotContactConfirmation",
-      "value": "Bot telefon raqamingizni biladi. Bu boshqa xizmatlar bilan integratsiya qilish uchun foydali boʻlishi mumkin."
+      "value": "Bot telefon raqamingizni bilib oladi. Bu boshqa xizmatlar bilan integratsiya qilish uchun foydali boʻlishi mumkin.\n\n⚠️ Diqqat! Telegram kirish kodlaringizni hech qachon mini ilovalarga kiritmang."
     },
     {
       "_": "types.LangPackString",
@@ -19222,6 +19267,12 @@
       "value": "Barcha botlaringiz boʻylab %2$@ bilan tugaydigan faqat %1$@ ta foydalanuvchi nomiga ega boʻlishingiz mumkin."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "CreateBot.UsernameStatus.SuffixLimitCount",
+      "one_value": "%d ta foydalanuvchi nomi",
+      "other_value": "%d ta foydalanuvchi nomi"
+    },
+    {
       "_": "types.LangPackString",
       "key": "CreateBot.UsernameStatus.Taken",
       "value": "Bu foydalanuvchi nomi band."
@@ -19522,6 +19573,11 @@
       "_": "types.LangPackString",
       "key": "CreatePoll.Quiz",
       "value": "Viktorina rejimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreatePoll.QuizCorrectOptionNeeded",
+      "value": "Toʻgʻri variantni belgilang"
     },
     {
       "_": "types.LangPackString",
@@ -21050,6 +21106,11 @@
       "_": "types.LangPackString",
       "key": "EnableSharing.SendRequest",
       "value": "Soʻrov yuborish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableSharing.Text",
+      "value": "Ulashishni yoqish uchun sizga **%@**ning roziligi kerak. Soʻrov yuborilsinmi?"
     },
     {
       "_": "types.LangPackString",
@@ -22818,6 +22879,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Displayed.ChannelText",
+      "value": "Hadya endi kanal profilida koʻrinadi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Displayed.Text",
       "value": "Bu hadya endi [profilingizda]() koʻrinadi."
     },
@@ -22981,6 +23047,21 @@
       "_": "types.LangPackString",
       "key": "Gift.Offer.Title",
       "value": "Sotib olish taklifi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Decline",
+      "value": "Rad etish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Price",
+      "value": "Narx"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Title",
+      "value": "Sotuvni tasdiqlash"
     },
     {
       "_": "types.LangPackString",
@@ -23592,7 +23673,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Text",
-      "value": "Bu amalni ochish uchun ushbu hadyani Fragment'da Telegram hisobingizga oʻtkazing."
+      "value": "Bu amalni ochish uchun ushbu hadyani hamyoningizdan profilingizga koʻchiring."
     },
     {
       "_": "types.LangPackString",
@@ -24062,6 +24143,11 @@
       "_": "types.LangPackString",
       "key": "Gift.View.Context.Craft",
       "value": "Hadya yaratish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.View.Context.Delete",
+      "value": "Hadyani oʻchirish"
     },
     {
       "_": "types.LangPackString",
@@ -25184,12 +25270,18 @@
     {
       "_": "types.LangPackString",
       "key": "Group.Setup.ApproveNewMembersApplyToExistingInviteLinksText.EnableChannel",
-      "value": "Bu kanaldagi **%@** uchun ham **Yangi obunachilarni tasdiqlash** yoqilsinmi?"
+      "value": "Bu kanaldagi **%@** uchun ham **Yangi aʼzolarni tasdiqlash** yoqilsinmi?"
     },
     {
       "_": "types.LangPackString",
       "key": "Group.Setup.ApproveNewMembersApplyToExistingInviteLinksText.EnableGroup",
       "value": "Bu guruhdagi **%@** uchun ham **Yangi aʼzolarni tasdiqlash** yoqilsinmi?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Group.Setup.ApproveNewMembersApplyToExistingInviteLinksText.Links",
+      "one_value": "%@ ta mavjud taklif havolasi",
+      "other_value": "%@ ta mavjud taklif havolasi"
     },
     {
       "_": "types.LangPackString",
@@ -27527,6 +27619,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiveStream.DeleteMessageConfirmation.Title",
+      "value": "Xabar oʻchirilsinmi?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiveStream.DisplayAsSuccess",
       "value": "Bu jonli efir qatnashchilari sizni **%@** sifatida koʻradi."
     },
@@ -28388,7 +28485,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.Fee.Support.Text",
-      "value": "SMS xarajatlarini qoplashga yordam berish uchun 1 haftalik Telegram Premium obunasiga yoziling."
+      "value": "SMS xarajatlarini qoplashga yordam berish uchun 1 haftalik Telegram Premiumga obuna boʻling."
     },
     {
       "_": "types.LangPackString",
@@ -30571,6 +30668,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Message.Widget",
+      "value": "Vidjet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessageCalendar.ClearHistoryForTheseDays",
       "value": "Bu kunlar uchun tarixni tozalash"
     },
@@ -31000,12 +31102,12 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Overview.Available",
-      "value": "Yechib olish mumkin"
+      "value": "Yechib olish mumkin boʻlgan mukofotlar"
     },
     {
       "_": "types.LangPackString",
       "key": "Monetization.Overview.Current",
-      "value": "Oxirgi yechib olishdan buyon tushum"
+      "value": "Oxirgi yechib olishdan buyon mukofotlar"
     },
     {
       "_": "types.LangPackString",
@@ -31025,7 +31127,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Proceeds.Ton.Info",
-      "value": "Jami balansingizdan TON reklamalar uchun ishlatilishi yoki ishlab topilganidan 3 kun keyin mukofot sifatida yechib olinishi mumkin. 10 TON dan kam pul yechib ololmaysiz."
+      "value": "Jami balansingizdagi Gramlarni reklama uchun ishlatish yoki ishlab topilganidan 3 kun oʻtgach mukofot sifatida yechib olish mumkin. 10 Gramdan kam yechib ololmaysiz."
     },
     {
       "_": "types.LangPackString",
@@ -31090,7 +31192,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TonTransactions",
-      "value": "TON tranzaksiyalari"
+      "value": "Gram tranzaksiyalari"
     },
     {
       "_": "types.LangPackString",
@@ -31847,6 +31949,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.Refresh",
+      "value": "Yangilash"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.Boost.Multiple",
       "value": "%1$@ guruhga %2$@ ovoz oldi"
     },
@@ -32352,6 +32459,12 @@
       "key": "Notification.GiveawayResultsMixedUnclaimed",
       "one_value": "**%@** ta tarqatilmagan havola kodi kanal administratorlariga uzatildi.",
       "other_value": "**%@** ta tarqatilmagan havola kodi kanal administratorlariga uzatildi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Notification.GiveawayResultsMixedUnclaimed.Group",
+      "one_value": "**%@** ta tarqatilmagan havola kodi guruh administratorlariga uzatildi.",
+      "other_value": "**%@** ta tarqatilmagan havola kodi guruh administratorlariga uzatildi."
     },
     {
       "_": "types.LangPackString",
@@ -33169,6 +33282,11 @@
       "key": "Notification.StarGiftOffer.Expiration.Minutes",
       "one_value": "%@ dq",
       "other_value": "%@ dq"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOffer.Offer",
+      "value": "Foydalanuvchi sizga **%3$@** hadyangiz uchun **%2$@** taklif qildi."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -39980,7 +40098,7 @@
     {
       "_": "types.LangPackString",
       "key": "Premium.MaxExpiringStoriesText",
-      "value": "Siz **24** soatda **%@** ta hikoya joylashingiz mumkin. Bu limitni **%@** taga oshirish uchun **Telegram Premiumga** obuna boʻling."
+      "value": "Siz **24** soatda **%@** ta hikoya joylashingiz mumkin.\nBu limitni **%@** tagacha oshirish uchun **Telegram Premium**ga obuna boʻling."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -40346,7 +40464,7 @@
     {
       "_": "types.LangPackString",
       "key": "Premium.StickersInfo",
-      "value": "Qoʻshimcha effektlarga ega ekskluziv katta stikerlar, har oy yangilab boriladi."
+      "value": "Qoʻshimcha effektlarga ega ekskluziv katta stikerlar, muntazam yangilab boriladi."
     },
     {
       "_": "types.LangPackString",
@@ -40672,7 +40790,7 @@
     {
       "_": "types.LangPackString",
       "key": "Privacy.Birthday.CustomHelp",
-      "value": "Tugʻilgan sanangizni kimlar koʻrishi mumkinligini tanlashingiz mumkin."
+      "value": "Tugʻilgan kuningizni kimlar koʻra olishini batafsil cheklashingiz mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -40682,7 +40800,7 @@
     {
       "_": "types.LangPackString",
       "key": "Privacy.Birthday.Setup",
-      "value": "Siz hali tugʻilgan sanangizni kiritmagansiz.\n[Tugʻilgan sanamni kiritish >]()"
+      "value": "Hali tugʻilgan kuningizni kiritmagansiz.\n[Tugʻilgan kunimni kiritish >]()"
     },
     {
       "_": "types.LangPackString",
@@ -40968,7 +41086,7 @@
     {
       "_": "types.LangPackString",
       "key": "Privacy.Gifts.WhoCanSeeMyBio",
-      "value": "KIMLAR HADYALARNI PROFILIMDA KOʻRSATISHI\nMUMKIN"
+      "value": "KIMLARDAN OLINGAN HADYALARNI AVTOMATIK KOʻRSATISH"
     },
     {
       "_": "types.LangPackString",
@@ -41098,7 +41216,7 @@
     {
       "_": "types.LangPackString",
       "key": "Privacy.Messages.SectionFooter",
-      "value": "Siz kontaktlaringizda va Premium obunasi boʻlmagan foydalanuvchilardan xabarlarni cheklashingiz mumkin."
+      "value": "Kontaktlaringizda boʻlmagan va siz birinchi boʻlib yozmagan foydalanuvchilardan xabarlarni cheklashingiz mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -41455,7 +41573,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacyLastSeenSettings.CustomHelp",
-      "value": "Siz oxirgi faollik vaqtingiz yoki onlayn holatingizni koʻrsatmagan foydalanuvchilarning oxirgi faollik vaqti yoki onlayn holatini koʻra olmaysiz. Buning oʻrniga taxminiy vaqt koʻrsatiladi (yaqinda, bir hafta ichida, bir oy ichida)."
+      "value": "Agar Premium foydalanuvchisi boʻlmasangiz, oxirgi faollik yoki onlayn holatingizni ulashmaydigan odamlarning bu holatlarini koʻra olmaysiz. Buning oʻrniga taxminiy vaqtlar koʻrsatiladi (yaqinda, bir hafta ichida, bir oy ichida)."
     },
     {
       "_": "types.LangPackString",
@@ -46117,7 +46235,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Info.Gift.Text",
-      "value": "Doʻstlaringizga profilida saqlash yoki Yulduzlarga aylantirish mumkin boʻlgan hadyalar bering."
+      "value": "Doʻstlaringizga profilida saqlash yoki yulduzlarga aylantirish mumkin boʻlgan hadyalar bering."
     },
     {
       "_": "types.LangPackString",
@@ -50746,6 +50864,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummary",
+      "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryStyledLanguage",
+      "value": "%1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextProcessing.EditStyle.ActionCreate",
       "value": "Yaratish"
     },
@@ -54490,6 +54618,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Add",
+      "value": "Qoʻshish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.Expand",
+      "value": "Kengaytirish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.Off",
       "value": "Yoqilmagan"
     },
@@ -54502,6 +54640,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.SwitchHint",
       "value": "Almashtirish uchun ikki marta bosing"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DatePicker.Date",
+      "value": "Sana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DatePicker.PreviousMonth",
+      "value": "Avvalgi oy"
     },
     {
       "_": "types.LangPackString",
@@ -54527,6 +54675,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Keyboard",
       "value": "Klaviatura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Map.ShowMyLocation",
+      "value": "Joylashuvimni koʻrsatish"
     },
     {
       "_": "types.LangPackString",
@@ -54562,6 +54715,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Media.PlaybackStop",
       "value": "Ijro etishni toʻxtatish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.RepeatAll",
+      "value": "Hammasi"
     },
     {
       "_": "types.LangPackString",
@@ -54617,6 +54775,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Navigation.Search",
       "value": "Qidiruv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Reactions.Premium",
+      "value": "Premium reaksiyalar"
     },
     {
       "_": "types.LangPackString",
@@ -54896,6 +55059,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Arzon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Tezkor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsRateText",
       "value": "**1 Gram** ayni paytda **%@** ga teng.\nQuyidagilarni qila olasiz:"
     },
@@ -54908,6 +55081,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
       "value": "Birinchi Gramlaringiz!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.GramTitle",
+      "value": "Gram"
     },
     {
       "_": "types.LangPackString",
@@ -54971,6 +55149,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Foydali"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.ZeroFeesText",
       "value": "Har kuni dastlabki 5 ta oʻtkazma bepul. Qolganlari esa deyarli bepul."
     },
@@ -55016,6 +55199,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "QR kodni koʻsatish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.ShowQR",
       "value": "QR kodimni koʻrsatish"
     },
@@ -55058,6 +55246,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send",
       "value": "Yuborish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.Add",
+      "value": "Qoʻshish"
     },
     {
       "_": "types.LangPackString",
@@ -57097,5 +57290,5 @@
       "value": "Tekshirish kodini xato kiritdingiz."
     }
   ],
-  "version": 22550324
+  "version": 22579433
 }

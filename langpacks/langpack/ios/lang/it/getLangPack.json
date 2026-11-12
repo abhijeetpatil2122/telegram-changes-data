@@ -835,6 +835,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Connetti modello"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Avvia"
     },
@@ -10441,6 +10446,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "Impossibile modificare il messaggio, quindi non è stato inviato. Tocca \"Invia\" per inviarlo così com'è."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Hai raggiunto il limite dell'IA, quindi il messaggio non è stato inviato. Tocca \"Invia\" per inviarlo così com'è."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "Il messaggio è troppo lungo per l'IA, quindi non è stato inviato. Tocca \"Invia\" per inviarlo così com'è."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Spiacenti, non puoi selezionare più elementi in una volta."
     },
@@ -10957,13 +10977,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "Il testo è troppo lungo per migliorarlo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.Enhancing",
       "value": "Miglioro…"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Impossibile riconoscere il linguaggio. Riprova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "Abilita il Riconoscimento vocale per Telegram nelle Impostazioni per poter dettare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnavailable",
+      "value": "Al momento la dettatura non è disponibile per questa lingua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "La dettatura non supporta ancora %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Hint",
+      "value": "Scorri qui per convertire la voce in testo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.Listening",
       "value": "Ascolto…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Stop",
+      "value": "Interrompi dettatura"
     },
     {
       "_": "types.LangPackString",
@@ -14442,6 +14497,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.ContextShowUnread",
+      "value": "Mostra non letti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.ContextUnmuteAll",
       "value": "Riattiva tutte"
     },
@@ -15505,6 +15565,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Riattiva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "mostrate solo le chat non lette"
     },
     {
       "_": "types.LangPackString",
@@ -25539,6 +25604,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "Acquisto inviato. **%@** apparirà nel tuo wallet dopo la conferma della rete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "Il tuo regalo è stato rimosso dalla vendita, ma la piattaforma non lo ha ancora confermato. Imposta il nuovo prezzo alla conferma."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.NotForSale",
       "value": "Questo regalo non è più in vendita."
     },
@@ -25554,13 +25629,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Gli annunci di Fragment possono essere acquistati solo per sé stessi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Questo prezzo non è nell'intervallo consentito."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Il tuo regalo è stato rimosso dalla vendita, ma non è stato possibile venderlo al nuovo prezzo: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "Al momento gli annunci di Fragment non sono disponibili."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.SaleInactive",
       "value": "Questo regalo non è in vendita."
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "Non puoi acquistare i tuoi annunci."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "**%@** sarà messo in vendita dopo la conferma della rete."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Apri Denaro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "**%@** sarò rimosso dalla vendita dopo la conferma della rete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "I tuoi Guadagni in Gram stanno arrivando sul tuo wallet. Una volta ricevuti, acquista il regalo."
     },
     {
       "_": "types.LangPackString",
@@ -25571,6 +25686,16 @@
       "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Title",
       "value": "Usare i Guadagni in Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "Il tuo wallet non può firmare le transazioni su questo dispositivo. Apri il wallet per ripristinare l'accesso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "Gli annunci di Fragment sono pagati e venduti tramite il tuo wallet Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -25586,6 +25711,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.PlatformFee",
       "value": "Costo piattaforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "Se il venditore rifiuta la tua offerta o questa scade, **%@** ti saranno  automaticamente restituiti."
     },
     {
       "_": "types.LangPackString",
@@ -25619,6 +25749,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Text",
+      "value": "**%@** saranno restituiti all'acquirente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Decline.Title",
       "value": "Rifiutare l'offerta?"
     },
@@ -25629,8 +25764,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Scegli quanto tempo ha il proprietario per accettare la tua offerta. Alla scadenza, i tuoi Gram ti saranno automaticamente rimborsati."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.AlreadyActive",
+      "value": "Hai già un'offerta attiva per questo regalo. Ritirala nella tua chat con Telegram per crearne una nuova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.InProgress",
+      "value": "La tua precedente offerta per questo regalo è ancora in fase di elaborazione. Riprova tra un minuto."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Error.NotOwner",
       "value": "Questo regalo non è più nel tuo wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.OnSale",
+      "value": "Questo regalo è in vendita. Per accettare l'offerta, devi prima rimuoverlo dalla vendita."
     },
     {
       "_": "types.LangPackString",
@@ -25664,6 +25819,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "Vendita inviata. Riceverai **%@** non appena sarà confermata sulla blockchain."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Text",
       "value": "Vendere **%1$@** per **%2$@**?"
     },
@@ -25671,6 +25831,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Title",
       "value": "Conferma vendita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Text",
+      "value": "%1$@ trattenuto fino a: %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -25686,6 +25851,21 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.ActionFree",
       "value": "Ritira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Sent",
+      "value": "Prelievo inviato. I tuoi Gram ti saranno restituiti alla conferma della blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Text",
+      "value": "Il ritiro anticipato costa **%1$@**.\n\nTi saranno restituiti **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.TextFree",
+      "value": "**%@** ti saranno restituiti."
     },
     {
       "_": "types.LangPackString",
@@ -26173,6 +26353,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.FixedSale",
+      "value": "Vendite on-chain"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Fragment",
       "value": "Da Fragment"
     },
@@ -26201,8 +26386,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Stars",
+      "value": "In stelle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Symbol",
       "value": "Simbolo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Ton",
+      "value": "In Gram"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -35354,6 +35549,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.NewPostsCount",
+      "value": "Nuovi: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "News.NewPostsPill",
       "value": "Nuovi post"
     },
@@ -36981,6 +37181,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Offer",
+      "value": "Ti hanno offerto **%1$@** (%2$@) per **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferNoValue",
+      "value": "Ti hanno offerto **%1$@** per **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Hai offerto **%1$@** per **%2$@**."
     },
@@ -37001,6 +37211,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Cancelling",
+      "value": "L'offerta è stata annullata."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Declined",
       "value": "L'offerta è stata rifiutata."
     },
@@ -37013,6 +37228,11 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Expires",
       "value": "L'offerta scade tra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "La vendita è stata completata."
     },
     {
       "_": "types.LangPackString",
@@ -53379,6 +53599,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.UnarchivePacksAlert.Text",
+      "one_value": "Questo set sarà di nuovo aggiunto alla tua lista.",
+      "other_value": "Questi set saranno di nuovo aggiunti alla tua lista."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.UnarchivePacksAlert.Title",
       "one_value": "Estrarre un set?",
       "other_value": "Estrarre %@ set?"
@@ -56804,8 +57030,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.AmountTooLarge",
+      "value": "L'importo supera il limite di prelievo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "Impossibile confermare il prelievo. Controlla la cronologia delle transazioni prima di riprovare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Text",
+      "value": "I Gram saranno trasferiti nel tuo wallet con custodia autonoma (%@)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ton.WithdrawToWallet.Title",
       "value": "Ritira %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletCreating",
+      "value": "Il tuo walletè in fase di configurazione. Riprova tra un minuto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "Il tuo wallet non è disponibile al momento. Riprova più tardi."
     },
     {
       "_": "types.LangPackString",
@@ -60797,6 +61048,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Recording.RecordMore",
+      "value": "Registra altro"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Recording.StopAndPreview",
       "value": "Arresta e anteprima"
     },
@@ -62661,6 +62917,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.TopUpText",
+      "value": "Non ci sono abbastanza Gram nel tuo wallet per questo pagamento e la relativa commissione di rete. Ricarica il tuo saldo e riprova."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.Unavailable",
       "value": "Non disponibile"
     },
@@ -63500,8 +63761,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Text",
+      "value": "**%1$@** richiede l'accesso alla tua **fotocamera** e al tuo **microfono**. Potrai revocare tale accesso nella pagina profilo di **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebApp.CameraPermission.Succeed",
       "value": "**%@** ora può accedere alla tua fotocamera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Text",
+      "value": "**%1$@** richiede l'accesso alla tua **fotocamera**. Potrai revocare tale accesso nella pagina profilo di **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -63722,6 +63993,11 @@
       "_": "types.LangPackString",
       "key": "WebApp.MicrophonePermission.Succeed",
       "value": "**%@** ora può accedere al tuo microfono."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Text",
+      "value": "**%1$@** richiede l'accesso al tuo **microfono**. Potrai revocare tale accesso nella pagina profilo di **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -64462,5 +64738,5 @@
       "value": "Hai inserito un codice di sicurezza non valido."
     }
   ],
-  "version": 22575564
+  "version": 22579195
 }

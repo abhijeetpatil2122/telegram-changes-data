@@ -946,7 +946,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureShareMyContactInfoBot",
-      "value": "Bot telefon raqamingizni biladi. Bu boshqa xizmatlar bilan integratsiya qilish uchun foydali boʻlishi mumkin."
+      "value": "Bot telefon raqamingizni bilib oladi. Bu boshqa xizmatlar bilan integratsiya qilish uchun foydali boʻlishi mumkin.\n\n⚠️ Diqqat! Telegram kirish kodlaringizni hech qachon mini ilovalarga kiritmang."
     },
     {
       "_": "types.LangPackString",
@@ -2968,6 +2968,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelEnablePaidReactions",
+      "value": "Pulli reaksiyalarni yoqish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelHideMembers",
       "value": "Aʼzolarni berkitish"
     },
@@ -3392,6 +3397,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Input.Editor.Format.Highlight",
       "value": "Ajratib koʻrsatish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Format.Subscript",
+      "value": "Satr osti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Input.Editor.Format.Superscript",
+      "value": "Satr usti"
     },
     {
       "_": "types.LangPackString",
@@ -4086,8 +4101,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatAutomation.AllExcept",
+      "value": "Barcha shaxsiy chatlar, bulardan tashqari..."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatAutomation.BotPlaceholder",
       "value": "Bot foydalanuvchi nomi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAutomation.BotUnsupported",
+      "value": "Bu bot hali Kotib rejimini qoʻllab-quvvatlamaydi."
     },
     {
       "_": "types.LangPackString",
@@ -6528,6 +6553,11 @@
       "_": "types.LangPackString",
       "key": "EnableSharing.Reject",
       "value": "Rad etish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnableSharingCaption",
+      "value": "Ulashishni yoqish uchun sizga **%s**ning roziligi kerak. Soʻrov yuborilsinmi?"
     },
     {
       "_": "types.LangPackString",
@@ -9190,6 +9220,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NoPaidMessagesToken.UsedOut",
+      "value": "Siz %sning QR kodidan foydalandingiz va unga bepul xabar yubora olasiz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NoReactions",
       "value": "Reaksiyalarsiz"
     },
@@ -9921,6 +9956,11 @@
       "_": "types.LangPackString",
       "key": "PaymentNoShippingMethod",
       "value": "Kechirasiz, manzilingizga yetkazib berish imkoni yoʻq."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentPrecheckoutFailed",
+      "value": "Kechirasiz, toʻlov bot tomonidan bekor qilindi."
     },
     {
       "_": "types.LangPackString",
@@ -10796,7 +10836,7 @@
     {
       "_": "types.LangPackString",
       "key": "Premium.Boarding.Stickers.Info",
-      "value": "Qoʻshimcha effektlarga ega ekskluziv katta stikerlar, har oy yangilab boriladi."
+      "value": "Qoʻshimcha effektlarga ega ekskluziv katta stikerlar, muntazam yangilab boriladi."
     },
     {
       "_": "types.LangPackString",
@@ -11246,6 +11286,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Privacy.BirthdayCaption",
+      "value": "Tugʻilgan kuningizni kimlar koʻra olishini batafsil cheklashingiz mumkin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Privacy.BirthdayRow",
       "value": "Tugʻilgan kunimni kimlar koʻrishi mumkin?"
     },
@@ -11264,6 +11309,11 @@
       "_": "types.LangPackString",
       "key": "Privacy.GiftsTypePremium",
       "value": "Premium obunalar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Privacy.MessagesInfo",
+      "value": "Kontaktlaringizda boʻlmagan va siz birinchi boʻlib yozmagan foydalanuvchilardan xabarlarni cheklashingiz mumkin.\n\n**[Telegram Premium nima?]()**"
     },
     {
       "_": "types.LangPackString",
@@ -11825,6 +11875,27 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionAddReactionsHint",
+      "value": "Reaksiyalar qoʻshish..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionApplyChangesDialog",
+      "value": "Siz reaksiyalar roʻyxatini oʻzgartirdingiz. Oʻzgarishlar tatbiq qilinsinmi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionCustomReactions",
+      "value": "Maxsus reaksiyalar"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ReactionReachLvlForReactionShort",
+      "one_value": "**%1$d** ta maxsus emojini reaksiya sifatida qoʻshish uchun kanalingiz **%2$d**-darajaga yetishi kerak.",
+      "other_value": "**%1$d** ta maxsus emojini reaksiya sifatida qoʻshish uchun kanalingiz **%2$d**-darajaga yetishi kerak."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions",
       "value": "Reaksiyalar"
     },
@@ -12271,7 +12342,7 @@
     {
       "_": "types.LangPackString",
       "key": "RevenueSharingAdsInfo1Subtitle",
-      "value": "Telegramdagi reklamalar shaxsiy axborotlaringizdan foydalanmaydi va siz ularni koʻradigan kanalga asoslanadi."
+      "value": "Biz shaxsiy chatlaringiz yoki kontaktlar roʻyxatingiz kontentidan reklamani target qilish yoki boshqa tijoriy maqsadlarda foydalanmaymiz."
     },
     {
       "_": "types.LangPackString",
@@ -12813,6 +12884,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SetWallpapers",
+      "value": "Fon rasmini oʻzgartirish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Settings",
       "value": "Sozlamalar"
     },
@@ -13311,6 +13387,12 @@
       "_": "types.LangPackString",
       "key": "StarGiftDefaultMessage",
       "value": "Bu hadyani profilingizga qoʻshishingiz mumkin."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarGiftDefaultMessageConvertableOut",
+      "one_value": "%2$s bu hadyani oʻz profiliga qoʻshishi yoki uni %1$d yulduzga aylantirishi mumkin.",
+      "other_value": "%2$s bu hadyani oʻz profiliga qoʻshishi yoki uni %1$d yulduzga aylantirishi mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -13897,6 +13979,11 @@
       "_": "types.LangPackString",
       "key": "StarGiftUpgradeTransferableTextPrepaid",
       "value": "%s hadyani Telegramdagi istalgan kishiga yubora oladi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGiftUpgradeUniqueText",
+      "value": "Hadyangiz uchun unikal raqam, model, fon va naqsh oling."
     },
     {
       "_": "types.LangPackString",
@@ -15055,6 +15142,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TapAndHoldToDeleteReaction",
+      "value": "Reaksiyani oʻchirish uchun bosib turing."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Telegram.GeneralSettingsViewController",
       "value": "Umumiy sozlamalar"
     },
@@ -15286,7 +15378,7 @@
     {
       "_": "types.LangPackString",
       "key": "TonNeededText",
-      "value": "Uchinchi tomon platformasi Fragment orqali balansingizga TON qoʻshishingiz mumkin."
+      "value": "Uchinchi tomon platformasi Fragment orqali balansingizga Gram qoʻshishingiz mumkin."
     },
     {
       "_": "types.LangPackString",
@@ -15574,6 +15666,11 @@
       "_": "types.LangPackString",
       "key": "Undo",
       "value": "Bekor qilish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UndoAllCustom",
+      "value": "Kontakt, guruh va kanallaringiz uchun barcha maxsus bildirishnomalar sozlamalarini bekor qilish."
     },
     {
       "_": "types.LangPackString",
@@ -16349,6 +16446,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Gram.CheapTitle",
+      "value": "Arzon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Gram.FastTitle",
+      "value": "Tezkor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Gram.UsefulTitle",
+      "value": "Foydali"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActiveConnections",
       "value": "Faol ulanishlar"
     },
@@ -16724,6 +16836,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletImportedInfo",
+      "value": "Hamyoningiz maxfiy jumlangizdan tiklandi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletIncomingCollectibleAmount",
       "value": "+1 ta buyum"
     },
@@ -16741,6 +16858,11 @@
       "_": "types.LangPackString",
       "key": "WalletInsufficientFunds",
       "value": "Mablagʻ yetarli emas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletInvalidRecoveryPhrase",
+      "value": "Maxfiy jumla yaroqsiz"
     },
     {
       "_": "types.LangPackString",
@@ -16769,6 +16891,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletNoFees",
+      "value": "Komissiyalarsiz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletNotEnoughGram",
       "value": "Gram yetarli emas"
     },
@@ -16779,8 +16906,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOpenMyWallet",
+      "value": "Pulimni ochish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOptionalComment",
       "value": "Ixtiyoriy fikr"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOutgoingCollectibleAmount",
+      "value": "-1 ta buyum"
     },
     {
       "_": "types.LangPackString",
@@ -16845,6 +16982,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "Maxfiy jumlani koʻrsatish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "Maxfiy jumla"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletReplaceWalletTitle",
       "value": "Eski hamyonni qanday almashtirmoqchisiz?"
     },
@@ -16882,6 +17029,11 @@
       "_": "types.LangPackString",
       "key": "WalletSendGrams",
       "value": "Gram yuborish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendInstantly",
+      "value": "Bir zumda oʻtkazmalar"
     },
     {
       "_": "types.LangPackString",
@@ -16932,6 +17084,11 @@
       "_": "types.LangPackString",
       "key": "WalletTestPhrase",
       "value": "Tekshiruv vaqti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletTitle",
+      "value": "Pul"
     },
     {
       "_": "types.LangPackString",
@@ -17070,6 +17227,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletWhatIsWallet",
+      "value": "Pul nima?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletWrongSecretPhrase",
       "value": "Maxfiy jumla xato"
     },
@@ -17077,6 +17239,11 @@
       "_": "types.LangPackString",
       "key": "WalletWrongSecretPhraseInfo",
       "value": "Kiritgan soʻzlaringiz hamyonga mos emas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Maxfiy jumlangiz"
     },
     {
       "_": "types.LangPackString",
@@ -17262,5 +17429,5 @@
       "other_value": "%1$d ta xabar"
     }
   ],
-  "version": 380482
+  "version": 385798
 }

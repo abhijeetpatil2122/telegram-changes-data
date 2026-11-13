@@ -1966,6 +1966,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.Error",
+      "value": "L'editor IA non è riuscito a riscrivere il messaggio, quindi non è stato inviato. [Invia come scritto]()"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.Label.Fix",
       "value": "Correzione ortografica"
     },
@@ -1991,6 +1996,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.PremiumFlood",
+      "value": "Hai raggiunto il limite dell'IA, quindi il messaggio non è stato inviato. [Invia come scritto]() o ottieni [Telegram Premium]() per aumentare il limite."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.Removed",
       "value": "I messaggi in questa chat saranno inviati come sono stati scritti."
     },
@@ -2008,6 +2018,11 @@
       "_": "types.LangPackString",
       "key": "AiEditor.ApplyOnSend.Stop",
       "value": "Interrompi riscrittura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AiEditor.ApplyOnSend.StyleMissing",
+      "value": "%1$s non è più disponibile, quindi il messaggio non è stato inviato e lo stile è disattivato. [Invia come scritto]()"
     },
     {
       "_": "types.LangPackString",
@@ -11594,6 +11609,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Experimental.Info",
+      "value": "Strumenti per il test e il debug. Possono rallentare Telegram o renderlo meno stabile, quindi modificali solo se sai bene a cosa servono."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Experimental.Interface",
       "value": "Interfaccia"
     },
@@ -15871,6 +15891,11 @@
       "_": "types.LangPackString",
       "key": "MediaEditor.TypeSomething",
       "value": "Scrivi qualcosa..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MediaEditor.VideoCoverFrame",
+      "value": "Copertina"
     },
     {
       "_": "types.LangPackString",
@@ -28824,6 +28849,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Keys.RestoreBackup",
+      "value": "Ripristina dal backup crittografato"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Keys.RestoreCaption",
       "value": "Inserisci la tua frase segreta per ripristinare l'accesso a questo wallet."
     },
@@ -28843,6 +28873,12 @@
       "key": "Wallet.Logout.Parked",
       "one_value": "Questo dispositivo contiene anche le chiavi di un altro wallet Gram. Se procedi, saranno eliminate e quel wallet potrà essere ripristinato solo se la sua frase segreta è stata annotata.",
       "other_value": "Questo dispositivo contiene anche le chiavi di altri %d wallet Gram. Se procedi, saranno eliminate e quei wallet potranno essere ripristinati solo se la loro frase segreta è stata annotata."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Logout.Rotating",
+      "one_value": "La modifica della chiave del wallet su questo dispositivo non è ancora stata confermata. La chiave sostitutiva è conservata solo qui e Telegram non ne possiede alcun backup. Se procedi, la chiave sarà eliminata: se la modifica viene confermata, solo la frase segreta sostitutiva potrà ripristinare il wallet.",
+      "other_value": "%d modifiche della chiave del wallet su questo dispositivo non sono ancora state confermate. Le chiavi sostitutive sono conservate solo qui e Telegram non ne possiede alcun backup. Se procedi, le chiavi saranno eliminate: se una modifica viene applicata, solo la sua frase segreta sostitutiva potrà ripristinare quel wallet."
     },
     {
       "_": "types.LangPackString",
@@ -29033,6 +29069,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Restore.Invalid",
       "value": "Queste parole non sono una frase segreta valida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Restore.Outdated",
+      "value": "Queste parole sono una vecchia frase segreta di questo wallet. Inserisci la nuova frase che hai ricevuto quando la chiave è stata aggiornata."
     },
     {
       "_": "types.LangPackString",
@@ -30395,5 +30436,5 @@
       "other_value": "%1$d messaggi"
     }
   ],
-  "version": 386028
+  "version": 386056
 }

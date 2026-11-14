@@ -534,7 +534,9 @@ var BotProfileWidget = {
         },
       ]
     }, (result) => {
-      if (result !== 'delete') return;
+      if (result !== 'delete') {
+        return;
+      }
       Aj.apiRequest('deleteProfileWidget', { bid: Aj.state.botId }, res => {
         if (res.error) {
           TWebApp.showErrorToast(res.error);

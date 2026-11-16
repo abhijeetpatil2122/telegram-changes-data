@@ -25649,6 +25649,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Försäljningar via Fragment kan endast köpas för eget bruk."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.PriceInvalid",
       "value": "Det här priset ligger utanför det tillåtna intervallet."
     },
@@ -25661,6 +25666,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.SaleActive",
       "value": "Den här gåvan finns fortfarande till försäljning. Vänta tills den tidigare transaktionen är slutförd och försök igen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "Försäljningar via Fragment är inte tillgängligt just nu."
     },
     {
       "_": "types.LangPackString",
@@ -25721,6 +25731,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Onchain.WalletCreating.Text",
       "value": "Din plånbok håller fortfarande på att skapas. Försök igen om en stund."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "Försäljningar via Fragment betalas och säljs från din Telegram plånbok."
     },
     {
       "_": "types.LangPackString",
@@ -37895,7 +37910,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.YouDisabledTheme",
-      "value": "Du inaktiverade chatt-temat"
+      "value": "Du tog bort chattemat"
     },
     {
       "_": "types.LangPackString",
@@ -40312,7 +40327,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.AutoLock",
-      "value": "Autolåsning"
+      "value": "Autolås"
     },
     {
       "_": "types.LangPackString",
@@ -46886,7 +46901,7 @@
     {
       "_": "types.LangPackString",
       "key": "QrStudio.Gifts.Browse",
-      "value": "Bläddra bland presenter"
+      "value": "Bläddra bland gåvor"
     },
     {
       "_": "types.LangPackString",
@@ -53592,9 +53607,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.ArchivePacksAlert.Text",
+      "one_value": "Du kan snabbt återställa den här uppsättningen senare från avsnittet ”Arkiverade Dekaler”.",
+      "other_value": "Du kan snabbt återställa de här uppsättningarna senare från avsnittet ”Arkiverade klistermärken”."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.ArchivePacksAlert.Title",
+      "one_value": "Arkivera dekalset?",
+      "other_value": "Arkivera %@ dekalset?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.ArchiveStickerPacksConfirmation",
       "one_value": "Arkivera %@ set",
       "other_value": "Arkivera %@ set"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeleteEmojiPacksAlert.Title",
+      "one_value": "Ta bort emojipaket?",
+      "other_value": "Ta bort %@ emojipaket?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -53604,9 +53637,33 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeletePacksAlert.Text",
+      "one_value": "Detta set kommer tas bort från din lista.",
+      "other_value": "Dessa set kommer tas bort från din lista."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeleteStickerPacksAlert.Title",
+      "one_value": "Ta bort dekalset?",
+      "other_value": "Ta bort %@ dekalset?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.DeleteStickerPacksConfirmation",
       "one_value": "Radera %@ Dekalset",
       "other_value": "Radera %@ Dekalset"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.UnarchivePacksAlert.Text",
+      "one_value": "Det här paketet läggs tillbaka på din lista.",
+      "other_value": "De här paketen läggs tillbaka på din lista."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.UnarchivePacksAlert.Title",
+      "one_value": "Avarkierva paket?",
+      "other_value": "Avarkivera %@ paket?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -64802,5 +64859,5 @@
       "value": "Du har angett en felaktig säkerhetskod."
     }
   ],
-  "version": 22606844
+  "version": 22625993
 }

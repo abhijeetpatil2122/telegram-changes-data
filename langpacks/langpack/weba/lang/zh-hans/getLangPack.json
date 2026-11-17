@@ -285,6 +285,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionGramTransferTicker",
+      "value": "Ton"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionGroupCallFinishedChannel",
       "value": "直播已终止 ({duration})"
     },
@@ -2086,7 +2091,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelEarnLearnOutAbout",
-      "value": "您可以随时领取您的 Gram。"
+      "value": "您可以随时领取您的 TON。"
     },
     {
       "_": "types.LangPackString",
@@ -3235,6 +3240,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CurrencyGram",
+      "value": "Ton"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CurrentPasswordPlaceholder",
       "value": "当前密码"
     },
@@ -3902,6 +3912,11 @@
       "_": "types.LangPackString",
       "key": "EnterPassword",
       "value": "请输入密码"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EnterPriceInGram",
+      "value": "输入 TON 价格"
     },
     {
       "_": "types.LangPackString",
@@ -4930,8 +4945,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramAmount",
+      "value": "💎{amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramAmountIconLast",
+      "value": "{amount}💎"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramAmountText",
+      "other_value": "{amount} TON"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarnings",
-      "value": "Gram 收入"
+      "value": "TON 收入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsText",
+      "value": "您通过礼物、\n广告及 Fragment 获得的 TON。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramGiftReceived",
+      "value": "充值 TON"
     },
     {
       "_": "types.LangPackString",
@@ -5297,6 +5337,11 @@
       "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "限制用户权限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LabelPayInGram",
+      "value": "以 TON 付款"
     },
     {
       "_": "types.LangPackString",
@@ -6045,6 +6090,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MonetizationInfoGramTitle",
+      "value": "什么是 💎 TON？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MonetizationProceedsTONInfo",
       "value": "总余额中的 Gram 可在获得 3 天后用于广告或提取奖励，每次提取金额不得少于 10 Gram。"
     },
@@ -6487,6 +6537,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "OnlineCount",
       "other_value": "{count} 人在线"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "OnlyAcceptGram",
+      "value": "仅接受 TON"
     },
     {
       "_": "types.LangPackString",
@@ -7437,6 +7492,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "PreviewForwardedMessage",
       "other_value": "{count} 条转发的消息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PriceInGram",
+      "value": "以 TON 报价"
     },
     {
       "_": "types.LangPackString",
@@ -9951,7 +10011,7 @@
     {
       "_": "types.LangPackString",
       "key": "TranslateSettingsAbout",
-      "value": "当你打开文本的菜单时，便会出现 '翻译' 按钮。"
+      "value": "“翻译” 按钮位于消息文本的上下文菜单中。"
     },
     {
       "_": "types.LangPackString",
@@ -10721,7 +10781,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletAlsoHaveEarnings",
-      "value": "您的 Gram 收益中还有 {amount}"
+      "value": "您的 TON 收益中还有 {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -10790,6 +10850,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletCurrencyTicker",
+      "value": "TON"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDeleteAnyway",
       "value": "仍然删除"
     },
@@ -10836,7 +10901,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletFeatureInstantText",
-      "value": "在任何聊天中发送 Gram，就像分享照片一样简单。"
+      "value": "在任何聊天中发送 TON，就像分享照片一样简单。"
     },
     {
       "_": "types.LangPackString",
@@ -10881,7 +10946,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletIntroTitle",
-      "value": "您的第一笔 Gram！"
+      "value": "您的第一笔 TON！"
     },
     {
       "_": "types.LangPackString",
@@ -10931,12 +10996,12 @@
     {
       "_": "types.LangPackString",
       "key": "WalletReceiveNetworkNote",
-      "value": "分享您的地址或此二维码以接收 GRAM。"
+      "value": "分享您的地址或此二维码以接收 TON。"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletRecipientGramWallet",
-      "value": "Gram 钱包"
+      "value": "TON 钱包"
     },
     {
       "_": "types.LangPackString",
@@ -10980,8 +11045,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletSendSuccess",
+      "value": "已发送 TON"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendSuccessGasless",
+      "value": "TON 已转出, 未收手续费。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSendTitle",
-      "value": "发送 Gram"
+      "value": "发送 TON"
     },
     {
       "_": "types.LangPackString",
@@ -11136,7 +11211,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletWhatIsGram",
-      "value": "什么是 Gram?"
+      "value": "什么是 TON?"
     },
     {
       "_": "types.LangPackString",
@@ -11269,5 +11344,5 @@
       "value": "您的姓名"
     }
   ],
-  "version": 397313
+  "version": 399159
 }

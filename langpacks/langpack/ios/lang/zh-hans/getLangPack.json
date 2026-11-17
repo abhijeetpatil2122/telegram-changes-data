@@ -3431,7 +3431,7 @@
     {
       "_": "types.LangPackString",
       "key": "BalanceNeeded.FragmentTitle",
-      "value": "需要 %@ Gram "
+      "value": "需要 %@ TON "
     },
     {
       "_": "types.LangPackString",
@@ -8520,6 +8520,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Continue",
+      "value": "继续"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Title",
+      "value": "设为私人频道？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivatePublicLinkAlert",
       "value": "请注意：若您选择给您的频道创建一条公开链接，任何人都能找到您的频道并关注。\n\n如果您想保持频道的私密性，请不要创建此链接。"
     },
@@ -10285,6 +10295,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "无法改写该消息，因此尚未发送。点击 “发送” 可直接发送原内容。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "您已达到 AI 使用限额，消息未发送。点击 “发送” 可直接发送原内容。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "这条消息对 AI 来说太长了，因此未能发送。轻触 “发送” 可直接发送原文。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "抱歉，您不能一次选中多个项目。"
     },
@@ -10772,6 +10797,16 @@
       "_": "types.LangPackString",
       "key": "Chat.DeleteReactionInfo",
       "value": "点击并按住即可删除回应。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ConvertToText",
+      "value": "转换为文本"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "您目前已达到 AI 使用限额。请稍后再试。"
     },
     {
       "_": "types.LangPackString",
@@ -12301,7 +12336,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Chat.PostApproval.DetailStatus.TonAmount",
-      "other_value": "# Gram"
+      "other_value": "# Ton"
     },
     {
       "_": "types.LangPackString",
@@ -12626,7 +12661,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.OfferDescriptionTon",
-      "value": "选择要报价 %@ 多少 Gram 来发布此贴文。"
+      "value": "选择要报价 %@ 多少 TON 来发布此贴文。"
     },
     {
       "_": "types.LangPackString",
@@ -12636,7 +12671,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.OfferTon",
-      "value": "Gram 报价"
+      "value": "TON 报价"
     },
     {
       "_": "types.LangPackString",
@@ -12651,7 +12686,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.PriceSectionTon",
-      "value": "输入 Gram 价格"
+      "value": "输入 TON 价格"
     },
     {
       "_": "types.LangPackString",
@@ -12661,7 +12696,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.RequestDescriptionTon",
-      "value": "选择为消息收取多少 Gram 。"
+      "value": "选择为消息收取多少 TON。"
     },
     {
       "_": "types.LangPackString",
@@ -12671,7 +12706,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.PostSuggestion.Suggest.RequestTon",
-      "value": "用 Gram 请求"
+      "value": "用 TON 请求"
     },
     {
       "_": "types.LangPackString",
@@ -14215,6 +14250,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Text",
+      "other_value": "这些聊天将从您的聊天列表中移除。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "ChatList.DeleteConfirmation",
       "other_value": "删除 %@ 个聊天"
     },
@@ -15217,6 +15257,16 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "开启通知"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "仅显示未读聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "显示所有聊天"
     },
     {
       "_": "types.LangPackString",
@@ -20000,6 +20050,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumberConfirmation.Action",
+      "value": "分享"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.SilentBroadcastTooltipOff",
       "value": "消息发布后订阅者会收到无声通知。"
     },
@@ -21481,7 +21536,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Currency.Grams",
-      "other_value": "%@ Gram"
+      "other_value": "%@ TON"
     },
     {
       "_": "types.LangPackString",
@@ -24551,12 +24606,12 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Gift.Buy.Confirm.BuyForGrams",
-      "other_value": "以 %@ Gram 购买"
+      "other_value": "以 %@ TON 购买"
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Buy.Confirm.BuyForTon",
-      "value": "以 %@ Gram 购买"
+      "value": "以 %@ TON 购买"
     },
     {
       "_": "types.LangPackString",
@@ -24616,7 +24671,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Buy.PayInTon",
-      "value": "以 Gram 付款"
+      "value": "用 TON 支付"
     },
     {
       "_": "types.LangPackString",
@@ -25071,7 +25126,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Offer.OfferTon",
-      "value": "Gram 报价"
+      "value": "TON 报价"
     },
     {
       "_": "types.LangPackString",
@@ -25081,7 +25136,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Offer.PriceDescriptionTon",
-      "value": "输入您想为 **%@** 出价的 Gram 数量。"
+      "value": "输入您想为 **%@** 出价的 TON 数量。"
     },
     {
       "_": "types.LangPackString",
@@ -25096,7 +25151,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Offer.PriceSectionTon",
-      "value": "Gram 报价"
+      "value": "TON 报价"
     },
     {
       "_": "types.LangPackString",
@@ -25311,12 +25366,12 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "Gift.Sell.Confirm.ListForGrams",
-      "other_value": "以 %@ Gram 上架"
+      "other_value": "以 %@ TON 上架"
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Sell.Confirm.ListForTon",
-      "value": "以 %@ Gram 上架"
+      "value": "以 %@ TON 上架"
     },
     {
       "_": "types.LangPackString",
@@ -25551,7 +25606,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Store.Balance.MyTon",
-      "value": "我的 Gram"
+      "value": "我的 TON"
     },
     {
       "_": "types.LangPackString",
@@ -25592,6 +25647,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Symbol",
       "value": "符号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Ton",
+      "value": "以 TON 计价"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -25777,6 +25837,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "操作已锁定"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "下架该礼物以解锁这项操作。"
     },
     {
       "_": "types.LangPackString",
@@ -27217,6 +27282,11 @@
       "_": "types.LangPackString",
       "key": "Group.DeleteGroup",
       "value": "删除群组"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Title",
+      "value": "设为私人群组?"
     },
     {
       "_": "types.LangPackString",
@@ -31676,7 +31746,7 @@
     {
       "_": "types.LangPackString",
       "key": "MESSAGE_WALLET_TONCONNECT_REQUEST",
-      "value": "您有一个 Gram Connect 请求"
+      "value": "您有一个 TON Connect 请求"
     },
     {
       "_": "types.LangPackString",
@@ -33636,12 +33706,12 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Intro.Info.Title",
-      "value": "什么是 #Gram？"
+      "value": "什么是 #TON？"
     },
     {
       "_": "types.LangPackString",
       "key": "Monetization.Intro.Split.Text",
-      "value": "您将以 Gram 收到 50% 的广告收入分成。"
+      "value": "你将以 TON 收到 50% 的广告收入分成。"
     },
     {
       "_": "types.LangPackString",
@@ -33661,7 +33731,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Intro.Withdrawal.Text",
-      "value": "您可以随时领取您的 Gram。"
+      "value": "您可以随时领取您的 TON。"
     },
     {
       "_": "types.LangPackString",
@@ -33756,12 +33826,12 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TonBalanceTitle",
-      "value": "Gram 余额"
+      "value": "TON 余额"
     },
     {
       "_": "types.LangPackString",
       "key": "Monetization.TonTransactions",
-      "value": "Gram 交易"
+      "value": "TON 交易"
     },
     {
       "_": "types.LangPackString",
@@ -33831,7 +33901,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Withdraw.AmountTooSmallError",
-      "value": "提现金额不得少于 10 Gram。"
+      "value": "提现金额不得少于 10 TON。"
     },
     {
       "_": "types.LangPackString",
@@ -36185,6 +36255,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Withdraw",
+      "value": "提现"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarsGift.Assigned",
       "value": "您已将 %@ 添加至您的个人资料页。"
     },
@@ -36586,12 +36661,12 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.Ton.Subtitle",
-      "value": "使用 Gram 购买礼物及向频道提交帖子建议。"
+      "value": "使用 TON 向频道提交帖子建议。"
     },
     {
       "_": "types.LangPackString",
       "key": "Notification.Ton.SubtitleYou",
-      "value": "通过 Gram，%@ 可以向频道提交贴文推荐。"
+      "value": "通过TON，%@ 可以向频道提交贴文推荐。"
     },
     {
       "_": "types.LangPackString",
@@ -40811,7 +40886,7 @@
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.BotBalance.Ton",
-      "value": "Gram"
+      "value": "Ton"
     },
     {
       "_": "types.LangPackString",
@@ -48321,7 +48396,7 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.MyTon",
-      "value": "Gram 收益"
+      "value": "我的 TON"
     },
     {
       "_": "types.LangPackString",
@@ -48691,17 +48766,17 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.Ton.Description",
-      "value": "使用 Gram 购买礼物及向频道提交帖子建议。"
+      "value": "通过 TON 向 Telegram 上的频道提交贴文推荐。"
     },
     {
       "_": "types.LangPackString",
       "key": "Settings.TransactionsTon.Subtitle",
-      "value": "使用 Gram 购买礼物及向频道提交帖子建议。"
+      "value": "使用 TON 购买礼物及向频道提交帖子建议。"
     },
     {
       "_": "types.LangPackString",
       "key": "Settings.TransactionsTon.Title",
-      "value": "Gram"
+      "value": "Ton"
     },
     {
       "_": "types.LangPackString",
@@ -50071,7 +50146,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Gift.Ton.Text",
-      "value": "使用 Gram 购买礼物及向频道提交帖子建议。"
+      "value": "使用 TON 在 Telegram 上向频道提交帖子建议。"
     },
     {
       "_": "types.LangPackString",
@@ -50631,7 +50706,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.SellGift.OnlyTon",
-      "value": "只接受以 Gram 付款"
+      "value": "只接受以 TON 付款"
     },
     {
       "_": "types.LangPackString",
@@ -50656,7 +50731,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.SellGift.TonAmountTitle",
-      "value": "以 Gram 报价"
+      "value": "以 TON 报价"
     },
     {
       "_": "types.LangPackString",
@@ -50741,12 +50816,12 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Ton.Description",
-      "value": "使用 Gram 购买礼物及向频道提交帖子建议。"
+      "value": "使用 TON 在 Telegram 上向频道提交帖子建议。"
     },
     {
       "_": "types.LangPackString",
       "key": "Stars.Ton.Title",
-      "value": "Gram"
+      "value": "Ton"
     },
     {
       "_": "types.LangPackString",
@@ -50781,7 +50856,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Transaction.FragmentTopUpTon.Title",
-      "value": "充值 Gram"
+      "value": "充值 TON"
     },
     {
       "_": "types.LangPackString",
@@ -50801,7 +50876,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Transaction.FragmentWithdrawalTon.Title",
-      "value": "提取 Gram"
+      "value": "提取 TON "
     },
     {
       "_": "types.LangPackString",
@@ -51941,7 +52016,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stats.RevenueInTon",
-      "value": "收入（以 Gram 计算）"
+      "value": "收入（以 TON 计算）"
     },
     {
       "_": "types.LangPackString",
@@ -51981,7 +52056,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stats.TonBotRevenue.Title",
-      "value": "Gram 余额"
+      "value": "Ton 余额"
     },
     {
       "_": "types.LangPackString",
@@ -54997,6 +55072,31 @@
       "_": "types.LangPackString",
       "key": "TextProcessing.AlertTooManyStyles.Title",
       "value": "过多风格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUse",
+      "value": "在此聊天中始终使用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummary",
+      "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryEmoji",
+      "value": "表情符号"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryStyledLanguage",
+      "value": "%1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryWithEmoji",
+      "value": "%@ + 表情符号"
     },
     {
       "_": "types.LangPackString",
@@ -58860,6 +58960,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.GoToBottom",
+      "value": "转到底部"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.GoToOriginalMessage",
       "value": "跳转到消息"
     },
@@ -58892,6 +58997,26 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Chat.MusicTitle",
       "value": "%1$@ ，%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NextMention",
+      "value": "下一个提及"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NextPollVote",
+      "value": "前往下一个未读投票"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NextReaction",
+      "value": "下一个回应"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NextResult",
+      "value": "下一个结果"
     },
     {
       "_": "types.LangPackString",
@@ -58967,6 +59092,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "VoiceOver.Chat.PollVotes",
       "other_value": "%@ 人投票"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.PreviousResult",
+      "value": "上一个结果"
     },
     {
       "_": "types.LangPackString",
@@ -59225,6 +59355,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Common.MoveDown",
+      "value": "向下移动"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Common.NoColor",
       "value": "没有颜色"
     },
@@ -59257,6 +59392,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Verified",
       "value": "已验证"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.DatePicker.Date",
+      "value": "日期"
     },
     {
       "_": "types.LangPackString",
@@ -59312,6 +59452,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Keyboard",
       "value": "键盘"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Map.ShowMyLocation",
+      "value": "显示我的位置"
     },
     {
       "_": "types.LangPackString",
@@ -59816,7 +59961,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Backup.InsufficientFundsTitle",
-      "value": "Gram 不足"
+      "value": "TON 不足"
     },
     {
       "_": "types.LangPackString",
@@ -59971,7 +60116,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.EarningsBalance",
-      "value": "您的 Gram 收益中还有 %@"
+      "value": "您的 TON 收益中还有 %@"
     },
     {
       "_": "types.LangPackString",
@@ -60156,12 +60301,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsTitle",
-      "value": "您的第一笔 Gram！"
+      "value": "您的第一笔 TON！"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.GramRateText",
-      "value": "TON 区块链的原生货币。1 Gram 目前等于 **%@**。"
+      "value": "TON 区块链的原生货币。1 TON 目前等于 %@。"
     },
     {
       "_": "types.LangPackString",
@@ -60171,12 +60316,12 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.GramTitle",
-      "value": "Gram"
+      "value": "TON"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.InstantTransfersText",
-      "value": "在任何聊天中发送 Gram，就像\n分享照片一样简单。"
+      "value": "在任何聊天中发送 TON，就像\n分享照片一样简单。"
     },
     {
       "_": "types.LangPackString",
@@ -60231,7 +60376,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Info.TradeText",
-      "value": "在交易所将 Gram 兑换成现金或加密货币。"
+      "value": "在交易所将 TON 兑换成现金或加密货币。"
     },
     {
       "_": "types.LangPackString",
@@ -60336,7 +60481,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Receive.PeerText",
-      "value": "向此地址发送 Gram，\n或扫描此二维码。"
+      "value": "向此地址发送 TON，\n或扫描此二维码。"
     },
     {
       "_": "types.LangPackString",
@@ -60366,7 +60511,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Receive.Text",
-      "value": "分享您的地址或此\n二维码以接收 GRAM。"
+      "value": "分享您的地址或此\n二维码以接收 TON。"
     },
     {
       "_": "types.LangPackString",
@@ -60501,7 +60646,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
-      "value": "Gram"
+      "value": "TON"
     },
     {
       "_": "types.LangPackString",
@@ -60860,6 +61005,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "TON Connect 响应正在等待网络传送。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "此应用已使用其他连接请求。请从该应用重新连接。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "此 TON 连接请求已过期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "该请求已在另一台设备上处理。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "钱包余额不足，无法发送此笔交易。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "此 TON Connect 链接无效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "无法加载此应用的有效清单。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "此连接属于另一个钱包密钥。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "此操作可能已被签名或发送，将不会再次签名。请查看钱包历史记录。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "这项 TON Connect 请求已不再可用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "此应用请求连接到其他钱包网络。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "地址"
     },
@@ -60887,6 +61087,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleGift",
       "value": "典藏品礼物"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "以 %@ 上架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "价格调整为 %@"
     },
     {
       "_": "types.LangPackString",
@@ -61076,7 +61286,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.WhatIsGram",
-      "value": "什么是 Gram?"
+      "value": "什么是 TON?"
     },
     {
       "_": "types.LangPackString",
@@ -61186,7 +61396,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transfer.Success",
-      "value": "Gram 已发送至 **%@**。"
+      "value": "TON 已发送至 **%@**。"
     },
     {
       "_": "types.LangPackString",
@@ -63009,5 +63219,5 @@
       "value": "您输入的安全码无效。"
     }
   ],
-  "version": 22597861
+  "version": 22627961
 }

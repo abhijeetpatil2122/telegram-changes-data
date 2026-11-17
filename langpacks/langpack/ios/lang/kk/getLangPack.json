@@ -835,6 +835,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Модель қосу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Бастау"
     },
@@ -852,6 +857,26 @@
       "_": "types.LangPackString",
       "key": "Agent.Effort",
       "value": "Күш деңгейі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Сарапшы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Жылдам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Орташа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ультра"
     },
     {
       "_": "types.LangPackString",
@@ -902,6 +927,11 @@
       "_": "types.LangPackString",
       "key": "Agent.Models.NotFound",
       "value": "Модель табылмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.Search",
+      "value": "Модель іздеу"
     },
     {
       "_": "types.LangPackString",
@@ -10426,6 +10456,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "Хатты қайта жазылмады, сондықтан ол жіберілмеді. Сол күйінде жіберу үшін жіберуді басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "ЖИ шегіне жеттіңіз, сондықтан хат жіберілмеді. Сол күйінде жіберу үшін жіберуді басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "Хат ЖИ үшін тым ұзын, сондықтан ол жіберілмеді. Сол күйінде жіберу үшін жіберуді басыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Сіз бір мезетте бұдан артық таңдай алмайсыз."
     },
@@ -10937,13 +10982,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "Мәтін жақсартылмады. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "ЖИ шегіне жеттіңіз. Кейінірек қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "Жақсарту үшін мәтін тым ұзын."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.Enhancing",
       "value": "Жақсартылуда…"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Сөйлеу танылмады. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "Айтып жаздыру үшін баптаудан Telegram үшін сөйлеуді тануға рұқсат беріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Dictation.ErrorUnavailable",
       "value": "Айтып жаздыру қазіргі енгізу тіліңіз үшін қолжетімсіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "Айтып жаздыру әзірге %@ тілін қолдамайды."
     },
     {
       "_": "types.LangPackString",
@@ -15505,6 +15580,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Үнмен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "тек жаңа чаттар көрсетілген"
     },
     {
       "_": "types.LangPackString",
@@ -25614,6 +25694,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DepositFunds",
+      "value": "Толтыру >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Иесі ұсынысыңызды қанша уақытта қабылдайтынын таңдаңыз. Мерзімі өткен кезде Gram-дарыңыз автоматты түрде қайтарылады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Error.AlreadyActive",
       "value": "Сізде бұл сыйлық үшін белсенді ұсыныс бар. Жаңасын жасау үшін оны Telegram-дағы чатыңызда қайтарып алыңыз."
     },
@@ -25631,6 +25721,21 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Error.OnSale",
       "value": "Бұл сыйлық сатылымға қойылған. Ұсынысты қабылдау үшін алдымен оны сатылымнан алып тастаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.InsufficientFunds",
+      "value": "Қаражат жеткіліксіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.MinAmountToast",
+      "value": "%@ жұлдыздан кем ұсына алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.PriceDescription",
+      "value": "**%@** үшін ұсынатын Gram санын енгізіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -25661,6 +25766,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Title",
       "value": "Сатылымды растау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Text",
+      "value": "%1$@ %2$@ дейін сақталады."
     },
     {
       "_": "types.LangPackString",
@@ -36068,6 +36178,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "%@ алдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "%1$@ (%2$@) алдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransferUnknown",
       "value": "Біреу сізге %@ жіберді"
     },
@@ -42387,6 +42507,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.GroupAboutItem",
       "value": "ақпар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.GroupsInCommon.CreateGroup",
+      "value": "%@ бірге топ құру"
     },
     {
       "_": "types.LangPackString",
@@ -60659,6 +60784,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackOrder",
+      "value": "Рет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Media.PlaybackOrderRegular",
+      "value": "Ретпен"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Media.PlaybackOrderReversed",
       "value": "Кері ретпен"
     },
@@ -62345,8 +62480,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedFromProfile",
+      "value": "Бейіннен ауыстырылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedToProfile",
+      "value": "Бейінге ауыстырылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferAccepted",
+      "value": "Ұсыныс қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferCancelled",
+      "value": "Ұсыныс бас тартылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferDeclined",
+      "value": "Ұсыныс қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferExpired",
+      "value": "Ұсыныстың мерзімі өтті"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleOfferSent",
       "value": "Ұсыныс жіберілді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePurchased",
+      "value": "Сатып алынды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Сатылмға шығару"
     },
     {
       "_": "types.LangPackString",
@@ -62355,8 +62530,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleReceived",
+      "value": "Алынды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Сатылымнан алынды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRepriced",
       "value": "Баға %@ өзгерді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSent",
+      "value": "Жіберілді"
     },
     {
       "_": "types.LangPackString",
@@ -62456,6 +62646,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFee",
+      "value": "Желі комиссиясы"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "Әрбір аударым үшін шағын желі комиссиясы алынады%1$@.\n\nTelegram күн сайын алғашқы %2$@ қамтиды."
     },
@@ -62463,6 +62658,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Желі комиссиясы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferBuyer",
+      "value": "Сатып алушы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferCancellationFee",
+      "value": "Бас тарту ақысы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferExpiration",
+      "value": "Мерзімі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPlatformFee",
+      "value": "Платформа ақысы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPrice",
+      "value": "Баға"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferSeller",
+      "value": "Сатушы"
     },
     {
       "_": "types.LangPackString",
@@ -64489,5 +64714,5 @@
       "value": "Қауіпсіздік кодын қате енгіздіңіз."
     }
   ],
-  "version": 22626592
+  "version": 22630389
 }

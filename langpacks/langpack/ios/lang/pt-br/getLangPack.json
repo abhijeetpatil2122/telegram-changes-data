@@ -835,6 +835,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Conectar Modelo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Iniciar"
     },
@@ -852,6 +857,26 @@
       "_": "types.LangPackString",
       "key": "Agent.Effort",
       "value": "Esforço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Expert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Rápido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Médio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ultra"
     },
     {
       "_": "types.LangPackString",
@@ -897,6 +922,16 @@
       "_": "types.LangPackString",
       "key": "Agent.Key.Title",
       "value": "Chave de API"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.NotFound",
+      "value": "Nenhum modelo encontrado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.Search",
+      "value": "Buscar Modelos"
     },
     {
       "_": "types.LangPackString",
@@ -1102,6 +1137,16 @@
       "_": "types.LangPackString",
       "key": "Appearance.RemoveTheme",
       "value": "Remover"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.RemoveThemeAlert.Text",
+      "value": "Deseja realmente remover este tema?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.RemoveThemeAlert.Title",
+      "value": "Remover Tema?"
     },
     {
       "_": "types.LangPackString",
@@ -8597,6 +8642,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Continue",
+      "value": "Continuar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Text",
+      "value": "O link público do seu canal t.me/%@ será removido e esse nome de usuário ficará disponível para qualquer pessoa. Continuar?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Title",
+      "value": "Tornar o Canal Privado?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivatePublicLinkAlert",
       "value": "Note que ao escolher um link público para o canal qualquer um poderá encontrá-lo na busca e entrar.\n\nNão crie esse link se você deseja que seu canal seja privado."
     },
@@ -9034,6 +9094,21 @@
       "_": "types.LangPackString",
       "key": "Channel.Moderator.AccessLevelRevoke",
       "value": "Dispensar Admin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Action",
+      "value": "Dispensar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Text",
+      "value": "Este admin perderá todos os direitos de admin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.Moderator.DismissAlert.Title",
+      "value": "Dispensar Admin?"
     },
     {
       "_": "types.LangPackString",
@@ -10141,7 +10216,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelReactions.GeneralInfoLabel",
-      "value": "Você pode adicionar um emoji de qualquer pacote como reações."
+      "value": "Você pode adicionar um emojis de qualquer pacote como reações."
     },
     {
       "_": "types.LangPackString",
@@ -10378,6 +10453,21 @@
       "_": "types.LangPackString",
       "key": "Chat.AdminActionSheet.RestrictSingle",
       "value": "Restringir %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "Erro ao reescrever a mensagem, por isso ela não foi enviada. Toque em Enviar para enviar como está."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Você atingiu o limite da IA, então a mensagem não foi enviada. Toque em Enviar para enviar como está."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "A mensagem é muito longa para a IA, por isso não foi enviada. Toque em Enviar para enviar como está."
     },
     {
       "_": "types.LangPackString",
@@ -10874,6 +10964,76 @@
       "_": "types.LangPackString",
       "key": "Chat.DeleteReactionInfo",
       "value": "Segure para apagar a reação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.AllStyles",
+      "value": "Todos os Estilos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ConvertToText",
+      "value": "Converter em Texto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhance",
+      "value": "Melhorar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "Erro ao melhorar o texto. Tente de novo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "Você atingiu o limite da IA. Tente de novo mais tarde."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "O texto é muito longo para melhorar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhancing",
+      "value": "Melhorando…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Erro ao reconhecer a fala. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "Permita o Reconhecimento de Fala nas Configurações para poder ditar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnavailable",
+      "value": "O ditado não está disponível para este idioma no momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "O ditado ainda não suporta %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Hint",
+      "value": "Deslize para converter texto em fala"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Listening",
+      "value": "Ouvindo…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Stop",
+      "value": "Parar o Ditado"
     },
     {
       "_": "types.LangPackString",
@@ -14352,6 +14512,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.ContextShowUnread",
+      "value": "Mostrar Não Lidos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.ContextUnmuteAll",
       "value": "Restaurar Som de Todos"
     },
@@ -14369,6 +14534,18 @@
       "_": "types.LangPackString",
       "key": "ChatList.DeleteChatConfirmation",
       "value": "Apagar permanentemente o chat com %@?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Text",
+      "one_value": "Este chat será removido da sua lista de chats.",
+      "other_value": "Estes chats serão removidos da sua lista de chats."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteChatsAlert.Title",
+      "one_value": "Apagar Chat?",
+      "other_value": "Apagar %@ Chats?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -14491,6 +14668,18 @@
       "_": "types.LangPackString",
       "key": "ChatList.DeleteTopicConfirmationText",
       "value": "Isto irá apagar o tópico e todas as mensagens dele"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteTopicsAlert.Text",
+      "one_value": "Isso apagará o tópico e todas as suas mensagens.",
+      "other_value": "Isso apagará os tópicos e todas as suas mensagens."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ChatList.DeleteTopicsAlert.Title",
+      "one_value": "Apagar Tópico?",
+      "other_value": "Apagar %@ Tópicos?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -15391,6 +15580,16 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Ativar Som"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "apenas chats não lidos mostrados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "Mostrar Todos os Chats"
     },
     {
       "_": "types.LangPackString",
@@ -17571,6 +17770,18 @@
       "_": "types.LangPackString",
       "key": "ContactList.Context.VideoCall",
       "value": "Videochamada"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ContactList.DeleteAlert.Text",
+      "one_value": "Este contato será removido da sua lista de contatos.",
+      "other_value": "Esses contatos serão removidos da sua lista de contatos."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "ContactList.DeleteAlert.Title",
+      "one_value": "Apagar Contato?",
+      "other_value": "Apagar %@ Contatos?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -20205,6 +20416,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.ShareMyPhoneNumberConfirmation",
       "value": "Deseja compartilhar o seu número de telefone %1$@ com %2$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumberConfirmation.Action",
+      "value": "Compartilhar"
     },
     {
       "_": "types.LangPackString",
@@ -25408,13 +25624,293 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "Compra enviada. **%@** aparecerá na sua carteira assim que a rede confirmar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "Seu presente foi retirado da venda, mas a rede ainda não confirmou. Defina o novo preço assim que for confirmado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "Este presente não está mais à venda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "Este presente ainda não está na blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Este presente não está na sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Listagens no Fragment só podem ser compradas para você."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Este preço está fora da faixa permitida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Seu presente foi removido da venda, mas não foi possível listá-lo com o novo preço: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Este presente ainda está listado. Aguarde a conclusão da transação anterior e tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleDisabled",
+      "value": "As listagens do Fragment estão indisponíveis no momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "Presente não listado para venda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "Você não pode comprar sua própria listagem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.InsufficientBalance.Text",
+      "value": "Não há Grams suficientes na sua carteira. Isso requer **%@** incluindo taxas da rede."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "**%@** será colocado à venda assim que a rede confirmar."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Abrir Meu Dinheiro"
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "**%@** será removido da venda assim que a rede confirmar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "Seus ganhos em Gram estão a caminho da sua carteira. Compre o presente assim que eles chegarem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Proceed",
+      "value": "Continuar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "**%@** serão movidos dos Ganhos em Gram para o seu saldo e usados para comprar este presente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Title",
+      "value": "Usar Ganhos em Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "Sua carteira não pode assinar transações neste dispositivo. Abra a carteira para restaurar o acesso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCreating.Text",
+      "value": "Sua carteira ainda está sendo criada. Tente novamente em alguns instantes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletRequired.Text",
+      "value": "As listagens do Fragment são pagas e vendidas através da sua carteira no Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Confirm",
+      "value": "Confirmar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Expires",
+      "value": "A oferta expira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.PlatformFee",
+      "value": "Taxa da plataforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "Se o vendedor recusar sua oferta ou ela expirar, **%@** serão automaticamente devolvidos a você."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Text",
+      "value": "Deseja realmente oferecer **%1$@** por **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Title",
+      "value": "Confirmar Oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouPay",
+      "value": "Você paga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouReceive",
+      "value": "Você recebe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YourOffer",
+      "value": "Sua oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Action",
+      "value": "Recusar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Text",
+      "value": "**%@** do comprador serão devolvidos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Decline.Title",
+      "value": "Recusar Oferta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DepositFunds",
+      "value": "Depositar fundos >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Escolha quanto tempo o dono tem para aceitar sua oferta. Quando expirar, seus Grams serão automaticamente reembolsados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.AlreadyActive",
+      "value": "Você já tem uma oferta ativa para este presente. Retire-o no seu chat com o Telegram para fazer uma nova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.InProgress",
+      "value": "Sua oferta anterior para este presente ainda está sendo processada. Tente de novo em um minuto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.NotOwner",
+      "value": "Este presente não está mais na sua carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Error.OnSale",
+      "value": "Este presente está à venda. Remova-o da venda primeiro para aceitar a oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.InsufficientFunds",
+      "value": "Fundos insuficientes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.MinAmountToast",
+      "value": "Você não pode oferecer menos de %@ por este presente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.PriceDescription",
+      "value": "Insira o número de Grams que você gostaria de oferecer por **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Decline",
+      "value": "Recusar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Price",
+      "value": "Preço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sell",
+      "value": "Vender"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent",
+      "value": "Venda enviada. Você receberá **%@** assim que for confirmado no blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Text",
+      "value": "Vender **%1$@** por **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Title",
+      "value": "Confirmar Venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Text",
+      "value": "%1$@ bloqueado até %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Title",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Action",
+      "value": "Retirar por %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.ActionFree",
+      "value": "Retirar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Sent",
+      "value": "Retirada enviada. Seus Grams serão devolvidas assim que for confirmada no blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Text",
+      "value": "A retirada antecipada custa **%1$@**.\n\n**%2$@** serão devolvidos a você."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.TextFree",
       "value": "**%@** serão devolvidos a você."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Withdraw.Title",
+      "value": "Retirar Oferta?"
     },
     {
       "_": "types.LangPackString",
@@ -25897,6 +26393,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.FixedSale",
+      "value": "Vendas na Blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Fragment",
+      "value": "Do Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Model",
       "value": "Modelo"
     },
@@ -25920,8 +26426,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Stars",
+      "value": "Por Estrelas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Symbol",
       "value": "Símbolo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.Ton",
+      "value": "Por Grams"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26111,6 +26627,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "Ação Bloqueada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "Remova este presente da venda para desbloquear esta ação."
     },
     {
       "_": "types.LangPackString",
@@ -27567,6 +28088,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Continue",
+      "value": "Continuar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Text",
+      "value": "O link público do seu grupo t.me/%@ será removido e esse nome de usuário ficará disponível para qualquer pessoa. Continuar?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Title",
+      "value": "Tornar o Grupo Privado?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Group.Edit.PrivatePublicLinkAlert",
       "value": "Saiba que se você escolher um link público para o seu grupo, qualquer pessoa poderá encontrá-lo na busca e participar.\n\nNão crie o link se quiser que seu grupo permaneça privado."
     },
@@ -28840,6 +29376,16 @@
       "_": "types.LangPackString",
       "key": "GroupPermission.Delete",
       "value": "Apagar Exceção"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupPermission.DeleteAlert.Text",
+      "value": "As permissões deste usuário serão redefinidas para os padrões do grupo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GroupPermission.DeleteAlert.Title",
+      "value": "Apagar Exceção?"
     },
     {
       "_": "types.LangPackString",
@@ -35757,6 +36303,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "Você recebeu %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "Você recebeu %1$@ (%2$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.GramTransferUnknown",
       "value": "Alguém te enviou %@"
     },
@@ -36662,6 +37218,81 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOffer.Status.Rejected",
       "value": "Esta oferta foi rejeitada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOffer",
+      "value": "Ofereceram-lhe %1$@ por %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOfferYou",
+      "value": "Você ofereceu %1$@ por %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Offer",
+      "value": "Ofereceram-lhe **%1$@** (%2$@) por **%3$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferNoValue",
+      "value": "Ofereceram-lhe **%1$@** por **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferYou",
+      "value": "Você ofereceu **%1$@** por **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Review",
+      "value": "Revisar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Sold",
+      "value": "VENDIDO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Accepted",
+      "value": "A oferta foi aceita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Cancelling",
+      "value": "A oferta está sendo cancelada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Declined",
+      "value": "A oferta foi recusada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expired",
+      "value": "A oferta expirou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expires",
+      "value": "A oferta expira em"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "A venda está sendo concluída."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Withdrawn",
+      "value": "A oferta foi retirada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Withdraw",
+      "value": "Retirar"
     },
     {
       "_": "types.LangPackString",
@@ -39772,7 +40403,7 @@
     {
       "_": "types.LangPackString",
       "key": "PasscodeSettings.LockWallet",
-      "value": "Bloquear Carteira"
+      "value": "Bloquear Dinheiro"
     },
     {
       "_": "types.LangPackString",
@@ -42001,6 +42632,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.GroupAboutItem",
       "value": "sobre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.GroupsInCommon.CreateGroup",
+      "value": "Criar Grupo com %@"
     },
     {
       "_": "types.LangPackString",
@@ -46462,6 +47098,26 @@
       "key": "QuickReply.DeleteAction",
       "one_value": "Apagar 1 Resposta Rápida",
       "other_value": "Apagar %d Respostas Rápidas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextMultiple",
+      "value": "Essas respostas rápidas e todas as suas mensagens serão apagadas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TextSingle",
+      "value": "Esta resposta rápida e todas as suas mensagens serão apagadas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TitleMultiple",
+      "value": "Apagar Respostas Rápidas?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReply.DeleteAlert.TitleSingle",
+      "value": "Apagar Resposta Rápida?"
     },
     {
       "_": "types.LangPackString",
@@ -52951,9 +53607,27 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.ArchivePacksAlert.Text",
+      "one_value": "Você pode restaurar este pacote depois na seção de Stickers Arquivados.",
+      "other_value": "Você pode restaurar estes pacotes depois na seção de Stickers Arquivados."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.ArchivePacksAlert.Title",
+      "one_value": "Arquivar Pacote de Stickers?",
+      "other_value": "Arquivar %@ Pacotes de Stickers?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.ArchiveStickerPacksConfirmation",
       "one_value": "Arquivar %@ Pacote",
       "other_value": "Arquivar %@ Pacotes"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeleteEmojiPacksAlert.Title",
+      "one_value": "Apagar Pacote de Emojis?",
+      "other_value": "Apagar %@ Pacotes de Emojis?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -52963,9 +53637,33 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeletePacksAlert.Text",
+      "one_value": "Este pacote será removido da sua lista.",
+      "other_value": "Estes pacotes serão removidos da sua lista."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.DeleteStickerPacksAlert.Title",
+      "one_value": "Apagar Pacote de Stickers?",
+      "other_value": "Apagar %@ Pacotes de Stickers?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "StickerPacks.DeleteStickerPacksConfirmation",
       "one_value": "Apagar %@ Pacote de Stickers",
       "other_value": "Apagar %@ Pacotes de Stickers"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.UnarchivePacksAlert.Text",
+      "one_value": "Este pacote será adicionado novamente à sua lista.",
+      "other_value": "Esses pacotes serão adicionados novamente à sua lista."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StickerPacks.UnarchivePacksAlert.Title",
+      "one_value": "Desarquivar Pacote?",
+      "other_value": "Desarquivar %@ Pacotes?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -55735,6 +56433,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUse",
+      "value": "Usar sempre neste chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseFooter",
+      "value": "Cada mensagem que você enviar neste chat será reescrita com estas configurações."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummary",
+      "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryEmoji",
+      "value": "Emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryFix",
+      "value": "Corrigir gramática"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryStyledLanguage",
+      "value": "%1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryWithEmoji",
+      "value": "%@ + emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextProcessing.EditStyle.ActionCreate",
       "value": "Criar"
     },
@@ -56345,6 +57078,41 @@
       "_": "types.LangPackString",
       "key": "Ton.ProceedsOverview",
       "value": "VISÃO GERAL DOS GANHOS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.Withdraw",
+      "value": "Retirar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.AmountTooLarge",
+      "value": "Este valor excede o limite de retirada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "Erro ao confirmar a retirada. Verifique seu histórico de transações antes de tentar novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Text",
+      "value": "Os Grams irão para sua carteira de autocustódia (%@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.Title",
+      "value": "Retirar %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletCreating",
+      "value": "Sua carteira está sendo configurada. Tente novamente em um minuto."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.WalletUnavailable",
+      "value": "Sua carteira está indisponível no momento. Tente novamente mais tarde."
     },
     {
       "_": "types.LangPackString",
@@ -59678,6 +60446,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.Chat.NextPollVote",
+      "value": "Próximo voto da enquete"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Chat.NextReaction",
       "value": "Próxima reação"
     },
@@ -60233,6 +61006,16 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.MediaEditor.Adjustments",
       "value": "Ajustes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.AspectRatio",
+      "value": "Proporção da Imagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.Crop",
+      "value": "Cortar"
     },
     {
       "_": "types.LangPackString",
@@ -61757,6 +62540,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "A resposta do TON Connect está aguardando entrega na rede."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "Este app já está usando uma solicitação de conexão diferente. Reconecte-se do app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "Esta solicitação do TON Connect expirou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "Esta solicitação foi processada em outro dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "Fundos insuficientes na carteira para enviar esta transação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "Este link do TON Connect é inválido."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "Não foi possível carregar um manifesto válido para este app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "Esta conexão pertence a uma chave de carteira diferente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "Esta operação pode já ter sido assinada ou enviada. Não será assinada novamente. Verifique o histórico da carteira."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "Esta solicitação do TON Connect não está mais disponível."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "Este app solicitou uma rede de carteira diferente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "Endereço"
     },
@@ -61784,6 +62622,76 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleGift",
       "value": "Presente Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedFromProfile",
+      "value": "Movido do perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleMovedToProfile",
+      "value": "Movido para o perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferAccepted",
+      "value": "Oferta aceita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferCancelled",
+      "value": "Oferta cancelada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferDeclined",
+      "value": "Oferta recusada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferExpired",
+      "value": "Oferta expirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleOfferSent",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePurchased",
+      "value": "Comprado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Colocado à venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "Colocar à venda por %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleReceived",
+      "value": "Recebido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Removido da venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "Preço alterado para %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSent",
+      "value": "Enviado"
     },
     {
       "_": "types.LangPackString",
@@ -61883,6 +62791,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NetworkFee",
+      "value": "Taxa de rede"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesText",
       "value": "Cada transferência custa uma pequena taxa da rede%1$@.\n\nO Telegram cobre suas primeiras %2$@ todo dia."
     },
@@ -61890,6 +62803,36 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Taxas da rede"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferBuyer",
+      "value": "Comprador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferCancellationFee",
+      "value": "Taxa de cancelamento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferExpiration",
+      "value": "Expiração"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPlatformFee",
+      "value": "Taxa da plataforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferPrice",
+      "value": "Preço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OfferSeller",
+      "value": "Vendedor"
     },
     {
       "_": "types.LangPackString",
@@ -63916,5 +64859,5 @@
       "value": "Você inseriu um código de segurança inválido."
     }
   ],
-  "version": 22594703
+  "version": 22627772
 }

@@ -16008,6 +16008,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CrashRecovery.CheckingDetail",
+      "value": "Hledám novější verzi Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CrashRecovery.ContinueAnyway",
       "value": "Přesto pokračovat"
     },
@@ -16190,6 +16195,11 @@
       "_": "types.LangPackString",
       "key": "CrashReport.CardTitle",
       "value": "Telegram se neočekávaně ukončil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CrashReport.CouldNotOpenBot",
+      "value": "Nelze otevřít @%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -19088,6 +19098,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentMonetization.Controller.WithdrawMinimum",
+      "value": "Nemůžete vybrat méně než 10 Gram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FreezeAccount.ClickDetails",
       "value": "Kliknutím zobrazit podrobnosti"
     },
@@ -19254,6 +19269,11 @@
       "_": "types.LangPackString",
       "key": "Gallery.HideTranslation",
       "value": "Skrýt překlad"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gallery.PageController.Live",
+      "value": "ŽIVĚ"
     },
     {
       "_": "types.LangPackString",
@@ -21686,6 +21706,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InAppLinks.InvalidWalletLink",
+      "value": "Tento odkaz je neplatný."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InAppLinks.LoginExpired",
       "value": "Odkaz pro přihlášení vypršel."
     },
@@ -22340,6 +22365,11 @@
       "_": "types.LangPackString",
       "key": "LastSeen.HoursAgo_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LeaveChat.Actions.DeleteForAllSubscribers",
+      "value": "Smazat u všech odběratelů"
     },
     {
       "_": "types.LangPackString",
@@ -25705,6 +25735,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.SettingsViewController.ConfirmWithPasscode",
+      "value": "Potvrdit přístupovým kódem"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.ConfirmWithTouchId",
       "value": "Potvrdit pomocí Touch ID"
     },
@@ -25808,6 +25843,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeController.SyncFailed",
+      "value": "Nelze aktualizovat přístupový kód. Odemkněte zařízení znovu a zkuste to ještě jednou."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeController.Text",
       "value": "Pro zamknutí přejeďte přes ikonu Nastavení a zvolte \"Zamknout Telegram\", nebo zmáčkněte ⌘ + L.\n\nPoznámka: pokud zapomenete svůj lokální přístupový k'od, bude potřeba se z Telegramu pro macOS odhlásit a zvnovu přihlásit."
     },
@@ -25818,8 +25858,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PasscodeController.WalletDisableWarning",
+      "value": "Tím se také vypne ochrana přístupovým kódem a biometrickými údaji pro všechny peněženky na tomto zařízení."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PasscodeController.WalletProtection.Title",
       "value": "Potvrdit pomocí přístupového kódu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeController.WalletProtectionFailed",
+      "value": "Nelze aktualizovat ochranu peněženky. Zkuste to znovu."
     },
     {
       "_": "types.LangPackString",
@@ -35685,6 +35735,11 @@
       "value": "váš zůstatek"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawMinimumGrams",
+      "value": "Nelze vybrat méně než 10 Gram."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%d v nabídce",
       "key": "Star.Marketplace.ResaleAvailable",
@@ -40571,6 +40626,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TonAmountFormat.Gram",
+      "value": "%1$@ Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TonAmountFormat.Grams",
+      "value": "%1$@ Gram"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TonViewer.Url",
       "value": "https://tonviewer.com/%@"
     },
@@ -43337,6 +43402,39 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AmountRowItem.Gram",
+      "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Description",
+      "value": "Pro přístup ke své peněžence zadejte svůj přístupový kód Telegramu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.EnterPasscode",
+      "value": "Zadejte přístupový kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.Passcode",
+      "value": "Přístupový kód"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Příliš mnoho pokusů. Zkuste to znovu za %1$d sekundy.",
+      "key": "Wallet.AuthorizeController.TooManyAttempts",
+      "many_value": "Příliš mnoho pokusů. Zkuste to znovu za %1$d sekund.",
+      "one_value": "Příliš mnoho pokusů. Zkuste to znovu za %1$d sekundu.",
+      "other_value": "Příliš mnoho pokusů. Zkuste to znovu za %1$d sekund."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizeController.VerifyFailed",
+      "value": "Nelze ověřit přístupový kód. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.BackupDisabledInfo",
       "value": "Před obnovením tajné fráze z Telegramu povolte šifrovanou zálohu."
     },
@@ -43344,6 +43442,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.AuthorizedOperation.BackupDisabledTitle",
       "value": "Záloha je zakázána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.BackupProofExpiredInfo",
+      "value": "Požadavek o ověření peněženky vypršel. Zkuste zálohu znovu povolit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.AuthorizedOperation.EncryptFailedTitle",
+      "value": "Komentář nelze zašifrovat"
     },
     {
       "_": "types.LangPackString",
@@ -43721,6 +43829,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SendController.TransferFailedTitle",
+      "value": "Převod selhal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.BackupDisabled",
       "value": "Záloha zakázána"
     },
@@ -43731,8 +43844,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.BackupEnabledNotice",
+      "value": "Vaše klíče jsou nyní uloženy v šifrované podobě v datových centrech Telegram."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.Cancel",
       "value": "Zrušit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.CheckNetwork",
+      "value": "Zkontrolujte připojení k síti a zkuste to znovu."
     },
     {
       "_": "types.LangPackString",
@@ -43741,8 +43864,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DeleteAnyway",
+      "value": "Přesto smazat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DeleteWallet",
+      "value": "Smazat peněženku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DeleteWalletConfirm",
       "value": "Ztratíte přístup ke svým prostředkům, pokud jste si neuložili tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DeleteWalletConfirmTitle",
+      "value": "Smazat peněženku?"
     },
     {
       "_": "types.LangPackString",
@@ -43756,13 +43894,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DisableBackupConfirm",
+      "value": "Vaše distribuovaná šifrovaná záloha bude smazána. Jediným způsobem, jak tuto peněženku obnovit, bude vaše tajná fráze."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DisableBackupConfirmTitle",
       "value": "Zakázat zálohu?"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DisableBackupConfirmUpdatePhrase",
+      "value": "Vaše distribuovaná šifrovaná záloha bude smazána. Vaše peněženka přejde na novou tajnou frázi. Tato tajná fráze bude jediným způsobem, jak tuto peněženku obnovit."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.DisableBackupManualRecovery",
       "value": "Jediným způsobem, jak získat své prostředky zpět, bude ruční zadání tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.DisableBackupZeroBalance",
+      "value": "K aktualizaci tajné fráze potřebujete kladný zůstatek."
     },
     {
       "_": "types.LangPackString",
@@ -43776,8 +43929,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.EnterSecretPhrase",
+      "value": "Zadat tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.EnterSecretPhraseInfo",
+      "value": "Zadejte svou tajnou frázi k obnovení této peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorDisableBackup",
+      "value": "Nelze ověřit, zda byla záloha zakázána. Zkontrolujte připojení k síti a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorDisableBackupTitle",
+      "value": "Nelze zakázat zálohu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorInsufficientBalance",
+      "value": "K aktualizaci tajné fráze potřebujete %1$@. Přidejte prostředky a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorInsufficientBalanceTitle",
+      "value": "Nedostatek Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorKeyRotationFailed",
+      "value": "Změnu tajné fráze se nepodařilo dokončit. Zkontrolujte stav své peněženky a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorKeyRotationFailedTitle",
+      "value": "Nelze aktualizovat tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofExpired",
+      "value": "Požadavek o ověření peněženky vypršel. Klepněte na Zakázat a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofExpiredTitle",
+      "value": "Ověření vypršelo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ErrorProofInvalid",
       "value": "Telegram nemohl ověřit, že jste vlastníkem této peněženky. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorProofInvalidTitle",
+      "value": "Nelze ověřit peněženku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorRotationPending",
+      "value": "Telegram zatím nemohl změnu tajné fráze v blockchainu potvrdit. Počkejte chvíli a znovu klepněte na Zakázat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ErrorRotationPendingTitle",
+      "value": "Aktualizace tajné fráze čeká na schválení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.InsufficientBalanceTopUp",
+      "value": "Nakoupit"
     },
     {
       "_": "types.LangPackString",
@@ -43796,6 +44019,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.NotNow",
+      "value": "Nyní ne"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.PreviousWalletSubtitle",
+      "value": "%1$@ — naposledy použito %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.PreviousWalletsHeader",
       "value": "PŘEDCHOZÍ PENĚŽENKY"
     },
@@ -43806,8 +44039,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.Proceed",
+      "value": "Pokračovat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.SecretPhraseHeader",
       "value": "TAJNÁ FRÁZE"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseNotStored",
+      "value": "Tajná fráze této peněženky už není na tomto zařízení uložena."
     },
     {
       "_": "types.LangPackString",
@@ -43816,8 +44059,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SecretPhraseRequiredForBackup",
+      "value": "Pro změnu nastavení zálohy zadejte svou 12 nebo 24slovnou tajnou frázi a obnovte přístup k této peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.SettingUp",
+      "value": "Nastavuje se vaše peněženka. Obvykle to trvá několik sekund...\n\nAž bude hotovo, zobrazí se zde vaše tajná fráze a nastavení zálohy."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.SettingsController.ShowSecretPhrase",
       "value": "Zobrazit tajnou frázi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ShowSecretPhraseFailed",
+      "value": "Nelze zobrazit tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.ShowSecretPhraseInfo",
+      "value": "Peněženku můžete přenést do jiného zařízení tak, že zkopírujete svou 12 nebo 24slovnou tajnou frázi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.TopUp",
+      "value": "Nakoupit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.UpdateSecretPhrase",
+      "value": "Aktualizovat tajnou frázi"
     },
     {
       "_": "types.LangPackString",
@@ -43836,13 +44109,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.SettingsController.WalletImportedInfo",
+      "value": "Vaše peněženka byla obnovena z vaší tajné fráze."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Retry",
+      "value": "Zkusit znovu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TonConnectSigningRowItem.BinaryTitle",
       "value": "Binární obsah"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnectSigningRowItem.BinaryWarning",
+      "value": "Podepisujete naslepo. Podepisujte pouze data z důvěryhodných zdrojů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Failed",
+      "value": "Selhalo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionAmountRowItem.Gram",
       "value": "GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionAmountRowItem.Processing",
+      "value": "Zpracovávání..."
     },
     {
       "_": "types.LangPackString",
@@ -43871,6 +44169,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CollectibleTopUpInfo",
+      "value": "K převodu NFT musíte mít v peněžence alespoň 0,1 Gram. Dobijte si zůstatek a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentEncryptedPrivacy",
+      "value": "Viditelné pouze pro vás a příjemce."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentPlaceholder",
+      "value": "Volitelná zpráva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentPublicPrivacy",
+      "value": "Komentář je viditelný pro všechny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CommentTooLongInfo",
+      "value": "Šifrovaný komentář je příliš dlouhý. Zkraťte jej a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CommentTooLongTitle",
       "value": "Komentář je příliš dlouhý"
     },
@@ -43883,6 +44206,31 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Date",
       "value": "Datum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.DecryptFailedInfo",
+      "value": "Komentář se nepodařilo dešifrovat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.DecryptFailedTitle",
+      "value": "Komentář se nepodařilo dešifrovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptFailedInfo",
+      "value": "Tento komentář nebylo možné zašifrovat pro tuto peněženku. Zkontrolujte připojení k síti a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptFailedTitle",
+      "value": "Komentář nelze zašifrovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.EncryptRecipientUnavailableInfo",
+      "value": "Tato peněženka momentálně nemůže přijímat šifrované komentáře."
     },
     {
       "_": "types.LangPackString",
@@ -43909,6 +44257,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NetworkFeeInfo",
+      "value": "Každý převod stojí malý síťový poplatek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.NetworkFeesTitle",
       "value": "Síťové poplatky"
     },
@@ -43916,6 +44269,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Nft",
       "value": "NFT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NotEnoughGramsTitle",
+      "value": "Nedostatek Gram"
     },
     {
       "_": "types.LangPackString",
@@ -43939,8 +44297,113 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SecretPhraseRequiredInfo",
+      "value": "Zadejte svou tajnou frázi pro obnovení přístupu k této peněžence a dešifrování komentáře."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SecretPhraseRequiredTitle",
+      "value": "Vyžadována tajná fráze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Send",
+      "value": "odeslat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendAmount",
+      "value": "Odeslat %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SendCollectible",
+      "value": "Odeslat sběratelský předmět"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Sender",
+      "value": "Odesílatel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ShowMore",
+      "value": "Zobrazit více"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TopUp",
+      "value": "Nakoupit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Transaction",
+      "value": "Transakce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TransferFailedInfo",
+      "value": "Převod se nepodařilo připravit ani odeslat. Zkontrolujte adresu, zůstatek a připojení k síti a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.TransferFailedTitle",
+      "value": "Převod selhal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.UnknownAddress",
+      "value": "Neznámá adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Username",
+      "value": "Uživatelské jméno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ViewInExplorer",
+      "value": "Zobrazit v Průzkumníku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.WhatIsGram",
+      "value": "Co je Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.WhatsGram",
+      "value": "Co je Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionKeyUpdateRowItem.Title",
+      "value": "Aktualizace klíče"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.AnonymousNumber",
       "value": "Sběratelské číslo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.CardTopUp",
+      "value": "Nákup kartou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Collectible",
+      "value": "Sběratelský"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.CollectibleGift",
+      "value": "Sběratelský dárek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.CryptoTopUp",
+      "value": "Nákup kryptem"
     },
     {
       "_": "types.LangPackString",
@@ -45031,5 +45494,5 @@
       "value": "Zobrazit záměny"
     }
   ],
-  "version": 2468813
+  "version": 2470172
 }

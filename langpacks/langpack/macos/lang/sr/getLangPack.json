@@ -229,6 +229,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.DailyLimit",
+      "value": "Dictator је искористио своје дневно ограничење ВИ захтева. Повећајте га у менију Dictator → Model или сачекајте да се обнови у поноћ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.DictatorUnavailable",
       "value": "Dictator није покренут. Отворите га на овом Mac-у и покушајте поново."
     },
@@ -394,6 +399,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ChatGPTPlanInfo",
+      "value": "Користи ваш пакет ChatGPT Plus или Pro уместо АПИ кредита. Када наставите, отвориће се прегледач на овом Mac-у: пријавите се на ChatGPT и дозволите приступ Dictator-у. Подаци за пријаву остају у складишту Keychain на вашем Mac-у и никада се не шаљу на сервере Telegram-а. Потрошњу можете ограничити у одељку [ChatGPT → Подешавања → Коришћење и наплата](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.Connect",
       "value": "Повежи"
     },
@@ -401,6 +411,21 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.ConnectAIAssistant",
       "value": "Повежи Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConnectionInfo",
+      "value": "Dictator на овом Mac-у жели да се повеже са Telegram-ом. Ваш помоћник ради у приватној виртуелној машини и добија сопствено ћаскање на врху ваше листе."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.KeyStorageInfo",
+      "value": "Кључ се проверава преко %1$@, а затим га Dictator чува у складишту Keychain на вашем Mac-у. Никада се не шаље на сервере Telegram-а.%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.VoicePluginInfo",
+      "value": "Шаљите гласовне поруке када се додатак Whisper инсталира у Dictator-у."
     },
     {
       "_": "types.LangPackString",
@@ -460,7 +485,7 @@
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.Service.ChooseModelStatus",
-      "value": "изаберите модел у апликацији Dictator"
+      "value": "изаберите модел у Dictator-у"
     },
     {
       "_": "types.LangPackString",
@@ -470,7 +495,12 @@
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.Service.SignInAgainStatus",
-      "value": "поново се пријавите на ChatGPT у апликацији Dictator"
+      "value": "поново се пријавите на ChatGPT у Dictator-у"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AgentAccessInfo",
+      "value": "Изаберите шта сваки агент може да мења и види. Све што је урадио у Telegram-у наведено је у Dictator-у, на страници Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -489,6 +519,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ConnectDictatorInfo",
+      "value": "Притисните Повежи у Dictator-у да бисте га повезали с овим налогом на Telegram-у."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.Dictator",
       "value": "Dictator"
     },
@@ -501,6 +536,21 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.DictatorUnavailable",
       "value": "Dictator не одговара. Проверите да ли је покренут."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DisconnectConfirmation",
+      "value": "Telegram ће престати да комуницира с Dictator-ом, а ћаскање с помоћником биће уклоњено с вашег списка ћаскања."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DisconnectInfo",
+      "value": "Прекидањем везе уклања се ћаскање с помоћником. Dictator чува ваш кључ док га тамо не уклоните."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.InstallWhisperInfo",
+      "value": "Инсталирајте додатак Whisper у менију Dictator → Plugins да бисте слали гласовне поруке."
     },
     {
       "_": "types.LangPackString",
@@ -529,6 +579,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.PasteAPIKey",
+      "value": "Налепите свој АПИ кључ"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.Safety",
       "value": "БЕЗБЕДНОСТ"
     },
@@ -545,12 +600,22 @@
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.AgentStoppedInfo",
-      "value": "Покрените га у апликацији Dictator да бисте наставили ћаскање."
+      "value": "Покрените га у Dictator-у да бисте наставили ћаскање."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ApproveConnectionInfo",
+      "value": "Dictator чека да дозволите приступ овом Telegram налогу."
     },
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.ChooseModelAction",
       "value": "Изабери модел"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ChooseModelInfo",
+      "value": "Изаберите ВИ модел који ваш помоћник користи у Dictator-у да бисте довршили подешавање."
     },
     {
       "_": "types.LangPackString",
@@ -561,6 +626,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.ConnectDictator",
       "value": "Повежи Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ConnectInfo",
+      "value": "Повежите Dictator с Telegram-ом да бисте започели ћаскање са својим помоћником."
     },
     {
       "_": "types.LangPackString",
@@ -584,8 +654,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.NotRunningInfo",
+      "value": "Ваш помоћник ради у Dictator-у на овом Mac-у. Отворите Dictator да бисте започели ћаскање."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.OpenDictator",
       "value": "Отвори Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SetUpComputerInfo",
+      "value": "Ваш помоћник ради у сопственој виртуелној машини. Подесите га у Dictator-у да бисте започели ћаскање."
     },
     {
       "_": "types.LangPackString",
@@ -594,8 +674,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SignInAgain",
+      "value": "Поново се пријавите у ChatGPT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SignInAgainInfo",
+      "value": "Dictator више није пријављен на ChatGPT, па је ваш помоћник паузиран. Поново се пријавите у Dictator-у да бисте наставили ћаскање."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.Unreachable",
-      "value": "Није могуће приступити апликацији Dictator"
+      "value": "Није могуће приступити Dictator-у"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.UnreachableInfo",
+      "value": "Dictator је отворен, али не одговара. Отворите га да бисте проверили стање агента."
     },
     {
       "_": "types.LangPackString",
@@ -867,7 +962,7 @@
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.CheckingAgentInfo",
-      "value": "Проверава се у апликацији Dictator да ли је агент поново активан."
+      "value": "Проверава се у Dictator-у да ли је агент поново активан."
     },
     {
       "_": "types.LangPackString",
@@ -898,6 +993,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.NotSent",
       "value": "Није послато"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.OpenDictatorInfo",
+      "value": "Ваш помоћник ради у Dictator-у на овом Mac-у. Отворите Dictator и ваша порука ће се сама послати."
     },
     {
       "_": "types.LangPackString",
@@ -15242,7 +15342,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatListUI.HooksInstall.DictatorCrashReport",
-      "value": "Извештај о рушењу из апликације Dictator %1$@ (%2$@, окружење)"
+      "value": "Извештај о рушењу из Dictator-а %1$@ (%2$@, окружење)"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -18955,7 +19055,7 @@
     {
       "_": "types.LangPackString",
       "key": "Dictator.Controller.Description",
-      "value": "ВИ помоћник за Telegram који ради на овом Mac-у, у сопственој виртуелној машини. Чита, пише и делује у апликацији Telegram према правилима која ви поставите."
+      "value": "ВИ помоћник за Telegram који ради на овом Mac-у, у сопственој виртуелној машини. Чита, пише и делује у Telegram-у према правилима која ви поставите."
     },
     {
       "_": "types.LangPackString",
@@ -18995,7 +19095,7 @@
     {
       "_": "types.LangPackString",
       "key": "Dictator.Controller.InstallInfo",
-      "value": "Telegram преузима најновију верзију апликације Dictator са свог канала за ажурирање, проверава да ли ју је Telegram потписао и смешта је у фасциклу Applications."
+      "value": "Telegram преузима најновију верзију Dictator-а са свог канала за ажурирање, проверава да ли ју је Telegram потписао и смешта је у фасциклу Applications."
     },
     {
       "_": "types.LangPackString",
@@ -19030,7 +19130,7 @@
     {
       "_": "types.LangPackString",
       "key": "Dictator.Controller.QuittingDictator",
-      "value": "Излазак из апликације Dictator…"
+      "value": "Излазак из Dictator-а…"
     },
     {
       "_": "types.LangPackString",
@@ -19115,12 +19215,12 @@
     {
       "_": "types.LangPackString",
       "key": "Dictator.Install.DownloadIsNotTheDictatorBuildThatWas",
-      "value": "Преузета датотека не одговара најављеној верзији апликације Dictator."
+      "value": "Преузета датотека не одговара најављеној верзији Dictator-а."
     },
     {
       "_": "types.LangPackString",
       "key": "Dictator.Installer.DictatorCouldNotBeDownloaded",
-      "value": "Преузимање апликације Dictator није успело."
+      "value": "Преузимање Dictator-а није успело."
     },
     {
       "_": "types.LangPackString",
@@ -19159,13 +19259,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Dictator.Installer.ListOfDictatorBuildsCouldNotBeLoaded",
+      "value": "Учитавање списка верзија Dictator-а није успело."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Dictator.Installer.LocalBuild",
       "value": "%1$@ · Локална верзија"
     },
     {
       "_": "types.LangPackString",
       "key": "Dictator.Installer.NoDictatorBuildForThisMacWasFound",
-      "value": "Није пронађена ниједна верзија апликације Dictator за овај Mac."
+      "value": "Није пронађена ниједна верзија Dictator-а за овај Mac."
     },
     {
       "_": "types.LangPackString",
@@ -20072,7 +20177,7 @@
     {
       "_": "types.LangPackString",
       "key": "EditVideo.ToolsController.Tint",
-      "value": "Тонирање"
+      "value": "Нијанса"
     },
     {
       "_": "types.LangPackString",
@@ -25886,6 +25991,11 @@
       "_": "types.LangPackString",
       "key": "LocalAgent.Actions.Allow",
       "value": "Дозволи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.LocalAgentIsNotRunningOpenDictatorOn",
+      "value": "Локални агент није покренут. Отворите Dictator на овом Mac-у и покрените агента."
     },
     {
       "_": "types.LangPackString",
@@ -43428,13 +43538,45 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.Adjustments",
+      "value": "Подешавања"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.Audio",
       "value": "Звук"
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.CaptureMode",
+      "value": "Режим снимања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.ChooseMedia",
+      "value": "Изабери медије"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.ClipVolume",
+      "value": "Јачина звука снимка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.Collage",
       "value": "Колаж"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Колаж · %1$d / %2$d",
+      "key": "Story.CreationView.CollageProgress",
+      "one_value": "Колаж · %1$d / %2$d",
+      "other_value": "Колаж · %1$d / %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Crop",
+      "value": "Опсеци"
     },
     {
       "_": "types.LangPackString",
@@ -43443,13 +43585,80 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.DragTilesToReorder",
+      "value": "Превуците исечке да бисте променили редослед"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Draw",
+      "value": "Цртање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DropMediaToImport",
+      "value": "Пустите медије да бисте их увезли"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.DualCamera",
       "value": "Двострука камера"
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.EditCollage",
+      "value": "Уреди колаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.EnableCamera",
+      "value": "Омогући камеру"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Побољшај  %1$d",
+      "key": "Story.CreationView.EnhanceValue",
+      "one_value": "Побољшај  %1$d",
+      "other_value": "Побољшај  %1$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.Link",
       "value": "Веза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Mute",
+      "value": "Искључи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Pause",
+      "value": "Паузирај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PauseClip",
+      "value": "Паузирај снимак"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Play",
+      "value": "Пусти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PlayClip",
+      "value": "Пусти снимак"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PositionAndZoom",
+      "value": "Превуците за позиционирање · Скролујте или скупите/раширите прсте за промену величине"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.RecordVideoNote",
+      "value": "Сними видео-поруку"
     },
     {
       "_": "types.LangPackString",
@@ -43463,8 +43672,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.SoundtrackVolume",
+      "value": "Јачина звучне подлоге"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.Stickers",
       "value": "Налепнице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StopVideoNote",
+      "value": "Заустави видео-поруку"
     },
     {
       "_": "types.LangPackString",
@@ -43483,8 +43702,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.SwitchCamera",
+      "value": "Промени камеру"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.Text",
       "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Unmute",
+      "value": "Укључи"
     },
     {
       "_": "types.LangPackString",
@@ -43947,8 +44176,175 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Adjust",
+      "value": "Подеси"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Blue",
+      "value": "Плава"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Blur",
+      "value": "Замућење"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.BlurIntensity",
+      "value": "Јачина замућења"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Curves",
+      "value": "Криве"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Cyan",
+      "value": "Цијан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Green",
+      "value": "Зелена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.None",
+      "value": "Ниједна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Orange",
+      "value": "Наранџаста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Purple",
+      "value": "Љубичаста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Red",
+      "value": "Црвена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Tint",
+      "value": "Нијанса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.TintIntensity",
+      "value": "Јачина нијансе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Yellow",
+      "value": "Жута"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.LockRecording",
+      "value": "Закључај снимање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.RecordVideo",
+      "value": "Сними видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.RecordingDuration",
+      "value": "Трајање снимања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.StopRecording",
+      "value": "Заустави снимање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.TakePhoto",
+      "value": "Сликај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.AddAudio",
+      "value": "Додај звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.AudioOpenFailed",
+      "value": "Telegram није могао да отвори ову звучну датотеку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessOff",
+      "value": "Приступ камери је искључен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessRequired",
+      "value": "Дозволите Telegram-у да користи камеру у System Settings да бисте снимили причу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFiles",
+      "value": "Изабери датотеке…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFromPhotos",
+      "value": "Изабери из Photos-а…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageClipTrim",
+      "value": "Скраћивање снимка у колажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageFileLimit",
+      "value": "Немојте изабрати више датотека него што има преосталих места у колажу."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d колоне",
+      "key": "StoryCreationController.Columns",
+      "one_value": "%1$d колона",
+      "other_value": "%1$d колона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CombineCamerasFailed",
+      "value": "Telegram није могао да споји приказ обе камере. Снимак с једне камере је спреман за уређивање."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ConnectDualCamera",
+      "value": "Повежите другу камеру за двоструку камеру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardCollage",
+      "value": "Одбаци колаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardStoryConfirmation",
+      "value": "Одбацити ову причу?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryCreationController.DualCamera",
       "value": "Двострука камера"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DualCameraOpenFailed",
+      "value": "Telegram није могао да отвори обе камере истовремено."
     },
     {
       "_": "types.LangPackString",
@@ -43957,8 +44353,55 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCreationController.EditCameraInset",
+      "value": "Уреди уметнуту камеру"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Уреди исечак %1$d",
+      "key": "StoryCreationController.EditTile",
+      "one_value": "Уреди исечак %1$d",
+      "other_value": "Уреди исечак %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EnableCameraOrChooseMedia",
+      "value": "Укључите камеру или изаберите медије"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.JoinRecordingsFailed",
+      "value": "Telegram није могао да споји снимке са камере. Снимци су доступни засебно."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryCreationController.Link",
       "value": "Веза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.MediaOpenFailed",
+      "value": "Telegram није могао да отвори ову слику или видео."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.MoveAudioToPlayhead",
+      "value": "Премести звук на место репродукције"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.NoCameraAvailable",
+      "value": "Камера није доступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Off",
+      "value": "Искључено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.On",
+      "value": "Укључено"
     },
     {
       "_": "types.LangPackString",
@@ -43972,8 +44415,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCreationController.PhotosImportFailed",
+      "value": "Telegram није могао да увезе изабране ставке из Photos-а."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.PhotosImportPartiallyFailed",
+      "value": "Неке ставке нису могле да се увезу из Photos-а."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RecordingZoomFailed",
+      "value": "Telegram није могао да примени увећање снимка. Изворни снимак је спреман за уређивање."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryCreationController.RemoveAudio",
       "value": "Уклони звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveCameraInset",
+      "value": "Уклони уметнуту камеру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveLastTile",
+      "value": "Уклони последњи исечак"
     },
     {
       "_": "types.LangPackString",
@@ -43987,13 +44455,65 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCreationController.RestoreCameraInset",
+      "value": "Врати уметнуту камеру"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d реда",
+      "key": "StoryCreationController.Rows",
+      "one_value": "%1$d ред",
+      "other_value": "%1$d редова"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryCreationController.SaveDraft",
       "value": "Сачувај нацрт"
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraftConfirmation",
+      "value": "Сачувати ову причу као нацрт?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraftFailed",
+      "value": "Telegram није могао да сачува овај нацрт приче."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SoundtrackTrim",
+      "value": "Скраћивање звучне подлоге"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryCreationController.Video",
       "value": "Видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraAccessRequired",
+      "value": "Дозволите приступ камери да бисте снимили видео-поруку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraUnavailable",
+      "value": "Нема доступне камере за снимање видео-поруке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteRecordingFailed",
+      "value": "Telegram није могао да сними ову видео-поруку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteTimeline",
+      "value": "Временска линија видео-поруке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoRecordingFailed",
+      "value": "Telegram није могао да сними овај видео. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -49229,7 +49749,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Draw",
-      "value": "Цртај"
+      "value": "Цртање"
     },
     {
       "_": "types.LangPackString",
@@ -50923,7 +51443,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ConnectedAppsController.AppDisconnected",
-      "value": "Веза са апликацијом %1$@ прекинута."
+      "value": "Веза с апликацијом %1$@ прекинута."
     },
     {
       "_": "types.LangPackString",
@@ -54048,5 +54568,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2471813
+  "version": 2472587
 }

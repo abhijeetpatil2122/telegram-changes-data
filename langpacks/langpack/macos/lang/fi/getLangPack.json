@@ -60,6 +60,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Help",
+      "value": "**Komennot**\n/compact: tiivistää keskustelun sisällön niin, että agentti ymmärtää saman asian pienemmällä kontekstilla\n/new or /reset: aloittaa uuden keskustelun\n/retry: yrittää uudelleen viime pyyntöä\n/commands: tila, malli, lisäosat, tehtävät, automaatiot ja muistikomennot, jotka toimivat vaikka tekoälymalli ei olisi toiminnassa\n\n**Kaikki muu pyydetään.** Esimerkiksi:\n- \"Yhdistä Playwright MCP-palvelin\" tai \"Asenna Fly.io -lisäosa\"\n- \"Tässä on lisätiedosto, asenna se\" (attach a .md plugin)\n- \"Aseta uudeksi päivittäiseksi rajaksi: 2000\" or \"Vaihda nopeampaan malliin\"\n- \"Tee käyttäjästä Alice keskustelun Team valvoja ja ota hidas tila käyttöön\"\n- \"Valvo Design Team -keskustelua, ilmoita minulle jos julkaisusta mainitaan\"\n- \"Luo agentti, joka kirjoittaa julkaisutietoja\" ja \"Kysy siltä eilisen puhelusta\"\n\nJos toiminto vähentää tietosuojaa tai nostaa käyttökuluja, sinulta pyydetään lupaa Macillasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Welcome",
+      "value": "Hei! Olen tekoälyavustajasi. Minua suoritetaan tämän Macin yksityisellä virtuaalikoneella.\n\nVoin auttaa sinua pysymään ajan tasalla keskusteluissa, hakea viesteistäsi, laatia vastauksia, asettaa muistutuksia ja muutakin. En koskaan lähetä mitään ilman suostumustasi.\n\nKokeile vaikka: **Jäikö minulta jotain tänään välistä?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ChatGPTPlanInfo",
+      "value": "Käyttää ChatGPT Plus tai Pro -tilaustasi API-saldon sijaan. Kun jatkat, selaimesi aukeaa Macilla: kirjaudu ChatGPT:hen ja salli Dictator. Macin avainnippu tallettaa kirjautumistietosi - niitä ei siirretä Telegramin palvelimille. Voit rajoittaa käyttöä [ChatGPT:stä → Asetukset → Käyttö](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.LiveCallContext",
+      "value": "[Käyttäjä on lisännyt sinut Telegram-puheluun “%1$@”, jota Telegram litteroi suoraan Macilla. Kysymykset liittyvät tähän puheluun, elleivät ne selkeästi liity johonkin muuhun. Rivissä ilmoitetaan, kuka sanoo mitäkin; nämä eivät ole välttämättä oikein, jos käyttäjät puhuvat ristiin. Litteroitu sisältö tähän asti on:\n%2$@\n]"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.Explanation",
+      "value": "Avustaja vain lukee sisältöä. Kaikille muuttaville toiminnoille pyydetään lupaa; se ei voi painaa Telegram-painikkeita, Telegram-tapahtumat eivät aloita agentteja, ja vastaukset näytetään selkotekstinä: ei pienoisohjelmia, ei kuvia verkosta, ja linkkien kohdalla näytetään vain sivusto. Voit poistaa Sulkutilan käytöstä asetuksista → Yksityisyys ja tietoturva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ExplanationTitle",
+      "value": "Sulkutila on käytössä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotesInstructions",
+      "value": "Otat muistiinpanoja käyttäjän Telegram-puheluista. Kun puhelun litterointi on valmis, näytä muistiinpanot pienoisohjelmana: yhden rivin yhteenveto, avainkohdat, tehdyt päätökset, jokaisen tehtävät valintaruutuina vastuuhenkilöineen ja päivämäärineen, ja koko litteroitu sisältö laajennettavassa tietolaatikossa. Käytä litteroinnissa mainittuja puhuijen nimiä. Pidä sisältö lyhyenä ja helposti luettavana, ja käytä samaa kieltä kuin puhelussa puhuttiin. Muista puheluiden sisältö siltä varalta, että käyttäjä haluaa kysyä niistä myöhemmin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallRecordingInfo",
+      "value": "Nauhoittaa puhelusi ja ryhmäpuhelusi Macilla, litteroi ne puhujakohtaisesti Whisperillä, ja lähettää litteroinnin tänne, kun puhelu päättyy. Käytä sitä vain, jos kaikki puhelussa olevat antaa luvan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.EditorInstructions",
+      "value": "Muokkaa käyttäjän syöttämää tekstiä: korjaa kielioppi ja kieliasu, tiivistä ja selvennä, mutta pidä sävy ja kieli ennallaan. Vastaa ensin muokatulla tekstillä, ja sitten enintään kolmella kohdalla, joissa selitit tekemästi muutokset."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ResearcherInstructions",
+      "value": "Ota verkon avulla selvää asioista, joista käyttäjä haluaa tietää. Vertaile eri lähteitä, sano kuinka varma voit olla tietojen perusteella, ja laita loppuun lista käyttämistäsi lähteistä. Aloita vastauksella ja laita yksityiskohdat vasta sen jälkeen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TranslatorInstructions",
+      "value": "Käännä käyttäjän lähettämät viestit. Käännä ne englanniksi, jos ne ovat muulla kielellä, tai muuten käyttäjän viimeksi pyytämällä kielellä. Pidä äänensävy, muotoilu ja nimet ennallaan. Vastaa vain käännöksellä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.CreateAgentInfo",
+      "value": "Tee ensin oma agenttisi: kysy avustajalta, esim. \"luo julkaisutietoja kirjoittava agentti\". Lisää se sitten tänne, ja se vastaa tässä keskustelussa, kun aloitat viestin sen nimellä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.ShortcutsHelp",
+      "value": "Lisätyt pikakomennot näkyvät jokaisen avustajan keskustelun tekstikentän yläpuolella. Ne toimivat niissä keskusteluissa, joihin ne on lisätty. Jos pyydät avustajalta samaa asiaa kahdesti, se ehdottaa pikakomentoa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIStyleModal.AddAuthorLink",
       "value": "Lisää linkki tiliini"
     },
@@ -134,6 +199,17 @@
       "_": "types.LangPackString",
       "key": "AISummary.Title",
       "value": "Tekoälytiivistelmä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AXAgent.RateLimiter.ActionsPaused",
+      "one_value": "Useampi peräkkäinen ruututoiminto on epäonnistunut. ui_*-toimintoja rajoitetaan %1$d sek. Ota ui_snapshot-kuva ja tarkista ruudun tila, tai käytä eri toimintoa.",
+      "other_value": "Useampi peräkkäinen ruututoiminto on epäonnistunut. ui_*-toimintoja rajoitetaan %1$d sek. Ota ui_snapshot-kuva ja tarkista ruudun tila, tai käytä eri toimintoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AXAgent.Safety.ScreenProtected",
+      "value": "Sisältö on suojatulla ruudulla (%1$@): maksut, tähdet, lompakko, pääsykoodi, salasanat, kirjautuminen, istunnot ja viennit ovat vain käyttäjän ja erillisten toimintojen ulottuvilla."
     },
     {
       "_": "types.LangPackString",
@@ -1341,6 +1417,11 @@
       "_": "types.LangPackString",
       "key": "App.Tooltip.VoiceRecord",
       "value": "Paina pitkään: nauhoita ääntä. Napauta: videotila."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.LocalErasureFailedInfo",
+      "value": "Joitain Telegramin datakansiossa olevia kohteita on lukittu tai kirjoitussuojattu, joten niitä ei voi poistaa tai siirtää muualle, eikä Telegram voi tätä ennen käynnistyä.\n\nValitse FInderissa lukitut kohteet alla olevassa kansiossa, valitse Tiedosto > Näytä tietoja, ja poista käytöstä Lukittu (tai anna itsellesi Luku ja kirjoitus -oikeus), tai poista kansio, ja yritä sitten uudelleen.\n\n%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -12012,6 +12093,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatExportHtmlActions.ExportHistory",
+      "value": "Agentti haluaa viedä keskustelun \"%1$@\" sisällön HTML-sivuun %2$@ latauskansiossasi. Telegram näyttää edistymisen ja avaa tuloksen Finderissa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatGift.Info.FromGiveAway",
       "value": "Olet voittanut kanavan **%1$@** järjestämässä arvonnassa.\n\nVoitit **Telegram Premium** -tilauksen **%2$@** kuukaudeksi."
     },
@@ -14861,6 +14947,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.DiskUnavailable",
+      "value": "Telegram ei voi avata tietojaan tällä Macilla: levy on käytössä, täynnä, tai sitä ei ole saatavilla. Varmista, että levyllä on riittävästi vapaata tilaa, sulje Telegramin tietoja käyttävät muut ohjelmat, ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.KeyDamaged",
+      "value": "Telegramin tietoja tällä Macilla suojaava avain on turmeltunut, eikä tietoja voi avata. Kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.KeyMismatch",
+      "value": "Telegramin tiedot on suojattu aiemman asennuksen tai toisen Macin avaimella, joten niitä ei voi avata tällä Macilla. Kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.KeyMissing",
+      "value": "Telegramin tiedot on suojattu avaimella, jota ei ole tallella. Tietoja ei voi avata. Jos vaihdoit tälle Macille tai palautit sen, palauta aiempi kirjautumiseen käytetty avainnippu palauttaaksesi avaimen. Muussa tapauksessa kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CollectibleItemInfo.ButtonOpenInfo",
       "value": "Lue lisää"
     },
@@ -14883,6 +14989,11 @@
       "_": "types.LangPackString",
       "key": "CollectibleItemInfo.UsernameTitle",
       "value": "[%@]() on keräiltävä käyttäjänimi,\njonka omistaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Comments.Actions.OlderCommentsNotLoaded",
+      "value": "Telegram ei ehtinyt ladata vanhempia kommentteja, joten niitä saattaa puuttua. Kokeile lukea myöhemmin uudelleen; jos sama toistuu, Telegram ei voi ladata niitä juuri nyt, esimerkiksi jos verkkoyhteyttä ei ole."
     },
     {
       "_": "types.LangPackString",
@@ -17182,6 +17293,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DownloadsActions.FinishedDownloadsNote",
+      "value": "Valmiit lataukset, uusin ensin, niin kuin Telegramin latausnäkymässä; in_progress näyttää tällä hetkellä ladattavat, download_control voi ohjata (keskeyttää, jatkaa, peruuttaa), download_media chat ja message_id kopioi tiedoston virtuaalikoneellesi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DownloadsManager.Control.Navigate",
       "value": "%@ - [Näytä keskustelussa]()"
     },
@@ -18263,6 +18379,11 @@
       "_": "types.LangPackString",
       "key": "EmptyPeer.Description",
       "value": "Aloita viestittely valitsemalla keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.EncryptedDescription",
+      "value": "Viety sisältö aukeaa verkkoselaimessa, kuten Safari ja Chrome, ja pyytää salasanaa. Keskusteluiden ja tiedostojen nimet piilotetaan. Telegram näyttää salasanan, kun vienti on alkanut. Se on vientikohtainen, eikä hukattua salasanaa voi palauttaa."
     },
     {
       "_": "types.LangPackString",
@@ -19469,6 +19590,11 @@
       "_": "types.LangPackString",
       "key": "Fragment.Ton.MinWithdraw",
       "value": "Kerralla pitää nostaa vähintään %d gramia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentGift.Price.PriceInTON",
+      "value": "Hinta grameina"
     },
     {
       "_": "types.LangPackString",
@@ -21369,6 +21495,12 @@
       "value": "Valitse ryhmät ja kanavat, joille käyttäjien pitää liittyä osallistuakseen arvontaan."
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "GlobalPrivacy.Actions.PaidMessagesConfirmation",
+      "one_value": "Agentti haluaa veloittaa %1$d tähden joka viestistä sinulle henkilöiltä, jotka eivät ole yhteystiedoissasi. Saat suurimman osan tästä hinnasta. Voit antaa tiettyjen käyttäjien lähettää maksutta Yksityisyys ja tietoturva -asetuksista.",
+      "other_value": "Agentti haluaa veloittaa %1$d tähteä joka viestistä sinulle henkilöiltä, jotka eivät ole yhteystiedoissasi. Saat suurimman osan tästä hinnasta. Voit antaa tiettyjen käyttäjien lähettää maksutta Yksityisyys ja tietoturva -asetuksista."
+    },
+    {
       "_": "types.LangPackString",
       "key": "GlobalSearch.Empty.Desc.PremiumRequired",
       "value": "Yleishaku on Premium-toiminto."
@@ -23172,6 +23304,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcherParams.ShownToTheUserInThisChatAsADraft",
+      "value": "Näkyy käyttäjälle luonnoksena, jossa on lähetys- ja välityspainikkeet. Mitään ei lähetetä, jos käyttäjä ei paina viestiä lähetettäväksi. Älä lähetä sitä uudelleen tai odota sitä; kirjoita vastauksesi loppuun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.ShowsSomethingOnScreenAndThisConversationSTelegramAccount",
+      "value": "%1$@ näyttää jotain ruudulla, ja keskustelun Telegram-tili on eri kuin sovelluksessa. Tee loput toiminnoista ilman sitä, tai kutsu ensin switch_account-toimintoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DidnTResolveToAChatItMayNotExist",
+      "value": "@%1$@ ei vastaa keskustelua. Ehkä sitä ei ole olemassa, tai Telegram rajoittaa käyttäjänimien katselua tällä hetkellä. Voit kokeilla uudelleen muutaman minuutin päästä tai antaa keskustelun ID:n, jos se on yksi käyttäjän keskusteluista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DownloadAFileFrom",
+      "value": "ladata tiedoston kohteesta \"%1$@\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TelegramTookTheLinkButNothingNewAppearedOnScreen",
+      "value": "Telegram otti linkin, mutta ruudulle ei ilmestynyt mitään muutamassa sekunnissa: ehkä se oli jo auki, se aukesi Telegramin ulkopuolella, tai Telegram ei löytänyt sitä. Tarkista current_screen ennen kuin päätät, että se aukesi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Localization.Preview.Error.Generic",
       "value": "Tätä kieltä ei valitettavasti vaikuta olevan olemassa."
     },
@@ -23249,6 +23406,211 @@
       "_": "types.LangPackString",
       "key": "LocationPreview.Title",
       "value": "Sijainnin esikatselu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.NonContactInfo",
+      "value": "%1$@ ei ole yhteystiedoissasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.OpenChat",
+      "value": "Avaa keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.OpenNonContactChatTitle",
+      "value": "Avataanko ulkopuolinen keskustelu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.ThisPerson",
+      "value": "Tämä henkilö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SlideToConfirm",
+      "value": "Vahvista liu'uttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SliderAccessibilityHelp",
+      "value": "Siirrä liukusäädintä nuolinäppäimillä ja vahvista painamalla askelpalautinta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.Download",
+      "value": "Lataa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.DownloadRiskyFileInfo",
+      "value": "%1$@ voi sisältää koodia tai muuta turvatonta sisältöä. Telegram sijoittaa tiedoston väliaikaiseen kansioon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.DownloadRiskyFileTitle",
+      "value": "Ladataanko riskitiedosto?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.Cancel",
+      "value": "Peruuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ConfirmNonContactChats",
+      "value": "Vahvista keskustelut ulkopuolisilta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ConfirmNonContactChatsInfo",
+      "value": "Kysy ennen yksityiskeskustelun avaamista yhteystietojesi ulkopuolisen henkilön kanssa, kun Sulkutila on käytössä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsManual",
+      "value": "Nämä oli jo rajoitettu ennen Sulkutilaa. Muuta asetuksia, kuka voi soittaa sinulle, kutsua sinut ryhmiin ja lähettää sinulle viestejä, kohdasta Yksityisyys ja tietoturva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsOption",
+      "value": "Salli puhelut, ryhmäkutsut ja viestit myös vain yhteystiedoiltani"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsText",
+      "value": "Vain yhteystietosi voivat soittaa sinulle tai lisätä sinut ryhmiin, ja muiden aloittamat uudet keskustelut vaativat Premiumin. Tämän poistaminen käytöstä palauttaa aiemmat asetukset."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsTitle",
+      "value": "Yhteystietojen puhelut ja viestit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableInfo",
+      "value": "Media, linkit, tiedostot ja tekoälyagentti palaavat tavallisiin asetuksiisi. Muuttamasi yksityisyysasetukset säilyvät ennallaan. Harvinaiset kuvamuodot palaavat, kun avaat Telegramin seuraavan kerran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableOk",
+      "value": "Poista käytöstä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableTitle",
+      "value": "Poistetaanko Sulkutila käytöstä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.EnableInfo",
+      "value": "Viestit ja media: vain lähettämäsi ja yhteystietojesi lähettämät kuvat ladataan automaattisesti. Muiden keskusteluiden avaaminen vaatii erillisen vahvistuksen.\n\nLinkit ja verkkosivut: ei esikatselua linkeille, ei pikakatselua saapuville viesteille, pienoisohjelmia ei näytetä automaattisesti. Verkkosivut, pienoisohjelmat ja pikakatselu toimivat WebKitin Sulkutilassa. Pienoissovelluksilta pyydetään aina erikseen lupaa. Maksusivut estetään.\n\nTiedostot: mahdollisesti vaaralliset tiedot tulee vahvistaa ennen lataamista ja toisen kerran ennen avaamista. Telegram sijoittaa tiedostot väliaikaiskansioon. Suoritettavat ja väärin merkityt tiedostot voi vain paljastaa Finderissa. Kuvatyyppejä rajoitetaan niin, että vain JPEG, PNG, WebP; HEIC ja GIF sallitaan.\n\nPuhelut ja yksityisyys: valinnaisesti, alempana.\n\nTekoälyagentti: voi vain lukea sisältöä, varmistaa jokaisen toiminnon sinulta, ei käynnisty ellet erikseen käynnistä sitä, sen tietokonetta ei käytetä, ja sen vastaukset ovat pelkkää tekstiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.EnableOk",
+      "value": "Ota Sulkutila käyttöön"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.EnableTitle",
+      "value": "Otetaanko Sulkutila käyttöön?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.FilesText",
+      "value": "Mahdollisesti vaarallisten tiedostojen lataaminen ja avaaminen varmistetaan. Ohjelmat ja naamioituneet tiedostot voi vain paljastaa Finderissa, ja vain JPEG-, PNG-, WebP-, HEIC- ja GIF-kuvat avautuvat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.FilesTitle",
+      "value": "Varovasti tiedostojen kanssa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.Footer",
+      "value": "Sulkutila on äärimmäinen, valinnainen suoja ihmisille, joihin saatetaan kohdistaa henkilökohtaisia, kehittyneitä digitaalisia hyökkäyksiä. Telegram kysyy ennen linkkien, pienoissovellusten ja muun riskialttiin sisällön avaamista ja rajoittaa median automaattista lataamista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroFooter",
+      "value": "Tämä astuu voimaan heti. Harvinaiset kuvamuodot pysyvät estettyinä, kunnes avaat Telegramin seuraavan kerran tilan käytöstä poistamisen jälkeen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroText",
+      "value": "Äärimmäinen, valinnainen suoja heille, joihin saatetaan kohdistaa henkilökohtaisia, kehittyneitä digitaalisia hyökkäyksiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroTitle",
+      "value": "Sulkutila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.LockdownMode",
+      "value": "Sulkutila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.MediaText",
+      "value": "Vain yhteystietojen lähettämät kuvat latautuvat itsestään. Kaikki muu odottaa napautusta, ja keskustelun avaaminen yhteystietojesi ulkopuolisen henkilön kanssa kysyy ensin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.MediaTitle",
+      "value": "Tuntemattomien media odottaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.WebText",
+      "value": "Saapuvista linkeistä ei ladata esikatseluja tai pikakatseluja, ja pienoisohjelmat odottavat vahvistustasi. Verkkosivut ja pienoissovellukset avautuvat sulkutilallisessa selaimessa, ja maksusivut estetään."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.WebTitle",
+      "value": "Turvallisemmat linkit ja verkko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.StickerPlaceholderView.HiddenAccessibility",
+      "value": "Tarra on piilotettu Sulkutilan takia, %1$@. Näytä napauttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.StickerPlaceholderView.TapToShow",
+      "value": "Näytä napauttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.ClickToLoadIt",
+      "value": "Lataa napsauttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.HiddenAccessibility",
+      "value": "Pienoisohjelma piilotettu Sulkutilan takia. Lataa napsauttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidget",
+      "value": "Lataa pienoisohjelma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidgetInfo",
+      "value": "Tämän pienoisohjelman lataaminen suorittaa lähettäjän toimittamaa sisältöä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidgetTitle",
+      "value": "Ladataanko pienoisohjelma?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.WidgetHiddenByLockdownMode",
+      "value": "Pienoisohjelma piilotettu Sulkutilan takia"
     },
     {
       "_": "types.LangPackString",
@@ -24562,6 +24924,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessagesActions.DayBehindUnsent",
+      "value": "Tämän keskustelun uudempia viestejä lähetetään vielä, tai niitä ei voitu lähettää. Luku ei onnistunut niiden ohi. Yritä suurempaa rajaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesActions.DayTooFar",
+      "value": "Telegram ei voinut siirtyä valittuun päivämäärään. Se on aiemmin kun mihin voitiin siirtyä. Uusia viestejä voi kuitenkin olla: yritä uudelleen tai lue vanhempia sivuja before:lla."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessagesPrivacy.ChargeforMessages",
       "value": "Veloita viesteistä"
     },
@@ -25637,6 +26009,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsFeedbackActions.ServerNewsUnavailable",
+      "value": "Telegramin palvelimen uutiset (sinulle, uutishaku, tykkäykset, aiheet) eivät ole vielä saatavilla tällä tilillä. Telegram sallii ne vain tietyille tileille. news_feed ja feed=added toimii yhä: se toimii käyttäjän omilla kanavilla. Jos haluat etsiä julkisia julkaisuja, kokeile search_posts-toimintoa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.Boost.Multiple",
       "value": "%1$@ nostatti ryhmää %2$@"
     },
@@ -26551,6 +26928,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.Controllers.RecoveryRequired",
+      "value": "Avaa Telegram uudelleen valmistellaksesi pääsykoodin vaihton. Jos vaihdoit pääsykoodin, kokeile ensin uutta ja vasta sitten edellistä. Tietosi säilytetään."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.EnterCurrentPlaceholder",
       "value": "Syötä nykyinen pääsykoodisi"
     },
@@ -26563,6 +26945,21 @@
       "_": "types.LangPackString",
       "key": "Passcode.EnterPasscodePlaceholder",
       "value": "Syötä pääsykoodisi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.KeyDamaged",
+      "value": "Telegramin tietoja tällä Macilla suojaava avain on turmeltunut, eikä tietoja voi avata. Kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.KeyMismatch",
+      "value": "Telegramin tiedot on suojattu aiemman asennuksen tai toisen Macin avaimella, joten niitä ei voi avata tällä Macilla. Kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.KeyMissing",
+      "value": "Telegramin tiedot on suojattu avaimella, jota ei ole tallella. Tietoja ei voi avata. Jos vaihdoit tälle Macille tai palautit sen, palauta aiempi kirjautumiseen käytetty avainnippu palauttaaksesi avaimen. Muussa tapauksessa kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
     },
     {
       "_": "types.LangPackString",
@@ -27014,6 +27411,11 @@
       "_": "types.LangPackString",
       "key": "Passport.ResetPassword.Confirm.Text",
       "value": "Kaikki Telegram-passiisi liittyvät asiakirjat menetetään. Voit kuitenkin lähettää ne uudestaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PaymentWeb.InteractionController.LockdownBlocked",
+      "value": "Maksusivut on estetty, koska Sulkutila on käytössä. Poista Sulkutila käytöstä kohdassa Asetukset › Yksityisyys ja tietoturva, jotta voit maksaa."
     },
     {
       "_": "types.LangPackString",
@@ -27521,6 +27923,16 @@
       "_": "types.LangPackString",
       "key": "PeerCall.Screen.E2E.Info",
       "value": "Jos henkilön **%1$@** ruudulla näkyvä emojisarja on sama, tämä puhelu on %2$@ turvallinen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerHistory.Alerts.ClearHistoryForEveryone",
+      "value": "Tämä tyhjentää historian kaikilta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerHistory.Alerts.ClearHistoryForMe",
+      "value": "Tämä tyhjentää historian sinulta itseltäsi."
     },
     {
       "_": "types.LangPackString",
@@ -29095,6 +29507,11 @@
       "_": "types.LangPackString",
       "key": "PeerSelect.InviteViaLink",
       "value": "Kutsu ryhmään kutsulinkillä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeersList.Controller.NewStory",
+      "value": "Uusi tarina"
     },
     {
       "_": "types.LangPackString",
@@ -30682,6 +31099,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyAndSecurity.ViewController.LockdownHeader",
+      "value": "SULKUTILA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyAndSecurity.ViewController.LockdownMode",
+      "value": "Sulkutila"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyAndSecurity.WebAuthorizationHeader",
       "value": "Yhdistetyt sivustot"
     },
@@ -31756,6 +32183,56 @@
       "_": "types.LangPackString",
       "key": "QuickLook.Preview",
       "value": "Esikatselu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedArchiveInfo",
+      "value": "%1$@ on itse asiassa arkisto, vaikka nimi viittaa toiseen tiedostotyyppiin. Avaa se vain, jos luotat lähettäjään."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedPDFInfo",
+      "value": "%1$@ on itse asiassa PDF-asiakirja, vaikka nimi viittaa toiseen tiedostotyyppiin. Avaa se vain, jos luotat lähettäjään."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedProgramInfo",
+      "value": "%1$@ on itse asiassa ohjelma, vaikka nimi viittaa toiseen tiedostotyyppiin. Avaa se vain, jos luotat lähettäjään."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedScriptInfo",
+      "value": "%1$@ on itse asiassa komentosarja, vaikka nimi viittaa toiseen tiedostotyyppiin. Avaa se vain, jos luotat lähettäjään."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.OpenFile",
+      "value": "Avaa tiedosto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.OpenRiskyFileInfo",
+      "value": "%1$@ voi ladata etäsisältöä tai suorittaa komentosarjoja avattaessa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.OpenRiskyFileTitle",
+      "value": "Avataanko riskitiedosto?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.RiskyFileBlocked",
+      "value": "Riskitiedosto estetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.RiskyFileBlockedInfo",
+      "value": "%1$@ voi suorittaa koodia Macillasi tai piilottaa toisen tiedostotyypin. Voit etsiä sen Finderista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.ShowInFinder",
+      "value": "Näytä Finderissa"
     },
     {
       "_": "types.LangPackString",
@@ -32887,6 +33364,11 @@
       "_": "types.LangPackString",
       "key": "ScheduleController.at",
       "value": "klo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ScreenActions.ControlsGuide",
+      "value": "ui_snapshot luettelee ruudulla olevat painikkeet, kytkimet, välilehdet, kentät ja luettelot, ja jokaiselle ID:n ui_press-, ui_set_value- ja ui_scroll-toimintoja varten, jos ruudulle ei ole erillisiä toimintoja."
     },
     {
       "_": "types.LangPackString",
@@ -39851,6 +40333,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.StopVideoNote",
+      "value": "Lopeta videoviesti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.Text",
       "value": "Teksti"
     },
@@ -40342,6 +40829,31 @@
       "_": "types.LangPackString",
       "key": "StoryCreationCamera.RecordingDuration",
       "value": "Nauhoituskesto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveVideoNote",
+      "value": "Poistetaanko tämä videoviesti?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraAccessRequired",
+      "value": "Salli kameran käyttö videoviestin tallentamiseksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraUnavailable",
+      "value": "Kameraa ei ole käytettävissä videoviestin tallentamiseen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteRecordingFailed",
+      "value": "Telegram ei voinut tallentaa tätä videoviestiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteTimeline",
+      "value": "Videoviestin aikajana"
     },
     {
       "_": "types.LangPackString",
@@ -41396,6 +41908,22 @@
       "_": "types.LangPackString",
       "key": "Telegram.WebSessionsController",
       "value": "Telegram-kirjautumiset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramAgent.Environment.NewerNotLoaded",
+      "value": "Telegram ei ehtinyt ladata keskustelun uudempia viestejä, joten niitä saattaa puuttua. Kokeile lukea myöhemmin uudelleen next_after-parametria käyttäen; jos sama toistuu, Telegram ei voi ladata niitä juuri nyt, esimerkiksi jos verkkoyhteyttä ei ole."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramAgent.Environment.OlderNotLoaded",
+      "value": "Telegram ei ehtinyt ladata keskustelun vanhempia viestejä, joten niitä saattaa puuttua. Kokeile lukea myöhemmin uudelleen; jos sama toistuu, Telegram ei voi ladata niitä juuri nyt, esimerkiksi jos verkkoyhteyttä ei ole."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "TelegramAgent.Environment.PaidMessages",
+      "one_value": "“%1$@” veloittaa %2$d tähden joka viestistä. Et maksa käyttäjän puolesta mitään, joten viestejä ei lähetetty. Kerro käyttäjälle, että hän voi lähettää viestejä itse.",
+      "other_value": "“%1$@” veloittaa %2$d tähteä joka viestistä. Et maksa käyttäjän puolesta mitään, joten viestejä ei lähetetty. Kerro käyttäjälle, että hän voi lähettää viestejä itse."
     },
     {
       "_": "types.LangPackString",
@@ -43162,6 +43690,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UIControlActions.IdsLookLikeS3e12AndOnlyWorkUntilTheNext",
+      "value": "ID-esimerkki: s3e12. Ne toimivat vain seuraavaan ui_snapshot- or ui_*-toimintoon asti. {press}, {set_value}, {scroll} ja {action: name} näyttää, mitä jokainen toiminto vaatii; {blocked: ...} tarkoittaa, että omaa toimintoa tulee käyttää."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "URL.Link.OnlyAllowed",
       "value": "Vain %@-linkit sallittuja"
     },
@@ -43442,6 +43975,106 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamesActions.Hide",
+      "value": "Piilota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.HideUsername",
+      "value": "Piilotetaanko käyttäjänimi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Reorder",
+      "value": "Järjestä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ReorderUsernames",
+      "value": "Muutetaanko käyttäjänimien järjestystä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.SetUsernameChangesTheEditableOneCollectibleOnesCanBe",
+      "value": "set_username muuttaa muokattavaa käyttäjänimeä; keräiltäviä käyttäjänimiä voi tässä ottaa käyttöön tai pois käytöstä ja järjestää uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Show",
+      "value": "Näytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ShowUsername",
+      "value": "Näytetäänkö käyttäjänimi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ShowUsernamesInThisOrder",
+      "value": "Agentti haluaa näyttää %1$@ käyttäjänimeä tässä järjestyksessä: %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTAnswerTryAgain",
+      "value": "Telegram ei vastannut. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTChangeOnlyTheOwnerCan",
+      "value": "Telegram ei muuttanut käyttäjänimeä @%1$@; vain omistaja voi tehdä niin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTReorderTheUsernamesOnlyTheOwnerCan",
+      "value": "Telegram ei järjestänyt käyttäjänimiä uudelleen; vain omistaja voi tehdä niin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TooManyUsernamesAreShownAlreadyHideOneFirst",
+      "value": "Käyttäjänimiä näytetään jo liikaa; piilota ensin yksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TurnOffForItStays",
+      "value": "Agentti haluaa ottaa käyttäjänimen @%1$@ pois käytöstä kohteelta %2$@. Se jää varatuksi, ja sen voi ottaa uudelleen käyttöön."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TurnOnForItWill",
+      "value": "Agentti haluaa ottaa käyttöön käyttäjänimen @%1$@ kohteelle %2$@. Se näytetään muiden käyttäjänimien kanssa ja johtaa osoitteeseen %3$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesCanTBeChangedHere",
+      "value": "Käyttäjänimiä ei voi muuttaa tässä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesCanTBeReadHere",
+      "value": "Käyttäjänimiä ei voi lukea tässä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesDidnTLoadTryAgain",
+      "value": "Käyttäjänimiä ei voitu ladata. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.You",
+      "value": "sinä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Your",
+      "value": "sinun"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.YourProfile",
+      "value": "profiilisi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Vdr-fp-XzO.title",
       "value": "Kätke muut ikkunat"
     },
@@ -43494,6 +44127,26 @@
       "_": "types.LangPackString",
       "key": "VideoAvatar.ChooseDesc.Profile",
       "value": "Valitse esikatselu profiilikuvallesi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.OpenAPhotoOrVideoFromOnYourScreen",
+      "value": "avata kuvan tai videon kohteesta \"%1$@\" näytöllesi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.OpenTheQRCodeOfOnYourScreen",
+      "value": "avata kohteen \"%1$@\" QR-koodin näytöllesi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.TheMediaViewerCanTBeOpenedRightNow",
+      "value": "Mediakatselinta ei voi avata juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.TheQRStudioCanTBeOpenedRightNow",
+      "value": "QR-studiota ei voi avata juuri nyt."
     },
     {
       "_": "types.LangPackString",
@@ -49531,6 +50184,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebSessionsActions.ConnectedWebsitesDidnTLoadTryAgain",
+      "value": "Yhdistettyjä verkkosivustoja ei voitu ladata. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebSessionsActions.SeeTheWebsitesYouLoggedInToWithTelegram",
+      "value": "nähdä verkkosivustot, joille olet kirjautunut Telegramilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebSessionsActions.WebsitesTheUserLoggedInToWithTelegramDisconnectingOne",
+      "value": "Verkkosivustot, joille käyttäjä on kirjautunut Telegramilla. Yhteyden katkaisu jää voimaan käyttäjän puolella kohdassa Asetukset → Yksityisyys ja tietoturva → Telegram-kirjautumiset."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Webapp.AllowMessages.OK",
       "value": "Anna lupa"
     },
@@ -49633,6 +50301,76 @@
       "_": "types.LangPackString",
       "key": "Webpage.Confirm.Ok",
       "value": "Sulje silti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.AccessMiniAppToken",
+      "value": "käyttää kohteen %1$@ pienoissovelluksen todennetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.Download",
+      "value": "Lataa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadFileFromMiniAppTitle",
+      "value": "Ladataanko tiedosto pienoissovelluksesta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadFileInfo",
+      "value": "%1$@ haluaa ladata tiedoston %2$@. Pienoissovelluksista tulevat tiedostot voivat sisältää turvatonta sisältöä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadedToTemporaryFolder",
+      "value": "Ladattiin väliaikaiseen kansioon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportExistingMiniAppToken",
+      "value": "Tuodaanko pienoissovelluksen olemassa oleva tunnus?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportToken",
+      "value": "Tuo tunnus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportTokenInformation",
+      "value": "Vanhempi Telegram-versio tallensi biometrisen todenteen kohteelle %1$@ ilman tietoa siitä, mikä Telegram-tili omistaa sen. Tuo se tilille %2$@ vain, jos se kuuluu tälle tilille. Alkuperäinen todenne säilytetään."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.InviteToBot",
+      "value": "Kutsu bottiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.OpenLink",
+      "value": "Avaa linkki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.OpenLinkTitle",
+      "value": "Avataanko linkki?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ShowInFinder",
+      "value": "Näytä Finderissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Website.Controller.OpenLink",
+      "value": "Avaa linkki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Website.Controller.OpenLinkTitle",
+      "value": "Avataanko linkki?"
     },
     {
       "_": "types.LangPackString",
@@ -49808,6 +50546,51 @@
       "_": "types.LangPackString",
       "key": "Widget.Recent.Title",
       "value": "Keskustelut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ClickInAWidget",
+      "value": "napsauttaa pienoisohjelmassa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.PressKeysInAWidget",
+      "value": "painaa näppäimiä pienoisohjelmassa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ReadAWidget",
+      "value": "lukea pienoisohjelmaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.Run",
+      "value": "Suorita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.RunCodeInWidget",
+      "value": "Suoritetaanko koodia pienoisohjelmassa?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.RunThisInAChat",
+      "value": "Agentti haluaa suorittaa tämän pienoisohjelmassa:\n%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.SeeTheWidgetsInYourChats",
+      "value": "nähdä keskustelujesi pienoisohjelmat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.TheWidgetDidnTAnswerInTime",
+      "value": "Pienoisohjelma ei vastannut ajoissa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ThisTelegramCanTControlChatWidgets",
+      "value": "Tämä Telegram ei voi hallita keskustelujen pienoisohjelmia."
     },
     {
       "_": "types.LangPackString",
@@ -50145,5 +50928,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2470046
+  "version": 2471396
 }

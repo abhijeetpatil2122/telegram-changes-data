@@ -78,6 +78,18 @@ button.cell {
   mix-blend-mode: normal;
 }
 
+/* The WebGL mark replaces the flat glyph when it has drawn. */
+.pm-mark-gl {
+  position: absolute;
+  inset: 6%;
+  width: 88%;
+  height: 88%;
+}
+
+.pm-mark.is-3d .pm-mark-glyph {
+  display: none;
+}
+
 /* Twinkling sparkles around the mark. */
 .pm-twinkle {
   position: absolute;
@@ -168,21 +180,6 @@ button.cell {
   display: grid;
   gap: var(--space-12);
   margin-top: var(--space-16);
-}
-
-/* The in-page CTA fallback (clients without the native MainButton): the design's bar docks it above the safe area. */
-.cta-bar > .cta-button {
-  position: relative;
-  display: grid;
-}
-
-.cta-bar {
-  margin-top: var(--space-16);
-}
-
-/* The hidden CTA driving the native MainButton must never appear. */
-.js-cta[hidden] {
-  display: none;
 }
 
 /* Hero artwork: the server-rendered Lottie marks (the design's 3D canvases are client-side only).

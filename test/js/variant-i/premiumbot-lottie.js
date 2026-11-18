@@ -2,8 +2,9 @@
 window.PremiumLottie = (function() {
   'use strict';
 
-  var WASM_URL = '/js/premiumbot-tlottie.wasm';
-  var NOSIMD_URL = '/js/premiumbot-tlottie.nosimd.wasm';
+  // Deployments and standalone playgrounds may override the engines' root before this script runs.
+  var WASM_URL = (window.PMA_LOTTIE_WASM_BASE || '/js/') + 'premiumbot-tlottie.wasm';
+  var NOSIMD_URL = (window.PMA_LOTTIE_WASM_BASE || '/js/') + 'premiumbot-tlottie.nosimd.wasm';
   var SIMD_PROBE = new Uint8Array([
     0, 97, 115, 109, 1, 0, 0, 0, 1, 5, 1, 96, 0, 1, 123, 3, 2, 1, 0, 10, 8, 1, 6, 0, 65, 0, 253, 15, 11
   ]);

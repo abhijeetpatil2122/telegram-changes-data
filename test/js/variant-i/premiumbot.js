@@ -215,7 +215,8 @@ window.PremiumApp = (function() {
     if (!mainButtonAvailable()) {
       return;
     }
-    var pathname = window.location.pathname;
+    // Playgrounds pin the fake result route here; production takes location.
+    var pathname = window.PMA_RESULT_PATH || window.location.pathname;
     if (pathname.indexOf('/premiumbot/result/') !== 0) {
       return;
     }

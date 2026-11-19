@@ -287,6 +287,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Account.Actions.NotificationsLoadFailed",
+      "value": "No se cargaron tus ajustes de notificaciones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.ProfileLoadFailed",
+      "value": "No se cargó el perfil. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.SessionsLoadFailed",
+      "value": "No se cargaron la sesiones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Account.Confirm.AskQuestion",
       "value": "Ten en cuenta que el soporte de Telegram está en manos de voluntarios. Respondemos lo antes posible, pero puede tomar tiempo.\n\nPuedes mirar las preguntas frecuentes de Telegram: tienen soluciones a problemas y respuestas a la mayoría de las preguntas."
     },
@@ -313,7 +328,7 @@
     {
       "_": "types.LangPackString",
       "key": "Account.ViewController.GramEarnings",
-      "value": "Ganancias de grams"
+      "value": "Ganancias en grams"
     },
     {
       "_": "types.LangPackString",
@@ -1143,6 +1158,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.PickerController.Medium",
+      "value": "Medio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.ReasoningEffort",
+      "value": "Esfuerzo de razonamiento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.Ultra",
+      "value": "Ultra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.Model",
+      "value": "Modelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.ReasoningEffort",
+      "value": "Esfuerzo de razonamiento"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiStylePreview.AddByAuthor",
       "value": "Añade este estilo de [%1$@](%1$@) para transformar tus mensajes en el editor con IA."
     },
@@ -1310,12 +1350,12 @@
     {
       "_": "types.LangPackString",
       "key": "App.MaxFileSize",
-      "value": "El tamaño máximo de un archivo es de 2 GB"
+      "value": "El tamaño máximo de un archivo es 2 GB"
     },
     {
       "_": "types.LangPackString",
       "key": "App.MaxFileSize1",
-      "value": "El tamaño máximo de un archivo es de 2 GB"
+      "value": "El tamaño máximo de un archivo es 2 GB"
     },
     {
       "_": "types.LangPackString",
@@ -1341,6 +1381,11 @@
       "_": "types.LangPackString",
       "key": "App.Tooltip.VoiceRecord",
       "value": "Mantén para grabar audio. Clic para cambiar a video."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppIconActions.IconsLoadFailed",
+      "value": "No se cargaron los íconos de la app. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -1526,6 +1571,16 @@
       "_": "types.LangPackString",
       "key": "Appearance.YourNameColor",
       "value": "Tu color"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppearanceActions.EmojiSetLoadFailed",
+      "value": "No se cargó el pack. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppearanceActions.ThemesLoadFailed",
+      "value": "No se cargaron los temas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -2481,6 +2536,16 @@
       "_": "types.LangPackString",
       "key": "Bot.InlineAuth.Title",
       "value": "¿Quieres abrir\n%@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.InvitedYou",
+      "value": "%1$@ te invitó a este bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.YouInvited",
+      "value": "Te invitaron a este bot."
     },
     {
       "_": "types.LangPackString",
@@ -10951,6 +11016,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Bought",
+      "value": "Comprado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.BoughtItem",
+      "value": "Compraste este ítem por **%1$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.BoughtViaProvider",
+      "value": "Compraste %1$@ vía %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ServiceItem.EncryptedComment",
       "value": "Comentario cifrado"
     },
@@ -11734,6 +11814,11 @@
       "_": "types.LangPackString",
       "key": "ChatAudio.FileTranscription.TooLong",
       "value": "El audio es demasiado largo para transcribirlo. Recorta la grabación a 30 minutos o menos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatCleanupActions.ListLoadFailed",
+      "value": "No se cargó la lista. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -13829,7 +13914,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChannelWriteForbidden",
-      "value": "No puedes publicar en este canal ahora mismo."
+      "value": "No puedes publicar en el canal en este momento."
     },
     {
       "_": "types.LangPackString",
@@ -13839,7 +13924,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatSend.Failure.ChatWriteForbidden",
-      "value": "No puedes enviar mensajes en este chat ahora mismo."
+      "value": "No puedes enviar mensajes en el chat en este momento."
     },
     {
       "_": "types.LangPackString",
@@ -14366,6 +14451,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chats.Actions.ContactsLoadFailed",
+      "value": "No se cargaron los contactos. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chats.Actions.FoldersLoadFailed",
+      "value": "No se cargaron las carpetas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Checkout.2FA.Text",
       "value": "El guardado de los datos de pago sólo está disponible con la verificación en dos pasos."
     },
@@ -14836,6 +14931,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CloseFriends.Actions.LoadFailed",
+      "value": "No se cargaron los mejores amigos. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CollectibleItemInfo.ButtonOpenInfo",
       "value": "Saber más"
     },
@@ -14861,8 +14961,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Comments.Actions.CommentsLoadFailed",
+      "value": "No se cargaron los comentarios. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Common.Restart",
       "value": "Reiniciar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.Remove",
+      "value": "Quitar"
     },
     {
       "_": "types.LangPackString",
@@ -14960,6 +15070,16 @@
       "_": "types.LangPackString",
       "key": "Communities.VisibleInfo",
       "value": "Cualquiera en la comunidad podrá ver este chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.CreateFailed",
+      "value": "Telegram no creó la comunidad."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.LoadFailed",
+      "value": "No se cargaron tus comunidades. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -15812,6 +15932,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContactsActions.SendFailed",
+      "value": "no se pudo enviar el contacto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContactsActions.UnknownUser",
+      "value": "usuario desconocido"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Context.Alert.Copied",
       "value": "Copiado al portapapeles"
     },
@@ -16499,6 +16629,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CustomEmojiSendActions.SetLoadFailed",
+      "value": "No se cargó el pack. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CustomReaction.PremiumAlert",
       "value": "Suscríbete a Premium para desbloquear esta reacción.\n[Leer más]()"
     },
@@ -16799,6 +16934,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DefaultAutoDeleteActions.LoadFailed",
+      "value": "No se cargó la autoeliminación para chats nuevos. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DefaultSoundName",
       "value": "Por defecto"
     },
@@ -16913,12 +17053,12 @@
     {
       "_": "types.LangPackString",
       "key": "DiceRoll.MaxStake",
-      "value": "La apuesta máxima es de %1$@ grams"
+      "value": "La apuesta máxima es %1$@ grams"
     },
     {
       "_": "types.LangPackString",
       "key": "DiceRoll.MinStake",
-      "value": "La apuesta mínima es de %1$@ grams"
+      "value": "La apuesta mínima es %1$@ grams"
     },
     {
       "_": "types.LangPackString",
@@ -17149,6 +17289,11 @@
       "_": "types.LangPackString",
       "key": "DisplayMeAs.Title",
       "value": "Mostrarme como"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslateActions.LoadFailed",
+      "value": "No se cargaron los ajustes de traducción. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -18931,6 +19076,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FeaturedAndReceipt.Actions.TrendingSetsLoadFailed",
+      "value": "No se cargaron los packs destacados. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FileSize.B",
       "value": "%@ B"
     },
@@ -18948,6 +19098,11 @@
       "_": "types.LangPackString",
       "key": "FileSize.MB",
       "value": "%@ MB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.FoldersLoadFailed",
+      "value": "No se cargaron las carpetas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -19439,6 +19594,11 @@
       "_": "types.LangPackString",
       "key": "Fragment.Ton.MinWithdraw",
       "value": "No puedes retirar menos de %d grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentGift.Price.PriceInTON",
+      "value": "Precio en grams"
     },
     {
       "_": "types.LangPackString",
@@ -20951,6 +21111,11 @@
       "_": "types.LangPackString",
       "key": "Gifting.UserChargeStars",
       "value": "**%1$@** cobra **%2$@** por cada mensaje. Ese precio se ha añadido al coste del regalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gifts.Actions.GiftsLoadFailed",
+      "value": "No se cargaron los regalos. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -22952,6 +23117,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lists.Actions.TagsLoadFailedRetry",
+      "value": "No se cargaron las etiquetas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ListsAndLimits.Actions.LimitsLoadFailed",
+      "value": "No se cargaron los límites. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiteMode.DisableAlert",
       "value": "Apaga el modo ahorro de energía"
     },
@@ -23129,6 +23304,26 @@
       "_": "types.LangPackString",
       "key": "LiveStream.Title",
       "value": "Stream en directo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcherParams.FoldersDidnTLoadTryAgain",
+      "value": "No se cargaron las carpetas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ThatMessageWasnTFoundIn",
+      "value": "No se encontró ese mensaje en “%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.MessageNotFound",
+      "value": "No se encontró ese mensaje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.UsernameForSale",
+      "value": "@%1$@ está ocupado; sólo se puede comprar en Fragment"
     },
     {
       "_": "types.LangPackString",
@@ -24905,6 +25100,16 @@
       "_": "types.LangPackString",
       "key": "Monoforum.SentBy",
       "value": "Enviado por [%@]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MyBotsActions.LoadFailed",
+      "value": "No se cargaron tus bots. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NameColorActions.ColorsLoadFailed",
+      "value": "No se cargaron los colores. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -31254,6 +31459,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileExtrasActions.BirthdaysLoadFailed",
+      "value": "No se cargaron los cumpleaños. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtrasActions.EarningsLoadFailed",
+      "value": "No se cargaron las ganancias. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtrasActions.ProfileLoadFailed",
+      "value": "No se cargó el perfil. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileTab.ContextMenu.SetAsMain",
       "value": "Establecer como principal"
     },
@@ -31696,6 +31916,11 @@
       "_": "types.LangPackString",
       "key": "QuickLook.Preview",
       "value": "Vista previa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReactionActions.ReactionsLoadFailed",
+      "value": "No se cargaron las reacciones. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -32805,6 +33030,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedStickersActions.ListLoadFailed",
+      "value": "No se cargó la lista %1$@. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Schedule.SendDate",
       "value": "Enviar el %@ a las %@"
     },
@@ -32827,6 +33057,11 @@
       "_": "types.LangPackString",
       "key": "ScheduleController.at",
       "value": "a las"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ScreenActions.ChatNotFound",
+      "value": "No se encontró “%1$@”."
     },
     {
       "_": "types.LangPackString",
@@ -34099,7 +34334,7 @@
     {
       "_": "types.LangPackString",
       "key": "SelectColor.Empty",
-      "value": "Ahora mismo no hay nada a la venta."
+      "value": "En este momento no hay nada a la venta."
     },
     {
       "_": "types.LangPackString",
@@ -35919,6 +36154,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SoundsActions.SoundsLoadFailed",
+      "value": "No se cargaron tus sonidos de notificaciones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Star.Auction.Acquired.AcceptedBid",
       "value": "Puja aceptada"
     },
@@ -37605,6 +37845,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.GiftPurchased",
+      "value": "Oferta aceptada. Compraste este regalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.Option.Join",
       "value": "Unirme"
     },
@@ -38233,6 +38478,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarsSubscriptionsActions.LoadFailed",
+      "value": "No se cargaron las suscripciones por estrellas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stats.Boosts",
       "value": "Impulsos"
     },
@@ -38635,6 +38885,11 @@
       "value": "El pack incluye stickers premium como este. [Ver pack]()"
     },
     {
+      "_": "types.LangPackString",
+      "key": "StickerOrderActions.LoadFailed",
+      "value": "No se cargó tu %1$@. Reinténtalo."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "StickerPack.Add1",
       "one_value": "Añadir %d sticker",
@@ -38833,6 +39088,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerSetActions.AddStickerTitle",
+      "value": "¿Añadir el sticker?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerSetActions.Create",
+      "value": "Crear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerSetActions.LoadFailed",
+      "value": "No se cargaron tus packs de stickers. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stickers.Confirm.ClearRecentHeader",
       "value": "Borrar stickers recientes"
     },
@@ -38942,6 +39212,11 @@
       "_": "types.LangPackString",
       "key": "Stickers.ViewController.CreateSticker",
       "value": "Crear sticker"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.UsageLoadFailed",
+      "value": "No se cargó el uso de almacenamiento. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -39380,6 +39655,26 @@
       "_": "types.LangPackString",
       "key": "Stories.FoundList.NotFound",
       "value": "No se encontraron historias"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickersActions.StoriesDidnTLoadTryAgain",
+      "value": "No se cargaron las historias. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickersActions.TheSetDidnTLoadTryAgain",
+      "value": "No se cargó el pack. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickersActions.TheSetsDidnTLoadTryAgain",
+      "value": "No se cargaron los packs. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickersActions.TheViewersDidnTLoadTryAgain",
+      "value": "No se cargaron las vistas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -40398,6 +40693,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryStealthActions.TheStorySettingsDidnTLoadTryAgain",
+      "value": "No se cargaron los ajustes de historia. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryView.ContextMenu.Block",
       "value": "Bloquear usuario"
     },
@@ -40957,6 +41257,11 @@
       "_": "types.LangPackString",
       "key": "Telegram.WebSessionsController",
       "value": "Sesión iniciada con Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TelegramAgent.Environment.FoldersNotLoaded",
+      "value": "No se cargaron las carpetas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -43756,12 +44061,12 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.ShareScreen.MutedError",
-      "value": "No puedes compartir pantalla ahora mismo. Pide la palabra primero."
+      "value": "No puedes compartir pantalla en este momento. Pide la palabra primero."
     },
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.ShareVideo.MutedError",
-      "value": "No puedes compartir tu video ahora mismo. Pide la palabra primero."
+      "value": "No puedes compartir tu video en este momento. Pide la palabra primero."
     },
     {
       "_": "types.LangPackString",
@@ -46907,7 +47212,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.EarningsBannerSuffix",
-      "value": " en ganancias de grams"
+      "value": " en ganancias en grams"
     },
     {
       "_": "types.LangPackString",
@@ -48611,6 +48916,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferDeclined",
+      "value": "Oferta rechazada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "Coleccionable saliente"
     },
@@ -48623,6 +48933,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingTransfer",
       "value": "Transferencia saliente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSaleFor",
+      "value": "Puesto a la venta por %1$@ grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.RemovedFromSale",
+      "value": "Quitado de la venta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Repriced",
+      "value": "El precio de %1$@ cambió a %2$@ grams"
     },
     {
       "_": "types.LangPackString",
@@ -48759,6 +49084,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.Title",
       "value": "Billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EarningsInWallet",
+      "value": "Las ganancias en grams ahora están en tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.MoveGramEarnings",
+      "value": "**%1$@** se moverán desde tus ganancias en grams al saldo de tu billetera para que puedas continuar con este regalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NotForSale",
+      "value": "Este regalo ya no está a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.UseGramEarnings",
+      "value": "¿Usar ganancias en grams?"
     },
     {
       "_": "types.LangPackString",
@@ -49671,5 +50016,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2438991
+  "version": 2480441
 }

@@ -855,6 +855,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.Effort",
+      "value": "Napor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Stručni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Brzi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Srednji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ultra"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.InputPlaceholder",
       "value": "Pitajte agenta"
     },
@@ -4421,6 +4446,53 @@
       "_": "types.LangPackString",
       "key": "Bot.Unblock",
       "value": "Ponovno pokreni bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Ovaj korisnik već razgovara s botom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Ovi korisnici već razgovaraju s botom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Nije moguće pozvati korisnike. Pokušajte ponovno kasnije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Samo vlasnik bota može pozivati ​​korisnike."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Postavke privatnosti ovog korisnika ne dopuštaju pozivanje u botove."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Previše pokušaja. Pokušajte ponovno kasnije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Možete pozvati do 10 korisnika odjednom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Pozovite u bota"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Poslane su %@ pozivnice.",
+      "key": "BotInvite.Sent",
+      "one_value": "Poslana je %@ pozivnica.",
+      "other_value": "Poslano je %@ pozivnica."
     },
     {
       "_": "types.LangPackString",
@@ -8629,6 +8701,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Channel.Edit.PrivateConfirmation.Text",
+      "value": "Javna veza vašeg kanala t.me/%@ će biti uklonjena, a ovo korisničko ime postat će dostupno svima. Nastaviti?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Channel.Edit.PrivateConfirmation.Title",
       "value": "Napraviti kanal privatnim?"
     },
@@ -10544,6 +10621,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "Vlasnik bota %1$@ je %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.BottomSearchPanel.DisplayModeChat",
       "value": "razgovor"
     },
@@ -10991,6 +11073,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Dictation.Enhancing",
       "value": "Poboljšavanje…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Prepoznavanje govora nije uspjelo. Pokušajte ponovno."
     },
     {
       "_": "types.LangPackString",
@@ -18304,6 +18391,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.BotInteractiveUrlAlert",
       "value": "Želite li dopustiti %@ da proslijedi vaše Telegram ime i vaš ID broj (to nije vaš broj telefona) na stranice koje otvorite s ovim botom?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ vas poziva da koristite ovaj bot"
     },
     {
       "_": "types.LangPackString",
@@ -25716,6 +25808,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Nastavi prikazivati ​​na mom profilu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Pojavit će se u"
     },
@@ -25813,6 +25910,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.Sent",
+      "value": "Kupnja je pokrenuta. **%@** će se pojaviti u vašem novčaniku nakon što to potvrdi mreža."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Poklon **%1$@** je poslan i uskoro će biti dostavljen korisniku **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Poklon **%@** je poslan i uskoro će biti dostavljen primatelju."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Vaš poklon je uklonjen iz prodaje, ali mreža to još nije potvrdila. Postavite novu cijenu nakon što bude potvrđena."
     },
@@ -25823,13 +25935,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotMinted",
+      "value": "Ovaj poklon još nije na blockchainu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Ovaj poklon nije u vašem novčaniku."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.OnlyForSelf",
       "value": "Poklone u ponudi na Fragment platformi možete kupiti samo za sebe."
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.PriceInvalid",
+      "value": "Ova cijena je izvan dopuštenog raspona."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.RelistFailed",
       "value": "Vaš poklopn je uklonjen iz prodaje, ali njegovo uvrštavanje po novoj cijeni nije uspjelo: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Ovaj poklon je još uvijek na prodaju. Pričekajte da se prethodna transakcija završi i pokušajte ponovno."
     },
     {
       "_": "types.LangPackString",
@@ -25843,13 +25975,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SelfPurchase",
+      "value": "Ne možete kupiti poklon koji ste sami stavili u prodaju."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.InsufficientBalance.Text",
       "value": "Nemate dovoljno grama u novčaniku. To zahtijeva **%@** uključujući mrežne naknade."
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.List.Sent",
+      "value": "Poklon **%@** će biti stavljen u prodaju nakon što to potvrdi mreža."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Otvori moj Novac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "Cijena poklona **%1$@** je promijenjena u **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Unlist.Sent",
+      "value": "Poklon **%@** će biti uklonjen iz prodaje nakon što to potvrdi mreža."
     },
     {
       "_": "types.LangPackString",
@@ -25895,6 +26047,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Ponuda ističe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Vlasnik će dobiti"
     },
     {
       "_": "types.LangPackString",
@@ -25988,6 +26145,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Vlasnik će dobiti **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Unesite broj grama koji želite ponuditi za **%@**."
     },
@@ -26010,6 +26172,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Prodaja predana. Primit ćete **%@** nakon što se potvrdi na blockchainu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Ponuda je prihvaćena"
     },
     {
       "_": "types.LangPackString",
@@ -26553,6 +26720,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Store.Filter.Backdrop",
       "value": "Pozadina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Store.Filter.FixedSale",
+      "value": "Prodaja na blockchainu"
     },
     {
       "_": "types.LangPackString",
@@ -28268,6 +28440,11 @@
       "_": "types.LangPackString",
       "key": "Group.Edit.PrivateConfirmation.Continue",
       "value": "Nastavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Group.Edit.PrivateConfirmation.Text",
+      "value": "Javna veza vaše grupe t.me/%@ će biti uklonjena, a ovo korisničko ime postat će dostupno svima. Nastaviti?"
     },
     {
       "_": "types.LangPackString",
@@ -35788,8 +35965,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.Display.Compact",
+      "value": "Zbijeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Display.Expanded",
+      "value": "Prošireno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "News.Interests.Title",
       "value": "Što vas zanima?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.ReloadFeed",
+      "value": "Ponovno učitaj novosti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Swipe.Collapse",
+      "value": "Sažmi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Swipe.Expand",
+      "value": "Proširi"
     },
     {
       "_": "types.LangPackString",
@@ -35827,6 +36029,26 @@
       "key": "Notification.Boost.Times",
       "one_value": "%@ pojačanje",
       "other_value": "%@ pojačanja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ vas poziva u ovaj bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Pozvani ste u ovaj bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ poziva ovog korisnika u bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Ovaj korisnik je pozvan u bot"
     },
     {
       "_": "types.LangPackString",
@@ -37138,6 +37360,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "kupljeno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "uništen"
     },
@@ -37394,6 +37621,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Ponudili ste **%1$@** za **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Prihvatili ste ponudu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Vaša ponuda od **%1$@** za **%2$@** je prihvaćena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Odbili ste ponudu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Vaša ponuda od **%1$@** za **%2$@** je odbijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Ponuda od **%1$@** za **%2$@** je istekla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Vaša ponuda od **%1$@** za **%2$@** je istekla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Prodali ste **%1$@** za **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Ponuda od **%1$@** za **%2$@** je povučena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Povukli ste svoju ponudu od **%1$@** za **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -39852,6 +40124,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Imate novu priču%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Proslijeđeno"
     },
     {
       "_": "types.LangPackString",
@@ -42728,6 +43005,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Na prodaju"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 od %@"
     },
@@ -42879,6 +43161,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Nemate dopuštenje za promjenu ove postavke."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Pozovite u bota"
     },
     {
       "_": "types.LangPackString",
@@ -46851,6 +47138,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Popis za reprodukciju"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "KANAL"
     },
@@ -48416,6 +48708,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Opisi medija ne mogu sadržavati gumbe, naslove, popise, tablice ili drugo napredno oblikovanje. Opis će biti spremljen kao tekst bez njih."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Dodaj formulu"
     },
@@ -48673,6 +48970,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Ukloniti oblikovanje?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Spremi bez oblikovanja"
     },
     {
       "_": "types.LangPackString",
@@ -50863,6 +51165,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Objavi\nu priči"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Slanje"
     },
     {
       "_": "types.LangPackString",
@@ -57512,6 +57819,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Ton.WithdrawToWallet.OutcomeUnknown",
+      "value": "Povlaćenje nije moguće potvrditi. Prije ponovnog pokušaja provjerite svoju povijest transakcija."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Ton.WithdrawToWallet.Text",
       "value": "Grami će biti poslani u vaš samostalni novčanik (%@)."
     },
@@ -61198,6 +61510,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.ChatList.ShowStoriesHint",
+      "value": "Dodirnite dvaput da biste prikazali priče"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.ChatList.UnreadMentions",
       "value": "Nepročitana spominjanja"
     },
@@ -61255,6 +61572,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.Common.Page",
       "value": "Stranica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.Common.SectionIndex",
+      "value": "Kazalo odjeljaka"
     },
     {
       "_": "types.LangPackString",
@@ -61605,6 +61927,11 @@
       "_": "types.LangPackString",
       "key": "VoiceOver.SuggestPost",
       "value": "Predloži objavu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.TabBar.AttentionRequired",
+      "value": "Potrebna je radnja"
     },
     {
       "_": "types.LangPackString",
@@ -63110,8 +63437,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Cijena promijenjena na %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Poslano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Prodano"
     },
     {
       "_": "types.LangPackString",
@@ -63227,6 +63564,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Nova cijena"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Kupac"
     },
@@ -63254,6 +63596,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Prodavač"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Stara cijena"
     },
     {
       "_": "types.LangPackString",
@@ -65259,5 +65606,5 @@
       "value": "Unijeli ste pogrešan sigurnosni kod."
     }
   ],
-  "version": 22657229
+  "version": 22665292
 }

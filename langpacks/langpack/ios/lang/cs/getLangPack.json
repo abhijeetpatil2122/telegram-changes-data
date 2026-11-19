@@ -4516,6 +4516,54 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Tento uživatel již vede konverzaci s botem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Tito uživatelé již vedou konverzaci s botem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Nelze pozvat uživatele. Zkuste to později."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Uživatele může pozvat pouze vlastník bota."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Nastavení soukromí tohoto uživatele neumožňuje pozvat ho do botů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Příliš mnoho pokusů. Zkuste to později."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Najednou můžete pozvat až 10 uživatelů."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Pozvat do bota"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ pozvánky byly odeslány.",
+      "key": "BotInvite.Sent",
+      "many_value": "%@ pozvánek bylo odesláno.",
+      "one_value": "Pozvánka byla odeslána.",
+      "other_value": "%@ pozvánek bylo odesláno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Smazat náhled?"
     },
@@ -10698,6 +10746,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "co to je?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ je ve vlastnictví %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18568,6 +18621,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ vás pozval/a k používání tohoto chatbota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Nahlásit spam a zablokovat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -26074,6 +26137,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Ponechat na mém profilu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Objeví se v"
     },
@@ -26177,6 +26245,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Dárek odeslán. **%1$@** bude brzy doruče uživateli **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Dárek odeslán. **%@** bude příjemci doručen v nejbližší době."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Váš dárek byl stažen z prodeje, ale síť to zatím nepotvrdila. Jakmile to bude potvrzeno, nastavte novou cenu."
     },
@@ -26247,6 +26325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** byl přeceněn na **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** bude stažen z prodeje, jakmile to síť potvrdí."
     },
@@ -26294,6 +26377,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Nabídka vyprší"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Vlastník obdrží"
     },
     {
       "_": "types.LangPackString",
@@ -26387,6 +26475,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Vlastník obdrží **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Zadejte počet Gram, které chcete nabídnout za **%@**."
     },
@@ -26409,6 +26502,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Prodej odeslán. Jakmile bude potvrzen v blockchainu, obdržíte **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Nabídka přijata"
     },
     {
       "_": "types.LangPackString",
@@ -36520,6 +36618,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ vás pozval/a do tohoto bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Byl/a jste pozván/a do tohoto bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ pozval/a tohoto uživatele do bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Tento uživatel byl pozván do bota"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Při přidávání do nabídky příloh jste tomuto botovi povolili zasílání zpráv."
     },
@@ -37852,6 +37970,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "koupeno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "ztracený"
     },
@@ -38115,6 +38238,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Nabídl/a jste **%1$@** za **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Přijal/a jste nabídku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Vaše nabídka **%1$@** za **%2$@** byla přijata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Odmítl/a jste nabídku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Vaše nabídka **%1$@** za **%2$@** byla odmítnuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Nabídka **%1$@** za **%2$@** již vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Vaše nabídka **%1$@** za **%2$@** již vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Prodal/a jste **%1$@** za **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Nabídka **%1$@** za **%2$@** byla vybrána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Vybral/a jste svou nabídku **%1$@** za **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -40622,6 +40790,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Máte nový příběh%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Přeposláno"
     },
     {
       "_": "types.LangPackString",
@@ -43517,6 +43690,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Na prodej"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 z %@"
     },
@@ -43670,6 +43848,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Nemáte oprávnění toto nastavení měnit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Pozvat do bota"
     },
     {
       "_": "types.LangPackString",
@@ -47664,6 +47847,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Zobrazit playlist"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "KANÁL"
     },
@@ -49244,6 +49432,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Popisky médií nesmí obsahovat tlačítka, nadpisy, seznamy, tabulky ani jiné prvky formátování. Popisek se uloží jako text bez těchto prvků."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Přidat vzorec"
     },
@@ -49501,6 +49694,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Odebrat formátování?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Uložit bez formátování"
     },
     {
       "_": "types.LangPackString",
@@ -51711,6 +51909,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Odpovědět\nna příběh"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Odesílání"
     },
     {
       "_": "types.LangPackString",
@@ -64140,8 +64343,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Přeceněno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Přeceněno na %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Posláno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Prodáno"
     },
     {
       "_": "types.LangPackString",
@@ -64258,6 +64476,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Nová cena"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Kupující"
     },
@@ -64285,6 +64508,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Prodávající"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Stará cena"
     },
     {
       "_": "types.LangPackString",
@@ -66329,5 +66557,5 @@
       "value": "Byl zadán neplatný kód."
     }
   ],
-  "version": 22629658
+  "version": 22665606
 }

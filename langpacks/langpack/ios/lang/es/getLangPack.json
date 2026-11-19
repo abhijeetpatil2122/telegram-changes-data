@@ -4442,6 +4442,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Este usuario ya tiene un chat con el bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Estos usuarios ya tienen un chat con el bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "No se pudo invitar usuarios. Reinténtalo más tarde."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Sólo el propietario del bot puede invitar usuarios."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Los ajustes de privacidad de este usuario no permiten invitarlo a bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Demasiados intentos. Reinténtalo más tarde."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Puedes invitar hasta 10 usuarios a la vez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Invitar al bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "La invitación fue enviada.",
+      "other_value": "%@ invitaciones fueron enviadas."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "¿Eliminar vista previa?"
     },
@@ -8648,7 +8694,7 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.Edit.PrivateConfirmation.Text",
-      "value": "El enlace público de tu canal t.me/%@ será eliminado, y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
+      "value": "El enlace público t.me/%@ de tu canal será eliminado y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
     },
     {
       "_": "types.LangPackString",
@@ -10552,6 +10598,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ es propiedad de %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.BottomSearchPanel.DisplayModeChat",
       "value": "chat"
     },
@@ -11008,7 +11059,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Dictation.ErrorUnavailable",
-      "value": "El dictado no está disponible para este idioma ahora mismo."
+      "value": "El dictado no está disponible para este idioma en este momento."
     },
     {
       "_": "types.LangPackString",
@@ -18218,6 +18269,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.BotInteractiveUrlAlert",
       "value": "¿Permites a %@ entregar tu nombre e id de Telegram (no tu número de teléfono) a los sitios web que abres a través de este bot?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ te invitó a usar este chatbot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Reportar spam y bloquear"
     },
     {
       "_": "types.LangPackString",
@@ -25523,6 +25584,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Seguir mostrando en mi perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Aparecerá en"
     },
@@ -25624,6 +25690,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Regalo enviado. **%1$@** será entregado a **%2$@** en breve."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Regalo enviado. **%@** será entregado al destinatario en breve."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Tu regalo fue retirado de la venta, pero la red aún no lo ha confirmado. Pon el nuevo precio en cuanto se confirme."
     },
@@ -25654,6 +25730,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Tu regalo ya no está a la venta, pero no se pudo poner a la venta otra vez con el nuevo precio: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.SaleActive",
       "value": "Este regalo sigue en venta. Espera a que se complete la transacción anterior y reinténtalo."
     },
@@ -25670,7 +25751,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.SelfPurchase",
-      "value": "No puedes comprar tu propio ítem."
+      "value": "No puedes comprar tu propio regalo."
     },
     {
       "_": "types.LangPackString",
@@ -25689,13 +25770,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** cambió su precio a **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** se retirará de la venta en cuanto la red lo confirme."
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Pending",
-      "value": "Tus ganancias en grams están de camino a tu billetera. Compra el regalo en cuanto lleguen."
+      "value": "Tus ganancias en grams están en camino a tu billetera. Compra el regalo una vez que lleguen."
     },
     {
       "_": "types.LangPackString",
@@ -25705,12 +25791,12 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Text",
-      "value": "%@** se transferirán desde las ganancias en grams a tu saldo y se usarán para comprar este regalo."
+      "value": "**%@** se transferirán desde las ganancias en grams a tu saldo y se usarán para comprar este regalo."
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Title",
-      "value": "¿Usar ganancias de grams?"
+      "value": "¿Usar ganancias en grams?"
     },
     {
       "_": "types.LangPackString",
@@ -25736,6 +25822,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "La oferta expira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "El propietario recibe"
     },
     {
       "_": "types.LangPackString",
@@ -25829,6 +25920,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "El propietario recibirá **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Pon el monto en grams que te gustaría ofrecer por **%@**."
     },
@@ -25851,6 +25947,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Se solicitó la venta. Recibirás **%@** en cuanto se confirme on-chain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Oferta aceptada"
     },
     {
       "_": "types.LangPackString",
@@ -28084,7 +28185,7 @@
     {
       "_": "types.LangPackString",
       "key": "Group.Edit.PrivateConfirmation.Text",
-      "value": "El enlace público de tu grupo t.me/%@ será eliminado, y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
+      "value": "El enlace público t.me/%@ de tu grupo será eliminado y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
     },
     {
       "_": "types.LangPackString",
@@ -35700,6 +35801,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ te invitó a este bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Te invitaron a este bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ invitó al usuario al bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Este usuario fue invitado al bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Al añadir este bot a tu menú de adjuntos, autorizaste que te envíe mensajes."
     },
@@ -36984,6 +37105,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "comprado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "quemado"
     },
@@ -37233,6 +37359,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Ofreciste **%1$@** por **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Aceptaste la oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Tu oferta de **%1$@** por **%2$@** fue aceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Rechazaste la oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Tu oferta de **%1$@** por **%2$@** fue rechazada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "La oferta de **%1$@** por **%2$@** expiró"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Tu oferta de **%1$@** por **%2$@** expiró"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Vendiste **%1$@** por **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "La oferta de **%1$@** por **%2$@** fue retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Retiraste tu oferta de **%1$@** por **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -39642,6 +39813,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Tienes una nueva historia%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Reenviado"
     },
     {
       "_": "types.LangPackString",
@@ -42499,6 +42675,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Se vende"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 de %@"
     },
@@ -42648,6 +42829,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "No tienes permiso para cambiar este ajuste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Invitar al bot"
     },
     {
       "_": "types.LangPackString",
@@ -46598,6 +46784,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Mostrar playlist"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "CANAL"
     },
@@ -48148,6 +48339,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Las descripciones de multimedia no pueden contener botones, encabezados, listas, tablas ni otros formatos enriquecidos. Se eliminarán estos formatos al guardar la descripción."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Añadir fórmula"
     },
@@ -48405,6 +48601,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "¿Quitar formato?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Guardar sin formato"
     },
     {
       "_": "types.LangPackString",
@@ -49579,7 +49780,7 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.MyTon",
-      "value": "Ganancias de grams"
+      "value": "Ganancias en grams"
     },
     {
       "_": "types.LangPackString",
@@ -50575,6 +50776,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Republicar\nen historia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Enviando"
     },
     {
       "_": "types.LangPackString",
@@ -54144,7 +54350,7 @@
     {
       "_": "types.LangPackString",
       "key": "StorageManagement.SectionsDescription",
-      "value": "Toda la multimedia permanecerá en la nube de Telegram y puede ser descargada de nuevo si la necesitas."
+      "value": "Toda la multimedia permanecerá en la nube de Telegram y podrás volver a descargarla si la necesitas."
     },
     {
       "_": "types.LangPackString",
@@ -61640,7 +61846,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.EarningsBalance",
-      "value": "Tienes %@ en ganancias de grams"
+      "value": "Tienes %@ en ganancias en grams"
     },
     {
       "_": "types.LangPackString",
@@ -62676,12 +62882,27 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRepriced",
-      "value": "Se ajustó el precio a %@"
+      "value": "Cambió el precio a %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Cambió el precio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Cambió el precio a %@"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Vendido"
     },
     {
       "_": "types.LangPackString",
@@ -62796,6 +63017,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Nuevo precio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Comprador"
     },
@@ -62823,6 +63049,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Vendedor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Precio anterior"
     },
     {
       "_": "types.LangPackString",
@@ -64849,5 +65080,5 @@
       "value": "Pusiste un código de seguridad inválido."
     }
   ],
-  "version": 22616789
+  "version": 22665255
 }

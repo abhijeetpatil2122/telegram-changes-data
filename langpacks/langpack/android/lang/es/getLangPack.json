@@ -21892,7 +21892,7 @@
     {
       "_": "types.LangPackString",
       "key": "FragmentPhoneMessage",
-      "value": "Este número de teléfono fue adquirido en **Fragment** el %1$s por **%2$s** %3$s"
+      "value": "Este número de teléfono fue comprado en **Fragment** el %1$s por **%2$s** %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -21907,7 +21907,7 @@
     {
       "_": "types.LangPackString",
       "key": "FragmentUsernameMessage",
-      "value": "Este nombre de usuario fue adquirido en **Fragment** el %1$s por **%2$s** %3$s"
+      "value": "Este nombre de usuario fue comprado en **Fragment** el %1$s por **%2$s** %3$s"
     },
     {
       "_": "types.LangPackString",
@@ -25466,12 +25466,12 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferStarsToOfferInfoIsHigh",
-      "value": "Esta oferta es demasiado alta. La oferta máxima para **%2$s** es de **%1$s estrellas**."
+      "value": "Esta oferta es demasiado alta. La oferta máxima para **%2$s** es **%1$s estrellas**."
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOfferStarsToOfferInfoIsLow",
-      "value": "Esta oferta es demasiado baja. La oferta mínima para **%2$s** es de **%1$s estrellas**."
+      "value": "Esta oferta es demasiado baja. La oferta mínima para **%2$s** es **%1$s estrellas**."
     },
     {
       "_": "types.LangPackString",
@@ -25506,12 +25506,12 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferTONToOfferInfoIsHigh",
-      "value": "Esta oferta es demasiado alta. La oferta máxima para **%2$s** es de **%1$s grams**."
+      "value": "Esta oferta es demasiado alta. La oferta máxima para **%2$s** es **%1$s grams**."
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOfferTONToOfferInfoIsLow",
-      "value": "Esta oferta es demasiado baja. La oferta mínima para **%2$s** es de **%1$s grams**."
+      "value": "Esta oferta es demasiado baja. La oferta mínima para **%2$s** es **%1$s grams**."
     },
     {
       "_": "types.LangPackString",
@@ -25550,8 +25550,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBought",
+      "value": "¡%s ahora está en tu billetera!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBoughtTo",
+      "value": "¡%1$s fue comprado por %2$s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmButton",
+      "value": "Comprar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmText",
+      "value": "¿Quieres comprar **%1$s** en Fragment por **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "¿Quieres comprar **%1$s** por **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainBuyConfirmTitle",
       "value": "Confirmar compra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySent",
+      "value": "Compra enviada. %s aparecerá en tu billetera en breve."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySentTo",
+      "value": "Compra enviada. %1$s irá a %2$s en breve."
     },
     {
       "_": "types.LangPackString",
@@ -25582,6 +25617,16 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainChangePriceText",
       "value": "Para cambiar el precio, quita de la venta el regalo y luego ponlo a la venta otra vez con el nuevo precio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Un regalo a la venta en Fragment sólo puede ser comprado para ti mismo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Este regalo no se puede comprar para este destinatario."
     },
     {
       "_": "types.LangPackString",
@@ -25760,6 +25805,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptSent",
+      "value": "Aceptaste esta oferta. La venta está siendo completada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "Aceptaste la oferta por %s. La venta se completa una vez que el regalo llega al comprador."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferBalance",
       "value": "Saldo: %s >"
     },
@@ -25790,6 +25845,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "¿Rechazar la oferta de **%1$s** por **%2$s**? Los grams serán devueltos al comprador."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferDeclineTitle",
       "value": "Rechazar oferta"
     },
@@ -25805,13 +25865,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "Ya tienes una oferta activa por este regalo. Para cambiarla, retírala primero."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferErrorTitle",
       "value": "Oferta"
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTryAgain",
+      "value": "No se pudo preparar la oferta. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferExpiresIn",
       "value": "La oferta expira en\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferFailed",
+      "value": "La oferta por %s no fue realizada: la transacción falló."
     },
     {
       "_": "types.LangPackString",
@@ -25945,6 +26020,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "%s no fue vendido: la transacción falló."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferSellSent",
       "value": "Vendiendo %s…"
     },
@@ -26030,8 +26110,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferUnlistFirst",
+      "value": "Este regalo está a la venta. Primero, deja de ofrecerlo a la venta para aceptar la oferta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdraw",
       "value": "Retirar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFailed",
+      "value": "La oferta por %s no fue retirada: la transacción falló."
     },
     {
       "_": "types.LangPackString",
@@ -26042,6 +26132,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawFor",
       "value": "Retirar por %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "Se te devolverán unos **%s**."
     },
     {
       "_": "types.LangPackString",
@@ -26125,6 +26220,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellButton",
+      "value": "Poner a la venta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "¿Quieres poner **%1$s** a la venta en Fragment por **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellFixed",
       "value": "Vender a precio fijo"
     },
@@ -26180,8 +26285,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "Recibirás **%1$s grams**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellSent",
       "value": "Poniendo a la venta %s en Fragment…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "Poniendo %s a la venta…"
     },
     {
       "_": "types.LangPackString",
@@ -49017,7 +49132,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarsPurchaseUnavailable",
-      "value": "No es posible comprar estrellas ahora mismo."
+      "value": "No es posible comprar estrellas en este momento."
     },
     {
       "_": "types.LangPackString",
@@ -60783,5 +60898,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62010334
+  "version": 62013615
 }

@@ -4442,6 +4442,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Cet utilisateur a déjà un échange avec le bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Ces utilisateurs ont déjà un échange avec le bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Impossible d'inviter des utilisateurs. Veuillez réessayer plus tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Seul le propriétaire du bot peut inviter des utilisateurs."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Les paramètres de confidentialité de cet utilisateur ne permettent pas de l'inviter a des bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Trop de tentatives. Veuillez réessayer plus tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Vous pouvez inviter jusqu'à 10 utilisateurs à la fois."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Inviter au bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "L'invitation a été envoyée.",
+      "other_value": "%@ invitations ont été envoyées."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Supprimer l'aperçu ?"
     },
@@ -10554,6 +10600,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "qu'est-ce que c'est ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ appartient à %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18226,6 +18277,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ vous a invité à utiliser ce bot d'échange"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Signaler le spam et bloquer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d o"
     },
@@ -20416,6 +20477,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.ShareMyPhoneNumberConfirmation",
       "value": "Voulez-vous partager votre numéro de téléphone %1$@ avec %2$@ ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.ShareMyPhoneNumberConfirmation.Action",
+      "value": "Partager"
     },
     {
       "_": "types.LangPackString",
@@ -25523,6 +25589,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Toujours afficher sur mon profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Il paraîtra dans"
     },
@@ -25624,6 +25695,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Cadeau envoyé. **%1$@** sera livré à **%2$@** sous peu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Cadeau envoyé. **%@** sera remis au destinataire sous peu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Votre cadeau a été retiré de la vente, mais le réseau ne l'a pas encore confirmé. Fixez le nouveau prix une fois qu'il est confirmé."
     },
@@ -25694,6 +25775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** a été réévalué à **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** sera retiré de la vente une fois que le réseau l'aura confirmé."
     },
@@ -25741,6 +25827,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "L'offre expire"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Le propriétaire reçoit"
     },
     {
       "_": "types.LangPackString",
@@ -25834,6 +25925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Le propriétaire recevra **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Saisissez le nombre de Grams que vous souhaitez offrir pour **%@**."
     },
@@ -25856,6 +25952,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Vente soumise. Vous recevrez **%@** une fois confirmé en chaîne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Offre acceptée"
     },
     {
       "_": "types.LangPackString",
@@ -26622,6 +26723,11 @@
       "_": "types.LangPackString",
       "key": "Gift.UnavailableAction.Title",
       "value": "Action verrouillée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.UnavailableAction.UnlistText",
+      "value": "Retirez ce cadeau de la vente pour débloquer cette action."
     },
     {
       "_": "types.LangPackString",
@@ -35515,7 +35621,7 @@
     {
       "_": "types.LangPackString",
       "key": "News.Display.Compact",
-      "value": "\nCompact"
+      "value": "Compact"
     },
     {
       "_": "types.LangPackString",
@@ -35605,7 +35711,7 @@
     {
       "_": "types.LangPackString",
       "key": "News.ReloadFeed",
-      "value": "Recharger le flux"
+      "value": "Actualiser le flux"
     },
     {
       "_": "types.LangPackString",
@@ -35697,6 +35803,26 @@
       "key": "Notification.Boost.Times",
       "one_value": "%@ fois",
       "other_value": "%@ fois"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ vous a invité au bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Vous avez été invité au bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ a invité cet utilisateur au bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Cet utilisateur a été invité au bot"
     },
     {
       "_": "types.LangPackString",
@@ -36984,6 +37110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "acheté"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "brûlé"
     },
@@ -37233,6 +37364,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Vous avez proposé **%1$@** pour **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Vous avez accepté l'offre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Votre offre de **%1$@** pour **%2$@** a été acceptée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Vous avez refusé l'offre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Votre offre de **%1$@** pour **%2$@** a été refusée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "L'offre de **%1$@** pour **%2$@** a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Votre offre de **%1$@** pour **%2$@** a expiré"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Vous avez vendu **%1$@** pour **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "L'offre de **%1$@** pour **%2$@** a été retirée"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Vous avez retiré votre offre de **%1$@** pour **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -39642,6 +39818,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Vous avez une nouvelle story %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Transféré"
     },
     {
       "_": "types.LangPackString",
@@ -42499,6 +42680,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "En vente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 sur %@"
     },
@@ -42648,6 +42834,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Vous n'avez pas la permission pour modifier ce paramètre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Inviter au bot"
     },
     {
       "_": "types.LangPackString",
@@ -46598,6 +46789,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Afficher la playlist"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "CANAL"
     },
@@ -48148,6 +48344,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Les légendes médias ne peuvent pas contenir de boutons, de titres, de listes, de tableaux ou d'autres mises en forme enrichies. La légende sera enregistrée sous forme de texte sans eux."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Ajouter une formule"
     },
@@ -48405,6 +48606,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Supprimer la mise en forme ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Enregistrer sans mise en forme"
     },
     {
       "_": "types.LangPackString",
@@ -50575,6 +50781,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Reposter\nen story"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Envoi"
     },
     {
       "_": "types.LangPackString",
@@ -62530,6 +62741,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.BridgeUnavailable",
+      "value": "La réponse TON Connect attend la livraison du réseau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.ConflictingLink",
+      "value": "Cette application utilise déjà une autre demande de connexion. Reconnectez-vous depuis l'application."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Expired",
+      "value": "La requête TON Connect a expiré."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.HandledElsewhere",
+      "value": "Cette requête a été traitée sur un autre appareil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InsufficientBalance",
+      "value": "Pas assez de fonds dans le portefeuille pour faire cette transaction."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidLink",
+      "value": "Ce lien TON Connect n’est pas valide."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.InvalidManifest",
+      "value": "Impossible de charger un manifeste valide pour cette application."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.KeyMismatch",
+      "value": "Cette connexion appartient à une autre clé de portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.OutcomeUnknown",
+      "value": "Cette opération a peut-être déjà été signée ou envoyée. elle ne sera plus signé. Vérifiez l'historique du portefeuille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.Unavailable",
+      "value": "Cette demande TON Connect n'est plus disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TonConnect.Error.WrongNetwork",
+      "value": "Cette application a demandé un réseau de portefeuille différent."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Address",
       "value": "Adresse"
     },
@@ -62605,6 +62871,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
+      "value": "Mettre en vente pour %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleReceived",
       "value": "Reçu"
     },
@@ -62615,8 +62886,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepriced",
+      "value": "Réévalué à %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Réévalué"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Réévalué à %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Envoyé"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Vendu"
     },
     {
       "_": "types.LangPackString",
@@ -62731,6 +63022,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Nouveau prix"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Acheteur"
     },
@@ -62758,6 +63054,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Vendeur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Ancien prix"
     },
     {
       "_": "types.LangPackString",
@@ -64784,5 +65085,5 @@
       "value": "Vous avez entré un code de sécurité invalide."
     }
   ],
-  "version": 22594703
+  "version": 22663660
 }

@@ -4462,6 +4462,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Le impostazioni privacy di questo utente non consentono di invitarlo nei bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotInvite.Error.RateLimited",
       "value": "Troppe richieste. Riprova più tardi."
     },
@@ -10598,6 +10603,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ è di proprietà di %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.BottomSearchPanel.DisplayModeChat",
       "value": "chat"
     },
@@ -14554,7 +14564,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatList.ContextShowUnread",
-      "value": "Mostra non letti"
+      "value": "Mostra non lette"
     },
     {
       "_": "types.LangPackString",
@@ -25685,6 +25695,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Regalo inviato. **%1$@** sarà consegnato a **%2$@** a breve."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Regalo inviato. **%@** sarà consegnato al destinatario a breve."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Il tuo regalo è stato rimosso dalla vendita, ma la piattaforma non lo ha ancora confermato. Imposta il nuovo prezzo alla conferma."
     },
@@ -25755,6 +25775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** è stato riprezzato a **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** sarò rimosso dalla vendita dopo la conferma della rete."
     },
@@ -25802,6 +25827,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "L'offerta scade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Il proprietario riceve"
     },
     {
       "_": "types.LangPackString",
@@ -25881,7 +25911,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Error.OnSale",
-      "value": "Questo regalo è in vendita. Per accettare l'offerta, devi prima rimuoverlo dalla vendita."
+      "value": "Questo regalo è in vendita. Rimuovilo prima dalla vendita per accettare l'offerta."
     },
     {
       "_": "types.LangPackString",
@@ -25971,7 +26001,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.TextFree",
-      "value": "**%@** ti saranno restituiti."
+      "value": "Ti saranno restituiti **%@**."
     },
     {
       "_": "types.LangPackString",
@@ -37080,6 +37110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "acquistato"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "bruciato"
     },
@@ -39783,6 +39818,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Hai una nuova storia%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Inoltrato"
     },
     {
       "_": "types.LangPackString",
@@ -48301,6 +48341,11 @@
       "_": "types.LangPackString",
       "key": "RichText.ButtonURLPlaceholder",
       "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Le didascalie dei media non possono contenere pulsanti, titoli, elenchi, tabelle o altre formattazioni avanzate. La didascalia sarà salvata come testo senza tali elementi."
     },
     {
       "_": "types.LangPackString",
@@ -62842,7 +62887,17 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRepriced",
-      "value": "Prezzo cambiato in %@"
+      "value": "Riprezzato a %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Riprezzato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Riprezzato a %@"
     },
     {
       "_": "types.LangPackString",
@@ -65030,5 +65085,5 @@
       "value": "Hai inserito un codice di sicurezza non valido."
     }
   ],
-  "version": 22659624
+  "version": 22663615
 }

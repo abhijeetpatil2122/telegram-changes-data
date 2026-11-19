@@ -1638,6 +1638,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionBotInvite",
+      "value": "un1 пригласил(а) Вас в этого бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInviteUnknown",
+      "value": "Вас пригласили в этого бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionBotWebViewData",
       "value": "Вы успешно передали данные боту кнопкой «%1$s»."
     },
@@ -3492,8 +3502,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AgentModelsAll",
+      "value": "Все модели"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AgentModelsEmpty",
       "value": "Модели не найдены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsRecent",
+      "value": "Недавние"
     },
     {
       "_": "types.LangPackString",
@@ -9402,6 +9422,44 @@
       "_": "types.LangPackString",
       "key": "BotInvite",
       "value": "Добавить в группу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteDone",
+      "value": "**%1$s** приглашен(а) в **%2$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d пользователя приглашены в **%2$s**.",
+      "key": "BotInviteDoneMany",
+      "many_value": "%1$d пользователей приглашено в **%2$s**.",
+      "one_value": "%1$d пользователь приглашён в **%2$s**.",
+      "other_value": "%1$d пользователей приглашено в **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStarted",
+      "value": "**%1$s** уже начал(а) общение с **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStartedMany",
+      "value": "Эти пользователи уже начали общение с **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorFailed",
+      "value": "Вы не можете пригласить этих пользователей в **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorNotOwner",
+      "value": "Приглашать пользователей в **%s** может только владелец."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteToBot",
+      "value": "Пригласить в бота"
     },
     {
       "_": "types.LangPackString",
@@ -22300,6 +22358,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FpnvConsentCarrier",
+      "value": "Оператор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentContinue",
+      "value": "Продолжить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FpnvConsentPhoneNumber",
       "value": "Номер телефона"
     },
@@ -26132,6 +26200,191 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Подарки с Fragment можно покупать только для себя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Этот подарок нельзя купить для этого получателя."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptSent",
+      "value": "Вы приняли предложение. Сделка оформляется."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "Отклонить предложение **%1$s** о покупке **%2$s**? Сумма в GRAM будет возвращена покупателю."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineTitle",
+      "value": "Отказ от предложения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclined",
+      "value": "Предложение отклонено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTryAgain",
+      "value": "Не удалось подготовить предложение. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "Предложение действует ещё\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "Вам предложили **%1$s** (%2$s) за **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "Вам предложили **%1$s** за **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouAccepted",
+      "value": "Вы приняли предложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "Вы предложили **%1$s** за **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "Срок истекает"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "Комиссия платформы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "Вы платите"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "Ваше предложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellButton",
+      "value": "Продать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "%s не продан: не удалось провести транзакцию."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellSent",
+      "value": "Продажа %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "Продать **%1$s**\nза **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellTitle",
+      "value": "Подтверждение продажи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "Сумма в **%1$s** зарезервирована до %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "Предложение отправлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSold",
+      "value": "Вы продали %s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "Предложение принято."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "Предложение отклонено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "Срок дествия предложения истёк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "Сделка совершается..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "Предложение отозвано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOpenWallet",
+      "value": "Перейти к моим Деньгам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "Покупатель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowCancellationFee",
+      "value": "Плата за отмену"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowExpiration",
+      "value": "Срок действия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNewPrice",
+      "value": "Новая цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowOldPrice",
+      "value": "Старая цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "Продавец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSellerShare",
+      "value": "Доля продавца"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremium",
       "value": "Подарить Premium"
     },
@@ -26876,8 +27129,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "GRAM, полученные за подарки и рекламу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Заработанные GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseArrived",
+      "value": "Средства из раздела «Заработанные GRAM» зачислены в кошелёк. Теперь можно купить подарок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseLate",
+      "value": "Заработанные GRAM скоро поступят в кошелёк. Вы сможете купить подарок, как только средства будут зачислены."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseMoving",
+      "value": "Перевод средств из раздела «Заработанные GRAM» в кошелёк…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "Сумма в **%1$s** будет переведена из раздела «Заработанные GRAM» на баланс, а затем списана в счёт оплаты подарка."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseTitle",
+      "value": "Использовать заработанные GRAM?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawButton",
+      "value": "Вывести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawDisabled",
+      "value": "Вывод средств из раздела «Заработанные GRAM» сейчас недоступен для Вашего аккаунта."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "Чтобы вывести GRAM, сперва установите облачный пароль в разделе «Конфиденциальность»."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNothing",
+      "value": "У Вас пока нет GRAM, доступных для вывода. "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawOnlyTon",
+      "value": "В кошелёк можно вывести только GRAM."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSent",
+      "value": "Отправлено: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Откройте ⚙ Настройки > 💎 Деньги"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "GRAM поступят в Ваш некастодиальный кошелёк (⚙ Настройки → 💎 Деньги)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTitle",
+      "value": "Вывести %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTryAgain",
+      "value": "Не удалось подтвердить пароль. Попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "Вывод средств на баланс Вашего кошелька пока недоступен. Для вывода GRAM воспользуйтесь платформой Fragment."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -40895,6 +41233,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileBotCurrentOwner",
+      "value": "Владелец бота: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotInvitedBy",
+      "value": "Пригласил(а): **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileBotLanguageAdd",
       "value": "Добавить перевод"
     },
@@ -43086,6 +43434,16 @@
       "_": "types.LangPackString",
       "key": "Reply",
       "value": "Ответить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirect",
+      "value": "Сообщение каналу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirectHint",
+      "value": "Отправить сообщение администраторам"
     },
     {
       "_": "types.LangPackString",
@@ -59518,6 +59876,101 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "Куплен за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "Предложение принято за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferCancelled",
+      "value": "Предложение отозвано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferDeclined",
+      "value": "Предложение отклонено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferExpired",
+      "value": "Срок предложения истёк"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferSent",
+      "value": "Предложение отправлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSale",
+      "value": "Выставлен на продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSaleFor",
+      "value": "Выставлен за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRemovedFromSale",
+      "value": "Снят с продажи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRepriced",
+      "value": "Цена изменена на %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "Статус"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "Продан за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusOfferAccepted",
+      "value": "Предложение принято"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPriceChanged",
+      "value": "Цена изменена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPurchased",
+      "value": "Куплен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPutOnSale",
+      "value": "Выставлен на продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusRemovedFromSale",
+      "value": "Снят с продажи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusSold",
+      "value": "Продан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftTitle",
+      "value": "Маркетплейс подарков"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOpenMyMoney",
       "value": "Перейти к моим Деньгам"
     },
@@ -61151,5 +61604,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61898857
+  "version": 62010990
 }

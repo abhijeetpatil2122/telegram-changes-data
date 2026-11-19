@@ -25193,6 +25193,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "Este regalo ya fue transferido."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "Regalo bloqueado"
     },
@@ -25550,6 +25555,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBuyText",
+      "value": "¿Quieres comprar **%1$s** en Fragment por **%2$s**? Se pagará desde tu billetera, el regalo permanecerá en tu billetera y aparecerá en tu perfil."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainBuyTitle",
       "value": "Comprar %s"
     },
@@ -25557,6 +25567,96 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainChangePriceButton",
       "value": "Cambiar a %s grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "¿Quieres cambiar el precio de **%1$s** a **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "Cambiando el precio de %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "Para cambiar el precio, quita de la venta el regalo y luego ponlo a la venta otra vez con el nuevo precio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "Este regalo ya no está a la venta en Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "Este regalo ya no está a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "Sólo los regalos registrados en la blockchain se pueden vender en Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "Sólo los regalos registrados en la blockchain se pueden vender a un precio fijo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "Este regalo no está en tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "Esta venta fue iniciada desde otra billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "Esta oferta ya no está activa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "El precio de este regalo en Fragment cambió. Por favor, revisa el nuevo precio y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "El precio de este regalo cambió. Por favor, revisa el nuevo precio y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "Este precio está fuera del rango permitido."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "El precio debe estar entre %1$s y %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "Este regalo ya está a la venta en Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "Este regalo ya está a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "Las ventas en Fragment no están disponibles actualmente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "Las ventas a precio fijo no están disponibles actualmente."
     },
     {
       "_": "types.LangPackString",
@@ -25570,8 +25670,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "No puedes comprar tu propio regalo en Fragment."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorSelfPurchaseFixed",
       "value": "No puedes comprar tu propio regalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "La transacción no fue enviada. Por favor, reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -25580,13 +25690,68 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "Venta a precio fijo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "No se pudo preparar la transacción. Por favor, reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "Esta transacción no puede ser firmada por esta versión de Telegram. Por favor, actualiza la app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "Tu billetera aún está siendo creada. Por favor, reinténtalo en un momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Los regalos en Fragment se compran y venden con tu billetera. Configura tu billetera para continuar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "Los regalos on-chain se compran y venden con tu billetera. Configura tu billetera para continuar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainFailed",
+      "value": "La transacción por %s falló."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainGramAmount",
       "value": "%s grams"
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "¡%s ahora está a la venta en Fragment!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListedFixed",
+      "value": "¡%s ahora está a la venta!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainNetworkFee",
       "value": "Tarifa de red: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughForFee",
+      "value": "Necesitas al menos %s en tu billetera para pagar la tarifa de red para esta acción."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughToBuy",
+      "value": "Necesitas al menos %s en tu billetera para comprar este regalo."
     },
     {
       "_": "types.LangPackString",
@@ -25602,6 +25767,16 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferButton",
       "value": "Ofrecer %s grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "¿Quieres hacer esta oferta por **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "¿Quieres hacer esta oferta a **%1$s** por **%2$s**?"
     },
     {
       "_": "types.LangPackString",
@@ -25625,6 +25800,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "Elige el tiempo que tiene el propietario para aceptar tu oferta. Cuando expire, se te devolverán los grams automáticamente."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferErrorTitle",
       "value": "Oferta"
     },
@@ -25632,6 +25812,21 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferExpiresIn",
       "value": "La oferta expira en\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "La oferta es demasiado alta. La oferta máxima por **%2$s** es **%1$s grams**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "Pon el número de grams que quieres ofrecer por **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "La oferta es demasiado baja. La oferta mínima por **%2$s** es **%1$s grams**."
     },
     {
       "_": "types.LangPackString",
@@ -25665,6 +25860,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "La tarifa de retiro temprano era **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteRefunded",
       "value": "**%s** fue devuelto a tu billetera"
     },
@@ -25695,8 +25895,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceives",
+      "value": "El propietario recibirá **%1$s grams** después de la tarifa de %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferOwnerReceivesNoFee",
       "value": "El propietario recibirá **%1$s grams*."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "Si el vendedor rechaza tu oferta o expira, se te devolverán los grams automáticamente."
     },
     {
       "_": "types.LangPackString",
@@ -25707,6 +25917,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferRibbonSold",
       "value": "vendido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "La oferta expira"
     },
     {
       "_": "types.LangPackString",
@@ -25750,6 +25965,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferSold",
       "value": "¡Vendiste %s!"
     },
@@ -25757,6 +25977,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferStatusAccepted",
       "value": "La oferta fue aceptada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "La oferta está siendo retirada…"
     },
     {
       "_": "types.LangPackString",
@@ -25810,6 +26035,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "El retiro temprano cuesta unos **%1$s**.\n\nSe te devolverán unos **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawFor",
       "value": "Retirar por %s"
     },
@@ -25835,6 +26065,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s ahora está a la venta por %2$s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainRowBuyer",
       "value": "Comprador"
     },
@@ -25842,6 +26077,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainRowCancellationFee",
       "value": "Tarifa de cancelación"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "Tarifa de contrato"
     },
     {
       "_": "types.LangPackString",
@@ -25875,8 +26115,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainRowSellerShare",
+      "value": "Participación del vendedor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainRowYouReceive",
       "value": "Recibes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "Vender a precio fijo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixedConfirmText",
+      "value": "¿Quieres poner **%1$s** en venta a un precio fijo por **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHint",
+      "value": "El comprador paga este precio en Fragment y los fondos van directamente a tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHintBuyerPays",
+      "value": "El comprador paga este precio y los fondos van directamente a tu billetera."
     },
     {
       "_": "types.LangPackString",
@@ -25885,13 +26150,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellNoteFixed",
+      "value": "El comprador paga este precio y los fondos van directamente a tu billetera. El regalo se pone a la venta una vez que el contrato de venta lo recibe."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellPriceButton",
       "value": "Poner en venta por %s grams"
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHeader",
+      "value": "Precio en grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "El precio es demasiado alto. El precio máximo es **%s grams**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "El precio es demasiado bajo. El precio mínimo es **%s grams**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "Recibirás **%1$s grams** después de la tarifa de %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "Poniendo a la venta %s en Fragment…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellText",
+      "value": "¿Quieres poner a la venta **%1$s** en Fragment por **%2$s**? Poner a la venta cuesta **%3$s** desde tu billetera por las tarifas de contrato. Los fondos van directamente a tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellTitle",
       "value": "Vender en Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainTransferUnlistFirst",
+      "value": "Este regalo está a la venta. Primero, quítalo de la venta para transferirlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "El regalo dejará de estar a la venta en Fragment y permanecerá en tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "El regalo dejará de estar a la venta y permanecerá en tu billetera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "Quitando %s de la venta…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistText",
+      "value": "¿Quieres quitar este regalo de la venta en Fragment? Permanecerá en tu billetera. La cancelación cuesta **%s** desde tu billetera por las tarifas de contato."
     },
     {
       "_": "types.LangPackString",
@@ -25901,7 +26226,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainWalletTitle",
-      "value": "Billetera"
+      "value": "Dinero"
     },
     {
       "_": "types.LangPackString",
@@ -30586,12 +30911,17 @@
     {
       "_": "types.LangPackString",
       "key": "MakeChannelPrivateText",
-      "value": "El enlace público **%1$s** de tu canal será eliminado, y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
+      "value": "El enlace público **%1$s** de tu canal será eliminado y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
     },
     {
       "_": "types.LangPackString",
       "key": "MakeChannelPrivateTitle",
       "value": "¿Hacer privado el canal?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateText",
+      "value": "El enlace público **%1$s** de tu grupo será eliminado y este nombre de usuario quedará disponible para cualquiera. ¿Quieres continuar?"
     },
     {
       "_": "types.LangPackString",
@@ -60453,5 +60783,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61899869
+  "version": 62010334
 }

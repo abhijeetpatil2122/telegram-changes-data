@@ -4516,6 +4516,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Не удалось пригласить пользователей. Попробуйте позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Приглашать пользователей может только владелец."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Лимит попыток превышен. Попробуйте позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Пригласить в бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Удалить предпросмотр?"
     },
@@ -10698,6 +10718,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "что это?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "Владелец %1$@ — %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18568,6 +18593,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ пригласил(а) Вас в этого чат-бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Сообщить о спаме и заблокировать"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d Б"
     },
@@ -26263,7 +26298,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.Onchain.UseEarnings.Text",
-      "value": "Сумма в **%@** будет переведена из заработанных GRAM на баланс, а затем списана в счёт оплаты подарка."
+      "value": "Сумма в **%@** будет переведена из раздела «Заработанные GRAM» на баланс, а затем списана в счёт оплаты подарка."
     },
     {
       "_": "types.LangPackString",
@@ -26409,6 +26444,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Продажа оформлена. Вы получите **%@** после подтверждения в блокчейне."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Предложение принято"
     },
     {
       "_": "types.LangPackString",
@@ -36520,6 +36560,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Вас пригласили в этого бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Пользователь приглашён в бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Вы разрешили этому боту писать Вам, добавив его в меню вложений."
     },
@@ -38115,6 +38165,11 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Вы предложили **%1$@** за **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Вы приняли предложение"
     },
     {
       "_": "types.LangPackString",
@@ -49501,6 +49556,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Сбросить форматирование?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Сохранить без форматирования"
     },
     {
       "_": "types.LangPackString",
@@ -64116,7 +64176,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
-      "value": "Выставить за %@"
+      "value": "Выставлен за %@"
     },
     {
       "_": "types.LangPackString",
@@ -64132,6 +64192,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRepriced",
       "value": "Цена изменена на %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Цена изменена"
     },
     {
       "_": "types.LangPackString",
@@ -64215,11 +64280,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
-      "few_value": "%@ предмета",
+      "few_value": "%@",
       "key": "Wallet.Transaction.ItemCount",
-      "many_value": "%@ предметов",
-      "one_value": "%@ предмет",
-      "other_value": "%@ предмета"
+      "many_value": "%@",
+      "one_value": "%@",
+      "other_value": "%@"
     },
     {
       "_": "types.LangPackString",
@@ -64253,6 +64318,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Новая цена"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Покупатель"
     },
@@ -64280,6 +64350,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Продавец"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Старая цена"
     },
     {
       "_": "types.LangPackString",
@@ -66324,5 +66399,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 22654911
+  "version": 22661770
 }

@@ -2675,8 +2675,60 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.AlreadyStarted",
+      "value": "Valituilla käyttäjillä on jo keskustelu botin kanssa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.ChooseDifferentPeople",
+      "value": "Valitse eri kutsuttavia käyttäjiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.InvitationSent",
+      "value": "Kutsu lähetettiin ainakin yhdelle vailtuista käyttäjistä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.Invite",
+      "value": "Kutsu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.OnlyOwner",
+      "value": "Vain botin omistaja voi kutsua käyttämään bottia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.PrivacyRestricted",
+      "value": "Valittujen käyttäjien yksityisyysasetukset estävät bottikutsut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.RateLimited",
+      "value": "Kutsuja on liian monta. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Bot.InvitePicker.RecipientLimit",
+      "one_value": "Valitse enintään %1$d käyttäjä, joka kutsutaan käyttämään bottia %2$@.",
+      "other_value": "Valitse enintään %1$d käyttäjää, jotka kutsutaan käyttämään bottia %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.SendFailed",
+      "value": "Kutsuja ei voitu lähettää. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot.InvitePicker.Title",
       "value": "Kutsu käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Bot.InvitePicker.TooManyUsers",
+      "one_value": "Voit kutsua enintään %1$d käyttäjän kerralla.",
+      "other_value": "Voit kutsua enintään %1$d käyttäjää kerralla."
     },
     {
       "_": "types.LangPackString",
@@ -7142,6 +7194,163 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.AfterDuration",
+      "value": "vaatinut %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.AfterElapsed",
+      "value": "· vaatinut %1$@%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Details",
+      "value": "Lisätiedot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.EarlierSteps",
+      "one_value": "+%1$d aiempi vaihe",
+      "other_value": "+%1$d aiempaa vaihetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.HideDetails",
+      "value": "Piilota lisätiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.HideEarlierMessages",
+      "value": "Piilota aiemmat viestit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.HideSteps",
+      "value": "Piilota vaiheet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.HideSummary",
+      "value": "Piilota yhteenveto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Input",
+      "value": "Syöte"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.MessageCount",
+      "one_value": "%1$d viesti",
+      "other_value": "%1$d viestiä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.MinuteCount",
+      "one_value": "%1$d minuutti",
+      "other_value": "%1$d minuuttia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.NothingChanged",
+      "value": "Mitään ei muuttunut. Voit jatkaa keskustelemista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Output",
+      "value": "Tulos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Retry",
+      "value": "Yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.SecondCount",
+      "one_value": "%1$d sekunti",
+      "other_value": "%1$d sekuntia"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.ShowEarlierMessages",
+      "one_value": "Näytä %1$d aiempi viesti",
+      "other_value": "Näytä %1$d aiempaa viestiä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.ShowSteps",
+      "value": "Näytä vaiheet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.ShowSummary",
+      "value": "Näytä yhteenveto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.ShowWhatThisStepDid",
+      "value": "Näytä vaiheen aikaansaannokset"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.StepCount",
+      "one_value": "%1$d vaihe",
+      "other_value": "%1$d vaihetta"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.StepSuffix",
+      "one_value": " · %1$d vaihe",
+      "other_value": " · %1$d vaihetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Stop",
+      "value": "Pysäytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Summarized",
+      "value": "%1$@ tiivistetty · %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Summarizing",
+      "value": "Tiivistetään: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.SummarizingEarlierMessages",
+      "value": "Tiivistetään aiempia viestejä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TapToHideSummary",
+      "value": "piilota yhteenveto napauttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TapToReadSummary",
+      "value": "näytä yhteenveto napauttamalla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TookDuration",
+      "value": "vaati %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TookElapsed",
+      "value": "· vaati %1$@%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Working",
+      "value": "Työstetään"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Ad.WhatThis",
       "value": "mikä tämä on?"
     },
@@ -7983,6 +8192,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.AIAssistant",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.AIRewriteFailed",
       "value": "Tekoäly ei kyennyt muotoilemaan viestiä uudelleen. Voit lähettää alkuperäisen viestin painamalla \"Lähetä\" toisen kerran."
     },
@@ -7998,8 +8212,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.BlockBot",
+      "value": "Estä botti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.CopyAddress",
       "value": "Kopioi osoite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.DeleteForEveryone",
+      "value": "Tämä poistaa valitut viestit kaikilta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.DeleteForMe",
+      "value": "Tämä poistaa valitut viestit vain sinulta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.InvitationReported",
+      "value": "Kutsu ilmiannettiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.ReportThePersonWhoInvitedYouToThisBot",
+      "value": "Haluatko ilmiantaa sen käyttäjän, joka kutsui sinut käyttämään bottia?"
     },
     {
       "_": "types.LangPackString",
@@ -8802,6 +9041,22 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.HeaderController.BlockBot",
+      "value": "Estä botti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.HeaderController.RunningTask",
+      "value": "Suoritetaan tehtävää"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.HeaderController.TaskPosition",
+      "one_value": "Tehtävä %2$d/%1$d",
+      "other_value": "Tehtävä %2$d/%1$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InlineRequest.Loading",
       "value": "Ladataan..."
     },
@@ -8998,14 +9253,44 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.HideShortcuts",
+      "value": "Piilota pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.Shortcuts",
+      "value": "Pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.ShowShortcuts",
+      "value": "Näytä pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InputContext.EditQuickReply",
       "value": "Muokkaa pikavastauksia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.Edit",
+      "value": "Muokkaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.File",
+      "value": "Tiedosto"
     },
     {
       "_": "types.LangPackStringPluralized",
       "key": "Chat.InputStagedFilesView.ItemCount",
       "one_value": "%1$d kohde",
       "other_value": "%1$d kohdetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.Remove",
+      "value": "Poista"
     },
     {
       "_": "types.LangPackString",
@@ -11315,8 +11600,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Bought",
+      "value": "Ostettu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.BoughtItem",
+      "value": "Ostit lahjan (hintaan: **%1$@**)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.BoughtViaProvider",
+      "value": "Ostit lahjan %1$@ palvelun %2$@ kautta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ServiceItem.EncryptedComment",
       "value": "Salattu kommentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.GiftUnavailable",
+      "value": "Lahjaa ei saatavilla"
     },
     {
       "_": "types.LangPackString",
@@ -11337,6 +11642,36 @@
       "_": "types.LangPackString",
       "key": "Chat.ServiceItem.GramTransferYou",
       "value": "Lähetit käyttäjälle %1$@: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.OfferAccepted",
+      "value": "Tarjouksesi (**%1$@**) lahjasta\n**%2$@** hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Offered",
+      "value": "Sinulle on tarjottu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.OfferedAmount",
+      "value": "%1$@ lahjasta\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.OnChainGiftOffer",
+      "value": "Tarjous lohkoketjulahjasta · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.OnChainOffer",
+      "value": "Lohkoketjutarjous: **%1$@** lahjasta **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Review",
+      "value": "Tarkista"
     },
     {
       "_": "types.LangPackString",
@@ -11387,6 +11722,16 @@
       "_": "types.LangPackString",
       "key": "Chat.ServiceItem.WalletUnavailable",
       "value": "Lompakkoa ei voi käyttää juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Withdraw",
+      "value": "Peru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.YourOffer",
+      "value": "Esitit tarjouksen (**%1$@**) lahjasta **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -23849,6 +24194,17 @@
       "_": "types.LangPackString",
       "key": "LocalAgent.EngineActions.TelegramTookTheLinkButNothingNewAppearedOnScreen",
       "value": "Telegram otti linkin, mutta ruudulle ei ilmestynyt mitään muutamassa sekunnissa: ehkä se oli jo auki, se aukesi Telegramin ulkopuolella, tai Telegram ei löytänyt sitä. Tarkista current_screen ennen kuin päätät, että se aukesi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Weeks",
+      "one_value": "%1$d viikko",
+      "other_value": "%1$d viikkoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.WithThisCaption",
+      "value": " tällä kuvatekstillä:\n\n%1$@"
     },
     {
       "_": "types.LangPackString",
@@ -38183,8 +38539,118 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Star.ListScreen.AboveWithdrawalLimit",
+      "value": "Saldosi ylittää nostorajan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.AuthorizationExpired",
+      "value": "Valtuutus vanheni. Syötä salasanasi uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.BelowWithdrawalMinimum",
+      "value": "Saldosi on liian alhainen nostamiseen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.CheckTransactionHistory",
+      "value": "Tarkista tapahtumahistoria ennen kuin yrität uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.DirectWithdrawalUnavailable",
+      "value": "Suoranosto ei käytettävissä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.FragmentWithdrawalAvailable",
+      "value": "Voit silti nostaa Fragmentilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.GramBalance",
+      "value": "Gram-saldo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.GramBalanceInfo",
+      "value": "Grameiila voit ostaa lahjoja tai ehdottaa julkaisuja kanaville."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.PasswordChangedRecently",
+      "value": "Kaksivaiheisen todennuksen salasanasi vaihtui vasta. Odota vielä %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.SignedInRecently",
+      "value": "Kirjauduit vasta. Odota vielä %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.ThroughFragment",
+      "value": "Fragmentin kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.ToGramWallet",
+      "value": "Gram-lompakkoon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.TwoStepVerificationRequired",
+      "value": "Ota kaksivaiheinen todennus käyttöön asetuksista ensin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WalletCreating",
+      "value": "Gram-lompakkoasi luodaan. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Star.ListScreen.WithdrawMinimumGrams",
       "value": "Kerralla pitää nostaa vähintään 10 gramia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawToGramWallet",
+      "value": "Nosta gram-lompakkoon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalConfirmationInfo",
+      "value": "Voit tarkistaa etenemisen tapahtumahistoriasta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalDestinationInfo",
+      "value": "Nosta %1$@ itse hallinnoimaasi gram-lompakkoon tai Fragmentin kautta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalOptions",
+      "value": "Voit nostaa gramisi lompakkoosi tai Fragmentin kautta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalPasswordDescription",
+      "value": "Syötä kaksivaiheisen todennuksen salasanasi nostaaksesi varoja (%1$@) gram-lompakkoosi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalStatusUnknown",
+      "value": "Nostotila ei ole varma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalSubmitted",
+      "value": "Nostotoiminto aloitettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.Withdrawing",
+      "value": "Nostetaan: %1$@…"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -39049,6 +39515,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.ForGrams",
+      "value": "Grameilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.ForStars",
+      "value": "Tähdillä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.FromFragment",
+      "value": "Fragmentin kautta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.OnBlockchainOnly",
+      "value": "Vain lohkoketjulla"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.ModelBuilder.Backdrops",
       "value": "Taustat"
     },
@@ -39130,8 +39616,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.ChangeFragmentPrice",
+      "value": "Vaihda Fragment-hintaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.Nft.Controller.ChangePrice",
       "value": "Muuta hintaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.GiftDeliveredToRecipient",
+      "value": "Lahja on ostettu ja siirretty saajan lompakkoon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.GiftListed",
+      "value": "Lahja asetettiin myyntiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.GiftPurchased",
+      "value": "Lahja on ostettu ja on nyt lompakossasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.ListOnBlockchain",
+      "value": "Aseta myyntiin lohkoketjulla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.ListingPriceUpdated",
+      "value": "Myynti-ilmoituksen hintaa muutettiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.ListingRemoved",
+      "value": "Myynti-ilmoitus poistettiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.RemoveFromFragment",
+      "value": "Poista Fragmentista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.RemoveListing",
+      "value": "Poista myynnistä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.TransactionPending",
+      "value": "Tapahtuma on kesken. Tarkista myynti-ilmoitus ja lompakkosi ennen kuin yrität uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.WaitingForConfirmation",
+      "value": "Odottaa vahvistusta"
     },
     {
       "_": "types.LangPackString",
@@ -39190,6 +39731,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.AcceptedOfferSoldGift",
+      "value": "Hyväksyit tarjouksen\nMyit lahjan %1$@ #%2$@\nhintaan: %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.AwaitingExpiryConfirmation",
+      "value": "Tarjous on mennyt umpeen. Odotetaan lohkoketjun varmistusta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.AwaitingGiftDelivery",
+      "value": "Maksu on suoritettu. Lahjan toimitusta odotetaan."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.OnchainOffer.Balance",
       "value": "Saldo:"
     },
@@ -39225,8 +39781,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferAccepted",
+      "value": "Hyväksyit tarjouksen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferAmountExplanation",
+      "value": "Syötä, montako gramia haluat tarjota lahjasta "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferAmountLimits",
+      "value": "Syötä määrä väliltä %1$@–%2$@ gramia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferDeclined",
+      "value": "Hylkäsit tarjouksen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.OnchainOffer.OfferDurationHelp",
       "value": "Valitse, kuinka kauan omistaja ehtii hyväksyä tarjouksen. Kun aika menee umpeen, gramisi palautetaan, kun tämä on varmistettu lohkoketjussa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferExpiresIn",
+      "value": "Tarjous on voimassa vielä\n%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferWithdrawn",
+      "value": "Tarjous on peruttu."
     },
     {
       "_": "types.LangPackString",
@@ -41935,8 +42521,221 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryCreationController.AddAudio",
+      "value": "Lisää ääntä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.AudioOpenFailed",
+      "value": "Telegram ei voinut avata tätä äänitiedostoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessOff",
+      "value": "Kamerapääsy on estetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessRequired",
+      "value": "Anna Telegramille lupa käyttää kameraa Järjestelmäasetuksista kuvataksesi tarinan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFiles",
+      "value": "Valitse tiedostoja…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFromPhotos",
+      "value": "Valitse Kuvista…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageClipTrim",
+      "value": "Leikkaa leikettä kollaasia varten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageFileLimit",
+      "value": "Et voi valita enempää tiedostoja kuin ruutuja on vapaana."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryCreationController.Columns",
+      "one_value": "%1$d sarake",
+      "other_value": "%1$d saraketta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CombineCamerasFailed",
+      "value": "Telegram ei voinut yhdistää kameroita. Nauhoite yhdestä kamerasta on valmis muokattavaksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ConnectDualCamera",
+      "value": "Yhdistä toinen kamera käyttääksesi kaksoiskameraa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardCollage",
+      "value": "Hylkää kollaasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardStoryConfirmation",
+      "value": "Hylätäänkö tarina?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DualCamera",
+      "value": "Kaksoiskamera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DualCameraOpenFailed",
+      "value": "Telegram ei voinut avata molempia kameroita samaan aikaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EditAudio",
+      "value": "Muokkaa ääntä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EditCameraInset",
+      "value": "Muokkaa kamerainserttiä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryCreationController.EditTile",
+      "one_value": "Muokkaa ruutua %1$d",
+      "other_value": "Muokkaa ruutua %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EnableCameraOrChooseMedia",
+      "value": "Ota kamera käyttöön tai valitse mediaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.JoinRecordingsFailed",
+      "value": "Telegram ei voinut yhdistää kameranauhoitteita. Leikkeet ovat saatavilla erikseen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Link",
+      "value": "Linkki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.MediaOpenFailed",
+      "value": "Telegram ei voinut avata tätä kuvaa tai videota."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.MoveAudioToPlayhead",
+      "value": "Siirrä ääni toistopään kohdalle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.NoCameraAvailable",
+      "value": "Kameraa ei käytettävissä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Off",
+      "value": "Pois"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.On",
+      "value": "Päällä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.OpeningCamera",
+      "value": "Avataan kameraa…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Photo",
+      "value": "Kuva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.PhotosImportFailed",
+      "value": "Telegram ei voinut tuoda valittuja kohteita Kuvista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.PhotosImportPartiallyFailed",
+      "value": "Joitain kohteita ei voitu tuoda Kuvista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RecordingZoomFailed",
+      "value": "Telegram ei voinut suurentaa nauhoitusta. Alkuperäinen nauhoitus on muokattavissa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveAudio",
+      "value": "Poista ääni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveCameraInset",
+      "value": "Poista kamerainsertti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveLastTile",
+      "value": "Poista viimeisin ruutu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryCreationController.RemoveVideoNote",
       "value": "Poistetaanko tämä videoviesti?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ReplaceAudio",
+      "value": "Korvaa ääni"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RestoreCameraInset",
+      "value": "Palauta kamerainsertti"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StoryCreationController.Rows",
+      "one_value": "%1$d rivi",
+      "other_value": "%1$d riviä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraft",
+      "value": "Tallenna luonnos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraftConfirmation",
+      "value": "Pidetäänkö tarina luonnoksena?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraftFailed",
+      "value": "Telegram ei voinut tallentaa tarinan luonnosta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SoundtrackTrim",
+      "value": "Taustaäänen leikkaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Video",
+      "value": "Video"
     },
     {
       "_": "types.LangPackString",
@@ -41957,6 +42756,11 @@
       "_": "types.LangPackString",
       "key": "StoryCreationController.VideoNoteTimeline",
       "value": "Videoviestin aikajana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoRecordingFailed",
+      "value": "Telegram ei voinut nauhoittaa videota. Yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -50610,8 +51414,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Buyer",
+      "value": "Ostaja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Cancel",
       "value": "Kumoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CancellationFine",
+      "value": "Peruutussakko"
     },
     {
       "_": "types.LangPackString",
@@ -50690,6 +51504,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Expires",
+      "value": "Menee umpeen"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Fee",
       "value": "Kulut"
     },
@@ -50697,6 +51516,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.FeeFree",
       "value": "Telegram kattaa kulut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.FundedAmount",
+      "value": "Rahoitettu summa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NetworkFee",
+      "value": "Verkkomaksu"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -50716,6 +51545,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NewPrice",
+      "value": "Uusi hinta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Nft",
       "value": "NFT"
     },
@@ -50723,6 +51557,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.NotEnoughGramsTitle",
       "value": "Gramit eivät riitä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.OfferAddress",
+      "value": "Tarjousosoite"
     },
     {
       "_": "types.LangPackString",
@@ -50736,6 +51575,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.PlatformFee",
+      "value": "Alustamaksu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.PreviousPrice",
+      "value": "Aiempi hinta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Price",
+      "value": "Hinta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Proceed",
       "value": "Jatka"
     },
@@ -50746,6 +51600,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Refund",
+      "value": "Palautus"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.SecretPhraseRequiredInfo",
       "value": "Syötä salalauseesi käyttääksesi tätä lompakkoa uudelleen ja purkaaksesi kommentin."
     },
@@ -50753,6 +51612,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.SecretPhraseRequiredTitle",
       "value": "Salalause vaaditaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Seller",
+      "value": "Myyjä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SellerShare",
+      "value": "Myyjän osuus"
     },
     {
       "_": "types.LangPackString",
@@ -50773,6 +51642,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Sender",
       "value": "Lähettäjä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ServiceFee",
+      "value": "Palvelumaksu"
     },
     {
       "_": "types.LangPackString",
@@ -50896,8 +51770,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferAccepted",
+      "value": "Tarjous hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferCancelled",
+      "value": "Tarjous peruttiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OfferDeclined",
       "value": "Tarjous hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferExpired",
+      "value": "Tarjous meni umpeen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferSent",
+      "value": "Tarjous lähetettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OnChainGift",
+      "value": "Lohkoketjulahja"
     },
     {
       "_": "types.LangPackString",
@@ -50916,8 +51815,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Purchased",
+      "value": "Ostettu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSale",
+      "value": "Asetettu myyntiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.PutOnSaleFor",
       "value": "Asetettu myyntiin, hinta: %1$@ gramia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Received",
+      "value": "Saatu"
     },
     {
       "_": "types.LangPackString",
@@ -50926,8 +51840,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Repriced",
+      "value": "Hinta muuttui: %1$@ → %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Sending",
       "value": "Lähetetään"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Sent",
+      "value": "Lähetetty"
     },
     {
       "_": "types.LangPackString",
@@ -51062,13 +51986,404 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.AwaitOnchainConfirmation",
+      "value": "Odotetaan lohkoketjun varmistusta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.AwaitWalletFunds",
+      "value": "Voit jatkaa, kun varat ovat saapuneet lompakkoosi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyFromFragment",
+      "value": "Osta Fragmentilla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyGift",
+      "value": "Ostatko lahjan **%1$@**?\nLahja siirtyy lompakkoosi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyGiftForRecipient",
+      "value": "Ostatko lahjan **%1$@**?\nLahja ilmestyy saajan lompakkoon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyOnBlockchain",
+      "value": "Osta lohkoketjusta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ChangePrice",
+      "value": "Muuta hintaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ChangePriceConfirmation",
+      "value": "Haluatko muuttaa myyntihintaa: **%1$@** → **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.CheckServiceChat",
+      "value": "Tarkista tila Telegram-palveluilmoituksista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.CheckWithdrawalStatus",
+      "value": "Tarkista saldosi ja tapahtumahistoria ennen kuin yrität uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.Confirm",
+      "value": "Vahvista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ConfirmSale",
+      "value": "Vahvista myynti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ContractPayment",
+      "value": "Sopimusmaksu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ContractPaymentIncludesFees",
+      "value": "Sopimusmaksuihin kuuluu rojaltit ja kaasumaksut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.DeclineRequested",
+      "value": "Hylkäystä pyydettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.DeclinedOfferRefund",
+      "value": "Jos myyjä hylkää tarjouksesi tai se menee umpeen, **%1$@** palautuu sinulle automaattisesti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EarlyWithdrawalCost",
+      "value": "**%1$@** veloitetaan etuajassa perumisesta.\n\n%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EarningsInWallet",
+      "value": "Ansaitsemasi gramit ovat nyt lompakossasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EstimatedNetworkFee",
+      "value": "Arvioitu palvelumaksu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GaslessAlternative",
+      "value": "Kaasuton vaihtoehto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GiftNotFound",
+      "value": "Lahjaa ei löytynyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GiftOfferIneligible",
+      "value": "Tästä lahjasta ei voi enää tarjota lohkoketjulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GramHeldUntil",
+      "value": "%1$@ gramia pidätetään %2$@ asti."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "WalletUI.Integration.IssuedAvailability",
+      "one_value": "%1$@/%2$@ liikkeessä",
+      "other_value": "%1$@/%2$@ liikkeessä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListGiftConfirmation",
+      "value": "Asetatko lahjan **%1$@** myyntiin hintaan: **%2$@**?\nMyyntivoitto siirtyy suoraan lompakkoosi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListOnFragment",
+      "value": "Aseta myyntiin Fragmentissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListingPrice",
+      "value": "Myyntihinta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListingTransactionInProgress",
+      "value": "Tähän myynti-ilmoitukseen liittyvä tapahtuma on jo vireillä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListingsUnavailable",
+      "value": "Lohkoketjulla olevia lahjamyynti-ilmoituksia ei voi käyttää juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.MoveEarningsPassword",
+      "value": "Syötä kaksivaiheisen todennuksen salasanasi siirtääksesi varoja (%1$@) lompakkoosi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.MoveGramEarnings",
+      "value": "**%1$@** siirretään ansaituista grameista saldoosi ja käytetään lahjan ostamiseen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NetworkFee",
+      "value": "Palvelumaksu: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NewListingPrice",
+      "value": "Uusi myyntihinta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.NotForSale",
       "value": "Tätä lahjaa ei ole enää myytävänä."
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NotMinted",
+      "value": "Vain lompakossasi olevia lahjoja voi asettaa myyntiin lohkoketjussa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NotOwner",
+      "value": "Tämä lahja ei ole lompakossasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferActionExpired",
+      "value": "Tarjoustoiminto meni umpeen. Avaa tarjous uudelleen jatkaaksesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferActionInProgress",
+      "value": "Tarjoustoimintoa suoritetaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferActionUnavailable",
+      "value": "Telegram ei voinut valmistella tätä tarjoustoimintoa. Tarjous tai lompakko ei ole ehkä käytettävissä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferExpires",
+      "value": "Tarjous menee umpeen:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferGiftConfirmation",
+      "value": "Haluatko esittää tarjouksen:\n**%1$@** lahjasta **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferSent",
+      "value": "Tarjous lähetettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferSubmitted",
+      "value": "Tarjous lähetettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferUnavailable",
+      "value": "Tätä tarjousta ei ole enää saatavilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OpenWallet",
+      "value": "Avaa lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OpenWalletToContinue",
+      "value": "Avaa tai ota lompakko käyttöön jatkaaksesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.Price",
+      "value": "Hinta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.PriceChanged",
+      "value": "Hinta on muuttunut. Tarkista uusi hinta ennen ostamista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.PriceInvalid",
+      "value": "Tämä hinta on sallittujen jälleenmyyntihintojen ulkopuolella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.Recipient",
+      "value": "Saaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RefundAfterConfirmation",
+      "value": "Palautuksesi näkyy, kun se on varmistettu lohkoketjulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RefundAmount",
+      "value": "**%1$@** palautuu sinulle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RemoveFromFragment",
+      "value": "Poista Fragmentista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RemoveListing",
+      "value": "Poista myynnistä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RemoveListingConfirmation",
+      "value": "Poistetaanko **%1$@** myynnistä? Kun tämä on vahvistettu, lahja ilmestyy lompakkoosi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RequiredWalletBalance",
+      "value": "%1$@ vaaditaan lompakossa tätä toimintoa varten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SaleActive",
+      "value": "Tämä lahja on jo myytävänä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SaleContract",
+      "value": "Myyntisopimus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SaleInactive",
+      "value": "Tätä lahjaa ei ole enää myytävänä lohkoketjussa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SelfPurchase",
+      "value": "Et voi ostaa lahjaa omasta lompakostasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SellGiftConfirmation",
+      "value": "Myydäänkö **%1$@**\nhintaan: **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SetUpWalletForOffer",
+      "value": "Ota Telegram-lompakko käyttöön allekirjoittaaksesi tarjoustoiminnon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SubmissionStatusUnknown",
+      "value": "Lähetystoiminnon tila ei varma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SubmittedToWallet",
+      "value": "Lähetettiin lompakkoon"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.TooManyAttempts",
+      "value": "Liian monta yritystä. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.TransactionCreationFailed",
+      "value": "Lompakkotapahtumaa ei voitu valmistella. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.UseGramEarnings",
+      "value": "Käytetäänkö ansaittuja grameja?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletBalanceUpdated",
+      "value": "Lompakon saldoa päivitettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletCreating",
+      "value": "Lompakkoasi luodaan vielä. Yritä hetken kuluttua uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletMayCoverFee",
+      "value": "Lompakko saattaa silti kattaa palvelumaksun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletPayment",
+      "value": "Lompakkomaksu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletTransfer",
+      "value": "Lompakkosiirto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletUnavailable",
+      "value": "Telegram-lompakkoa ei voi käyttää juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawForFee",
+      "value": "Peru (%1$@)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.WithdrawOffer",
       "value": "Perutaanko tarjous?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawOfferConfirmation",
+      "value": "Haluatko perua tarjouksesi: **%1$@** lahjasta **%2$@**?\n\nPalautuksesi näkyy, kun se on varmistettu lohkoketjulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawalStatusUnknown",
+      "value": "Perumistoiminnon tila ei varma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawalSubmitted",
+      "value": "Peruutus lähetettiiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YouPay",
+      "value": "Sinä maksat:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YouReceive",
+      "value": "Sinä saat:"
     },
     {
       "_": "types.LangPackString",
@@ -52116,5 +53431,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2478746
+  "version": 2479177
 }

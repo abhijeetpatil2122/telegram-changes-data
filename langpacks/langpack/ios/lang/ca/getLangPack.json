@@ -1821,7 +1821,7 @@
     {
       "_": "types.LangPackString",
       "key": "Appstore.new.Powerful.chat3.option1",
-      "value": "Clar!"
+      "value": "I tant!"
     },
     {
       "_": "types.LangPackString",
@@ -4439,6 +4439,52 @@
       "_": "types.LangPackString",
       "key": "Bot.Unblock",
       "value": "Reinicia el bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Aquest usuari ja té un xat amb el bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Aquests usuaris ja tenen un xat amb el bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "No s'ha pogut convidar els usuaris. Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Només el propietari del bot pot convidar usuaris."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "La configuració de privadesa de l'usuari no permet que el convideu a bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Massa intents. Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Podeu convidar fins a 10 usuaris a la vegada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Convideu al bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "S'ha enviat la invitació.",
+      "other_value": "S'ha enviat les %@ invitacions."
     },
     {
       "_": "types.LangPackString",
@@ -10554,6 +10600,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "què és això?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ pertany a %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18226,6 +18277,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ us ha convidat a usar aquest xatbot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Denuncia brossa i bloca"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25528,6 +25589,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Mantén-ho al meu perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Apareixerà en"
     },
@@ -25629,6 +25695,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "S'ha enviat el regal. **%1$@** s'entregarà a **%2$@** pròximament."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "S'ha enviat el regal. **%@** s'entregarà al destinatari pròximament."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "El regal s'ha retirat de la venda, però la xarxa encara no ho ha confirmat. Establiu el preu nou en confirmar-se."
     },
@@ -25699,6 +25775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** s'ha canviat de preu a **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** es retirarà de la venda quan la xarxa ho confirmi."
     },
@@ -25746,6 +25827,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "L'oferta caduca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "El propietari rep"
     },
     {
       "_": "types.LangPackString",
@@ -25839,6 +25925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "El propietari rebrà **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Introduïu el nombre de Grams que voleu oferir per **%@**."
     },
@@ -25861,6 +25952,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "S'ha fet la venda. Rebreu **%@** en confirmar-se en la cadena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Oferta acceptada"
     },
     {
       "_": "types.LangPackString",
@@ -35710,6 +35806,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ us ha convidat al bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Us han convidat al bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ ha convidat l'usauri al bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "S'ha convidat l'usuari al bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Vau permetre que aquest bot us enviés missatges quan l'afegireu al menú d'adjunts."
     },
@@ -36994,6 +37110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "comprat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "cremat"
     },
@@ -37246,6 +37367,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Heu acceptat l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "La vostra oferta de **%1$@** per **%2$@** s'ha acceptat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Heu rebutjat l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "La vostra oferta de **%1$@** per **%2$@** s'ha rebutjat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "L'oferta de **%1$@** per **%2$@** ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "La vostra oferta de **%1$@** per **%2$@** ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Heu venut **%1$@** per **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "L'oferta de **%1$@** per **%2$@** s'ha retirat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Heu retirat l'oferta de **%1$@** per **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Review",
       "value": "Revisa"
     },
@@ -37277,7 +37443,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Expires",
-      "value": "L''oferta caduca d'aquí a"
+      "value": "L'oferta caduca d'aquí a"
     },
     {
       "_": "types.LangPackString",
@@ -42509,6 +42675,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "A la venda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 de %@"
     },
@@ -42658,6 +42829,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "No teniu permisos per a canviar aquest paràmetre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Convida al bot"
     },
     {
       "_": "types.LangPackString",
@@ -46608,6 +46784,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Mostra la llista de reproducció"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "CANAL"
     },
@@ -48158,6 +48339,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Les llegendes dels fitxers multimèdia no poden contenir botons, capçaleres, llistes, taules o altre format enriquit. La llegenda es desarà sense aquests elements."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Afegeix una equació"
     },
@@ -48415,6 +48601,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Voleu eliminar el format?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Desa sense formatar"
     },
     {
       "_": "types.LangPackString",
@@ -50585,6 +50776,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Republica\na una història"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "S'està enviant"
     },
     {
       "_": "types.LangPackString",
@@ -62646,7 +62842,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleOfferDeclined",
-      "value": "L'oferta s'ha declinat"
+      "value": "L'oferta s'ha rebutjat"
     },
     {
       "_": "types.LangPackString",
@@ -62690,8 +62886,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Canvi de preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Preu canviat a %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Enviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Venut"
     },
     {
       "_": "types.LangPackString",
@@ -62806,6 +63017,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Preu nou"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Comprador"
     },
@@ -62833,6 +63049,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Venedor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Preu antic"
     },
     {
       "_": "types.LangPackString",
@@ -64859,5 +65080,5 @@
       "value": "Heu introduït un codi de seguretat no vàlid."
     }
   ],
-  "version": 22629053
+  "version": 22659834
 }

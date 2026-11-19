@@ -17857,6 +17857,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ChangeStyle",
+      "value": "Vaihda tyyliä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasController.ClearAll",
       "value": "Poista kaikki"
     },
@@ -17882,8 +17887,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.LinkStickerLimit",
+      "value": "Tässä tarinassa on jo enimmäismäärä linkkitarroja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.LookingUpWeather",
+      "value": "Haetaan säätä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasController.MoveForward",
       "value": "Eteen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ReactionStickerLimit",
+      "value": "Tässä tarinassa on jo enimmäismäärä reaktiotarroja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.SaveFailed",
+      "value": "Muokattua kuvaa ei voitu tallentaa. Muokkauksesi ovat yhä tallella. Yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -17909,6 +17934,21 @@
       "_": "types.LangPackString",
       "key": "EditImage.CanvasController.ShapeStar",
       "value": "Tähti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.WeatherLoadFailed",
+      "value": "Telegram ei voinut ladata säätä. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.WeatherLocationRequired",
+      "value": "Säätietoja varten sijaintisi pitää olla tiedossa. Tarkista Sijaintipalvelut ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.WeatherStickerLimit",
+      "value": "Tarinaan voi lisätä yhden säätarran."
     },
     {
       "_": "types.LangPackString",
@@ -17994,6 +18034,16 @@
       "_": "types.LangPackString",
       "key": "EditImage.CutoutController.RemoveOutline",
       "value": "Poista ääriviiva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.ModalController.EditsChanged",
+      "value": "Muokkauksesi muuttuivat kuvaa tallennettaessa. Yritä uudelleen tallentaaksesi uusimman version."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.ModalController.SaveFailed",
+      "value": "Muokattua kuvaa ei voitu tallentaa. Muokkauksesi ovat yhä tallella. Yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -18670,8 +18720,153 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.BrowserInstructions",
+      "value": "Syötä salasana selaimeesi. Jos siirrät vietyjä tietoja, pidä \"%1$@\" ja kansio \"%2$@\" samassa paikassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.Cancelled",
+      "value": "Vienti peruttiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.CloseAnyway",
+      "value": "Sulje silti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.CopyPassword",
+      "value": "Kopioi salasana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.CreationFailed",
+      "value": "Salattua vientiä ei voitu luoda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.DiskFull",
+      "value": "Levy on täynnä, joten salattua vientiä ei voitu tallentaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.Done",
+      "value": "Valmis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.EncryptExport",
+      "value": "Salaa viedyt tiedot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.EncryptedDescription",
       "value": "Viety sisältö aukeaa verkkoselaimessa, kuten Safari ja Chrome, ja pyytää salasanaa. Keskusteluiden ja tiedostojen nimet piilotetaan. Telegram näyttää salasanan, kun vienti on alkanut. Se on vientikohtainen, eikä hukattua salasanaa voi palauttaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.Encrypting",
+      "value": "Salataan… %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ExportPassword",
+      "value": "Vientisalasana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ExportReady",
+      "value": "Vienti valmis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.FolderPermissionDenied",
+      "value": "Telegram ei voinut tallentaa tiedostoja valittuun kansioon. Yritä uudelleen eri kansiolla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.FolderUnavailable",
+      "value": "Valittu kansio ei ole enää käytettävissä. Valitse toinen kansio ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.InsufficientSpace",
+      "value": "Levytila ei riitä salatun viennin tallentamiseen. Noin %1$@ vaaditaan, mutta vain %2$@ on vapaana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.LowDiskSpace",
+      "value": "Macisi levy alkaa täyttyä. Telegram on keskeyttänyt viennin, jotta Macisi voi jatkaa toimintaansa. Vapauta levytilaa ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.OpenInBrowser",
+      "value": "Avaa selaimessa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordCopiedAdvice",
+      "value": "Salasana kopioitiin. Pidä se turvassa. Telegram ei voi auttaa sinua, jos se hukataan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordCopiedToClipboard",
+      "value": "Salasana kopioitiin leikepöydälle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordCreationFailed",
+      "value": "Salasanaa ei voitu luoda vientiä varten. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordForThisExport",
+      "value": "VIETYJEN TIETOJEN SALASANA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PreparationDiskFull",
+      "value": "Macisi levy on täynnä, joten vientiä ei voitu aloittaa. Vapauta levytilaa ja yritä sitten uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PrivateFolderFailed",
+      "value": "Yksityistä kansiota ei voitu luoda vientiä varten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ReadFailed",
+      "value": "Vietyjä tiedostoja ei voitu lukea salaamista varten. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.RegularDescription",
+      "value": "Vienti tallennetaan tavalliseen kansioon, jonka kuka tahansa tällä Macilla voi avata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.SavePasswordAdvice",
+      "value": "Ota se nyt talteen: Telegram ei pidä salasanaa tallessa, eikä voi auttaa sinua, jos se hukataan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.SavePasswordReminder",
+      "value": "Pidä salasana tallessa. Se vaaditaan vietyjen tietojen katseluun. Telegram ei voi auttaa sinua, jos se hukataan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.SaveThePassword",
+      "value": "Tallenna salasana?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ShowInFinder",
+      "value": "Näytä Finderissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.UncopiedPasswordWarning",
+      "value": "Et kopioinut salasanaa. Vietyjä tietoja ei voi avata ilman sitä. Telegram ei näytä sinulle salasanaa enää tämän kerran jälkeen."
     },
     {
       "_": "types.LangPackString",
@@ -25399,6 +25594,146 @@
       "_": "types.LangPackString",
       "key": "Modal.Yes",
       "value": "KYLLÄ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.AutoRotate",
+      "value": "Kiertorata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Background",
+      "value": "Tausta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Dimensions",
+      "value": "Mitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.DisplayFailed",
+      "value": "Tätä 3D-mallia ei voi näyttää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Finder",
+      "value": "Finder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Format",
+      "value": "Muoto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Info",
+      "value": "Tiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Light",
+      "value": "Valo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Lighting",
+      "value": "Valaistus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.LightingDramatic",
+      "value": "Valaistus: dramaattinen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.LightingSoft",
+      "value": "Valaistus: pehmeä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.LightingStudio",
+      "value": "Valaistus: studio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Loading",
+      "value": "Ladataan…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Meshes",
+      "value": "Verkot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Model",
+      "value": "3D-malli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.ModelInfo",
+      "value": "Mallin tiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Open",
+      "value": "Avaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.OpenInDefaultApp",
+      "value": "Avaa oletusapissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Reset",
+      "value": "Nollaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.ResetCamera",
+      "value": "Nollaa kamera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Rotate",
+      "value": "Kierrä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Save",
+      "value": "Tallenna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.SaveAs",
+      "value": "Tallenna nimellä…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.ShowInFinder",
+      "value": "Näytä Finderissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Size",
+      "value": "Koko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Triangles",
+      "value": "Kolmiot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Vertices",
+      "value": "Kärkipisteet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Wireframe",
+      "value": "Rautalanka"
     },
     {
       "_": "types.LangPackString",
@@ -51781,5 +52116,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2476934
+  "version": 2478746
 }

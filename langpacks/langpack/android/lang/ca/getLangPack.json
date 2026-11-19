@@ -1616,6 +1616,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionBotInvite",
+      "value": "un1 us ha convidat al bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInviteUnknown",
+      "value": "Us han convidat al bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionBotWebViewData",
       "value": "S'han enviat les dades del botó «%1$s» al bot."
     },
@@ -3379,8 +3389,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AgentEffort",
+      "value": "Esforç"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortExpert",
+      "value": "Expert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortFast",
+      "value": "Ràpid"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortMedium",
+      "value": "Mitjà"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortTitle",
+      "value": "Esforç de raonament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortUltra",
+      "value": "Ultra"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AgentHundredsOfModels",
       "value": "Centenars de models"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModel",
+      "value": "Model"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelSearch",
+      "value": "Cerca models"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsEmpty",
+      "value": "No s'ha trobat cap model."
     },
     {
       "_": "types.LangPackString",
@@ -9022,6 +9077,21 @@
       "_": "types.LangPackString",
       "key": "BotInvite",
       "value": "Afegeix-lo a un grup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStartedMany",
+      "value": "Aquests usuaris ja tenen un xat amb **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorNotOwner",
+      "value": "Només el propietari del **%s** pot convidar usuaris."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteToBot",
+      "value": "Convideu al bot"
     },
     {
       "_": "types.LangPackString",
@@ -15694,6 +15764,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateGroupWith",
+      "value": "Crea un grup amb %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateLink",
       "value": "Crea un enllaç"
     },
@@ -20902,10 +20977,20 @@
       "value": "Crea un enllaç d'invitació"
     },
     {
+      "_": "types.LangPackString",
+      "key": "FilterShowAllChats",
+      "value": "Mostra tots els xats"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "FilterShowMoreChats",
       "one_value": "Mostra %1$d xat més",
       "other_value": "Mostra %1$d xats més"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterShowUnread",
+      "value": "Mostra els xats per llegir"
     },
     {
       "_": "types.LangPackString",
@@ -20921,6 +21006,11 @@
       "_": "types.LangPackString",
       "key": "FilterUnread",
       "value": "Per llegir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterUnreadOnlyShown",
+      "value": "només es mostren els xats per llegir"
     },
     {
       "_": "types.LangPackString",
@@ -25269,6 +25359,241 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBoughtTo",
+      "value": "S'ha comprat %1$s per a %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "El regal ja no està a la venda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "El regal no és en la cartera."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "El preu està fora del rang permés."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchaseFixed",
+      "value": "No podeu comprar el vostre propi ítem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTitle",
+      "value": "Confirmeu l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclined",
+      "value": "L'oferta s'ha rebutjat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "L'oferta caduca d'aquí a\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "Us han ofert **%1$s** (%2$s) per **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "Us han ofert **%1$s** per **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteAccepted",
+      "value": "La vostra oferta de **%1$s** per **%2$s** s'ha acceptat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteDeclined",
+      "value": "La vostra oferta de **%1$s** per **%2$s** s'ha rebutjat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteWithdrawn",
+      "value": "Heu retirat l'oferta de **%1$s** per **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouAccepted",
+      "value": "Heu acceptat l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouDeclined",
+      "value": "Heu rebutjat l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouSold",
+      "value": "Heu venut **%1$s** per **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "Heu ofert **%1$s** per **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "El propietari rebrà **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "Si el venedor rebutja l'oferta o aquesta caduca, se us reemborsaran automàticament els vostres Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "L'oferta caduca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "Tarifa de la plataforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "Pagueu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "La vostra oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "Voleu vendre **%1$s**\nper **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "**%1$s** reservats fins al dia %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "S'ha enviat l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "S'ha acceptat l'oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "S'està cancel·lant la venda…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "L'oferta s'ha rebutjat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "L'oferta ha caducat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "S'està completant la venda…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "L'oferta s'ha retirat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryExpired",
+      "value": "L'oferta de **%1$s** per **%2$s** ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryWithdrawn",
+      "value": "L'oferta de **%1$s** per **%2$s** s'ha retirat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYourExpired",
+      "value": "La vostra oferta de **%1$s** per **%2$s** ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFor",
+      "value": "Retira per %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "Voleu retirar l'oferta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOpenWallet",
+      "value": "Obre els meus Diners"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "Comprador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowCancellationFee",
+      "value": "Tarifa de cancel·lació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowExpiration",
+      "value": "Caducitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNewPrice",
+      "value": "Preu nou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowOldPrice",
+      "value": "Preu antic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowPrice",
+      "value": "Preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "Venedor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowYouReceive",
+      "value": "Rebeu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceButton",
+      "value": "Ven per %s Grams"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremium",
       "value": "Regala el Premium"
     },
@@ -25523,8 +25848,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftResaleFilterForStars",
+      "value": "Per estrelles"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftResaleFilterForStarsOnly",
       "value": "Només per estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterForTon",
+      "value": "Per Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterFromFragment",
+      "value": "Des del Fragment"
     },
     {
       "_": "types.LangPackString",
@@ -25989,6 +26329,16 @@
       "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Guanys de Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "**%1$s** es mourà dels guanys de Grams al vostre saldo i s'usarà per a comprar el regal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseTitle",
+      "value": "Voleu usar els guanys de Grams?"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -29844,6 +30194,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MakeChannelPrivateText",
+      "value": "S'eliminarà l'enllaç públic del canal **%1$s**, i el nom d'usuari esdevindrà disponible per a tothom. Voleu continuar?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeChannelPrivateTitle",
+      "value": "Voleu fer el canal públic?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateText",
+      "value": "S'eliminarà l'enllaç públic del grup **%1$s**, i el nom d'usuari esdevindrà disponible per a tothom. Voleu continuar?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateTitle",
+      "value": "Voleu fer el grup privat?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MakeMyselfVisible",
       "value": "Fes-me visible"
     },
@@ -31938,13 +32308,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsCollapsePost",
+      "value": "Replega"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsCompact",
+      "value": "Compacte"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsEmpty",
       "value": "Cap noticia encara"
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsExpandPost",
+      "value": "Amplia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsExpanded",
+      "value": "Ampliat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsForYou",
       "value": "Per a vós"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsInteresting",
+      "value": "Interessant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsInterestingDone",
+      "value": "Veureu més publicacions com aquesta."
     },
     {
       "_": "types.LangPackString",
@@ -31960,6 +32360,21 @@
       "_": "types.LangPackString",
       "key": "NewsInterestsSaved",
       "value": "S'han desat els interessos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsNotInterested",
+      "value": "No hi tinc interés"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsNotInterestedDone",
+      "value": "Veureu menys publicacions com aquesta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsReloadFeed",
+      "value": "Recarrega els continguts"
     },
     {
       "_": "types.LangPackString",
@@ -57900,6 +58315,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferCancelled",
+      "value": "L'oferta s'ha cancel·lat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferExpired",
+      "value": "L'oferta ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSale",
+      "value": "Posat a la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSaleFor",
+      "value": "Posa a la venda per %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRepriced",
+      "value": "S'ha canviat el preu a %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusOfferAccepted",
+      "value": "Oferta acceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPriceChanged",
+      "value": "Canvi de preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPurchased",
+      "value": "Comprat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPutOnSale",
+      "value": "Posat a la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusRemovedFromSale",
+      "value": "Retirat de la venda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOpenMyMoney",
       "value": "Obre els meus Diners"
     },
@@ -59517,5 +59982,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61867548
+  "version": 61942005
 }

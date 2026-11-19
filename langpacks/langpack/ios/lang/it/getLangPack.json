@@ -1711,7 +1711,7 @@
     {
       "_": "types.LangPackString",
       "key": "Appstore.new.Creative.subtitle",
-      "value": "Temi colorati, sticker, GIF\nvideomessaggi e altro."
+      "value": "Temi colorati, sticker, GIF,\nvideomessaggi e altro."
     },
     {
       "_": "types.LangPackString",
@@ -4439,6 +4439,47 @@
       "_": "types.LangPackString",
       "key": "Bot.Unblock",
       "value": "Riavvia bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Questo utente ha già una chat con il bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Questi utenti hanno già una chat con il bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Impossibile invitare utenti. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Solo il proprietario del bot può invitare utenti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Troppe richieste. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Puoi invitare fino a 10 utenti alla volta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Invita nel bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "L’invito è stato inviato.",
+      "other_value": "%@ inviti sono stati inviati."
     },
     {
       "_": "types.LangPackString",
@@ -18226,6 +18267,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ ti ha invitato a usare questo chatbot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Segnala spam e blocca"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25841,6 +25892,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.MinAmountToast",
       "value": "Non puoi offrire meno di %@ per questo regalo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Il proprietario riceverà **%@**."
     },
     {
       "_": "types.LangPackString",
@@ -35720,6 +35776,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ ti ha invitato in questo bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Sei stato invitato in questo bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ ha invitato questo utente nel bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Questo utente è stato invitato nel bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Hai consentito a questo bot di scriverti quando lo hai aggiunto al tuo menu allegati."
     },
@@ -37253,6 +37329,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Hai offerto **%1$@** per **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Hai accettato l'offerta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "La tua offerta di **%1$@** per **%2$@** è stata accettata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Hai rifiutato l'offerta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "La tua offerta di **%1$@** per **%2$@** è stata rifiutata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "L'offerta di **%1$@** per **%2$@** è scaduta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "La tua offerta di **%1$@** per **%2$@** è scaduta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Hai venduto **%1$@** per **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "L'offerta di **%1$@** per **%2$@** è stata ritirata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Hai ritirato la tua offerta di **%1$@** per **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -42676,6 +42797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Invita nel bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.ItemAffiliateProgram.Footer",
       "value": "Condividi un link a %1$@ con i tuoi amici e guadagna il %2$@% della loro spesa."
     },
@@ -46623,6 +46749,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Mostra playlist"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "CANALE"
     },
@@ -48430,6 +48561,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Rimuove la formattazione?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Salva senza formattazione"
     },
     {
       "_": "types.LangPackString",
@@ -62715,6 +62851,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Venduto"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CommentDecryptionErrorText",
       "value": "Impossibile decifrare il commento."
     },
@@ -64889,5 +65030,5 @@
       "value": "Hai inserito un codice di sicurezza non valido."
     }
   ],
-  "version": 22650261
+  "version": 22659624
 }

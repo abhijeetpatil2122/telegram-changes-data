@@ -805,6 +805,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Koble til modell"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Start"
     },
@@ -825,8 +830,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Ekspert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Rask"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Medium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ultra"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.InputPlaceholder",
       "value": "Spør agenten hva som helst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.NotFound",
+      "value": "Ingen modeller funnet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Models.Search",
+      "value": "Søk etter modeller"
     },
     {
       "_": "types.LangPackString",
@@ -4319,6 +4354,52 @@
       "_": "types.LangPackString",
       "key": "Bot.Unblock",
       "value": "Start robot på nytt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Denne brukeren har allerede en samtale med roboten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Disse brukerne har allerede en samtale med roboten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Kan ikke invitere brukere. Vennligst prøv igjen senere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Bare eieren av roboten kan invitere brukere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Personverninnstillingene til denne brukeren tillater ikke å invitere dem til roboter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "For mange forsøk. Vennligst prøv igjen senere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Du kan invitere opptil 10 brukere om gangen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Inviter til robot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "Invitasjonen er sendt.",
+      "other_value": "%@ invitasjoner er sendt."
     },
     {
       "_": "types.LangPackString",
@@ -10261,6 +10342,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorGeneric",
+      "value": "Kunne ikke skrive om meldingen, så den ble ikke sendt. Trykk på Send for å sende den som den er."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorLimit",
+      "value": "Du har nådd grensen for AI, så meldingen ble ikke sendt. Trykk på Send for å sende den som den er."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.ErrorTooLong",
+      "value": "Meldingen er for lang for AI, så den ble ikke sendt. Trykk på Send for å sende den som den er."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Beklager, du kan ikke velge flere elementer samtidig."
     },
@@ -10344,6 +10440,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "hva er dette?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ eies av %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -10754,6 +10855,76 @@
       "_": "types.LangPackString",
       "key": "Chat.DeleteReactionInfo",
       "value": "Trykk og hold for å slette reaksjon."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.AllStyles",
+      "value": "Alle stiler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ConvertToText",
+      "value": "Konverter til tekst"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhance",
+      "value": "Forbedre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorGeneric",
+      "value": "Kunne ikke forbedre teksten. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorLimit",
+      "value": "Du har nådd bruksgrensen for AI. Prøv igjen senere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.EnhanceErrorTooLong",
+      "value": "Teksten er for lang til å forbedre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Enhancing",
+      "value": "Forbedrer…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorGeneric",
+      "value": "Kunne ikke gjenkjenne tale. Vennligst prøv igjen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "Tillat talegjenkjenning for Telegram i innstillingene å diktere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnavailable",
+      "value": "Diktering er for tiden ikke tilgjengelig for det gjeldende inndataspråket."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorUnsupportedLanguage",
+      "value": "Diktering støtter ikke %@ ennå."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Hint",
+      "value": "Sveip hit for å diktere"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Listening",
+      "value": "Lytter…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Stop",
+      "value": "Stopp diktering"
     },
     {
       "_": "types.LangPackString",
@@ -14207,6 +14378,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatList.ContextShowUnread",
+      "value": "Vis uleste"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatList.ContextUnmuteAll",
       "value": "Varsler på"
     },
@@ -15270,6 +15446,16 @@
       "_": "types.LangPackString",
       "key": "ChatList.Unmute",
       "value": "Slå på varsler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.Info",
+      "value": "bare uleste samtaler vises"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.UnreadOnlyPanel.ShowAll",
+      "value": "Vis alle samtaler"
     },
     {
       "_": "types.LangPackString",
@@ -17903,6 +18089,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.BotInteractiveUrlAlert",
       "value": "Tillat %@ å sende din Telegram navn og id (ikke telefonnummer) til sider du åpner med denne roboten?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ inviterte deg til å bruke denne samtaleroboten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Rapporter spam og blokker"
     },
     {
       "_": "types.LangPackString",
@@ -25208,6 +25404,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Fortsett å vise på profilen min"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Den vil vises i"
     },
@@ -25304,8 +25505,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Gave sendt. **%1$@** vil bli levert til **%2$@** innen kort tid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Gave sendt. **%@** vil bli levert til mottakeren innen kort tid."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Åpne mine Penger"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** ble priset på nytt til **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Confirm",
+      "value": "Bekreft"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Expires",
+      "value": "Tilbudet utløper"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Eier mottar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.PlatformFee",
+      "value": "Plattformavgift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Refund",
+      "value": "Hvis selgeren avslår tilbudet ditt eller hvis det utløper, vil **%@** automatisk bli returnert til deg."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Text",
+      "value": "Er du sikker på at du vil tilby **%1$@** for **%2$@**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.Title",
+      "value": "Bekreft tilbud"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouPay",
+      "value": "Du betaler"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YouReceive",
+      "value": "Du mottar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.YourOffer",
+      "value": "Ditt tilbud"
     },
     {
       "_": "types.LangPackString",
@@ -25321,6 +25587,16 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Decline.Title",
       "value": "Vil du avslå tilbudet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DepositFunds",
+      "value": "Sett inn midler >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.DurationDescription",
+      "value": "Velg hvor lang tid eieren har på seg til å akseptere tilbudet ditt. Når tiden utløper, vil dine Gram automatisk bli refundert."
     },
     {
       "_": "types.LangPackString",
@@ -25344,6 +25620,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.InsufficientFunds",
+      "value": "Utilstrekkelige midler."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.MinAmountToast",
+      "value": "Du kan ikke tilby mindre enn %@ for denne gaven"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Eieren vil motta **%@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.PriceDescription",
+      "value": "Skriv inn antall Gram du ønsker å tilby for **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Decline",
       "value": "Avslå"
     },
@@ -25364,13 +25660,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Tilbud akseptert"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Text",
       "value": "Vil du selge **%1$@** for **%2$@**?"
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Title",
+      "value": "Bekreft salg"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sent.Text",
       "value": "%1$@ reservert fram til %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sent.Title",
+      "value": "Tilbud sendt"
     },
     {
       "_": "types.LangPackString",
@@ -35005,6 +35316,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ inviterte deg til denne roboten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Du ble invitert til denne roboten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ inviterte denne brukeren til roboten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Denne brukeren ble invitert til roboten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Du tillot denne roboten å sende deg meldinger når du la den til i vedleggsmenyen din."
     },
@@ -35595,6 +35926,11 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransfer.WithFiatYou",
       "value": "Du sendte %1$@ %2$@ (%3$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "Du mottok %1$@ (%2$@)"
     },
     {
       "_": "types.LangPackString",
@@ -36279,6 +36615,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "kjøpt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "brent"
     },
@@ -36528,6 +36869,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Du tilbød **%1$@** for **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Du aksepterte tilbudet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Ditt tilbud på **%1$@** for **%2$@** ble akseptert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Du avslo tilbudet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Tilbudet ditt på **%1$@** for **%2$@** ble avvist"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Tilbudet på **%1$@** for **%2$@** har utløpt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Tilbudet ditt på **%1$@** for **%2$@** har utløpt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Du solgte **%1$@** for **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Tilbudet på **%1$@** for **%2$@** ble trukket tilbake"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Du trakk tilbake tilbudet på **%1$@** for **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -41794,6 +42180,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "På salg"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 av %@"
     },
@@ -41920,6 +42311,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.GroupsInCommon.CreateGroup",
+      "value": "Opprett gruppe med %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.HiddenCommunityStatus",
       "value": "Skjult • %@"
     },
@@ -41938,6 +42334,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Du har ikke tillatelse til å endre denne innstillingen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Inviter til robot"
     },
     {
       "_": "types.LangPackString",
@@ -45888,6 +46289,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Vis spilleliste"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "KANAL"
     },
@@ -47438,6 +47844,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Bildetekster kan ikke inneholde knapper, overskrifter, lister, tabeller eller annen rik formatering, og vil bli lagret som ren tekst."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Legg til formel"
     },
@@ -47695,6 +48106,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Fjern formatering?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Lagre uten formatering"
     },
     {
       "_": "types.LangPackString",
@@ -49865,6 +50281,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Legg ut\npå nytt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Sender"
     },
     {
       "_": "types.LangPackString",
@@ -55713,6 +56134,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUse",
+      "value": "Bruk alltid i denne samtalen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseFooter",
+      "value": "Hver melding du sender i denne chatten vil bli skrevet om med disse innstillingene."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummary",
+      "value": "→ %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryEmoji",
+      "value": "Emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryFix",
+      "value": "Rett grammatikk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryStyledLanguage",
+      "value": "%1$@ %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextProcessing.AlwaysUseSummaryWithEmoji",
+      "value": "%@ + emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TextProcessing.EditStyle.ActionCreate",
       "value": "Opprett"
     },
@@ -60089,6 +60545,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.AspectRatio",
+      "value": "Størrelsesforhold"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceOver.MediaEditor.Crop",
+      "value": "Beskjær"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.MessageContextDelete",
       "value": "Slett"
     },
@@ -61635,6 +62101,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Priset på nytt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Priset på nytt til %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Solgt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CommentDecryptionErrorText",
       "value": "Kommentaren kunne ikke dekrypteres."
     },
@@ -61738,6 +62219,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "Nettverksavgifter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Ny pris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Gammel pris"
     },
     {
       "_": "types.LangPackString",
@@ -63734,5 +64225,5 @@
       "value": "Du har oppgitt en ugyldig sikkerhetskode."
     }
   ],
-  "version": 22632772
+  "version": 22659035
 }

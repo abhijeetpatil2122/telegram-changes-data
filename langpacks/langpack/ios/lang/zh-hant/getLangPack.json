@@ -916,7 +916,7 @@
     {
       "_": "types.LangPackString",
       "key": "Agent.Models.NotFound",
-      "value": "未找到型號"
+      "value": "未找到模型"
     },
     {
       "_": "types.LangPackString",
@@ -1871,7 +1871,7 @@
     {
       "_": "types.LangPackString",
       "key": "Appstore.new.Private.title",
-      "value": "私人"
+      "value": "隱私"
     },
     {
       "_": "types.LangPackString",
@@ -4402,6 +4402,51 @@
       "_": "types.LangPackString",
       "key": "Bot.Unblock",
       "value": "重啟機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "此用戶已經與該機器人進行過對話。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "這些用戶已經與該機器人進行過對話。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "無法邀請用戶，請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "只有機器人的擁有者才能邀請用戶。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "此用戶的隱私設定不允許將其邀請至機器人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "嘗試次數過多，請稍後再試"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "您一次最多可以邀請 10 位用戶。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "邀請使用機器人"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "other_value": "已送出 %@ 份邀請。"
     },
     {
       "_": "types.LangPackString",
@@ -10482,6 +10527,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "這是什麽？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ 由 %2$@ 擁有"
     },
     {
       "_": "types.LangPackString",
@@ -18055,6 +18105,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ 邀請您使用此聊天機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "檢舉垃圾訊息並封鎖"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25255,6 +25315,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "繼續顯示在我的個人檔案中"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "它將出現在"
     },
@@ -25355,6 +25420,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "禮物已送出。**%1$@** 將很快送達至 **%2$@**。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "禮物已送出。**%@** 將很快送達至接收者。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "您的禮物已從在售清單中移除，但網路尚未確認此變更。待確認後，請設定新價格。"
     },
@@ -25425,6 +25500,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** 的價格已調整為 **%2$@**。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** 將在網路確認後下架。"
     },
@@ -25472,6 +25552,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "報價失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "物主將收到"
     },
     {
       "_": "types.LangPackString",
@@ -25565,6 +25650,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "物主將收到 **%@**。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "請輸入您願意為 **%@** 報價的 Gram 金額。"
     },
@@ -25590,6 +25680,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "報價已接受"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Text",
       "value": "以 **%2$@** 出售 **%1$@** 嗎？"
     },
@@ -25606,7 +25701,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sent.Title",
-      "value": "已傳送報價"
+      "value": "報價已送出"
     },
     {
       "_": "types.LangPackString",
@@ -27091,7 +27186,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.View.OnSale",
-      "value": "特價 %@"
+      "value": "售價 %@"
     },
     {
       "_": "types.LangPackString",
@@ -31716,7 +31811,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.PhoneWithPasskeySubtitle",
-      "value": "請輸入您的電話號碼 \n或[使用 Passkey 登入 >](passkey)"
+      "value": "請輸入您的電話號碼 \n或[使用通行金鑰登入 >](passkey)"
     },
     {
       "_": "types.LangPackString",
@@ -34151,7 +34246,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.BalanceStarsWithdrawShort",
-      "value": "提現"
+      "value": "提取"
     },
     {
       "_": "types.LangPackString",
@@ -35302,6 +35397,26 @@
       "_": "types.LangPackStringPluralized",
       "key": "Notification.Boost.Times",
       "other_value": "%@ 次"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ 邀請您使用此機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "您受邀使用此機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ 邀請此用戶使用機器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "此用戶受邀使用機器人"
     },
     {
       "_": "types.LangPackString",
@@ -36565,6 +36680,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "已購買"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "已銷毀"
     },
@@ -36810,6 +36930,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "您已接受報價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "您以 **%1$@** 購買 **%2$@** 的報價已被接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "您已拒絕報價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "您以 **%1$@** 購買 **%2$@** 的報價遭到拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "以 **%1$@** 購買 **%2$@** 的報價已過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "您以 **%1$@** 購買 **%2$@** 的報價已過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "你以 **%2$@** 的價格賣出了 **%1$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "以 **%1$@** 購買 **%2$@** 的報價已撤回"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "您撤回了以 **%1$@** 購買 **%2$@** 的報價"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Review",
       "value": "查看"
     },
@@ -36821,7 +36986,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Accepted",
-      "value": "已接受報價。"
+      "value": "報價已接受。"
     },
     {
       "_": "types.LangPackString",
@@ -36831,7 +36996,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Declined",
-      "value": "已拒絕報價。"
+      "value": "報價遭到拒絕。"
     },
     {
       "_": "types.LangPackString",
@@ -40001,12 +40166,12 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.AddPasskey",
-      "value": "新增 Passkey"
+      "value": "新增通行金鑰"
     },
     {
       "_": "types.LangPackString",
       "key": "Passkeys.ButtonCreate",
-      "value": "建立 Passkey"
+      "value": "新增通行金鑰"
     },
     {
       "_": "types.LangPackString",
@@ -40021,22 +40186,22 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.DeleteAlert.Text",
-      "value": "一旦刪除，此 Passkey 將無法用於登入。 \n\n請記得同時從密碼管理工具中移除此 Passkey 。"
+      "value": "一旦刪除，此通行金鑰將無法用於登入。 \n\n請記得同時從密碼管理工具中移除它。"
     },
     {
       "_": "types.LangPackString",
       "key": "Passkeys.DeleteAlert.Title",
-      "value": "刪除 Passkey？"
+      "value": "刪除通行金鑰？"
     },
     {
       "_": "types.LangPackString",
       "key": "Passkeys.EmptyName",
-      "value": "Passkey"
+      "value": "通行金鑰"
     },
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Into.Text0",
-      "value": "建立 Passkey，輕鬆、安全地登入。"
+      "value": "建立一組通行金鑰，以便輕鬆且安全地登入。"
     },
     {
       "_": "types.LangPackString",
@@ -40046,7 +40211,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Into.Text2",
-      "value": "您的 Passkey 已安全儲存在您的 iCloud 鑰匙圈中。"
+      "value": "您的通行金鑰將會安全地儲存在您的 iCloud 鑰匙圈中。"
     },
     {
       "_": "types.LangPackString",
@@ -40056,7 +40221,7 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Into.Title0",
-      "value": "建立新的 Passkey"
+      "value": "建立通行金鑰"
     },
     {
       "_": "types.LangPackString",
@@ -40066,12 +40231,12 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Into.Title2",
-      "value": "安全儲存 Passkey"
+      "value": "安全儲存通行金鑰"
     },
     {
       "_": "types.LangPackString",
       "key": "Passkeys.ListFooter",
-      "value": "您的 Passkey 安全地儲存在您的密碼管理工具中。"
+      "value": "您的通行金鑰已安全地儲存於您的密碼管理工具中。"
     },
     {
       "_": "types.LangPackString",
@@ -40086,12 +40251,12 @@
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Subtitle",
-      "value": "安全登入，保護您的帳號安全。"
+      "value": "安全登入，並確保您的帳號安全。"
     },
     {
       "_": "types.LangPackString",
       "key": "Passkeys.Title",
-      "value": "Passkey"
+      "value": "通行金鑰"
     },
     {
       "_": "types.LangPackString",
@@ -42005,6 +42170,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "在售"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 / %@"
     },
@@ -42152,6 +42322,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "您無權變更此設定。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "邀請使用機器人"
     },
     {
       "_": "types.LangPackString",
@@ -45916,7 +46091,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.Passkey",
-      "value": "Passkey"
+      "value": "通行金鑰"
     },
     {
       "_": "types.LangPackString",
@@ -46077,6 +46252,11 @@
       "_": "types.LangPackString",
       "key": "Profile.MessageLifetimeForever",
       "value": "關閉"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "顯示播放清單"
     },
     {
       "_": "types.LangPackString",
@@ -47615,6 +47795,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "媒體說明文字中不得包含按鈕、標題、清單、表格或其他富文本格式。說明文字將以不含這些元素的純文字形式儲存。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "加入公式"
     },
@@ -47872,6 +48057,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "清除格式？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "以純文字儲存"
     },
     {
       "_": "types.LangPackString",
@@ -50022,6 +50212,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "轉傳至\n動態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "正在傳送"
     },
     {
       "_": "types.LangPackString",
@@ -61921,7 +62116,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleOfferDeclined",
-      "value": "報價已被拒絕"
+      "value": "報價遭到拒絕"
     },
     {
       "_": "types.LangPackString",
@@ -61965,8 +62160,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "價格調整"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "價格調整為 %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "已轉出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "已售出"
     },
     {
       "_": "types.LangPackString",
@@ -62080,6 +62290,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "新價格"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "買家"
     },
@@ -62107,6 +62322,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "賣家"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "原價格"
     },
     {
       "_": "types.LangPackString",
@@ -64124,5 +64344,5 @@
       "value": "您輸入了無效的安全碼。"
     }
   ],
-  "version": 22633165
+  "version": 22657157
 }

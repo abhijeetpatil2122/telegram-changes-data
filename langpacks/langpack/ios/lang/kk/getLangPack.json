@@ -4442,6 +4442,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Бұл қолданушы ботпен чаттасқан."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Бұл қолданушылар ботпен чаттасқан."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Қолданушылар шақырылмады. Кейін қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Қолданушыларды тек боттың иесі шақыра алады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Бұл қолданушының құпиялық баптауы оны боттарға шақыруға рұқсат бермейді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Тым көп әрекет, кейін қайта көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Бір уақытта 10-ға дейін қолданушы шақыра аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Ботқа шақыру"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "Шақыру жіберілді.",
+      "other_value": "%@ шақыру жіберілді."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Көріністі жоясыз ба?"
     },
@@ -10554,6 +10600,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "бұл не?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ иесі: %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18226,6 +18277,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ сізді осы чатботты қолдануға шақырды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Спам деп шағынып, бұғаттау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d Б"
     },
@@ -25528,6 +25589,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Бейінімде көрсету"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Бұнда пайда болады:"
     },
@@ -25629,6 +25695,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Сыйлық жіберілді. **%1$@** жақын арада **%2$@** жеткізіледі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Сыйлық жіберілді. **%@** жақын арада алушыға жеткізіледі."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Сіздің сыйлығыңыз сатылымнан алынып тасталды, бірақ желі оны әлі растамады. Жаңа баға расталғаннан кейін белгілеңіз."
     },
@@ -25699,6 +25775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** жаңа бағасы: **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** желі растағаннан кейін сатылымнан алынып тасталады."
     },
@@ -25746,6 +25827,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Ұсыныс мерзімі:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Иесі алады"
     },
     {
       "_": "types.LangPackString",
@@ -25839,6 +25925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Иесі **%@** алады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "**%@** үшін ұсынатын Gram санын енгізіңіз."
     },
@@ -25861,6 +25952,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Сатылым қабылданды. Блокчейнде расталғаннан кейін **%@** аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Ұсыныс қабылданды"
     },
     {
       "_": "types.LangPackString",
@@ -35710,6 +35806,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ сізді осы ботқа шақырды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Сізді осы ботқа шақырды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ бұл қолданушыны ботқа шақырды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Бұл қолданушы ботқа шақырылды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Бұл ботты тіркеме мәзіріңізге қосқанда сізге хат жіберуіне рұқсат бердіңіз."
     },
@@ -36994,6 +37110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "сатып алынды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "күйген"
     },
@@ -37243,6 +37364,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "**%2$@** үшін **%1$@** ұсындыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Ұсынысты қабылдадыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "**%2$@** үшін **%1$@** ұсынысыңыз қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Ұсыныстан бас тарттыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "**%2$@** үшін **%1$@** ұсынысыңыз қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "**%2$@** үшін **%1$@** ұсынысының мерзімі аяқталды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "**%2$@** үшін **%1$@** ұсынысыңыздың мерзімі аяқталды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "**%2$@** үшін **%1$@** саттыңыз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "**%2$@** үшін **%1$@** ұсынысы қайтарып алынды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "**%2$@** үшін **%1$@** ұсынысыңызды қайтарып алдыңыз"
     },
     {
       "_": "types.LangPackString",
@@ -42509,6 +42675,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Сатылымда"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 / %@"
     },
@@ -42658,6 +42829,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Баптауды өзгерту үшін қажет құқығыңыз жоқ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Ботқа шақыру"
     },
     {
       "_": "types.LangPackString",
@@ -46608,6 +46784,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Әнтізімді көрсету"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "АРНА"
     },
@@ -48158,6 +48339,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Медиа сипаттамаларда батырмалар, тақырыптар, тізімдер, кестелер не басқа да кеңейтілген пішімдеулер болмауы керек. Сипаттама оларсыз мәтін ретінде сақталады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Формула қосу"
     },
@@ -48415,6 +48601,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Пішімдеуді жоясыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Пішімдеусіз сақтау"
     },
     {
       "_": "types.LangPackString",
@@ -50585,6 +50776,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Хикаяға\nжариялау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Жіберілуде"
     },
     {
       "_": "types.LangPackString",
@@ -62666,7 +62862,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectiblePutOnSale",
-      "value": "Сатылмға шығару"
+      "value": "Сатылымға шығару"
     },
     {
       "_": "types.LangPackString",
@@ -62690,8 +62886,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Жаңа баға"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Жаңа бағасы: %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Жіберілді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Сатылды"
     },
     {
       "_": "types.LangPackString",
@@ -62806,6 +63017,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Жаңа баға"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Сатып алушы"
     },
@@ -62833,6 +63049,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Сатушы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Ескі баға"
     },
     {
       "_": "types.LangPackString",
@@ -64859,5 +65080,5 @@
       "value": "Қауіпсіздік кодын қате енгіздіңіз."
     }
   ],
-  "version": 22635283
+  "version": 22655126
 }

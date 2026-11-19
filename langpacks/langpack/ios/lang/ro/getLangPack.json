@@ -4479,6 +4479,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Acest utilizator are deja o conversație cu robotul."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Acești utilizatori au deja o conversație cu robotul."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Utilizatorii nu pot fi invitați. Încearcă mai târziu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Doar proprietarul robotului poate invita utilizatori."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Configurările de intimitate ale utilizatorului nu îți permit să îl inviți la robot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Prea multe încercări. Revino mai târziu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Poți invita până la 10 utilizatori simultan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Invită la robot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ invitații au fost trimise.",
+      "key": "BotInvite.Sent",
+      "one_value": "Invitația a fost trimisă.",
+      "other_value": "%@ de invitații au fost trimise."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Ștergi previzualizarea?"
     },
@@ -10629,6 +10676,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ este deținut de %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.BottomSearchPanel.DisplayModeChat",
       "value": "Conversație"
     },
@@ -10826,7 +10878,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Context.Phone.CallViaCarrier",
-      "value": "Apel prin rețea"
+      "value": "Apel prin operator"
     },
     {
       "_": "types.LangPackString",
@@ -18397,6 +18449,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ te-a invitat să folosești acest chatbot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Raportează spam și blochează"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25801,6 +25863,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Continuă afișarea la profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Va apărea în"
     },
@@ -25903,6 +25970,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Cadou trimis. **%1$@** îi va fi livrat lui **%2$@** în scurt timp."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Cadou trimis. **%@** îi va fi livrat destinatarului în scurt timp."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Cadoul tău a fost eliminat de la vânzare, dar rețeaua nu a confirmat încă. Setează noul preț după confirmare."
     },
@@ -25973,6 +26050,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** are prețul schimbat la **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** va fi eliminat de la vânzare odată ce rețeaua o confirmă."
     },
@@ -26020,6 +26102,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Oferta expiră"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Proprietarul primește"
     },
     {
       "_": "types.LangPackString",
@@ -26113,6 +26200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Proprietarul va primi **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Introdu suma în Gram pe care ai vrea să o oferi **%@**."
     },
@@ -26135,6 +26227,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Vânzare depusă. Vei primi **%@** odată ce este confirmată on-chain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Ofertă acceptată"
     },
     {
       "_": "types.LangPackString",
@@ -35929,7 +36026,7 @@
     {
       "_": "types.LangPackString",
       "key": "News.Display.Compact",
-      "value": "Compact"
+      "value": "Restrâns"
     },
     {
       "_": "types.LangPackString",
@@ -36112,6 +36209,26 @@
       "key": "Notification.Boost.Times",
       "one_value": "%@ dată",
       "other_value": "de %@ de ori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ te-a invitat la acest robot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Ai fost invitat la acest robot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ a invitat utilizaotul la robot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Acest utilizator a fost invitat la robot"
     },
     {
       "_": "types.LangPackString",
@@ -37423,6 +37540,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "cumpărat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "ars"
     },
@@ -37679,6 +37801,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Ai oferit **%1$@** pt. **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Ai acceptat oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Oferta ta de **%1$@** pt. **%2$@** a fost acceptată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Ai refuzat oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Oferta ta de **%1$@** pt. **%2$@** a fost refuzată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Oferta de **%1$@** pt. **%2$@** a expirat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Oferta ta de **%1$@** pt. **%2$@** a expirat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Ai vândut **%1$@** pt. **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Oferta de **%1$@** pt. **%2$@** a fost retrasă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Ți-ai retras oferta de **%1$@** pt. **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -43013,6 +43180,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "De vânzare"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 din %@"
     },
@@ -43164,6 +43336,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Nu ai permisiunile necesare pentru a schimba această setare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Invită la robot"
     },
     {
       "_": "types.LangPackString",
@@ -47136,6 +47313,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Afișează playlistul"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "CANAL"
     },
@@ -48701,6 +48883,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Descrierile articolelor media nu pot conține butoane, anteturi, liste, tabele sau alte elemente avansate. Descrierea va fi salvată ca text fără acestea."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Adaugă formula"
     },
@@ -48958,6 +49145,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Elimini formatarea?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Salvează fără formatare"
     },
     {
       "_": "types.LangPackString",
@@ -51148,6 +51340,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Repostează\nla Poveste"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Se trimite"
     },
     {
       "_": "types.LangPackString",
@@ -63415,8 +63612,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Preț schimbat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Preț schimbat la %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Trimis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Vândut"
     },
     {
       "_": "types.LangPackString",
@@ -63532,6 +63744,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Preț nou"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Cumpărător"
     },
@@ -63559,6 +63776,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Vânzător"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Preț vechi"
     },
     {
       "_": "types.LangPackString",
@@ -65594,5 +65816,5 @@
       "value": "Ai introdus un cod de securitate invalid."
     }
   ],
-  "version": 22630782
+  "version": 22654689
 }

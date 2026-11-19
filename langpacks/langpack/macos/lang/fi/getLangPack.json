@@ -60,6 +60,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.SpeedFast",
+      "value": "Nopea"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Help",
       "value": "**Komennot**\n/compact: tiivistää keskustelun sisällön niin, että agentti ymmärtää saman asian pienemmällä kontekstilla\n/new or /reset: aloittaa uuden keskustelun\n/retry: yrittää uudelleen viime pyyntöä\n/commands: tila, malli, lisäosat, tehtävät, automaatiot ja muistikomennot, jotka toimivat vaikka tekoälymalli ei olisi toiminnassa\n\n**Kaikki muu pyydetään.** Esimerkiksi:\n- \"Yhdistä Playwright MCP-palvelin\" tai \"Asenna Fly.io -lisäosa\"\n- \"Tässä on lisätiedosto, asenna se\" (attach a .md plugin)\n- \"Aseta uudeksi päivittäiseksi rajaksi: 2000\" or \"Vaihda nopeampaan malliin\"\n- \"Tee käyttäjästä Alice keskustelun Team valvoja ja ota hidas tila käyttöön\"\n- \"Valvo Design Team -keskustelua, ilmoita minulle jos julkaisusta mainitaan\"\n- \"Luo agentti, joka kirjoittaa julkaisutietoja\" ja \"Kysy siltä eilisen puhelusta\"\n\nJos toiminto vähentää tietosuojaa tai nostaa käyttökuluja, sinulta pyydetään lupaa Macillasi."
     },
@@ -112,6 +117,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.TranslatorInstructions",
       "value": "Käännä käyttäjän lähettämät viestit. Käännä ne englanniksi, jos ne ovat muulla kielellä, tai muuten käyttäjän viimeksi pyytämällä kielellä. Pidä äänensävy, muotoilu ja nimet ennallaan. Vastaa vain käännöksellä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIChatList.RowItem.HideFromChatList",
+      "value": "Piilota keskustelulistalta"
     },
     {
       "_": "types.LangPackString",
@@ -395,6 +405,11 @@
       "_": "types.LangPackString",
       "key": "Account.ViewController.Money",
       "value": "Raha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.ViewController.On",
+      "value": "Päällä"
     },
     {
       "_": "types.LangPackString",
@@ -1219,6 +1234,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.PickerController.Expert",
+      "value": "Korkea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.Medium",
+      "value": "Keskitaso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.ReasoningEffort",
+      "value": "Vaivannäkö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.SearchModels",
+      "value": "Hae malleja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.Ultra",
+      "value": "Korkein"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.Model",
+      "value": "Malli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.ReasoningEffort",
+      "value": "Vaivannäkö"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiStylePreview.AddByAuthor",
       "value": "Lisää tämä käyttäjän [%1$@](%1$@) tekemä tyyli mukauttaaksesi viestejä tekoälymuokkaimessa."
     },
@@ -1420,8 +1470,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppDelegate.LocalErasureFailed",
+      "value": "Telegram ei voinut tyhjentää paikallisia tietoja"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AppDelegate.LocalErasureFailedInfo",
       "value": "Joitain Telegramin datakansiossa olevia kohteita on lukittu tai kirjoitussuojattu, joten niitä ei voi poistaa tai siirtää muualle, eikä Telegram voi tätä ennen käynnistyä.\n\nValitse FInderissa lukitut kohteet alla olevassa kansiossa, valitse Tiedosto > Näytä tietoja, ja poista käytöstä Lukittu (tai anna itsellesi Luku ja kirjoitus -oikeus), tai poista kansio, ja yritä sitten uudelleen.\n\n%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.Quit",
+      "value": "Lopeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.ShowFolder",
+      "value": "Näytä kansio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.TryAgain",
+      "value": "Yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.WaitingForLocalErasure",
+      "value": "Odotetaan, että Telegram tyhjentää paikalliset tiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.WaitingForLocalErasureInfo",
+      "value": "Toinen Telegram-ikkuna tyhjentää paikallisia tietoja. Telegram aukeaa, kun tämä on valmis."
     },
     {
       "_": "types.LangPackString",
@@ -1697,6 +1777,16 @@
       "_": "types.LangPackString",
       "key": "AppearanceSettings.ColorTheme.mojave",
       "value": "Tumma Mojave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppearanceSettings.ColorTheme.monochrome",
+      "value": "Yksivärinen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppearanceSettings.ColorTheme.monochromeDark",
+      "value": "Yksivärinen"
     },
     {
       "_": "types.LangPackString",
@@ -2565,6 +2655,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.InvitedUser",
+      "value": "%1$@ kutsui tämän käyttäjän käyttämään bottia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.InvitedYou",
+      "value": "%1$@ kutsui sinut käyttämään bottia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.UserInvited",
+      "value": "Käyttäjä kutsuttiin käyttämään bottia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.YouInvited",
+      "value": "Sinut kutsuttiin käyttämään bottia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.Title",
+      "value": "Kutsu käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot.LaunchApp",
       "value": "Käynnistä"
     },
@@ -2617,6 +2732,41 @@
       "_": "types.LangPackString",
       "key": "BotInfo.OpenApp",
       "value": "Avaa sovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.InviteToBot",
+      "value": "Kutsu käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.OpenChat",
+      "value": "Avaa keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.PrivacyPolicy",
+      "value": "Yksityisyyskäytäntö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.Search",
+      "value": "Hae"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.StopBot",
+      "value": "Pysäytä botti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.ViewInfo",
+      "value": "Näytä tiedot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.ViewWidget",
+      "value": "Näytä pienoisohjelma"
     },
     {
       "_": "types.LangPackString",
@@ -2832,6 +2982,31 @@
       "_": "types.LangPackString",
       "key": "BroadcastGroups.Success",
       "value": "Muunnos onnistui! Ryhmälläsi ei ole enää jäsenrajoja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenGame",
+      "value": "Avaa peli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenMiniApp",
+      "value": "Avaa pienoissovellus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenMiniAppInfo",
+      "value": "%1$@ lataa botin tarjoamaa verkkosisältöä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenMiniAppTitle",
+      "value": "Avataanko pienoissovellus?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenWebGameTitle",
+      "value": "Avataanko verkkopeli?"
     },
     {
       "_": "types.LangPackString",
@@ -6962,6 +7137,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ActionChipsView.NewShortcut",
+      "value": "Uusi pikakomento"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Ad.WhatThis",
       "value": "mikä tämä on?"
     },
@@ -8822,9 +9002,35 @@
       "value": "Muokkaa pikavastauksia"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.InputStagedFilesView.ItemCount",
+      "one_value": "%1$d kohde",
+      "other_value": "%1$d kohdetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.ShowInFinder",
+      "value": "Näytä Finderissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddToChats",
+      "value": "Lisää keskusteluihin"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Chat.InputStateContainers.AddToNews",
       "value": "Lisää uutisiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChats",
+      "value": "Lisättiin keskusteluihin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChatsConfirmation",
+      "value": "%1$@ lisättiin keskusteluihin."
     },
     {
       "_": "types.LangPackString",
@@ -8838,13 +9044,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.DoNotNotify",
+      "value": "Älä ilmoita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.Notify",
+      "value": "Ilmoita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemoveFromChats",
+      "value": "Poista keskusteluista"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InputStateContainers.RemoveFromNews",
       "value": "Poista uutisista"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemovedFromChatsConfirmation",
+      "value": "%1$@ poistettiin keskusteluista."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InputStateContainers.RemovedFromNewsConfirmation",
       "value": "%1$@ poistettiin uutisista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputView.CompactingConversation",
+      "value": "Keskustelua tiivistetään…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputView.MessageAIAssistant",
+      "value": "Lähetä viesti tekoälyavustajalle"
     },
     {
       "_": "types.LangPackString",
@@ -9362,8 +9598,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.NotSent",
+      "value": " · Ei lähetetty"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.MessageMenuItems.SendMoney",
       "value": "Lähetä rahaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.Sending",
+      "value": " · Lähetetään…"
     },
     {
       "_": "types.LangPackString",
@@ -9773,6 +10019,18 @@
       "_": "types.LangPackString",
       "key": "Chat.Right.Context.ScheduledMessages",
       "value": "Ajastetut viestit"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.RowItem.SharesCount",
+      "one_value": "%1$d jako",
+      "other_value": "%1$d jakoa"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.RowItem.ViewsCount",
+      "one_value": "%1$d katselu",
+      "other_value": "%1$d katselua"
     },
     {
       "_": "types.LangPackString",
@@ -14952,6 +15210,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.EncryptionKeyDamaged",
+      "value": "Telegramin paikallinen salausavain on turmeltunut, eikä tietoja voi avata. Yritä uudelleen, tai kirjaudu ulos ja ota Telegram uudelleen käyttöön."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.EraseConfirmation",
+      "value": "Tämä kirjaa sinut ulos kaikilta tileiltä ja poistaa Telegramin viestit, median ja paikalliset tiedot tältä Macilta. Sen jälkeen Telegram käynnistyy uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.EraseFailed",
+      "value": "Telegram ei voinut aloittaa paikallisen tietojen poistoa. Varmista, että levytilaa on vapaana, ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ColdStart.PasslockController.KeyDamaged",
       "value": "Telegramin tietoja tällä Macilla suojaava avain on turmeltunut, eikä tietoja voi avata. Kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
     },
@@ -14964,6 +15237,21 @@
       "_": "types.LangPackString",
       "key": "ColdStart.PasslockController.KeyMissing",
       "value": "Telegramin tiedot on suojattu avaimella, jota ei ole tallella. Tietoja ei voi avata. Jos vaihdoit tälle Macille tai palautit sen, palauta aiempi kirjautumiseen käytetty avainnippu palauttaaksesi avaimen. Muussa tapauksessa kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.KeyUnavailable",
+      "value": "Telegram ei voi käyttää sitä avainta, jolla tiedot tällä Macilla on suojattu. Varmista, että olet kirjautunut Macille, ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.LogOutAndErase",
+      "value": "Kirjaudu ulos ja tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ColdStart.PasslockController.TryAgain",
+      "value": "Yritä uudelleen"
     },
     {
       "_": "types.LangPackString",
@@ -19593,8 +19881,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentGift.Price.AllowedPrice",
+      "value": "Sallittu hintaväli: %1$@ – %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentGift.Price.ListOnFragment",
+      "value": "Aseta myyntiin Fragmentissa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentGift.Price.PriceInTON",
       "value": "Hinta grameina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentGift.Price.SavePrice",
+      "value": "Tallenna hinta"
     },
     {
       "_": "types.LangPackString",
@@ -21110,6 +21413,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftingController.GiftLocked",
+      "value": "Lahja on lukittu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Giveaway.AdditionalPrize",
       "value": "**%1$@** laittoi arvontaan palkinnoksi myös **%2$@**. Kanavan valvojat toimittavat kyseiset palkinnot."
     },
@@ -22325,6 +22633,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InApp.Links.OpenLink",
+      "value": "Avaa linkki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InApp.Links.OpenLinkTitle",
+      "value": "Avataanko linkki?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InAppLinks.AuthFailed",
       "value": "Kirjautuminen epäonnistui."
     },
@@ -22332,6 +22650,11 @@
       "_": "types.LangPackString",
       "key": "InAppLinks.BotManagementDisabled",
       "value": "@**%1$@** ei tue bottien hallinnointia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.BotNotFound",
+      "value": "Tätä bottia ei löytynyt."
     },
     {
       "_": "types.LangPackString",
@@ -22352,6 +22675,11 @@
       "_": "types.LangPackString",
       "key": "InAppLinks.Confirm.OpenExternalNew",
       "value": "Haluatko varmasti avata linkin \"%@\"?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InAppLinks.Destination",
+      "value": "Kohde: %1$@\n"
     },
     {
       "_": "types.LangPackString",
@@ -24309,6 +24637,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MainViewController.AIAssistant",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MainViewController.News",
+      "value": "Uutiset"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ManageLinks.AdditionLinks",
       "value": "LISÄLINKIT"
     },
@@ -25994,13 +26332,177 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.Controller.Added",
+      "value": "Lisättiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "News.Controller.AddedToChats",
       "value": "%1$@ lisättiin keskusteluihin."
     },
     {
       "_": "types.LangPackString",
+      "key": "News.Controller.AddedToNews",
+      "value": "%1$@ lisättiin uutisiin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.ChannelsEmpty",
+      "value": "Kanavien julkaisut näkyvät täällä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Compact",
+      "value": "Tiivis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Expanded",
+      "value": "Väljä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.ForYou",
+      "value": "Sinulle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.LoadFailed",
+      "value": "Julkaisuja ei voitu ladata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.MarkAllRead",
+      "value": "Merkitse kaikki luetuiksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.MoreSimilar",
+      "value": "Lisää tällaisia on Sinulle-näkymässä."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "News.Controller.NewCount",
+      "one_value": "%1$d uusi",
+      "other_value": "%1$d uutta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.NewPosts",
+      "value": "Uudet julkaisut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.News",
+      "value": "Uutiset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.NoPosts",
+      "value": "Ei vielä uutisia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Refresh",
+      "value": "Päivitä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.ReloadFeed",
+      "value": "Lataa uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.RemovedFromNews",
+      "value": "%1$@ poistettiin uutisista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Retry",
+      "value": "Yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.ExpandedPostView.ShowMore",
+      "value": "Näytä lisää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.InterestsRowItem.Acknowledged",
+      "value": "Selvä, lisää tällaisia on Sinulle-näkymässä!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.InterestsRowItem.Interests",
+      "value": "Mistä olet kiinnostunut?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostFeedbackRowItem.ChannelHidden",
+      "value": "Et näe enää julkaisuja kanavalta %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostFeedbackRowItem.FewerSimilar",
+      "value": "Näet tällaisia julkaisuja harvemmin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostFeedbackRowItem.HideChannel",
+      "value": "Älä näytä julkaisuja kanavalta %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostFeedbackRowItem.HideSimilar",
+      "value": "Älä näytä tällaisia julkaisuja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostFeedbackRowItem.PostHidden",
+      "value": "Piilotettiin - antaisitko lisätietoja?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.AddToChats",
+      "value": "Lisää keskusteluihin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.AddToNews",
+      "value": "Lisää uutisiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Collapse",
+      "value": "Pienennä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "News.PostRowItem.Days",
+      "one_value": "%1$d pv",
+      "other_value": "%1$d pv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Expand",
+      "value": "Laajenna"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "News.PostRowItem.Hours",
+      "one_value": "%1$d t",
+      "other_value": "%1$d t"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "News.PostRowItem.Interesting",
       "value": "Kiinnostaa"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "News.PostRowItem.Minutes",
+      "one_value": "%1$d min",
+      "other_value": "%1$d min"
     },
     {
       "_": "types.LangPackString",
@@ -26009,8 +26511,79 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.PostRowItem.Now",
+      "value": "nyt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.RemoveFromNews",
+      "value": "Poista uutisista"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "News.PostRowItem.Seconds",
+      "one_value": "%1$d sek",
+      "other_value": "%1$d sek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.ShareOutsideTelegram",
+      "value": "Jaa Telegramin ulkopuolelle…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.ShowInChat",
+      "value": "Näytä keskustelussa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.SearchController.LoadFailed",
+      "value": "Julkaisuja ei voitu ladata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.SearchController.NoResults",
+      "value": "Ei tuloksia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsActions.ReadYourNewsFeed",
+      "value": "lukea uutissyötettäsi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsActions.SearchNewsFor",
+      "value": "hakea uutisista: “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsActions.ServerNewsLoadFailed",
+      "value": "Uutisia ei ladattu, Telegram ei vastannut ajoissa. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsFeedbackActions.Change",
+      "value": "Muuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsFeedbackActions.FeedbackUnavailable",
+      "value": "Uutispalautetta ei voi käyttää täällä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsFeedbackActions.RequestFailed",
+      "value": "Telegram ei vastannut. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsFeedbackActions.ServerNewsUnavailable",
       "value": "Telegramin palvelimen uutiset (sinulle, uutishaku, tykkäykset, aiheet) eivät ole vielä saatavilla tällä tilillä. Telegram sallii ne vain tietyille tileille. news_feed ja feed=added toimii yhä: se toimii käyttäjän omilla kanavilla. Jos haluat etsiä julkisia julkaisuja, kokeile search_posts-toimintoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsFeedbackActions.TopicsLoadFailed",
+      "value": "Uutisketjuja ei voitu ladata, yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -26842,6 +27415,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Opmize.DatabaseView.KeepOpen",
+      "value": "Pidäthän Telegramin auki tämän ollessa kesken."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PASSWORD_HASH_INVALID",
       "value": "Väärä salasana"
     },
@@ -26933,6 +27511,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.Controllers.WalletDifferentPasscode",
+      "value": "Tämä pääsykoodi avaa Telegramin lukituksen, mutta lompakko on suojattu eri pääsykoodilla, joten muutosta ei voi suorittaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Controllers.WalletEarlierPasscode",
+      "value": "Lompakkosi on suojattu aiemmalla pääsykoodilla, jota Telegram ei enää käytä tietojesi suojaamiseen, joten uutta pääsykoodia ei voi asettaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Controllers.WalletResetAcknowledgement",
+      "value": "Minulla on tallessa lompakoiden palautuslauseet, tai minulla ei ole lompakoita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Controllers.WalletResetConfirm",
+      "value": "Nollaa lompakon suojaus ja jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Controllers.WalletResetConsequence",
+      "value": "Nollaaminen poistaa Macillasi olevat lompakoiden avaimet. Ne pitää palauttaa palautuslauseilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Controllers.WalletResetHeader",
+      "value": "Lompakon suojaus vanhentunut"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.EnterCurrentPlaceholder",
       "value": "Syötä nykyinen pääsykoodisi"
     },
@@ -26948,6 +27556,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.LockController.CheckingPasscode",
+      "value": "Tarkistetaan pääsykoodia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.EncryptionKeyDamaged",
+      "value": "Telegramin paikallinen salausavain on turmeltunut, eikä tietoja voi avata. Yritä uudelleen, tai kirjaudu ulos ja ota Telegram uudelleen käyttöön."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.EraseConfirmation",
+      "value": "Tämä kirjaa sinut ulos kaikilta tileiltä ja poistaa Telegramin viestit, median ja paikalliset tiedot tältä Macilta. Sen jälkeen Telegram käynnistyy uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.EraseFailed",
+      "value": "Telegram ei voinut aloittaa paikallisen tietojen poistoa. Varmista, että levytilaa on vapaana, ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.LockController.KeyDamaged",
       "value": "Telegramin tietoja tällä Macilla suojaava avain on turmeltunut, eikä tietoja voi avata. Kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
     },
@@ -26960,6 +27588,21 @@
       "_": "types.LangPackString",
       "key": "Passcode.LockController.KeyMissing",
       "value": "Telegramin tiedot on suojattu avaimella, jota ei ole tallella. Tietoja ei voi avata. Jos vaihdoit tälle Macille tai palautit sen, palauta aiempi kirjautumiseen käytetty avainnippu palauttaaksesi avaimen. Muussa tapauksessa kirjaudu ulos Telegramista ja takaisin sisään; pilvikeskustelut säilyvät turvassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.KeyUnavailable",
+      "value": "Telegram ei voi käyttää sitä avainta, jolla tiedot tällä Macilla on suojattu. Varmista, että olet kirjautunut Macille, ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.LogOutAndErase",
+      "value": "Kirjaudu ulos ja tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.TryAgain",
+      "value": "Yritä uudelleen"
     },
     {
       "_": "types.LangPackString",
@@ -27005,6 +27648,26 @@
       "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.WalletInfo",
       "value": "Vaaditaan rahojen lähettämiseen tai muihin merkittäviin rahatoimintoihin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Strength.Title",
+      "value": "Pääsykoodin vahvuus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.StrengthEstimate.Normal",
+      "value": "Normaali"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.StrengthEstimate.Strong",
+      "value": "Vahva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.StrengthEstimate.Weak",
+      "value": "Heikko"
     },
     {
       "_": "types.LangPackString",
@@ -28695,6 +29358,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.HeadItem.AI",
+      "value": "Tekoäly"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.HeadItem.SendMoney",
       "value": "Lähetä rahaa"
     },
@@ -29497,6 +30165,16 @@
       "_": "types.LangPackString",
       "key": "PeerMedia.Voice",
       "value": "Puhe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerMediaGiftsController.HideGiftsWithoutTONListings",
+      "value": "Piilota lahjat ilman TON-listausta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerMediaGiftsController.HideTONListings",
+      "value": "PIilota TON-listaukset"
     },
     {
       "_": "types.LangPackString",
@@ -31114,6 +31792,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyAndSecurityViewController.LockdownDescription",
+      "value": "Lisäsuojaus linkkien, sovellusten ja muun sisällön kanssa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyPhoneNumberSettings.CustomDisabledHelp",
       "value": "Käyttäjät jotka lisäävät puhelinnumerosi yhteystietoihin näkevät sen Telegramissa vain, jos he ovat yhteystiedoissasi."
     },
@@ -32709,6 +33392,21 @@
       "_": "types.LangPackString",
       "key": "RequestJoin.Sent",
       "value": "Liittymispyyntö lähetettiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.EditorWindowController.SecretChatEmptyDraft",
+      "value": "Tässä luonnoksessa ei ole tekstiä, jota voisi lähettää salaisessa keskustelussa. Lisää tekstiä tai lähetä tiedostoja liitevalikosta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.EditorWindowController.SecretChatFormattedTextInfo",
+      "value": "Salaiset keskustelut tukevat muotoilua, mutta edistynyt muotoilu, upotettu media ja painikkeet jäävät pois."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.EditorWindowController.SendFormattedText",
+      "value": "Lähetetäänkö muotoiltuna?"
     },
     {
       "_": "types.LangPackString",
@@ -34932,6 +35630,11 @@
       "_": "types.LangPackString",
       "key": "SelectPeers.UserTypes",
       "value": "Käyttäjätyypit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SelectPeersController.Inviting",
+      "value": "Kutsutaan…"
     },
     {
       "_": "types.LangPackString",
@@ -38092,6 +38795,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.ChangePrice",
+      "value": "Muuta hintaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.Nft.OfferToBuy",
       "value": "Tarjoudu ostamaan"
     },
@@ -38179,6 +38887,11 @@
       "_": "types.LangPackString",
       "key": "StarGift.OnchainOffer.InsufficientFunds",
       "value": "Varat eivät riitä. [%1$@ ›](deposit)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferDurationHelp",
+      "value": "Valitse, kuinka kauan omistaja ehtii hyväksyä tarjouksen. Kun aika menee umpeen, gramisi palautetaan, kun tämä on varmistettu lohkoketjussa."
     },
     {
       "_": "types.LangPackString",
@@ -40323,6 +41036,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.SaveMedia",
+      "value": "Tallenna media"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.SoundtrackVolume",
       "value": "Taustaäänen voimakkuus"
     },
@@ -40834,6 +41552,26 @@
       "_": "types.LangPackString",
       "key": "StoryArchive.Actions.Show",
       "value": "Näytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.AddStory",
+      "value": "Lisää tarina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.AddStoryAccessibilitySuffix",
+      "value": ", Lisää tarina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.NewStory",
+      "value": "Uusi tarina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.Uploading",
+      "value": "Lähetetään…"
     },
     {
       "_": "types.LangPackString",
@@ -41686,6 +42424,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.ConversationAccount",
+      "value": "tämän keskustelun tili"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.Switch",
+      "value": "Vaihda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.SwitchAccountTitle",
+      "value": "Vaihdetaanko tiliä?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "System.MemoryWarning.DataAndStorage",
       "value": "Sovelluksen tallennustila"
     },
@@ -42124,6 +42877,16 @@
       "_": "types.LangPackString",
       "key": "TextUtils.ManagedBotCreated",
       "value": "%1$@ loi botin %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.OnchainGiftOffer",
+      "value": "Tarjous lohkoketjulahjasta · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TextUtils.OnchainGiftOfferDetails",
+      "value": "Tarjous lohkoketjulahjasta · %1$@ #%2$d · %3$@"
     },
     {
       "_": "types.LangPackString",
@@ -43240,6 +44003,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Translate.ModalController.SavedStyle",
+      "value": "Tallennettu tyyli"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Translate.Original",
       "value": "Alkuperäinen"
     },
@@ -43767,6 +44535,31 @@
       "_": "types.LangPackString",
       "key": "UserInfo.AddBotToCommunityInfo",
       "value": "Lisää bottisi osaksi yhteisöä, jossa samanlaiset keskustelut pitävät yhtä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.AddAPIKey",
+      "value": "Lisää tekoäly-API-avain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.CurrentBotOwner",
+      "value": "Botin nykyinen omistaja:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.InviteToBot",
+      "value": "Kutsu käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.InvitedBy",
+      "value": "Kutsunut: "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.Unavailable",
+      "value": "Ei käytettävissä"
     },
     {
       "_": "types.LangPackString",
@@ -47427,6 +48220,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WP.Layout.ViewBotInvitation",
+      "value": "Näytä bottikutsu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.AmountRowItem.Gram",
       "value": "GRAM"
     },
@@ -49763,6 +50561,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferDeclined",
+      "value": "Tarjous hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "Lähtevä keräilyesine"
     },
@@ -49775,6 +50578,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingTransfer",
       "value": "Lähtevä siirto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSaleFor",
+      "value": "Asetettu myyntiin, hinta: %1$@ gramia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.RemovedFromSale",
+      "value": "Poistettu myynnistä"
     },
     {
       "_": "types.LangPackString",
@@ -49911,6 +50724,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.Title",
       "value": "Lompakko"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NotForSale",
+      "value": "Tätä lahjaa ei ole enää myytävänä."
     },
     {
       "_": "types.LangPackString",
@@ -50963,5 +51781,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2472889
+  "version": 2476934
 }

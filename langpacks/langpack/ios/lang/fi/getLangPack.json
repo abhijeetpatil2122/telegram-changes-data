@@ -4442,6 +4442,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Tällä käyttäjällä on jo keskustelu botin kanssa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Näillä käyttäjillä on jo keskustelu botin kanssa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Käyttäjiä ei voitu kutsua. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Vain botin omistaja voi kutsua käyttäjiä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Tämän käyttäjän yksityisyysasetukset estävät bottikutsut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Liian monta yritystä. Yritä myöhemmin uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Voit kutsua enintään 10 käyttäjää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Kutsu käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "Kutsu lähetettiin.",
+      "other_value": "%@ kutsua lähetettiin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Poistetaanko esikatselu?"
     },
@@ -10554,6 +10600,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "mikä tämä on?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "Botin %1$@ omistaa %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18226,6 +18277,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ kutsui sinut käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Ilmianna roskapostista ja estä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d t"
     },
@@ -25528,6 +25589,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Jatka sen näyttämistä profiilissani"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Se näkyy täällä:"
     },
@@ -25629,6 +25695,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Lahja lähetettiin, **%1$@** siirtyy pian saajalle **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Lahja lähetettiin, **%@** siirtyy pian saajalle."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Lahjasi on poistettu myynnistä, mutta verkko ei ole vielä vahvistanut tätä. Kun näin on tapahtunut, voit asettaa uuden hinnan."
     },
@@ -25699,6 +25775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "Lahjan **%1$@** hinnaksi muutettiin **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** poistetaan myynnistä, kun verkko on vahvistanut toimen."
     },
@@ -25746,6 +25827,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Tarjous menee umpeen:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Omistaja saa"
     },
     {
       "_": "types.LangPackString",
@@ -25839,6 +25925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Omistajalle siirtyy **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Syötä, montako gramia haluat tarjota lahjasta **%@**."
     },
@@ -25864,6 +25955,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Tarjous hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Text",
       "value": "Myydäänkö lahja **%1$@** (hinta: **%2$@**)?"
     },
@@ -25885,7 +25981,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.Action",
-      "value": "Nosta (hinta: %@)"
+      "value": "Peru (hinta: %@)"
     },
     {
       "_": "types.LangPackString",
@@ -35710,6 +35806,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ kutsui sinut käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Sinut kutsuttiin käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ kutsui tämän käyttäjän käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Tämä käyttäjä kutsuttiin käyttämään bottia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Annoit tämän botin lähettää sinulle viestejä, kun lisäsit sen liitevalikkoon."
     },
@@ -36994,6 +37110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "ostettu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "poltettu"
     },
@@ -37243,6 +37364,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Esitit tarjouksen (**%1$@**) lahjasta **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Hyväksyit tarjouksen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Tarjouksesi (**%1$@**) lahjasta **%2$@** hyväksyttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Hylkäsit tarjouksen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Tarjouksesi (**%1$@**) lahjasta **%2$@** hylättiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Tarjous (**%1$@**) lahjasta **%2$@** meni umpeen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Tarjouksesi (**%1$@**) lahjasta **%2$@** meni umpeen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Myit lahjan **%1$@** (hinta: **%2$@**)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Tarjous (**%1$@**) lahjasta **%2$@** peruttiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Peruit tarjouksesi (**%1$@**) lahjasta **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -42509,6 +42675,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Myynnissä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1/%@"
     },
@@ -42658,6 +42829,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Sinulla ei ole oikeuksia muuttaa tätä asetusta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Kutsu käyttämään bottia"
     },
     {
       "_": "types.LangPackString",
@@ -46608,6 +46784,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Näytä soittolista"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "KANAVA"
     },
@@ -48158,6 +48339,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Median kuvatekstissä ei voi olla painikkeita, otsikoita, luetteloita, taulukoita tai muuta edistynyttä muotoilua, ja se lähetetään tekstinä ilman tällaista muotoilua."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Lisää kaava"
     },
@@ -48415,6 +48601,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Poistetaanko muotoilu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Tallenna muotoilematta"
     },
     {
       "_": "types.LangPackString",
@@ -50585,6 +50776,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Julkaise\ntarinassa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Lähetetään"
     },
     {
       "_": "types.LangPackString",
@@ -62690,8 +62886,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Hinta muuttui"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Hinta muuttui → %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Lähetetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Myyty"
     },
     {
       "_": "types.LangPackString",
@@ -62806,6 +63017,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Uusi hinta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Ostaja"
     },
@@ -62833,6 +63049,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Myyjä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Vanha hinta"
     },
     {
       "_": "types.LangPackString",
@@ -64859,5 +65080,5 @@
       "value": "Olet syöttänyt virheellisen turvaluvun."
     }
   ],
-  "version": 22625211
+  "version": 22654091
 }

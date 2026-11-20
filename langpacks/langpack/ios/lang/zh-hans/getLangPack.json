@@ -4370,6 +4370,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "此用户已经与该机器人有过聊天。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "这些用户已经与该机器人有过聊天。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "无法邀请用户。请稍后重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "只有机器人所有者才能邀请用户。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "该用户的隐私设置不允许将其邀请至机器人。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "尝试次数过多。请稍后重试。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "您一次最多可以邀请 10 位用户。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "邀请使用机器人"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "other_value": "已发送 %@ 个邀请。\n"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "删除预览?"
     },
@@ -10442,6 +10487,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "这是什么？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ 归 %2$@ 所有"
     },
     {
       "_": "types.LangPackString",
@@ -17950,6 +18000,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ 邀请您使用此聊天机器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "举报垃圾信息并屏蔽"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25247,6 +25307,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "打开我的钱包"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "报价已接受"
     },
     {
       "_": "types.LangPackString",
@@ -34900,6 +34965,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ 已邀请您使用该机器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "您已受邀请使用该机器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ 邀请该用户使用了此机器人"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "该用户已受邀请使用机器人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "当您将此机器人添加到附件菜单中时，您已允许此机器人向您发送消息。"
     },
@@ -36370,8 +36455,108 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.ListOffer",
+      "value": "有人对您的 %2$@ 报价 %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.ListOfferYou",
       "value": "您为 %2$@ 提出了 %1$@ 的报价。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.OfferYou",
+      "value": "您为 **%2$@** 提出了 **%1$@** 的报价。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "您已接受该报价"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "您以 **%1$@** 购买 **%2$@** 的报价已被接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "您已拒绝报价"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "您以 **%1$@** 购买 **%2$@** 的报价已被拒绝"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "**%1$@** 对 **%2$@** 的报价已过期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "您以 **%1$@** 购买 **%2$@** 的报价已过期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "你以 **%2$@** 的价格卖出了 **%1$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "以 **%1$@** 购买 **%2$@** 的报价已撤回"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "您撤回了以 **%1$@** 购买 **%2$@** 的报价"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Review",
+      "value": "查看"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Sold",
+      "value": "已售出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Accepted",
+      "value": "已接受报价。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Cancelling",
+      "value": "正在取消该报价。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Declined",
+      "value": "该报价已被拒绝。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expired",
+      "value": "该报价已过期。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Expires",
+      "value": "报价过期倒计时"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Settling",
+      "value": "交易正在完成。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Status.Withdrawn",
+      "value": "该报价已被提现。"
     },
     {
       "_": "types.LangPackString",
@@ -41670,6 +41855,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "邀请使用机器人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.ItemAffiliateProgram.Footer",
       "value": "将 %1$@ 的链接分享给好友，即可获得其在该应用消费金额的 %2$@%。"
     },
@@ -45592,6 +45782,11 @@
       "_": "types.LangPackString",
       "key": "Profile.MessageLifetimeForever",
       "value": "关闭"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "显示播放列表"
     },
     {
       "_": "types.LangPackString",
@@ -61375,6 +61570,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "价格调整"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "价格调整为 %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CommentDecryptionErrorText",
       "value": "无法解密此评论。"
     },
@@ -61477,6 +61682,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.NetworkFeesTitle",
       "value": "网络费用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "新价格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "原价格"
     },
     {
       "_": "types.LangPackString",
@@ -63494,5 +63709,5 @@
       "value": "您输入的安全码无效。"
     }
   ],
-  "version": 22629830
+  "version": 22666884
 }

@@ -4442,6 +4442,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Este usuário já conversa com o bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Estes usuários já conversam com o bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Erro ao convidar usuários. Tente novamente mais tarde."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Só o dono do bot pode convidar usuários."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "As configurações deste usuário não permitem convidá-lo para bots."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Muitas tentativas. Tente novamente mais tarde."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Você pode convidar até 10 usuários por vez."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Convidar para o Bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "O convite foi enviado.",
+      "other_value": "%@ convites foram enviados."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Apagar Prévia?"
     },
@@ -10554,6 +10600,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "o que é isto?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ é propriedade de %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18226,6 +18277,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ convidou você para usar este chatbot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Denunciar Spam e Bloquear"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25528,6 +25589,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Continuar mostrando no perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Ele aparecerá em"
     },
@@ -25629,6 +25695,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Presente enviado. **%1$@** será entregue a **%2$@** logo mais."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Presente enviado. **%@** será entregue a pessoa logo mais."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Seu presente foi retirado da venda, mas a rede ainda não confirmou. Defina o novo preço assim que for confirmado."
     },
@@ -25699,6 +25775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** teve o preço ajustado para **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** será removido da venda assim que a rede confirmar."
     },
@@ -25745,7 +25826,12 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
-      "value": "A oferta expira"
+      "value": "Oferta expira em"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "O dono recebe"
     },
     {
       "_": "types.LangPackString",
@@ -25839,6 +25925,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "O dono receberá **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Insira o número de Grams que você gostaria de oferecer por **%@**."
     },
@@ -25861,6 +25952,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Venda enviada. Você receberá **%@** assim que for confirmado no blockchain."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Oferta aceita"
     },
     {
       "_": "types.LangPackString",
@@ -35710,6 +35806,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ convidou você para este bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Você foi convidado para este bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ convidou este usuário para o bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Este usuário foi convidado para o bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Você permitiu que este bot te enviasse mensagens quando adicionou ele ao menu de anexos."
     },
@@ -36994,6 +37110,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "comprado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "queimado"
     },
@@ -37243,6 +37364,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Você ofereceu **%1$@** por **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Você aceitou a oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Sua oferta de **%1$@** por **%2$@** foi aceita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Você recusou a oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Sua oferta de **%1$@** por **%2$@** foi recusada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "A oferta de **%1$@** por **%2$@** expirou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Sua oferta de **%1$@** por **%2$@** expirou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Você vendeu **%1$@** por **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "A oferta de **%1$@** por **%2$@** foi retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Você retirou sua oferta de **%1$@** por **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -39652,6 +39818,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Você tem um novo story%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Encaminhada"
     },
     {
       "_": "types.LangPackString",
@@ -42509,6 +42680,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "À Venda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 de %@"
     },
@@ -42658,6 +42834,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Você não tem permissão para alterar essa configuração."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Convidar para o Bot"
     },
     {
       "_": "types.LangPackString",
@@ -46608,6 +46789,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Mostrar Playlist"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "CANAL"
     },
@@ -48158,6 +48344,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "As legendas de mídias não podem conter botões, cabeçalhos, listas, tabelas ou outra formatação avançada. A legenda será salva como texto sem eles."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Adicionar Fórmula"
     },
@@ -48415,6 +48606,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Remover Formatação?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Salvar Sem Formatação"
     },
     {
       "_": "types.LangPackString",
@@ -50585,6 +50781,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Repostar\nno Story"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Enviando"
     },
     {
       "_": "types.LangPackString",
@@ -62690,8 +62891,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Preço alterado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Preço alterado para %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Vendido"
     },
     {
       "_": "types.LangPackString",
@@ -62806,6 +63022,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Novo Preço"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Comprador"
     },
@@ -62833,6 +63054,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Vendedor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Preço Antigo"
     },
     {
       "_": "types.LangPackString",
@@ -64859,5 +65085,5 @@
       "value": "Você inseriu um código de segurança inválido."
     }
   ],
-  "version": 22627772
+  "version": 22666112
 }

@@ -1555,12 +1555,27 @@
     {
       "_": "types.LangPackString",
       "key": "Account.Actions.NotificationChanges",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.Notifications",
+      "value": "%1$@ обавештења за %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.NotificationsLoadFailed",
+      "value": "Подешавања обавештења се нису учитала. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
       "key": "Account.Actions.Save",
       "value": "Сачувај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.SeeNotifications",
+      "value": "види ваша подешавања обавештења"
     },
     {
       "_": "types.LangPackString",
@@ -1856,6 +1871,11 @@
       "_": "types.LangPackString",
       "key": "Admin.Actions.ChangeSettings",
       "value": "Променити подешавања ћаскања?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Admin.Actions.SettingsChanges",
+      "value": "Агент жели да промени „%1$@”:\n"
     },
     {
       "_": "types.LangPackString",
@@ -2818,6 +2838,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Appearance.Actions.ChatThemeConfirmation",
+      "value": "Агент жели да %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.Actions.WallpaperConfirmation",
+      "value": "Агент жели да %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Appearance.CloudTheme.Unsupported",
       "value": "Нема верзије за macOS, кликните да уредите"
     },
@@ -3224,7 +3254,7 @@
     {
       "_": "types.LangPackString",
       "key": "ArchiveSettingsActions.RequestedChanges",
-      "value": "Агент жели "
+      "value": "Агент жели да "
     },
     {
       "_": "types.LangPackString",
@@ -4160,6 +4190,11 @@
       "_": "types.LangPackString",
       "key": "BotVerification.Verify.Verify",
       "value": "Верификуј"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotsActions.StartBot",
+      "value": "Агент жели да покрене %1$@%2$@."
     },
     {
       "_": "types.LangPackString",
@@ -16187,6 +16222,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSettingsActions.ChangeSettings",
+      "value": "Агент жели да промени „%1$@”:\n"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatTheme.Colorful",
       "value": "Разнобојна"
     },
@@ -16242,6 +16282,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatToolsActions.ChangeBusinessBot",
+      "value": "Агент жели да %1$@ %2$@ у „%3$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatToolsActions.DeleteAction",
       "value": "Избриши"
     },
@@ -16289,6 +16334,11 @@
       "_": "types.LangPackString",
       "key": "ChatTranslation.Actions.TranslateChat",
       "value": "Превести ћаскање?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTranslation.Actions.WantsChanges",
+      "value": "Агент жели да %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -16899,6 +16949,11 @@
       "_": "types.LangPackString",
       "key": "Comments.Actions.Send",
       "value": "Пошаљи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Comments.Actions.SendDiceConfirmation",
+      "value": "Агент жели да пошаље %1$@ у „%2$@”."
     },
     {
       "_": "types.LangPackString",
@@ -17885,7 +17940,7 @@
     {
       "_": "types.LangPackString",
       "key": "Contacts.Actions.BlockConfirmation",
-      "value": "Агент жели %1$@ %2$@."
+      "value": "Агент жели да %1$@ %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -19615,7 +19670,7 @@
     {
       "_": "types.LangPackString",
       "key": "DoNotTranslate.Actions.ChangeConfirmation",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -21487,6 +21542,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.AddFolderConfirmation",
+      "value": "Агент жели да дода ову подељену фасциклу и да се придружи %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.AddFolderFailed",
+      "value": "Telegram је одбио да дода фасциклу (можда је достигнуто ограничење броја фасцикли)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.AddFolderTimedOut",
+      "value": "време за додавање фасцикле истекло"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkAndStickers.Actions.AddFolderTitle",
       "value": "Додати фасциклу „%1$@”?"
     },
@@ -21497,8 +21567,55 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.ChangeConfirmation",
+      "value": "Агент жели да %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkAndStickers.Actions.ChangeGroupStickersTitle",
       "value": "Променити налепнице групе?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.ChangeStickerSetFailed",
+      "value": "Telegram је одбио: налепнице групе постављају само администратори који могу да мењају податке групе, а мале групе не могу да имају пакет налепница."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.ChangeStickerSetTimedOut",
+      "value": "време за промену пакета налепница истекло"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.FolderLinkUnavailable",
+      "value": "Та веза за фасциклу више не ради или се није учитала."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.RemoveGroupStickers",
+      "value": "уклони пакет налепница групе „%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.SetGroupStickers",
+      "value": "подеси %1$@ као пакет налепница групе „%2$@” за све њене чланове"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.StickerSetNotFound",
+      "value": "Не постоји пакет налепница под називом %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickersActions.AlreadyJoined",
+      "value": "Већ сте у сваком ћаскању из ове фасцикле."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Проследите join: true да бисте додали фасциклу и ушли у %1$d ћаскања у којима још нисте.",
+      "key": "FolderLinkAndStickersActions.JoinMissingChats",
+      "one_value": "Проследите join: true да бисте додали фасциклу и ушли у %1$d ћаскање у ком још нисте.",
+      "other_value": "Проследите join: true да бисте додали фасциклу и ушли у %1$d ћаскања у којима још нисте."
     },
     {
       "_": "types.LangPackString",
@@ -21528,7 +21645,12 @@
     {
       "_": "types.LangPackString",
       "key": "FolderOrder.Actions.ChangeConfirmation",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ChangeFolderTagsFailed",
+      "value": "Ознаке фасцикли нису промењене. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -21537,8 +21659,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.FolderTagsPremiumRequired",
+      "value": "За ознаке фасцикли је потребан Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.FoldersLoadFailed",
+      "value": "Фасцикле нису учитане. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.HideFolderTags",
+      "value": "сакрије ознаке фасцикли у боји на списку ћаскања"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderOrder.Actions.Reorder",
       "value": "Промени редослед"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ReorderFoldersConfirmation",
+      "value": "Агент жели да постави ваше фасцикле овим редоследом: %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ReorderFoldersFailed",
+      "value": "Редослед фасцикли није промењен. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ReorderFoldersTitle",
+      "value": "Променити редослед фасцикли?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.SettingsLoadFailed",
+      "value": "Подешавања фасцикли нису учитана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ShowFolderTags",
+      "value": "прикаже ознаке фасцикли у боји на ћаскањима у листи ћаскања"
     },
     {
       "_": "types.LangPackString",
@@ -22105,12 +22267,52 @@
     {
       "_": "types.LangPackString",
       "key": "FrequentContacts.Actions.ChangeConfirmation",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.ChangeFrequentContactsFailed",
+      "value": "Чести контакти нису промењени. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.ContactNotFrequent",
+      "value": "%1$@ није у вашим честим контактима"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.DisableFrequentContacts",
+      "value": "искључи честе контакте и очисти списак коју Telegram чува"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.EnableFrequentContacts",
+      "value": "укључи честе контакте, особе с којима највише разговарате приказане у претрази"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.FrequentContacts",
+      "value": "Чести контакти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.FrequentContactsLoadFailed",
+      "value": "Чести контакти нису учитани. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
       "key": "FrequentContacts.Actions.Remove",
       "value": "Уклони"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.RemoveContactConfirmation",
+      "value": "Агент жели да уклони корисника %1$@ из ваших честих контаката."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.RemoveContactFailed",
+      "value": "Уклањање корисника %1$@ није успело. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -23604,7 +23806,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gifts.Actions.ChangeConfirmation",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -24712,6 +24914,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Groups.Actions.AddMembersConfirmation",
+      "value": "Агент жели да дода %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Groups.Actions.AddMembersTitle",
       "value": "Додати чланове?"
     },
@@ -24729,6 +24936,16 @@
       "_": "types.LangPackString",
       "key": "Groups.Actions.Change",
       "value": "Промени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.ChangeConfirmation",
+      "value": "Агент жели да промени „%1$@”:%2$@%3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.ChangePermissionsConfirmation",
+      "value": "Агент жели да %1$@ у „%2$@”."
     },
     {
       "_": "types.LangPackString",
@@ -24921,8 +25138,30 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.AutoDeleteAfter",
+      "value": "аутоматски брише нове поруке након %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.AutoDeleteConfirmation",
+      "value": "Агент жели да %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.AutoDeletePermissionDenied",
+      "value": "Telegram је одбио; можда немате право да мењате аутоматско брисање овде"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Housekeeping.Actions.CancelMessages",
       "value": "Откажи поруке"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Агент жели да откаже %1$d заказане поруке у „%2$@”.",
+      "key": "Housekeeping.Actions.CancelScheduled",
+      "one_value": "Агент жели да откаже %1$d заказану поруку у „%2$@”.",
+      "other_value": "Агент жели да откаже %1$d заказаних порука у „%2$@”."
     },
     {
       "_": "types.LangPackString",
@@ -24946,8 +25185,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ClearHistoryConfirmation",
+      "value": "Агент жели да избрише све поруке у „%1$@”%2$@. Ово се не може опозвати."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Housekeeping.Actions.ClearHistoryTitle",
       "value": "Очистити историју?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.EveryChat",
+      "value": "свако ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.EveryChatIn",
+      "value": "свако ћаскање у „%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ForEveryone",
+      "value": " за све"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ForYou",
+      "value": " за вас"
     },
     {
       "_": "types.LangPackString",
@@ -24961,13 +25225,35 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.MarkAsReadConfirmation",
+      "value": "Агент жели да означи %1$@ као прочитано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.MarkAsUnread",
+      "value": "да означи „%1$@” као непрочитано"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Housekeeping.Actions.Reschedule",
       "value": "Закажи поново"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Агент жели да премести %1$d заказане поруке у „%2$@” за %3$@.",
+      "key": "Housekeeping.Actions.RescheduleConfirmation",
+      "one_value": "Агент жели да премести %1$d заказану поруку у „%2$@” за %3$@.",
+      "other_value": "Агент жели да премести %1$d заказаних порука у „%2$@” за %3$@."
     },
     {
       "_": "types.LangPackString",
       "key": "Housekeeping.Actions.RescheduleTitle",
       "value": "Заказати поново?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ScheduledMessagesLoadFailed",
+      "value": "Учитавање заказаних порука није успело. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -24980,14 +25266,41 @@
       "value": "Послати сада?"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Агент жели да одмах пошаље %1$d заказане поруке у „%2$@”.",
+      "key": "Housekeeping.Actions.SendScheduled",
+      "one_value": "Агент жели да одмах пошаље %1$d заказану поруку у „%2$@”.",
+      "other_value": "Агент жели да одмах пошаље %1$d заказаних порука у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.TurnOffAutoDelete",
+      "value": "искључи аутоматско брисање"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Housekeeping.Actions.UnpinAll",
       "value": "Откачи све"
     },
     {
       "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.UnpinAllConfirmation",
+      "value": "Агент жели да откачи сваку закачену поруку у „%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Housekeeping.Actions.UnpinAllMessagesTitle",
       "value": "Откачити све поруке?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.UnpinPermissionDenied",
+      "value": "Telegram је одбио; можда немате право да откачињете поруке у овом ћаскању"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ViewScheduledMessages",
+      "value": "да види заказане поруке у „%1$@”"
     },
     {
       "_": "types.LangPackString",
@@ -26120,12 +26433,12 @@
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.AddYouToGroups",
-      "value": "да вас додаје у групе"
+      "value": "вас додаје у групе"
     },
     {
       "_": "types.LangPackString",
@@ -26140,42 +26453,42 @@
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.CallYou",
-      "value": "да вас позове"
+      "value": "вас позове"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.LinkToYourAccountWhenForwardingYourMessages",
-      "value": "да дода везу до вашег налога при прослеђивању ваших порука"
+      "value": "додаје везу до вашег налога при прослеђивању ваших порука"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.SeeYourBio",
-      "value": "да види ваш опис профила"
+      "value": "види ваш опис профила"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.SeeYourBirthday",
-      "value": "да види ваш датум рођења"
+      "value": "види ваш датум рођења"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.SeeYourLastSeenTime",
-      "value": "да види време ваше последње активности"
+      "value": "види време ваше последње активности"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.SeeYourPhoneNumber",
-      "value": "да види ваш број телефона"
+      "value": "види ваш број телефона"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.SeeYourProfilePhoto",
-      "value": "да види вашу слику профила"
+      "value": "види вашу слику профила"
     },
     {
       "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcher.Params.SendYouVoiceMessages",
-      "value": "да вам шаље гласовне поруке"
+      "value": "вам шаље гласовне поруке"
     },
     {
       "_": "types.LangPackString",
@@ -26246,6 +26559,11 @@
       "_": "types.LangPackString",
       "key": "LocalAgent.EngineActions.SendASticker",
       "value": "Послати налепницу?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendTo2",
+      "value": "Агент жели да пошаље %1$@ у „%2$@”%3$@"
     },
     {
       "_": "types.LangPackString",
@@ -27974,6 +28292,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MiniAppActions.ClickConfirmation",
+      "value": "Агент жели да кликне %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppActions.Close",
       "value": "Затвори"
     },
@@ -28403,6 +28726,11 @@
       "_": "types.LangPackString",
       "key": "MyBotsActions.Change",
       "value": "Промени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MyBotsActions.ChangeBotConfirmation",
+      "value": "Агент жели да %1$@ за %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -29261,6 +29589,11 @@
       "_": "types.LangPackString",
       "key": "News.PostRowItem.ShowInChat",
       "value": "Прикажи у ћаскању"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.SearchController.LoadFailed",
+      "value": "Учитавање објава није успело"
     },
     {
       "_": "types.LangPackString",
@@ -34399,8 +34732,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyExceptions.Actions.AlwaysLet",
+      "value": "увек дозволи "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyExceptions.Actions.Change",
       "value": "Промени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyExceptions.Actions.ChangeAudienceInfo",
+      "value": "Агент жели да промени ко може да %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -34409,8 +34752,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyExceptions.Actions.ChangeExceptionsInfoChangeWhoCan",
+      "value": "Агент жели да промени ко може да %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyExceptions.Actions.ChangePrivacyExceptions",
       "value": "Променити изузетке приватности?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyExceptions.Actions.DropTheExceptionFor",
+      "value": "уклони изузетак за "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyExceptions.Actions.NeverLet",
+      "value": "никада не дозволи "
     },
     {
       "_": "types.LangPackString",
@@ -35728,6 +36086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ChangeNotificationsInfo",
+      "value": "Агент жели да вас обавести о %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions.Popular",
       "value": "Популарне"
     },
@@ -35755,6 +36118,11 @@
       "_": "types.LangPackString",
       "key": "Reading.Actions.ExportTheChat",
       "value": "Извести ћаскање?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReadingActions.SaveFailed",
+      "value": "Чување датотеке није успело: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -36777,6 +37145,11 @@
       "_": "types.LangPackString",
       "key": "SavedStickersActions.Send",
       "value": "Пошаљи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedStickersActions.SendFailed",
+      "value": "Слање није успело. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -43021,6 +43394,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerSetActions.AddStickerConfirmation",
+      "value": "Агент жели да дода %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerSetActions.AddStickerTitle",
       "value": "Додати налепнице?"
     },
@@ -43165,18 +43543,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Storage.Actions.ApplyFailed",
+      "value": "Апликација није применила промену. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.AutoDownloadSettingsUnavailable",
+      "value": "подешавања аутоматског преузимања нису доступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.AutoDownloadUnavailable",
+      "value": "Овде нису доступна подешавања аутоматског преузимања."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.CacheGuide",
+      "value": "clear_cache ослобађа простор (медији се поново преузимају при отварању); set_keep_media подешава колико дуго медији остају."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Storage.Actions.Change",
       "value": "Промени"
     },
     {
       "_": "types.LangPackString",
       "key": "Storage.Actions.ChangeAutoDownload",
-      "value": "Агент жели %1$@."
+      "value": "Агент жели да %1$@."
     },
     {
       "_": "types.LangPackString",
       "key": "Storage.Actions.ChangeAutoDownloadTitle",
       "value": "Променити аутоматско преузимање?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.ChangeCacheSettings",
+      "value": "Агент жели да чува %1$@. Старији медији се аутоматски уклањају с овог Mac-а."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.ChangeCacheSettingsTitle",
+      "value": "Променити подешавања кеша?"
     },
     {
       "_": "types.LangPackString",
@@ -43190,8 +43598,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Storage.Actions.ClearCache",
+      "value": "Агент жели да очисти %1$@%2$@%3$@ с овог Mac-а. Поруке остају; медији се поново преузимају када их отворите."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Storage.Actions.ClearCacheTitle",
       "value": "Очистити кеш?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.ClearTimeout",
+      "value": "Време за чишћење кеша истекло."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.SaveFailed",
+      "value": "Подешавања нису сачувана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.SeeAutoDownloadSettings",
+      "value": "види подешавања аутоматског преузимања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.SeeStorageUsage",
+      "value": "види колико простора заузима Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.SettingsLoadFailed",
+      "value": "Подешавања кеша није учитано. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.UsageLoadFailed",
+      "value": "Подаци о заузећу простора нису учитани. Покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -54973,5 +55416,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2480247
+  "version": 2481226
 }

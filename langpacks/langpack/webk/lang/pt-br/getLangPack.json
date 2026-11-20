@@ -27519,6 +27519,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Action.Received",
+      "value": "%1$s te enviou %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.ReceivedCompact",
+      "value": "te enviou %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.ReceivedUnknown",
+      "value": "Você recebeu %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.Sent",
+      "value": "Você enviou %1$s para %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.SentUnknown",
+      "value": "Você enviou %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.TonConnectAppDisconnect",
+      "value": "%s pede para desconectar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.TonConnectAppSignData",
+      "value": "%s pede para você assinar dados. Clique para revisar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Action.WithComment",
+      "value": "%1$s: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Apps.AllDisconnected",
       "value": "Todos os apps desconectados."
     },
@@ -27551,6 +27591,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.Apps.DisconnectError",
       "value": "Não foi possível desconectar este app. Tente novamente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnected",
+      "value": "%s desconectado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnecting",
+      "value": "desconectando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Empty",
+      "value": "Nenhum app conectado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Unknown",
+      "value": "App desconhecido"
     },
     {
       "_": "types.LangPackString",
@@ -27799,8 +27859,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Card.Anonymous",
+      "value": "Anônimo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Card.Name",
       "value": "Saldo do cartão"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Wallet.Card.Ticker",
+      "one_value": "Gram",
+      "other_value": "Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ChatList.UnreadTransfer",
+      "value": "Transferência não lida"
     },
     {
       "_": "types.LangPackString",
@@ -27894,8 +27970,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Connect.Expired",
+      "value": "Esta solicitação de conexão não é mais válida. Inicie a conexão novamente no app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Failed",
+      "value": "Erro ao responder a solicitação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.HandledElsewhere",
+      "value": "Esta solicitação foi processada em outro dispositivo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.InvalidLink",
+      "value": "Este link TON Connect é inválido."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.KeyChanging",
       "value": "Sua frase secreta está sendo atualizada. Tente novamente assim que a atualização for confirmada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.KeyMismatch",
+      "value": "Este app foi conectado com uma chave diferente desta carteira, portanto este dispositivo não pode responder suas solicitações ou desconectá-lo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.ManifestInvalid",
+      "value": "Os detalhes deste app são inválidos ou pertencem a outro domínio, portanto a carteira não foi conectada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.ManifestMissing",
+      "value": "Erro ao carregar os detalhes deste app, portanto a carteira não estava conectada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Proof",
+      "value": "%s requer que você prove que esta carteira é sua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Restore",
+      "value": "Este dispositivo não contém a chave atual desta carteira. Restaure-a para usar apps conectados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.RestoreAction",
+      "value": "Restaurar Carteira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.SuccessText",
+      "value": "Agora você se conectou a %s."
     },
     {
       "_": "types.LangPackString",
@@ -27906,6 +28037,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Connect.Undelivered",
       "value": "Erro ao entregar a resposta ao app."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.WrongNetwork",
+      "value": "Este app solicitou uma rede de carteira diferente."
     },
     {
       "_": "types.LangPackString",
@@ -27990,6 +28126,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.First.Rate",
+      "value": "**1 Gram** atualmente equivale a **%s**.\nVocê pode:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.First.SendText",
+      "value": "Transfira Grams para qualquer pessoa.\nToque em %1$s → %2$s nos chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.First.StoreText",
+      "value": "Mantenha seus Grams no Telegram\n(%1$s → ⋮ → %2$s) ou outras carteiras."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Gram.CheapText",
       "value": "As taxas são quase zero, mesmo em grandes transferências."
     },
@@ -28037,6 +28188,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.GramTooltip",
       "value": "Gram — Moeda digital para o Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.GramsAmount",
+      "value": "%1$s %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -28278,6 +28434,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Request.Excess",
+      "value": "Excesso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.Expired",
+      "value": "A solicitação expirou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.FeeFailed",
+      "value": "Erro ao estimar a taxa da rede."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.FeeLoading",
+      "value": "Estimando a taxa da rede…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.NotSent",
+      "value": "A transação não foi enviada. O app foi informado de que falhou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.Sent",
+      "value": "A transação foi enviada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.TitleUnknown",
+      "value": "Solicitação de App"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.TraceFailed",
+      "value": "A prévia mostra que parte desta transação pode falhar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.TraceIncomplete",
+      "value": "A prévia desta transação está incompleta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Request.UnknownOperation",
+      "value": "Operação Desconhecida"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Restore.BackupText",
       "value": "Digite sua senha de Verificação em Duas Etapas para restaurar a chave desta carteira a partir de seu backup criptografado."
     },
@@ -28363,6 +28569,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Sign.Done",
+      "value": "Os dados foram assinados."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.CommentEncryptionErrorText",
       "value": "O comentário não pôde ser criptografado para esta carteira. Verifique a conexão de rede e tente novamente."
     },
@@ -28413,6 +28624,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.ChangeText",
+      "value": "Digite sua senha de carteira atual, e então escolha uma nova."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.CreateText",
       "value": "Escolha uma senha para proteger a chave da sua carteira neste dispositivo. Você precisará dela para enviar Grams."
     },
@@ -28443,6 +28659,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.NoPasscodeText",
+      "value": "A chave da sua carteira neste dispositivo não possui senha: qualquer pessoa com acesso ao Telegram neste dispositivo pode gastar seu dinheiro."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.Passcode",
       "value": "Senha"
     },
@@ -28463,6 +28684,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.Set",
+      "value": "Definir Senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.SetText",
+      "value": "Escolha uma senha para proteger a chave da sua carteira neste dispositivo. Você precisará dela para enviar Grams."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.SettingsText",
       "value": "A chave da sua carteira neste dispositivo é protegida por uma senha. Você precisará dela para enviar Grams."
     },
@@ -28478,6 +28709,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Vault.TryLater",
+      "value": "Muitas tentativas. Tente de novo em %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Vault.TurnOffText",
+      "value": "Digite a senha da sua carteira para desativá-la. Qualquer pessoa com acesso ao Telegram neste dispositivo poderá gastar seu dinheiro."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Vault.UnlockText",
       "value": "Digite a senha da sua carteira para continuar."
     },
@@ -28490,6 +28731,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Vault.Wrong",
       "value": "Senha errada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.ViewProfile",
+      "value": "Ver Perfil >"
     },
     {
       "_": "types.LangPackString",
@@ -29572,5 +29818,5 @@
       "other_value": "%1$d mensagens"
     }
   ],
-  "version": 389057
+  "version": 389985
 }

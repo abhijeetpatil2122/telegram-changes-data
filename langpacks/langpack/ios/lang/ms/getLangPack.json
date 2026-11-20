@@ -4405,6 +4405,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Pengguna ini dah ada bual dengan bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Pengguna ini sudah ada bual dengan bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Tak dapat jemput pengguna. Sila cuba lagi nanti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Hanya pemilik bot boleh jemput pengguna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Tetapan privasi pengguna ini tak benar menjemput mereka ke bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Terlalu banyak. Sila cuba lagi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Anda boleh jemput hingga 10 pengguna setiap masa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Undang ke Bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "other_value": "%@ jemputan dah dikirim."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Hapus Pratonton?"
     },
@@ -10482,6 +10527,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "apa ini?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ dimiliki oleh %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18055,6 +18105,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ jemput anda untuk guna chatbot ini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Lapur Spam dan Sekat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25255,6 +25315,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Terus papar di profil saya"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Ia akan dipapar di"
     },
@@ -25355,6 +25420,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Hadiah dikirim. **%1$@** akan dihantar ke **%2$@** kejap lagi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Hadiah dikirim. **%@** akan dihantar ke penerima kejap lagi."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Hadiah anda dikeluar dari jualan, tapi rangkaian belum pastikan lagi. Set harga baru bila ia dipastikan."
     },
@@ -25425,6 +25500,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** diharga semula ke **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** akan dikeluar dari jualan bila rangkaian pastikannya."
     },
@@ -25472,6 +25552,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Tawaran luput"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Pemilik terima"
     },
     {
       "_": "types.LangPackString",
@@ -25565,6 +25650,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Pemilik akan terima **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Masukkan nombor Gram anda ingin tawar untuk **%@**."
     },
@@ -25587,6 +25677,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Jualan dihantar. Anda akan terima **%@** bila ianya dipasti di rangkaian."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Tawaran diterima"
     },
     {
       "_": "types.LangPackString",
@@ -35121,12 +35216,12 @@
     {
       "_": "types.LangPackString",
       "key": "News.Display.Compact",
-      "value": "Padatkan"
+      "value": "Padat"
     },
     {
       "_": "types.LangPackString",
       "key": "News.Display.Expanded",
-      "value": "Kembangkan"
+      "value": "Dikembang"
     },
     {
       "_": "types.LangPackString",
@@ -35231,17 +35326,17 @@
     {
       "_": "types.LangPackString",
       "key": "News.Swipe.Collapse",
-      "value": "Kecutkan"
+      "value": "Kecut"
     },
     {
       "_": "types.LangPackString",
       "key": "News.Swipe.Expand",
-      "value": "Kembangkan"
+      "value": "Kembang"
     },
     {
       "_": "types.LangPackString",
       "key": "News.Swipe.Interesting",
-      "value": "Berminat"
+      "value": "Menarik"
     },
     {
       "_": "types.LangPackString",
@@ -35302,6 +35397,26 @@
       "_": "types.LangPackStringPluralized",
       "key": "Notification.Boost.Times",
       "other_value": "%@ kali"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ jemput anda ke bot ini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Anda dijemput ke bot ini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ jemput pengguna ini ke bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Pengguna ini dijemput ke bot"
     },
     {
       "_": "types.LangPackString",
@@ -36565,6 +36680,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "dibeli"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "dibakar"
     },
@@ -36810,6 +36930,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Anda terima tawaran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Tawaran anda **%1$@** untuk **%2$@** diterima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Anda tolak tawaran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Tawaran anda **%1$@** untuk **%2$@** tak diterima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Tawaran **%1$@** untuk **%2$@** dah luput"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Tawaran anda **%1$@** untuk **%2$@** dah luput"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Anda jual **%1$@** untuk **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Tawaran **%1$@** untuk **%2$@** ditarik balik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Anda tarik balik tawaran **%1$@** untuk **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Review",
       "value": "Semak"
     },
@@ -36836,7 +37001,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Status.Expired",
-      "value": "Tawaran telah luput."
+      "value": "Tawaran dah luput."
     },
     {
       "_": "types.LangPackString",
@@ -39167,6 +39332,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Anda ada stori baru%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Dimajukan"
     },
     {
       "_": "types.LangPackString",
@@ -42005,6 +42175,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Jualan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 dari %@"
     },
@@ -42152,6 +42327,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Anda tiada permisi untuk tukar tetapan ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Jemput ke Bot"
     },
     {
       "_": "types.LangPackString",
@@ -46080,6 +46260,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Tunjuk Senarai Main"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "SALURAN"
     },
@@ -47615,6 +47800,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Kapsyen media tak boleh ada butang, tajuk, senarai, jadual atau format kaya lain. Kapsyen akan disimpan sebagai teks tanpa mereka."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Tambah Formula"
     },
@@ -47872,6 +48062,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Keluarkan Format?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Simpan Tanpa Format"
     },
     {
       "_": "types.LangPackString",
@@ -50022,6 +50217,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Pos Semula\nke Stori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Mengirim"
     },
     {
       "_": "types.LangPackString",
@@ -61941,7 +62141,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectiblePutOnSale",
-      "value": "Tawar untuk dijual"
+      "value": "Untuk dijual"
     },
     {
       "_": "types.LangPackString",
@@ -61956,17 +62156,32 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRemovedFromSale",
-      "value": "Keluarkan dari jualan"
+      "value": "Dikeluarkan dari jualan"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRepriced",
-      "value": "Diharga balik ke %@"
+      "value": "Diharga semula ke %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Harga semula"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Harga semula ke %@"
     },
     {
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Dikirim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Dijual"
     },
     {
       "_": "types.LangPackString",
@@ -62080,6 +62295,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Harga baru"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Pembeli"
     },
@@ -62107,6 +62327,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Penjual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Harga Lama"
     },
     {
       "_": "types.LangPackString",
@@ -64124,5 +64349,5 @@
       "value": "Anda telah masukkan nombor kod sekuriti yang tidak sah."
     }
   ],
-  "version": 22610650
+  "version": 22666185
 }

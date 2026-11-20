@@ -3687,7 +3687,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotOpenPageMessage",
-      "value": "Бот **{bot}** пропонує продовжити роботу на вебсторінці.\n\nВін зможе дізнатися вашу **IP-адресу** та характеристики пристрою."
+      "value": "**{bot}** пропонує продовжити роботу на вебсторінці.\n\nБот отримає доступ до вашої **IP-адреси** та характеристик пристрою."
     },
     {
       "_": "types.LangPackString",
@@ -3697,7 +3697,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotPermissionGameAlert",
-      "value": "Дозволити боту {bot} передавати ваше імʼя та ID у Telegram (не номер телефону) на сторінки, які ви відкриваєте ним?"
+      "value": "Дозволити боту {bot} передавати ваше імʼя та ID у Telegram (не номер телефону) на сторінки, які ви відкриваєте за його допомогою?"
     },
     {
       "_": "types.LangPackString",
@@ -10952,6 +10952,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardKeyBackspace",
+      "value": "Backspace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyDelete",
+      "value": "Del"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEnter",
+      "value": "Enter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEsc",
+      "value": "Esc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeySpace",
+      "value": "Пробіл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyTab",
+      "value": "Tab"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts",
+      "value": "Сполучення клавіш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcutsDesc",
+      "value": "Гарячі клавіші, Команди"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "Обмежити"
     },
@@ -11503,7 +11543,7 @@
     {
       "_": "types.LangPackString",
       "key": "LoginRegisterDesc",
-      "value": "Вкажіть ваше імʼя та додайте фото профілю."
+      "value": "Вкажіть своє імʼя та додайте фото профілю."
     },
     {
       "_": "types.LangPackString",
@@ -17502,6 +17542,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsShortcuts",
+      "value": "гарячі клавіші, сполучення клавіш, комбінації клавіш, кнопки, клавіатура"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsStickers",
       "value": "наліпки, емоджі, гіф, маски, реакції"
     },
@@ -17862,8 +17907,323 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutAlsoUsedBy",
+      "value": "Також використовується для «{action}»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutBold",
+      "value": "Жирний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutChatByNumber",
+      "value": "Відкрити чат за номером"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCloseOrGoBack",
+      "value": "Закрити або назад"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutComboCondition",
+      "value": "{keys} — {condition}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopyFormats",
+      "value": "Копіювати як текст, HTML або Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopySelected",
+      "value": "Копіювати вибрані повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteLayer",
+      "value": "Видалити шар"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteSelected",
+      "value": "Видалити вибрані повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutEditLastMessage",
+      "value": "Змінити останнє повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFocusMessageInput",
+      "value": "Перемістити фокус на поле повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFolderByNumber",
+      "value": "Відкрити папку за номером"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFrameStep",
+      "value": "Попередній або наступний кадр"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutGlobalSearch",
+      "value": "Пошук чатів і повідомлень"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHeadings",
+      "value": "Заголовок 1–6"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHint",
+      "value": "{action} ({keys})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHoldInMessageMenu",
+      "value": "утримуйте в меню повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutInFullscreen",
+      "value": "у повноекранному режимі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutItalic",
+      "value": "Курсив"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMonospace",
+      "value": "Моноширинний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMuteUnmute",
+      "value": "Прибрати звук або відновити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNeedsModifier",
+      "value": "Натискайте разом з {modifiers}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNewLine",
+      "value": "Новий рядок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextChat",
+      "value": "Наступний чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextMedia",
+      "value": "Наступне медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextStory",
+      "value": "Наступна історія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNotSet",
+      "value": "Не встановлено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPauseRecording",
+      "value": "Призупинити записування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPlayPause",
+      "value": "Відтворити або призупинити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousChat",
+      "value": "Попередній чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousMedia",
+      "value": "Попереднє медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousStory",
+      "value": "Попередня історія"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutQuickChatPicker",
+      "value": "Швидко перемкнути чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecording",
+      "value": "Натисніть клавіші…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecordingHint",
+      "value": "Esc — скасувати, Backspace — очистити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceText",
+      "value": "{keys} вже використовується. «{actions}» буде замінено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceTitle",
+      "value": "Замінити сполучення клавіш?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToNext",
+      "value": "Відповісти на наступне повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToPrevious",
+      "value": "Відповісти на попереднє повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReserved",
+      "value": "{keys} зарезервовано браузером або системою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAll",
+      "value": "Скинути сполучення клавіш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAllText",
+      "value": "Скинути всі сполучення клавіш до значень за замовчуванням?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSearchInChat",
+      "value": "Пошук у чаті"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSeekVideo",
+      "value": "Перемотати назад або вперед"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSendMessage",
+      "value": "Надіслати повідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutStrikethrough",
+      "value": "Закреслений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSubscript",
+      "value": "Підрядковий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSuperscript",
+      "value": "Надрядковий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUnderline",
+      "value": "Підкреслений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUsedByFixed",
+      "value": "{keys} вже використовується для «{action}»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenInputEmpty",
+      "value": "коли поле введення порожнє"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenNoSelection",
+      "value": "без виділеного тексту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenSelection",
+      "value": "з виділеним текстом"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsControllerOthersLockByPasscode",
       "value": "Заблокувати програму кодом"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsFormattingInfo",
+      "value": "Виділіть текст у полі повідомлення, щоб застосувати форматування."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChat",
+      "value": "Чат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChatList",
+      "value": "Список чатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionFormatting",
+      "value": "Форматування тексту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionGeneral",
+      "value": "Загальні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaEditor",
+      "value": "Редактор медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaViewer",
+      "value": "Переглядач медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionRoundVideo",
+      "value": "Відеоповідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionSending",
+      "value": "Надсилання повідомлень"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionStories",
+      "value": "Історії"
     },
     {
       "_": "types.LangPackString",
@@ -20771,7 +21131,7 @@
     {
       "_": "types.LangPackString",
       "key": "VideoMessagePermissionDenied",
-      "value": "Надайте доступ до камери та мікрофона, щоб мати змогу записувати відеоповідомлення."
+      "value": "Дозвольте доступ до камери та мікрофона, щоб записувати відеоповідомлення."
     },
     {
       "_": "types.LangPackString",
@@ -20956,6 +21316,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirm",
+      "value": "Увійти до відеочату **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirmChannel",
+      "value": "Приєднатися до трансляції **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
       "value": "Не вдалося приєднатися до відеочату"
     },
@@ -20970,7 +21340,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceRecordMicError",
-      "value": "Надайте доступ до мікрофона, щоб мати змогу записувати голосові."
+      "value": "Дозвольте доступ до мікрофона, щоб записувати голосові повідомлення."
     },
     {
       "_": "types.LangPackString",
@@ -21292,6 +21662,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectActionCollectible",
+      "value": "Передача колекційного подарунка"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectActionDeployContract",
       "value": "Розгортання контракту"
     },
@@ -21304,6 +21679,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectActionExcess",
       "value": "Надлишок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionToken",
+      "value": "Передача токенів"
     },
     {
       "_": "types.LangPackString",
@@ -21774,7 +22154,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletHowItWorksSubtitle",
-      "value": "Ви самі розпоряджаєтеся коштами —\nніхто інший не має до них доступу."
+      "value": "Ви самі розпоряджаєтеся коштами —\nніхто інший не має до них доступу."
     },
     {
       "_": "types.LangPackString",
@@ -22145,7 +22525,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletSecretPhraseSubtitle",
-      "value": "Введіть секретну фразу вашого гаманця,\nщоб продовжити. {why}"
+      "value": "Щоб продовжити, введіть секретну фразу вашого гаманця. {why}"
     },
     {
       "_": "types.LangPackString",
@@ -22582,6 +22962,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "Помилка моделювання транзакції"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionTitle",
       "value": "Операція"
     },
@@ -22857,5 +23242,5 @@
       "value": "Ваше імʼя"
     }
   ],
-  "version": 400432
+  "version": 400631
 }

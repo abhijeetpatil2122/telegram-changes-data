@@ -1054,7 +1054,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccDescrReactedWith",
-      "value": "%1$s реагує %2$s"
+      "value": "Реакція від %1$s: %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -1635,6 +1635,16 @@
       "_": "types.LangPackString",
       "key": "ActionBotDocuments",
       "value": "%1$s отримує такі документи: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInvite",
+      "value": "un1 запрошує вас до цього бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInviteUnknown",
+      "value": "Вас запросили до цього бота"
     },
     {
       "_": "types.LangPackString",
@@ -3447,8 +3457,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AgentEffort",
+      "value": "Рівень зусиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortExpert",
+      "value": "Експертний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortFast",
+      "value": "Швидкий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortMedium",
+      "value": "Середній"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortTitle",
+      "value": "Рівень зусиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortUltra",
+      "value": "Ультра"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AgentHundredsOfModels",
       "value": "Сотні моделей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModel",
+      "value": "Модель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelSearch",
+      "value": "Пошук моделей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsAll",
+      "value": "Усі моделі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsEmpty",
+      "value": "Моделей не знайдено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsRecent",
+      "value": "Недавні"
     },
     {
       "_": "types.LangPackString",
@@ -9355,6 +9420,44 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInviteDone",
+      "value": "**%1$s** запрошено до **%2$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d користувачів запрошено до **%2$s**.",
+      "key": "BotInviteDoneMany",
+      "many_value": "%1$d користувачів запрошено до **%2$s**.",
+      "one_value": "%1$d користувача запрошено до **%2$s**.",
+      "other_value": "%1$d користувачів запрошено до **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStarted",
+      "value": "**%1$s** вже має чат з **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStartedMany",
+      "value": "Ці користувачі вже мають чат з **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorFailed",
+      "value": "Ви не можете запросити цих користувачів до **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorNotOwner",
+      "value": "Запрошувати користувачів може лише власник **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteToBot",
+      "value": "Запросити до бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotLocationPermissionAllow",
       "value": "Дозволити"
     },
@@ -9547,7 +9650,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotOpenPageMessage",
-      "value": "Бот **%1$s** пропонує продовжити роботу на вебсторінці.\n\nВін зможе дізнатися вашу **IP-адресу** та характеристики пристрою."
+      "value": "**%1$s** пропонує продовжити роботу на вебсторінці.\n\nБот отримає доступ до вашої **IP-адреси** та характеристик пристрою."
     },
     {
       "_": "types.LangPackString",
@@ -9577,7 +9680,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotPermissionGameAlert",
-      "value": "Дозволити боту %1$s передавати ваше імʼя та ID у Telegram (не номер телефону) на сторінки, які ви відкриваєте ним?"
+      "value": "Дозволити боту %1$s передавати ваше імʼя та ID у Telegram (не номер телефону) на сторінки, які ви відкриваєте за його допомогою?"
     },
     {
       "_": "types.LangPackString",
@@ -9599,6 +9702,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfileOpenChat",
+      "value": "Відкрити чат"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotProfilePermissionBiometry",
       "value": "Біометрія"
     },
@@ -9615,7 +9723,17 @@
     {
       "_": "types.LangPackString",
       "key": "BotProfilePermissions",
-      "value": "Надати дозвіл до"
+      "value": "Доступи бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileStopBot",
+      "value": "Зупинити бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileViewInfo",
+      "value": "Переглянути профіль"
     },
     {
       "_": "types.LangPackString",
@@ -10093,22 +10211,22 @@
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestCameraMicPermission",
-      "value": "Надати **%1$s** доступ до камери та мікрофона?\n\nРозробник **%1$s** матиме доступ до вашої камери та мікрофона, коли цей вебзастосунок відкрито."
+      "value": "Дозволити **%1$s** доступ до камери та мікрофона?\n\nРозробник **%1$s** матиме доступ до вашої камери та мікрофона, коли відкрито цей вебзастосунок."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestCameraMicPermissionWithHint",
-      "value": "Надати **%1$s** доступ до камери та мікрофона?\n\nРозробник **%1$s** матиме доступ до вашої камери та мікрофона, коли цей вебзастосунок відкрито.\n\nНадайте доступ у Налаштуваннях > Дозволи > Камера."
+      "value": "Дозволити **%1$s** доступ до камери та мікрофона?\n\nРозробник **%1$s** матиме доступ до вашої камери та мікрофона, коли відкрито цей вебзастосунок.\n\nНадайте доступ у Налаштуваннях > Дозволи > Камера."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestCameraPermission",
-      "value": "Надати боту **%1$s** доступ до камери?\n\nБот **%1$s** матиме доступ до камери, коли відкрито його вебсторінки."
+      "value": "Дозволити **%1$s** доступ до камери?\n\nРозробник **%1$s** матиме доступ до вашої камери, коли відкрито цей вебзастосунок."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestCameraPermissionWithHint",
-      "value": "Бот **%1$s** хоче отримати доступ до камери.\n\nБот **%1$s** матиме доступ до камери, коли відкрито його вебсторінки.\n\nЩоб надати доступ, відкрийте Налаштування > Дозволи > Камера."
+      "value": "**%1$s** запитує доступ до камери.\n\nБот **%1$s** матиме доступ до камери, коли відкрито цей вебзастосунок.\n\nДозвольте доступ у Налаштуваннях > Дозволи > Камера."
     },
     {
       "_": "types.LangPackString",
@@ -10118,22 +10236,22 @@
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestGeolocationPermission",
-      "value": "Надати боту **%1$s** доступ до вашого місцезнаходження?\n\nБот **%1$s** матиме доступ до місцезнаходження, коли відкрито його вебсторінки."
+      "value": "Дозволити **%1$s** доступ до місцезнаходження?\n\nРозробник **%1$s** матиме доступ до вашого місцезнаходження, коли відкрито цей вебзастосунок."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestGeolocationPermissionWithHint",
-      "value": "Бот **%1$s** хоче дізнатися ваше місцезнаходження.\n\nБот **%1$s** матиме доступ до місцезнаходження, коли відкрито його вебсторінки.\n\nЩоб надати доступ, відкрийте Налаштування > Дозволи та увімкніть **Геодані**."
+      "value": "**%1$s** запитує доступ до місцезнаходження.\n\nБот **%1$s** матиме доступ до вашого місцезнаходження, коли відкрито цей вебзастосунок.\n\nЩоб дозволити, увімкніть **Геодані** у Налаштуваннях > Дозволи."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestMicrophonePermission",
-      "value": "Надати боту **%1$s** доступ до мікрофона?\n\nБот **%1$s** матиме доступ до мікрофона, коли відкрито його вебсторінки."
+      "value": "Дозволити **%1$s** доступ до мікрофона?\n\nРозробник **%1$s** матиме доступ до вашого мікрофона, коли відкрито цей вебзастосунок."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestMicrophonePermissionWithHint",
-      "value": "Бот **%1$s** хоче отримати доступ до мікрофона.\n\nБот **%1$s** матиме доступ до мікрофона, коли відкрито його вебсторінки.\n\nЩоб надати доступ, відкрийте Налаштування > Дозволи > Мікрофон."
+      "value": "Запитує **%1$s** доступ до мікрофона.\n\nБот **%1$s** матиме доступ до мікрофона, коли відкрито цей вебзастосунок.\n\nДозвольте доступ у Налаштуваннях > Дозволи > Мікрофон."
     },
     {
       "_": "types.LangPackString",
@@ -11203,7 +11321,7 @@
     {
       "_": "types.LangPackString",
       "key": "BusinessLinksIntro",
-      "value": "Додайте текст, який зʼявиться в полі для вводу у всіх, хто почне чат за цим посиланням:"
+      "value": "Додайте текст, який зʼявиться в полі введення у всіх, хто почне чат за цим посиланням:"
     },
     {
       "_": "types.LangPackString",
@@ -11743,7 +11861,7 @@
     {
       "_": "types.LangPackString",
       "key": "CameraPermissionText",
-      "value": "Надати доступ до камери"
+      "value": "Дозволити доступ до камери"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -16129,6 +16247,11 @@
       "_": "types.LangPackString",
       "key": "CreateGroupForThis",
       "value": "Створити для цього нову групу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateGroupWith",
+      "value": "Створити групу з %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -21309,6 +21432,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FilterNoUnreadChats",
+      "value": "Немає непрочитаних чатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterNoUnreadChatsInfo",
+      "value": "Ви прочитали всі чати."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FilterNonContact",
       "value": "Неконтакт"
     },
@@ -21408,12 +21541,22 @@
       "value": "Створити посилання"
     },
     {
+      "_": "types.LangPackString",
+      "key": "FilterShowAllChats",
+      "value": "Показати всі чати"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Показати ще %1$d чати",
       "key": "FilterShowMoreChats",
       "many_value": "Показати ще %1$d чатів",
       "one_value": "Показати ще %1$d чат",
       "other_value": "Показати ще %1$d чатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterShowUnread",
+      "value": "Показати непрочитані"
     },
     {
       "_": "types.LangPackString",
@@ -21429,6 +21572,11 @@
       "_": "types.LangPackString",
       "key": "FilterUnread",
       "value": "Непрочитані"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterUnreadOnlyShown",
+      "value": "тільки непрочитані"
     },
     {
       "_": "types.LangPackString",
@@ -22155,6 +22303,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FpnvConsentCarrier",
+      "value": "Оператор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentContinue",
+      "value": "Продовжити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentPhoneNumber",
+      "value": "Номер телефона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentSimSlot",
+      "value": "Слот SIM-картки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentSimSlotValue",
+      "value": "SIM %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentText",
+      "value": "Telegram може підтвердити номер телефону SIM-картки у вашого мобільного оператора та ввійти в акаунт без коду."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentTitle",
+      "value": "Вхід за допомогою SIM-картки"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Fragment",
       "value": "Fragment"
     },
@@ -22373,7 +22556,7 @@
     {
       "_": "types.LangPackString",
       "key": "GalleryPermissionText",
-      "value": "Надати доступ до галереї"
+      "value": "Дозволити доступ до галереї"
     },
     {
       "_": "types.LangPackString",
@@ -25093,7 +25276,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift2UpgradeCostsFooter",
-      "value": "Вартість покращення знижується щохвилини."
+      "value": "Ціна покращення знижується щохвилини."
     },
     {
       "_": "types.LangPackString",
@@ -25725,7 +25908,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferConfirmSend",
-      "value": "Підтвердити пропозицію"
+      "value": "Підтвердження умов"
     },
     {
       "_": "types.LangPackString",
@@ -25984,6 +26167,526 @@
       "_": "types.LangPackString",
       "key": "GiftOnSale",
       "value": "Продається за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBought",
+      "value": "%s тепер у вашому гаманці!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBoughtTo",
+      "value": "%1$s придбано для %2$s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmButton",
+      "value": "Купити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmText",
+      "value": "Купити **%1$s** на Fragment за **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "Купити **%1$s** за **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTitle",
+      "value": "Підтвердження покупки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyTitle",
+      "value": "Купити %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceButton",
+      "value": "Змінити на %s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "Змінити ціну **%1$s** на **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "Змінення ціни %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "Цей подарунок більше не продається."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "Цього подарунка немає у вашому гаманці."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "Ця ціна виходить за межі допустимого діапазону."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "Ціна повинна складати від %1$s до %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactiveFixed",
+      "value": "Цей подарунок не продається."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "Ви не можете придбати власний подарунок на Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchaseFixed",
+      "value": "Ви не можете придбати власний подарунок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitle",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainFailed",
+      "value": "Не вдалося виконати транзакцію щодо %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainGramAmount",
+      "value": "%s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "%s виставлено на продаж на Fragment!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListedFixed",
+      "value": "%s виставлено на продаж!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNetworkFee",
+      "value": "Комісія мережі: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAccept",
+      "value": "Прийняти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferBalance",
+      "value": "Баланс: %s >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferButton",
+      "value": "Запропонувати %s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTitle",
+      "value": "Підтвердження пропозиції"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDecline",
+      "value": "Відхилити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineTitle",
+      "value": "Відхилити пропозицію"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclined",
+      "value": "Пропозицію відхилено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "Ви вже маєте активну пропозицію про купівлю цього подарунка. Щоб змінити її, спершу відкликайте її."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTitle",
+      "value": "Пропозиція"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "Пропозиція діє ще\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferFailed",
+      "value": "Пропозицію про купівлю %s не зроблено: не вдалося виконати транзакцію."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "Вкажіть, скільки GRAM ви готові запропонувати за **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsToOffer",
+      "value": "Пропозиція в GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "Вам пропонують **%1$s** (%2$s) за **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "Вам пропонують **%1$s** за **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteAccepted",
+      "value": "Вашу пропозицію купити **%2$s** за **%1$s** прийнято"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteDeclined",
+      "value": "Вашу пропозицію купити **%2$s** за **%1$s** відхилено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteWithdrawn",
+      "value": "Ви відкликали свою пропозицію купити **%2$s** за **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouAccepted",
+      "value": "Ви прийняли пропозицію"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouDeclined",
+      "value": "Ви відхилили пропозицію"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouSold",
+      "value": "Ви продали **%1$s** за **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "Ви пропонуєте **%1$s** за **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "Власник отримає **%1$s GRAM**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "Якщо продавець відхилить вашу пропозицію або термін її дії спливе, вам буде повернуто Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferReview",
+      "value": "Переглянути"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRibbonSold",
+      "value": "продано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "Пропозиція діє до"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "Комісія платформи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "Ви заплатите"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "Ваша пропозиція"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellButton",
+      "value": "Продати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "%s не продано: не вдалося виконати транзакцію."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellSent",
+      "value": "Продаж %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "Продати **%1$s**\nза **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellTitle",
+      "value": "Підтвердження продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "**%1$s** зарезервовано до %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "Пропозицію надіслано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSold",
+      "value": "Ви продали %s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "Пропозицію прийнято."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "Триває скасування пропозиції…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "Пропозицію відхилено."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "Пропозиція застаріла."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "Триває завершення продажу…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "Пропозицію відкликано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryExpired",
+      "value": "Пропозиція купити **%2$s** за **%1$s** застаріла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryWithdrawn",
+      "value": "Пропозицію купити **%2$s** за **%1$s** відкликано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYourExpired",
+      "value": "Ваша пропозиція купити **%2$s** за **%1$s** застаріла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferUnlistFirst",
+      "value": "Подарунок виставлено на продаж. Перш ніж прийняти пропозицію, зніміть його з продажу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdraw",
+      "value": "Відкликати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFailed",
+      "value": "Пропозицію про купівлю %s не відкликано: не вдалося виконати транзакцію."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFor",
+      "value": "Відкликати за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawSent",
+      "value": "Відкликання пропозиції…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "Відкликати пропозицію?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOnSaleFor",
+      "value": "Продається за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOpenWallet",
+      "value": "Перейти до моїх грошей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s тепер у продажу за %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "Покупець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowCancellationFee",
+      "value": "Комісія за скасування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "Комісія контракту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowExpiration",
+      "value": "Діє до"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNetworkFee",
+      "value": "Комісія мережі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNewPrice",
+      "value": "Нова ціна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowOldPrice",
+      "value": "Стара ціна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowPrice",
+      "value": "Ціна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "Продавець"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSellerShare",
+      "value": "Частка продавця"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowYouReceive",
+      "value": "Ви отримаєте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellButton",
+      "value": "Виставити на продаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "Виставити **%1$s** на продаж на Fragment за **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellMenu",
+      "value": "Продати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceButton",
+      "value": "Виставити за %s GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHeader",
+      "value": "Ціна в GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "Ви отримаєте **%1$s GRAM** після вирахування комісії (%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "Ви отримаєте **%1$s GRAM**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "Виставлення %s на продаж на Fragment…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "Виставлення %s на продаж…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellTitle",
+      "value": "Продати на Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "Зняття %s з продажу…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistText",
+      "value": "Зняти цей подарунок з продажу на Fragment? Він залишиться у вашому гаманці. Для скасування з вашого гаманця спишеться **%s** на комісії контракту."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlisted",
+      "value": "%s більше не продається."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainWalletTitle",
+      "value": "Гроші"
     },
     {
       "_": "types.LangPackString",
@@ -26259,8 +26962,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftResaleFilterForStars",
+      "value": "За зірки"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftResaleFilterForStarsOnly",
       "value": "Тільки за зірки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterForTon",
+      "value": "За Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterFromFragment",
+      "value": "З Fragment"
     },
     {
       "_": "types.LangPackString",
@@ -26733,6 +27451,36 @@
       "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Надходження в Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "**%1$s** буде перенесено з Надходжень в Gram на ваш баланс, а потім використано для купівлі цього подарунка."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseTitle",
+      "value": "Використати Надходження в Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawButton",
+      "value": "Вивести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSent",
+      "value": "%s надіслано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Перевірте ⚙ Settings > 💎 Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTitle",
+      "value": "Вивести %s"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -30672,6 +31420,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MakeChannelPrivateText",
+      "value": "Публічне посилання на ваш канал **%1$s** буде видалено, і це імʼя користувача зможе використати хто завгодно. Продовжити?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeChannelPrivateTitle",
+      "value": "Зробити канал приватним?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateText",
+      "value": "Публічне посилання на вашу групу **%1$s** буде видалено, і це імʼя користувача зможе використати хто завгодно. Продовжити?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateTitle",
+      "value": "Зробити групу приватною?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MakeMyselfVisible",
       "value": "Показувати мене"
     },
@@ -30698,7 +31466,7 @@
     {
       "_": "types.LangPackString",
       "key": "ManageAllFilesRational",
-      "value": "Надайте **Telegram** доступ до всіх файлів, щоб відкрити вбудований файловий менеджер"
+      "value": "Дозвольте **Telegram** доступ до всіх файлів, щоб відкрити вбудований файловий менеджер"
     },
     {
       "_": "types.LangPackString",
@@ -32854,13 +33622,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsCollapsePost",
+      "value": "Згорнути"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsCompact",
+      "value": "Компактно"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsEmpty",
       "value": "Новин поки немає"
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsExpandPost",
+      "value": "Розгорнути"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsExpanded",
+      "value": "Розгорнуто"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsForYou",
       "value": "Для вас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsInteresting",
+      "value": "Цікаво"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsInterestingDone",
+      "value": "Ви бачитимете більше подібних публікацій."
     },
     {
       "_": "types.LangPackString",
@@ -32876,6 +33674,21 @@
       "_": "types.LangPackString",
       "key": "NewsInterestsSaved",
       "value": "Інтереси збережено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsNotInterested",
+      "value": "Нецікаво"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsNotInterestedDone",
+      "value": "Ви бачитимете менше подібних публікацій."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsReloadFeed",
+      "value": "Оновити стрічку"
     },
     {
       "_": "types.LangPackString",
@@ -33205,7 +34018,7 @@
     {
       "_": "types.LangPackString",
       "key": "NoMedia",
-      "value": "Діліться фото й відео у цьому чаті й отримуйте доступ до них з будь-якого пристрою."
+      "value": "Діліться фото та відео у цьому чаті й отримуйте доступ до них з будь-якого пристрою."
     },
     {
       "_": "types.LangPackString",
@@ -34065,6 +34878,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGramTransferComment",
       "value": "%1$s надсилає вам %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferOnramp",
+      "value": "Ви поповнили баланс на %1$s через %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -35386,7 +36204,7 @@
     {
       "_": "types.LangPackString",
       "key": "OpenUrlOption2",
-      "value": "Дозволити **%1$s** надсилати мені повідомлення"
+      "value": "Дозволити **%1$s** писати мені"
     },
     {
       "_": "types.LangPackString",
@@ -36333,7 +37151,7 @@
     {
       "_": "types.LangPackString",
       "key": "PassportEmailInfo",
-      "value": "Введіть свою ел. пошту"
+      "value": "Вкажіть свою ел. пошту"
     },
     {
       "_": "types.LangPackString",
@@ -36768,7 +37586,7 @@
     {
       "_": "types.LangPackString",
       "key": "PassportPhoneInfo",
-      "value": "Введіть номер телефону"
+      "value": "Вкажіть свій номер телефону"
     },
     {
       "_": "types.LangPackString",
@@ -36798,7 +37616,7 @@
     {
       "_": "types.LangPackString",
       "key": "PassportPolicy",
-      "value": "Ви приймаєте *Політику конфіденційності %1$s* та дозволяєте боту @%2$s надсилати вам повідомлення."
+      "value": "Ви приймаєте *Політику конфіденційності %1$s* та дозволяєте боту @%2$s писати вам."
     },
     {
       "_": "types.LangPackString",
@@ -37605,12 +38423,12 @@
     {
       "_": "types.LangPackString",
       "key": "PeopleNearbyAccessInfo",
-      "value": "Ця можливість показує місцеві групи та людей поблизу, які переглядають розділ.\n\nДля початку надайте доступ до місцезнаходження."
+      "value": "Ця можливість показує місцеві групи та людей поблизу, які переглядають розділ.\n\nДля початку дозвольте доступ до місцезнаходження."
     },
     {
       "_": "types.LangPackString",
       "key": "PeopleNearbyAllowAccess",
-      "value": "Надати доступ"
+      "value": "Дозволити доступ"
     },
     {
       "_": "types.LangPackString",
@@ -37738,7 +38556,7 @@
     {
       "_": "types.LangPackString",
       "key": "PermissionNoCamera",
-      "value": "Для знімання фото й відео Telegram потрібен доступ до камери. Надайте його в Налаштуваннях."
+      "value": "Щоб знімати фото та відео, Telegram потрібен доступ до камери. Дозвольте його в Налаштуваннях."
     },
     {
       "_": "types.LangPackString",
@@ -40695,6 +41513,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileBotCurrentOwner",
+      "value": "Поточний власник бота: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotInvitedBy",
+      "value": "Запрошено: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileBotLanguageAdd",
       "value": "Додати мову"
     },
@@ -42548,7 +43376,7 @@
     {
       "_": "types.LangPackString",
       "key": "RegisterText2",
-      "value": "Вкажіть своє імʼя та додайте фото для профілю."
+      "value": "Вкажіть своє імʼя та додайте фото профілю."
     },
     {
       "_": "types.LangPackString",
@@ -42886,6 +43714,16 @@
       "_": "types.LangPackString",
       "key": "Reply",
       "value": "Відповісти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirect",
+      "value": "Повідомлення каналу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirectHint",
+      "value": "Надішліть повідомлення каналу"
     },
     {
       "_": "types.LangPackString",
@@ -53457,7 +54295,7 @@
     {
       "_": "types.LangPackString",
       "key": "ThemeResetToDefaults",
-      "value": "Скинути на типові"
+      "value": "Скинути до типових"
     },
     {
       "_": "types.LangPackString",
@@ -54176,6 +55014,16 @@
       "_": "types.LangPackString",
       "key": "TopicsEnable",
       "value": "Увімкнути гілки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TopicsFilterClosed",
+      "value": "Закриті"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TopicsFilterOpen",
+      "value": "Відкриті"
     },
     {
       "_": "types.LangPackString",
@@ -58173,7 +59021,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoipNeedCameraPermission",
-      "value": "Надайте Telegram доступ до камери, щоб ви могли здійснювати відеовиклики.\n\nНатисніть Налаштування > Дозволи та ввімкніть Камеру."
+      "value": "Дозвольте Telegram доступ до камери, щоб ви могли здійснювати відеовиклики.\n\nПерейдіть у Налаштування > Дозволи та ввімкніть Камеру."
     },
     {
       "_": "types.LangPackString",
@@ -58562,6 +59410,11 @@
       "_": "types.LangPackString",
       "key": "WalletActionReceivedGrams",
       "value": "un1 надсилає вам **%1$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsOnramp",
+      "value": "Ви поповнили баланс на **%1$s** через %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -58991,7 +59844,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletEnterSecretPhrase",
-      "value": "Введіть секретну фразу вашого гаманця,\nщоб продовжити. **Навіщо?**"
+      "value": "Щоб продовжити, введіть секретну\nфразу вашого гаманця. **Навіщо?**"
     },
     {
       "_": "types.LangPackString",
@@ -59006,7 +59859,7 @@
     {
       "_": "types.LangPackString",
       "key": "WalletFailedTransfer",
-      "value": "Переказ не виконано"
+      "value": "Переказ не здійснено"
     },
     {
       "_": "types.LangPackString",
@@ -59307,6 +60160,101 @@
       "_": "types.LangPackString",
       "key": "WalletOldWalletsBalance",
       "value": "Ви також маєте %1$s на старих гаманцях"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "Придбано за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "Пропозицію про купівлю %s прийнято"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferCancelled",
+      "value": "Пропозицію скасовано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferDeclined",
+      "value": "Пропозицію відхилено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferExpired",
+      "value": "Пропозиція застаріла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferSent",
+      "value": "Пропозицію надіслано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSale",
+      "value": "Виставлено на продаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSaleFor",
+      "value": "Виставлено на продаж за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRemovedFromSale",
+      "value": "Знято з продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRepriced",
+      "value": "Ціну змінено на %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "Статус"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "Продано за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusOfferAccepted",
+      "value": "Пропозицію прийнято"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPriceChanged",
+      "value": "Ціну змінено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPurchased",
+      "value": "Придбано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPutOnSale",
+      "value": "Виставлено на продаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusRemovedFromSale",
+      "value": "Знято з продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusSold",
+      "value": "Продано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftTitle",
+      "value": "Майданчик подарунків"
     },
     {
       "_": "types.LangPackString",
@@ -60129,7 +61077,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebViewRequestCameraMicPermission",
-      "value": "Дозволити **%1$s** доступ до вашої камери та мікрофона?\n\n**%1$s** матиме доступ до вашої камери та мікрофона, коли цей сайт буде відкрито."
+      "value": "Дозволити **%1$s** доступ до камери та мікрофона?\n\n**%1$s** матиме доступ до вашої камери та мікрофона, коли відкрито цей сайт."
     },
     {
       "_": "types.LangPackString",
@@ -60943,5 +61891,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 61874726
+  "version": 62028499
 }

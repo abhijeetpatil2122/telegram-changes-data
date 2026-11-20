@@ -9444,7 +9444,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotInviteErrorAlreadyStartedMany",
-      "value": "Эти пользователи уже начали общение с **%s**."
+      "value": "У этих пользователей уже есть чат с **%s**."
     },
     {
       "_": "types.LangPackString",
@@ -22373,6 +22373,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FpnvConsentSimSlot",
+      "value": "Слот сим-карты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentSimSlotValue",
+      "value": "Сим-карта %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentText",
+      "value": "Telegram может проверить номер телефона, привязанный к этой сим-карте, через Вашего оператора связи и выполнить вход без кода подтверждения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentTitle",
+      "value": "Вход с помощью сим-карты"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Fragment",
       "value": "Fragment"
     },
@@ -26200,6 +26220,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBoughtTo",
+      "value": "%1$s куплен для %2$s!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorBuyForSelfOnly",
       "value": "Подарки с Fragment можно покупать только для себя."
     },
@@ -26210,8 +26235,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactiveFixed",
+      "value": "Этот подарок не продаётся."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAccept",
+      "value": "Принять"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferAcceptSent",
       "value": "Вы приняли предложение. Сделка оформляется."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDecline",
+      "value": "Отклонить"
     },
     {
       "_": "types.LangPackString",
@@ -26227,6 +26267,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferDeclined",
       "value": "Предложение отклонено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "Вы уже сделали предложение о покупке этого подарка. Чтобы изменить условия, сперва отзовите его. "
     },
     {
       "_": "types.LangPackString",
@@ -26250,13 +26295,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "Сбор за досрочный отзыв составил **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteYouAccepted",
       "value": "Вы приняли предложение"
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouDeclined",
+      "value": "Вы отклонили предложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouSold",
+      "value": "Вы продали **%1$s** за **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferOut",
       "value": "Вы предложили **%1$s** за **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "Владелец получит **%1$s GRAM**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferReview",
+      "value": "Посмотреть"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRibbonSold",
+      "value": "продан"
     },
     {
       "_": "types.LangPackString",
@@ -26345,6 +26420,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferUnlistFirst",
+      "value": "Подарок выставлен на продажу. Чтобы принять предложение, сперва снимите подарок с продажи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdraw",
+      "value": "Отозвать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "Сбор за досрочный отзыв предложения составит около **%1$s**.\n\nНа Ваш баланс вернётся около **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFor",
+      "value": "Отозвать за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "На Ваш баланс вернётся около **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawSent",
+      "value": "Отзыв предложения…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "Отозвать предложение?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOpenWallet",
       "value": "Перейти к моим Деньгам"
     },
@@ -26382,6 +26492,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainRowSellerShare",
       "value": "Доля продавца"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainWalletTitle",
+      "value": "Деньги"
     },
     {
       "_": "types.LangPackString",
@@ -61604,5 +61719,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62030289
+  "version": 62032741
 }

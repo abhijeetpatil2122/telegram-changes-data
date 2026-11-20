@@ -7255,6 +7255,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "Не код языка: {code}. Укажите default или две строчные латинские буквы."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Задано дважды: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Значение должно быть строкой: {key}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_menu_already_added",
       "value": "Этот бот уже добавлен в Ваше меню вложений."
     },
@@ -7392,6 +7407,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Отправить сообщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Не удалось загрузить медиа для публикации."
     },
     {
       "_": "types.LangPackString",
@@ -11200,6 +11220,14 @@
       "_": "types.LangPackString",
       "key": "lng_contacts_not_found",
       "value": "Контакты не найдены"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выбрано {count} контакта",
+      "key": "lng_contacts_selected",
+      "many_value": "Выбрано {count} контактов",
+      "one_value": "Выбран {count} контакт",
+      "other_value": "Выбрано {count} контакта"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -29264,6 +29292,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_enhance",
+      "value": "Улучшение"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_font",
       "value": "Шрифт"
     },
@@ -29349,6 +29382,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_enhance",
+      "value": "Улучшить фото"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_fixed_pan",
       "value": "Переместить изображение внутри рамки"
     },
@@ -29426,6 +29464,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_flip",
       "value": "Отразить выбранный объект по горизонтали"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Переместить выбранный объект на уровень ниже"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Переместить выбранный объект на уровень выше"
     },
     {
       "_": "types.LangPackString",
@@ -36135,6 +36183,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_send_reply_to_forward",
+      "value": "Ответить на пересланное"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_send_separate_photos",
       "value": "Не группировать фотографии"
     },
@@ -42017,6 +42070,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_location_add",
+      "value": "Добавить эту геопозицию"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stories_my_name",
       "value": "Моя история"
     },
@@ -42129,13 +42187,440 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_widget_location",
+      "value": "Место"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_add_button",
+      "value": "Новая история"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_albums",
+      "value": "Альбом"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} альбома",
+      "key": "lng_story_albums_count",
+      "many_value": "{count} альбомов",
+      "one_value": "{count} альбом",
+      "other_value": "{count} альбома"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} человек",
+      "key": "lng_story_blocklist_count_link",
+      "many_value": "{count} человек",
+      "one_value": "{count} человека",
+      "other_value": "{count} человека"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty",
+      "value": "{link}, которые никогда не увидят Ваши истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty_link",
+      "value": "Выберите пользователей"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_title",
+      "value": "Скрывать мои истории от"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Чтобы публиковать истории, каналу нужно больше голосов."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_caption_ph",
+      "value": "Добавить подпись..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_choose_media",
+      "value": "Выбрать фото или видео"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_comment_ph",
       "value": "Комментировать историю..."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft",
+      "value": "Удалить черновик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_button",
+      "value": "Сбросить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_text",
+      "value": "Вы точно хотите сбросить все изменения?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_title",
+      "value": "Сбросить изменения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_failed",
+      "value": "Не удалось сохранить черновик."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Не удалось загрузить медиа из черновика."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_photo",
+      "value": "Фото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_saved",
+      "value": "Черновик сохранён"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_video",
+      "value": "Видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_button",
+      "value": "Черновики"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_empty",
+      "value": "Черновиков пока нет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_title",
+      "value": "Черновики"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit",
+      "value": "Изменить историю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy",
+      "value": "Изменить видимость"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy_title",
+      "value": "Конфиденциальность истории"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edited",
+      "value": "История обновлена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Форматировать подписи к историям можно только с подпиской Telegram Premium."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "История останется в Вашем профиле и после истечения {count} часов. Настройки конфиденциальности сохранятся.",
+      "key": "lng_story_keep_about",
+      "many_value": "История останется в Вашем профиле и после истечения {count} часов. Настройки конфиденциальности сохранятся.",
+      "one_value": "История останется в Вашем профиле и после истечения {count} часа. Настройки конфиденциальности сохранятся.",
+      "other_value": "История останется в Вашем профиле и после истечения {count} часа. Настройки конфиденциальности сохранятся."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "История останется в профиле канала и после истечения {count} часов.",
+      "key": "lng_story_keep_channel_about",
+      "many_value": "История останется в профиле канала и после истечения {count} часов.",
+      "one_value": "История останется в профиле канала и после истечения {count} часа.",
+      "other_value": "История останется в профиле канала и после истечения {count} часа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_draft",
+      "value": "Оставить черновик"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "История останется в профиле группы и после истечения {count} часов.",
+      "key": "lng_story_keep_group_about",
+      "many_value": "История останется в профиле группы и после истечения {count} часов.",
+      "one_value": "История останется в профиле группы и после истечения {count} часа.",
+      "other_value": "История останется в профиле группы и после истечения {count} часа."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За **24** часа можно опубликовать **{count}** истории. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "key": "lng_story_limit_count",
+      "many_value": "За **24** часа можно опубликовать **{count}** историй. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "one_value": "За **24** часа можно опубликовать **{count}** историю. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "other_value": "За **24** часа можно опубликовать **{count}** истории. Чтобы увеличить лимит, оформите подписку **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За **24** часа нельзя опубликовать больше **{count}** историй.",
+      "key": "lng_story_limit_count_premium",
+      "many_value": "За **24** часа нельзя опубликовать больше **{count}** историй.",
+      "one_value": "За **24** часа нельзя опубликовать больше **{count}** истории.",
+      "other_value": "За **24** часа нельзя опубликовать больше **{count}** истории."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За месяц можно опубликовать **{count}** истории. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "key": "lng_story_limit_monthly",
+      "many_value": "За месяц можно опубликовать **{count}** историй. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "one_value": "За месяц можно опубликовать **{count}** историю. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "other_value": "За месяц можно опубликовать **{count}** истории. Чтобы увеличить лимит, оформите подписку **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За месяц нельзя опубликовать больше **{count}** историй.",
+      "key": "lng_story_limit_monthly_premium",
+      "many_value": "За месяц нельзя опубликовать больше **{count}** историй.",
+      "one_value": "За месяц нельзя опубликовать больше **{count}** истории.",
+      "other_value": "За месяц нельзя опубликовать больше **{count}** истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_title",
+      "value": "Достигнут лимит"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За неделю можно опубликовать **{count}** истории. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "key": "lng_story_limit_weekly",
+      "many_value": "За неделю можно опубликовать **{count}** историй. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "one_value": "За неделю можно опубликовать **{count}** историю. Чтобы увеличить лимит, оформите подписку **Telegram Premium**.",
+      "other_value": "За неделю можно опубликовать **{count}** истории. Чтобы увеличить лимит, оформите подписку **Telegram Premium**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "За неделю нельзя опубликовать больше **{count}** историй.",
+      "key": "lng_story_limit_weekly_premium",
+      "many_value": "За неделю нельзя опубликовать больше **{count}** историй.",
+      "one_value": "За неделю нельзя опубликовать больше **{count}** истории.",
+      "other_value": "За неделю нельзя опубликовать больше **{count}** истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_link_premium",
+      "value": "Ссылки в историях доступны с {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Трансляция в историях уже идёт."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_location_change",
+      "value": "Изменить геопозицию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_about",
+      "value": "Выберите, как долго история будет видна."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Оформите {link}, чтобы истории исчезали через {count} часа.",
+      "key": "lng_story_period_premium",
+      "many_value": "Оформите {link}, чтобы истории исчезали через {count} часов.",
+      "one_value": "Оформите {link}, чтобы истории исчезали через {count} час.",
+      "other_value": "Оформите {link}, чтобы истории исчезали через {count} часа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_premium_link",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as",
+      "value": "Опубликовать от имени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as_personal",
+      "value": "личный аккаунт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_button",
+      "value": "Опубликовать историю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_posted",
+      "value": "История опубликована."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends",
+      "value": "Близкие друзья"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends_title",
+      "value": "Близкие друзья"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_contacts",
+      "value": "Мои контакты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_edit_list",
+      "value": "изменить список"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_everyone",
+      "value": "Все"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_except_one",
+      "value": "кроме {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude",
+      "value": "добавить исключения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude_title",
+      "value": "Исключить контакты"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "кроме {count} человек",
+      "key": "lng_story_privacy_excluded",
+      "many_value": "кроме {count} человек",
+      "one_value": "кроме {count} человека",
+      "other_value": "кроме {count} человека"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_header",
+      "value": "Кто может видеть историю"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} человека",
+      "key": "lng_story_privacy_people",
+      "many_value": "{count} человек",
+      "one_value": "{count} человек",
+      "other_value": "{count} человека"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_select_title",
+      "value": "Выбрать контакты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_selected",
+      "value": "Выбранные пользователи"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_reply_ph",
       "value": "Ответить сообщением..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_repost",
+      "value": "Опубликовать у себя"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_round_failed",
+      "value": "Не удалось записать видеосообщение."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_draft",
+      "value": "Сохранить черновик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Сохранить в файл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "История сохранена в файл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_screenshots",
+      "value": "Разрешить скриншоты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_stop_button",
+      "value": "Остановить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Вы точно хотите остановить загрузку истории?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Остановить загрузку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_cancel",
+      "value": "Удалить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_failed",
+      "value": "Не удалось загрузить историю."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_retry",
+      "value": "Повторить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_lock",
+      "value": "Закрепить видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_unlock",
+      "value": "Открепить видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_weather_failed",
+      "value": "Не удалось загрузить погоду."
     },
     {
       "_": "types.LangPackString",
@@ -42754,6 +43239,14 @@
       "_": "types.LangPackString",
       "key": "lng_sure_delete_contact",
       "value": "Вы точно хотите удалить пользователя {contact} из списка контактов?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Вы точно хотите удалить {count} контакта?",
+      "key": "lng_sure_delete_contacts",
+      "many_value": "Вы точно хотите удалить {count} контактов?",
+      "one_value": "Вы точно хотите удалить {count} контакт?",
+      "other_value": "Вы точно хотите удалить {count} контакта?"
     },
     {
       "_": "types.LangPackString",
@@ -43859,8 +44352,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot",
+      "value": "Подключение бота разрешено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Управлять подключённым ботом можно в разделе {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed_message",
       "value": "Список активных сеансов доступен в разделе {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Обнаружено {count} новых подключения к Вашему аккаунту. Это были Вы?",
+      "key": "lng_unconfirmed_auth_connections",
+      "many_value": "Обнаружено {count} новых подключений к Вашему аккаунту. Это были Вы?",
+      "one_value": "Обнаружено {count} новое подключение к Вашему аккаунту. Это были Вы?",
+      "other_value": "Обнаружено {count} новых подключения к Вашему аккаунту. Это были Вы?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_allowed",
+      "value": "Подключения разрешены"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_denied",
+      "value": "Доступ отозван"
     },
     {
       "_": "types.LangPackString",
@@ -43873,6 +44394,11 @@
       "value": "Мы заблокировали попытку входа в аккаунт из {country}."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Мы отключили бота, подключённого из {country}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Попытки входа заблокированы",
       "key": "lng_unconfirmed_auth_denied_title",
@@ -43882,8 +44408,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_title_bot",
+      "value": "Бот отключён"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_denied_warning",
       "value": "Никому не сообщайте проверочный код, иначе Вы можете потерять свой аккаунт в Telegram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Подключайте только ботов, которым доверяете. Подключённые боты видят Ваши сообщения и могут действовать от Вашего имени!"
     },
     {
       "_": "types.LangPackString",
@@ -43908,13 +44444,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_review_failed",
+      "value": "Не удалось выполнить запрос. Пожалуйста, попробуйте ещё раз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_single",
       "value": "Обнаружен вход в Ваш аккаунт с {from}, {country}. Это были Вы?"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "{bot} подключён к Вашему аккаунту с {from}. Это были Вы?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_title",
       "value": "Кто-то получил доступ к Вашим чатам!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title_bot",
+      "value": "Бот получил доступ к Вашим чатам!"
     },
     {
       "_": "types.LangPackString",
@@ -46399,5 +46950,5 @@
       "other_value": "Вы заплатили {count} звезды."
     }
   ],
-  "version": 6171755
+  "version": 6211895
 }

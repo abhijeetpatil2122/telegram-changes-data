@@ -4516,6 +4516,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "У этого пользователя уже есть чат с ботом."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "У этих пользователей уже есть чат с ботом."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotInvite.Error.Generic",
       "value": "Не удалось пригласить пользователей. Попробуйте позже."
     },
@@ -4526,13 +4536,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Настройки конфиденциальности этого пользователя не позволяют приглашать его в ботов."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotInvite.Error.RateLimited",
       "value": "Лимит попыток превышен. Попробуйте позже."
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "За один раз можно пригласить не более 10 пользователей."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotInvite.SelectUsers.Title",
       "value": "Пригласить в бота"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%@ приглашения отправлены.",
+      "key": "BotInvite.Sent",
+      "many_value": "%@ приглашений отправлено.",
+      "one_value": "%@ приглашение отправлено.",
+      "other_value": "%@ приглашения отправлено."
     },
     {
       "_": "types.LangPackString",
@@ -26109,6 +26137,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Отображать в профиле"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Он появится в разделе"
     },
@@ -26212,6 +26245,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Подарок отправлен. **%2$@** скоро получит **%1$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Подарок отправлен. **%@** скоро будет доставлен получателю."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Подарок снят с продажи, но сеть ещё не подтвердила эту операцию. Вы сможете указать новую цену после подтверждения."
     },
@@ -26282,6 +26325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "Цена **%1$@** изменена на **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** будет снят с продажи после подтверждения в сети."
     },
@@ -26329,6 +26377,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Срок истекает"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Владелец получает"
     },
     {
       "_": "types.LangPackString",
@@ -26422,6 +26475,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Владелец получит **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Укажите, сколько GRAM Вы хотите предложить за **%@**."
     },
@@ -26493,7 +26551,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.TextFree",
-      "value": "На Ваш счёт вернётся %@."
+      "value": "На Ваш баланс вернётся **%@**."
     },
     {
       "_": "types.LangPackString",
@@ -36560,8 +36618,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ пригласил(а) Вас в этого бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotInvite.InvitedUnknown",
       "value": "Вас пригласили в этого бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ пригласил(а) этого пользователя в бота"
     },
     {
       "_": "types.LangPackString",
@@ -37902,6 +37970,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "куплен"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "сожжён"
     },
@@ -38170,6 +38243,16 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
       "value": "Вы приняли предложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Вы отклонили предложение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Вы продали **%1$@** за **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -43572,6 +43655,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "В продаже"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 из %@"
     },
@@ -43725,6 +43813,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "У Вас недостаточно прав для изменения этой настройки."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Пригласить в бота"
     },
     {
       "_": "types.LangPackString",
@@ -47719,6 +47812,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Показать плейлист"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "КАНАЛ"
     },
@@ -49296,6 +49394,11 @@
       "_": "types.LangPackString",
       "key": "RichText.ButtonURLPlaceholder",
       "value": "URL"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "В подписях к медиафайлам не поддерживается расширенное форматирование, включая кнопки, заголовки, списки и таблицы. Подпись сохранится как обычный текст."
     },
     {
       "_": "types.LangPackString",
@@ -51771,6 +51874,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Репост\nв историю"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Отправка"
     },
     {
       "_": "types.LangPackString",
@@ -64200,8 +64308,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Цена изменена на %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Отправлен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Продан"
     },
     {
       "_": "types.LangPackString",
@@ -66399,5 +66517,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 22661770
+  "version": 22668029
 }

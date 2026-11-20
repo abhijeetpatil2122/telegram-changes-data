@@ -7030,6 +7030,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Appare nel profilo del bot e quando viene condiviso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_info_about_placeholder",
       "value": "Breve descrizione"
     },
@@ -7040,8 +7045,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Usa default"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_info_intro",
       "value": "Pagina iniziale"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Appare nella chat vuota prima che l'utente avvii il bot."
     },
     {
       "_": "types.LangPackString",
@@ -7084,14 +7099,30 @@
       "value": "Applica"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_apply_sure",
+      "one_value": "{count} modifica sarà subito visibile a tutti gli utenti del bot.",
+      "other_value": "{count} modifiche saranno subito visibili a tutti gli utenti del bot."
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_bot_languages_applying",
       "value": "Applico le modifiche: {done} / {total}"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Attendi la fine dell'operazione in corso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_languages_default",
       "value": "Default"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Scarta modifiche"
     },
     {
       "_": "types.LangPackString",
@@ -7105,8 +7136,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "Codice lingua non valido: {code}. Usa default o due lettere minuscole."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Impostato due volte: {key}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_languages_file_key",
       "value": "Chiave sconosciuta: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Il file è troppo grande."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Questo file è stato esportato per @{bot}. Importarlo comunque?"
     },
     {
       "_": "types.LangPackString",
@@ -7120,6 +7171,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Il file deve contenere un oggetto chiamato languages con un oggetto per ogni lingua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Il valore deve essere una stringa: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "JSON non valido alla riga {line}, colonna {column}: {error}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_languages_file_write",
       "value": "Impossibile salvare il file."
     },
@@ -7127,6 +7193,23 @@
       "_": "types.LangPackString",
       "key": "lng_bot_languages_import",
       "value": "Importa da file..."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported",
+      "one_value": "{count} modifica importata.",
+      "other_value": "{count} modifiche importate."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "Il file non contiene nulla di nuovo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported_problems",
+      "one_value": "{count} lingua richiede attenzione.",
+      "other_value": "{count} lingue richiedono attenzione."
     },
     {
       "_": "types.LangPackString",
@@ -7140,6 +7223,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "In pausa per i limiti del server, riprende tra {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Interrompi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Interrotto per i limiti del server. Riprova più tardi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Traduci in..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Le traduzioni vengono aggiunte come modifiche non salvate. Controllale prima di salvare."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_languages_translate_button",
       "value": "Traduci"
     },
@@ -7150,8 +7258,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Traduci in"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_translated",
+      "one_value": "{count} lingua tradotta. Controllala prima di salvare.",
+      "other_value": "{count} lingue tradotte. Controllale prima di salvare."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_languages_translating",
       "value": "Traduco: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Traduzione in corso"
     },
     {
       "_": "types.LangPackString",
@@ -7292,6 +7416,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Condividi messaggio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Impossibile caricare il media da condividere."
     },
     {
       "_": "types.LangPackString",
@@ -24191,6 +24320,12 @@
       "value": "Cambia le impostazioni del bot"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "one_value": "{count} da salvare",
+      "other_value": "{count} da salvare"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_public_link",
       "value": "Link pubblico"
@@ -28774,6 +28909,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Porta la selezione indietro di un livello"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Porta la selezione avanti di un livello"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_rotate",
       "value": "Solo rotazione, incrementi di 45°"
     },
@@ -30931,6 +31076,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_accept_video_sure",
       "value": "{user} ti suggerisce questa foto per il tuo profilo Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Ripristina pulsante Storia"
     },
     {
       "_": "types.LangPackString",
@@ -41202,6 +41352,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Questo canale ha bisogno di altri potenziamenti per pubblicare storie."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_caption_ph",
       "value": "Aggiungi una didascalia..."
     },
@@ -41239,6 +41394,11 @@
       "_": "types.LangPackString",
       "key": "lng_story_draft_failed",
       "value": "Impossibile salvare la bozza."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Impossibile caricare il media della bozza."
     },
     {
       "_": "types.LangPackString",
@@ -41289,6 +41449,11 @@
       "_": "types.LangPackString",
       "key": "lng_story_edited",
       "value": "Storia aggiornata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Solo gli abbonati a Telegram Premium possono usare la formattazione nelle didascalie delle storie."
     },
     {
       "_": "types.LangPackString",
@@ -41373,6 +41538,11 @@
       "_": "types.LangPackString",
       "key": "lng_story_link_premium",
       "value": "I link nelle storie sono disponibili con {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Una storia in diretta è già in corso."
     },
     {
       "_": "types.LangPackString",
@@ -41519,6 +41689,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Salva su file"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "Storia salvata su file."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_save_file_failed",
       "value": "Impossibile salvare la storia."
     },
@@ -41536,6 +41716,16 @@
       "_": "types.LangPackString",
       "key": "lng_story_stop_button",
       "value": "Arresta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Vuoi davvero interrompere il caricamento della storia?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Interrompi caricamento"
     },
     {
       "_": "types.LangPackString",
@@ -42152,6 +42342,12 @@
       "_": "types.LangPackString",
       "key": "lng_sure_delete_contact",
       "value": "Vuoi davvero eliminare {contact} dalla tua lista dei contatti?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_delete_contacts",
+      "one_value": "Vuoi davvero eliminare {count} contatto dalla tua lista dei contatti?",
+      "other_value": "Vuoi davvero eliminare {count} contatti dalla tua lista dei contatti?"
     },
     {
       "_": "types.LangPackString",
@@ -43244,8 +43440,19 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Puoi gestire il tuo bot connesso in {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed_message",
       "value": "Puoi controllare la lista dei tuoi accessi attivi nelle {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_unconfirmed_auth_connections",
+      "one_value": "Abbiamo rilevato {count} nuova connessione al tuo account. Sei tu?",
+      "other_value": "Abbiamo rilevato {count} nuove connessioni al tuo account. Sei tu?"
     },
     {
       "_": "types.LangPackString",
@@ -43268,6 +43475,11 @@
       "value": "Abbiamo terminato il tentativo di accesso da: {country}."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Abbiamo disconnesso il bot che si era connesso da {country}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_unconfirmed_auth_denied_title",
       "one_value": "Nuovo accesso impedito",
@@ -43282,6 +43494,11 @@
       "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_denied_warning",
       "value": "Non inviare mai il tuo codice di accesso a nessuno o potresti perdere il tuo account Telegram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Connetti solo bot di cui ti fidi. I bot connessi possono accedere ai tuoi messaggi e agire per tuo conto!"
     },
     {
       "_": "types.LangPackString",
@@ -43309,6 +43526,11 @@
       "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_single",
       "value": "Abbiamo rilevato un nuovo accesso al tuo account da {from}, {country}. Sei tu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "{bot} si è connesso al tuo account da {from}. Sei tu?"
     },
     {
       "_": "types.LangPackString",
@@ -45755,5 +45977,5 @@
       "other_value": "Hai pagato {count} stelle."
     }
   ],
-  "version": 6206424
+  "version": 6211954
 }

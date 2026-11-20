@@ -25411,6 +25411,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "Acest cadou este deja transferat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "Cadou Blocat"
     },
@@ -25765,8 +25770,353 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBoughtTo",
+      "value": "%1$s a fost cumpărat pt. %2$s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmButton",
+      "value": "Cumpără"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmText",
+      "value": "Cumperi **%1$s** pt. **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "Cumperi **%1$s** pt. **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTitle",
+      "value": "Confirmare achiziție"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceButton",
+      "value": "Schimbă la %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "Schimbi prețul pt. **%1$s** la **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "Se schimbă prețul pt. %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "Pentru a schimba prețul, delistează cadoul mai întâi și apoi listează iar cu prețul nou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Un cadou listat Fragment poate fi cumpărat doar pentru tine."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Cadoul nu poate fi cumpărat pentru acest destinatar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "Cadoul nu se mai află la vânzare pe Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "Cadoul nu se mai află la vânzare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "Doar cadourile înregistrate pe blockchain pot fi vândute pe Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "Doar cadourile înregistrate pe blockchain pot fi vândute la preț fix."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "Cadoul nu se află în portofelul tău."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "Această vânzare a fost începută dintr-un alt portofel."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "Această ofertă nu mai este activă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "Prețul acestui cadou de pe Fragment a fost schimbat. Verifică noul preț și încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "Prețul acestui cadou a fost schimbat. Verifică noul preț și încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "Prețul nu se încadrează în intervalul permis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "Prețul trebuie să fie între %1$s și %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "Cadoul este de vânzare deja pe Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "Cadoul este de vânzare deja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "Vânzările pe Fragment sunt momentan indisponibile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "Vânzările cu preț fix sunt momentan indisponibile."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactive",
+      "value": "Cadoul nu este de vânzare pe Fragment."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorSaleInactiveFixed",
       "value": "Cadoul nu este de vânzare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "Nu îți poți cumpăra propriul cadou pe Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchaseFixed",
+      "value": "Nu îți poți cumpăra propriul cadou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "Tranzacția nu a fost trimisă. Încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitle",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "Vânzare cu preț fix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "Tranzacția nu a putut fi pregătită. Încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "Această tranzacție nu poate fi semnată de această versiune de Telegram. Actualizează aplicația."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "Se creează încă portofelul tău. Încearcă iar în câteva momente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Cadourile pe Fragment sunt cumpărate și vândute cu portofelul tău. Configurează-ți portofelul pentru a continua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "Cadourile on-chain sunt cumpărate și vândute cu portofelul tău. Configurează-ți portofelul pentru a continua."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainGramAmount",
+      "value": "%s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "%s este acum de vânzare pe Fragment!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNetworkFee",
+      "value": "Taxă de rețea: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAccept",
+      "value": "Acceptă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptSent",
+      "value": "Ai acceptat oferta. Vânzarea se finalizează."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "Ai acceptat oferta pentru %s. Vânzarea se finalizează odată ce cadoul ajunge la cumpărător."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferBalance",
+      "value": "Sold: %s >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferButton",
+      "value": "Oferă %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "Vrei să faci această ofertă pentru **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "Vrei să faci această ofertă către **%1$s** pentru **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTitle",
+      "value": "Confirmare ofertă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDecline",
+      "value": "Refuză"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "Refuzi oferta de **%1$s** pentru **%2$s**? Suma în Gram va fi returnată cumpărătorului."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineTitle",
+      "value": "Refuzare ofertă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclined",
+      "value": "Ofertă refuzată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "Alege cât timp are proprietarul să îți accepte oferta. Când expiră, suma în Gram îți va fi rambursată automat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "Ai deja o ofertă activă pentru acest cadou. Pentru a o modifica, retrage-o mai întâi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTitle",
+      "value": "Ofertă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTryAgain",
+      "value": "Oferta nu a putut fi pregătită. Încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "Oferta expiră în\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferFailed",
+      "value": "Oferta pentru %s nu a fost făcută: tranzacția a eșuat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "Oferta este prea mare. Oferta maximă pt. **%2$s** este de **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "Introdu suma în Gram pe care ai vrea să o oferi pt. **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "Oferta este prea mică. Oferta minimă pt. **%2$s** este de **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsToOffer",
+      "value": "Gram de oferit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "Ți s-au oferit **%1$s** (%2$s) pt. **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "Ți s-au oferit **%1$s** pt. **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInsufficient",
+      "value": "Fonduri insuficiente. Depune fonduri >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteAccepted",
+      "value": "Oferta ta de **%1$s** pt. **%2$s** a fost acceptată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteDeclined",
+      "value": "Oferta ta de **%1$s** pt. **%2$s** a fost refuzată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "Taxa de retragere anticipată a fost **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteRefunded",
+      "value": "**%s** ți-au fost returnați în portofel"
     },
     {
       "_": "types.LangPackString",
@@ -25790,8 +26140,138 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "Ai oferit **%1$s** pt. **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "Proprietarul va primi **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "Dacă vânzătorul refuză oferta ta sau aceasta expiră, suma ta în Gram îți va fi returnată automat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferReview",
+      "value": "Revizuiește"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRibbonSold",
+      "value": "vândut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "Oferta expiră"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "Taxă platformă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "Tu plătești"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "Oferta ta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellButton",
+      "value": "Vinde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "%s nu a fost vândut: tranzacția a eșuat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellSent",
+      "value": "Se vinde %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "Vinzi **%1$s**\npt. **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellTitle",
+      "value": "Confirmare vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "**%1$s** păstrat până în %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "Ofertă trimisă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSold",
+      "value": "Ai vândut %s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "Oferta a fost acceptată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "Oferta se retrage…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "Oferta a fost refuzată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "Oferta a expirat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpiring",
+      "value": "Oferta expiră…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "Vânzare se finalizează…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "Oferta a fost retrasă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryExpired",
+      "value": "Oferta de **%1$s** pt. **%2$s** a expirat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferSummaryWithdrawn",
       "value": "Oferta de **%1$s** pt. **%2$s** a fost retrasă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYouDeclined",
+      "value": "Ai refuzat oferta de **%1$s** pt. **%2$s**"
     },
     {
       "_": "types.LangPackString",
@@ -25800,8 +26280,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferUnlistFirst",
+      "value": "Cadoul este la vânzare. Elimină-l de la vânzare mai întâi pentru a accepta oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdraw",
+      "value": "Retrage"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFailed",
+      "value": "Oferta pentru %s nu a fost retrasă: tranzacția a eșuat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "Retragerea anticipată costă aproximativ **%1$s**.\n\nAproximativ **%2$s** îți vor fi returnați."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFor",
+      "value": "Retrage pt. %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "Aproximativ **%s** îți vor fi returnați."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawSent",
+      "value": "Se retrage oferta ta…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "Retragi oferta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOnSaleFor",
+      "value": "La vânzare pt. %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOpenWallet",
       "value": "Deschide Banii mei"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s este acum de vânzare pt. %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "Cumpărător"
     },
     {
       "_": "types.LangPackString",
@@ -25810,8 +26345,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "Taxă contractuală"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainRowExpiration",
       "value": "Expirare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNetworkFee",
+      "value": "Taxă de rețea"
     },
     {
       "_": "types.LangPackString",
@@ -25825,8 +26370,113 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainRowPrice",
+      "value": "Preț"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "Vânzător"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainRowSellerShare",
       "value": "Cotă vânzător"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowYouReceive",
+      "value": "Tu primești"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellButton",
+      "value": "Listează pt. vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "Pui **%1$s** la vânzare pe Fragment pt. **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "Vinde la preț fix"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellMenu",
+      "value": "Vinde"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceButton",
+      "value": "Listează pt. %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHeader",
+      "value": "Preț în Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "Prețul este prea mare. Prețul maxim este de **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "Prețul este prea mic. Prețul minim este de **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "Tu vei primi **%1$s Gram** după taxa de %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "Tu vei primi **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "Se listează %s pe Fragment…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "Se pune %s la vânzare…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellTitle",
+      "value": "Vânzare pe Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "Cadoul va fi eliminat de la vânzare pe Fragment și va sta în portofelul tău."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "Cadoul va fi eliminat de la vânzare și va sta în portofelul tău."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "Se elimină %s de la vânzare…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlisted",
+      "value": "%s nu se mai află la vânzare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainWalletTitle",
+      "value": "Bani"
     },
     {
       "_": "types.LangPackString",
@@ -26561,8 +27211,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "Valuta ta Gram din cadouri și reclame."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Câștiguri în Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseArrived",
+      "value": "Valuta Gram din Câștiguri în Gram este în portofelul tău. Poți cumpăra cadoul acum."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseLate",
+      "value": "Valuta Gram din Câștiguri în Gram este pe drum către portofelul tău. Cumpără cadoul odată ce aceasta ajunge."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseMoving",
+      "value": "Se mută Gram din Câștiguri în Gram în portofelul tău…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "**%1$s** vor fi mutați din Câștiguri în Gram în soldul tău și folosiți pentru a cumpăra acest cadou."
     },
     {
       "_": "types.LangPackString",
@@ -26576,8 +27251,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawDisabled",
+      "value": "Retragerea din Câștiguri în Gram nu este disponibilă pentru contul tău momentan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "Pentru a retrage Gram, configurează o parolă pentru verificarea în doi pași în Confidențialitate și Securitate."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawNothing",
       "value": "Nu ai Gram pentru retragere încă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawOnlyTon",
+      "value": "Poți retrage doar Gram în portofelul tău."
     },
     {
       "_": "types.LangPackString",
@@ -26586,8 +27276,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Verifică ⚙ Setări > 💎 Bani"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "Suma în Gram va merge în portofelul tău non-custodial (⚙ Setări → 💎 Bani)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawTitle",
       "value": "Retrage %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTryAgain",
+      "value": "Parola ta nu a putut fi confirmată. Încearcă iar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "Retragerea în portofelul tău nu este disponibilă încă. Îți poți retrage valuta ta Gram folosind Fragment."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -60627,5 +61337,5 @@
       "value": "Pașaport Telegram"
     }
   ],
-  "version": 62030289
+  "version": 62033857
 }

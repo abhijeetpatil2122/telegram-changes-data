@@ -10952,6 +10952,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardKeyBackspace",
+      "value": "Backspace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyDelete",
+      "value": "Del"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEnter",
+      "value": "Enter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEsc",
+      "value": "Esc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeySpace",
+      "value": "Mezerník"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyTab",
+      "value": "Tab"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts",
+      "value": "Klávesové zkratky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcutsDesc",
+      "value": "Klávesové zkratky, konflikty a vlastní klávesy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "Omezit uživatele"
     },
@@ -17502,6 +17542,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsShortcuts",
+      "value": "klávesové zkratky, zkratky, klávesnice"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsStickers",
       "value": "samolepky, emoji, gify, masky, reakce"
     },
@@ -17862,8 +17907,323 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutAlsoUsedBy",
+      "value": "Také použito v: {action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutBold",
+      "value": "Tučné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutChatByNumber",
+      "value": "Otevřít konverzaci dle čísla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCloseOrGoBack",
+      "value": "Zavřít nebo se vrátit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutComboCondition",
+      "value": "{keys} — {condition}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopyFormats",
+      "value": "Kopírovat jako text, HTML nebo Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopySelected",
+      "value": "Kopírovat vybrané zprávy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteLayer",
+      "value": "Smazat rozložení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteSelected",
+      "value": "Smazat vybrané zprávy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutEditLastMessage",
+      "value": "Upravit poslední zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFocusMessageInput",
+      "value": "Pole pro hlavní zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFolderByNumber",
+      "value": "Otevřít složku dle čísla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFrameStep",
+      "value": "Předchozí nebo následující snímek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutGlobalSearch",
+      "value": "Hledat konverzace a zprávy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHeadings",
+      "value": "Nadpisy 1–6"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHint",
+      "value": "{action} ({keys})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHoldInMessageMenu",
+      "value": "podržte v nabídce zpráv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutInFullscreen",
+      "value": "na celou obrazovku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutItalic",
+      "value": "Kurzíva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMonospace",
+      "value": "Monospace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMuteUnmute",
+      "value": "Ztlumit / zapnout zvuk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNeedsModifier",
+      "value": "Použít s {modifiers}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNewLine",
+      "value": "Nový řádek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextChat",
+      "value": "Další konverzace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextMedia",
+      "value": "Další médium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextStory",
+      "value": "Další příběh"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNotSet",
+      "value": "Nenastaveno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPauseRecording",
+      "value": "Pozastavit nahrávání hlasu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPlayPause",
+      "value": "Přehrát / pozastavit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousChat",
+      "value": "Předchozí konverzace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousMedia",
+      "value": "Předchozí médium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousStory",
+      "value": "Předchozí příběh"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutQuickChatPicker",
+      "value": "Rychlý přepínač konverzací"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecording",
+      "value": "Stiskněte klávesu..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecordingHint",
+      "value": "Esc pro zrušení, Backspace pro smazání"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceText",
+      "value": "{keys} je již použito v {actions}. Bude odtud odstraněno."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceTitle",
+      "value": "Nahradit zkratku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToNext",
+      "value": "Odpovědět na další zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToPrevious",
+      "value": "Odpovědět na předchozí zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReserved",
+      "value": "{keys} je vyhrazeno prohlížečem nebo systémem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAll",
+      "value": "Obnovit všechny zkratky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAllText",
+      "value": "Opravdu chcete obnovit výchozí nastavení všech klávesových zkratek?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSearchInChat",
+      "value": "Hledat v konverzaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSeekVideo",
+      "value": "Hledat zpětně nebo dopředu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSendMessage",
+      "value": "Poslat zprávu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutStrikethrough",
+      "value": "Přeškrtnuté"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSubscript",
+      "value": "Dolní index"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSuperscript",
+      "value": "Horní index"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUnderline",
+      "value": "Podtržení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUsedByFixed",
+      "value": "{keys} je použito v {action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenInputEmpty",
+      "value": "když je pole pro zprávu prázdné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenNoSelection",
+      "value": "bez vybraného textu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenSelection",
+      "value": "s vybraným textem"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsControllerOthersLockByPasscode",
       "value": "Zamknout přístupovým kódem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsFormattingInfo",
+      "value": "Chcete-li použít formátování, vyberte text v poli pro zprávu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChat",
+      "value": "Konverzace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChatList",
+      "value": "Seznam konverzací"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionFormatting",
+      "value": "Formátování textu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionGeneral",
+      "value": "Obecné"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaEditor",
+      "value": "Editor médií"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaViewer",
+      "value": "Prohlížeč médií"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionRoundVideo",
+      "value": "Videozprávy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionSending",
+      "value": "Posílání zpráv"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionStories",
+      "value": "Příběhy"
     },
     {
       "_": "types.LangPackString",
@@ -20956,6 +21316,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirm",
+      "value": "Připojit se k videohovoru **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirmChannel",
+      "value": "Chcete se připojit k živému přenosu **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
       "value": "Připojení k videohovoru selhalo"
     },
@@ -21292,6 +21662,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectActionCollectible",
+      "value": "Sběratelský převod"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectActionDeployContract",
       "value": "Nasazení kontraktu"
     },
@@ -21304,6 +21679,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectActionExcess",
       "value": "Nadbytek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionToken",
+      "value": "Převod tokenů"
     },
     {
       "_": "types.LangPackString",
@@ -22862,5 +23242,5 @@
       "value": "Vaše jméno"
     }
   ],
-  "version": 401040
+  "version": 401668
 }

@@ -10550,6 +10550,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardKeyBackspace",
+      "value": "倒退鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyDelete",
+      "value": "刪除鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEnter",
+      "value": "Enter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEsc",
+      "value": "Esc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeySpace",
+      "value": "空白鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyTab",
+      "value": "Tab"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts",
+      "value": "鍵盤快速鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcutsDesc",
+      "value": "熱鍵、衝突與自訂鍵"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "限制用戶"
     },
@@ -16905,6 +16945,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsShortcuts",
+      "value": "快速鍵、捷徑、鍵盤、鍵位設定"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsStickers",
       "value": "貼圖、表情符號、GIF、面具、反應"
     },
@@ -17265,8 +17310,323 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutAlsoUsedBy",
+      "value": "亦被以下項目使用：{action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutBold",
+      "value": "粗體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutChatByNumber",
+      "value": "依編號開啟聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCloseOrGoBack",
+      "value": "關閉或返回"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutComboCondition",
+      "value": "{keys} — {condition}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopyFormats",
+      "value": "複製為純文字、HTML 或 Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopySelected",
+      "value": "複製所選的訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteLayer",
+      "value": "刪除圖層"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteSelected",
+      "value": "刪除所選的訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutEditLastMessage",
+      "value": "編輯最後一則訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFocusMessageInput",
+      "value": "焦點訊息欄位"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFolderByNumber",
+      "value": "依編號開啟資料夾"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFrameStep",
+      "value": "上一幀或下一幀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutGlobalSearch",
+      "value": "搜尋聊天和訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHeadings",
+      "value": "標題 1–6"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHint",
+      "value": "{action}（{keys}）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHoldInMessageMenu",
+      "value": "在訊息選單中按住"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutInFullscreen",
+      "value": "全螢幕模式下"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutItalic",
+      "value": "斜體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMonospace",
+      "value": "等寬字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMuteUnmute",
+      "value": "靜音 / 取消靜音"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNeedsModifier",
+      "value": "與 {modifiers} 一起使用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNewLine",
+      "value": "換行"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextChat",
+      "value": "下一個聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextMedia",
+      "value": "下一個媒體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextStory",
+      "value": "下一則動態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNotSet",
+      "value": "未設定"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPauseRecording",
+      "value": "暫停錄製語音"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPlayPause",
+      "value": "播放或暫停"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousChat",
+      "value": "上一個聊天室"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousMedia",
+      "value": "上一個媒體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousStory",
+      "value": "上一則動態"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutQuickChatPicker",
+      "value": "快速聊天切換"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecording",
+      "value": "按下按鍵…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecordingHint",
+      "value": "按 Esc 取消，按 Backspace 清除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceText",
+      "value": "{keys} 已被 {actions} 使用。它將從該處移除。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceTitle",
+      "value": "替換快速鍵？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToNext",
+      "value": "回覆下一則訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToPrevious",
+      "value": "回覆上一則訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReserved",
+      "value": "{keys} 已被瀏覽器或系統預留"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAll",
+      "value": "重置所有快速鍵"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAllText",
+      "value": "您確定要將所有鍵盤快速鍵重設為預設值嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSearchInChat",
+      "value": "在聊天中搜尋"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSeekVideo",
+      "value": "快進或快退"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSendMessage",
+      "value": "傳送訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutStrikethrough",
+      "value": "刪除線"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSubscript",
+      "value": "下標"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSuperscript",
+      "value": "上標"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUnderline",
+      "value": "底線"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUsedByFixed",
+      "value": "{keys} 正被 {action} 使用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenInputEmpty",
+      "value": "當訊息欄位為空時"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenNoSelection",
+      "value": "未選取任何文字時"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenSelection",
+      "value": "選取文字時"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsControllerOthersLockByPasscode",
       "value": "使用解鎖碼鎖定"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsFormattingInfo",
+      "value": "選取訊息欄中的文字以套用格式。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChat",
+      "value": "聊天"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChatList",
+      "value": "聊天室清單"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionFormatting",
+      "value": "文字格式"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionGeneral",
+      "value": "一般"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaEditor",
+      "value": "媒體編輯器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaViewer",
+      "value": "媒體瀏覽器"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionRoundVideo",
+      "value": "視訊訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionSending",
+      "value": "傳送訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionStories",
+      "value": "動態"
     },
     {
       "_": "types.LangPackString",
@@ -20275,6 +20635,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirm",
+      "value": "加入視訊聊天「 **{chat}** 」？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirmChannel",
+      "value": "您想加入 **{chat}** 的直播嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
       "value": "無法加入視訊聊天"
     },
@@ -20605,6 +20975,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectActionCollectible",
+      "value": "典藏品轉移"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectActionDeployContract",
       "value": "部署合約"
     },
@@ -20617,6 +20992,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectActionExcess",
       "value": "超限"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionToken",
+      "value": "代幣轉移"
     },
     {
       "_": "types.LangPackString",
@@ -21880,6 +22260,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletTransactionSimulationFailed",
+      "value": "交易模擬失敗"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletTransactionTitle",
       "value": "交易"
     },
@@ -22149,5 +22534,5 @@
       "value": "您的姓名"
     }
   ],
-  "version": 400432
+  "version": 401705
 }

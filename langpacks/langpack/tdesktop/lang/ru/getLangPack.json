@@ -7245,6 +7245,61 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about",
+      "value": "О боте"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Отображается в профиле бота и когда им делятся."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_placeholder",
+      "value": "Краткое описание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_ai",
+      "value": "Переписать с помощью ИИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Использовать значение по умолчанию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro",
+      "value": "Приветствие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Отображается в пустом чате, пока пользователь не запустил бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_placeholder",
+      "value": "Что умеет этот бот?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name",
+      "value": "Название"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name_placeholder",
+      "value": "Название бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_saved",
+      "value": "Информация о боте обновлена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Скрыть клавиатуру бота"
     },
@@ -7252,6 +7307,54 @@
       "_": "types.LangPackString",
       "key": "lng_bot_keyboard_show",
       "value": "Показать клавиатуру бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_add",
+      "value": "Добавить язык"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_apply_confirm",
+      "value": "Применить"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} изменения сразу станут видны всем пользователям бота.",
+      "key": "lng_bot_languages_apply_sure",
+      "many_value": "{count} изменений сразу станут видны всем пользователям бота.",
+      "one_value": "{count} изменение сразу станет видно всем пользователям бота.",
+      "other_value": "{count} изменения сразу станут видны всем пользователям бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_applying",
+      "value": "Применение изменений: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Пожалуйста, дождитесь завершения операции."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_default",
+      "value": "По умолчанию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Сбросить изменения"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_export",
+      "value": "Экспортировать в файл..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_exported",
+      "value": "Языки экспортированы."
     },
     {
       "_": "types.LangPackString",
@@ -7265,8 +7368,142 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_key",
+      "value": "Неизвестный ключ: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Файл слишком большой."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Файл экспортирован для @{bot}. Всё равно импортировать?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot_confirm",
+      "value": "Импортировать"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_read",
+      "value": "Не удалось прочитать файл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Файл должен содержать объект languages с отдельным объектом для каждого языка."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_languages_file_string",
       "value": "Значение должно быть строкой: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "Некорректный JSON в строке {line}, столбце {column}: {error}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_write",
+      "value": "Не удалось сохранить файл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_import",
+      "value": "Импортировать из файла..."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Импортировано {count} изменения.",
+      "key": "lng_bot_languages_imported",
+      "many_value": "Импортировано {count} изменений.",
+      "one_value": "Импортировано {count} изменение.",
+      "other_value": "Импортировано {count} изменения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "В файле нет ничего нового."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} языка требуют внимания.",
+      "key": "lng_bot_languages_imported_problems",
+      "many_value": "{count} языков требуют внимания.",
+      "one_value": "{count} язык требует внимания.",
+      "other_value": "{count} языка требуют внимания."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_loading",
+      "value": "Проверка переводов: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paste",
+      "value": "Вставить из буфера обмена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "Пауза из-за лимитов сервера, ещё {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Остановить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Остановлено из-за лимитов сервера. Пожалуйста, повторите позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Перевести на..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Переводы добавляются как несохранённые изменения. Проверьте их перед сохранением."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_button",
+      "value": "Перевести"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_failed",
+      "value": "Ошибка перевода. Пожалуйста, повторите позже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Перевести на"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Переведено на {count} языка. Проверьте результат перед сохранением.",
+      "key": "lng_bot_languages_translated",
+      "many_value": "Переведено на {count} языков. Проверьте результат перед сохранением.",
+      "one_value": "Переведено на {count} язык. Проверьте результат перед сохранением.",
+      "other_value": "Переведено на {count} языка. Проверьте результат перед сохранением."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating",
+      "value": "Перевод: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Перевод"
     },
     {
       "_": "types.LangPackString",
@@ -24233,6 +24470,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_logout_add_account_about",
+      "value": "Подключите ещё один аккаунт Telegram и легко переключайтесь между ними."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_alternatives",
+      "value": "Альтернативные варианты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache",
+      "value": "Очистить кэш"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache_about",
+      "value": "Освободите место на диске, удалив медиа из кэша."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support",
+      "value": "Обратиться в поддержку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support_about",
+      "value": "Если возникли неполадки, сообщите нам; выход из аккаунта обычно не помогает."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode",
+      "value": "Установить код-пароль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode_about",
+      "value": "Защитите Telegram Desktop код-паролем, чтобы его не могли открыть посторонние."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_all_apps",
       "value": "Все приложения"
     },
@@ -24751,6 +25028,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_bot_edit_info",
+      "value": "Информация"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_intro",
       "value": "Изменить приветствие"
     },
@@ -24758,6 +25040,14 @@
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_settings",
       "value": "Изменить настройки бота"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Не сохранено: {count}",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "many_value": "Не сохранено: {count}",
+      "one_value": "Не сохранено: {count}",
+      "other_value": "Не сохранено: {count}"
     },
     {
       "_": "types.LangPackString",
@@ -31767,6 +32057,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Вернуть кнопку историй"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_call",
       "value": "Звонок"
     },
@@ -32874,6 +33169,14 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "подключён"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Выбрано {count} прокси",
+      "key": "lng_proxy_selected",
+      "many_value": "Выбрано {count} прокси",
+      "one_value": "Выбран {count} прокси",
+      "other_value": "Выбрано {count} прокси"
     },
     {
       "_": "types.LangPackString",
@@ -34004,6 +34307,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_title",
       "value": "Сообщить о нарушении"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_repost_to_story",
+      "value": "Репост\nв историю"
     },
     {
       "_": "types.LangPackString",
@@ -42209,6 +42517,11 @@
       "other_value": "{count} альбома"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_count",
+      "value": "Истории скрыты от {link}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "{count} человек",
       "key": "lng_story_blocklist_count_link",
@@ -42219,7 +42532,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_story_blocklist_empty",
-      "value": "{link}, которые никогда не увидят Ваши истории."
+      "value": "{link}, которые не будут видеть Ваши истории."
     },
     {
       "_": "types.LangPackString",
@@ -42229,7 +42542,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_story_blocklist_title",
-      "value": "Скрывать мои истории от"
+      "value": "Не показывать мои истории"
     },
     {
       "_": "types.LangPackString",
@@ -42337,12 +42650,22 @@
       "value": "Форматировать подписи к историям можно только с подпиской Telegram Premium."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep",
+      "value": "Опубликовать в моём профиле"
+    },
+    {
       "_": "types.LangPackStringPluralized",
-      "few_value": "История останется в Вашем профиле и после истечения {count} часов. Настройки конфиденциальности сохранятся.",
+      "few_value": "Выберите, сохранится ли эта история в Вашем профиле спустя {count} часа. Её смогут увидеть только те, кого Вы выбрали выше.",
       "key": "lng_story_keep_about",
-      "many_value": "История останется в Вашем профиле и после истечения {count} часов. Настройки конфиденциальности сохранятся.",
-      "one_value": "История останется в Вашем профиле и после истечения {count} часа. Настройки конфиденциальности сохранятся.",
-      "other_value": "История останется в Вашем профиле и после истечения {count} часа. Настройки конфиденциальности сохранятся."
+      "many_value": "Выберите, сохранится ли эта история в Вашем профиле спустя {count} часов. Её смогут увидеть только те, кого Вы выбрали выше.",
+      "one_value": "Выберите, сохранится ли эта история в Вашем профиле спустя {count} час. Её смогут увидеть только те, кого Вы выбрали выше.",
+      "other_value": "Выберите, сохранится ли эта история в Вашем профиле спустя {count} часа. Её смогут увидеть только те, кого Вы выбрали выше."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_channel",
+      "value": "Опубликовать в профиле канала"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42356,6 +42679,11 @@
       "_": "types.LangPackString",
       "key": "lng_story_keep_draft",
       "value": "Оставить черновик"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_group",
+      "value": "Опубликовать в профиле группы"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42435,8 +42763,13 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_my_story",
+      "value": "Моя история"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_period_about",
-      "value": "Выберите, как долго история будет видна."
+      "value": "Выберите, как долго история\nбудет видна."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42468,8 +42801,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_post_title",
+      "value": "Новая история"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_posted",
       "value": "История опубликована."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_preparing_video",
+      "value": "Подготовка видео..."
     },
     {
       "_": "types.LangPackString",
@@ -42574,8 +42917,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_save_file_failed",
+      "value": "Не удалось сохранить историю."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_settings",
+      "value": "Сохранить"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_screenshots",
-      "value": "Разрешить скриншоты"
+      "value": "Разрешить снимки экрана"
     },
     {
       "_": "types.LangPackString",
@@ -46950,5 +47303,5 @@
       "other_value": "Вы заплатили {count} звезды."
     }
   ],
-  "version": 6211895
+  "version": 6212533
 }

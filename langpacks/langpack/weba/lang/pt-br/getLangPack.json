@@ -1953,7 +1953,7 @@
     {
       "_": "types.LangPackString",
       "key": "AreYouSureLogoutGrams",
-      "value": "Quer mesmo sair?\n\nIsso cancelará todos os seus Chats Secretos e **apagará os backups da carteira com {amount}*. Sem as Frases Secretas, você perderá o acesso ao dinheiro.\n\nVocê pode usar o Telegram em todos os seus dispositivos ao mesmo tempo e usar várias contas no mesmo app."
+      "value": "Quer mesmo sair?\n\nIsso **apagará os backups da carteira com {amount}**. Sem as Frases Secretas deles, você perderá o acesso ao dinheiro.\n\nVocê pode usar o Telegram em todos os seus dispositivos ao mesmo tempo e usar várias contas no mesmo app."
     },
     {
       "_": "types.LangPackString",
@@ -10684,6 +10684,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardKeyBackspace",
+      "value": "Backspace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyDelete",
+      "value": "Del"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEnter",
+      "value": "Enter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEsc",
+      "value": "ESC"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeySpace",
+      "value": "Espaço"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyTab",
+      "value": "Tab"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts",
+      "value": "Teclas de Atalho"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcutsDesc",
+      "value": "Hotkeys, conflitos e teclas personalizadas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "Restringir usuário"
     },
@@ -17104,6 +17144,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsShortcuts",
+      "value": "teclas de atalho, teclado, atalhos, teclas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsStickers",
       "value": "stickers, emojis, gifs, máscaras, reações"
     },
@@ -17464,8 +17509,323 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutAlsoUsedBy",
+      "value": "Também usado por: {action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutBold",
+      "value": "Negrito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutChatByNumber",
+      "value": "Abrir chat pelo número"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCloseOrGoBack",
+      "value": "Fechar ou voltar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutComboCondition",
+      "value": "{keys} — {condition}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopyFormats",
+      "value": "Copiar como texto, HTML ou Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopySelected",
+      "value": "Copiar mensagens selecionadas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteLayer",
+      "value": "Apagar camada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteSelected",
+      "value": "Apagar mensagens selecionadas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutEditLastMessage",
+      "value": "Editar última mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFocusMessageInput",
+      "value": "Focar no campo de mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFolderByNumber",
+      "value": "Abrir pasta pelo número"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFrameStep",
+      "value": "Próximo quadro ou anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutGlobalSearch",
+      "value": "Buscar chats e mensagens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHeadings",
+      "value": "Títulos 1–6"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHint",
+      "value": "{action} ({keys})"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHoldInMessageMenu",
+      "value": "segure no menu da mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutInFullscreen",
+      "value": "em tela-cheia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutItalic",
+      "value": "Itálico"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMonospace",
+      "value": "Monoespaçado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMuteUnmute",
+      "value": "Silenciar / restaurar som"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNeedsModifier",
+      "value": "Use com {modifiers}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNewLine",
+      "value": "Nova linha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextChat",
+      "value": "Próximo chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextMedia",
+      "value": "Próxima mídia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextStory",
+      "value": "Próximo story"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNotSet",
+      "value": "Não definido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPauseRecording",
+      "value": "Pausar gravação de voz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPlayPause",
+      "value": "Tocar ou pausar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousChat",
+      "value": "Chat anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousMedia",
+      "value": "Mídia anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousStory",
+      "value": "Story anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutQuickChatPicker",
+      "value": "Alternador rápido de chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecording",
+      "value": "Aperte as teclas..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecordingHint",
+      "value": "ESC para cancelar, Backspace para limpar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceText",
+      "value": "{keys} já é usado por {actions}. Será removido de lá."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceTitle",
+      "value": "Substituir Atalho?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToNext",
+      "value": "Responder à próxima mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToPrevious",
+      "value": "Responder à mensagem anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReserved",
+      "value": "{keys} está reservado por outro navegador ou sistema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAll",
+      "value": "Redefinir Todos os Atalhos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAllText",
+      "value": "Deseja redefinir todos os atalhos de teclado para os valores padrão?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSearchInChat",
+      "value": "Buscar no chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSeekVideo",
+      "value": "Buscar para frente/trás"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSendMessage",
+      "value": "Enviar mensagem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutStrikethrough",
+      "value": "Tachado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSubscript",
+      "value": "Subscrito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSuperscript",
+      "value": "Sobrescrito"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUnderline",
+      "value": "Sublinado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUsedByFixed",
+      "value": "{keys} é usado por {action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenInputEmpty",
+      "value": "quando o campo de mensagem está vazio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenNoSelection",
+      "value": "sem texto selecionado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenSelection",
+      "value": "com texto selecionado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsControllerOthersLockByPasscode",
       "value": "Bloqueio por Senha"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsFormattingInfo",
+      "value": "Selecione texto no campo de mensagem para aplicar a formatação."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChat",
+      "value": "Chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChatList",
+      "value": "Lista de Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionFormatting",
+      "value": "Formatação de Texto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionGeneral",
+      "value": "Geral"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaEditor",
+      "value": "Editor de Mídias"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaViewer",
+      "value": "Visualizador de Mídias"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionRoundVideo",
+      "value": "Mensagens de Vídeo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionSending",
+      "value": "Enviando Mensagens"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionStories",
+      "value": "Stories"
     },
     {
       "_": "types.LangPackString",
@@ -20371,12 +20731,12 @@
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedDesktop",
-      "value": "__Infelizmente, este vídeo não pode ser reproduzido no Telegram Web. Tente abri-lo com nosso [aplicativo para desktop](https://getdesktop.telegram.org/).__"
+      "value": "Infelizmente, este vídeo não pode ser reproduzido no Telegram Web. Tente abrir com nosso **app desktop**."
     },
     {
       "_": "types.LangPackString",
       "key": "VideoUnsupportedMobile",
-      "value": "__Infelizmente, este vídeo não pode ser reproduzido no Telegram Web. Tente abri-lo com nossos [aplicativos móveis](https://telegram.org/dl/).__"
+      "value": "Infelizmente, este vídeo não pode ser reproduzido no Telegram Web. Tente abrir com nossos apps móveis."
     },
     {
       "_": "types.LangPackString",
@@ -20499,6 +20859,16 @@
       "_": "types.LangPackString",
       "key": "VoiceChatInactive",
       "value": "Este chat de vídeo não está ativo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirm",
+      "value": "Entrar no chat de vídeo **{chat}**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirmChannel",
+      "value": "Deseja entrar na transmissão ao vivo **{chat}**?"
     },
     {
       "_": "types.LangPackString",
@@ -20834,6 +21204,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectActionCollectible",
+      "value": "Transferência de Colecionável"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectActionDeployContract",
       "value": "Implantar Contrato"
     },
@@ -20846,6 +21221,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectActionExcess",
       "value": "Excesso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionToken",
+      "value": "Transferência de Token"
     },
     {
       "_": "types.LangPackString",
@@ -22390,5 +22770,5 @@
       "value": "Seu Nome"
     }
   ],
-  "version": 400494
+  "version": 402210
 }

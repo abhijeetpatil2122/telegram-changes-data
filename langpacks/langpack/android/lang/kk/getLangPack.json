@@ -25098,6 +25098,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "Бұл сыйлық бұрыннан тапсырылған."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "Сыйлық қолжетімсіз"
     },
@@ -25465,8 +25470,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmText",
+      "value": "**%2$s** үшін **%1$s** сатып аласыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "**%2$s** үшін **%1$s** сатып аласыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTitle",
+      "value": "Сатып алуды растау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySent",
+      "value": "Сатып алу рәсімделді. %s көп ұзамай әмияныңызда пайда болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySentTo",
+      "value": "Сатып алу рәсімделді. %1$s жақында %2$s ауысады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyText",
+      "value": "Fragment-те **%2$s** үшін **%1$s** сатып аласыз ба? Ол әмияныңыздан төленеді, ал сыйлық әмияныңызда қалады және бейініңізде көрінеді."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainBuyTitle",
       "value": "%s сатып алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceButton",
+      "value": "%s Gram-ға өзгерту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "**%1$s** бағасы **%2$s** өзгертілсін бе?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "%s бағасы өзгертілуде…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "Бағаны өзгерту үшін алдымен сыйлықты тізімнен алып тастап, содан кейін оны жаңа бағамен қайта енгізіңіз."
     },
     {
       "_": "types.LangPackString",
@@ -25475,8 +25530,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Бұл сыйлықты бұл алушы үшін сатып алуға болмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "Бұл сыйлық Fragment-те енді сатылымда жоқ."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorNotForSaleFixed",
       "value": "Бұл сыйлық енді сатылымда жоқ."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "Fragment-те тек блокчейндегі сыйлықтарды ғана сатуға болады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "Блокчейндегі сыйлықтар ғана белгіленген бағамен сатылуы мүмкін."
     },
     {
       "_": "types.LangPackString",
@@ -25485,8 +25560,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "Бұл сату басқа әмияннан жасалды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "Бұл ұсыныс енді белсенсіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "Fragment-тегі бұл сыйлықтың бағасы өзгерді. Жаңа бағаны тексеріп, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "Бұл сыйлықтың бағасы өзгерді. Жаңа бағаны тексеріп, қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorPriceInvalid",
       "value": "Бұл баға рұқсат етілген аралықтан тыс."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "Баға %1$s – %2$s арасында болуы керек."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "Бұл сыйлық Fragment-те сатылымда бар."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "Бұл сыйлық сатылымда бар."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "Fragment-тегі сатылымдар қазіргі уақытта қолжетімсіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "Белгіленген бағадағы сатылымдар қазіргі уақытта қолжетімсіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactive",
+      "value": "Бұл сыйлық Fragment-те сатылмайды."
     },
     {
       "_": "types.LangPackString",
@@ -25495,13 +25620,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "Fragment-те өз сыйлығыңызды сатып ала алмайсыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorSelfPurchaseFixed",
       "value": "Өз сыйлығыңызды сатып ала алмайсыз."
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "Транзакция жіберілмеді. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorTitle",
       "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "Белгіленген бағамен сату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "Транзакцияны дайындалмады. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "Бұл транзакцияға Telegram-ның қазіргі нұсқасы қол қоя алмайды. Қолданбаны жаңартыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "Әмияныңыз әлі жасалуда. Сәлден соң қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Fragment-тегі сыйлықтар әмияныңыз арқылы сатып алынады және сатылады. Жалғастыру үшін әмияныңызды орнатыңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "Блокчейндегі сыйлықтар әмияныңыз арқылы сатып алынады және сатылады. Жалғастыру үшін әмияныңызды орнатыңыз."
     },
     {
       "_": "types.LangPackString",
@@ -25515,8 +25680,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "%s қазір Fragment-те сатылымда!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListedFixed",
+      "value": "%s қазір сатылымда!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainNetworkFee",
       "value": "Желі комиссиясы: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughForFee",
+      "value": "Бұл әрекет үшін желі комиссиясын төлеу үшін әмияныңызда кемінде %s болуы керек."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughToBuy",
+      "value": "Бұл сыйлықты сатып алу үшін әмияныңызда кемінде %s болуы керек."
     },
     {
       "_": "types.LangPackString",
@@ -25530,6 +25715,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "Сіз %s үшін ұсынысты қабылдадыңыз. Сыйлық сатып алушыға жеткенде сатылым аяқталады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferBalance",
       "value": "Теңгерім: %s >"
     },
@@ -25537,6 +25727,16 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferButton",
       "value": "%s Gram ұсыну"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "Бұл ұсынысты **%1$s** үшін жасайсыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "Бұл ұсынысты **%1$s** үшін **%2$s** жасайсыз ба?"
     },
     {
       "_": "types.LangPackString",
@@ -25550,8 +25750,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "**%2$s** үшін **%1$s** ұсынысын қабылдамайсыз ба? Gram-дар сатып алушыға қайтарылады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineTitle",
+      "value": "Ұсынысты қабылдамау"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferDeclined",
       "value": "Ұсыныс қабылданбады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "Иесі ұсынысыңызды қанша уақытта қабылдайтынын таңдаңыз. Мерзімі өткен кезде Gram-дарыңыз автоматты түрде қайтарылады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "Сізде бұл сыйлық үшін белсенді ұсыныс бар. Оны өзгерту үшін алдымен оны алып тастаңыз."
     },
     {
       "_": "types.LangPackString",
@@ -25572,6 +25792,26 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferFailed",
       "value": "%s үшін ұсыныс жасалмады: транзакция сәтсіз аяқталды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "Ұсыныс тым жоғары. **%2$s** үшін жоғары ұсыныс: **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "**%s** үшін ұсынатын Gram санын енгізіңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "Ұсыныс тым төмен. **%2$s** үшін ең аз ұсыныс: **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsToOffer",
+      "value": "Бағасы (Gram)"
     },
     {
       "_": "types.LangPackString",
@@ -25597,6 +25837,16 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteDeclined",
       "value": "**%2$s** үшін **%1$s** ұсынысыңыз қабылданбады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "Мерзімінен бұрын ақшаны шешу комиссиясы **%s** болды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteRefunded",
+      "value": "**%s** әмияныңызға қайтарылды"
     },
     {
       "_": "types.LangPackString",
@@ -25680,6 +25930,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "**%1$s** **%2$s**\nсатасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferSellTitle",
       "value": "Сатылымды растау"
     },
@@ -25720,6 +25975,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpiring",
+      "value": "Ұсыныстың мерзімі аяқталуға жақын…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferStatusSettled",
       "value": "Сатылым аяқталуда…"
     },
@@ -25737,6 +25997,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferSummaryWithdrawn",
       "value": "**%1$s** үшін **%2$s** ұсынысы қайтарып алынды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYouDeclined",
+      "value": "**%2$s** үшін **%1$s** ұсынысын қабылдамадыңыз"
     },
     {
       "_": "types.LangPackString",
@@ -25760,8 +26025,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "Мерзімінен бұрын ұсынысты қайтарып алу **%1$s** болады.\n\nСізге шамамен **%2$s** қайтарылады."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawFor",
       "value": "%s қайтарып алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "Сізге шамамен **%s** қайтарылады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawSent",
+      "value": "Ұсынысыңызды қайтарып алу…"
     },
     {
       "_": "types.LangPackString",
@@ -25770,8 +26050,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOnSaleFor",
+      "value": "%s бағада сатылымда"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOpenWallet",
       "value": "Ақшамды ашу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s қазір %2$s үшін сатылымға шығарылды."
     },
     {
       "_": "types.LangPackString",
@@ -25782,6 +26072,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainRowCancellationFee",
       "value": "Бас тарту ақысы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "Смарт-контрактінің комиссиясы"
     },
     {
       "_": "types.LangPackString",
@@ -25830,8 +26125,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "Fragment-те **%2$s** үшін **%1$s** сатылымға шығарысыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "Белгіленген бағамен сату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixedConfirmText",
+      "value": "**%2$s** үшін белгіленген бағамен **%1$s** сатылымға шығарасыз ба?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHint",
+      "value": "Сатып алушы бұл бағаны Fragment-те төлейді, төлем тікелей әмияныңызға түседі."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHintBuyerPays",
+      "value": "Сатып алушы осы бағаны төлейді, төлем тікелей әмияныңызға түседі."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellMenu",
       "value": "Сату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellNoteFixed",
+      "value": "Сатып алушы осы бағаны төлейді, төлем тікелей әмияныңызға түседі. Сыйлық сатып смарт-контракті бойынша алынғаннан кейін сатылымға шығады."
     },
     {
       "_": "types.LangPackString",
@@ -25845,8 +26170,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "Бағасы тым жоғары. Ең жоғарғы баға: **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "Бағасы тым төмен. Ең төменгі баға: **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "%2$s комиссиясынан кейін **%1$s Gram** аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "**%1$s Gram** аласыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "%s Fragment-те сатылымға шығарылуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "%s сатылымға шығарылуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellText",
+      "value": "**%2$s** үшін Fragment-те **%1$s** сатылымға шығарасыз ба? Сатуды бастау смарт-контракт комиссиясы үшін әмияныңыздан **%3$s** алынады. Түскен ақша тікелей әмияныңызға түседі."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellTitle",
       "value": "Fragment-те сату"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainTransferUnlistFirst",
+      "value": "Бұл сыйлық сатылымда. Оны тапсыру үшін алдымен сатылымнан алып тастаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "Сыйлық Fragment-теге сатылымнан алынып тасталады және әмияныңызда қалады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "Сыйлық сатылымнан алынып, әмияныңызда қалады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "%s сатылымнан алынып тасталуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistText",
+      "value": "Бұл сыйлықты Fragment-тегі сатылымнан алып тастайсыз ба? Ол әмияныңызда қалады. Смарт-контрактінің комиссиясы үшін әмияныңыздан **%s** алынады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlisted",
+      "value": "%s енді сатылымда жоқ."
     },
     {
       "_": "types.LangPackString",
@@ -26588,6 +26978,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "Gram-дарыңыз сыйлықтардан және жарнамалардан алынды."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Gram табысы"
     },
@@ -26623,6 +27018,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawDisabled",
+      "value": "Қазіргі уақытта тіркелгіңізде Gram табысынан шешу қолжетімсіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "Gram-дарды шешу үшін алдымен құпиялық пен қауіпсіздік бөлімінде екі сатылы растау құпиясөзін орнатыңыз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawNothing",
       "value": "Сізде әлі шешіп алатын Gram жоқ."
     },
@@ -26638,6 +27043,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Баптауды ⚙ ашыңыз > 💎 Ақша"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "Gram-дар дербес бақыланатын әмияныңызға (⚙ Баптау → 💎 Ақша) түседі."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawTitle",
       "value": "%s шешу"
     },
@@ -26645,6 +27060,11 @@
       "_": "types.LangPackString",
       "key": "GramEarningsWithdrawTryAgain",
       "value": "Құпиясөзіңіз расталмады. Қайталап көріңіз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "Әзірге әмияныңыздан шешу қолжетімсіз. Fragment арқылы Gram-дарыңызды шеше аласыз."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -47652,6 +48072,197 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SpeechToTextAllStyles",
+      "value": "Барлық стиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextApplyingStyle",
+      "value": "%1$s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextAutoDetect",
+      "value": "Өздігінен анықтау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDeleteModels",
+      "value": "Барлық модельді жою"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDeleteTranscriptions",
+      "value": "Құрылғыдағы барлық танылу жойылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDetecting",
+      "value": "Анықталуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownload",
+      "value": "Жүктеп алу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadProgress",
+      "value": "%1$d / %2$d МБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadingModel",
+      "value": "Модельдер жүктелуде…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadingModels",
+      "value": "Модельдер жүктелуде… %1$d / %2$d МБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextEnhance",
+      "value": "Жақсарту"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextEnhancing",
+      "value": "Жақсартылуда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextGoogleFallback",
+      "value": "Google арқылы тану"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextGoogleFallbackInfo",
+      "value": "Басқа тілдер үшін қолданба жүйенің сөйлеуді тануды қолдана алады. Бұл дауыс деректерін Google-ға не басқа вендорлардың серверлеріне жіберуі мүмкін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLanguages",
+      "value": "Тілдер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLearnMore",
+      "value": "**Толығырақ** >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextListening",
+      "value": "Тыңдауда…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptions",
+      "value": "Нақты уақыттағы мәтін"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptionsOff",
+      "value": "Өшірулі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptionsOn",
+      "value": "Қосулы"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextNoText",
+      "value": "Сөйлеу танылмады"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextOnDevice",
+      "value": "Құрылғыда тану"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextOnDeviceInfo",
+      "value": "Дауысхаттар осы құрылғыда таныланады. Деректер ешқайда жоғалмайды."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyCompact",
+      "value": "Ықшам тілдер"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyCompactText",
+      "value": "Бір тілге шамамен 30 МБ. Өзіңізге қажеттісін ғана сақтаңыз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyDemo",
+      "value": "Сәлем! Он минутқа кешігіп жатырмын, вокзал маңындағы дәмханада кездесейік"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyNothingLeaves",
+      "value": "Деректер тек құрылғыда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyNothingLeavesText",
+      "value": "Дауысыңыз бен оның мәтіні серверге ешқашан жіберілмейді."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyOnPhone",
+      "value": "Құрылғыңызда танылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyOnPhoneText",
+      "value": "Сөйлеу осы құрылғыда, тіпті офлайн да мәтінге айналады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacySubtitle",
+      "value": "Дауысхаттар дәл осы жерде,\nқұрылғыңызда мәтінге айналады."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyTitle",
+      "value": "Әдепкі бойынша құпия"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSendAsText",
+      "value": "Мәтін қып жіберу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSettings",
+      "value": "Баптау"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSettingsSubtitle",
+      "value": "Дауысхатты тану және айтып жаздыру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextTitle",
+      "value": "Айтып жаздыру"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SpeechToTextTranscriptionsDeleted",
+      "one_value": "Құрылғыдағы %1$d танылу жойылды",
+      "other_value": "Құрылғыдағы %1$d танылу жойылды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextUpdate",
+      "value": "Жаңарту"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Speed",
       "value": "Жылдамдық"
     },
@@ -57911,6 +58522,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsOnramp",
+      "value": "%2$s арқылы теңгеріміңізді **%1$s** толтырдыңыз"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActionReceivedGramsSomeone",
       "value": "Біреу сізге **%1$s** жіберді"
     },
@@ -58656,6 +59272,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "%s үшін сатып алынды"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "Ұсыныс %s үшін қабылданды"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOnchainGiftOfferCancelled",
       "value": "Ұсыныс бас тартылды"
     },
@@ -58693,6 +59319,16 @@
       "_": "types.LangPackString",
       "key": "WalletOnchainGiftRepriced",
       "value": "Баға %s өзгерді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "Күйі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "%s үшін сатылды"
     },
     {
       "_": "types.LangPackString",
@@ -60348,5 +60984,5 @@
       "value": "Telegram төлқұжат"
     }
   ],
-  "version": 62030289
+  "version": 62078650
 }

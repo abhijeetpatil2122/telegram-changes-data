@@ -366,7 +366,7 @@
     {
       "_": "types.LangPackString",
       "key": "AccActionPause",
-      "value": "정지"
+      "value": "일시 정지"
     },
     {
       "_": "types.LangPackString",
@@ -1602,6 +1602,16 @@
       "_": "types.LangPackString",
       "key": "ActionBotDocuments",
       "value": "%1$s님이 다음 서류를 받았습니다: %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInvite",
+      "value": "un1님이 회원님을 이 봇에 초대했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInviteUnknown",
+      "value": "이 봇에 초대되었습니다"
     },
     {
       "_": "types.LangPackString",
@@ -3345,8 +3355,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AgentEffort",
+      "value": "추론 강도"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortExpert",
+      "value": "전문가"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortFast",
+      "value": "빠름"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortMedium",
+      "value": "보통"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortTitle",
+      "value": "추론 강도"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentEffortUltra",
+      "value": "최고"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AgentHundredsOfModels",
       "value": "수백 가지 모델"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModel",
+      "value": "모델"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelSearch",
+      "value": "모델 검색"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsAll",
+      "value": "모든 모델"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsEmpty",
+      "value": "모델을 찾을 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AgentModelsRecent",
+      "value": "최근"
     },
     {
       "_": "types.LangPackString",
@@ -6261,7 +6326,7 @@
     {
       "_": "types.LangPackString",
       "key": "BackgroundDimming",
-      "value": "배경화면 흐리기"
+      "value": "배경화면 어둡게"
     },
     {
       "_": "types.LangPackString",
@@ -8865,6 +8930,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInviteDone",
+      "value": "**%1$s**님을 **%2$s**에 초대했습니다."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInviteDoneMany",
+      "other_value": "사용자 %1$d명을 **%2$s**에 초대했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStarted",
+      "value": "**%1$s**님은 이미 **%2$s**와 대화하고 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStartedMany",
+      "value": "이 사용자들은 이미 **%s**와 대화하고 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorFailed",
+      "value": "죄송합니다. 이 사용자들을 **%s**에 초대할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorNotOwner",
+      "value": "**%s**의 소유자만 사용자를 이 봇에 초대할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteToBot",
+      "value": "봇에 초대"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotLocationPermissionAllow",
       "value": "허용"
     },
@@ -9100,6 +9200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfileOpenChat",
+      "value": "대화 열기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotProfilePermissionBiometry",
       "value": "생체 인증"
     },
@@ -9117,6 +9222,16 @@
       "_": "types.LangPackString",
       "key": "BotProfilePermissions",
       "value": "접근 허용 대상"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileStopBot",
+      "value": "봇 중지"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileViewInfo",
+      "value": "정보 보기"
     },
     {
       "_": "types.LangPackString",
@@ -15480,6 +15595,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateGroupWith",
+      "value": "%1$s님과 그룹 만들기"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateLink",
       "value": "링크 만들기"
     },
@@ -20645,6 +20765,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FilterNoUnreadChats",
+      "value": "읽지 않은 대화가 없습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterNoUnreadChatsInfo",
+      "value": "여기에 있는 모든 대화를 읽었습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FilterNonContact",
       "value": "비연락처"
     },
@@ -20744,9 +20874,19 @@
       "value": "초대링크 생성하기"
     },
     {
+      "_": "types.LangPackString",
+      "key": "FilterShowAllChats",
+      "value": "모든 대화 보기"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "FilterShowMoreChats",
       "other_value": "대화방 %1$d개 더 보기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterShowUnread",
+      "value": "읽지 않은 대화 보기"
     },
     {
       "_": "types.LangPackString",
@@ -20762,6 +20902,11 @@
       "_": "types.LangPackString",
       "key": "FilterUnread",
       "value": "안 읽음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterUnreadOnlyShown",
+      "value": "읽지 않은 대화만 표시 중"
     },
     {
       "_": "types.LangPackString",
@@ -21407,6 +21552,41 @@
       "_": "types.LangPackStringPluralized",
       "key": "FoundStories",
       "other_value": "스토리 %d개"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentCarrier",
+      "value": "통신사"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentContinue",
+      "value": "계속"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentPhoneNumber",
+      "value": "전화번호"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentSimSlot",
+      "value": "SIM 슬롯"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentSimSlotValue",
+      "value": "SIM %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentText",
+      "value": "텔레그램은 통신사를 통해 이 SIM 카드의 전화번호를 확인하고 코드 없이 로그인할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FpnvConsentTitle",
+      "value": "SIM 카드로 로그인"
     },
     {
       "_": "types.LangPackString",
@@ -24655,6 +24835,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "이 선물은 이미 이전되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "잠긴 선물"
     },
@@ -25005,6 +25190,786 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBought",
+      "value": "%s이(가) 이제 회원님의 지갑에 있습니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBoughtTo",
+      "value": "%2$s님께 드릴 %1$s을(를) 구매했습니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmButton",
+      "value": "구매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmText",
+      "value": "**%1$s**을(를) **%2$s**에 구매하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "**%1$s**을(를) **%2$s**에 구매하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTitle",
+      "value": "구매 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySent",
+      "value": "구매 요청을 보냈습니다. %s이(가) 곧 지갑에 표시됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyText",
+      "value": "Fragment에서 **%1$s**을(를) **%2$s**에 구매하시겠습니까? 지갑에서 결제되며, 선물은 지갑에 보관되고 프로필에 표시됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyTitle",
+      "value": "%s 구매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceButton",
+      "value": "그램 %s개로 변경"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "**%1$s**의 가격을 **%2$s**(으)로 변경하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "%s의 가격 변경 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "가격을 변경하려면 먼저 선물 판매를 중단한 후 새 가격으로 다시 판매 등록하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Fragment에 판매 등록된 선물은 본인용으로만 구매할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "이 수신자에게 줄 선물로는 구매할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "이 선물은 더 이상 Fragment에서 판매 중이 아닙니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "이 선물은 더 이상 판매 중이 아닙니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "블록체인에 기록된 선물만 Fragment에서 판매할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "블록체인에 기록된 선물만 고정 가격으로 판매할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "이 선물은 회원님의 지갑에 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "이 판매는 다른 지갑에서 시작되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "이 제안은 더 이상 유효하지 않습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "Fragment에서 이 선물의 가격이 변경되었습니다. 새 가격을 확인하고 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "이 선물의 가격이 변경되었습니다. 새 가격을 확인하고 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "허용 범위를 벗어난 가격입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "가격은 %1$s에서 %2$s 사이여야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "이 선물은 이미 Fragment에서 판매 중입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "이 선물은 이미 판매 중입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "현재 Fragment에서 판매할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "현재 고정 가격으로 판매할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactive",
+      "value": "이 선물은 Fragment에서 판매 중이 아닙니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactiveFixed",
+      "value": "이 선물은 판매 중이 아닙니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "Fragment에서 본인의 선물을 구매할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchaseFixed",
+      "value": "본인의 선물을 구매할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "거래를 전송하지 못했습니다. 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitle",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "고정 가격 판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "거래를 준비하지 못했습니다. 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "이 텔레그램 버전에서는 이 거래에 서명할 수 없습니다. 앱을 업데이트하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "아직 지갑을 만드는 중입니다. 잠시 후 다시 시도해 주세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Fragment의 선물은 지갑을 통해 사고팝니다. 계속하려면 지갑을 설정하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "온체인 선물은 지갑을 통해 사고팝니다. 계속하려면 지갑을 설정하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainFailed",
+      "value": "%s 거래가 실패했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainGramAmount",
+      "value": "%s그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "%s이(가) 이제 Fragment에서 판매 중입니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListedFixed",
+      "value": "%s 판매가 시작되었습니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNetworkFee",
+      "value": "네트워크 수수료: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughForFee",
+      "value": "이 작업의 네트워크 수수료를 지불하려면 지갑에 최소 %s이(가) 있어야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughToBuy",
+      "value": "이 선물을 구매하려면 지갑에 최소 %s이(가) 있어야 합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAccept",
+      "value": "수락"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptSent",
+      "value": "이 제안을 수락했습니다. 판매를 마무리하고 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "%s에 대한 제안을 수락했습니다. 선물이 구매자에게 도착하면 판매가 완료됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferBalance",
+      "value": "잔액: %s >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferButton",
+      "value": "그램 %s개 제안"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "**%1$s**에 대해 이 구매 제안을 보내시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "**%1$s**님에게 **%2$s**에 대한 이 구매 제안을 보내시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTitle",
+      "value": "제안 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDecline",
+      "value": "거절"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "**%2$s**에 대한 **%1$s**의 구매 제안을 거절하시겠습니까? 그램은 구매자에게 반환됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineTitle",
+      "value": "제안 거절"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclined",
+      "value": "제안을 거절했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "소유자가 제안을 수락할 수 있는 기간을 선택하세요. 제안이 만료되면 그램이 자동으로 환불됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "이 선물에 대해 이미 유효한 제안이 있습니다. 변경하려면 먼저 기존 제안을 철회하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTitle",
+      "value": "제안"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTryAgain",
+      "value": "제안을 준비하지 못했습니다. 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "제안 만료까지\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferFailed",
+      "value": "거래가 실패하여 %s에 대한 제안을 보내지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "제안 금액이 너무 높습니다. **%2$s**에 제안할 수 있는 최대 금액은 **그램 %1$s개**입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "**%s**에 제안할 그램 수량을 입력하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "제안 금액이 너무 낮습니다. **%2$s**에 제안할 수 있는 최소 금액은 **그램 %1$s개**입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsToOffer",
+      "value": "제안할 그램"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "**%3$s**의 구매 가격으로 **%1$s** (%2$s)을(를) 제안받았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "**%2$s**의 구매 가격으로 **%1$s**을(를) 제안받았습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInsufficient",
+      "value": "잔액이 부족합니다. 입금하기 >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteAccepted",
+      "value": "**%2$s**에 대한 회원님의 **%1$s** 구매 제안이 수락되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteDeclined",
+      "value": "**%2$s**에 대한 회원님의 **%1$s** 구매 제안이 거절되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "조기 철회 수수료는 **%s**였습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteRefunded",
+      "value": "**%s**이(가) 회원님의 지갑으로 반환되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteWithdrawn",
+      "value": "**%2$s**에 대한 **%1$s**의 구매 제안을 철회했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouAccepted",
+      "value": "제안을 수락했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouDeclined",
+      "value": "제안을 거절했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouSold",
+      "value": "**%1$s**을(를) **%2$s**에 판매했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "**%2$s**의 구매 가격으로 **%1$s**을(를) 제안했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "소유자는 **그램 %1$s개**를 받게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "판매자가 제안을 거절하거나 제안이 만료되면 그램은 회원님에게 자동으로 반환됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferReview",
+      "value": "검토"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRibbonSold",
+      "value": "판매됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "제안 만료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "플랫폼 수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "지불할 금액"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "회원님의 제안"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellButton",
+      "value": "판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "거래가 실패하여 %s을(를) 판매하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellSent",
+      "value": "%s 판매 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "**%1$s**을(를)\n**%2$s**에 판매할까요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellTitle",
+      "value": "판매 확인"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "%2$s까지 **%1$s**이(가) 예치됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "제안을 보냈습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSold",
+      "value": "%s을(를) 판매했습니다!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "제안이 수락되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "제안 철회 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "제안이 거절되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "제안이 만료되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpiring",
+      "value": "제안 만료 처리 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "판매 마무리 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "제안이 철회되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryExpired",
+      "value": "**%2$s**에 대한 **%1$s**의 구매 제안이 만료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryWithdrawn",
+      "value": "**%2$s**에 대한 **%1$s**의 구매 제안이 철회되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYouDeclined",
+      "value": "**%2$s**에 대한 **%1$s**의 구매 제안을 거절했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYourExpired",
+      "value": "**%2$s**에 대한 회원님의 **%1$s** 구매 제안이 만료되었습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferUnlistFirst",
+      "value": "이 선물은 판매 중입니다. 제안을 수락하려면 먼저 판매를 중단하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdraw",
+      "value": "철회"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFailed",
+      "value": "거래가 실패하여 %s에 대한 제안을 철회하지 못했습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "조기에 철회하면 약 **%1$s**의 수수료가 부과됩니다.\n\n약 **%2$s**이(가) 회원님에게 반환됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFor",
+      "value": "%s에 철회"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "약 **%s**이(가) 회원님에게 반환됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawSent",
+      "value": "제안 철회 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "제안을 철회할까요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOnSaleFor",
+      "value": "%s에 판매 중"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOpenWallet",
+      "value": "내 자산 열기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s이(가) 이제 %2$s에 판매 중입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "구매자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowCancellationFee",
+      "value": "취소 수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "계약 수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowExpiration",
+      "value": "만료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNetworkFee",
+      "value": "네트워크 수수료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNewPrice",
+      "value": "새 가격"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowOldPrice",
+      "value": "이전 가격"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowPrice",
+      "value": "가격"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "판매자"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSellerShare",
+      "value": "판매자 수령액"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellButton",
+      "value": "판매 등록"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "**%1$s**을(를) Fragment에서 **%2$s**에 판매 등록하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "고정 가격으로 판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixedConfirmText",
+      "value": "**%1$s**을(를) 고정 가격 **%2$s**에 판매 등록하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHint",
+      "value": "구매자는 Fragment에서 이 가격을 지불하며, 판매 대금은 회원님의 지갑으로 바로 입금됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHintBuyerPays",
+      "value": "구매자는 이 가격을 지불하며, 판매 대금은 회원님의 지갑으로 바로 입금됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellMenu",
+      "value": "판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellNoteFixed",
+      "value": "구매자는 이 가격을 지불하며, 판매 대금은 회원님의 지갑으로 바로 입금됩니다. 선물이 판매 계약에 도착하면 판매가 시작됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceButton",
+      "value": "그램 %s개에 판매 등록"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHeader",
+      "value": "그램 가격"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "가격이 너무 높습니다. 최대 가격은 **그램 %s개**입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "가격이 너무 낮습니다. 최소 가격은 **그램 %s개**입니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "%2$s의 수수료를 제외하고 **그램 %1$s개**를 받게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "**그램 %1$s개**를 받게 됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "%s을(를) Fragment에 판매 등록 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "%s 판매 등록 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellText",
+      "value": "**%1$s**을(를) Fragment에서 **%2$s**에 판매 등록하시겠습니까? 판매를 시작하면 계약 수수료로 지갑에서 **%3$s**이(가) 지불됩니다. 판매 대금은 회원님의 지갑으로 바로 입금됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellTitle",
+      "value": "Fragment에서 판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainTransferUnlistFirst",
+      "value": "이 선물은 판매 중입니다. 이전하려면 먼저 판매를 중단하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "Fragment에서 선물 판매가 중단되며, 선물은 지갑에 보관됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "선물 판매가 중단되며, 선물은 지갑에 보관됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "%s 판매 중단 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistText",
+      "value": "Fragment에서 이 선물의 판매를 중단하시겠습니까? 선물은 지갑에 보관됩니다. 취소 시 계약 수수료로 지갑에서 **%s**이(가) 지불됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlisted",
+      "value": "%s 판매가 중단되었습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainWalletTitle",
+      "value": "자산"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftPremium",
       "value": "프리미엄 선물하기"
     },
@@ -25250,8 +26215,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftResaleFilterForStars",
+      "value": "스타로 구매"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftResaleFilterForStarsOnly",
       "value": "스타만"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterForTon",
+      "value": "그램으로 구매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterFromFragment",
+      "value": "Fragment 상품"
     },
     {
       "_": "types.LangPackString",
@@ -25710,8 +26690,93 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "선물과 광고로 얻은 그램입니다."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "그램 수익"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseArrived",
+      "value": "그램 수익이 지갑에 도착했습니다. 이제 선물을 구매할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseLate",
+      "value": "그램 수익을 지갑으로 옮기고 있습니다. 도착한 후 선물을 구매하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseMoving",
+      "value": "그램 수익을 지갑으로 옮기는 중…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "그램 수익에서 **%1$s**을(를) 잔액으로 옮겨 이 선물을 구매하는 데 사용합니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseTitle",
+      "value": "그램 수익을 사용할까요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawButton",
+      "value": "출금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawDisabled",
+      "value": "현재 회원님의 계정에서는 그램 수익을 출금할 수 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "그램을 출금하려면 먼저 개인정보 및 보안에서 2단계 인증 비밀번호를 설정하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNothing",
+      "value": "아직 출금할 그램이 없습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawOnlyTon",
+      "value": "지갑으로는 그램만 출금할 수 있습니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSent",
+      "value": "%s 전송 완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "⚙ 설정 > 💎 자산에서 확인하세요"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "그램은 회원님이 직접 관리하는 지갑(⚙ 설정 → 💎 자산)으로 전송됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTitle",
+      "value": "%s 출금"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTryAgain",
+      "value": "비밀번호를 확인하지 못했습니다. 다시 시도하세요."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "아직 지갑으로 출금할 수 없습니다. Fragment를 통해 그램을 출금할 수 있습니다."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -29530,6 +30595,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MakeChannelPrivateText",
+      "value": "채널의 공개 링크 **%1$s**이(가) 삭제되며, 누구나 이 사용자명을 사용할 수 있게 됩니다. 계속하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeChannelPrivateTitle",
+      "value": "채널을 비공개로 전환할까요?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateText",
+      "value": "그룹의 공개 링크 **%1$s**이(가) 삭제되며, 누구나 이 사용자명을 사용할 수 있게 됩니다. 계속하시겠습니까?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateTitle",
+      "value": "그룹을 비공개로 전환할까요?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MakeMyselfVisible",
       "value": "나를 공개하기"
     },
@@ -31580,13 +32665,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsCollapsePost",
+      "value": "접기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsCompact",
+      "value": "간결하게"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsEmpty",
       "value": "아직 소식이 없습니다"
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsExpandPost",
+      "value": "펼치기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsExpanded",
+      "value": "펼쳐서"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsForYou",
       "value": "추천"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsInteresting",
+      "value": "관심 있음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsInterestingDone",
+      "value": "이와 비슷한 게시물이 더 많이 표시됩니다."
     },
     {
       "_": "types.LangPackString",
@@ -31602,6 +32717,21 @@
       "_": "types.LangPackString",
       "key": "NewsInterestsSaved",
       "value": "관심사를 저장했습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsNotInterested",
+      "value": "관심 없음"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsNotInterestedDone",
+      "value": "이와 비슷한 게시물이 더 적게 표시됩니다."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NewsReloadFeed",
+      "value": "피드 새로고침"
     },
     {
       "_": "types.LangPackString",
@@ -32782,6 +33912,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGramTransferComment",
       "value": "%1$s님이 회원님에게 %2$s을(를) 보냈습니다: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferOnramp",
+      "value": "%2$s을(를) 통해 %1$s을(를) 충전했습니다"
     },
     {
       "_": "types.LangPackString",
@@ -39235,6 +40370,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileBotCurrentOwner",
+      "value": "현재 봇 소유자: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotInvitedBy",
+      "value": "초대한 사람: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileBotLanguageAdd",
       "value": "번역 추가"
     },
@@ -41357,6 +42502,16 @@
       "_": "types.LangPackString",
       "key": "Reply",
       "value": "답장"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirect",
+      "value": "채널에 메시지 보내기"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirectHint",
+      "value": "채널에 직접 메시지 보내기"
     },
     {
       "_": "types.LangPackString",
@@ -52245,6 +53400,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TopicsFilterClosed",
+      "value": "닫힘"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TopicsFilterOpen",
+      "value": "열림"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TopicsInfo",
       "value": "그룹 대화가 관리자와 사용자가 만든 주제로 나뉩니다."
     },
@@ -56550,6 +57715,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsOnramp",
+      "value": "%2$s을(를) 통해 **%1$s**을(를) 충전했습니다"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActionReceivedGramsSomeone",
       "value": "누군가 **%1$s**을(를) 보냈습니다"
     },
@@ -57287,6 +58457,101 @@
       "_": "types.LangPackString",
       "key": "WalletOldWalletsBalance",
       "value": "이전 지갑에도 %1$s이(가) 있습니다"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "%s에 구매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "%s에 제안 수락"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferCancelled",
+      "value": "제안 취소됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferDeclined",
+      "value": "제안 거절됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferExpired",
+      "value": "제안 만료됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferSent",
+      "value": "제안 보냄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSale",
+      "value": "판매 등록됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSaleFor",
+      "value": "%s에 판매 등록됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRemovedFromSale",
+      "value": "판매 등록 취소됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRepriced",
+      "value": "%s(으)로 가격 변경됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "상태"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "%s에 판매"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusOfferAccepted",
+      "value": "제안 수락됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPriceChanged",
+      "value": "가격 변경됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPurchased",
+      "value": "구매 완료"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPutOnSale",
+      "value": "판매 등록됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusRemovedFromSale",
+      "value": "판매 등록 취소됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusSold",
+      "value": "판매됨"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftTitle",
+      "value": "선물 마켓"
     },
     {
       "_": "types.LangPackString",
@@ -58894,5 +60159,5 @@
       "value": "텔레그램 패스포트"
     }
   ],
-  "version": 62030289
+  "version": 62060881
 }

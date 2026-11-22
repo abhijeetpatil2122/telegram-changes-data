@@ -1616,6 +1616,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ActionBotInvite",
+      "value": "un1 heeft je uitgenodigd voor deze bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ActionBotInviteUnknown",
+      "value": "Je bent uitgenodigd voor deze bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ActionBotWebViewData",
       "value": "Gegevens van de \"%1$s\"-knop zijn overgedragen aan de bot."
     },
@@ -9027,6 +9037,42 @@
       "_": "types.LangPackString",
       "key": "BotInvite",
       "value": "Toevoegen aan groep"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteDone",
+      "value": "**%1$s** is uitgenodigd voor **%2$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInviteDoneMany",
+      "one_value": "%1$d gebruiker is uitgenodigd voor **%2$s**.",
+      "other_value": "%1$d gebruikers zijn uitgenodigd voor **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStarted",
+      "value": "**%1$s** heeft al een chat met **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStartedMany",
+      "value": "Deze gebruikers hebben al een chat met **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorFailed",
+      "value": "Sorry, je kunt deze gebruikers niet uitnodigen voor **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorNotOwner",
+      "value": "Alleen de eigenaar van **%s** kan gebruikers uitnodigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteToBot",
+      "value": "Uitnodigen voor bot"
     },
     {
       "_": "types.LangPackString",
@@ -25364,6 +25410,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Een cadeau op Fragment kan alleen voor jezelf worden gekocht."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Dit cadeau kan niet worden gekocht voor deze ontvanger."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferAccept",
       "value": "Aanvaarden"
     },
@@ -25544,6 +25600,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "%s is niet verkocht: de transactie is mislukt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferSellSent",
       "value": "%s wordt verkocht…"
     },
@@ -25639,6 +25700,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFailed",
+      "value": "Het bod op %s is niet ingetrokken: de transactie is mislukt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawFee",
       "value": "Vroeg terugtrekken kost ongeveer **%1$s**.\n\nJe krijgt dan ongeveer **%2$s** terug."
     },
@@ -25661,6 +25727,31 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawTitle",
       "value": "Bod intrekken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowCancellationFee",
+      "value": "Annuleringskosten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowExpiration",
+      "value": "Vervaldatum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNewPrice",
+      "value": "Nieuwe prijs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowOldPrice",
+      "value": "Oude prijs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSellerShare",
+      "value": "Aandeel van de verkoper"
     },
     {
       "_": "types.LangPackString",
@@ -26382,8 +26473,88 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "Je Gram uit cadeaus en advertenties."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Inkomsten in Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseArrived",
+      "value": "De Grams die je hebt verdiend zijn in je wallet. Je kunt het cadeau nu kopen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseLate",
+      "value": "De Grams die je hebt verdiend zijn onderweg naar je wallet. Zodra ze zijn aangekomen, kun je het cadeau kopen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseMoving",
+      "value": "Je verdiende Grams worden naar je wallet verplaatst…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "**%1$s** zal van je verdiende Grams worden verplaatst naar je saldo om dit cadeau te kopen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseTitle",
+      "value": "Verdiende Grams gebruiken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawButton",
+      "value": "Opnemen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawDisabled",
+      "value": "Het opnemen van verdiende Grams is op dit moment niet mogelijk voor je account."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "Om Grams te kunnen opnemen, dien je eerst een wachtwoord voor tweestapsverificatie in te stellen via Privacy en veiligheid."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNothing",
+      "value": "Je hebt nog geen Grams om op te nemen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawOnlyTon",
+      "value": "Alleen Grams kunnen worden opgenomen naar je wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Controleer de ⚙ Instellingen > 💎 Geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "De Grams gaan naar de door jou beheerde wallet (⚙ Instellingen → 💎 Geld)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTitle",
+      "value": "%s opnemen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTryAgain",
+      "value": "Je wachtwoord kon niet worden bevestigd. Probeer het opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "Opnemen naar je wallet is nog niet beschikbaar. Je kunt je Grams via Fragment opnemen."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -33546,6 +33717,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationGramTransferOnramp",
+      "value": "Je hebt %1$s opgewaardeerd via %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationGramTransferUnknown",
       "value": "Je hebt %2$s ontvangen"
     },
@@ -40055,6 +40231,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileBotCurrentOwner",
+      "value": "Huidige eigenaar van bot: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileBotInvitedBy",
+      "value": "Uitgenodigd door: **%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileBotLanguageAdd",
       "value": "Vertaling toevoegen"
     },
@@ -42200,6 +42386,16 @@
       "_": "types.LangPackString",
       "key": "Reply",
       "value": "Antwoorden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirect",
+      "value": "Bericht sturen naar kanaal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirectHint",
+      "value": "Stuur een rechtstreeks bericht naar het kanaal"
     },
     {
       "_": "types.LangPackString",
@@ -57555,6 +57751,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsOnramp",
+      "value": "Je hebt **%1$s** opgewaardeerd via %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActionReceivedGramsSomeone",
       "value": "Iemand heeft je **%1$s** gestuurd"
     },
@@ -58297,6 +58498,101 @@
       "_": "types.LangPackString",
       "key": "WalletOldWalletsBalance",
       "value": "Je hebt nog %1$s in oude wallets"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "Gekocht voor %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "Bod aanvaard voor %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferCancelled",
+      "value": "Bod geannuleerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferDeclined",
+      "value": "Bod geweigerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferExpired",
+      "value": "Bod verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferSent",
+      "value": "Bod verstuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSale",
+      "value": "Te koop aangeboden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSaleFor",
+      "value": "Te koop aangeboden voor %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRemovedFromSale",
+      "value": "Uit de verkoop gehaald"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRepriced",
+      "value": "Prijs aangepast naar %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "Status"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "Verkocht voor %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusOfferAccepted",
+      "value": "Bod aanvaard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPriceChanged",
+      "value": "Prijs herzien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPurchased",
+      "value": "Gekocht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPutOnSale",
+      "value": "Te koop aangeboden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusRemovedFromSale",
+      "value": "Uit de verkoop gehaald"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusSold",
+      "value": "Verkocht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftTitle",
+      "value": "Cadeaumarktplaats"
     },
     {
       "_": "types.LangPackString",
@@ -59917,5 +60213,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62081343
+  "version": 62108016
 }

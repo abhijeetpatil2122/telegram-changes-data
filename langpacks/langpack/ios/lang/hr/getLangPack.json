@@ -825,8 +825,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.AddKeyInfo",
+      "value": "Ovaj bot radi samo ako imate aktivnu pretplatu na AI uslugu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connect.ProviderHeader",
       "value": "Pružatelj usluge"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Connect.ProviderInfo",
+      "value": "Odaberite AI pružatelja kod kojeg imate račun."
     },
     {
       "_": "types.LangPackString",
@@ -900,6 +910,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.Key.Info",
+      "value": "Nabavite svoj API ključ ili API token u [postavkama davatelja AI usluga]()."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Key.Invalid",
       "value": "Nevažeći API ključ"
     },
@@ -927,6 +942,11 @@
       "_": "types.LangPackString",
       "key": "Agent.Models.Search",
       "value": "Pretraži modele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProvidersInfo",
+      "value": "Dodirnite i držite za brisanje."
     },
     {
       "_": "types.LangPackString",
@@ -1227,6 +1247,16 @@
       "_": "types.LangPackString",
       "key": "Appearance.ThemeCarouselDay",
       "value": "Dnevna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.ThemeCarouselNeutral",
+      "value": "Neutralna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.ThemeCarouselNeutralNight",
+      "value": "Neutralna noćna"
     },
     {
       "_": "types.LangPackString",
@@ -6441,6 +6471,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.PrivacyErrorMessageMultiple",
+      "value": "Nažalost, %@ ne prihvaća pozive."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.RateCall",
       "value": "Ocijenite poziv"
     },
@@ -6589,6 +6624,16 @@
       "_": "types.LangPackString",
       "key": "Call.SystemStartErrorMessage",
       "value": "Došlo je do pogreške"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.UnlockToSeeVideoNotification",
+      "value": "Otključajte svoj telefon da vidite i dijelite video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.UnlockToSeeVideoNotificationPad",
+      "value": "Otključajte svoj iPad da vidite i dijelite video"
     },
     {
       "_": "types.LangPackString",
@@ -8993,6 +9038,11 @@
       "_": "types.LangPackString",
       "key": "Channel.Info.Subscribers",
       "value": "Pretplatnici"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Channel.IslandMenuHint",
+      "value": "Otvara izbornik."
     },
     {
       "_": "types.LangPackString",
@@ -33452,6 +33502,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MediaEditor.AddGeneratedImage",
+      "value": "Slika"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MediaEditor.AddGif",
       "value": "Dodaj GIF"
     },
@@ -35975,13 +36030,103 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.Empty.Added",
+      "value": "Ovdje se pojavljuju objave s vaših kanala"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Empty.ForYou",
+      "value": "Još nema objava za vas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Error.Retry",
+      "value": "Pokušaj ponovno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Error.Text",
+      "value": "Nije moguće učitati objave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Done.FewerLikeThis",
+      "value": "Vidjet ćete manje ovakvih objava"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Done.HideChannel",
+      "value": "Nećete vidjeti objave od %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Done.RemoveFromNews",
+      "value": "Kanal %@ je uklonjen iz novosti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.FewerLikeThis",
+      "value": "Ne prikazuj ovakve objave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.Hidden",
+      "value": "Objava je skrivena. Želite li obrazložiti?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.HideChannel",
+      "value": "Ne prikazuj objave od %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Feedback.RemoveFromNews",
+      "value": "Ukloni %@ iz novosti"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "News.Interests.Title",
       "value": "Što vas zanima?"
     },
     {
       "_": "types.LangPackString",
+      "key": "News.MarkAllAsRead",
+      "value": "Označi sve kao pročitano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.NewPostsCount",
+      "value": "Novo: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.NewPostsPill",
+      "value": "Nove objave"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Refresh",
+      "value": "Osvježi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "News.ReloadFeed",
       "value": "Ponovno učitaj novosti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Segment.Added",
+      "value": "Dodano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Segment.ForYou",
+      "value": "Za vas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.ShowMore",
+      "value": "Prikaži više"
     },
     {
       "_": "types.LangPackString",
@@ -36002,6 +36147,36 @@
       "_": "types.LangPackString",
       "key": "News.Swipe.NotInterested",
       "value": "Ne zanima me"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Days",
+      "value": "%@d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Hours",
+      "value": "%@h"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Minutes",
+      "value": "%@m"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Now",
+      "value": "sada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Time.Seconds",
+      "value": "%@s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Title",
+      "value": "Novosti"
     },
     {
       "_": "types.LangPackString",
@@ -61620,6 +61795,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceOver.EmojiPicker.None",
+      "value": "Ništa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceOver.Gallery.PlaybackPosition",
       "value": "Pozicija reprodukcije"
     },
@@ -64651,6 +64831,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Succeed",
+      "value": "**%@** sada ima pristup vašoj kameri i mikrofonu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Text",
+      "value": "**%1$@** traži pristup vašoj **kameri** i **mikrofonu**. Moći ćete opozvati ovaj pristup na stranici profila od **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Succeed",
+      "value": "**%@** sada može imati pristup vašoj kameri."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Text",
+      "value": "**%1$@** traži pristup vašoj **kameri**. Moći ćete opozvati ovaj pristup na stranici profila od **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebApp.CloseAnyway",
       "value": "Svejedno zatvori"
     },
@@ -64863,6 +65063,16 @@
       "_": "types.LangPackString",
       "key": "WebApp.MessagePreview",
       "value": "Pregled poruke"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Succeed",
+      "value": "**%@** sada može imati pristup vašem mikrofonu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Text",
+      "value": "**%1$@** traži pristup vašem **mikrofonu**. Moći ćete opozvati ovaj pristup na stranici profila **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -65606,5 +65816,5 @@
       "value": "Unijeli ste pogrešan sigurnosni kod."
     }
   ],
-  "version": 22665292
+  "version": 22677800
 }

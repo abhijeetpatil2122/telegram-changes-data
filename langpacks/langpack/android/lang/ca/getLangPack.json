@@ -9090,8 +9090,29 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInviteDone",
+      "value": "S'ha convidat **%1$s** a **%2$s**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInviteDoneMany",
+      "one_value": "S'ha convidat %1$d usuari a **%2$s**.",
+      "other_value": "S'han convidat %1$d usuaris a **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorAlreadyStarted",
+      "value": "**%1$s** ja té un xat amb **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotInviteErrorAlreadyStartedMany",
       "value": "Aquests usuaris ja tenen un xat amb **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInviteErrorFailed",
+      "value": "No podeu convidar aquests usuaris a **%s**."
     },
     {
       "_": "types.LangPackString",
@@ -25409,6 +25430,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmText",
+      "value": "Voleu comprar **%1$s** per **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorNotForSaleFixed",
       "value": "El regal ja no està a la venda."
     },
@@ -25656,6 +25682,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainSellPriceButton",
       "value": "Ven per %s Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainWalletTitle",
+      "value": "Diners"
     },
     {
       "_": "types.LangPackString",
@@ -26392,8 +26423,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "Els vostres Grams de regals i anuncis."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Guanys de Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseArrived",
+      "value": "Els Grams dels Guanys de Gram són a la cartera. Ja podeu comprar el regal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseLate",
+      "value": "Els Grams dels Guanys de Gram es troben de camí a la cartera. Compreu el regal quan arribin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseMoving",
+      "value": "S'estan movent els Grams dels Guanys de Gram a la cartera…"
     },
     {
       "_": "types.LangPackString",
@@ -26407,8 +26458,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawButton",
+      "value": "Retira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNothing",
+      "value": "Encara no teniu cap Gram per retirar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawOnlyTon",
+      "value": "Només podeu retirar a la cartera Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSent",
+      "value": "%s enviats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Comproveu ⚙ Configuració > 💎 Diners"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawText",
       "value": "Els Grams aniran a la cartera que custodieu (⚙ Configuració → 💎 Diners)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTitle",
+      "value": "Retira %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTryAgain",
+      "value": "No s'ha pogut confirmar la contrasenya. Torneu a provar-ho."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -33628,6 +33714,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGramTransferComment",
       "value": "%1$s us ha enviat %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferOnramp",
+      "value": "Heu recarregat %1$s via %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -42298,6 +42389,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirect",
+      "value": "Escriu al canal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReplyDialogChannelDirectHint",
+      "value": "Envieu un missatge directe al canal"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ReplyDialogMessageAuthor",
       "value": "Autor del missatge"
     },
@@ -47398,6 +47499,197 @@
       "_": "types.LangPackString",
       "key": "SpeakingWithVolume",
       "value": "parlant al %1$d%%"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextAllStyles",
+      "value": "Tots els estils"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextApplyingStyle",
+      "value": "%1$s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextAutoDetect",
+      "value": "Detecta automàticament"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDeleteModels",
+      "value": "Elimina tots els models"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDeleteTranscriptions",
+      "value": "Elimina totes les transcripcions locals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDetecting",
+      "value": "S'està detectant…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownload",
+      "value": "Baixa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadProgress",
+      "value": "%1$d / %2$d MB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadingModel",
+      "value": "S'està baixant el model…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadingModels",
+      "value": "S'estan baixant els models… %1$d / %2$d MB"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextEnhance",
+      "value": "Millora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextEnhancing",
+      "value": "S'està millorant…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextGoogleFallback",
+      "value": "Fes servir Google"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextGoogleFallbackInfo",
+      "value": "Per a altres llengües, l'aplicació pot usar el reconeixement de veu del sistema. Això podria enviar les vostres dades de veu als servidors de Google d'altres serveis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLanguages",
+      "value": "Llengües"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLearnMore",
+      "value": "**Més informació** >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextListening",
+      "value": "S'està escoltant…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptions",
+      "value": "Subtítols automàtics"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptionsOff",
+      "value": "Desactivada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptionsOn",
+      "value": "Activada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextNoText",
+      "value": "No s'ha reconegut cap text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextOnDevice",
+      "value": "Transcripció al dispositiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextOnDeviceInfo",
+      "value": "Els missatges de veu es transcriuen al dispositiu. Privat: res hi surt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyCompact",
+      "value": "Compacta les llengües"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyCompactText",
+      "value": "Vora 30 MB per llengua. Manteniu només els que necessiteu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyDemo",
+      "value": "Ep! Faig tard vora deu minuts, ens veiem al café del costat de l'estació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyNothingLeaves",
+      "value": "Res abandona el dispositiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyNothingLeavesText",
+      "value": "Per a fer això, la veu i el text no s'envien mai a cap servidor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyOnPhone",
+      "value": "Reconeguda en el dispositiu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyOnPhoneText",
+      "value": "La parla es converteix en text al dispositiu, inclús fora de línia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacySubtitle",
+      "value": "Els missatges de veu es converteixen\nen text just aquí, al dispositiu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyTitle",
+      "value": "Privat per disseny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSendAsText",
+      "value": "Envia com a text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSettings",
+      "value": "Configuració"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSettingsSubtitle",
+      "value": "Transcripció i dictat de missatges de veu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextTitle",
+      "value": "Veu a text"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "SpeechToTextTranscriptionsDeleted",
+      "one_value": "S'ha eliminat %1$d transcripció local",
+      "other_value": "S'han eliminat %1$d transcripcions locals"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextUpdate",
+      "value": "Actualitza"
     },
     {
       "_": "types.LangPackString",
@@ -57650,6 +57942,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsOnramp",
+      "value": "Heu recarregat **%1$s** via %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActionReceivedGramsSomeone",
       "value": "Algú us ha enviat **%1$s**"
     },
@@ -58395,13 +58692,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "Comprat per %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "Oferta acceptada per %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOnchainGiftOfferCancelled",
       "value": "L'oferta s'ha cancel·lat"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferDeclined",
+      "value": "Oferta rebutjada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOnchainGiftOfferExpired",
       "value": "L'oferta ha caducat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferSent",
+      "value": "Oferta enviada"
     },
     {
       "_": "types.LangPackString",
@@ -58415,8 +58732,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRemovedFromSale",
+      "value": "Retirat de la venda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOnchainGiftRepriced",
       "value": "S'ha canviat el preu a %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "Estat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "Venut per %s"
     },
     {
       "_": "types.LangPackString",
@@ -58442,6 +58774,16 @@
       "_": "types.LangPackString",
       "key": "WalletOnchainGiftStatusRemovedFromSale",
       "value": "Retirat de la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusSold",
+      "value": "Venut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftTitle",
+      "value": "Mercat de regals"
     },
     {
       "_": "types.LangPackString",
@@ -60062,5 +60404,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62101439
+  "version": 62143698
 }

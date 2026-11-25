@@ -1,0 +1,339 @@
+/* Design tokens. The app paints its own page in one palette, the night one, whatever scheme the client is in: no
+   colour here follows the client's theme (--tg-theme-bg-color and the other --tg-theme-* values are not read), and
+   the theme class the page script sets changes nothing. Every text pair
+   is measured: 4.5:1 or better at rest, pressed, hovered and chosen, 7:1 for a pill's small label on its fill. */
+
+:root {
+  /* Telegram's night blues under white type. The page runs from --page-top under the header, down the first stage, to
+     --page. The page script hands both to the client as its header and background colours, so they stay plain hex. */
+  --page: #0a101c;
+  --page-top: #101a2c;
+  /* A tile is white glass at 6% with a hairline at 11% inside its edge, so depth comes from tone and the line, never
+     from a shadow. Then the surface pressed and hovered, and the veils a row inside one takes over it, which end on
+     the same colours. --section is the glass over the page as one opaque colour, for a part that must cover what lies
+     under it. */
+  --island-surface: rgba(255, 255, 255, 0.06);
+  --island-line: rgba(255, 255, 255, 0.11);
+  --island-press: rgba(255, 255, 255, 0.1);
+  --island-hover: rgba(255, 255, 255, 0.08);
+  --pressed: rgba(255, 255, 255, 0.045);
+  --hover: rgba(255, 255, 255, 0.02);
+  --section: #191e2a;
+  --separator: rgba(255, 255, 255, 0.08);
+  --fill: rgba(255, 255, 255, 0.06);
+  --thumb: rgba(255, 255, 255, 0.2);
+  --toast: rgba(58, 58, 60, 0.96);
+  --skeleton: rgba(235, 235, 245, 0.12);
+  --text: #ffffff;
+  /* Captions, then the quiet text of footers: --hint holds 4.5:1 on the page and on a tile at rest, not on one pressed
+     or chosen. Marks take it at 60%. An old price is a step lighter, so it holds 4.5:1 on a tile in every state; the
+     bar that strikes it out is the one red of a view. */
+  --secondary-text: #c9d3e0;
+  --hint: #7e8aa0;
+  --struck: #8f9bb1;
+  --strike: #ff453a;
+  /* Colour is rationed to icons, the title, one value a row and pills, and each hue has one job: blue is choice and
+     action, gold the recommendation, green a saving. Blue as text, on the page and on a tile in every state, and the
+     tint that lies under it. */
+  --accent: #4da3ff;
+  --tone-tint: rgba(77, 163, 255, 0.16);
+  --saving-ink: #34c759;
+  /* Gold: a recommended row's value and the pill on its edge, and its tile's ring when chosen. What stands
+     on gold, a label or a glyph, takes --gold-ink: white reads 1.6:1 to 2.4:1 there. */
+  --value-gold: #ffc43d;
+  --gold-ink: #231600;
+  /* An option's disc: a hollow ring until chosen, 3.9:1 or better on a tile at rest and pressed, so it reads as an
+     empty choice and not as a control switched off; then a disc lit from above, blue, or the recommended row's
+     gold. */
+  --disc-ring: rgba(255, 255, 255, 0.45);
+  --disc-blue: linear-gradient(#4da3ff, #2e8bff);
+  --disc-gold: linear-gradient(#fec80f, #f0931a);
+  /* A chosen option's tile takes a faint wash under its ring, white on every tile: a hue in it muddies the glass.
+     An unchosen radio's ring, 3:1 or better on a tile at rest. */
+  --chosen-veil: rgba(255, 255, 255, 0.045);
+  --check-line: rgba(255, 255, 255, 0.3);
+  --destructive: #eb5545;
+  /* Red text: the destructive colour a step towards the text. Glyphs and fills keep --destructive. */
+  --destructive-ink: #f1887d;
+  /* A title is cut from its screen's star: the star's blue and violet, running the way its light does, from the lit
+     upper left to the violet of its far arm. The glow behind it is the two colours' mix. */
+  --title-gradient: linear-gradient(100deg, #6cc0ff, #55a5ff 30%, #8a80ff 68%, #a767ff);
+  --title-glow: drop-shadow(0 0 10px rgba(110, 130, 255, 0.42));
+  color-scheme: dark;
+}
+
+/* On a Stars screen the star is gold, and so is the title cut from it. A giveaway of Stars has that star too. */
+.tone-stars,
+.commerce--giveaway-stars {
+  --title-gradient: linear-gradient(100deg, #ffe58a, #fec846 36%, #f0971b);
+  --title-glow: drop-shadow(0 0 10px rgba(255, 196, 61, 0.3));
+}
+
+:root {
+  --link: var(--accent);
+  /* Blue as a fill: under a white glyph, a radio's disc, and as a chosen tile's ring. The pay button runs through the
+     title's blues, and --tone-solid is their mid tone: the one colour under the button's light, and the one the
+     client's MainButton takes. It is too light for white, which reads 2.7:1 on it: a label on it takes
+     --tone-solid-ink, 4.5:1 or better over the button's whole height at rest and pressed. A fill that stands under
+     white figures takes --tone-deep, 4.7:1. */
+  --accent-fill: #2e8bff;
+  --tone-solid: #46a2ff;
+  --tone-solid-press: #1e7ad7;
+  --tone-solid-ink: #010b1c;
+  --tone-deep: #1a6fe8;
+  --button: var(--tone-deep);
+  --button-text: #ffffff;
+  /* Section headers are secondary text. */
+  --section-header: var(--secondary-text);
+
+  --success: #34c759;
+  --warning: #ff9500;
+
+  /* Spacing: the 4 px grid and nothing else (design §11.3). */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* The hero gradient, PremiumUI/Sources/IncreaseLimitHeaderItem.swift: the flat mark's glyph is drawn in it. */
+  --brand-1: #6b93ff;
+  --brand-2: #976fff;
+  --brand-3: #e46ace;
+  --brand-gradient: linear-gradient(90deg, var(--brand-1), var(--brand-2), var(--brand-3));
+  /* The two colours the flat mark's twinkles run between. */
+  --premium-from: #5c48ff;
+  --premium-to: #e03fc6;
+
+  /* One accent on every screen, blue; gold stays in the Stars art and in a recommended row. Stars gold:
+     TelegramUI/Components/Stars/StarsPurchaseScreen/Sources/StarsPurchaseScreen.swift line 805. Blue-violet is ramp
+     20, behind the boost and giveaway animations' stand-ins. */
+  --stars-gold: #f9b004;
+  --gold-tint: rgba(249, 176, 4, 0.12);
+  --blue-violet: #5b79ff;
+  /* The accent by its jobs on a screen: a fill and text, the text over --tone-tint. */
+  --tone: var(--accent-fill);
+  --tone-ink: var(--accent);
+  /* Pills are solid, each under a dark ink of its own hue at 7:1 or better: a discount's green, and the Best Value tab
+     in the value blue, where white would read 2.6:1; on a plan tile that tab is gold under --gold-ink. */
+  --pill-fill: #34c759;
+  --pill-ink: #06210e;
+  --best-fill: #4da3ff;
+  --best-on-fill: #021127;
+
+  /* Icon tiles in Telegram's own colour per function, diagonal from the bottom left (PresentationResourcesSettings
+     .swift: premium, stars, premiumGift, support, faq, security). Native tiles are outside the one-accent rule. */
+  --tile-premium: linear-gradient(45deg, #6b93ff 15%, #8d77ff 50%, #b56eec 85%);
+  --tile-stars: linear-gradient(45deg, #fec80f, #dd6f12);
+  --tile-gift: linear-gradient(45deg, #3ba1f2 15%, #39b3b4 50%, #34c27d 85%);
+  --tile-support: #ff9f0a;
+  --tile-faq: #32ade6;
+  --tile-gray: #8e8e93;
+
+  /* Feature tiles: PremiumUI/Sources/PremiumIntroScreen.swift lines 1977–2002, in list order. */
+  --ramp-1: #ef6922;
+  --ramp-2: #e95a2c;
+  --ramp-3: #e74e33;
+  --ramp-4: #e74e33;
+  --ramp-5: #e54937;
+  --ramp-6: #e3433c;
+  --ramp-7: #db374b;
+  --ramp-8: #cb3e6d;
+  --ramp-9: #bc4395;
+  --ramp-10: #bc4395;
+  --ramp-11: #ab4ac4;
+  --ramp-12: #ab4ac4;
+  --ramp-13: #a34cd7;
+  --ramp-14: #9b4fed;
+  --ramp-15: #8958ff;
+  --ramp-16: #8958ff;
+  --ramp-17: #676bff;
+  --ramp-18: #676bff;
+  --ramp-19: #6172ff;
+  --ramp-20: #5b79ff;
+  --ramp-21: #5b79ff;
+  --ramp-22: #4492ff;
+  --ramp-23: #429bd5;
+  --ramp-24: #41a6a5;
+  --ramp-25: #3eb26d;
+  --ramp-26: #3dbd4a;
+
+  /* Shape and layout (design §11.3). Islands (§11.7): every section and card is a tile of one build, radius 16 with a
+     hairline inside its edge and no shadow. */
+  --column: 560px;
+  --gutter: 16px;
+  --island-radius: 16px;
+  --island-shadow: inset 0 0 0 1px var(--island-line);
+  --section-radius: var(--island-radius);
+  --card-radius: var(--island-radius);
+  --section-gap: var(--space-32);
+  --section-inset: 16px;
+  /* A tile is a 30 px face (PresentationResourcesSettings.swift) drawn in a 32 px box that keeps the 4 px grid. */
+  --tile: 30px;
+  --tile-box: 32px;
+  --tile-radius: 8px;
+  --badge-radius: 12px;
+  --avatar: 40px;
+
+  /* Type, iOS, on a 17 px root. Each line height is the target px over the font px, so it scales with the root size;
+     the extra 0.005 px keeps layout's 1/64 px rounding from dropping a line below its target. Lines sit on the 4 px
+     grid, at 13 px and below on 2 px steps; the hero title takes Apple's Title 1, 28/34. System fonts only: SF Pro picks its Text or Display cut by size,
+     ui-rounded is SF Pro Rounded. Tracking stays the system's own. */
+  --font: -apple-system, system-ui, sans-serif;
+  --font-display: var(--font);
+  --font-rounded: ui-rounded, -apple-system, system-ui, sans-serif;
+  --fw-title: 700;
+  --fw-strong: 600;
+  --fw-medium: 500;
+  --fw-caption: var(--fw-medium);
+  --fw-tab: var(--fw-title);
+  --fw-badge: var(--fw-title);
+  --fw-num: var(--fw-strong);
+  --fs-hero: calc(28rem / 17);
+  --lh-hero: calc(34.005 / 28);
+  --fs-title: calc(22rem / 17);
+  --lh-title: calc(28.005 / 22);
+  --fs-body: 1rem;
+  --lh-body: calc(20.005 / 17);
+  --lh-body-wrap: calc(22.005 / 17);
+  /* Subhead: hero subtitles and tile labels. */
+  --fs-sub: calc(15rem / 17);
+  --lh-sub: calc(20.005 / 15);
+  /* Footnote: cell subtitles, per-month lines, savings, footers; -wrap where it runs to more lines. */
+  --fs-small: calc(13rem / 17);
+  --lh-small: calc(16.005 / 13);
+  --lh-small-wrap: calc(18.005 / 13);
+  /* Captions in artwork (the limits chart). */
+  --fs-caption: calc(13rem / 17);
+  --lh-caption: calc(16.005 / 13);
+  /* Pills: 12 px on a 20 px line, which is the pill's height. A tab on a card's edge: 12/16, on a plan tile's edge a
+     full pill tall. */
+  --fs-badge: calc(13rem / 17);
+  --lh-pill: calc(24.005 / 13);
+  --fs-tab: calc(13rem / 17);
+  --lh-tab: calc(16.005 / 13);
+  /* Segmented control labels, SegmentedControlNode.swift: 14 px, centred in their 28 px thumb. */
+  --fs-segment: calc(14rem / 17);
+  --lh-segment: calc(18.005 / 14);
+  /* Numerals: the Stars balance (XL) and the gift months (L). */
+  --fs-big: calc(48rem / 17);
+  --lh-big: calc(56.005 / 48);
+  --fs-num-l: calc(28rem / 17);
+  --lh-num-l: calc(32.005 / 28);
+  /* A row's value: a plan's price per month. 20 px in a line of 28 on every platform: a tile of 64 holds it with
+     air round it, where a larger figure crowds the tile. */
+  --fs-value: calc(20rem / 17);
+  --lh-value: calc(28.005 / 20);
+  --fs-section-header: var(--fs-small);
+  --lh-section-header: var(--lh-small);
+  --fw-section-header: 400;
+  --cell-min: calc(44rem / 17);
+  --motion-fade: 120ms;
+}
+
+/* Android and desktop colour section headers with the client's accent, Telegram blue: a toned screen gives them its
+   one hue, as those clients do with an accent the user picks. iOS headers stay grey. */
+html:not(.platform-ios) :is(.tone-premium, .tone-stars, .tone-giveaway) {
+  --section-header: var(--tone-ink);
+}
+
+/* Root size per platform: rem follows the platform's body size. On iOS it is 17 px and does not follow the system
+   text size: tiles, pills and gaps are set in px, and a type that scaled without them would stand out of proportion
+   with them. */
+html {
+  font-size: 17px;
+}
+
+html.platform-android {
+  font-size: 16px;
+  --font: Roboto, system-ui, sans-serif;
+  --font-display: var(--font);
+  /* No rounded system face: numerals stay Roboto, proportional. */
+  --font-rounded: var(--font);
+  /* Roboto has 400, 500 and 700, so 600 would render bold; Telegram's one emphasis weight is Medium
+     (AndroidUtilities.java bold()). The type ramp on a 16 px body. */
+  --fw-title: 500;
+  --fw-strong: 500;
+  --fw-medium: 500;
+  --fw-caption: 400;
+  /* A pill on a tile's edge is small dark type on a fill: in Medium it reads thin, so it is bold here as on every
+     platform, like the pay button's label. */
+  --fw-tab: 700;
+  --fw-badge: 700;
+  /* Telegram's 22 dp hero title (PremiumPreviewFragment.java), on a 28 px line. */
+  --fs-hero: calc(22rem / 16);
+  --lh-hero: calc(28.005 / 22);
+  --fs-title: calc(20rem / 16);
+  --lh-title: calc(28.005 / 20);
+  --lh-body: calc(20.005 / 16);
+  --lh-body-wrap: calc(20.005 / 16);
+  --fs-sub: calc(14rem / 16);
+  --lh-sub: calc(20.005 / 14);
+  --fs-small: calc(14rem / 16);
+  --lh-small: calc(20.005 / 14);
+  --lh-small-wrap: calc(20.005 / 14);
+  --fs-caption: calc(12rem / 16);
+  --lh-caption: calc(16.005 / 12);
+  --fs-badge: calc(13rem / 16);
+  --lh-pill: calc(24.005 / 13);
+  --fs-tab: calc(13rem / 16);
+  --fs-segment: calc(14rem / 16);
+  --fs-big: calc(32rem / 16);
+  --lh-big: calc(40.005 / 32);
+  --fs-num-l: calc(24rem / 16);
+  --lh-num-l: calc(32.005 / 24);
+  /* A value keeps under the 22 px hero title. */
+  --fs-value: calc(20rem / 16);
+  --lh-value: calc(28.005 / 20);
+  --fs-section-header: calc(15rem / 16);
+  --lh-section-header: calc(20.005 / 15);
+  --fw-section-header: 500;
+  --cell-min: calc(48rem / 16);
+}
+
+/* Telegram Desktop and macOS: the Fluent 2 ramp on a 14 px body, weights 400 and 600. The subhead keeps a 20 px line
+   rather than 18: hero subtitles wrap, and a 20 px step keeps every box under them on the grid. */
+html.platform-desktop {
+  font-size: 14px;
+  --font: 'Segoe UI Variable Text', 'Segoe UI', system-ui, -apple-system, Roboto, 'Noto Sans', sans-serif;
+  --font-display: 'Segoe UI Variable Display', 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --font-rounded: ui-rounded, var(--font);
+  --fw-title: 600;
+  --fw-strong: 600;
+  --fw-medium: 600;
+  --fw-caption: 400;
+  --gutter: 20px;
+  --section-inset: 20px;
+  --fs-hero: calc(24rem / 14);
+  --lh-hero: calc(32.005 / 24);
+  --fs-title: calc(20rem / 14);
+  --lh-title: calc(28.005 / 20);
+  --lh-body: calc(20.005 / 14);
+  --lh-body-wrap: calc(20.005 / 14);
+  --fs-sub: calc(13rem / 14);
+  --lh-sub: calc(20.005 / 13);
+  --fs-small: calc(12rem / 14);
+  --lh-small: calc(16.005 / 12);
+  --lh-small-wrap: calc(16.005 / 12);
+  --fs-caption: calc(12rem / 14);
+  --lh-caption: calc(16.005 / 12);
+  --fs-badge: calc(13rem / 14);
+  --lh-pill: calc(24.005 / 13);
+  --fs-tab: calc(13rem / 14);
+  --fs-segment: var(--fs-sub);
+  --lh-segment: calc(18.005 / 13);
+  --fs-big: calc(40rem / 14);
+  --lh-big: calc(48.005 / 40);
+  --fs-num-l: calc(24rem / 14);
+  --lh-num-l: calc(32.005 / 24);
+  --fs-value: calc(20rem / 14);
+  --lh-value: calc(28.005 / 20);
+  --fs-section-header: calc(13rem / 14);
+  --lh-section-header: calc(16.005 / 13);
+  --fw-section-header: 600;
+  --cell-min: calc(40rem / 14);
+}

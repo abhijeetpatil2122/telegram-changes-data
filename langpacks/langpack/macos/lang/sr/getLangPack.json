@@ -217,6 +217,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.GoalPrefix",
+      "value": "◎ Циљ · "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.Stopped",
+      "value": "Заустављено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.Thinking",
+      "value": "Размишљање…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.Automation",
       "value": "Аутоматизација"
     },
@@ -330,6 +345,57 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.WatchTitle",
       "value": "Прати %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CallNotes",
+      "value": "Белешке с позива"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CallWith",
+      "value": "Позив: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CouldNotListen",
+      "value": "🎙 Није могуће слушати **%1$@**: %2$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "📞 Позив (**%1$@**) је завршен · %2$d минута. Нисам могао да га транскрибујем: %3$@",
+      "key": "AIAssistant.CallListener.EndedWithFailure",
+      "one_value": "📞 Позив (**%1$@**) је завршен · %2$d минут. Нисам могао да га транскрибујем: %3$@",
+      "other_value": "📞 Позив (**%1$@**) је завршен · %2$d минута. Нисам могао да га транскрибујем: %3$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "📞 Позив (**%1$@**) је завршен · %2$d минута. Нисам чуо никакав говор који бих могао да сажмем.",
+      "key": "AIAssistant.CallListener.EndedWithoutSpeech",
+      "one_value": "📞 Позив (**%1$@**) је завршен · %2$d минут. Нисам чуо никакав говор који бих могао да сажмем.",
+      "other_value": "📞 Позив (**%1$@**) је завршен · %2$d минута. Нисам чуо никакав говор који бих могао да сажмем."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.InterruptedWithTranscript",
+      "value": "📞 Позив (**%1$@**) је прекинут: Telegram се затворио током позива. Пишем белешке на основу онога што сам чуо…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.InterruptedWithoutTranscript",
+      "value": "📞 Позив (**%1$@**) је прекинут: Telegram се затворио током позива пре него што је ишта транскрибовано."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.TakingNotes",
+      "value": "🎙 Правим белешке за **%1$@**. Искључите ову опцију уређивањем овог агента."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "📞 Позив (**%1$@**) је завршен · %2$d минута. Пишем белешке…",
+      "key": "AIAssistant.CallListener.WritingNotes",
+      "one_value": "📞 Позив (**%1$@**) је завршен · %2$d минут. Пишем белешке…",
+      "other_value": "📞 Позив (**%1$@**) је завршен · %2$d минута. Пишем белешке…"
     },
     {
       "_": "types.LangPackString",
@@ -2142,8 +2208,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.AgentUsage",
+      "value": "Ваш помоћник може да поставља питања овом агенту, а праћења или распореди могу да се покрећу као овај агент."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Agents",
       "value": "Агенти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Automations",
+      "value": "Аутоматизације"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BackgroundTasks",
+      "value": "Позадински задаци"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BlankAgent",
+      "value": "Празан агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BlankAgentSummary",
+      "value": "Ваше име и упутства."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotes",
+      "value": "Белешке с позива"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotesInstructions",
+      "value": "Бележи Telegram позиве корисника. Када стигне транскрипт позива, прикажи белешке као виџет: сажетак у једном реду, кључне тачке, донете одлуке, ставке радњи као поља за потврду с наведеним задуженим особама и датумима и транскрипт у склопивом одељку. Користи имена говорника из транскрипта. Нека белешке буду кратке и прегледне и усклади их с језиком позива. Запамти сваки позив како би корисник касније могао да пита о претходним позивима."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotesSummary",
+      "value": "Слуша ваше позиве и пише белешке када се заврше."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallRecordingInfo",
+      "value": "Снима ваше позиве и групне позиве на овом Mac-у, транскрибује их помоћу алата Whisper с ознакама говорника и шаље транскрипт овде када се позив заврши. Користите ову опцију само када сви у позиву пристану на снимање."
     },
     {
       "_": "types.LangPackString",
@@ -2177,13 +2288,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteAllRecents",
+      "value": "Избриши све недавно"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.DeleteChat",
       "value": "Избриши ћаскање"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteChatInfo",
+      "value": "Избрисати „%1$@” и меморију агента о њему?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteGroupInfo",
+      "value": "Избрисати „%1$@”, њено ћаскање и меморију чланова о њему? Агенти остају."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.DeleteGroupTitle",
       "value": "Брисање групе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteHook",
+      "value": "Избриши закачку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteHookInfo",
+      "value": "Закачка „%1$@” ће престати да ради."
     },
     {
       "_": "types.LangPackString",
@@ -2203,6 +2339,20 @@
       "value": "Готово · %1$@"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d м",
+      "key": "AIAssistant.SidebarController.DurationMinutes",
+      "one_value": "%1$d м",
+      "other_value": "%1$d м"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d с",
+      "key": "AIAssistant.SidebarController.DurationSeconds",
+      "one_value": "%1$d с",
+      "other_value": "%1$d с"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Edit",
       "value": "Уреди"
@@ -2211,6 +2361,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.EditAgentTitle",
       "value": "Уређивање агента"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.EditorInstructions",
+      "value": "Уреди текст који корисник пошаље: исправи граматику и правопис, учини га јасним и сажетим и задржи стил и језик корисника. Прво одговори уређеним текстом, а затим наведи највише три кратке напомене о томе шта је измењено."
     },
     {
       "_": "types.LangPackString",
@@ -2224,13 +2379,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Hooks",
+      "value": "Закачке"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.InstructionsHeader",
       "value": "УПУТСТВА"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.InstructionsPlaceholder",
+      "value": "Шта ради, како одговара, шта зна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ListenToCalls",
+      "value": "Слушање позива"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.MoveToProject",
       "value": "Премести у пројекат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Name",
+      "value": "Име"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NameHeader",
+      "value": "ИМЕ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NamePlaceholder",
+      "value": "нпр. Преводилац"
     },
     {
       "_": "types.LangPackString",
@@ -2274,8 +2459,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NoProject",
+      "value": "Без пројекта"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Pause",
       "value": "Паузирај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.PickStartingPoint",
+      "value": "Изаберите почетну тачку. Све можете да промените у следећем кораку."
     },
     {
       "_": "types.LangPackString",
@@ -2299,6 +2494,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Recents",
+      "value": "Недавно"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Remove",
       "value": "Уклони"
     },
@@ -2316,6 +2516,26 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.RenameGroup",
       "value": "Преименуј групу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ReplacesCallAgent",
+      "value": " Други агент тренутно прави белешке с позива; овај га замењује."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Researcher",
+      "value": "Истраживач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ResearcherInstructions",
+      "value": "Истражи на интернету оно о чему корисник пита. Упореди више извора, наведи колико си сигуран и заврши кратким списком коришћених веза. Почни одговором, а детаље наведи испод њега."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ResearcherSummary",
+      "value": "Детаљно истражује тему и извештава уз навођење извора."
     },
     {
       "_": "types.LangPackString",
@@ -2361,8 +2581,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Stopped",
+      "value": "Заустављено"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Translator",
       "value": "Преводилац"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TranslatorInstructions",
+      "value": "Преведи сваку поруку коју корисник пошаље. На енглески ако је на другом језику, а у супротном на језик који је корисник последњи тражио. Задржи тон, обликовање и имена. Одговори искључиво преводом."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TranslatorSummary",
+      "value": "Преводи све што пошаљете."
     },
     {
       "_": "types.LangPackString",
@@ -2378,6 +2613,21 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Unpin",
       "value": "Откачи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Watch",
+      "value": "Прати %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.WritingEditor",
+      "value": "Уредник текста"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.WritingEditorSummary",
+      "value": "Дотерује ваше поруке пре него што их пошаљете."
     },
     {
       "_": "types.LangPackString",
@@ -2498,6 +2748,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.WaitingToConnectInfo",
       "value": "Ваша порука биће послата чим се Dictator повеже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Tab.FloatingAssistant",
+      "value": "Плутајући помоћник"
     },
     {
       "_": "types.LangPackString",
@@ -2781,6 +3036,11 @@
       "_": "types.LangPackString",
       "key": "AIFloating.Assistant.Chat",
       "value": "Ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.Assistant.HideFloatingAssistant",
+      "value": "Сакриј плутајућег помоћника"
     },
     {
       "_": "types.LangPackString",
@@ -59763,5 +60023,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2497935
+  "version": 2498414
 }

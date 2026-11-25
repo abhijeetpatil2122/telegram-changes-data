@@ -228,6 +228,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityRuns.Done",
+      "value": "Listo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ActivityRuns.Stopped",
       "value": "Detenido"
     },
@@ -838,8 +843,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Conversations.General",
+      "value": "General"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Conversations.TemporaryChat",
+      "value": "Chat temporal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Checklist",
+      "value": "Lista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.ChecklistTitle",
+      "value": "**%1$@**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.History.ConversationCompacted",
       "value": "Conversación compactada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Done",
+      "value": "Listo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Location",
+      "value": "Ubicación"
     },
     {
       "_": "types.LangPackString",
@@ -851,6 +886,42 @@
       "key": "AIAssistant.History.MoreNames",
       "one_value": "%1$@, %2$@ y %3$d más",
       "other_value": "%1$@, %2$@ y %3$d más"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Photo",
+      "value": "Foto"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.History.StepsCount",
+      "one_value": " · %1$d paso",
+      "other_value": " · %1$d pasos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Stopped",
+      "value": "Detenido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.StoppedWithError",
+      "value": "Detenido con un error"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.ThreeNames",
+      "value": "%1$@, %2$@ y %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.TwoNames",
+      "value": "%1$@ y %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Video",
+      "value": "Video"
     },
     {
       "_": "types.LangPackString",
@@ -970,14 +1041,40 @@
       "value": " · aprobado"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.PlanWidget.Steps",
+      "one_value": "%1$d paso",
+      "other_value": "%1$d pasos"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AIAssistant.SafetyController.AgentAccess",
       "value": "Acceso del agente"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.Agents",
+      "value": "AGENTES"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AllChats",
+      "value": "Todos los chats"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SafetyController.CanAct",
       "value": "Puede realizar acciones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanChangeThings",
+      "value": "PUEDE CAMBIAR COSAS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanSee",
+      "value": "PUEDE VER"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -1129,6 +1226,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.DictatorUnavailable",
       "value": "Dictado no responde. Revisa si se está ejecutando."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Disconnect",
+      "value": "Desconectar"
     },
     {
       "_": "types.LangPackString",
@@ -1311,10 +1413,50 @@
       "value": "El chat aún no tiene un asistente de conversación. Primero, abre el asistente desde el chat."
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.KeepInAllChats",
+      "value": "Mantener en Todos los chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.RemoveFromAllChats",
+      "value": "Quitar de Todos los chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutLibraryMenu",
+      "value": "Biblioteca de atajos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShowShortcuts",
+      "value": "Mostrar atajos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.Stop",
+      "value": "Detener"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AIAssistant.Shortcuts.StoppedAtStep",
       "one_value": "%1$@ **%2$@** detenido en el paso %3$d: %4$@",
       "other_value": "%1$@ **%2$@** detenido en el paso %3$d: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Agents",
+      "value": "Agentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Automations",
+      "value": "Automatizaciones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BackgroundTasks",
+      "value": "Tareas en segundo plano"
     },
     {
       "_": "types.LangPackString",
@@ -1425,6 +1567,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.AgentBack",
       "value": "El agente regresó"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.Connecting",
+      "value": "Conectando"
     },
     {
       "_": "types.LangPackString",
@@ -56671,5 +56818,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2498474
+  "version": 2498541
 }

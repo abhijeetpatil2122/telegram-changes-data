@@ -4357,6 +4357,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Deze gebruiker heeft al een chat met de bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Deze gebruikers hebben al een chat met de bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Het is niet gelukt om de uitnodigingen te versturen. Probeer het later opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Alleen de eigenaar van de bot kan gebruikers uitnodigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Deze gebruiker kan vanwege zijn/haar privacy-instellingen niet voor bots worden uitgenodigd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "Te veel pogingen. Probeer het later opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Je kunt maximaal 10 gebruikers tegelijk uitnodigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Uitnodigen voor bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "De uitnodiging is verstuurd.",
+      "other_value": "%@ uitnodigingen zijn verstuurd."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Voorbeeld verwijderen?"
     },
@@ -10394,6 +10440,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "wat is dit?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ is eigendom van %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -18041,6 +18092,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ heeft je uitgenodigd om deze chatbot te gebruiken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Spam rapporteren en blokkeren"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Bytes",
       "value": "%d B"
     },
@@ -25456,6 +25517,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Je cadeau is uit de verkoop gehaald, maar het netwerk heeft dat nog niet bevestigd. Pas na deze bevestiging kan de nieuwe prijs worden ingesteld."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotForSale",
+      "value": "Dit cadeau staat niet meer te koop."
     },
     {
       "_": "types.LangPackString",
@@ -35315,6 +35381,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Je bent uitgenodigd voor deze bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ heeft deze gebruiker uitgenodigd voor de bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Deze gebruiker is uitgenodigd voor de bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Je hebt deze bot toestemming gegeven om je berichten te sturen toen je het aan je bijlagenmenu toevoegde."
     },
@@ -39310,6 +39391,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Doorgestuurd"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PUSH_MESSAGE",
       "value": "%1$@|Nieuw bericht"
     },
@@ -42318,6 +42404,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Je bent niet gemachtigd om deze instelling te wijzigen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Uitnodigen voor bot"
     },
     {
       "_": "types.LangPackString",
@@ -63402,6 +63493,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebApp.CameraMicrophonePermission.Text",
+      "value": "**%1$@** heeft toegang gevraagd tot je **camera** en **microfoon**. Je kunt de toegang beheren via het profiel van **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.CameraPermission.Text",
+      "value": "**%1$@** heeft toegang gevraagd tot je **camera**. Je kunt de toegang beheren via het profiel van **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WebApp.CloseAnyway",
       "value": "Toch afsluiten"
     },
@@ -63614,6 +63715,11 @@
       "_": "types.LangPackString",
       "key": "WebApp.MessagePreview",
       "value": "Voorbeeld van bericht"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebApp.MicrophonePermission.Text",
+      "value": "**%1$@** heeft toegang gevraagd tot je **microfoon**. Je kunt de toegang beheren via het profiel van **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -64354,5 +64460,5 @@
       "value": "Je hebt een ongeldige beveiligingscode ingevoerd."
     }
   ],
-  "version": 22739118
+  "version": 22739135
 }

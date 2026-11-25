@@ -805,6 +805,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ConnectModel",
+      "value": "Model verbinden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Agent.Connected.Start",
       "value": "Starten"
     },
@@ -822,6 +827,26 @@
       "_": "types.LangPackString",
       "key": "Agent.Effort",
       "value": "Inspanning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Expert",
+      "value": "Expert"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Fast",
+      "value": "Snel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Medium",
+      "value": "Medium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.Effort.Ultra",
+      "value": "Ultra"
     },
     {
       "_": "types.LangPackString",
@@ -10819,6 +10844,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Dictation.ErrorGeneric",
       "value": "Spraak kon niet worden herkend. Probeer het opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.ErrorSpeechDenied",
+      "value": "Geef Telegram toestemming om spraakherkenning toe te passen via de instellingen, zodat je kunt dicteren."
     },
     {
       "_": "types.LangPackString",
@@ -25313,6 +25343,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Blijft zichtbaar op mijn profiel"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Het is dan vindbaar via"
     },
@@ -25409,8 +25444,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Cadeau verstuurd. **%1$@** komt spoedig bij **%2$@** aan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Cadeau verstuurd. **%@** komt spoedig bij de ontvanger aan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.CancellationPending",
+      "value": "Je cadeau is uit de verkoop gehaald, maar het netwerk heeft dat nog niet bevestigd. Pas na deze bevestiging kan de nieuwe prijs worden ingesteld."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.NotOwner",
+      "value": "Dit cadeau komt niet voor in je wallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.OnlyForSelf",
+      "value": "Items op Fragment kunnen alleen voor jezelf worden gekocht."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.RelistFailed",
+      "value": "Je cadeau is uit de verkoop gehaald, maar het is niet gelukt om het tegen de nieuwe prijs aan te bieden: %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleActive",
+      "value": "Dit cadeau staat nog te koop. Wacht tot de vorige transactie is voltooid en probeer het daarna opnieuw."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Error.SaleInactive",
+      "value": "Dit cadeau staat niet te koop."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.OpenWallet",
       "value": "Open mijn geld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "De prijs van **%1$@** is gewijzigd naar **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Pending",
+      "value": "Je inkomsten in Gram zijn onderweg naar je wallet. Koop het cadeau zodra ze zijn aangekomen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Proceed",
+      "value": "Doorgaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Text",
+      "value": "**%@** zal uit je verdiende Grams worden verplaatst naar je saldo om dit cadeau te kopen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.UseEarnings.Title",
+      "value": "Verdiende Grams gebruiken?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.WalletCannotSign.Text",
+      "value": "Je wallet kan geen transacties op dit apparaat ondertekenen. Open de wallet om de toegang te herstellen."
     },
     {
       "_": "types.LangPackString",
@@ -25421,6 +25526,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
       "value": "Bod verloopt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "De eigenaar ontvangt"
     },
     {
       "_": "types.LangPackString",
@@ -25514,6 +25624,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "De eigenaar ontvangt **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Vul in hoeveel Grams je wilt bieden voor **%@**."
     },
@@ -25536,6 +25651,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Verkoop ingediend. Je ontvangt **%@** zodra het on-chain is bevestigd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Bod aanvaard"
     },
     {
       "_": "types.LangPackString",
@@ -35190,6 +35310,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ heeft jou uitgenodigd voor deze bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Je hebt deze bot toestemming gegeven om je berichten te sturen toen je het aan je bijlagenmenu toevoegde."
     },
@@ -35780,6 +35905,16 @@
       "_": "types.LangPackString",
       "key": "Notification.GramTransfer.WithFiatYou",
       "value": "Je hebt %1$@ %2$@ (%3$@) gestuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived",
+      "value": "Je hebt %@ ontvangen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.GramTransferReceived.WithFiat",
+      "value": "Je hebt %1$@ (%2$@) ontvangen"
     },
     {
       "_": "types.LangPackString",
@@ -36464,6 +36599,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "gekocht"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "gebrand"
     },
@@ -36713,6 +36853,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Je hebt **%1$@** geboden op **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Je hebt het bod aanvaard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Je bod van **%1$@** op **%2$@** is aanvaard"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Je hebt het bod geweigerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Je bod van **%1$@** op **%2$@** is geweigerd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Het bod van **%1$@** op **%2$@** is verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Je bod van **%1$@** op **%2$@** is verlopen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Je hebt **%1$@** verkocht voor **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Het bod van **%1$@** op **%2$@** is ingetrokken"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Je hebt je bod van **%1$@** op **%2$@** ingetrokken"
     },
     {
       "_": "types.LangPackString",
@@ -41979,6 +42164,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Te koop"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 van de %@"
     },
@@ -46078,6 +46268,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Playlist weergeven"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "Kanaal"
     },
@@ -47628,6 +47823,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Mediabijschriften mogen geen knoppen, kopteksten, lijsten, tabellen of andere rijke opmaak bevatten. Het bijschrift wordt als tekst zonder deze elementen opgeslagen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Formule toevoegen"
     },
@@ -47885,6 +48085,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Opmaak verwijderen?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Opslaan zonder opmaak"
     },
     {
       "_": "types.LangPackString",
@@ -50055,6 +50260,11 @@
       "_": "types.LangPackString",
       "key": "Share.RepostToStory",
       "value": "Opnieuw\nplaatsen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Wordt verstuurd"
     },
     {
       "_": "types.LangPackString",
@@ -61955,13 +62165,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectiblePutOnSale",
+      "value": "Te koop aangeboden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectiblePutOnSaleFor",
       "value": "Te koop aangeboden voor %@"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleReceived",
+      "value": "Ontvangen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRemovedFromSale",
+      "value": "Uit de verkoop gehaald"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleRepriced",
       "value": "Prijs aangepast naar %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Prijs herzien"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Prijs gewijzigd naar %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSent",
+      "value": "Verstuurd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Verkocht"
     },
     {
       "_": "types.LangPackString",
@@ -62076,6 +62321,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Nieuwe prijs"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Koper"
     },
@@ -62103,6 +62353,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Verkoper"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Oude prijs"
     },
     {
       "_": "types.LangPackString",
@@ -64099,5 +64354,5 @@
       "value": "Je hebt een ongeldige beveiligingscode ingevoerd."
     }
   ],
-  "version": 22729351
+  "version": 22739118
 }

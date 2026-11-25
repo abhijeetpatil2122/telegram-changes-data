@@ -1203,6 +1203,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{from}, {user} tarafından davet edildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user}, sizi bu bota davet etti."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from}, {user} kişisini grubun yeni sahibi yaptı."
     },
@@ -1504,6 +1514,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "{name} için {cost} teklif ettiniz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "{name} hediyesini {amount} karşılığında satın aldınız."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Satın alma tamamlanıyor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Teklif geri çekiliyor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Teklif reddedildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Teklifi reddettiniz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Teklifin süresi doldu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Teklifin süresi doldu. Ödemeniz iade ediliyor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Teklifin sona ermesine\n{time} kaldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "{amount} tutarında ceza kesildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "{name} için size {amount} teklif edildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Size {amount} iade edildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "İncele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Satış tamamlanıyor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "{name} hediyesini {amount} karşılığında sattınız."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Teklif geri çekildi."
     },
     {
       "_": "types.LangPackString",
@@ -6893,6 +6978,47 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Seçilen kullanıcıların bu botla zaten bir sohbeti var."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} bu botla zaten sohbet ediyor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Davet Et"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Seçilen kullanıcıların hiçbiri davet edilemedi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_invite_limit",
+      "one_value": "Tek seferde en fazla {count} kullanıcı davet edebilirsiniz.",
+      "other_value": "Tek seferde en fazla {count} kullanıcı davet edebilirsiniz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Davetler gönderildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Davet gönderildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Bota Davet Et"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Bot klavyesini gizle"
     },
@@ -7089,6 +7215,104 @@
       "_": "types.LangPackString",
       "key": "lng_bot_languages_translating_title",
       "value": "Çevriliyor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Önizleme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Önizleme Ekle"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_count",
+      "one_value": "{count} önizleme",
+      "other_value": "{count} önizleme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Çeviriyi Sil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Bu dil için tüm önizleme medyasını silmek istiyor musunuz?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_delete_many",
+      "one_value": "Bu önizlemeyi silmek istiyor musunuz?",
+      "other_value": "Bu {count} önizlemeyi silmek istiyor musunuz?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Önizleme Yok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Bu önizleme, kendi dillerinde çevirisi olmayan kullanıcılara gösterilir."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_intro",
+      "one_value": "Mini uygulamanız için en fazla {count} ekran görüntüsü veya tanıtım videosu yükleyin.",
+      "other_value": "Mini uygulamanız için en fazla {count} ekran görüntüsü ve tanıtım videosu yükleyin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Bu önizleme, dili {language} olarak ayarlanmış kullanıcılara gösterilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Önizleme medyası yüklenemedi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Önizleme yayınlandı."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Sıralarını değiştirmek için önizlemeleri sürükleyin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Önizleme medyası güncellenemedi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Değişiklikler kaydediliyor…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Önizleme güncellendi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Bu fotoğraf veya video yüklenemedi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Önizleme yükleniyor…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Mevcut Kareyi Kapak Yap"
     },
     {
       "_": "types.LangPackString",
@@ -12499,6 +12723,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Çek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Lütfen daha sonra tekrar deneyin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Aç"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "{amount} Gönderildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "{menu} {arrow} {money} bölümünü kontrol edin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Gram'lar, kendi kontrolünüzdeki cüzdanınıza ({menu} {arrow} {money}) gönderilecek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "{amount} Çek"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_credits_earn_button",
       "value": "Mini Uygulamalardan Yıldız Kazanın"
     },
@@ -17248,6 +17507,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "satın alındı"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Bu hediye yapım aşamasında yok edildi"
     },
@@ -17255,6 +17519,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "yok edilmiş"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Bu satın alma işlemi zaten gönderildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Satın alma onaylandığında hediye {path} bölümünde ve profilinizde görünecek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "Satın alma onaylandığında {user} hediyeyi alacak."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Devam Et"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "{amount}, Gram Kazançları'ndan bakiyenize aktarılacak ve bu hediyeyi satın almak için kullanılacak."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Gram Kazançları Kullanılsın mı?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Lütfen daha sonra tekrar deneyin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gas ücreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Bu hediye artık satılık değil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Toplam"
     },
     {
       "_": "types.LangPackString",
@@ -17997,6 +18311,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "{name} için teklif etmek istediğiniz Gram miktarını girin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Bakiye yükle {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Bu teklif zaten gönderildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "{user} kullanıcısına {name} için bu teklifi yapmak istiyor musunuz?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Sahibin teklifinizi kabul etmek için ne kadar süresi olacağını seçin. Süre dolduğunda Gram'larınız otomatik olarak iade edilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Emanet ücreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Teklif bitiş tarihi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Teklif edilecek Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Yetersiz bakiye. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Maksimum teklif {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Minimum teklif {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Sahibin alacağı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Platform ücreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Sahibi teklifinizi reddederse veya teklifin süresi dolarsa Gram'larınız otomatik olarak iade edilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "{amount}, {date} tarihine kadar bloke edildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Teklif gönderildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Ödeyeceğiniz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Alacağınız"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Teklifi Reddet"
     },
@@ -18044,6 +18448,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "{price} ile satışta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "{name} hediyesi {amount} karşılığında satılsın mı?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Satışı Onayla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Bu teklif reddedilsin mi? Alıcı Gram'larını geri alacak."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Ağ ücreti: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} satışta. Teklif kabul etmeden önce listeden çıkarın."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Geri Çek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Lütfen daha sonra tekrar deneyin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Erken geri çekmenin bedeli {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "{amount} ile Geri Çek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "{amount} tutarınızın geri kalanı size iade edilecek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Teklif Geri Çekilsin mi?"
     },
     {
       "_": "types.LangPackString",
@@ -18165,6 +18624,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Gram ile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Yıldız ile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Fragment Üzerinden"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Model"
     },
@@ -18273,6 +18747,11 @@
       "other_value": "**{count}** Grams alacaksınız."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Maksimum fiyat {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price",
       "one_value": "Minimum fiyat {count} Yıldızdır.",
@@ -18283,6 +18762,51 @@
       "key": "lng_gift_sell_min_price_ton",
       "one_value": "Minimum fiyat {count} Gram",
       "other_value": "Minimum fiyat {count} Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Bu işlem zaten gönderildi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "{name} hediyesi {price} fiyatına satışa çıkarılsın mı?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Fiyattan {percent} ücret kesilir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Listeleme ücreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "Ağ listelemeyi onayladığında {name}, {price} fiyatına satışa çıkacak."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name}, {price} fiyatına satışta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Listeden çıkarma ücreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} zaten satışta. Önce listeden çıkarın, ardından yeni fiyatla satışa çıkarın."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Alacağınız"
     },
     {
       "_": "types.LangPackString",
@@ -18515,6 +19039,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Tükendi!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "satıldı"
     },
     {
       "_": "types.LangPackString",
@@ -25587,8 +26116,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Botu engelle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "{user} artık engelli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user}, sizi sahibi {owner} olan bu bota davet etti."
     },
     {
       "_": "types.LangPackString",
@@ -27922,6 +28461,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "İfade ekle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Orijinal en-boy oranını koru"
     },
@@ -30047,6 +30591,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Bilgileri Düzenle"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_gift",
       "value": "Hediye Et"
     },
@@ -30435,6 +30984,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "Davet bağlantısı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Bota Davet Et"
     },
     {
       "_": "types.LangPackString",
@@ -32145,6 +32699,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_spam_sure",
       "value": "Bu kullanıcıyı istenmeyen olarak bildirmek istediğinizden emin misiniz?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Sizi bu bota davet eden {user} kullanıcısını istenmeyen olarak bildirmek istediğinizden emin misiniz?"
     },
     {
       "_": "types.LangPackString",
@@ -40200,6 +40759,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Bu hikaye taslağını silmek istediğinizden emin misiniz?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_discard_button",
       "value": "Vazgeç"
     },
@@ -40327,6 +40891,11 @@
       "key": "lng_story_limit_count_premium",
       "one_value": "Üzgünüz, **24** saat içinde **{count}** hikayeden fazlasını yayınlayamazsınız.",
       "other_value": "Üzgünüz, **24** saat içinde **{count}** hikayeden fazlasını yayınlayamazsınız."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Bu sınırı **{limit}** hikayeye çıkarmak için **Telegram Premium**'a abone olun."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -42852,6 +43421,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Bota Davet Et"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Aramaya Katıl"
     },
@@ -42990,6 +43564,166 @@
       "_": "types.LangPackString",
       "key": "lng_voice_speed_very_fast",
       "value": "Daha hızlı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Bu hediyeyi transfer etmeden önce satıştan kaldırın."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Alıcı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Satıştan kaldırıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Emanet gideri"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Sona erme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Ceza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Satışa çıkarıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Yeni fiyat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Teklif kabul edildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Teklif iptal edildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Teklif reddedildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Teklifin süresi doldu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Teklif gönderildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Eski fiyat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Fiyat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Satın alındı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "İade"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Fiyat güncellendi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Satıcı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Hizmet ücreti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "{amount} ile satın alındı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Satıştan kaldırıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Satışa çıkarıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "{amount} fiyatına satışa çıkarıldı"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Teklif kabul edildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "{amount} teklifi kabul edildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Teklif iptal edildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Teklif reddedildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Teklifin süresi doldu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Teklif gönderildi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Yeni fiyat: {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -43139,5 +43873,5 @@
       "other_value": "{count} yıldız ödediniz."
     }
   ],
-  "version": 6239510
+  "version": 6248577
 }

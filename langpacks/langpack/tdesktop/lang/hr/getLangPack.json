@@ -1206,6 +1206,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{user} poziva {from}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} vas poziva u ovaj bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} postavlja {user} kao novog vlasnika grupe."
     },
@@ -1516,6 +1526,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Ponudili ste {cost} za {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Kupili ste {name} za {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Kupnja se dovršava."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Ponuda se povlači."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Ponuda je odbijena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Odbili ste ponudu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Ponuda je istekla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Ponuda je istekla. Povrat sredstava je u tijeku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Ponuda istječe za\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Zadržana je kazna od {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Ponuđeno vam je {amount} za {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Vraćeno vam je {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Pregledaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Prodaja se dovršava."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Prodali ste {name} za {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Ponuda je povučena."
     },
     {
       "_": "types.LangPackString",
@@ -7190,6 +7275,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Odabrani korisnici već imaju razgovor s ovim botom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} već ima razgovor s ovim botom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Pozovi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Nijednog odabranog korisnika nije moguće pozvati."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Možete pozvati najviše {count} korisnika odjednom.",
+      "key": "lng_bot_invite_limit",
+      "one_value": "Možete pozvati najviše {count} korisnika odjednom.",
+      "other_value": "Možete pozvati najviše {count} korisnika odjednom."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Pozivnice su poslane."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Pozivnica je poslana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Pozovi u bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Sakrij bot tipkovnicu"
     },
@@ -7390,6 +7517,107 @@
       "_": "types.LangPackString",
       "key": "lng_bot_languages_translating_title",
       "value": "Prevođenje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Pregled"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Dodaj pregled"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} pregleda",
+      "key": "lng_bot_media_previews_count",
+      "one_value": "{count} pregled",
+      "other_value": "{count} pregleda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Izbriši prijevod"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Želite li izbrisati sve medije pregleda za ovaj jezik?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Želite li izbrisati {count} pregleda?",
+      "key": "lng_bot_media_previews_delete_many",
+      "one_value": "Želite li izbrisati ovaj pregled?",
+      "other_value": "Želite li izbrisati {count} pregleda?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Nema pregleda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Ovaj pregled prikazuje se korisnicima za čiji jezik nema prijevoda."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Prenesite do {count} snimke zaslona i demo videozapisa za svoju mini-aplikaciju.",
+      "key": "lng_bot_media_previews_intro",
+      "one_value": "Prenesite do {count} snimke zaslona ili demo videozapisa za svoju mini-aplikaciju.",
+      "other_value": "Prenesite do {count} snimaka zaslona i demo videozapisa za svoju mini-aplikaciju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Ovaj pregled prikazuje se korisnicima kojima je jezik postavljen na {language}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Nije moguće učitati medije pregleda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Pregled je objavljen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Povucite preglede kako biste promijenili redoslijed."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Nije moguće ažurirati medije pregleda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Spremanje promjena…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Pregled je ažuriran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Nije moguće prenijeti ovu sliku ili video."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Prijenos pregleda…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Postavi ovu sličicu kao naslovnicu"
     },
     {
       "_": "types.LangPackString",
@@ -12907,6 +13135,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Isplati"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Molimo pokušajte ponovno kasnije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Otvori"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "Poslano: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Provjerite {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Grami će ići u vaš samostalni novčanik ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Isplati {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_credits_earn_button",
       "value": "Zaradi zvjezdice od mini aplikacija"
     },
@@ -17790,6 +18053,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "kupljeno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Ovaj poklon je uništen kod izrade."
     },
@@ -17797,6 +18065,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "uništen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Ova kupnja je već poslana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Poklon će se pojaviti u odjeljku {path} i na vašem profilu nakon potvrde kupnje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} će dobiti poklon nakon potvrde kupnje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Nastavi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Iznos od {amount} bit će prebačen iz Gram zarade na vaš saldo i iskorišten za kupnju ovog poklona."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Koristiti zaradu u gramima?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Molimo pokušajte ponovno kasnije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Ovaj poklon više nije na prodaju."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Ukupno"
     },
     {
       "_": "types.LangPackString",
@@ -18563,6 +18881,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Unesite broj grama koji želite ponuditi za {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Dodaj sredstva {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Ova ponuda je već poslana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Želite li vlasniku {user} poslati ovu ponudu za {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Odaberite koliko dugo vlasnik ima vremena za prihvatiti vašu ponudu. Kada istekne, vaši grami će se automatski vratiti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Naknada za escrow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Ponuda ističe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Gram za ponudu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Nedovoljno sredstava. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Maksimalna ponuda je {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Minimalna ponuda je {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Vlasnik će dobiti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Naknada za platformu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Ako vlasnik odbije vašu ponudu ili ona istekne, grami će vam biti automatski vraćeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "Iznos od {amount} rezerviran je do {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Ponuda je poslana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Plaćate"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Primate"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Odbaci ponudu"
     },
@@ -18610,6 +19018,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "Na prodaju za {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Želite li prodati {name} za {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Potvrdi prodaju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Želite li odbiti ovu ponudu? Kupcu će grami biti vraćeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Mrežna naknada: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} je na prodaju. Povucite ga s prodaje prije prihvaćanja ponude."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Povuci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Molimo pokušajte ponovno kasnije."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Prijevremeno povlačenje košta {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Povuci za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Ostatak iznosa od {amount} bit će vam vraćen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Povući ponudu?"
     },
     {
       "_": "types.LangPackString",
@@ -18734,6 +19197,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Za grame"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Za zvjezdice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Sa Fragmenta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Model"
     },
@@ -18846,6 +19324,11 @@
       "other_value": "Dobit ćete **{count}** grama."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Maksimalna cijena je {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Minimalna cijena su {count} zvjezdice.",
       "key": "lng_gift_sell_min_price",
@@ -18858,6 +19341,51 @@
       "key": "lng_gift_sell_min_price_ton",
       "one_value": "Minimalna cijena je {count} gram.",
       "other_value": "Minimalna cijena je {count} grama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Ova radnja je već poslana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Želite li staviti {name} na prodaju za {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Od cijene se odbija naknada od {percent}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Naknada za stavljanje na prodaju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "{name} bit će na prodaju za {price} čim to mreža potvrdi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} je na prodaju za {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Naknada za povlačenje s prodaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} je već na prodaju. Prvo ga povucite s prodaje, a zatim ga stavite na prodaju po novoj cijeni."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Dobivate"
     },
     {
       "_": "types.LangPackString",
@@ -19097,6 +19625,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Rasprodano!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "prodano"
     },
     {
       "_": "types.LangPackString",
@@ -26663,8 +27196,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Blokiraj bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "Korisnik {user} je blokiran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} vas poziva da koristite ovaj bot čiji je vlasnik {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -29188,6 +29731,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Umetni emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Zadrži izvorni omjer slike"
     },
@@ -31583,6 +32131,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Uredi profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_gift",
       "value": "Poklon"
     },
@@ -31977,6 +32530,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "Pozivnica"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Pozovite u bot"
     },
     {
       "_": "types.LangPackString",
@@ -33737,6 +34295,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_spam_sure",
       "value": "Želite li prijaviti zloupotrebu od ovog korisnika?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Želite li prijaviti zloupotrebu od korisnika {user}, koji vas je pozvao da koristite ovaj bot?"
     },
     {
       "_": "types.LangPackString",
@@ -41969,6 +42532,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Želite li izbrisati ovu skicu priče?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_discard_button",
       "value": "Odbaci"
     },
@@ -42101,6 +42669,11 @@
       "key": "lng_story_limit_count_premium",
       "one_value": "Nažalost, ne možete objaviti više od **{count}** priče u **24** sata.",
       "other_value": "Nažalost, ne možete objaviti više od **{count}** priča u **24** sata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Pretplatite se na **Telegram Premium** kako biste povećali ovaj limit na **{limit}**."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44759,6 +45332,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Pozovi u bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Pridruži se pozivu"
     },
@@ -45245,6 +45823,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Povucite ovaj poklon s prodaje prije prijenosa."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_username_about",
       "value": "Korisničko ime {username} na Telegramu."
     },
@@ -45654,6 +46237,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Premješteno na profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Kupac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Povučeno s prodaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Trošak escrowa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Istječe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Kazna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Stavljeno na prodaju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Nova cijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Ponuda je prihvaćena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Ponuda je otkazana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Ponuda je odbijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Ponuda je istekla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Ponuda je poslana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Stara cijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Cijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Kupljeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Povrat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Promijenjena cijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Prodavač"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Provizija"
     },
     {
       "_": "types.LangPackString",
@@ -46255,6 +46933,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Dolazni prijenos"
     },
@@ -46279,6 +46962,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "premješteno na profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Kupljeno za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Povučeno iz prodaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Stavi na prodaju"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Stavi na prodaju za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Ponuda je prihvaćena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Ponuda je prihvaćena za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Ponuda je otkazana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Ponuda je odbijena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Ponuda je istekla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Ponuda poslana"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Promijenjena cijena na {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -46635,5 +47373,5 @@
       "other_value": "Platili ste {count} zvjezdica."
     }
   ],
-  "version": 6212135
+  "version": 6247516
 }

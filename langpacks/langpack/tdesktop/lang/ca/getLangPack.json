@@ -1203,6 +1203,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{user} ha convidat {from}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} us ha convidat a aquest bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} ha fet {user} el nou propietari del grup."
     },
@@ -1504,6 +1514,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Vau oferir {cost} per {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Heu comprat {name} per {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "S'està completant la compra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "S'està retirant l'oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "L'oferta s'ha rebutjat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Heu rebutjat l'oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "L'oferta ha caducat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "L'oferta ha caducat. El reemborsament és en camí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "L'oferta caduca en\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Penalització retinguda: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Us han ofert {amount} per {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Se us han reemborsat {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Revisa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "S'està completant la venda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Heu venut {name} per {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "L'oferta s'ha retirat."
     },
     {
       "_": "types.LangPackString",
@@ -6995,6 +7080,47 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Els usuaris triats ja tenen un xat amb aquest bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} ja té un xat amb aquest bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Convida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "No s'ha pogut convidar cap dels usuaris triats."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_invite_limit",
+      "one_value": "Podeu convidar fins a {count} usuari alhora.",
+      "other_value": "Podeu convidar fins a {count} usuaris alhora."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "S'han enviat les invitacions."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "S'ha enviat la invitació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Convida al bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Amaga el teclat del bot"
     },
@@ -7191,6 +7317,104 @@
       "_": "types.LangPackString",
       "key": "lng_bot_languages_translating_title",
       "value": "S'està traduint"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Vista prèvia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Afegeix una vista prèvia"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_count",
+      "one_value": "{count} vista prèvia",
+      "other_value": "{count} vistes prèvies"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Elimina la traducció"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Voleu eliminar totes les vistes prèvies d'aquesta llengua?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_delete_many",
+      "one_value": "Voleu eliminar aquesta vista prèvia?",
+      "other_value": "Voleu eliminar aquestes {count} vistes prèvies?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Cap vista prèvia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Aquesta vista prèvia es mostra als usuaris que no tenen una traducció per a la seva llengua."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_intro",
+      "one_value": "Pugeu fins a {count} captura de pantalla o vídeo de demostració per a la vostra miniaplicació.",
+      "other_value": "Pugeu fins a {count} captures de pantalla i vídeos de demostració per a la vostra miniaplicació."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Aquesta vista prèvia es mostra als usuaris que tenen la llengua configurada en {language}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "No s'han pogut carregar les vistes prèvies."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "S'ha publicat la vista prèvia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Arrossegueu les vistes prèvies per a canviar-ne l'ordre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "No s'han pogut actualitzar les vistes prèvies."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "S'estan desant els canvis…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "S'ha actualitzat la vista prèvia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "No s'ha pogut pujar aquesta foto o vídeo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "S'està pujant la vista prèvia…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Usa el fotograma com a portada"
     },
     {
       "_": "types.LangPackString",
@@ -12616,6 +12840,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Retira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Obre"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "Heu retirat {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Consulteu {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Els Grams aniran a la vostra cartera d'autocustòdia ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Retira {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_credits_earn_button",
       "value": "Guanya estrelles amb miniaplicacions"
     },
@@ -17405,6 +17664,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "comprat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "El regal s'ha cremat en la fabricació."
     },
@@ -17412,6 +17676,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "cremat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Aquesta compra ja s'ha enviat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "El regal apareixerà a {path} i al vostre perfil quan es confirmi la compra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} rebrà el regal quan es confirmi la compra."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Continua"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Es mourà un import de {amount} dels guanys de Gram al vostre saldo i s'usarà per a comprar aquest regal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Voleu usar els guanys de Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Aquest regal ja no es troba a la venda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Total"
     },
     {
       "_": "types.LangPackString",
@@ -18169,6 +18483,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Introduïu la quantitat de Grams que voleu oferir per {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Afegeix fons {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Aquesta oferta ja s'ha enviat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Voleu fer aquesta oferta a {user} per {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Trieu quant de temps té el propietari per acceptar la vostra oferta. En caducar, se us reemborsaran els Grams automàticament."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Tarifa de custòdia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "L'oferta caduca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Grams a oferir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Fons insuficients. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "L'oferta màxima és {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "L'oferta mínima és {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "El propietari rebrà"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Tarifa de plataforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Si el propietari rebutja l'oferta o aquesta caduca, se us retornaran els Grams automàticament."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "S'han retingut {amount} fins al {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "S'ha enviat l'oferta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Pagareu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Rebreu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Rebutgeu l'oferta"
     },
@@ -18216,6 +18620,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "A la venda per {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Voleu vendre {name} per {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Confirmeu la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Voleu rebutjar aquesta oferta? Es retornaran els Grams al comprador."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Tarifa de xarxa: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} és a la venda. Retireu-lo de la venda abans d'acceptar una oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Retira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Torneu a provar-ho més tard."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Retirar-la abans d'hora costa {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Retira per {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Se us retornarà la resta dels vostres {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Voleu retirar l'oferta?"
     },
     {
       "_": "types.LangPackString",
@@ -18337,6 +18796,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Per Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Per estrelles"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Del Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Model"
     },
@@ -18445,6 +18919,11 @@
       "other_value": "Rebreu **{count}** Grams."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "El preu màxim és {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price",
       "one_value": "El preu mínim és {count} estrella.",
@@ -18455,6 +18934,51 @@
       "key": "lng_gift_sell_min_price_ton",
       "one_value": "El preu mínim és {count} Gram.",
       "other_value": "El preu mínim són {count} Grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Aquesta operació ja s'ha enviat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Voleu vendre {name} per {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Es dedueix del preu una tarifa del {percent}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Tarifa de publicació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "{name} es posarà a la venda per {price} quan la xarxa ho confirmi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} és a la venda per {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Tarifa de retirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} ja és a la venda. Retireu-lo primer i després torneu-lo a posar a la venda amb el preu nou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Rebreu"
     },
     {
       "_": "types.LangPackString",
@@ -18687,6 +19211,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Esgotat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "venut"
     },
     {
       "_": "types.LangPackString",
@@ -25969,8 +26498,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Bloca el bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "Ara {user} està blocat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} us ha convidat a aquest bot, propietat de {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -28444,6 +28983,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Insereix un emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Mantén la relació d'aspecte original"
     },
@@ -30639,6 +31183,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Edita el perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_gift",
       "value": "Regala"
     },
@@ -31027,6 +31576,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "Enllaç d'invitació"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Convida al bot"
     },
     {
       "_": "types.LangPackString",
@@ -32767,6 +33321,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_spam_sure",
       "value": "Segur que voleu denunciar rebre brossa d'aquest usuari?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Segur que voleu denunciar per brossa {user}, que us ha convidat a aquest bot?"
     },
     {
       "_": "types.LangPackString",
@@ -40882,6 +41441,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Segur que voleu eliminar aquest esborrany d'història?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_discard_button",
       "value": "Descarta"
     },
@@ -41009,6 +41573,11 @@
       "key": "lng_story_limit_count_premium",
       "one_value": "No podeu publicar més d'**{count}** història en **24** hores.",
       "other_value": "No podeu publicar més de **{count}** històries en **24** hores."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Subscriviu-vos al **Telegram Premium** per a augmentar aquest límit a **{limit}**."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43574,6 +44143,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Convida al bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Afegeix-m'hi"
     },
@@ -43956,6 +44530,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Retireu el regal de la venda abans de transferir-lo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_add",
       "value": "Afegeix"
     },
@@ -44204,6 +44783,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Mogut al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Comprador"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Retirat de la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Custòdia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Caducitat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Penalització"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Posat a la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Preu nou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Oferta acceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Oferta cancel·lada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Oferta rebutjada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Oferta caducada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Preu anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Preu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Comprat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Reemborsat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Preu canviat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Venedor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Tarifa del servei"
     },
     {
       "_": "types.LangPackString",
@@ -44651,6 +45325,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Transferència rebuda"
     },
@@ -44674,6 +45353,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "moguda al perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Comprat per {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Retirat de la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Posat a la venda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Posat a la venda per {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Oferta acceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Oferta acceptada per {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Oferta cancel·lada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Oferta rebutjada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Oferta caducada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Preu canviat a {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -44963,5 +45697,5 @@
       "other_value": "Heu pagat {count} estrelles."
     }
   ],
-  "version": 6239457
+  "version": 6248560
 }

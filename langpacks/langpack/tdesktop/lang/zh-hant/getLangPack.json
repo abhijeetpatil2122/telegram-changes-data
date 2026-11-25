@@ -1200,6 +1200,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{user} 邀請了 {from}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} 邀請您使用此機器人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} 將 {user} 任命為此群組的新擁有者。"
     },
@@ -1492,6 +1502,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "您為 {name} 提出了 {cost} 的報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "您以 {amount} 的價格購買了 {name}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "正在完成購買。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "正在撤回報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "報價遭到拒絕。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "您已拒絕報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "報價已失效。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "此報價已失效。您的退款正在處理中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "報價將於 {time} \n後過期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "已扣除 {amount} 的違約金。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "有人報價 {amount} 購買您的 {name}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "已向您退還 {amount}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "查看"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "交易正在完成中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "您以 {amount} 的價格賣出了 {name}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "報價已撤回。"
     },
     {
       "_": "types.LangPackString",
@@ -6970,6 +7055,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "所選用戶已與此機器人開始聊天。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} 已與此機器人開始聊天。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "邀請"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "無法邀請任何所選用戶。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_invite_limit",
+      "other_value": "您一次最多可邀請 {count} 位用戶。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "已送出邀請。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "已送出邀請。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "邀請至機器人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "隱藏機器人鍵盤"
     },
@@ -7162,6 +7287,101 @@
       "_": "types.LangPackString",
       "key": "lng_bot_languages_translating_title",
       "value": "正在翻譯"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "加入預覽"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_count",
+      "other_value": "{count} 個預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "刪除翻譯"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "要刪除此語言的所有預覽媒體嗎？"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_delete_many",
+      "other_value": "要刪除這 {count} 個預覽嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "沒有預覽"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "此預覽會顯示給其語言沒有對應翻譯的用戶。"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_intro",
+      "other_value": "為您的迷你程式上傳最多 {count} 個螢幕截圖或示範影片。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "此預覽會顯示給語言設定為{language}的用戶。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "無法載入預覽媒體。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "預覽已發布。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "拖放預覽以變更其順序。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "無法更新預覽媒體。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "正在儲存變更…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "預覽已更新。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "無法上傳此照片或影片。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "正在上傳預覽…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "將目前畫面設為封面"
     },
     {
       "_": "types.LangPackString",
@@ -12555,6 +12775,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "提取"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "開啟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "已轉出 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "請查看 {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Gram 將轉入您的自主保管錢包（「{menu}」{arrow}「{money}」）。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "提取 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_credits_earn_button",
       "value": "透過迷你程式賺取星星"
     },
@@ -17270,6 +17525,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "已購買"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "此禮物已在製作過程中銷毀。"
     },
@@ -17277,6 +17537,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "已銷毀"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "此購買請求已送出。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "購買確認後，此禮物將顯示在 {path} 及您的個人資料中。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "購買確認後，{user} 將收到此禮物。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "繼續"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "{amount} 將從「Gram 收益」轉入您的餘額，並用於購買此禮物。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "使用 Gram 收益？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "此禮物已不再出售。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "總計"
     },
     {
       "_": "types.LangPackString",
@@ -18025,6 +18335,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "請輸入您願意為 {name} 報價的 Gram 金額。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "儲值 {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "此報價已送出。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "您想為 {name} 向 {user} 提出此報價嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "請選擇物主接受您報價的期限。報價到期後，您的 Gram 將自動退還。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "託管費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "報價失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Gram 報價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "資金不足。{link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "最高報價為 {amount}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "最低報價為 {amount}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "物主將收到"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "平台費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "如果擁有者拒絕您的報價或報價到期，您的 Gram 將自動退還。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "{amount} 將保留至 {date}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "報價已送出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "您將支付"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "您將收到"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "拒絕報價"
     },
@@ -18072,6 +18472,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "售價 {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "您想以 {amount} 的價格出售 {name} 嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "確認出售"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "要拒絕此報價嗎？買家將取回其 Gram。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "網路費用：{amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} 目前已上架。請先將其下架，再接受報價。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "提取"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "請稍後再試。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "提前撤回需支付 {amount}。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "提取 {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "{amount} 中的其餘款項將退還給您。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "撤回報價？"
     },
     {
       "_": "types.LangPackString",
@@ -18190,6 +18645,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "以 Gram 計價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "以星星計價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "來自 Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "型號"
     },
@@ -18294,6 +18764,11 @@
       "other_value": "您將收到 **{count}** Gram。"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "最高價格為 {amount}。"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price",
       "other_value": "最低價格為 {count} 顆星星。"
@@ -18302,6 +18777,51 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price_ton",
       "other_value": "最低價格為 {count} Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "此操作已送出。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "要以 {price} 上架 {name} 嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "將從價格中扣除 {percent} 的費用。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "上架費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "網路確認上架後，{name} 將以 {price} 的價格出售。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} 已以 {price} 的價格上架。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "下架費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} 已上架。請先將其下架，再以新價格重新上架。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "您將收到"
     },
     {
       "_": "types.LangPackString",
@@ -18527,6 +19047,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "售罄！"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "已售出"
     },
     {
       "_": "types.LangPackString",
@@ -25855,8 +26380,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "封鎖機器人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "{user} 現在已被封鎖"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} 邀請您使用 {owner} 擁有的這個機器人。"
     },
     {
       "_": "types.LangPackString",
@@ -28330,6 +28865,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "插入表情符號"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "保持原始寬高比"
     },
@@ -30595,6 +31135,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "編輯簡介"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_gift",
       "value": "禮物"
     },
@@ -30977,6 +31522,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "邀請連結"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "邀請至機器人"
     },
     {
       "_": "types.LangPackString",
@@ -32697,6 +33247,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_spam_sure",
       "value": "您確定要檢舉此用戶的垃圾訊息嗎？"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "您確定要以垃圾訊息為由檢舉邀請您使用此機器人的 {user} 嗎？"
     },
     {
       "_": "types.LangPackString",
@@ -40765,6 +41320,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "您確定要刪除此動態草稿嗎？"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_discard_button",
       "value": "放棄"
     },
@@ -40887,6 +41447,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_story_limit_count_premium",
       "other_value": "抱歉，您在 **24** 小時內最多只能發布 **{count}** 則動態。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "訂閱 **Telegram Premium** 以提高此上限至 **{limit}**。"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -43455,6 +44020,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "邀請至機器人"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "加入通話"
     },
@@ -43935,6 +44505,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "轉讓此禮物前，請先將其下架。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_username_about",
       "value": "Telegram 上的 {username} 用戶名稱。"
     },
@@ -44342,6 +44917,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "已移至個人資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "買家"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "已下架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "託管費用"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "到期"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "違約金"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "上架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "新價格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "報價已接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "報價已取消"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "報價遭到拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "報價已失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "報價已送出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "原價格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "價格"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "已購買"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "退款"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "價格調整"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "賣家"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "服務費"
     },
     {
       "_": "types.LangPackString",
@@ -44935,6 +45605,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "轉入"
     },
@@ -44957,6 +45632,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "已移至個人資料"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "以 {amount} 購買"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "已下架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "上架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "以 {amount} 上架"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "報價已接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "{amount} 的報價已被接受"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "報價已取消"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "報價遭到拒絕"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "報價已失效"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "報價已送出"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "價格調整為 {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -45299,5 +46029,5 @@
       "other_value": "您支付了 {count} 顆星星。"
     }
   ],
-  "version": 6214557
+  "version": 6244984
 }

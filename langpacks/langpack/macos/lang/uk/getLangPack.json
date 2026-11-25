@@ -60,6 +60,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.SpeedFast",
+      "value": "Швидкий"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIStyleModal.AddAuthorLink",
       "value": "Показувати посилання на мій профіль"
     },
@@ -568,6 +573,16 @@
       "_": "types.LangPackString",
       "key": "AddContact.AddNotesPlaceholder",
       "value": "Примітки (бачите тільки ви)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Admin.Actions.Change",
+      "value": "Змінити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Admin.Actions.ChangeSettings",
+      "value": "Змінити налаштування чату?"
     },
     {
       "_": "types.LangPackString",
@@ -1149,6 +1164,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.PickerController.ReasoningEffort",
+      "value": "Рівень зусиль"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.Model",
+      "value": "Модель"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.ReasoningEffort",
+      "value": "Рівень зусиль"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiStylePreview.AddByAuthor",
       "value": "Щоб переписувати повідомлення у цьому стилі від [%1$@](%1$@), додайте його до ШІ-редактора."
     },
@@ -1473,7 +1503,7 @@
     {
       "_": "types.LangPackString",
       "key": "Appearance.Reset",
-      "value": "Скинути на типові"
+      "value": "Скинути до типових"
     },
     {
       "_": "types.LangPackString",
@@ -2488,7 +2518,7 @@
     {
       "_": "types.LangPackString",
       "key": "Bot.InlineAuth.Option.AllowSendMessages",
-      "value": "Дозволити %@ надсилати мені повідомлення"
+      "value": "Дозволити %@ писати мені"
     },
     {
       "_": "types.LangPackString",
@@ -2499,6 +2529,21 @@
       "_": "types.LangPackString",
       "key": "Bot.InlineAuth.Title",
       "value": "Ви дійсно хочете відкрити\n%@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.InvitedYou",
+      "value": "%1$@ запрошує вас до цього бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.YouInvited",
+      "value": "Вас запросили до цього бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.Title",
+      "value": "Запросити до бота"
     },
     {
       "_": "types.LangPackString",
@@ -2554,6 +2599,11 @@
       "_": "types.LangPackString",
       "key": "BotInfo.OpenApp",
       "value": "Відкрити застосунок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.ViewInfo",
+      "value": "Переглянути профіль"
     },
     {
       "_": "types.LangPackString",
@@ -8734,7 +8784,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Error.Microphone",
-      "value": "Telegram потрібен доступ до мікрофона, щоб ви могли диктувати повідомлення. Ви можете надати його в Системних параметрах → Приватність і безпека → Мікрофон."
+      "value": "Telegram потрібен доступ до мікрофона, щоб ви могли диктувати повідомлення. Дозвольте його в Системних параметрах → Приватність і безпека → Мікрофон."
     },
     {
       "_": "types.LangPackString",
@@ -8744,7 +8794,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Input.Dictation.Error.Speech",
-      "value": "Telegram потрібен доступ до розпізнавання мовлення, щоб перетворювати ваш голос на текст. Ви можете надати його в Системних параметрах → Приватність і безпека → Розпізнавання мовлення."
+      "value": "Telegram потрібен доступ до розпізнавання мовлення, щоб перетворювати ваш голос на текст. Ви можете дозволити його в Системних параметрах → Приватність і безпека → Розпізнавання мовлення."
     },
     {
       "_": "types.LangPackString",
@@ -8863,6 +8913,66 @@
       "_": "types.LangPackString",
       "key": "Chat.InputContext.EditQuickReply",
       "value": "Змінити швидкі відповіді"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddToChats",
+      "value": "Додати до Чатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddToNews",
+      "value": "Додати до Новин"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChats",
+      "value": "Додано до Чатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChatsConfirmation",
+      "value": "%1$@ додано до Чатів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToNews",
+      "value": "Додано до Новин"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToNewsConfirmation",
+      "value": "%1$@ додано до Новин."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.DoNotNotify",
+      "value": "Не сповіщати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.Notify",
+      "value": "Сповіщати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemoveFromChats",
+      "value": "Вилучити з Чатів"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemoveFromNews",
+      "value": "Вилучити з Новин"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemovedFromChatsConfirmation",
+      "value": "%1$@ приховано з Чатів."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemovedFromNewsConfirmation",
+      "value": "%1$@ приховано з Новин."
     },
     {
       "_": "types.LangPackString",
@@ -10488,7 +10598,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Service.Offer.ExpiredYou",
-      "value": "Пропозиція продати **%1$@** ваш **%2$@** за %3$@ застаріла."
+      "value": "Пропозиція **%1$@** купити ваш **%2$@** за %3$@ застаріла."
     },
     {
       "_": "types.LangPackString",
@@ -10523,7 +10633,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Service.Offer.RejectedYou",
-      "value": "Пропозицію продати **%1$@** ваш **%2$@** за %3$@ скасовано."
+      "value": "Пропозицію **%1$@** купити ваш **%2$@** за %3$@ відхилено."
     },
     {
       "_": "types.LangPackString",
@@ -10904,7 +11014,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.Service.SuggestPost.Status.Rejected.LowBalanceTitle",
-      "value": "⚠️ Операція не відбулася"
+      "value": "⚠️ Угоду не виконано"
     },
     {
       "_": "types.LangPackString",
@@ -11957,7 +12067,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatEmpty.BusinessLink.Text",
-      "value": "Додайте текст, який зʼявиться в полі для вводу у всіх, хто почне чат за цим посиланням:"
+      "value": "Додайте текст, який зʼявиться в полі введення у всіх, хто почне чат за цим посиланням:"
     },
     {
       "_": "types.LangPackString",
@@ -14305,7 +14415,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatService.GiftOffer.ExpiredOutgoing",
-      "value": "Пропозиція продати **%1$@** ваш **%2$@** за **%3$@** застаріла."
+      "value": "Пропозиція **%1$@** купити ваш **%2$@** за %3$@ застаріла."
     },
     {
       "_": "types.LangPackString",
@@ -14315,7 +14425,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatService.GiftOffer.RejectedOutgoing",
-      "value": "Пропозицію продати **%1$@** ваш **%2$@** за %3$@ відхилено."
+      "value": "Пропозицію **%1$@** купити ваш **%2$@** за %3$@ відхилено."
     },
     {
       "_": "types.LangPackString",
@@ -16519,7 +16629,7 @@
     {
       "_": "types.LangPackString",
       "key": "CrashRecovery.UpToDate",
-      "value": "Ви маєте останню версію."
+      "value": "Встановлено останню версію"
     },
     {
       "_": "types.LangPackString",
@@ -22001,7 +22111,7 @@
     {
       "_": "types.LangPackString",
       "key": "Group.TransferOwner.ErrorPrivacyRestricted",
-      "value": "Цей користувач не є учасником групи, і ви не можете додати його через його налаштування конфіденційності."
+      "value": "Цей користувач не є учасником групи, і ви не можете додати його через його налаштування приватності."
     },
     {
       "_": "types.LangPackString",
@@ -24976,6 +25086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessagesActions.Allow",
+      "value": "Дозволити"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessagesPrivacy.ChargeforMessages",
       "value": "Платні повідомлення"
     },
@@ -25295,7 +25410,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.TransactionInfo.Failed",
-      "value": "Помилка"
+      "value": "Не виконано"
     },
     {
       "_": "types.LangPackString",
@@ -26038,6 +26153,36 @@
       "_": "types.LangPackString",
       "key": "NewTodo.Toggle.OthersCanComplete",
       "value": "Інші можуть позначати задачі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Compact",
+      "value": "Компактно"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Expanded",
+      "value": "Розгорнуто"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.ReloadFeed",
+      "value": "Оновити стрічку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Collapse",
+      "value": "Згорнути"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Expand",
+      "value": "Розгорнути"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Interesting",
+      "value": "Цікаво"
     },
     {
       "_": "types.LangPackString",
@@ -28261,7 +28406,7 @@
     {
       "_": "types.LangPackString",
       "key": "PeerInfo.BotPermissions.Header",
-      "value": "НАДАТИ ДОЗВІЛ ДО"
+      "value": "ДОСТУПИ БОТА"
     },
     {
       "_": "types.LangPackString",
@@ -31280,7 +31425,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.HideReadTime.Info",
-      "value": "Приховувати час, коли ви читаєте повідомлення, від людей, які не можуть бачити ваш час активності."
+      "value": "Приховувати час прочитання повідомлень від людей, які не можуть бачити ваш час активності.\n\nБез Premium ви не бачитимете час прочитання одне одного. З Premium ви бачитимете час прочитання людей, які діляться ним з вами.\n\nЦе налаштування не впливає на групові чати."
     },
     {
       "_": "types.LangPackString",
@@ -31335,7 +31480,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettings.LoginEmailSetupInfo",
-      "value": "Вкажіть вашу адресу ел. пошти для отримання кодів для входу в Telegram."
+      "value": "Вкажіть свою адресу ел. пошти для отримання кодів для входу в Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -31595,7 +31740,7 @@
     {
       "_": "types.LangPackString",
       "key": "PrivacySettingsController.LastSeenDescription",
-      "value": "Якщо ви не є Premium-користувачем, ви не побачите часу активності чи статусу «в мережі» людей, які не можуть бачити ваших. Замість цього показуватиметься приблизний час (недавно, упродовж тижня, упродовж місяця)."
+      "value": "Без Premium ви не зможете бачити точний час активності людей, від яких приховуєте свій. Натомість показуватиметься приблизний час (недавно, упродовж тижня, упродовж місяця).\n\nЗ Premium ви зможете бачити точний час активності людей, які діляться ним з вами, — навіть якщо приховуєте свій."
     },
     {
       "_": "types.LangPackString",
@@ -33587,7 +33732,7 @@
     {
       "_": "types.LangPackString",
       "key": "SecureId.Accept.Policy",
-      "value": "Ви приймаєте [Login Widget Example Privacy Policy](_applyPolicy_) та дозволяєте боту **%@** надсилати вам повідомлення."
+      "value": "Ви приймаєте [Політику конфіденційності демонстраційного віджета авторизації](_applyPolicy_) та дозволяєте боту **%@** писати вам."
     },
     {
       "_": "types.LangPackString",
@@ -33955,7 +34100,7 @@
     {
       "_": "types.LangPackString",
       "key": "SecureId.EmptyDescription.Address",
-      "value": "Надайте вашу адресу"
+      "value": "Вкажіть свою адресу"
     },
     {
       "_": "types.LangPackString",
@@ -34390,7 +34535,7 @@
     {
       "_": "types.LangPackString",
       "key": "SecureId.Request.Permission.Email.Empty",
-      "value": "Надайте вашу контактну ел. пошту"
+      "value": "Вкажіть свою контактну ел. пошту"
     },
     {
       "_": "types.LangPackString",
@@ -34435,7 +34580,7 @@
     {
       "_": "types.LangPackString",
       "key": "SecureId.Request.Permission.Phone.Empty",
-      "value": "Надайте ваш контактний номер телефону"
+      "value": "Вкажіть свій контактний номер телефону"
     },
     {
       "_": "types.LangPackString",
@@ -37368,7 +37513,7 @@
     {
       "_": "types.LangPackString",
       "key": "Star.Nft.Tooltip.Worn",
-      "value": "Ви надягнули %@"
+      "value": "Ви наділи %@"
     },
     {
       "_": "types.LangPackString",
@@ -38211,7 +38356,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarGift.Offer.ConfirmTitle",
-      "value": "Прийняти пропозицію"
+      "value": "Підтвердження умов"
     },
     {
       "_": "types.LangPackString",
@@ -38231,7 +38376,7 @@
     {
       "_": "types.LangPackString",
       "key": "StarGift.Offer.DurationDescription",
-      "value": "Виберіть, скільки часу матиме **%1$@**, щоб прийняти вашу пропозицію. Коли час спливе, ваші %2$@ буде автоматично повернуто."
+      "value": "Виберіть, скільки часу матиме **%1$@**, щоб прийняти пропозицію. Коли строк спливе, %2$@ повернуться вам автоматично."
     },
     {
       "_": "types.LangPackString",
@@ -38252,6 +38397,31 @@
       "_": "types.LangPackString",
       "key": "StarGift.OnBlockchain.Info",
       "value": "Подарунок зберігається у блокчейні TON. [Переглянути >]()"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.CancellationFee",
+      "value": "Комісія за скасування: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.GramsToOffer",
+      "value": "Пропозиція в GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.InsufficientFunds",
+      "value": "Недостатньо коштів. [%1$@ ›](deposit)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferAccepted",
+      "value": "Ви приймаєте пропозицію"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferWithdrawn",
+      "value": "Пропозицію відкликано."
     },
     {
       "_": "types.LangPackString",
@@ -40217,6 +40387,282 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationCoverController.SaveCover",
+      "value": "Зберегти обкладинку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationCoverController.StoryCover",
+      "value": "Обкладинка історії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.All",
+      "value": "Усі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Blue",
+      "value": "Синій"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Brightness",
+      "value": "Яскравість"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Contrast",
+      "value": "Контраст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Enhance",
+      "value": "Покращити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Fade",
+      "value": "Затемнення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Grain",
+      "value": "Зернистість"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Green",
+      "value": "Зелений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Highlights",
+      "value": "Світло"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Linear",
+      "value": "Лінійне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Off",
+      "value": "Немає"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Radial",
+      "value": "Радіальне"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Red",
+      "value": "Червоний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Saturation",
+      "value": "Затемнення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Shadows",
+      "value": "Тіні"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Vignette",
+      "value": "Віньєтування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Warmth",
+      "value": "Теплота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Adjustments",
+      "value": "Корекція"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Audio",
+      "value": "Аудіо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.CaptureMode",
+      "value": "Режим запису"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.ChooseMedia",
+      "value": "Вибрати медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.ClipVolume",
+      "value": "Гучність відрізка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Collage",
+      "value": "Колаж"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Колаж · %1$d / %2$d",
+      "key": "Story.CreationView.CollageProgress",
+      "many_value": "Колаж · %1$d / %2$d",
+      "one_value": "Колаж · %1$d / %2$d",
+      "other_value": "Колаж · %1$d / %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Crop",
+      "value": "Обрізати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Drafts",
+      "value": "Чернетки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DragTilesToReorder",
+      "value": "Перетягуйте плитки, щоб змінити порядок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Draw",
+      "value": "Малюнок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DropMediaToImport",
+      "value": "Перетягніть медіа, щоб імпортувати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DualCamera",
+      "value": "Подвійна камера"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.EditCollage",
+      "value": "Змінити колаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.EnableCamera",
+      "value": "Увімкнути камеру"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Покращити  %1$d",
+      "key": "Story.CreationView.EnhanceValue",
+      "many_value": "Покращити  %1$d",
+      "one_value": "Покращити  %1$d",
+      "other_value": "Покращити  %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Link",
+      "value": "Посилання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Mute",
+      "value": "Прибрати звук"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Pause",
+      "value": "Пауза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PauseClip",
+      "value": "Призупинити відео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Play",
+      "value": "Відтворити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PlayClip",
+      "value": "Відтворити відео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PositionAndZoom",
+      "value": "Перетягніть для зміни положення · Прокрутіть для зміни масштабу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.RecordVideoNote",
+      "value": "Записати відеоповідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.RemoveVideoNote",
+      "value": "Видалити відеоповідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.SaveMedia",
+      "value": "Зберегти медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.SoundtrackVolume",
+      "value": "Гучність звуку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Stickers",
+      "value": "Наліпки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StopVideoNote",
+      "value": "Зупинити відеоповідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StoryCaption",
+      "value": "Опис історії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StoryDuration",
+      "value": "Строк показу історії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StoryPreview",
+      "value": "Передогляд історії"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.SwitchCamera",
+      "value": "Перемкнути камеру"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Text",
+      "value": "Текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Unmute",
+      "value": "Відновити звук"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Error.NotExist",
       "value": "Ця історія більше недоступна"
     },
@@ -40339,6 +40785,21 @@
       "_": "types.LangPackString",
       "key": "Story.Location.Title",
       "value": "Місцезнаходження"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.LocationChoices.City",
+      "value": "Місто"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.LocationChoices.Location",
+      "value": "Місце"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.LocationChoices.Street",
+      "value": "Вулиця"
     },
     {
       "_": "types.LangPackString",
@@ -40605,6 +41066,330 @@
       "_": "types.LangPackString",
       "key": "Story.Widget.OpenGift",
       "value": "Відкрити подарунок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Blue",
+      "value": "Синій"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Blur",
+      "value": "Розмиття"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Curves",
+      "value": "Криві"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Cyan",
+      "value": "Блакитний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Green",
+      "value": "Зелений"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.None",
+      "value": "Немає"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Orange",
+      "value": "Помаранчевий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Purple",
+      "value": "Фіолетовий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Red",
+      "value": "Червоний"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Tint",
+      "value": "Відтінок"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.TintIntensity",
+      "value": "Насиченість відтінку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Yellow",
+      "value": "Жовтий"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.LockRecording",
+      "value": "Записувати без утримання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.RecordVideo",
+      "value": "Записати відео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.RecordingDuration",
+      "value": "Тривалість запису"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.AddAudio",
+      "value": "Додати аудіо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.AudioOpenFailed",
+      "value": "Telegram не вдалося відкрити цей аудіофайл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessOff",
+      "value": "Доступ до камери вимкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessRequired",
+      "value": "Щоб записувати історії, дозвольте Telegram використовувати камеру в Системних параметрах."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFiles",
+      "value": "Виберіть файли…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFromPhotos",
+      "value": "Вибрати з Фотографій…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageClipTrim",
+      "value": "Обрізати відрізок у колажі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageFileLimit",
+      "value": "Виберіть кількість файлів, що не перевищує кількість вільних місць у колажі."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d стовпці",
+      "key": "StoryCreationController.Columns",
+      "many_value": "%1$d стовпців",
+      "one_value": "%1$d стовпець",
+      "other_value": "%1$d стовпців"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CombineCamerasFailed",
+      "value": "Telegram не вдалося обʼєднати зображення з обох камер. Знімок з однієї камери готовий до редагування."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ConnectDualCamera",
+      "value": "Підʼєднайте ще одну камеру для режиму «Подвійна камера»"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardCollage",
+      "value": "Прибрати колаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardStoryConfirmation",
+      "value": "Відхилити чернетку історії?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DualCamera",
+      "value": "Подвійна камера"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DualCameraOpenFailed",
+      "value": "Telegram не вдалося відкрити обидві камери одночасно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EditAudio",
+      "value": "Змінити аудіо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EditCameraInset",
+      "value": "Змінити вставку камери"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Змінити плитку %1$d",
+      "key": "StoryCreationController.EditTile",
+      "many_value": "Змінити плитку %1$d",
+      "one_value": "Змінити плитку %1$d",
+      "other_value": "Змінити плитку %1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.EnableCameraOrChooseMedia",
+      "value": "Увімкніть камеру або виберіть медіа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.JoinRecordingsFailed",
+      "value": "Telegram не вдалося обʼєднати записи з камери. Відрізки доступні окремо."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Link",
+      "value": "Посилання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.MediaOpenFailed",
+      "value": "Telegram не вдалося відкрити це фото чи відео."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.MoveAudioToPlayhead",
+      "value": "Перемістити аудіо до курсора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.NoCameraAvailable",
+      "value": "Камера недоступна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Off",
+      "value": "Вимк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.On",
+      "value": "Увімк."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.OpeningCamera",
+      "value": "Увімкнення камери…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Photo",
+      "value": "Фото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.PhotosImportFailed",
+      "value": "Telegram не вдалося імпортувати вибрані елементи з Фотографій."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.PhotosImportPartiallyFailed",
+      "value": "Не вдалося імпортувати деякі елементи з Фотографій."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RecordingZoomFailed",
+      "value": "Telegram не вдалося застосувати масштабування до запису. Початковий запис готовий до редагування."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveAudio",
+      "value": "Прибрати аудіо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveCameraInset",
+      "value": "Видалити вставку камери"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveLastTile",
+      "value": "Відхилити останню плитку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveVideoNote",
+      "value": "Видалити це відеоповідомлення?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ReplaceAudio",
+      "value": "Замінити аудіо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RestoreCameraInset",
+      "value": "Відновити вставку камери"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d рядки",
+      "key": "StoryCreationController.Rows",
+      "many_value": "%1$d рядків",
+      "one_value": "%1$d рядок",
+      "other_value": "%1$d рядків"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraft",
+      "value": "Зберегти чернетку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraftConfirmation",
+      "value": "Зберегти історію як чернетку?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SaveDraftFailed",
+      "value": "Telegram не вдалося зберегти чернетку історії."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.SoundtrackTrim",
+      "value": "Обрізати звукову доріжку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Video",
+      "value": "Відео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraAccessRequired",
+      "value": "Щоб записувати відеоповідомлення, дозвольте Telegram доступ до камери."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraUnavailable",
+      "value": "Не знайдено камери для запису відеоповідомлення."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteRecordingFailed",
+      "value": "Telegram не вдалося записати це відеоповідомлення."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteTimeline",
+      "value": "Доріжка відеоповідомлення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoRecordingFailed",
+      "value": "Telegram не вдалося записати відео. Спробуйте ще раз."
     },
     {
       "_": "types.LangPackString",
@@ -41111,6 +41896,11 @@
       "_": "types.LangPackString",
       "key": "StorySearch.Subtitle_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealth.Actions.StealthModeTitle",
+      "value": "Анонімний режим"
     },
     {
       "_": "types.LangPackString",
@@ -44261,7 +45051,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.ScreenShare.Unavailable",
-      "value": "Демонстрація екрана неможлива. Надайте доступ до екрана в [Системних параметрах](screen)."
+      "value": "Демонстрація екрана неможлива. Дозвольте доступ до екрана в [Системних параметрах](screen)."
     },
     {
       "_": "types.LangPackString",
@@ -44406,12 +45196,12 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.Settings.PushToTalk.Access",
-      "value": "Щоб гаряча клавіша працювала завжди, навіть коли вікно Telegram не сфокусоване\nНадайте Telegram доступ до [«Контролю входу»](input)"
+      "value": "Щоб гаряча клавіша працювала завжди, навіть коли вікно Telegram не сфокусоване, дозвольте Telegram доступ до [Контролю входу](input)"
     },
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.Settings.PushToTalk.Access.Old",
-      "value": "Дозвольте **Доступність** для Telegram у системних параметрах приватності.\n\nМоже знадобитися перезапуск програми."
+      "value": "Дозвольте **Доступність** для Telegram у системних параметрах [Приватності](access).\n\nМожливо, доведеться перезапустити програму."
     },
     {
       "_": "types.LangPackString",
@@ -44872,7 +45662,7 @@
     {
       "_": "types.LangPackString",
       "key": "VoiceChat.VideoShare.Unavailable",
-      "value": "Неможливо увімкнути відео. Надайте доступ до камери в [Системних параметрах](camera)."
+      "value": "Неможливо увімкнути відео. Дозвольте доступ до камери в [Системних параметрах](camera)."
     },
     {
       "_": "types.LangPackString",
@@ -48128,7 +48918,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.ImportController.SecretPhraseInfo",
-      "value": "Введіть секретну фразу вашого гаманця, щоб продовжити."
+      "value": "Щоб продовжити, введіть секретну фразу вашого гаманця. "
     },
     {
       "_": "types.LangPackString",
@@ -48736,7 +49526,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SendController.TransferFailedTitle",
-      "value": "Переказ не виконано"
+      "value": "Переказ не здійснено"
     },
     {
       "_": "types.LangPackString",
@@ -49125,6 +49915,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CancellationFine",
+      "value": "Штраф за відкликання"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.CollectibleGift",
       "value": "Колекційний подарунок"
     },
@@ -49309,7 +50104,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.TransferFailedTitle",
-      "value": "Переказ не виконано"
+      "value": "Переказ не здійснено"
     },
     {
       "_": "types.LangPackString",
@@ -49408,6 +50203,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferAccepted",
+      "value": "Пропозицію прийнято"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferCancelled",
+      "value": "Пропозицію скасовано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferDeclined",
+      "value": "Пропозицію відхилено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferExpired",
+      "value": "Пропозиція застаріла"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferSent",
+      "value": "Пропозицію надіслано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OnChainGift",
+      "value": "Подарунок в блокчейні"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "Надісланий колекційний предмет"
     },
@@ -49423,8 +50248,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Purchased",
+      "value": "Придбано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSale",
+      "value": "Виставлено на продаж"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSaleFor",
+      "value": "Виставлено на продаж за %1$@ GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Received",
+      "value": "Отримано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.RemovedFromSale",
+      "value": "Знято з продажу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Repriced",
+      "value": "Ціну змінено з %1$@ на %2$@ GRAM"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Sending",
       "value": "Надсилання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Sent",
+      "value": "Надіслано"
     },
     {
       "_": "types.LangPackString",
@@ -49561,6 +50421,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletCreating",
+      "value": "Ваш гаманець ще створюється. Трохи зачекайте й спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawOffer",
+      "value": "Відкликати пропозицію?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawOfferConfirmation",
+      "value": "Відкликати пропозицію купити **%2$@** за **%1$@**?\n\nПовернуті кошти стануть видимі після підтвердження в блокчейні."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallpaper.Background.NoApplyToPeer",
       "value": "%1$@ також зможе встановити ці шпалери"
     },
@@ -49597,17 +50472,17 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.Access.Allow",
-      "value": "Надати"
+      "value": "Дозволити"
     },
     {
       "_": "types.LangPackString",
       "key": "WebApp.Access.Audio",
-      "value": "Ви дійсно хочете надати %@ доступ до мікрофона?"
+      "value": "Ви впевнені, що хочете дозволити %@ доступ до мікрофона?"
     },
     {
       "_": "types.LangPackString",
       "key": "WebApp.Access.AudioVideo",
-      "value": "Ви дійсно хочете надати %@ доступ до мікрофона й камери?"
+      "value": "Ви впевнені, що хочете дозволити %@ доступ до мікрофона й камери?"
     },
     {
       "_": "types.LangPackString",
@@ -49617,7 +50492,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.Access.Video",
-      "value": "Ви дійсно хочете надати %@ доступ до камери?"
+      "value": "Ви впевнені, що хочете дозволити %@ доступ до камери?"
     },
     {
       "_": "types.LangPackString",
@@ -49687,7 +50562,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.FirstOpen.Info",
-      "value": "Бот %@ пропонує продовжити роботу на вебсторінці.\n\nВін зможе дізнатися вашу IP-адресу та характеристики пристрою."
+      "value": "%@ пропонує продовжити роботу на вебсторінці.\n\nБот отримає доступ до вашої IP-адреси та характеристик пристрою."
     },
     {
       "_": "types.LangPackString",
@@ -50470,5 +51345,5 @@
       "value": "Показувати заміни"
     }
   ],
-  "version": 2472388
+  "version": 2496323
 }

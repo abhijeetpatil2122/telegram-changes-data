@@ -1183,6 +1183,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{from} προσκλήθηκε από {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} σας προσκάλεσε σε αυτό το bot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} όρισε τον χρήστη {user} νέο ιδιοκτήτη της ομάδας."
     },
@@ -1464,6 +1474,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Προσφέρατε {cost} για το {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Αγοράσατε το {name} για {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Η αγορά ολοκληρώνεται."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Η πρόταση αποσύρεται."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Η πρόταση απορρίφθηκε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Απορρίψατε την πρόταση."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Η πρόταση έληξε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Η πρόταση έληξε. Τα Gram σας επιστρέφονται."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Η πρόταση λήγει σε\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Κρατήθηκε πρόστιμο {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Λάβατε πρόταση αγοράς του {name} για {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Σας επιστράφηκε ποσό {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Εξέταση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Η πώληση ολοκληρώνεται."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Πουλήσατε το {name} για {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Η πρόταση αποσύρθηκε."
     },
     {
       "_": "types.LangPackString",
@@ -6664,6 +6749,102 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about",
+      "value": "Περιγραφή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Εμφανίζεται στο προφίλ του bot και κατά την κοινοποίησή του."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_placeholder",
+      "value": "Σύντομη περιγραφή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_ai",
+      "value": "Αναδιατύπωση με AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Χρήση προεπιλογής"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro",
+      "value": "Εισαγωγή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Εμφανίζεται στην κενή συνομιλία πριν ο χρήστης ξεκινήσει το bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_placeholder",
+      "value": "Τι μπορεί να κάνει αυτό το bot;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name",
+      "value": "Όνομα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name_placeholder",
+      "value": "Όνομα bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_saved",
+      "value": "Οι πληροφορίες του bot ενημερώθηκαν."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Οι επιλεγμένοι χρήστες έχουν ήδη συνομιλία με αυτό το bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} έχει ήδη συνομιλία με αυτό το bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Πρόσκληση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Δεν ήταν δυνατή η πρόσκληση κανενός από τους επιλεγμένους χρήστες."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_invite_limit",
+      "one_value": "Μπορείτε να προσκαλείτε έως {count} χρήστη κάθε φορά.",
+      "other_value": "Μπορείτε να προσκαλείτε έως {count} χρήστες κάθε φορά."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Οι προσκλήσεις στάλθηκαν."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Η πρόσκληση στάλθηκε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Πρόσκληση στο bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Απόκρυψη πληκτρολογίου bot"
     },
@@ -6671,6 +6852,293 @@
       "_": "types.LangPackString",
       "key": "lng_bot_keyboard_show",
       "value": "Εμφάνιση πληκτρολογίου bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_add",
+      "value": "Προσθήκη γλώσσας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_apply_confirm",
+      "value": "Εφαρμογή"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_apply_sure",
+      "one_value": "{count} αλλαγή θα γίνει αμέσως ορατή σε όλους τους χρήστες του bot.",
+      "other_value": "{count} αλλαγές θα γίνουν αμέσως ορατές σε όλους τους χρήστες του bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_applying",
+      "value": "Εφαρμογή αλλαγών: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Περιμένετε να ολοκληρωθεί η τρέχουσα διαδικασία."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_default",
+      "value": "Προεπιλογή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Απόρριψη αλλαγών"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_export",
+      "value": "Εξαγωγή σε αρχείο…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_exported",
+      "value": "Οι γλώσσες εξήχθησαν."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "Μη έγκυρος κωδικός γλώσσας: {code}. Χρησιμοποιήστε default ή δύο πεζά λατινικά γράμματα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Ορίστηκε δύο φορές: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_key",
+      "value": "Άγνωστο κλειδί: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Το αρχείο είναι πολύ μεγάλο."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Αυτό το αρχείο εξήχθη για το @{bot}. Θέλετε να το εισαγάγετε ούτως ή άλλως;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot_confirm",
+      "value": "Εισαγωγή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_read",
+      "value": "Δεν ήταν δυνατή η ανάγνωση του αρχείου."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Το αρχείο πρέπει να περιέχει ένα αντικείμενο με όνομα languages, με ένα αντικείμενο για κάθε γλώσσα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Η τιμή πρέπει να είναι συμβολοσειρά: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "Μη έγκυρο JSON στη γραμμή {line}, στήλη {column}: {error}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_write",
+      "value": "Δεν ήταν δυνατή η αποθήκευση του αρχείου."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_import",
+      "value": "Εισαγωγή από αρχείο…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported",
+      "one_value": "Εισήχθη {count} αλλαγή.",
+      "other_value": "Εισήχθησαν {count} αλλαγές."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "Το αρχείο δεν περιέχει κάτι νέο."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported_problems",
+      "one_value": "{count} γλώσσα χρειάζεται προσοχή.",
+      "other_value": "{count} γλώσσες χρειάζονται προσοχή."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_loading",
+      "value": "Έλεγχος μεταφράσεων: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paste",
+      "value": "Επικόλληση από το πρόχειρο"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "Παύση λόγω ορίων διακομιστή, συνέχεια σε {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Διακοπή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Διακόπηκε λόγω ορίων του διακομιστή. Δοκιμάστε ξανά αργότερα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Μετάφραση σε…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Οι μεταφράσεις προστίθενται ως μη αποθηκευμένες αλλαγές. Ελέγξτε τις πριν από την αποθήκευση."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_button",
+      "value": "Μετάφραση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_failed",
+      "value": "Η μετάφραση απέτυχε. Δοκιμάστε ξανά αργότερα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Μετάφραση σε"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_translated",
+      "one_value": "Μεταφράστηκε {count} γλώσσα. Ελέγξτε τη μετάφραση πριν από την αποθήκευση.",
+      "other_value": "Μεταφράστηκαν {count} γλώσσες. Ελέγξτε τις μεταφράσεις πριν από την αποθήκευση."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating",
+      "value": "Μετάφραση: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Μετάφραση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Προεπισκόπηση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Προσθήκη προεπισκόπησης"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_count",
+      "one_value": "{count} προεπισκόπηση",
+      "other_value": "{count} προεπισκοπήσεις"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Διαγραφή μετάφρασης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Θέλετε να διαγράψετε όλα τα πολυμέσα προεπισκόπησης για αυτή τη γλώσσα;"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_delete_many",
+      "one_value": "Διαγραφή αυτής της προεπισκόπησης;",
+      "other_value": "Διαγραφή {count} προεπισκοπήσεων;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Καμία προεπισκόπηση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Αυτή η προεπισκόπηση εμφανίζεται στους χρήστες των οποίων η γλώσσα δεν έχει μετάφραση."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_intro",
+      "one_value": "Ανεβάστε έως {count} στιγμιότυπο οθόνης ή βίντεο επίδειξης για τη μίνι εφαρμογή σας.",
+      "other_value": "Ανεβάστε έως {count} στιγμιότυπα οθόνης και βίντεο επίδειξης για τη μίνι εφαρμογή σας."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Αυτή η προεπισκόπηση εμφανίζεται στους χρήστες που χρησιμοποιούν την εφαρμογή στα {language}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Δεν ήταν δυνατή η φόρτωση των προεπισκοπήσεων."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Η προεπισκόπηση δημοσιεύτηκε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Σύρετε τις προεπισκοπήσεις για να αλλάξετε τη σειρά."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Δεν ήταν δυνατή η ενημέρωση των πολυμέσων προεπισκόπησης."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Αποθήκευση αλλαγών…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Η προεπισκόπηση ενημερώθηκε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Δεν ήταν δυνατή η μεταφόρτωση αυτής της φωτογραφίας ή του βίντεο."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Μεταφόρτωση προεπισκόπησης…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Χρήση τρέχοντος καρέ ως εξωφύλλου"
     },
     {
       "_": "types.LangPackString",
@@ -6801,6 +7269,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Κοινοποίηση μηνύματος"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Δεν φορτώθηκαν τα πολυμέσα για κοινοποίηση."
     },
     {
       "_": "types.LangPackString",
@@ -10149,6 +10622,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_contacts_selected",
+      "one_value": "Επιλέχθηκε {count} επαφή",
+      "other_value": "Επιλέχθηκαν {count} επαφές"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_contacts_stories_status",
       "one_value": "{count} ιστορία",
       "other_value": "{count} ιστορίες"
@@ -11666,6 +12145,41 @@
       "_": "types.LangPackString",
       "key": "lng_credits_currency_summary_title",
       "value": "Υπόλοιπο Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Ανάληψη"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Δοκιμάστε ξανά αργότερα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Άνοιγμα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "Κάνατε ανάληψη {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Ελέγξτε: {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Τα Gram θα μεταφερθούν στο πορτοφόλι σας ({menu} {arrow} {money}), που ελέγχετε μόνο εσείς."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Ανάληψη {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -16098,6 +16612,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "αγοράστηκε"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Αυτό το δώρο καταναλώθηκε σε σύνθεση."
     },
@@ -16105,6 +16624,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "καταναλώθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Αυτή η αγορά έχει ήδη σταλεί."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Το δώρο θα εμφανιστεί στην ενότητα {path} και στο προφίλ σας μόλις επιβεβαιωθεί η αγορά."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} θα λάβει το δώρο μόλις επιβεβαιωθεί η αγορά."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Συνέχεια"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Το ποσό {amount} θα μεταφερθεί από τα κέρδη Gram στο υπόλοιπό σας και θα χρησιμοποιηθεί για την αγορά αυτού του δώρου."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Χρήση κερδών Gram;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Δοκιμάστε ξανά αργότερα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Τέλη gas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Αυτό το δώρο δεν διατίθεται πλέον προς πώληση."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Σύνολο"
     },
     {
       "_": "types.LangPackString",
@@ -16805,6 +17374,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Εισαγάγετε πόσα Gram θέλετε να προσφέρετε για το δώρο {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Προσθήκη χρημάτων {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Αυτή η πρόταση έχει ήδη σταλεί."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Θέλετε να κάνετε αυτή την πρόταση σε {user} για το δώρο {name};"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Επιλέξτε πόσο χρόνο έχει ο ιδιοκτήτης για να αποδεχτεί την πρότασή σας. Όταν λήξει, τα Gram σας θα επιστραφούν αυτόματα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Χρέωση μεσεγγύησης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Λήξη πρότασης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Ποσό σε Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Ανεπαρκές υπόλοιπο. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Η μέγιστη πρόταση είναι {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Η ελάχιστη πρόταση είναι {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Στον ιδιοκτήτη"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Χρέωση πλατφόρμας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Αν ο ιδιοκτήτης απορρίψει την πρότασή σας ή αυτή λήξει, τα Gram σας θα επιστραφούν αυτόματα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "Το ποσό {amount} δεσμεύεται έως {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Η πρόταση στάλθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Πληρώνετε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Λαμβάνετε"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Απόρριψη πρότασης"
     },
@@ -16852,6 +17511,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "Πωλείται για {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Θέλετε να πουλήσετε το {name} για {amount};"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Επιβεβαίωση πώλησης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Θέλετε να απορρίψετε την πρόταση; Τα Gram θα επιστραφούν στον αγοραστή."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Τέλος δικτύου: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "Το δώρο {name} διατίθεται προς πώληση. Αποσύρετέ το από την πώληση πριν αποδεχτείτε μια πρόταση."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Απόσυρση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Δοκιμάστε ξανά αργότερα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Η πρόωρη απόσυρση κοστίζει {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Απόσυρση για {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Το υπόλοιπο του ποσού {amount} θα σας επιστραφεί."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Απόσυρση πρότασης;"
     },
     {
       "_": "types.LangPackString",
@@ -16968,6 +17682,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Για Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Για αστέρια"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Από το Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Μοντέλο"
     },
@@ -17061,6 +17790,11 @@
       "other_value": "Θα λάβετε **{count}** Gram."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Η μέγιστη τιμή είναι {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price",
       "one_value": "Η ελάχιστη τιμή είναι {count} αστέρι.",
@@ -17071,6 +17805,51 @@
       "key": "lng_gift_sell_min_price_ton",
       "one_value": "Η ελάχιστη τιμή είναι {count} Gram.",
       "other_value": "Η ελάχιστη τιμή είναι {count} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Αυτή η ενέργεια έχει ήδη σταλεί."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Θέλετε να διαθέσετε το {name} προς πώληση για {price};"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Από την τιμή αφαιρείται χρέωση {percent}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Χρέωση καταχώρισης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "Το δώρο {name} θα διατεθεί προς πώληση για {price} μόλις το δίκτυο επιβεβαιώσει την καταχώριση."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "Το δώρο {name} διατίθεται προς πώληση για {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Χρέωση απόσυρσης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "Το δώρο {name} διατίθεται ήδη προς πώληση. Αποσύρετέ το πρώτα από την πώληση και έπειτα διαθέστε το ξανά με τη νέα τιμή."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Λαμβάνετε"
     },
     {
       "_": "types.LangPackString",
@@ -17298,6 +18077,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Εξαντλήθηκε!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "πουλήθηκε"
     },
     {
       "_": "types.LangPackString",
@@ -21822,6 +22606,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_logout_add_account_about",
+      "value": "Συνδέστε έναν ακόμη λογαριασμό Telegram και κάντε εύκολα εναλλαγή ανάμεσα στους λογαριασμούς σας."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_alternatives",
+      "value": "Εναλλακτικές επιλογές"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache",
+      "value": "Εκκαθάριση προσωρινής μνήμης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache_about",
+      "value": "Ελευθερώστε χώρο στον δίσκο αφαιρώντας τα πολυμέσα της προσωρινής μνήμης."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support",
+      "value": "Επικοινωνία με την υποστήριξη"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support_about",
+      "value": "Πείτε μας για οποιοδήποτε πρόβλημα. Η αποσύνδεση συνήθως δεν βοηθά."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode",
+      "value": "Ορισμός κωδικού κλειδώματος"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode_about",
+      "value": "Κλειδώστε το Telegram Desktop με κωδικό κλειδώματος, ώστε να μην μπορούν να το ανοίξουν άλλοι."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_all_apps",
       "value": "Όλες οι εφαρμογές"
     },
@@ -22288,6 +23112,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_bot_edit_info",
+      "value": "Στοιχεία bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_intro",
       "value": "Επεξεργασία εισαγωγής"
     },
@@ -22295,6 +23124,12 @@
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_settings",
       "value": "Αλλαγή ρυθμίσεων bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "one_value": "{count} μη αποθηκευμένη",
+      "other_value": "{count} μη αποθηκευμένες"
     },
     {
       "_": "types.LangPackString",
@@ -24062,8 +24897,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Αποκλεισμός bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "{user} αποκλείστηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} σας προσκάλεσε σε αυτό το bot, που ανήκει στον χρήστη {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -26390,6 +27235,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_enhance",
+      "value": "Βελτίωση"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_font",
       "value": "Γραμματοσειρά"
     },
@@ -26417,6 +27267,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_font_serif",
       "value": "Serif"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Εισαγωγή emoji"
     },
     {
       "_": "types.LangPackString",
@@ -26472,6 +27327,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_double_click",
       "value": "Διπλό κλικ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_enhance",
+      "value": "Βελτίωση φωτογραφίας"
     },
     {
       "_": "types.LangPackString",
@@ -26552,6 +27412,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_flip",
       "value": "Οριζόντια αναστροφή επιλογής"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Μεταφορά επιλογής ένα επίπεδο κάτω"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Μεταφορά επιλογής ένα επίπεδο πάνω"
     },
     {
       "_": "types.LangPackString",
@@ -28541,6 +29411,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Εμφάνιση κουμπιού ιστορίας"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_call",
       "value": "Κλήση"
     },
@@ -28553,6 +29428,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_action_short_discuss",
       "value": "Συζήτηση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Επεξεργασία"
     },
     {
       "_": "types.LangPackString",
@@ -28818,6 +29698,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_hide_participants_about",
       "value": "Ενεργοποιήστε την επιλογή για να αποκρύψετε τη λίστα μελών αυτής της ομάδας. Οι διαχειριστές θα παραμένουν ορατοί."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Πρόσκληση στο bot"
     },
     {
       "_": "types.LangPackString",
@@ -29356,6 +30241,12 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "σε σύνδεση"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_proxy_selected",
+      "one_value": "Επιλέχθηκε {count} proxy",
+      "other_value": "Επιλέχθηκαν {count} proxy"
     },
     {
       "_": "types.LangPackString",
@@ -30309,6 +31200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Θέλετε σίγουρα να καταγγείλετε για spam τον χρήστη {user}, που σας προσκάλεσε σε αυτό το bot;"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_report_spam_sure_channel",
       "value": "Θέλετε σίγουρα να καταγγείλετε spam σε αυτό το κανάλι;"
     },
@@ -30351,6 +31247,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_title",
       "value": "Καταγγελία καναλιού"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_repost_to_story",
+      "value": "Δημοσίευση\nσε ιστορία"
     },
     {
       "_": "types.LangPackString",
@@ -32355,6 +33256,11 @@
       "_": "types.LangPackString",
       "key": "lng_send_non_premium_unlock",
       "value": "ξεκλείδωμα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_send_reply_to_forward",
+      "value": "Απάντηση στο προωθημένο μήνυμα"
     },
     {
       "_": "types.LangPackString",
@@ -37608,6 +38514,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_location_add",
+      "value": "Προσθήκη αυτής της τοποθεσίας"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stories_my_name",
       "value": "Η ιστορία μου"
     },
@@ -37712,13 +38623,467 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_widget_location",
+      "value": "Τοποθεσία"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_add_button",
+      "value": "Νέα ιστορία"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_albums",
+      "value": "Άλμπουμ"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_albums_count",
+      "one_value": "{count} άλμπουμ",
+      "other_value": "{count} άλμπουμ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_count",
+      "value": "Οι ιστορίες σας θα κρύβονται πάντα από {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_blocklist_count_link",
+      "one_value": "{count} άτομο",
+      "other_value": "{count} άτομα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty",
+      "value": "{link} που δεν θα βλέπουν ποτέ τις ιστορίες σας."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty_link",
+      "value": "Επιλέξτε άτομα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_title",
+      "value": "Απόκρυψη των ιστοριών μου από"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Αυτό το κανάλι χρειάζεται περισσότερες ενισχύσεις για να δημοσιεύει ιστορίες."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_caption_ph",
+      "value": "Προσθήκη λεζάντας…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_choose_media",
+      "value": "Επιλογή φωτογραφίας ή βίντεο"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_comment_ph",
       "value": "Σχόλιο στην ιστορία…"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft",
+      "value": "Διαγραφή προχείρου"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Θέλετε σίγουρα να διαγράψετε αυτό το πρόχειρο ιστορίας;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_button",
+      "value": "Απόρριψη"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_text",
+      "value": "Θέλετε σίγουρα να απορρίψετε όλες τις αλλαγές;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_title",
+      "value": "Απόρριψη αλλαγών"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_failed",
+      "value": "Δεν ήταν δυνατή η αποθήκευση του προχείρου."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Δεν φορτώθηκαν τα πολυμέσα του προχείρου."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_photo",
+      "value": "Φωτογραφία"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_saved",
+      "value": "Το πρόχειρο αποθηκεύτηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_video",
+      "value": "Βίντεο"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_button",
+      "value": "Πρόχειρα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_empty",
+      "value": "Δεν υπάρχουν ακόμη πρόχειρα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_title",
+      "value": "Πρόχειρα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit",
+      "value": "Επεξεργασία ιστορίας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy",
+      "value": "Επεξεργασία απορρήτου"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy_title",
+      "value": "Ρυθμίσεις απορρήτου"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edited",
+      "value": "Η ιστορία ενημερώθηκε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Μόνο οι συνδρομητές Telegram Premium μπορούν να χρησιμοποιούν μορφοποίηση στις λεζάντες των ιστοριών."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep",
+      "value": "Δημοσίευση στο προφίλ μου"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_about",
+      "one_value": "Διατηρήστε αυτή την ιστορία στο προφίλ σας ακόμη και αφού λήξει σε {count} ώρα. Θα ισχύουν οι ρυθμίσεις απορρήτου.",
+      "other_value": "Διατηρήστε αυτή την ιστορία στο προφίλ σας ακόμη και αφού λήξει σε {count} ώρες. Θα ισχύουν οι ρυθμίσεις απορρήτου."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_channel",
+      "value": "Δημοσίευση στη σελίδα του καναλιού"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_channel_about",
+      "one_value": "Διατηρήστε αυτή την ιστορία στη σελίδα του καναλιού ακόμη και αφού λήξει σε {count} ώρα.",
+      "other_value": "Διατηρήστε αυτή την ιστορία στη σελίδα του καναλιού ακόμη και αφού λήξει σε {count} ώρες."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_draft",
+      "value": "Διατήρηση προχείρου"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_group",
+      "value": "Δημοσίευση στη σελίδα της ομάδας"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_group_about",
+      "one_value": "Διατηρήστε αυτή την ιστορία στη σελίδα της ομάδας ακόμη και αφού λήξει σε {count} ώρα.",
+      "other_value": "Διατηρήστε αυτή την ιστορία στη σελίδα της ομάδας ακόμη και αφού λήξει σε {count} ώρες."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_count",
+      "one_value": "Μπορείτε να δημοσιεύετε **{count}** ιστορία σε **24** ώρες. Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο.",
+      "other_value": "Μπορείτε να δημοσιεύετε **{count}** ιστορίες σε **24** ώρες. Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_count_premium",
+      "one_value": "Δυστυχώς, δεν μπορείτε να δημοσιεύσετε περισσότερες από **{count}** ιστορία σε **24** ώρες.",
+      "other_value": "Δυστυχώς, δεν μπορείτε να δημοσιεύσετε περισσότερες από **{count}** ιστορίες σε **24** ώρες."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο σε **{limit}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_monthly",
+      "one_value": "Μπορείτε να δημοσιεύετε **{count}** ιστορία τον μήνα. Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο.",
+      "other_value": "Μπορείτε να δημοσιεύετε **{count}** ιστορίες τον μήνα. Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_monthly_premium",
+      "one_value": "Δυστυχώς, δεν μπορείτε να δημοσιεύσετε περισσότερες από **{count}** ιστορία τον μήνα.",
+      "other_value": "Δυστυχώς, δεν μπορείτε να δημοσιεύσετε περισσότερες από **{count}** ιστορίες τον μήνα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_title",
+      "value": "Συμπληρώθηκε το όριο"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_weekly",
+      "one_value": "Μπορείτε να δημοσιεύετε **{count}** ιστορία την εβδομάδα. Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο.",
+      "other_value": "Μπορείτε να δημοσιεύετε **{count}** ιστορίες την εβδομάδα. Αποκτήστε το **Telegram Premium** για να αυξήσετε αυτό το όριο."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_weekly_premium",
+      "one_value": "Δυστυχώς, δεν μπορείτε να δημοσιεύσετε περισσότερες από **{count}** ιστορία την εβδομάδα.",
+      "other_value": "Δυστυχώς, δεν μπορείτε να δημοσιεύσετε περισσότερες από **{count}** ιστορίες την εβδομάδα."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_link_premium",
+      "value": "Οι σύνδεσμοι στις ιστορίες είναι διαθέσιμοι με το {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Μεταδίδεται ήδη μια ζωντανή ιστορία."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_location_change",
+      "value": "Αλλαγή τοποθεσίας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_my_story",
+      "value": "Εσείς"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_about",
+      "value": "Επιλέξτε για πόσο χρόνο θα είναι ορατή η ιστορία."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_period_premium",
+      "one_value": "Αποκτήστε το {link} για να εξαφανίζονται οι ιστορίες σας μετά από {count} ώρα.",
+      "other_value": "Αποκτήστε το {link} για να εξαφανίζονται οι ιστορίες σας μετά από {count} ώρες."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_premium_link",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as",
+      "value": "Δημοσίευση ιστορίας ως"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as_personal",
+      "value": "προσωπικός λογαριασμός"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_button",
+      "value": "Δημοσίευση ιστορίας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_title",
+      "value": "Νέα ιστορία"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_posted",
+      "value": "Η ιστορία δημοσιεύτηκε."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_preparing_video",
+      "value": "Προετοιμασία βίντεο…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends",
+      "value": "Στενοί φίλοι"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends_title",
+      "value": "Στενοί φίλοι"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_contacts",
+      "value": "Οι επαφές μου"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_edit_list",
+      "value": "επεξεργασία λίστας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_everyone",
+      "value": "Όλοι"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_except_one",
+      "value": "εκτός από {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude",
+      "value": "εξαίρεση ατόμων"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude_title",
+      "value": "Εξαίρεση επαφών"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_privacy_excluded",
+      "one_value": "εκτός από {count} άτομο",
+      "other_value": "εκτός από {count} άτομα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_header",
+      "value": "Ποιος μπορεί να δει την ιστορία σας"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_privacy_people",
+      "one_value": "{count} άτομο",
+      "other_value": "{count} άτομα"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_select_title",
+      "value": "Επιλογή επαφών"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_selected",
+      "value": "Επιλεγμένοι χρήστες"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_reply_ph",
       "value": "Ιδιωτική απάντηση…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_repost",
+      "value": "Αναδημοσίευση ιστορίας"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_round_failed",
+      "value": "Δεν ήταν δυνατή η εγγραφή του βιντεομηνύματος."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_draft",
+      "value": "Αποθήκευση προχείρου"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Αποθήκευση σε αρχείο"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "Η ιστορία αποθηκεύτηκε σε αρχείο."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_failed",
+      "value": "Δεν ήταν δυνατή η αποθήκευση της ιστορίας."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_settings",
+      "value": "Αποθήκευση ρυθμίσεων"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_screenshots",
+      "value": "Να επιτρέπονται στιγμιότυπα οθόνης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_stop_button",
+      "value": "Διακοπή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Θέλετε σίγουρα να διακόψετε τη μεταφόρτωση της ιστορίας;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Διακοπή μεταφόρτωσης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_cancel",
+      "value": "Αφαίρεση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_failed",
+      "value": "Δεν ήταν δυνατή η μεταφόρτωση της ιστορίας."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_retry",
+      "value": "Επανάληψη"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_lock",
+      "value": "Κλείδωμα βίντεο"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_unlock",
+      "value": "Ξεκλείδωμα βίντεο"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_weather_failed",
+      "value": "Δεν ήταν δυνατή η φόρτωση του καιρού."
     },
     {
       "_": "types.LangPackString",
@@ -38285,6 +39650,12 @@
       "_": "types.LangPackString",
       "key": "lng_sure_delete_contact",
       "value": "Θέλετε σίγουρα να διαγράψετε την επαφή {contact} από τη λίστα επαφών σας;"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_delete_contacts",
+      "one_value": "Θέλετε σίγουρα να διαγράψετε {count} επαφή από τη λίστα επαφών σας;",
+      "other_value": "Θέλετε σίγουρα να διαγράψετε {count} επαφές από τη λίστα επαφών σας;"
     },
     {
       "_": "types.LangPackString",
@@ -39302,8 +40673,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot",
+      "value": "Το νέο bot επιτράπηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Μπορείτε να διαχειριστείτε το συνδεδεμένο bot σας στην ενότητα {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed_message",
       "value": "Μπορείτε να ελέγξετε τις ενεργές συνδέσεις σας στην ενότητα {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_unconfirmed_auth_connections",
+      "one_value": "Εντοπίσαμε {count} νέα σύνδεση στον λογαριασμό σας. Είστε εσείς;",
+      "other_value": "Εντοπίσαμε {count} νέες συνδέσεις στον λογαριασμό σας. Είστε εσείς;"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_allowed",
+      "value": "Οι νέες συνδέσεις επιτράπηκαν"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_denied",
+      "value": "Η πρόσβαση ανακλήθηκε"
     },
     {
       "_": "types.LangPackString",
@@ -39316,6 +40713,11 @@
       "value": "Τερματίσαμε την προσπάθεια σύνδεσης από {country}."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Αποσυνδέσαμε το bot που συνδέθηκε από {country}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_unconfirmed_auth_denied_title",
       "one_value": "Αποτράπηκε νέα σύνδεση",
@@ -39323,8 +40725,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_title_bot",
+      "value": "Το bot αποσυνδέθηκε"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_denied_warning",
       "value": "Μη στέλνετε ποτέ τον κωδικό σύνδεσής σας σε κανέναν, αλλιώς μπορεί να χάσετε τον λογαριασμό σας στο Telegram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Συνδέετε μόνο bot που εμπιστεύεστε. Τα συνδεδεμένα bot έχουν πρόσβαση στα μηνύματά σας και μπορούν να ενεργούν εκ μέρους σας!"
     },
     {
       "_": "types.LangPackString",
@@ -39345,13 +40757,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_review_failed",
+      "value": "Δεν ήταν δυνατή η ολοκλήρωση του αιτήματος. Δοκιμάστε ξανά."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_single",
       "value": "Εντοπίσαμε νέα σύνδεση στον λογαριασμό σας από {from}, {country}. Είστε εσείς;"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "{bot} συνδέθηκε στον λογαριασμό σας από {from}. Είστε εσείς;"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_title",
       "value": "Κάποιος απέκτησε πρόσβαση στα μηνύματά σας!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title_bot",
+      "value": "Ένα bot απέκτησε πρόσβαση στα μηνύματά σας!"
     },
     {
       "_": "types.LangPackString",
@@ -39892,6 +41319,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Πρόσκληση στο bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Συμμετοχή στην κλήση"
     },
@@ -40365,6 +41797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Αποσύρετε αυτό το δώρο από την πώληση πριν το μεταφέρετε."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_username_about",
       "value": "Το όνομα χρήστη {username} στο Telegram."
     },
@@ -40773,6 +42210,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Μεταφέρθηκε στο προφίλ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Αγοραστής"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Αποσύρθηκε από την πώληση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Κόστος μεσεγγύησης"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Λήξη"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Πρόστιμο"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Διατέθηκε προς πώληση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Νέα τιμή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Η πρόταση έγινε αποδεκτή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Η πρόταση ακυρώθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Η πρόταση απορρίφθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Η πρόταση έληξε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Η πρόταση στάλθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Παλιά τιμή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Τιμή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Αγοράστηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Επιστροφή χρημάτων"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Η τιμή άλλαξε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Πωλητής"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Χρέωση υπηρεσίας"
     },
     {
       "_": "types.LangPackString",
@@ -41370,6 +42902,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Εισερχόμενη μεταφορά"
     },
@@ -41393,6 +42930,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "μεταφέρθηκε στο προφίλ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Αγοράστηκε για {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Αποσύρθηκε από την πώληση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Διατέθηκε προς πώληση"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Τέθηκε σε πώληση για {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Η πρόταση έγινε αποδεκτή"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Αποδοχή πρότασης για {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Η πρόταση ακυρώθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Η πρόταση απορρίφθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Η πρόταση έληξε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Η πρόταση στάλθηκε"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Η τιμή άλλαξε σε {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -41737,5 +43329,5 @@
       "other_value": "Πληρώσατε {count} αστέρια."
     }
   ],
-  "version": 6108145
+  "version": 6248566
 }

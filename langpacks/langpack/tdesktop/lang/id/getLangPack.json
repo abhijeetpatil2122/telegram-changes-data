@@ -865,6 +865,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{from} diundang oleh {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} mengundang Anda ke bot ini."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_changed_photo",
       "value": "{from} memperbarui foto grup"
     },
@@ -1027,6 +1037,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Anda tawarkan {cost} untuk {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Anda membeli {name} seharga {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Pembelian sedang diselesaikan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Tawaran sedang ditarik."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Tawaran ditolak."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Anda menolak tawaran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Tawaran berakhir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Tawaran berakhir. Pengembalian dana sedang diproses."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Tawaran berakhir dalam\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Denda {amount} dipotong."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Anda ditawari {amount} untuk {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Dana {amount} dikembalikan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Tinjau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Penjualan sedang diselesaikan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Anda menjual {name} seharga {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Tawaran ditarik."
     },
     {
       "_": "types.LangPackString",
@@ -1359,6 +1444,11 @@
       "other_value": "Anda menerima {count} Stars dari {name}"
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_action_paid_message_one",
+      "value": "kirim pesan"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_action_paid_message_refund",
       "other_value": "{from} kembalikan {count} Stars kepada Anda"
@@ -1372,6 +1462,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_action_paid_message_sent",
       "other_value": "Anda bayar {count} Stars untuk {action}"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_action_paid_message_some",
+      "other_value": "kirim {count} pesan"
     },
     {
       "_": "types.LangPackString",
@@ -3350,6 +3445,56 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_archive_hint_about_link",
+      "value": "Klik untuk ubah {emoji}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_about_unmuted",
+      "value": "Saat Anda menerima pesan baru, obrolan senyap tetap berada dalam Arsip, sedangkan yang tidak senyap akan dipindahkan ke Obrolan. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_button",
+      "value": "Mengerti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_section_1",
+      "value": "Arsip Obrolan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_section_1_info",
+      "value": "Pindahkan obrolan ke Arsip Anda dan kembalikan dengan menggeser."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_section_2",
+      "value": "Sembunyikan Arsip"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_section_2_info",
+      "value": "Sembunyikan Arsip dari layar utama Anda dengan menggeser."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_section_3",
+      "value": "Cerita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_section_3_info",
+      "value": "Arsipkan Cerita dari kontak Anda secara terpisah dari obrolan pribadi mereka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_archive_hint_title",
+      "value": "Berikut Arsip Anda"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_archived_add",
       "value": "Arsipkan"
     },
@@ -5140,6 +5285,381 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about",
+      "value": "Tentang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Ditampilkan di profil bot dan saat membagikannya."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_placeholder",
+      "value": "Deskripsi singkat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_ai",
+      "value": "Tulis ulang dengan AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Gunakan Bawaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro",
+      "value": "Pendahuluan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Ditampilkan di obrolan kosong sebelum pengguna memulai bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_placeholder",
+      "value": "Apa yang bisa bot ini lakukan?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name",
+      "value": "Nama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name_placeholder",
+      "value": "Nama bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_saved",
+      "value": "Info bot diperbarui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Pengguna terpilih sudah memiliki obrolan dengan bot ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} sudah memiliki obrolan dengan bot ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Undang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Tidak ada pengguna terpilih yang dapat diundang."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_invite_limit",
+      "other_value": "Anda dapat undang hingga {count} pengguna sekaligus."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Undangan terkirim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Undangan terkirim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Undang ke Bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_add",
+      "value": "Tambah Bahasa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_apply_confirm",
+      "value": "Terapkan"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_apply_sure",
+      "other_value": "{count} perubahan akan langsung terlihat oleh semua pengguna bot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_applying",
+      "value": "Menerapkan perubahan: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Mohon tunggu hingga proses saat ini selesai."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_default",
+      "value": "Bawaan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Buang Perubahan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_export",
+      "value": "Ekspor ke Berkas..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_exported",
+      "value": "Bahasa diekspor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "Bukan kode bahasa: {code}. Gunakan default atau dua huruf kecil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Duplikat: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_key",
+      "value": "Kunci tidak dikenal: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Berkas terlalu besar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Berkas ini diekspor untuk @{bot}. Tetap impor?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot_confirm",
+      "value": "Impor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_read",
+      "value": "Tidak dapat membaca berkas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Berkas harus berisi objek bernama languages dengan satu objek per bahasa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Nilai harus berupa string: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "JSON tidak valid di baris {line}, kolom {column}: {error}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_write",
+      "value": "Tidak dapat menyimpan berkas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_import",
+      "value": "Impor dari Berkas..."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported",
+      "other_value": "{count} perubahan diimpor."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "Tidak ada yang baru di berkas ini."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported_problems",
+      "other_value": "{count} bahasa perlu diperiksa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_loading",
+      "value": "Memeriksa terjemahan: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paste",
+      "value": "Tempel dari Papan Klip"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "Dijeda karena limit server, berlanjut dalam {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Hentikan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Dihentikan oleh limit server. Mohon coba lagi nanti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Terjemahkan ke..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Terjemahan menjadi perubahan yang belum disimpan. Tinjau sebelum menyimpan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_button",
+      "value": "Terjemahkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_failed",
+      "value": "Tidak dapat menerjemahkan. Mohon coba lagi nanti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Terjemahkan ke"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_translated",
+      "other_value": "{count} bahasa diterjemahkan. Tinjau sebelum disimpan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating",
+      "value": "Menerjemahkan: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Menerjemahkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Pratinjau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Tambah Pratinjau"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_count",
+      "other_value": "{count} pratinjau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Hapus Terjemahan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Hapus semua media pratinjau untuk bahasa ini?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_delete_many",
+      "other_value": "Hapus {count} pratinjau ini?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Tidak Ada Pratinjau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Pratinjau ini ditampilkan kepada pengguna yang bahasanya belum memiliki terjemahan."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_intro",
+      "other_value": "Unggah hingga {count} tangkapan layar atau video demo untuk Mini App Anda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Pratinjau ini ditampilkan kepada pengguna yang bahasanya diatur ke {language}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Tidak dapat memuat media pratinjau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Pratinjau diterbitkan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Seret pratinjau untuk mengubah urutannya."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Tidak dapat memperbarui media pratinjau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Menyimpan perubahan..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Pratinjau diperbarui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Tidak dapat mengunggah foto atau video ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Mengunggah pratinjau..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Jadikan Bingkai Ini Sampul"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_menu_already_added",
       "value": "Bot ini sudah ditambahkan ke menu lampiran Anda."
     },
@@ -5257,6 +5777,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Bagikan Pesan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Tidak dapat memuat media untuk dibagikan."
     },
     {
       "_": "types.LangPackString",
@@ -8245,6 +8770,11 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_contacts_selected",
+      "other_value": "{count} kontak dipilih"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_contacts_stories_status",
       "other_value": "{count} cerita"
     },
@@ -8322,6 +8852,11 @@
       "_": "types.LangPackString",
       "key": "lng_context_archive_expand",
       "value": "Perluas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_context_archive_how_does_it_work",
+      "value": "Bagaimana cara kerjanya?"
     },
     {
       "_": "types.LangPackString",
@@ -8925,6 +9460,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_context_view_community",
+      "value": "Lihat info komunitas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_context_view_group",
       "value": "Lihat info grup"
     },
@@ -9380,6 +9920,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Tarik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Mohon coba lagi nanti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Buka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "{amount} Terkirim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Lihat di {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Grams akan dikirim ke dompet non-kustodial Anda ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Tarik {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_credits_enough",
       "value": "Anda memiliki cukup Stars saat ini. {link}"
     },
@@ -9805,6 +10380,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_dialogs_suggestions_birthday_title",
+      "value": "Tambahkan tanggal lahir Anda! 🎂"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_dialogs_suggestions_premium_annual_about",
       "value": "Daftar paket pembayaran tahunan Telegram Premium sekarang untuk mendapatkan diskon."
     },
@@ -9812,6 +10392,16 @@
       "_": "types.LangPackString",
       "key": "lng_dialogs_suggestions_premium_annual_title",
       "value": "Telegram Premium dengan diskon {text}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_dialogs_suggestions_premium_restore_about",
+      "value": "Langganan Telegram Premium Anda baru saja habis. Ketuk di sini untuk perpanjang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_dialogs_suggestions_premium_restore_title",
+      "value": "Dapatkan Premium kembali dengan diskon **{text}**"
     },
     {
       "_": "types.LangPackString",
@@ -13125,8 +13715,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "dibeli"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "dilebur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Pembelian ini sudah dikirim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Hadiah akan muncul di {path} dan di profil Anda setelah pembelian dikonfirmasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} akan menerima hadiah setelah pembelian dikonfirmasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Lanjutkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "{amount} akan dipindahkan dari Pendapatan Grams ke saldo Anda dan digunakan untuk membeli hadiah ini."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Gunakan Pendapatan Grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Mohon coba lagi nanti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Hadiah ini tidak lagi dijual."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Total"
     },
     {
       "_": "types.LangPackString",
@@ -13695,6 +14340,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Masukkan jumlah Grams yang ingin Anda tawarkan untuk {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Isi saldo {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Tawaran ini sudah dikirim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Apakah Anda ingin mengajukan tawaran ini ke {user} untuk {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Pilih berapa lama pemilik dapat menerima tawaran Anda. Jika terlewat, Grams Anda akan dikembalikan secara otomatis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Biaya escrow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Tawaran berakhir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Grams yang ditawarkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Saldo tidak cukup. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Tawaran maksimum {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Tawaran minimum {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Pemilik menerima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Biaya platform"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Jika pemilik menolak tawaran Anda atau tawaran berakhir, Grams Anda akan dikembalikan secara otomatis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "{amount} ditahan hingga {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Tawaran terkirim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Anda bayar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Anda terima"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Tolak Tawaran"
     },
@@ -13732,6 +14467,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "Dijual seharga {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Jual {name} seharga {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Konfirmasi Penjualan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Tolak tawaran ini? Grams akan dikembalikan ke pembeli."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Biaya jaringan: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} sedang dijual. Batalkan penjualannya sebelum menerima tawaran."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Tarik"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Mohon coba lagi nanti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Penarikan dini dikenakan biaya {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Tarik untuk {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Sisa dari {amount} Anda akan dikembalikan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Tarik Tawaran?"
     },
     {
       "_": "types.LangPackString",
@@ -13825,6 +14615,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Dengan Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Dengan Stars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Dari Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Model"
     },
@@ -13864,9 +14669,59 @@
       "other_value": "Anda akan menerima **{count}** Grams."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Harga maksimum {amount}"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price_ton",
       "other_value": "Harga minimum {count} Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Tindakan ini sudah dikirim."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Jual {name} seharga {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Biaya {percent} dipotong dari harga."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Biaya listing"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "{name} akan dijual seharga {price} setelah dikonfirmasi oleh jaringan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} kini dijual seharga {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Biaya pembatalan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} sedang dijual. Batalkan penjualannya dulu, lalu jual dengan harga baru."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Anda terima"
     },
     {
       "_": "types.LangPackString",
@@ -13982,6 +14837,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sold_out_text",
       "other_value": "Seluruh {count} hadiah telah terjual habis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "terjual"
     },
     {
       "_": "types.LangPackString",
@@ -16855,6 +17715,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_in_dlg_audio_unread",
+      "value": "{emoji} Pesan suara"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_in_dlg_contact",
       "value": "Kontak"
     },
@@ -17182,6 +18047,11 @@
       "_": "types.LangPackString",
       "key": "lng_intro_next",
       "value": "Lanjut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_intro_qr_passkey",
+      "value": "Masuk dengan passkey"
     },
     {
       "_": "types.LangPackString",
@@ -17715,6 +18585,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_logout_add_account_about",
+      "value": "Hubungkan akun Telegram lain dan beralih antarakun dengan mudah."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_alternatives",
+      "value": "Opsi alternatif"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache",
+      "value": "Bersihkan Cache"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache_about",
+      "value": "Kosongkan ruang disk dengan menghapus cache media."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support",
+      "value": "Hubungi Dukungan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support_about",
+      "value": "Ceritakan masalah Anda kepada kami. Keluar dari akun biasanya tidak membantu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode",
+      "value": "Pasang Kode Sandi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode_about",
+      "value": "Kunci Telegram Desktop dengan kode sandi agar orang lain tidak dapat membukanya."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_all_apps",
       "value": "Semua Aplikasi"
     },
@@ -17797,6 +18707,11 @@
       "_": "types.LangPackString",
       "key": "lng_mac_menu_file",
       "value": "Berkas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_mac_menu_fullscreen",
+      "value": "Mode Layar Penuh"
     },
     {
       "_": "types.LangPackString",
@@ -18205,6 +19120,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_bot_edit_info",
+      "value": "Ubah Info"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_intro",
       "value": "Ubah Pendahuluan"
     },
@@ -18212,6 +19132,11 @@
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_settings",
       "value": "Ubah Pengaturan Bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "other_value": "{count} belum disimpan"
     },
     {
       "_": "types.LangPackString",
@@ -19745,8 +20670,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Blokir bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "{user} telah diblokir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} mengundang Anda ke bot milik {owner} ini."
     },
     {
       "_": "types.LangPackString",
@@ -20417,6 +21352,31 @@
       "_": "types.LangPackString",
       "key": "lng_passcode_wrong",
       "value": "Kode sandi salah"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_bluetooth",
+      "value": "Biarkan Bluetooth tetap aktif — ponsel Anda terhubung dengan perangkat ini via Bluetooth."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_key_about",
+      "value": "Masukkan dan sentuh kunci keamanan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_login_about",
+      "value": "Pindai kode QR ini dengan kamera ponsel atau tablet yang menyimpan passkey Anda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_cable_login_title",
+      "value": "Masuk dengan passkey"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_passkey_method_key",
+      "value": "Gunakan kunci keamanan"
     },
     {
       "_": "types.LangPackString",
@@ -21120,6 +22080,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_payment_bar_button",
+      "value": "Hapus Biaya"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_payment_bar_text",
       "value": "{name} harus bayar {cost} untuk setiap pesan."
     },
@@ -21162,6 +22127,11 @@
       "_": "types.LangPackString",
       "key": "lng_payment_refund_channel",
       "value": "Apakah Anda ingin izinkan {name} kirim pesan ke channel secara gratis?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_payment_refund_confirm",
+      "value": "Konfirmasi"
     },
     {
       "_": "types.LangPackString",
@@ -21587,6 +22557,31 @@
       "_": "types.LangPackString",
       "key": "lng_photo_caption",
       "value": "Keterangan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_enhance",
+      "value": "Tingkatkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Sisipkan emoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_enhance",
+      "value": "Tingkatkan foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Turunkan objek terpilih satu lapis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Naikkan objek terpilih satu lapis"
     },
     {
       "_": "types.LangPackString",
@@ -23325,6 +24320,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Kembalikan Tombol Cerita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Ubah Info"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_actions_section",
       "value": "Tindakan"
     },
@@ -23637,6 +24642,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "Tautan undangan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Undang ke Bot"
     },
     {
       "_": "types.LangPackString",
@@ -24062,6 +25072,11 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "online"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_proxy_selected",
+      "other_value": "{count} proxy dipilih"
     },
     {
       "_": "types.LangPackString",
@@ -24800,6 +25815,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Anda yakin ingin melaporkan {user}, yang mengundang Anda ke bot ini, sebagai spam?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_report_spam_sure_channel",
       "value": "Anda yakin melaporkan channel ini sebagai spam?"
     },
@@ -24842,6 +25862,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_title",
       "value": "Laporkan channel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_repost_to_story",
+      "value": "Posting Ulang\nke Cerita"
     },
     {
       "_": "types.LangPackString",
@@ -26592,6 +27617,11 @@
       "_": "types.LangPackStringPluralized",
       "key": "lng_send_photos",
       "other_value": "Kirim {count} foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_send_reply_to_forward",
+      "value": "Balas pesan terusan"
     },
     {
       "_": "types.LangPackString",
@@ -30555,6 +31585,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_location_add",
+      "value": "Tambah Lokasi Ini"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stories_my_name",
       "value": "Cerita Saya"
     },
@@ -30650,13 +31685,453 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_widget_location",
+      "value": "Lokasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_add_button",
+      "value": "Tambah Cerita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_albums",
+      "value": "Album"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_albums_count",
+      "other_value": "{count} Album"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_count",
+      "value": "{link} tidak akan pernah melihat cerita Anda."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_blocklist_count_link",
+      "other_value": "{count} orang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty",
+      "value": "{link} yang tidak akan melihat cerita Anda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty_link",
+      "value": "Pilih orang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_title",
+      "value": "Sembunyikan Cerita Saya Dari"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Channel ini butuh boost lagi untuk posting cerita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_caption_ph",
+      "value": "Tambah keterangan..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_choose_media",
+      "value": "Pilih foto atau video"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_comment_ph",
       "value": "Beri komentar..."
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft",
+      "value": "Hapus Draf"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Anda yakin ingin menghapus draf cerita ini?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_button",
+      "value": "Buang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_text",
+      "value": "Anda yakin ingin membuang semua perubahan?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_title",
+      "value": "Buang perubahan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_failed",
+      "value": "Tidak dapat menyimpan draf."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Media draf tidak dapat dimuat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_photo",
+      "value": "Foto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_saved",
+      "value": "Draf disimpan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_video",
+      "value": "Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_button",
+      "value": "Draf"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_empty",
+      "value": "Belum ada draf"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_title",
+      "value": "Draf"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit",
+      "value": "Ubah Cerita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy",
+      "value": "Ubah Privasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy_title",
+      "value": "Ubah Pengaturan Privasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edited",
+      "value": "Cerita diperbarui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Hanya pelanggan Telegram Premium yang dapat memakai pemformatan di keterangan cerita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep",
+      "value": "Posting di Profil Saya"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_about",
+      "other_value": "Simpan cerita ini di profil Anda meski sudah kedaluwarsa setelah {count} jam. Pengaturan privasi tetap berlaku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_channel",
+      "value": "Posting di Halaman Channel"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_channel_about",
+      "other_value": "Simpan cerita ini di halaman channel meski sudah kedaluwarsa setelah {count} jam."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_draft",
+      "value": "Pertahankan Draf"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_group",
+      "value": "Posting di Halaman Grup"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_group_about",
+      "other_value": "Simpan cerita ini di halaman grup meski sudah kedaluwarsa setelah {count} jam."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_count",
+      "other_value": "Anda dapat memposting **{count}** cerita dalam **24** jam. Berlangganan **Telegram Premium** untuk meningkatkan limit ini."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_count_premium",
+      "other_value": "Maaf, Anda tidak dapat memposting lebih dari **{count}** cerita dalam **24** jam."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Berlangganan **Telegram Premium** untuk meningkatkan limit ini menjadi **{limit}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_monthly",
+      "other_value": "Anda dapat memposting **{count}** cerita dalam sebulan. Berlangganan **Telegram Premium** untuk meningkatkan limit ini."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_monthly_premium",
+      "other_value": "Maaf, Anda tidak dapat memposting lebih dari **{count}** cerita dalam sebulan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_title",
+      "value": "Limit Tercapai"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_weekly",
+      "other_value": "Anda dapat memposting **{count}** cerita dalam seminggu. Berlangganan **Telegram Premium** untuk meningkatkan limit ini."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_weekly_premium",
+      "other_value": "Maaf, Anda tidak dapat memposting lebih dari **{count}** cerita dalam seminggu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_link_premium",
+      "value": "Tautan dalam cerita tersedia dengan {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Sudah ada cerita langsung yang sedang disiarkan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_location_change",
+      "value": "Ganti Lokasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_my_story",
+      "value": "Anda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_about",
+      "value": "Pilih berapa lama cerita akan terlihat."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_period_premium",
+      "other_value": "Berlangganan {link} agar cerita Anda menghilang setelah {count} jam."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_premium_link",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as",
+      "value": "Posting cerita sebagai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as_personal",
+      "value": "akun pribadi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_button",
+      "value": "Posting Cerita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_title",
+      "value": "Cerita Baru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_posted",
+      "value": "Cerita diposting."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_preparing_video",
+      "value": "Menyiapkan video..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends",
+      "value": "Teman Dekat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends_title",
+      "value": "Teman Dekat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_contacts",
+      "value": "Kontak Saya"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_edit_list",
+      "value": "ubah daftar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_everyone",
+      "value": "Semua Orang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_except_one",
+      "value": "kecuali {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude",
+      "value": "kecualikan orang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude_title",
+      "value": "Kecualikan Kontak"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_privacy_excluded",
+      "other_value": "kecuali {count} orang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_header",
+      "value": "Siapa yang dapat melihat cerita Anda"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_privacy_people",
+      "other_value": "{count} orang"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_select_title",
+      "value": "Pilih Kontak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_selected",
+      "value": "Pengguna Terpilih"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_reply_ph",
       "value": "Balas secara pribadi..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_repost",
+      "value": "Posting Ulang Cerita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_round_failed",
+      "value": "Tidak dapat merekam pesan video."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_draft",
+      "value": "Simpan Draf"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Simpan ke Berkas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "Cerita disimpan ke berkas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_failed",
+      "value": "Gagal menyimpan cerita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_settings",
+      "value": "Simpan Pengaturan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_screenshots",
+      "value": "Izinkan Tangkapan Layar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_stop_button",
+      "value": "Hentikan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Anda yakin ingin berhenti mengunggah cerita?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Hentikan unggahan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_cancel",
+      "value": "Hapus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_failed",
+      "value": "Gagal mengunggah cerita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_retry",
+      "value": "Coba Lagi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_lock",
+      "value": "Kunci Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_unlock",
+      "value": "Buka Kunci Video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_weather_failed",
+      "value": "Tidak dapat memuat cuaca."
     },
     {
       "_": "types.LangPackString",
@@ -30887,6 +32362,11 @@
       "_": "types.LangPackString",
       "key": "lng_sure_delete_contact",
       "value": "Anda yakin menghapus {contact} dari daftar kontak Anda?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_delete_contacts",
+      "other_value": "Anda yakin menghapus {count} kontak dari daftar kontak Anda?"
     },
     {
       "_": "types.LangPackString",
@@ -31630,8 +33110,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirm",
+      "value": "Ya, itu saya"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed",
       "value": "Login Baru Diizinkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot",
+      "value": "Bot Baru Diizinkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Anda dapat mengelola bot yang terhubung di {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_message",
+      "value": "Anda dapat memeriksa daftar login aktif Anda di {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_unconfirmed_auth_connections",
+      "other_value": "Kami mendeteksi {count} koneksi baru ke akun Anda. Apakah itu Anda?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_allowed",
+      "value": "Koneksi Baru Diizinkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_denied",
+      "value": "Akses Dicabut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single",
+      "value": "Kami telah mencegah percobaan masuk dari {country}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Kami telah memutus sambungan bot yang terhubung dari {country}."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -31640,8 +33165,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_title_bot",
+      "value": "Bot Diputus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning",
+      "value": "Jangan pernah berikan kode login Anda kepada siapa pun, atau Anda berisiko kehilangan akun Anda!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Hanya hubungkan bot yang Anda percayai. Bot yang terhubung dapat mengakses pesan Anda dan bertindak atas nama Anda!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_deny",
       "value": "Tidak, bukan saya!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_review_failed",
+      "value": "Permintaan gagal diselesaikan. Mohon coba lagi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single",
+      "value": "Kami mendeteksi login baru ke akun Anda dari {from}, {country}. Apakah itu Anda?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "{bot} terhubung ke akun Anda dari {from}. Apakah itu Anda?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title",
+      "value": "Seseorang baru saja mendapat akses ke pesan Anda!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title_bot",
+      "value": "Sebuah bot baru saja mendapat akses ke pesan Anda!"
     },
     {
       "_": "types.LangPackString",
@@ -32135,6 +33700,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Undang ke Bot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Gabung panggilan"
     },
@@ -32450,6 +34020,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Batalkan penjualan hadiah ini sebelum ditransfer."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_decryption_failed",
       "value": "Komentar tidak dapat didekripsi."
     },
@@ -32627,6 +34202,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_fee_free",
       "value": "Gratis (dibayar Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Pembeli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Penjualan dibatalkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Biaya escrow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Berakhir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Denda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Dijual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Harga baru"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Tawaran diterima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Tawaran dibatalkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Tawaran ditolak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Tawaran berakhir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Tawaran terkirim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Harga lama"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Harga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Dibeli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Dikembalikan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Harga diubah"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Penjual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Biaya layanan"
     },
     {
       "_": "types.LangPackString",
@@ -32890,6 +34560,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Transfer masuk"
     },
@@ -32897,6 +34572,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_key_change",
       "value": "Pembaruan kunci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Dibeli seharga {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Penjualan dibatalkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Dijual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Dijual seharga {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Tawaran diterima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Tawaran {amount} diterima"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Tawaran dibatalkan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Tawaran ditolak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Tawaran berakhir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Tawaran terkirim"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Harga diubah ke {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -33114,5 +34844,5 @@
       "other_value": "Anda membayar {count} Stars."
     }
   ],
-  "version": 6075244
+  "version": 6248567
 }

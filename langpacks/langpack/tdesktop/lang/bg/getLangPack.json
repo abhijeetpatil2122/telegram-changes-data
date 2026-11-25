@@ -1183,6 +1183,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{user} покани {from}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} ви покани в този бот."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} направи {user} нов собственик на групата."
     },
@@ -1464,6 +1474,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Предложихте {cost} за {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Купихте {name} за {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Покупката се финализира."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Офертата се оттегля."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Офертата е отхвърлена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Отхвърлихте офертата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Офертата изтече."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Офертата изтече. Сумата ви се възстановява."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Офертата важи още\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Удържана неустойка: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Предложиха ви {amount} за {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Получихте обратно {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Прегледай"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Продажбата се финализира."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Продадохте {name} за {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Офертата е оттеглена."
     },
     {
       "_": "types.LangPackString",
@@ -6664,6 +6749,102 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about",
+      "value": "Описание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Показва се в профила на бота и при споделяне."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_placeholder",
+      "value": "Кратко описание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_ai",
+      "value": "Пренапиши с ИИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Използвай текста по подразбиране"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro",
+      "value": "Въведение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Показва се в празния чат, преди потребителят да стартира бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_placeholder",
+      "value": "Какво може този бот?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name",
+      "value": "Име"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name_placeholder",
+      "value": "Име на бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_saved",
+      "value": "Информацията за бота е актуализирана."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Избраните потребители вече имат чат с този бот."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} вече има чат с този бот."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Покани"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Никой от избраните потребители не можа да бъде поканен."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_invite_limit",
+      "one_value": "Можете да поканите до {count} потребител наведнъж.",
+      "other_value": "Можете да поканите до {count} потребители наведнъж."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Поканите са изпратени."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Поканата е изпратена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Покана за бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Скрий клавиатурата на бота"
     },
@@ -6671,6 +6852,293 @@
       "_": "types.LangPackString",
       "key": "lng_bot_keyboard_show",
       "value": "Покажи клавиатурата на бота"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_add",
+      "value": "Добави език"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_apply_confirm",
+      "value": "Приложи"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_apply_sure",
+      "one_value": "{count} промяна ще бъде видима веднага за всички потребители на бота.",
+      "other_value": "{count} промени ще бъдат видими веднага за всички потребители на бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_applying",
+      "value": "Прилагане на промените: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Моля, изчакайте текущата операция да приключи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_default",
+      "value": "По подразбиране"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Отхвърли промените"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_export",
+      "value": "Експортирай във файл…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_exported",
+      "value": "Езиците са експортирани."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "Не е код на език: {code}. Използвайте default или две малки букви."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Зададено два пъти: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_key",
+      "value": "Непознат ключ: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Файлът е твърде голям."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Този файл е експортиран за @{bot}. Да се импортира ли въпреки това?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot_confirm",
+      "value": "Импортирай"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_read",
+      "value": "Неуспешно прочитане на файла."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Файлът трябва да съдържа обект languages с по един обект за всеки език."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Стойността трябва да е низ: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "Невалиден JSON на ред {line}, колона {column}: {error}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_write",
+      "value": "Неуспешно запазване на файла."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_import",
+      "value": "Импортирай от файл…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported",
+      "one_value": "Импортирана е {count} промяна.",
+      "other_value": "Импортирани са {count} промени."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "Във файла няма нищо ново."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_imported_problems",
+      "one_value": "{count} език изисква внимание.",
+      "other_value": "{count} езика изискват внимание."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_loading",
+      "value": "Проверка на преводите: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paste",
+      "value": "Постави от клипборда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "Временно спряно поради лимити на сървъра, продължава след {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Спри"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Спряно поради лимити на сървъра. Опитайте отново по-късно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Преведи на…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Преводите се добавят като незапазени промени. Прегледайте ги, преди да запазите."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_button",
+      "value": "Преведи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_failed",
+      "value": "Неуспешен превод. Опитайте отново по-късно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Преведи на"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_languages_translated",
+      "one_value": "{count} език е преведен. Прегледайте го, преди да запазите.",
+      "other_value": "{count} езика са преведени. Прегледайте ги, преди да запазите."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating",
+      "value": "Превеждане: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Превеждане"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Преглед"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Добави преглед"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_count",
+      "one_value": "{count} преглед",
+      "other_value": "{count} прегледа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Изтрий превода"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Да се изтрие ли цялата мултимедия за преглед на този език?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_delete_many",
+      "one_value": "Да се изтрие ли този преглед?",
+      "other_value": "Да се изтрият ли тези {count} прегледа?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Няма преглед"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Този преглед се показва на потребителите, за чийто език няма превод."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_bot_media_previews_intro",
+      "one_value": "Качете до {count} екранна снимка или видеодемонстрация за миниприложението си.",
+      "other_value": "Качете до {count} екранни снимки и видеодемонстрации за миниприложението си."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Този преглед се показва на потребителите, които са избрали {language} за език."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Неуспешно зареждане на мултимедията за преглед."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Прегледът е публикуван."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Плъзнете прегледите, за да промените реда им."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Неуспешно актуализиране на прегледите."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Запазване на промените…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Прегледът е актуализиран."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Неуспешно качване на тази снимка или видео."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Качване на прегледа…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Задай текущия кадър като корица"
     },
     {
       "_": "types.LangPackString",
@@ -6801,6 +7269,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Споделяне на съобщение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Неуспешно зареждане на мултимедията за споделяне."
     },
     {
       "_": "types.LangPackString",
@@ -10149,6 +10622,12 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "key": "lng_contacts_selected",
+      "one_value": "{count} избран контакт",
+      "other_value": "{count} избрани контакта"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "key": "lng_contacts_stories_status",
       "one_value": "{count} история",
       "other_value": "{count} истории"
@@ -11666,6 +12145,41 @@
       "_": "types.LangPackString",
       "key": "lng_credits_currency_summary_title",
       "value": "Баланс в Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Изтегли средствата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Опитайте отново по-късно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Отвори"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "Изпратено: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Проверете в {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Сумата в Gram ще бъде преведена в портфейла ви, който управлявате само вие ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Теглене на {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -16098,6 +16612,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "купен"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Този подарък е изгорен при изработване."
     },
@@ -16105,6 +16624,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "изгорен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Тази покупка вече е изпратена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Подаръкът ще се появи в {path} и в профила ви, след като покупката бъде потвърдена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} ще получи подаръка, след като покупката бъде потвърдена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Продължи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Сумата от {amount} ще бъде прехвърлена от приходите в Gram в баланса ви и използвана за покупката на този подарък."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Да се използват ли приходите?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Опитайте отново по-късно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Такса за газ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Този подарък вече не се продава."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Общо"
     },
     {
       "_": "types.LangPackString",
@@ -16805,6 +17374,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Въведете колко Gram искате да предложите за {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Добави средства {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Тази оферта вече е изпратена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Искате ли да изпратите тази оферта на {user} за {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Изберете колко време ще има собственикът, за да приеме офертата ви. Когато срокът изтече, сумата в Gram ще бъде възстановена автоматично."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Такса за ескроу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Офертата изтича"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Предлагана сума в Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Недостатъчно средства. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Максималната оферта е {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Минималната оферта е {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "За собственика"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Комисиона"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Ако собственикът отхвърли офертата ви или срокът ѝ изтече, сумата в Gram ще ви бъде върната автоматично."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "Сумата от {amount} е задържана до {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Офертата е изпратена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Плащате"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Получавате"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Отхвърляне на офертата"
     },
@@ -16852,6 +17511,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "Продава се за {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Да се продаде ли {name} за {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Потвърждение на продажбата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Да се отхвърли ли тази оферта? Сумата в Gram ще бъде върната на купувача."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Мрежова такса: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} се продава. Свалете го от продажба, преди да приемете оферта."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Оттегли"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Опитайте отново по-късно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Предсрочното оттегляне струва {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Оттегли за {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Останалата част от {amount} ще ви бъде върната."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Да се оттегли ли офертата?"
     },
     {
       "_": "types.LangPackString",
@@ -16968,6 +17682,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "За Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "За звезди"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "От Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Модел"
     },
@@ -17061,6 +17790,11 @@
       "other_value": "Ще получите **{count}** Gram."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Максималната цена е {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_gift_sell_min_price",
       "one_value": "Минималната цена е {count} звезда.",
@@ -17071,6 +17805,51 @@
       "key": "lng_gift_sell_min_price_ton",
       "one_value": "Минималната цена е {count} Gram.",
       "other_value": "Минималната цена е {count} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Тази операция вече е изпратена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Да се обяви ли {name} за продажба на цена {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "От цената се удържа такса от {percent}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Такса за обявяване"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "{name} ще се продава за {price}, след като мрежата потвърди обявата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} се продава за {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Такса за сваляне от продажба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} вече се продава. Първо го свалете от продажба, а след това го обявете на новата цена."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Получавате"
     },
     {
       "_": "types.LangPackString",
@@ -17298,6 +18077,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Разпродадено!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "продаден"
     },
     {
       "_": "types.LangPackString",
@@ -21822,6 +22606,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_logout_add_account_about",
+      "value": "Свържете друг акаунт в Telegram и превключвайте лесно между акаунтите си."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_alternatives",
+      "value": "Други възможности"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache",
+      "value": "Изчисти кеша"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache_about",
+      "value": "Освободете място на диска, като изтриете кешираната мултимедия."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support",
+      "value": "Свържи се с поддръжката"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support_about",
+      "value": "Разкажете ни за проблемите си. Излизането обикновено не помага."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode",
+      "value": "Задай код за достъп"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode_about",
+      "value": "Заключете Telegram Desktop с код за достъп, за да не могат други да го отварят."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_all_apps",
       "value": "Всички приложения"
     },
@@ -22288,6 +23112,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_bot_edit_info",
+      "value": "Данни"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_intro",
       "value": "Редактирай въведението"
     },
@@ -22295,6 +23124,12 @@
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_settings",
       "value": "Промени настройките на бота"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "one_value": "Незапазени: {count}",
+      "other_value": "Незапазени: {count}"
     },
     {
       "_": "types.LangPackString",
@@ -24062,8 +24897,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Блокирай бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "Блокирахте {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} ви покани в този бот, собственост на {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -26390,6 +27235,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_enhance",
+      "value": "Подобряване"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_font",
       "value": "Шрифт"
     },
@@ -26417,6 +27267,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_font_serif",
       "value": "Серифен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Вмъкни емоджи"
     },
     {
       "_": "types.LangPackString",
@@ -26472,6 +27327,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_double_click",
       "value": "Двойно щракване"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_enhance",
+      "value": "Подобряване на снимката"
     },
     {
       "_": "types.LangPackString",
@@ -26552,6 +27412,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_flip",
       "value": "Хоризонтално обръщане на избраното"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Преместване на избраното един слой назад"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Преместване на избраното един слой напред"
     },
     {
       "_": "types.LangPackString",
@@ -28541,6 +29411,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Върни бутона за история"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_call",
       "value": "Обади се"
     },
@@ -28553,6 +29428,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_action_short_discuss",
       "value": "Обсъди"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Редактирай"
     },
     {
       "_": "types.LangPackString",
@@ -28818,6 +29698,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_hide_participants_about",
       "value": "Включете това, за да скриете списъка с членове на тази група. Администраторите ще останат видими."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Покани в бота"
     },
     {
       "_": "types.LangPackString",
@@ -29356,6 +30241,12 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "на линия"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_proxy_selected",
+      "one_value": "{count} избрано прокси",
+      "other_value": "{count} избрани прокси"
     },
     {
       "_": "types.LangPackString",
@@ -30309,6 +31200,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Наистина ли искате да докладвате потребителя {user}, който ви покани в този бот, за спам?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_report_spam_sure_channel",
       "value": "Наистина ли искате да докладвате за спам в този канал?"
     },
@@ -30351,6 +31247,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_title",
       "value": "Сигнал за канал"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_repost_to_story",
+      "value": "Публикувай\nв история"
     },
     {
       "_": "types.LangPackString",
@@ -32355,6 +33256,11 @@
       "_": "types.LangPackString",
       "key": "lng_send_non_premium_unlock",
       "value": "отключи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_send_reply_to_forward",
+      "value": "Отговори на препратеното"
     },
     {
       "_": "types.LangPackString",
@@ -37608,6 +38514,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_location_add",
+      "value": "Добави това местоположение"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stories_my_name",
       "value": "Моята история"
     },
@@ -37712,13 +38623,467 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_widget_location",
+      "value": "Място"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_add_button",
+      "value": "Добави история"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_albums",
+      "value": "Албум"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_albums_count",
+      "one_value": "{count} албум",
+      "other_value": "{count} албума"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_count",
+      "value": "Историите ви са скрити от {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_blocklist_count_link",
+      "one_value": "{count} човек",
+      "other_value": "{count} души"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty",
+      "value": "{link}, които никога няма да виждат историите ви."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty_link",
+      "value": "Изберете хора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_title",
+      "value": "Скрий историите ми от"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Този канал се нуждае от повече подсилвания, за да публикува истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_caption_ph",
+      "value": "Добавете надпис…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_choose_media",
+      "value": "Избери снимка или видео"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_comment_ph",
       "value": "Коментирайте историята…"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft",
+      "value": "Изтрий черновата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Наистина ли искате да изтриете тази чернова на история?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_button",
+      "value": "Отхвърли"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_text",
+      "value": "Наистина ли искате да отхвърлите всички промени?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_title",
+      "value": "Отхвърляне на промените"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_failed",
+      "value": "Неуспешно запазване на черновата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Неуспешно зареждане на мултимедията от черновата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_photo",
+      "value": "Снимка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_saved",
+      "value": "Черновата е запазена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_video",
+      "value": "Видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_button",
+      "value": "Чернови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_empty",
+      "value": "Все още няма чернови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_title",
+      "value": "Чернови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit",
+      "value": "Редактирай историята"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy",
+      "value": "Редактирай поверителността"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy_title",
+      "value": "Настройки за поверителност"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edited",
+      "value": "Историята е актуализирана."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Само абонатите на Telegram Premium могат да използват форматиране в надписите към истории."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep",
+      "value": "Публикуване в профила ми"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_about",
+      "one_value": "Запазете тази история в профила си дори след като изтече {count} час. Ще важат настройките за поверителност.",
+      "other_value": "Запазете тази история в профила си дори след като изтекат {count} часа. Ще важат настройките за поверителност."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_channel",
+      "value": "Публикуване на страницата на канала"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_channel_about",
+      "one_value": "Запазете тази история на страницата на канала дори след като изтече {count} час.",
+      "other_value": "Запазете тази история на страницата на канала дори след като изтекат {count} часа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_draft",
+      "value": "Запази черновата"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_group",
+      "value": "Публикуване в профила на групата"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_keep_group_about",
+      "one_value": "Запазете тази история на страницата на групата дори след като изтече {count} час.",
+      "other_value": "Запазете тази история на страницата на групата дори след като изтекат {count} часа."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_count",
+      "one_value": "Можете да публикувате **{count}** история за **24** часа. Абонирайте се за **Telegram Premium**, за да увеличите този лимит.",
+      "other_value": "Можете да публикувате **{count}** истории за **24** часа. Абонирайте се за **Telegram Premium**, за да увеличите този лимит."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_count_premium",
+      "one_value": "За съжаление, не можете да публикувате повече от **{count}** история за **24** часа.",
+      "other_value": "За съжаление, не можете да публикувате повече от **{count}** истории за **24** часа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Абонирайте се за **Telegram Premium**, за да увеличите този лимит до **{limit}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_monthly",
+      "one_value": "Можете да публикувате **{count}** история за месец. Абонирайте се за **Telegram Premium**, за да увеличите този лимит.",
+      "other_value": "Можете да публикувате **{count}** истории за месец. Абонирайте се за **Telegram Premium**, за да увеличите този лимит."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_monthly_premium",
+      "one_value": "За съжаление, не можете да публикувате повече от **{count}** история за месец.",
+      "other_value": "За съжаление, не можете да публикувате повече от **{count}** истории за месец."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_title",
+      "value": "Достигнат лимит"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_weekly",
+      "one_value": "Можете да публикувате **{count}** история за седмица. Абонирайте се за **Telegram Premium**, за да увеличите този лимит.",
+      "other_value": "Можете да публикувате **{count}** истории за седмица. Абонирайте се за **Telegram Premium**, за да увеличите този лимит."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_limit_weekly_premium",
+      "one_value": "За съжаление, не можете да публикувате повече от **{count}** история за седмица.",
+      "other_value": "За съжаление, не можете да публикувате повече от **{count}** истории за седмица."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_link_premium",
+      "value": "Връзките в историите са налични с {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Вече се излъчва история на живо."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_location_change",
+      "value": "Промени местоположението"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_my_story",
+      "value": "Вие"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_about",
+      "value": "Изберете колко дълго историята ще бъде видима."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_period_premium",
+      "one_value": "Абонирайте се за {link}, за да изчезват историите ви след {count} час.",
+      "other_value": "Абонирайте се за {link}, за да изчезват историите ви след {count} часа."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_premium_link",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as",
+      "value": "Публикуване на история като"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as_personal",
+      "value": "личен акаунт"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_button",
+      "value": "Публикувай история"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_title",
+      "value": "Нова история"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_posted",
+      "value": "Историята е публикувана."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_preparing_video",
+      "value": "Подготовка на видеото…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends",
+      "value": "Близки приятели"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends_title",
+      "value": "Близки приятели"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_contacts",
+      "value": "Моите контакти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_edit_list",
+      "value": "редактирай списъка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_everyone",
+      "value": "Всички"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_except_one",
+      "value": "освен {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude",
+      "value": "изключи хора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude_title",
+      "value": "Изключване на контакти"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_privacy_excluded",
+      "one_value": "освен {count} човек",
+      "other_value": "освен {count} души"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_header",
+      "value": "Кой може да вижда историята ви"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_story_privacy_people",
+      "one_value": "{count} човек",
+      "other_value": "{count} души"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_select_title",
+      "value": "Избор на контакти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_selected",
+      "value": "Избрани потребители"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_reply_ph",
       "value": "Отговорете лично…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_repost",
+      "value": "Препубликувай историята"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_round_failed",
+      "value": "Неуспешно записване на видеосъобщението."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_draft",
+      "value": "Запази като чернова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Запази във файл"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "Историята е запазена във файл."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_failed",
+      "value": "Неуспешно запазване на историята."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_settings",
+      "value": "Запази настройките"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_screenshots",
+      "value": "Разрешаване на екранни снимки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_stop_button",
+      "value": "Спри"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Наистина ли искате да спрете качването на историята?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Спиране на качването"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_cancel",
+      "value": "Премахни"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_failed",
+      "value": "Неуспешно качване на историята."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_retry",
+      "value": "Опитай отново"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_lock",
+      "value": "Заключи видеото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_unlock",
+      "value": "Отключи видеото"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_weather_failed",
+      "value": "Неуспешно зареждане на прогнозата за времето."
     },
     {
       "_": "types.LangPackString",
@@ -38285,6 +39650,12 @@
       "_": "types.LangPackString",
       "key": "lng_sure_delete_contact",
       "value": "Наистина ли искате да изтриете {contact} от списъка си с контакти?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_sure_delete_contacts",
+      "one_value": "Наистина ли искате да изтриете {count} контакт от списъка си с контакти?",
+      "other_value": "Наистина ли искате да изтриете {count} контакта от списъка си с контакти?"
     },
     {
       "_": "types.LangPackString",
@@ -39302,8 +40673,34 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot",
+      "value": "Новият бот е разрешен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Можете да управлявате свързания бот в {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed_message",
       "value": "Можете да проверите списъка с активните влизания в {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "lng_unconfirmed_auth_connections",
+      "one_value": "Открихме {count} ново свързване с акаунта ви. Вие ли сте?",
+      "other_value": "Открихме {count} нови свързвания с акаунта ви. Вие ли сте?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_allowed",
+      "value": "Новите свързвания са разрешени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_denied",
+      "value": "Достъпът е отнет"
     },
     {
       "_": "types.LangPackString",
@@ -39316,6 +40713,11 @@
       "value": "Прекратихме опита за влизане от {country}."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Прекратихме връзката с бота, свързан от {country}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "lng_unconfirmed_auth_denied_title",
       "one_value": "Предотвратено ново влизане",
@@ -39323,8 +40725,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_title_bot",
+      "value": "Връзката с бота е прекратена"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_denied_warning",
       "value": "Никога не изпращайте кода си за вход на никого, иначе може да загубите акаунта си в Telegram!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Свързвайте само ботове, на които имате доверие. Свързаните ботове имат достъп до съобщенията ви и могат да действат от ваше име!"
     },
     {
       "_": "types.LangPackString",
@@ -39345,13 +40757,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_review_failed",
+      "value": "Неуспешно изпълнение на заявката. Опитайте отново."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_single",
       "value": "Открихме ново влизане в акаунта ви от {from}, {country}. Вие ли сте?"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "{bot} се свърза с акаунта ви от {from}. Вие ли сте?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_title",
       "value": "Някой току-що получи достъп до съобщенията ви!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title_bot",
+      "value": "Бот току-що получи достъп до съобщенията ви!"
     },
     {
       "_": "types.LangPackString",
@@ -39892,6 +41319,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Покани в бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Присъедини се"
     },
@@ -40365,6 +41797,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Първо свалете подаръка от продажба."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_username_about",
       "value": "Потребителското име {username} в Telegram."
     },
@@ -40773,6 +42210,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Преместване в профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Купувач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Сваляне от продажба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Ескроу такса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Изтича"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Неустойка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Обявяване за продажба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Нова цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Приета оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Оттеглена оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Отхвърлена оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Изтекла оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Изпратена оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Стара цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Цена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Покупка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Върната сума"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Промяна на цената"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Продавач"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Комисиона"
     },
     {
       "_": "types.LangPackString",
@@ -41370,6 +42902,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Входящ превод"
     },
@@ -41393,6 +42930,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "преместване в профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Купен за {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Свален от продажба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Обявен за продажба"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Обявен за продажба за {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Приета оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Приета оферта за {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Оттеглена оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Отхвърлена оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Изтекла оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Изпратена оферта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Нова цена: {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -41737,5 +43329,5 @@
       "other_value": "Платихте {count} звезди."
     }
   ],
-  "version": 6108144
+  "version": 6248559
 }

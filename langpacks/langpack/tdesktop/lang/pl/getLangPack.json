@@ -1209,6 +1209,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "Użytkownik {from} został zaproszony przez {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "Użytkownik {user} zaprosił cię do tego bota."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "Użytkownik {from} uczynił {user} nowym właścicielem grupy."
     },
@@ -1528,6 +1538,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Oferujesz {cost} za {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Kupiono {name} za {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Trwa finalizacja zakupu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Trwa wycofywanie oferty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Oferta została odrzucona."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Odrzucono ofertę."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Oferta wygasła."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Oferta wygasła. Trwa zwrot środków."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Oferta wygaśnie za\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Potrącono karę {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Zaoferowano ci {amount} za {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Zwrócono ci {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Przejrzyj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Trwa finalizacja sprzedaży."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Sprzedano {name} za {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Oferta została wycofana."
     },
     {
       "_": "types.LangPackString",
@@ -7170,6 +7255,104 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about",
+      "value": "Opis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Wyświetlany w profilu bota i przy udostępnianiu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_placeholder",
+      "value": "Krótki opis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_ai",
+      "value": "Przepisz z AI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Użyj wartości domyślnej"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro",
+      "value": "Wprowadzenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Wyświetlane w pustym czacie, zanim użytkownik uruchomi bota."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_placeholder",
+      "value": "Co może robić ten bot?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name",
+      "value": "Nazwa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name_placeholder",
+      "value": "Nazwa bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_saved",
+      "value": "Zaktualizowano informacje o bocie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Wybrani użytkownicy mają już czat z tym botem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} ma już czat z tym botem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Zaproś"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Nie udało się zaprosić wybranych użytkowników."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Możesz zaprosić naraz do {count} użytkowników.",
+      "key": "lng_bot_invite_limit",
+      "many_value": "Możesz zaprosić naraz do {count} użytkowników.",
+      "one_value": "Możesz zaprosić naraz do {count} użytkownika.",
+      "other_value": "Możesz zaprosić naraz do {count} użytkownika."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Wysłano zaproszenia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Wysłano zaproszenie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Zaproś do bota"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Ukryj klawiaturę bota"
     },
@@ -7177,6 +7360,307 @@
       "_": "types.LangPackString",
       "key": "lng_bot_keyboard_show",
       "value": "Pokaż klawiaturę bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_add",
+      "value": "Dodaj język"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_apply_confirm",
+      "value": "Zastosuj"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} zmiany będą od razu widoczne dla wszystkich użytkowników bota.",
+      "key": "lng_bot_languages_apply_sure",
+      "many_value": "{count} zmian będzie od razu widocznych dla wszystkich użytkowników bota.",
+      "one_value": "{count} zmiana będzie od razu widoczna dla wszystkich użytkowników bota.",
+      "other_value": "{count} zmiany będzie od razu widoczne dla wszystkich użytkowników bota."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_applying",
+      "value": "Wprowadzanie zmian: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Poczekaj, aż zakończy się bieżąca operacja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_default",
+      "value": "Domyślny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Odrzuć zmiany"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_export",
+      "value": "Eksportuj do pliku…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_exported",
+      "value": "Wyeksportowano języki."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "To nie jest kod języka: {code}. Użyj „default” lub dwóch małych liter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Duplikat: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_key",
+      "value": "Nieznany klucz: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Plik jest zbyt duży."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Ten plik wyeksportowano dla @{bot}. Zaimportować go mimo to?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot_confirm",
+      "value": "Importuj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_read",
+      "value": "Nie udało się odczytać pliku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Plik musi zawierać obiekt o nazwie „languages” z jednym obiektem dla każdego języka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Wartość musi być ciągiem znaków: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "Nieprawidłowy JSON w wierszu {line}, kolumnie {column}: {error}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_write",
+      "value": "Nie udało się zapisać pliku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_import",
+      "value": "Importuj z pliku…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zaimportowano {count} zmiany.",
+      "key": "lng_bot_languages_imported",
+      "many_value": "Zaimportowano {count} zmian.",
+      "one_value": "Zaimportowano {count} zmianę.",
+      "other_value": "Zaimportowano {count} zmiany."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "Plik nie zawiera nic nowego."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} języki wymagają uwagi.",
+      "key": "lng_bot_languages_imported_problems",
+      "many_value": "{count} języków wymaga uwagi.",
+      "one_value": "{count} język wymaga uwagi.",
+      "other_value": "{count} języka wymaga uwagi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_loading",
+      "value": "Sprawdzanie tłumaczeń: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paste",
+      "value": "Wklej ze schowka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "Limity serwera: pauza, wznowienie za {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Zatrzymaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Zatrzymano z powodu limitów serwera. Spróbuj ponownie później."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Tłumacz na…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Tłumaczenia są dodawane jako niezapisane zmiany. Przejrzyj je przed zapisaniem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_button",
+      "value": "Tłumacz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_failed",
+      "value": "Nie udało się przetłumaczyć. Spróbuj później."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Tłumacz na"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Przetłumaczono na {count} języki. Przejrzyj i zapisz.",
+      "key": "lng_bot_languages_translated",
+      "many_value": "Przetłumaczono na {count} języków. Przejrzyj i zapisz.",
+      "one_value": "Przetłumaczono na {count} język. Przejrzyj i zapisz.",
+      "other_value": "Przetłumaczono na {count} języka. Przejrzyj i zapisz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating",
+      "value": "Tłumaczenie: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Tłumaczenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Podgląd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Dodaj podgląd"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} podglądy",
+      "key": "lng_bot_media_previews_count",
+      "many_value": "{count} podglądów",
+      "one_value": "{count} podgląd",
+      "other_value": "{count} podglądu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Usuń tłumaczenie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Usunąć wszystkie multimedia podglądu dla tego języka?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Usunąć te {count} podglądy?",
+      "key": "lng_bot_media_previews_delete_many",
+      "many_value": "Usunąć te {count} podglądów?",
+      "one_value": "Usunąć ten podgląd?",
+      "other_value": "Usunąć te {count} podglądu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Brak podglądu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Ten podgląd jest wyświetlany użytkownikom, dla których języka nie ma tłumaczenia."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Prześlij do {count} zrzutów ekranu i demonstracji wideo dla swojej miniaplikacji.",
+      "key": "lng_bot_media_previews_intro",
+      "many_value": "Prześlij do {count} zrzutów ekranu i demonstracji wideo dla swojej miniaplikacji.",
+      "one_value": "Prześlij do {count} zrzutu ekranu lub demonstracji wideo dla swojej miniaplikacji.",
+      "other_value": "Prześlij do {count} zrzutu ekranu i demonstracji wideo dla swojej miniaplikacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Ten podgląd jest wyświetlany użytkownikom, którzy mają ustawiony język {language}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Nie udało się załadować multimediów podglądu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Opublikowano podgląd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Przeciągnij podglądy, aby zmienić ich kolejność."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Nie udało się zaktualizować multimediów podglądu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Zapisywanie zmian…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Zaktualizowano podgląd."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Nie udało się przesłać tego zdjęcia lub wideo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Przesyłanie podglądu…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Użyj bieżącej klatki jako okładki"
     },
     {
       "_": "types.LangPackString",
@@ -7317,6 +7801,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Udostępnij wiadomość"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Nie udało się załadować multimediów do relacji."
     },
     {
       "_": "types.LangPackString",
@@ -11118,6 +11607,14 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "{count} wybrane kontakty",
+      "key": "lng_contacts_selected",
+      "many_value": "{count} wybranych kontaktów",
+      "one_value": "{count} wybrany kontakt",
+      "other_value": "{count} wybranego kontaktu"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "{count} relacje",
       "key": "lng_contacts_stories_status",
       "many_value": "{count} relacji",
@@ -12695,6 +13192,41 @@
       "_": "types.LangPackString",
       "key": "lng_credits_currency_summary_title",
       "value": "Saldo Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Wypłać"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Spróbuj ponownie później."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Otwórz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "Wysłano {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Sprawdź {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Gramy trafią do twojego portfela niepowierniczego ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Wypłać {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -17600,6 +18132,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "kupiony"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Ten prezent został spalony podczas tworzenia."
     },
@@ -17607,6 +18144,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "spalony"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Zlecenie zakupu zostało już wysłane."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Prezent pojawi się w {path} i na twoim profilu po potwierdzeniu zakupu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} otrzyma prezent po potwierdzeniu zakupu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Kontynuuj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Kwota {amount} zostanie przeniesiona z Zarobków Gram na twoje saldo i użyta do zakupu tego prezentu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Użyć Zarobków Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Spróbuj ponownie później."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gaz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Ten prezent nie jest już na sprzedaż."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Suma"
     },
     {
       "_": "types.LangPackString",
@@ -18382,6 +18969,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Wprowadź liczbę Gramów, które chcesz zaoferować za {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Dodaj środki {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Ta oferta została już wysłana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Chcesz złożyć tę ofertę użytkownikowi {user} za {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Wybierz, ile czasu ma właściciel na zaakceptowanie twojej oferty. Po jej wygaśnięciu twoje Gramy zostaną automatycznie zwrócone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Opłata depozytowa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Oferta wygasa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Oferta w Gramach"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Niewystarczające środki. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Maksymalna oferta to {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Minimalna oferta to {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Właściciel otrzyma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Opłata platformy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Jeśli właściciel odrzuci twoją ofertę lub ta wygaśnie, twoje Gramy zostaną automatycznie zwrócone."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "Zarezerwowano {amount} do {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Wysłano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Zapłacisz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Otrzymasz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Odrzuć ofertę"
     },
@@ -18429,6 +19106,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "Na sprzedaż za {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Sprzedać {name} za {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Potwierdź sprzedaż"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Odrzucić tę ofertę? Kupujący otrzyma zwrot swoich Gramów."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Opłata sieciowa: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} jest na sprzedaż. Wycofaj go ze sprzedaży, zanim zaakceptujesz ofertę."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Wycofaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Spróbuj ponownie później."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Wcześniejsze wycofanie kosztuje {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Wycofaj za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Pozostała część kwoty {amount} zostanie ci zwrócona."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Wycofać ofertę?"
     },
     {
       "_": "types.LangPackString",
@@ -18556,6 +19288,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Za Gramy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Za Gwiazdki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Z Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Model"
     },
@@ -18672,6 +19419,11 @@
       "other_value": "Otrzymasz **{count}** Grama."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Maksymalna cena to {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Minimalna cena to {count} Gwiazdki.",
       "key": "lng_gift_sell_min_price",
@@ -18686,6 +19438,51 @@
       "many_value": "Minimalna cena to {count} Gramów.",
       "one_value": "Minimalna cena to {count} Gram.",
       "other_value": "Minimalna cena to {count} Grama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Ta operacja została już wysłana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Wystawić {name} za {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Od ceny potrącana jest opłata w wysokości {percent}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Opłata za wystawienie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "{name} trafi na sprzedaż za {price}, gdy sieć potwierdzi wystawienie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} jest na sprzedaż za {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Opłata za wycofanie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} jest już na sprzedaż. Najpierw wycofaj go ze sprzedaży, a potem wystaw ponownie w nowej cenie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Otrzymasz"
     },
     {
       "_": "types.LangPackString",
@@ -18932,6 +19729,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Wyprzedany!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "sprzedany"
     },
     {
       "_": "types.LangPackString",
@@ -22585,6 +23387,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_in_dlg_widget",
+      "value": "Widżet"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_in_reply_to",
       "value": "W odpowiedzi na"
     },
@@ -23408,6 +24215,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_languages_custom",
+      "value": "Własny pakiet językowy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_languages_none",
       "value": "Nie znaleziono języków."
     },
@@ -23967,6 +24779,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_logout_add_account_about",
+      "value": "Podłącz kolejne konto Telegrama i łatwo przełączaj się między kontami."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_alternatives",
+      "value": "Alternatywne opcje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache",
+      "value": "Wyczyść pamięć podręczną"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache_about",
+      "value": "Zwolnij miejsce na dysku, usuwając multimedia z pamięci podręcznej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support",
+      "value": "Skontaktuj się ze wsparciem"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support_about",
+      "value": "Opisz nam swój problem. Wylogowanie zwykle nie pomaga."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode",
+      "value": "Ustaw kod dostępu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode_about",
+      "value": "Zablokuj Telegram Desktop kodem dostępu, aby nikt inny nie mógł go otworzyć."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_all_apps",
       "value": "Wszystkie aplikacje"
     },
@@ -24485,6 +25337,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_bot_edit_info",
+      "value": "Edytuj informacje"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_intro",
       "value": "Edytuj wprowadzenie"
     },
@@ -24492,6 +25349,14 @@
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_settings",
       "value": "Zmień ustawienia bota"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} niezapisane",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "many_value": "{count} niezapisanych",
+      "one_value": "{count} niezapisana",
+      "other_value": "{count} niezapisanej"
     },
     {
       "_": "types.LangPackString",
@@ -26506,8 +27371,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Zablokuj bota"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "{user} jest teraz zablokowany"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "Użytkownik {user} zaprosił cię do tego bota, którego właścicielem jest {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -29001,6 +29876,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_enhance",
+      "value": "Popraw"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_font",
       "value": "Czcionka"
     },
@@ -29028,6 +29908,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_font_serif",
       "value": "Serif"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Wstaw emoji"
     },
     {
       "_": "types.LangPackString",
@@ -29083,6 +29968,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_double_click",
       "value": "Podwójne kliknięcie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_enhance",
+      "value": "Popraw zdjęcie"
     },
     {
       "_": "types.LangPackString",
@@ -29143,6 +30033,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_flip",
       "value": "Odwróć zaznaczenie poziomo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Przesuń zaznaczenie o warstwę niżej"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Przesuń zaznaczenie o warstwę wyżej"
     },
     {
       "_": "types.LangPackString",
@@ -31431,6 +32331,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Przywróć przycisk relacji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_call",
       "value": "Zadzwoń"
     },
@@ -31443,6 +32348,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_action_short_discuss",
       "value": "Dyskutuj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Edytuj profil"
     },
     {
       "_": "types.LangPackString",
@@ -31846,6 +32756,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "Link zaproszenia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Zaproś do bota"
     },
     {
       "_": "types.LangPackString",
@@ -32538,6 +33453,14 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "online"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} wybrane proxy",
+      "key": "lng_proxy_selected",
+      "many_value": "{count} wybranych proxy",
+      "one_value": "{count} wybrane proxy",
+      "other_value": "{count} wybranego proxy"
     },
     {
       "_": "types.LangPackString",
@@ -33611,6 +34534,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Czy na pewno chcesz zgłosić jako spam użytkownika {user}, który zaprosił cię do tego bota?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_report_spam_sure_channel",
       "value": "Czy na pewno chcesz zgłosić spam z tego kanału?"
     },
@@ -33658,6 +34586,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_title",
       "value": "Zgłoś kanał"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_repost_to_story",
+      "value": "Udostępnij\nw relacji"
     },
     {
       "_": "types.LangPackString",
@@ -35829,6 +36762,11 @@
       "many_value": "Wyślij {count} zdjęć",
       "one_value": "Wyślij {count} zdjęcie",
       "other_value": "Wyślij {count} zdjęcia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_send_reply_to_forward",
+      "value": "Przekaż z odpowiedzią"
     },
     {
       "_": "types.LangPackString",
@@ -41694,6 +42632,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_location_add",
+      "value": "Dodaj tę lokalizację"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stories_my_name",
       "value": "Moja relacja"
     },
@@ -41806,13 +42749,495 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_widget_location",
+      "value": "Lokalizacja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_add_button",
+      "value": "Dodaj relację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_albums",
+      "value": "Album"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} albumy",
+      "key": "lng_story_albums_count",
+      "many_value": "{count} albumów",
+      "one_value": "{count} album",
+      "other_value": "{count} albumu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_count",
+      "value": "Twoje relacje są ukryte przed {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} osobami",
+      "key": "lng_story_blocklist_count_link",
+      "many_value": "{count} osobami",
+      "one_value": "{count} osobą",
+      "other_value": "{count} osoby"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty",
+      "value": "{link}, które nie zobaczą twoich relacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty_link",
+      "value": "Wybierz osoby"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_title",
+      "value": "Ukryj moje relacje przed"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Ten kanał potrzebuje więcej ulepszeń, aby publikować relacje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_caption_ph",
+      "value": "Dodaj podpis…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_choose_media",
+      "value": "Wybierz zdjęcie lub wideo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_comment_ph",
       "value": "Skomentuj relację…"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft",
+      "value": "Usuń szkic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Czy na pewno chcesz usunąć ten szkic relacji?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_button",
+      "value": "Odrzuć"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_text",
+      "value": "Czy na pewno chcesz odrzucić wszystkie zmiany?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_title",
+      "value": "Odrzuć zmiany"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_failed",
+      "value": "Nie udało się zapisać szkicu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Nie udało się załadować multimediów szkicu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_photo",
+      "value": "Zdjęcie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_saved",
+      "value": "Zapisano szkic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_video",
+      "value": "Wideo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_button",
+      "value": "Szkice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_empty",
+      "value": "Nie ma jeszcze szkiców"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_title",
+      "value": "Szkice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit",
+      "value": "Edytuj relację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy",
+      "value": "Edytuj prywatność"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy_title",
+      "value": "Edytuj ustawienia prywatności"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edited",
+      "value": "Zaktualizowano relację."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Tylko subskrybenci Telegram Premium mogą używać formatowania w podpisach relacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep",
+      "value": "Opublikuj na moim profilu"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zachowaj tę relację na swoim profilu, nawet gdy wygaśnie za {count} godziny. Ustawienia prywatności nadal będą obowiązywać.",
+      "key": "lng_story_keep_about",
+      "many_value": "Zachowaj tę relację na swoim profilu, nawet gdy wygaśnie za {count} godzin. Ustawienia prywatności nadal będą obowiązywać.",
+      "one_value": "Zachowaj tę relację na swoim profilu, nawet gdy wygaśnie za {count} godzinę. Ustawienia prywatności nadal będą obowiązywać.",
+      "other_value": "Zachowaj tę relację na swoim profilu, nawet gdy wygaśnie za {count} godziny. Ustawienia prywatności nadal będą obowiązywać."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_channel",
+      "value": "Opublikuj na stronie kanału"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zachowaj tę relację na stronie kanału, nawet gdy wygaśnie za {count} godziny.",
+      "key": "lng_story_keep_channel_about",
+      "many_value": "Zachowaj tę relację na stronie kanału, nawet gdy wygaśnie za {count} godzin.",
+      "one_value": "Zachowaj tę relację na stronie kanału, nawet gdy wygaśnie za {count} godzinę.",
+      "other_value": "Zachowaj tę relację na stronie kanału, nawet gdy wygaśnie za {count} godziny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_draft",
+      "value": "Zachowaj szkic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_group",
+      "value": "Opublikuj na stronie grupy"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Zachowaj tę relację na stronie grupy, nawet gdy wygaśnie za {count} godziny.",
+      "key": "lng_story_keep_group_about",
+      "many_value": "Zachowaj tę relację na stronie grupy, nawet gdy wygaśnie za {count} godzin.",
+      "one_value": "Zachowaj tę relację na stronie grupy, nawet gdy wygaśnie za {count} godzinę.",
+      "other_value": "Zachowaj tę relację na stronie grupy, nawet gdy wygaśnie za {count} godziny."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Możesz opublikować **{count}** relacje w ciągu **24** godzin. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "key": "lng_story_limit_count",
+      "many_value": "Możesz opublikować **{count}** relacji w ciągu **24** godzin. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "one_value": "Możesz opublikować **{count}** relację w ciągu **24** godzin. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "other_value": "Możesz opublikować **{count}** relacji w ciągu **24** godzin. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Nie możesz opublikować więcej niż **{count}** relacje w ciągu **24** godzin.",
+      "key": "lng_story_limit_count_premium",
+      "many_value": "Nie możesz opublikować więcej niż **{count}** relacji w ciągu **24** godzin.",
+      "one_value": "Nie możesz opublikować więcej niż **{count}** relację w ciągu **24** godzin.",
+      "other_value": "Nie możesz opublikować więcej niż **{count}** relacji w ciągu **24** godzin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Subskrybuj **Telegram Premium**, aby zwiększyć ten limit do **{limit}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Możesz opublikować **{count}** relacje w miesiącu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "key": "lng_story_limit_monthly",
+      "many_value": "Możesz opublikować **{count}** relacji w miesiącu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "one_value": "Możesz opublikować **{count}** relację w miesiącu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "other_value": "Możesz opublikować **{count}** relacji w miesiącu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Nie możesz opublikować więcej niż **{count}** relacje w miesiącu.",
+      "key": "lng_story_limit_monthly_premium",
+      "many_value": "Nie możesz opublikować więcej niż **{count}** relacji w miesiącu.",
+      "one_value": "Nie możesz opublikować więcej niż **{count}** relację w miesiącu.",
+      "other_value": "Nie możesz opublikować więcej niż **{count}** relacji w miesiącu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_title",
+      "value": "Osiągnięto limit"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Możesz opublikować **{count}** relacje w tygodniu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "key": "lng_story_limit_weekly",
+      "many_value": "Możesz opublikować **{count}** relacji w tygodniu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "one_value": "Możesz opublikować **{count}** relację w tygodniu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit.",
+      "other_value": "Możesz opublikować **{count}** relacji w tygodniu. Subskrybuj **Telegram Premium**, aby zwiększyć ten limit."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Nie możesz opublikować więcej niż **{count}** relacje w tygodniu.",
+      "key": "lng_story_limit_weekly_premium",
+      "many_value": "Nie możesz opublikować więcej niż **{count}** relacji w tygodniu.",
+      "one_value": "Nie możesz opublikować więcej niż **{count}** relację w tygodniu.",
+      "other_value": "Nie możesz opublikować więcej niż **{count}** relacji w tygodniu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_link_premium",
+      "value": "Linki w relacjach są dostępne z {link}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Relacja na żywo jest już transmitowana."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_location_change",
+      "value": "Zmień lokalizację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_my_story",
+      "value": "Ty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_about",
+      "value": "Wybierz, jak długo relacja będzie widoczna."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Subskrybuj {link}, aby twoje relacje znikały po {count} godzinach.",
+      "key": "lng_story_period_premium",
+      "many_value": "Subskrybuj {link}, aby twoje relacje znikały po {count} godzinach.",
+      "one_value": "Subskrybuj {link}, aby twoje relacje znikały po {count} godzinie.",
+      "other_value": "Subskrybuj {link}, aby twoje relacje znikały po {count} godziny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_premium_link",
+      "value": "Telegram Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as",
+      "value": "Opublikuj relację jako"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as_personal",
+      "value": "osobiste konto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_button",
+      "value": "Opublikuj relację"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_title",
+      "value": "Nowa relacja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_posted",
+      "value": "Opublikowano relację."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_preparing_video",
+      "value": "Przygotowywanie wideo…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends",
+      "value": "Bliscy znajomi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends_title",
+      "value": "Bliscy znajomi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_contacts",
+      "value": "Moje kontakty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_edit_list",
+      "value": "edytuj listę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_everyone",
+      "value": "Wszyscy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_except_one",
+      "value": "oprócz: {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude",
+      "value": "wyklucz osoby"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude_title",
+      "value": "Wyklucz kontakty"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "oprócz {count} osób",
+      "key": "lng_story_privacy_excluded",
+      "many_value": "oprócz {count} osób",
+      "one_value": "oprócz {count} osoby",
+      "other_value": "oprócz {count} osoby"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_header",
+      "value": "Kto może oglądać twoją relację"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} osoby",
+      "key": "lng_story_privacy_people",
+      "many_value": "{count} osób",
+      "one_value": "{count} osoba",
+      "other_value": "{count} osoby"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_select_title",
+      "value": "Wybierz kontakty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_selected",
+      "value": "Wybrani użytkownicy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_reply_ph",
       "value": "Odpowiedz prywatnie…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_repost",
+      "value": "Udostępnij w relacji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_round_failed",
+      "value": "Nie udało się nagrać wiadomości wideo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_draft",
+      "value": "Zapisz szkic"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Zapisz do pliku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "Zapisano relację do pliku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_failed",
+      "value": "Nie udało się zapisać relacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_settings",
+      "value": "Zapisz ustawienia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_screenshots",
+      "value": "Zezwalaj na zrzuty ekranu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_stop_button",
+      "value": "Zatrzymaj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Czy na pewno chcesz zatrzymać przesyłanie relacji?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Zatrzymaj przesyłanie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_cancel",
+      "value": "Usuń"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_failed",
+      "value": "Nie udało się przesłać relacji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_retry",
+      "value": "Spróbuj ponownie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_lock",
+      "value": "Zablokuj wideo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_unlock",
+      "value": "Odblokuj wideo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_weather_failed",
+      "value": "Nie udało się załadować pogody."
     },
     {
       "_": "types.LangPackString",
@@ -42433,6 +43858,14 @@
       "value": "Czy na pewno chcesz usunąć „{contact}” z listy kontaktów?"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Czy na pewno chcesz usunąć {count} kontakty z listy kontaktów?",
+      "key": "lng_sure_delete_contacts",
+      "many_value": "Czy na pewno chcesz usunąć {count} kontaktów z listy kontaktów?",
+      "one_value": "Czy na pewno chcesz usunąć {count} kontakt z listy kontaktów?",
+      "other_value": "Czy na pewno chcesz usunąć {count} kontaktu z listy kontaktów?"
+    },
+    {
       "_": "types.LangPackString",
       "key": "lng_sure_delete_group",
       "value": "Czy na pewno chcesz usunąć tę grupę? Wszyscy członkowie zostaną usunięci i wszystkie wiadomości zostaną utracone."
@@ -42696,6 +44129,21 @@
       "_": "types.LangPackString",
       "key": "lng_text_copied",
       "value": "Tekst został skopiowany do schowka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_copied",
+      "value": "Skopiowano: {text}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_log",
+      "value": "Dziennik widżetu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_tgw_stopped",
+      "value": "Widżet zatrzymany"
     },
     {
       "_": "types.LangPackString",
@@ -43521,8 +44969,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot",
+      "value": "Zezwolono na nowego bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Podłączonym botem możesz zarządzać w sekcji {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed_message",
       "value": "Listę aktywnych logowań możesz sprawdzić w {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Wykryliśmy {count} nowe połączenia z twoim kontem. Czy to ty?",
+      "key": "lng_unconfirmed_auth_connections",
+      "many_value": "Wykryliśmy {count} nowych połączeń z twoim kontem. Czy to ty?",
+      "one_value": "Wykryliśmy {count} nowe połączenie z twoim kontem. Czy to ty?",
+      "other_value": "Wykryliśmy {count} nowego połączenia z twoim kontem. Czy to ty?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_allowed",
+      "value": "Zezwolono na nowe połączenia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_denied",
+      "value": "Cofnięto dostęp"
     },
     {
       "_": "types.LangPackString",
@@ -43535,6 +45011,11 @@
       "value": "Zakończyliśmy próbę logowania z {country}."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Odłączyliśmy bota połączonego z {country}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Zablokowano nowe logowania",
       "key": "lng_unconfirmed_auth_denied_title",
@@ -43544,8 +45025,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_title_bot",
+      "value": "Odłączono bota"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_denied_warning",
       "value": "Nigdy nikomu nie wysyłaj swojego kodu logowania, bo możesz stracić swoje konto Telegrama!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Podłączaj tylko boty, którym ufasz. Podłączone boty mają dostęp do twoich wiadomości i mogą działać w twoim imieniu!"
     },
     {
       "_": "types.LangPackString",
@@ -43570,13 +45061,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_review_failed",
+      "value": "Nie udało się zrealizować żądania. Spróbuj ponownie."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_single",
       "value": "Wykryliśmy nowe logowanie na twoje konto z {from}, {country}. Czy to ty?"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "{bot} połączył się z twoim kontem z {from}. Czy to ty?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_title",
       "value": "Ktoś właśnie uzyskał dostęp do twoich wiadomości!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title_bot",
+      "value": "Bot właśnie uzyskał dostęp do twoich wiadomości!"
     },
     {
       "_": "types.LangPackString",
@@ -44139,6 +45645,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Zaproś do bota"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Dołącz do rozmowy"
     },
@@ -44570,6 +46081,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Przed przekazaniem wycofaj prezent ze sprzedaży."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_comment_add",
       "value": "Dodaj"
     },
@@ -44857,6 +46373,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Przeniesiono na profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Kupujący"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Usunięto ze sprzedaży"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Koszty depozytu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Wygasa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Kara"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Wystawiono na sprzedaż"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Nowa cena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Zaakceptowano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Anulowano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Odrzucono ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Oferta wygasła"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Wysłano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Stara cena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Cena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Kupiono"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Zwrot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Zmieniono cenę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Sprzedawca"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Prowizja"
     },
     {
       "_": "types.LangPackString",
@@ -45422,6 +47033,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Przelew przychodzący"
     },
@@ -45442,6 +47058,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "przeniesiono na profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Kupiono za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Usunięto ze sprzedaży"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Wystawiono na sprzedaż"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Wystawiono na sprzedaż za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Zaakceptowano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Zaakceptowano ofertę za {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Anulowano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Odrzucono ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Oferta wygasła"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Wysłano ofertę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Zmieniono cenę na {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -45740,5 +47411,5 @@
       "other_value": "Zapłacono {count} Gwiazdki."
     }
   ],
-  "version": 6075287
+  "version": 6248574
 }

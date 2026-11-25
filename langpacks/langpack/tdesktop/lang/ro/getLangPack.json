@@ -1206,6 +1206,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "{from} a fost invitat(ă) de {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} te-a invitat la acest robot."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} a făcut pe {user} noul proprietar al grupului."
     },
@@ -1516,6 +1526,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Ai oferit {cost} pentru {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Ai cumpărat {name} pt. {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Achiziția este în curs de finalizare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Oferta este în curs de retragere."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Oferta a fost respinsă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Ai respins oferta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Oferta a expirat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Oferta a expirat. Rambursarea ta este în curs."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Oferta expiră în\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Penalități de {amount} au fost reținute."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Ai primit o ofertă de {amount} pt. {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Ai primit înapoi {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Revizuiește"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Vânzarea este în curs de finalizare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Ai vândut {name} pt. {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Oferta a fost retrasă."
     },
     {
       "_": "types.LangPackString",
@@ -7190,6 +7275,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Utilizatorii aleși au deja o conversație cu acest robot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} are deja o conversație cu acest robot."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Invită"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Niciunul dintre utilizatorii aleși nu a putut fi invitat."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Poți invita până la {count} utilizatori deodată.",
+      "key": "lng_bot_invite_limit",
+      "one_value": "Poți invita până la {count} utilizator deodată.",
+      "other_value": "Poți invita până la {count} de utilizatori deodată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Invitații trimise."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Invitație trimisă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Invită la robot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Ascunde tastatură robot"
     },
@@ -7347,7 +7474,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_bot_languages_stopped",
-      "value": "Oprit de limite de server. Te rugăm, revino ulterior."
+      "value": "Oprit de limitele serverului. Încearcă iar mai târziu."
     },
     {
       "_": "types.LangPackString",
@@ -7367,7 +7494,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_bot_languages_translate_failed",
-      "value": "Nu s-a putut traduce. Te rugăm, încearcă mai târziu."
+      "value": "Nu s-a putut traduce. Încearcă iar mai târziu."
     },
     {
       "_": "types.LangPackString",
@@ -7390,6 +7517,107 @@
       "_": "types.LangPackString",
       "key": "lng_bot_languages_translating_title",
       "value": "Se traduce"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Previzualizare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Adaugă Previzualizare"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} previzualizări",
+      "key": "lng_bot_media_previews_count",
+      "one_value": "{count} previzualizare",
+      "other_value": "{count} de previzualizări"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Șterge traducerea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Vrei să ștergi toate previzualizările pentru această limbă?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Vrei să ștergi aceste {count} previzualizări?",
+      "key": "lng_bot_media_previews_delete_many",
+      "one_value": "Vrei să ștergi această previzualizare?",
+      "other_value": "Vrei să ștergi aceste {count} de previzualizări?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Nicio Previzualizare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Această previzualizare este afișată utilizatorilor care nu au o traducere în limba lor."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Încarcă până la {count} capturi de ecran și demo-uri video pentru mini app a ta.",
+      "key": "lng_bot_media_previews_intro",
+      "one_value": "Încarcă până la {count} captură de ecran sau demo video pentru mini app a ta.",
+      "other_value": "Încarcă până la {count} de capturi de ecran și demo-uri video pentru mini app a ta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Această previzualizare este afișată utilizatorilor care au setat {language} ca limbă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Conținutul media de previzualizare nu a putut fi încărcat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Previzualizare publicată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Trage previzualizările pentru a le schimba ordinea."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Conținutul media de previzualizare nu a putut fi actualizat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Se salvează modificările…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Previzualizare actualizată."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Poza sau clipul nu a putut fi încărcat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Se încarcă previzualizarea…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Folosește cadrul curent pt. copertă"
     },
     {
       "_": "types.LangPackString",
@@ -12907,6 +13135,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Retrage"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Încearcă iar mai târziu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Deschide"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "{amount} trimiși"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Verifică {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Suma în Gram va ajunge în portofelul tău non-custodial ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "Retrage {amount}"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_credits_earn_button",
       "value": "Câștigă Stele din Mini Apps"
     },
@@ -16032,7 +16295,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_failed_add_participant",
-      "value": "Nu putem adăuga utilizatorul. Încearcă mai târziu."
+      "value": "Nu putem adăuga utilizatorul. Încearcă iar mai târziu."
     },
     {
       "_": "types.LangPackString",
@@ -17045,7 +17308,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_flood_error",
-      "value": "Prea multe încercări. Te rugăm încearcă mai târziu."
+      "value": "Prea multe încercări. Revino mai târziu."
     },
     {
       "_": "types.LangPackString",
@@ -17790,6 +18053,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "cumpărat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Acest cadou a fost ars în craftare."
     },
@@ -17797,6 +18065,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "ars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Această achiziție a fost deja trimisă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Cadoul va apărea în {path} și la profilul tău după confirmarea achiziției."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} va primi cadoul după confirmarea achiziției."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Continuă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Suma de {amount} va fi mutată din Câștiguri în Gram în soldul tău și folosită pt. a cumpăra acest cadou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Folosești Câștigurile în Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Încearcă iar mai târziu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Gas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Acest cadou nu mai este de vânzare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Total"
     },
     {
       "_": "types.LangPackString",
@@ -18563,6 +18881,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Introdu suma în Gram pe care vrei să o oferi pt. {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Adaugă fonduri {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Această ofertă a fost deja trimisă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Vrei să trimiți această ofertă către {user} pt. {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Alege cât timp are proprietarul pt. a-ți accepta oferta. Când expiră, suma în Gram îți va fi rambursată automat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Taxă escrow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Oferta expiră"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Gram de oferit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Fonduri insuficiente. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Oferta maximă este de {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Oferta minimă este de {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Proprietarul primește"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Taxă platformă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Dacă proprietarul îți respinge oferta sau aceasta expiră, suma în Gram îți va fi returnată automat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "{amount} reținuți până în {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Ofertă trimisă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Tu plătești"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Tu primești"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Respinge Oferta"
     },
@@ -18610,6 +19018,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "La vânzare pt. {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Vrei să vinzi {name} pt. {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Confirmare vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Vrei să respingi oferta? Cumpărătorul își va primi înapoi suma în Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Taxă de rețea: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "{name} este la vânzare. Delistează-l înainte de a accepta o ofertă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Retrage"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Încearcă iar mai târziu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Retragerea anticipată costă {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Retrage pt. {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Restul sumei de {amount} îți va fi returnat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Retragi oferta?"
     },
     {
       "_": "types.LangPackString",
@@ -18734,6 +19197,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Pentru Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Pentru Stele"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "De pe Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Model"
     },
@@ -18846,6 +19324,11 @@
       "other_value": "Tu vei primi {count} de Gram."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Prețul maxim este de {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Prețul minim este de {count} Stele.",
       "key": "lng_gift_sell_min_price",
@@ -18858,6 +19341,51 @@
       "key": "lng_gift_sell_min_price_ton",
       "one_value": "Prețul minim este de {count} Gram.",
       "other_value": "Prețul minim este de {count} de Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Această operațiune a fost deja trimisă."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Pui {name} la vânzare pt. {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Din preț se deduce o taxă de {percent}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Taxă de listare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "{name} va fi pus la vânzare pt. {price} după ce rețeaua confirmă listarea."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "{name} este la vânzare pt. {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Taxă de delistare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "{name} este deja la vânzare. Delistează-l mai întâi, apoi pune-l la vânzare la noul preț."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Tu primești"
     },
     {
       "_": "types.LangPackString",
@@ -19097,6 +19625,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Epuizat!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "vândut"
     },
     {
       "_": "types.LangPackString",
@@ -26663,8 +27196,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Blochează robot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "{user} este acum blocat(ă)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} te-a invitat la acest robot deținut de {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -29188,6 +29731,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Inserează emoji"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_keep_ratio",
       "value": "Raport de aspect original"
     },
@@ -31583,6 +32131,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Editează info"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_gift",
       "value": "Dăruiește"
     },
@@ -31977,6 +32530,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_invite_link_section",
       "value": "Link de invitație"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Invită la robot"
     },
     {
       "_": "types.LangPackString",
@@ -33737,6 +34295,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_spam_sure",
       "value": "Sigur vrei să raportezi acest utilizator pentru spam?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "Sigur vrei să raportezi pentru spam pe {user}, care te-a invitat la acest robot?"
     },
     {
       "_": "types.LangPackString",
@@ -38053,7 +38616,7 @@
     {
       "_": "types.LangPackString",
       "key": "lng_settings_saved_music_privacy",
-      "value": "Muzică Salvată"
+      "value": "Muzică salvată"
     },
     {
       "_": "types.LangPackString",
@@ -41969,6 +42532,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Sigur vrei să ștergi această ciornă de poveste?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_discard_button",
       "value": "Renunță"
     },
@@ -42101,6 +42669,11 @@
       "key": "lng_story_limit_count_premium",
       "one_value": "Ne pare rău, nu poți posta mai mult de **{count}** poveste în **24** de ore.",
       "other_value": "Ne pare rău, nu poți posta mai mult de **{count}** de povești în **24** de ore."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Abonează-te la **Telegram Premium** pentru a extinde această limită la **{limit}**."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -44759,6 +45332,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Invită la robot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Alătură-te apelului"
     },
@@ -45245,6 +45823,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Delistează acest cadou înainte de a-l transfera."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_username_about",
       "value": "Numele de utilizator {username} pe Telegram."
     },
@@ -45654,6 +46237,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Mutat la profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Cumpărător"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Eliminat de la vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Costuri escrow"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Expiră"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Penalități"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Pus la vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Preț nou"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Ofertă acceptată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Ofertă anulată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Ofertă respinsă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Ofertă expirată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Ofertă trimisă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Preț vechi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Preț"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Cumpărat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Rambursare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Preț schimbat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Vânzător"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Taxă pe servicii"
     },
     {
       "_": "types.LangPackString",
@@ -46255,6 +46933,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Încasare"
     },
@@ -46279,6 +46962,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "mutat la profil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Cumpărat pt. {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Eliminat de la vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Pus la vânzare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Pus la vânzare pt. {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Ofertă acceptată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Ofertă acceptată pt. {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Ofertă anulată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Ofertă respinsă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Ofertă expirată"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Ofertă trimisă"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Preț actualizat la {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -46635,5 +47373,5 @@
       "other_value": "Ai plătit {count} de Stele."
     }
   ],
-  "version": 6211964
+  "version": 6248051
 }

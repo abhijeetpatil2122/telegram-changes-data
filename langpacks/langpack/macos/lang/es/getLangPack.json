@@ -60,6 +60,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.EditController.InstructionsPlaceholder",
+      "value": "Qué hace, cómo responde, qué sabe"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.EditController.Save",
       "value": "Guardar"
     },
@@ -80,6 +85,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.DailyScheduleDraft",
+      "value": "Cada día a las 9:00, "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.Delete",
       "value": "Eliminar"
     },
@@ -89,10 +99,31 @@
       "value": "Eliminar agente"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.DeleteRoutine",
+      "value": "Eliminar rutina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.HideFromChatList",
+      "value": "Ocultar de la lista de chats"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAgent.ProfileController.Members",
+      "one_value": "%1$d miembro",
+      "other_value": "%1$d miembros"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AIAgent.ProfileController.RemovedRoutines",
       "one_value": "%1$d rutina",
       "other_value": "%1$d rutinas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RoutineStops",
+      "value": "“%1$@” se detendrá."
     },
     {
       "_": "types.LangPackString",
@@ -141,8 +172,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.TurnOff",
+      "value": "Desactivar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.TurnOn",
       "value": "Activar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityRuns.DidNotFinish",
+      "value": "No terminó"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityRuns.Stopped",
+      "value": "Detenido"
     },
     {
       "_": "types.LangPackString",
@@ -248,10 +294,77 @@
       "value": "Pausada"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.StopRunning",
+      "value": "“%1$@” se detendrá."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CallNotes",
+      "value": "Notas de la llamada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CallWith",
+      "value": "Llamada con %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CouldNotListen",
+      "value": "🎙 No se pudo escuchar a **%1$@**: %2$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.CallListener.WritingNotes",
+      "one_value": "📞 **%1$@** finalizada · %2$d min. Escribiendo las notas…",
+      "other_value": "📞 **%1$@** finalizada · %2$d min. Escribiendo las notas…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AgentRemoved",
+      "value": "%1$@ fue quitado de %2$@."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.Agents",
+      "one_value": "%1$d agente",
+      "other_value": "%1$d agentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AskAbout",
+      "value": "Preguntar sobre %1$@…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AskIn",
+      "value": "Preguntar en %1$@…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AssistantCompacting",
+      "value": "el asistente está compactando…"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AIAssistant.ChatContents.AuthorsThinking",
       "one_value": "%1$@ está pensando",
       "other_value": "%1$@ están pensando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactCommand",
+      "value": "Resume este chat para conservar un contexto más pequeño"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactingLocked",
+      "value": "La conversación está siendo compactada. Puedes seguir en un momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactionInterrupted",
+      "value": "Interrumpido. Envía /compact para reintentarlo."
     },
     {
       "_": "types.LangPackString",
@@ -270,8 +383,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.DictatorUnavailable",
+      "value": "Dictado no se está ejecutando. Ábrelo en este Mac y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.EditBeforeSending",
       "value": "Editar antes de enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Expired",
+      "value": "Expirado"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.FileLimit",
+      "one_value": "Hasta %1$d archivo y 40 MB por mensaje.",
+      "other_value": "Hasta %1$d archivos y 40 MB por mensaje."
     },
     {
       "_": "types.LangPackString",
@@ -284,10 +413,86 @@
       "value": "Reenviar"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.InChat",
+      "value": "En el chat"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AIAssistant.ChatContents.MoreReplies",
       "one_value": " (+%1$d más)",
       "other_value": " (+%1$d más)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.MultiReply",
+      "value": "Respuesta múltiple"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NewCommand",
+      "value": "Iniciar una conversación nueva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NewConversation",
+      "value": "Inició una nueva conversación."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NotEnoughToCompact",
+      "value": "Aún no hay suficiente conversación como para compactarla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NotSent",
+      "value": "No enviado"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.OnlineAgents",
+      "one_value": "en línea · %1$d agente",
+      "other_value": "en línea · %1$d agentes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.OpenInChat",
+      "value": "Abrir en el chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Opening",
+      "value": "Abriendo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.PausedPrefix",
+      "value": "Pausado · "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Plan",
+      "value": "Plan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.PlanCommand",
+      "value": "Planea primero, ejecuta después de aprobar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Queued",
+      "value": "Esperando a que la tarea actual termine"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Recover",
+      "value": "Recuperar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RecoverRequestTitle",
+      "value": "Recuperar solicitud guardada"
     },
     {
       "_": "types.LangPackString",
@@ -301,8 +506,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RetryCommand",
+      "value": "Ejecutar la última solicitud que falló"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.RetryNow",
       "value": "Reintentar ahora"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Retrying",
+      "value": "Reintentando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RunPlan",
+      "value": "Ejecutar plan"
     },
     {
       "_": "types.LangPackString",
@@ -319,6 +539,41 @@
       "key": "AIAssistant.ChatContents.SelectedMessages",
       "one_value": "%1$d mensaje seleccionado",
       "other_value": "%1$d mensajes seleccionados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Send",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.SendNowTo",
+      "value": "Enviar ahora a %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Sending",
+      "value": "Enviando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Sent",
+      "value": "Enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Stop",
+      "value": "Detener"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.StopLoop",
+      "value": "Detener bucle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.TemporaryStatus",
+      "value": "chat temporal · no se guardará"
     },
     {
       "_": "types.LangPackString",
@@ -352,6 +607,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordDeliberating",
+      "value": "deliberando"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.ThinkingWordDistilling",
       "value": "sintetizando"
     },
@@ -377,8 +637,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordPiecingItTogether",
+      "value": "encajando las piezas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordPondering",
+      "value": "ponderando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordRuminating",
+      "value": "reflexionando"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.ThinkingWordSpelunking",
       "value": "explorando a fondo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordSynthesizing",
+      "value": "sintetizando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordThinking",
+      "value": "pensando"
     },
     {
       "_": "types.LangPackString",
@@ -392,6 +677,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ToChat",
+      "value": "A %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.AgentGroup",
+      "value": "grupo de agentes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatList.HideFromChatList",
       "value": "Ocultar de la lista de chats"
     },
@@ -402,13 +697,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ChatLimitReached",
+      "value": "Hay demasiados chats con IA. Elimina algunos chats para iniciar uno nuevo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.Clear",
+      "value": "Borrar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Chats.RecentChats",
       "value": "Chats recientes"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.RecoverSavedRequest",
+      "value": "Recuperar solicitud guardada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.CompactingConversation",
+      "value": "Compactando la conversación…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.CompactionFailed",
+      "value": "No se pudo compactar la conversación"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.ConversationCompacted",
+      "value": "Conversación compactada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.AllowedChatsInfo",
+      "value": "Conteo de “no leídos”, búsqueda y resúmenes. Los chats secretos nunca están disponibles."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.AsksBeforeActing",
-      "value": "Preguntar antes de actuar"
+      "value": "Pregunta antes de realizar acciones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConfirmationInfo",
+      "value": "Redacta las respuestas, pero nunca las envía sin tu confirmación."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConnectionInfo",
+      "value": "Dictado, de este Mac, quiere conectarse a Telegram. Tu asistente se ejecuta en una máquina virtual privada y tiene su propio chat en la parte superior."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.DownloadIt",
+      "value": " [Descárgalo](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.MacPermissionsInfo",
+      "value": "Recordatorios, notas y notificaciones, cada uno con tu permiso."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ModelProvider",
+      "value": "PROVEEDOR DEL MODELO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.VoicePluginInfo",
+      "value": "Envía mensajes de voz una vez que el plugin Whisper esté instalado en Dictado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.ConversationCompacted",
+      "value": "Conversación compactada"
     },
     {
       "_": "types.LangPackString",
@@ -443,8 +808,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.Someone",
+      "value": "Alguien"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.LiveTranscript.TranscribeIn",
       "value": "Transcribir en %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ChipTitle",
+      "value": "Modo hermético"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ExplanationTitle",
+      "value": "Modo hermértico activado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ImageFrom",
+      "value": "(imagen de %1$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ImageWithAltFrom",
+      "value": "%1$@ (imagen de %2$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.WidgetNote",
+      "value": "Widget oculto en modo hermético."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.KeysAndSettings",
+      "value": "Claves y ajustes…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.MoreModels",
+      "value": "Más modelos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Other",
+      "value": "Otro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Provider",
+      "value": "Proveedor: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Recommended",
+      "value": "Recomendado"
     },
     {
       "_": "types.LangPackString",
@@ -477,6 +897,16 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Plan.DefaultTitle",
       "value": "Plan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PlanWidget.Approved",
+      "value": " · aprobado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanAct",
+      "value": "Puede realizar acciones"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -521,6 +951,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Service.Off",
+      "value": "Desactivado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Service.Offline",
       "value": "Fuera de línea"
     },
@@ -536,6 +971,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SettingUp",
+      "value": "configurando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SettingUpDetail",
+      "value": "configurando · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SignInAgain",
+      "value": "Iniciar sesión de nuevo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Service.SomethingWentWrong",
       "value": "algo salió mal"
     },
@@ -543,6 +993,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Service.Stopped",
       "value": "detenido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AssistantStarting",
+      "value": "Tu asistente se está iniciando."
     },
     {
       "_": "types.LangPackString",
@@ -556,8 +1011,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ClearHistoryConfirmation",
+      "value": "¿Quieres eliminar todos los mensajes en el chat con el asistente e iniciar una nueva conversación?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DictatorUnavailable",
+      "value": "Dictado no responde. Revisa si se está ejecutando."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.InstallWhisperInfo",
+      "value": "Instala el plugin Whisper en Dictado → Plugins para enviar mensajes de voz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.LearnFromHowIUseTelegram",
+      "value": "Aprender de cómo uso Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.LeaveEmptyToKeepTheCurrentKey",
+      "value": "Déjalo vacío para conservar la clave actual"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.NeedsWhisper",
+      "value": "Necesita Whisper"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.PasteAPIKey",
       "value": "Pega tu clave de API"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.RestartingWithKey",
+      "value": "Guardado. El asistente se está reiniciando con la nueva clave."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.SaveAndRestartAssistant",
+      "value": "Guardar y reiniciar asistente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.SoundWhenATaskFinishes",
+      "value": "Sonido al terminar una tarea"
     },
     {
       "_": "types.LangPackString",
@@ -611,8 +1111,104 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ModelNotRunning",
+      "value": "%1$@ no se está ejecutando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.NoModels",
+      "value": "%1$@ no muestra ningún modelo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SignIn",
+      "value": "Iniciar sesión"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SignInAgain",
+      "value": "Inicia sesión en ChatGPT otra vez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.StartingAgent",
+      "value": "Iniciando el agente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.CannotRun",
+      "value": "%1$@ **%2$@** no se puede ejecutar: %3$@. Haz clic derecho y elige Editar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ConversationRequired",
+      "value": "El chat aún no tiene un asistente de conversación. Primero, abre el asistente desde el chat."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.Shortcuts.StoppedAtStep",
+      "one_value": "%1$@ **%2$@** detenido en el paso %3$d: %4$@",
+      "other_value": "%1$@ **%2$@** detenido en el paso %3$d: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotesSummary",
+      "value": "Escucha tus llamadas y escribe notas cuando terminan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Clear",
+      "value": "Borrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteAll",
+      "value": "Eliminar todo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteAllRecents",
+      "value": "Eliminar todos los recientes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteChat",
+      "value": "Eliminar chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteHookInfo",
+      "value": "“%1$@” se detendrá."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.InstructionsPlaceholder",
+      "value": "Qué hace, cómo responde, qué sabe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TranslatorSummary",
+      "value": "Traduce todo lo que envías."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TurnOff",
+      "value": "Desactivar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarRows.Clear",
       "value": "Borrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AgentAway",
+      "value": "El agente está ausente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AgentBack",
+      "value": "El agente regresó"
     },
     {
       "_": "types.LangPackString",
@@ -623,6 +1219,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.SendingAgain",
       "value": "Reenviando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.WaitingForModel",
+      "value": "Esperando por el modelo"
     },
     {
       "_": "types.LangPackString",
@@ -642,6 +1243,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.NoSteps",
+      "value": "Esta ejecución no registró ningún paso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.TaskController.Task",
       "value": "TAREA"
     },
@@ -656,9 +1262,25 @@
       "value": "TRANSCRIPCIÓN"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.TaskController.TranscriptSteps",
+      "one_value": "TRANSCRIPCIÓN · %1$d PASO",
+      "other_value": "TRANSCRIPCIÓN · %1$d PASOS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.WhatHappened",
+      "value": "QUÉ PASÓ"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.AIChat",
       "value": "Chat con IA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AIChatIn",
+      "value": "Chat con IA en %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -683,6 +1305,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AgentWithId",
+      "value": "Agente %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AgentsInChat",
+      "value": "AGENTES EN ESTE CHAT"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.Chat",
       "value": "Chat"
     },
@@ -700,6 +1332,121 @@
       "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.DeleteGroup",
       "value": "Eliminar grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Group",
+      "value": "Grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.None",
+      "value": "Ninguno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Pin",
+      "value": "Fijar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Pinned",
+      "value": "Fijado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Remove",
+      "value": "Quitar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.RemoveAgent",
+      "value": "¿Quitar %1$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.RemoveFromChat",
+      "value": "Quitar del chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.RemoveFromGroup",
+      "value": "Quitar del grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Rename",
+      "value": "Renombrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.RenameChat",
+      "value": "Renombrar chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.RenameGroup",
+      "value": "Renombrar grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.ShowInChatList",
+      "value": "Mostrar en la lista de chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Title",
+      "value": "Título"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Unpin",
+      "value": "Desfijar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIDuck.Model.Classic",
+      "value": "Clásico"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIDuck.Model.Ghost",
+      "value": "Fantasma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.Assistant.HideFloatingAssistant",
+      "value": "Ocultar asistente flotante"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.Assistant.MacApp",
+      "value": "App de Mac"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.Assistant.Skin",
+      "value": "Apariencia de pato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.Assistant.StopWorkingWithApp",
+      "value": "Dejar de trabajar con esta app"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.ChatMenuItem.InProgress",
+      "value": "En curso"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIFloating.ChatMenuItem.UnreadMessages",
+      "value": "Mensajes no leídos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.AddToAllChats",
+      "value": "Añadir a Todos los chats"
     },
     {
       "_": "types.LangPackString",
@@ -777,6 +1524,11 @@
       "_": "types.LangPackString",
       "key": "AISummary.Title",
       "value": "Resumen con IA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AXAgent.Engine.TurnedOff",
+      "value": "desactivado"
     },
     {
       "_": "types.LangPackString",
@@ -930,6 +1682,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Account.Actions.And",
+      "value": " y "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.Bio",
+      "value": "Biografía: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Account.Actions.BirthdayRemoved",
       "value": "quitado"
     },
@@ -970,6 +1732,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Account.Actions.PrivacySettingsLoadFailed",
+      "value": "No se cargaron los ajustes de privacidad."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.PrivacySettingsLoadRetry",
+      "value": "No se cargaron los ajustes de privacidad. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Account.Actions.ProfileLoadFailed",
       "value": "No se cargó el perfil. Reinténtalo."
     },
@@ -992,6 +1764,21 @@
       "_": "types.LangPackString",
       "key": "Account.Actions.SessionsLoadFailed",
       "value": "No se cargaron la sesiones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.StarsBalanceLoadFailed",
+      "value": "No se cargó el saldo de estrellas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.StarsHistoryLoadFailed",
+      "value": "No se cargó el historial de estrellas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.TurnOff",
+      "value": "desactivar"
     },
     {
       "_": "types.LangPackString",
@@ -1280,6 +2067,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Admin.Actions.PostSignaturesChangeFailed",
+      "value": "Telegram no cambió las firmas en los posts."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Admins.AddAdmin",
       "value": "Añadir administrador"
     },
@@ -1357,6 +2149,36 @@
       "_": "types.LangPackString",
       "key": "AffilateProgram.Earn.Info",
       "value": "Distribuye enlaces a miniapps y gana una parte de sus ingresos en estrellas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.Join",
+      "value": "Unirme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.JoinProgram",
+      "value": "¿Unirme al programa de afiliados?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.Leave",
+      "value": "Salir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.ProgramsLoadFailed",
+      "value": "No se cargaron los programas de afiliados. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.RemovalPending",
+      "value": "Telegram aún no lo quitó. Revisa de nuevo en un momento."
     },
     {
       "_": "types.LangPackString",
@@ -1881,6 +2703,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Agent.ProviderController.Connecting",
+      "value": "Conectando…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProviderController.LoadingProviders",
+      "value": "Cargando proveedores…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProviderController.ProviderHeader",
+      "value": "PROVEEDOR"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AiStylePreview.AddByAuthor",
       "value": "Añade este estilo de [%1$@](%1$@) para transformar tus mensajes en el editor con IA."
     },
@@ -2082,6 +2919,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppDelegate.Quit",
+      "value": "Salir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.ShowFolder",
+      "value": "Mostrar carpeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppDelegate.TryAgain",
+      "value": "Reintentar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AppIconActions.IconsLoadFailed",
       "value": "No se cargaron los íconos de la app. Reinténtalo."
     },
@@ -2209,6 +3061,11 @@
       "_": "types.LangPackString",
       "key": "Appearance.Actions.RemoveWallpaper",
       "value": "quitar el fondo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Appearance.Actions.SeeAppearance",
+      "value": "ver cómo luce la app"
     },
     {
       "_": "types.LangPackString",
@@ -2357,8 +3214,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppearanceActions.LanguagesLoadFailed",
+      "value": "No se cargó la lista de idiomas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AppearanceActions.ThemesLoadFailed",
       "value": "No se cargaron los temas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AppearanceActions.WallpapersLoadFailed",
+      "value": "No se cargaron los fondos. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -2634,6 +3501,11 @@
       "_": "types.LangPackString",
       "key": "Archive.UnmutedChats.Title",
       "value": "CHATS NO SILENCIADOS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArchiveSettingsActions.SettingsLoadFailed",
+      "value": "No se cargaron los ajustes del archivo. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -3392,6 +4264,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfileWidget.PrivacyPolicy",
+      "value": "Política de privacidad"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotProfileWidget.Search",
       "value": "Buscar"
     },
@@ -3559,6 +4436,16 @@
       "_": "types.LangPackString",
       "key": "BotVerification.Verify.Verify",
       "value": "Verificar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotsActions.CommandsLoadFailed",
+      "value": "No se cargaron los comandos del bot. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotsActions.Start",
+      "value": "Iniciar"
     },
     {
       "_": "types.LangPackString",
@@ -4299,8 +5186,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BusinessActions.AwayMessage",
+      "value": "mensaje de ausencia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BusinessActions.Change",
       "value": "Cambiar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.Create",
+      "value": "Crear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.CreateAChatLink",
+      "value": "¿Crear un enlace del chat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.CreateAQuickReply",
+      "value": "¿Crear una respuesta rápida?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.Delete",
+      "value": "Eliminar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.DeleteAChatLink",
+      "value": "¿Eliminar un enlace del chat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.DeleteAQuickReply",
+      "value": "¿Eliminar una respuesta rápida?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.SettingsLoadFailed",
+      "value": "No se cargaron los ajustes de Business. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BusinessActions.TurnOff",
+      "value": "Desactivar"
     },
     {
       "_": "types.LangPackString",
@@ -4618,6 +5550,26 @@
       "_": "types.LangPackString",
       "key": "Call.VideoPaused",
       "value": "Video de %@ pausado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallControlActions.LeaveTheVoiceChat",
+      "value": "salir del videochat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallControlActions.NoVoiceChat",
+      "value": "No estás en un videochat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallControlActions.SeeTheVoiceChatYouAreIn",
+      "value": "ver el videochat en el que estás"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallControlActions.VoiceChatLeft",
+      "value": "Saliste del videochat."
     },
     {
       "_": "types.LangPackString",
@@ -7235,6 +8187,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChannelMessagesActions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChannelMessagesActions.DeclineSuggestedPostConfirmation",
+      "value": "El agente quiere rechazar el post sugerido de %1$@: %2$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChannelParticipant.AddTag",
       "value": "Añadir etiqueta"
     },
@@ -7761,6 +8723,11 @@
       "_": "types.LangPackString",
       "key": "Chat.Action.ViewTheme",
       "value": "VER TEMA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.NothingChanged",
+      "value": "No se cambió nada. Puedes seguir chateando."
     },
     {
       "_": "types.LangPackString",
@@ -8622,6 +9589,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Controller.CopyAddress",
       "value": "Copiar dirección"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.InvitationReported",
+      "value": "Invitación reportada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.ReportThePersonWhoInvitedYouToThisBot",
+      "value": "¿Reportar a la persona que te invitó a este bot?"
     },
     {
       "_": "types.LangPackString",
@@ -9622,6 +10599,11 @@
       "_": "types.LangPackString",
       "key": "Chat.InputContext.EditQuickReply",
       "value": "Editar respuestas rápidas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputView.CompactingConversation",
+      "value": "Compactando la conversación…"
     },
     {
       "_": "types.LangPackString",
@@ -11886,6 +12868,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Offered",
+      "value": "Te ofrecieron\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.OfferedAmount",
+      "value": "%1$@ por\n"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Review",
+      "value": "Revisar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ServiceItem.RibbonReceived",
       "value": "recibida"
     },
@@ -11933,6 +12930,11 @@
       "_": "types.LangPackString",
       "key": "Chat.ServiceItem.WalletUnavailable",
       "value": "Dinero no está disponible actualmente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ServiceItem.Withdraw",
+      "value": "Retirar"
     },
     {
       "_": "types.LangPackString",
@@ -12647,8 +13649,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatCleanupActions.AList",
+      "value": "una lista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatCleanupActions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatCleanupActions.ListLoadFailed",
       "value": "No se cargó la lista. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatCleanupActions.TurnOff",
+      "value": "Desactivar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatCleanupActions.TurnOffTopics",
+      "value": "¿Desactivar los temas?"
     },
     {
       "_": "types.LangPackString",
@@ -13005,6 +14027,26 @@
       "_": "types.LangPackString",
       "key": "ChatHistory.DiceWonYou",
       "value": "Ganaste 💎%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatImport.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatImportActions.ExportedChat",
+      "value": "un chat exportado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatImportActions.ImportAction",
+      "value": "Importar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatImportActions.ImportChatTitle",
+      "value": "¿Importar el chat?"
     },
     {
       "_": "types.LangPackString",
@@ -15181,6 +16223,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSettings.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSettings.Actions.PersonUnavailable",
+      "value": "Esa persona no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSettings.Actions.SettingsLoadFailed",
+      "value": "No se cargaron los ajustes de “%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSettings.Actions.SimilarBotsLoadFailed",
+      "value": "No se cargaron los bots similares."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSettingsActions.ChangeAction",
       "value": "Cambiar"
     },
@@ -15226,6 +16288,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatTools.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatToolsActions.AddAction",
       "value": "Añadir"
     },
@@ -15236,8 +16303,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatToolsActions.DeleteAction",
+      "value": "Eliminar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatToolsActions.DeleteAll",
+      "value": "Eliminar todo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatToolsActions.DeleteAllTheirMessagesTitle",
+      "value": "¿Eliminar todos sus mensajes?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatToolsActions.DeleteTopicTitle",
       "value": "¿Eliminar el tema?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatTranslation.Actions.Apply",
+      "value": "Aplicar"
     },
     {
       "_": "types.LangPackString",
@@ -15306,13 +16393,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chats.Actions.FolderChatsLoadFailed",
+      "value": "No se cargaron los chats de la carpeta. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chats.Actions.FoldersLoadFailed",
       "value": "No se cargaron las carpetas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatsActions.ChatList",
+      "value": "%1$@ “%2$@” en tu lista de chats"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatsActions.DeleteAction",
       "value": "Eliminar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatsActions.DeleteFolderTitle",
+      "value": "¿Eliminar la carpeta?"
     },
     {
       "_": "types.LangPackString",
@@ -15333,6 +16435,31 @@
       "_": "types.LangPackString",
       "key": "ChatsActions.LeaveTitle",
       "value": "¿Salir?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatsActions.MarkRead",
+      "value": "marcar “%1$@” como leído"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatsActions.MuteVerb",
+      "value": "silenciar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatsActions.Open",
+      "value": "El agente quiere abrir “%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatsActions.OpenAction",
+      "value": "Abrir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatsActions.PinVerb",
+      "value": "fijar"
     },
     {
       "_": "types.LangPackString",
@@ -15846,6 +16973,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CloseFriends.Actions.ChangeCloseFriends",
+      "value": "¿Cambiar los mejores amigos?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CloseFriends.Actions.LoadFailed",
       "value": "No se cargaron los mejores amigos. Reinténtalo."
     },
@@ -15906,8 +17038,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Communities.Actions.Collapse",
+      "value": "Contraer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.CollapseCommunity",
+      "value": "¿Contraer comunidad?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.Create",
+      "value": "Crear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.CreateCommunity",
+      "value": "¿Crear comunidad?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.Expand",
+      "value": "Expandir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.ExpandCommunity",
+      "value": "¿Expandir comunidad?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Communities.Actions.Remove",
       "value": "Quitar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.RemoveFromCommunity",
+      "value": "¿Quitar de la comunidad?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.ViewCommunities",
+      "value": "ver tus comunidades"
     },
     {
       "_": "types.LangPackString",
@@ -16008,8 +17180,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunitiesActions.ChangeFailed",
+      "value": "Telegram no cambió la comunidad."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.ChatAdminRequired",
+      "value": "Necesitas ser un admin. de “%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunitiesActions.ChatUnavailable",
       "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.ChatsLoadFailed",
+      "value": "No se cargaron los chats de la comunidad. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -16025,6 +17212,11 @@
       "_": "types.LangPackString",
       "key": "CommunitiesActions.LoadFailed",
       "value": "No se cargaron tus comunidades. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.UpdateFailed",
+      "value": "Telegram no lo cambió."
     },
     {
       "_": "types.LangPackString",
@@ -16421,6 +17613,31 @@
       "_": "types.LangPackString",
       "key": "CommunityList.ShowAsOneChat",
       "value": "Mostrar como un chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Actions.Add",
+      "value": "Añadir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Actions.AddChatToCommunity",
+      "value": "¿Añadir el chat a la comunidad?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Actions.Decline",
+      "value": "Rechazar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Actions.DeclineRequest",
+      "value": "¿Rechazar la solicitud?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunityRequests.Actions.Requested",
+      "value": "solicitado"
     },
     {
       "_": "types.LangPackString",
@@ -16947,6 +18164,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ContactsActions.BlockedListLoadFailed",
+      "value": "No se cargó la lista de bloqueados. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ContactsActions.SendFailed",
       "value": "no se pudo enviar el contacto"
     },
@@ -17202,7 +18424,7 @@
     {
       "_": "types.LangPackString",
       "key": "CrashRecovery.CheckAgain",
-      "value": "Verifica de nuevo"
+      "value": "Volver a revisar"
     },
     {
       "_": "types.LangPackString",
@@ -17357,7 +18579,7 @@
     {
       "_": "types.LangPackString",
       "key": "CrashRecovery.TryAgain",
-      "value": "Reinténtalo"
+      "value": "Reintentar"
     },
     {
       "_": "types.LangPackString",
@@ -17646,6 +18868,11 @@
       "_": "types.LangPackString",
       "key": "CustomEmojiSend.Actions.Send",
       "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CustomEmojiSendActions.SendFailed",
+      "value": "El mensaje no fue enviado."
     },
     {
       "_": "types.LangPackString",
@@ -18322,8 +19549,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.ChangeConfirmation",
+      "value": "El agente quiere %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.ChangeTranslation",
+      "value": "¿Cambiar la traducción?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DoNotTranslateActions.LoadFailed",
       "value": "No se cargaron los ajustes de traducción. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadsActions.ListLoadFailed",
+      "value": "No se cargó la lista de descargas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -18598,6 +19840,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.ChangeStyle",
+      "value": "Cambiar estilo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImage.CanvasController.ClearAll",
       "value": "Borrar todo"
     },
@@ -18650,6 +19897,11 @@
       "_": "types.LangPackString",
       "key": "EditImage.CanvasController.ShapeStar",
       "value": "Estrella"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.CanvasController.WeatherLoadFailed",
+      "value": "Telegram no pudo cargar el clima. Reinténtalo en un momento."
     },
     {
       "_": "types.LangPackString",
@@ -19411,6 +20663,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.CreationFailed",
+      "value": "No se pudo crear la exportación cifrada."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptionKey.Description",
       "value": "Este texto e imagen derivan de la clave de cifrado para el chat secreto creado con **%@**.\n\nSi se ven igual en el dispositivo de **%@**, el cifrado end-to-end está garantizado."
     },
@@ -20106,6 +21363,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FeaturedAndReceipt.Actions.Emoji",
+      "value": "emojis"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FeaturedAndReceipt.Actions.Sticker",
       "value": "sticker"
     },
@@ -20136,8 +21398,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.AddFolder",
+      "value": "Añadir carpeta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.AddFolderTitle",
+      "value": "¿Añadir la carpeta “%1$@”?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderLinkAndStickers.Actions.Change",
       "value": "Cambiar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinkAndStickers.Actions.ChangeConfirmation",
+      "value": "El agente quiere %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinks.Actions.CreateLink",
+      "value": "Crear enlace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderLinks.Actions.ShareFolderTitle",
+      "value": "¿Compartir la carpeta?"
     },
     {
       "_": "types.LangPackString",
@@ -20146,8 +21433,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ChangeConfirmation",
+      "value": "El agente quiere %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ChangeFolderTagsTitle",
+      "value": "¿Cambiar las etiquetas de chats?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FolderOrder.Actions.FoldersLoadFailed",
       "value": "No se cargaron las carpetas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.Reorder",
+      "value": "Reordenar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ReorderFoldersFailed",
+      "value": "No se pudieron reordenar las carpetas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.ReorderFoldersTitle",
+      "value": "¿Reordenar las carpetas?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FolderOrder.Actions.SettingsLoadFailed",
+      "value": "No se cargaron los ajustes de carpetas. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -20642,6 +21959,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentGift.Price.AllowedPrice",
+      "value": "Precio permitido: %1$@ – %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentGift.Price.PriceInTON",
       "value": "Precio en grams"
     },
@@ -20702,8 +22024,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.FrequentContactsLoadFailed",
+      "value": "No se cargaron los contactos frecuentes. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FrequentContacts.Actions.Remove",
       "value": "Quitar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.RemoveContactFailed",
+      "value": "No se pudo quitar %1$@. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FrequentContacts.Actions.TurnOff",
+      "value": "Desactivar"
     },
     {
       "_": "types.LangPackString",
@@ -22169,6 +23506,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftingController.GiftLocked",
+      "value": "Regalo bloqueado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gifts.Actions.And",
       "value": " y "
     },
@@ -22181,6 +23523,11 @@
       "_": "types.LangPackString",
       "key": "Gifts.Actions.GiftsLoadFailed",
       "value": "No se cargaron los regalos. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gifts.Actions.OwnGiftsLoadFailed",
+      "value": "No se cargaron tus regalos. Reintentar."
     },
     {
       "_": "types.LangPackString",
@@ -22572,6 +23919,11 @@
       "_": "types.LangPackString",
       "key": "GlobalPrivacy.Actions.Change",
       "value": "Cambiar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GlobalPrivacy.Actions.PrivacySettingsLoadFailed",
+      "value": "No se cargaron los ajustes de privacidad. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -23281,6 +24633,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Groups.Actions.ChangePermissionsTitle",
+      "value": "¿Cambiar los permisos?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.CreateGroupFailed",
+      "value": "Telegram no creó el grupo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.CreateInviteLink",
+      "value": "crear un enlace de invitación para “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Groups.Actions.DeleteChatTitle",
       "value": "¿Eliminar el chat?"
     },
@@ -23296,6 +24663,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Groups.Actions.Remove",
+      "value": "Quitar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.RemoveAdminTitle",
+      "value": "¿Quitar este administrador?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.RemoveMemberTitle",
+      "value": "¿Quitar este miembro?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Groups.Actions.Reopen",
       "value": "reabrir"
     },
@@ -23303,6 +24685,16 @@
       "_": "types.LangPackString",
       "key": "Groups.Actions.Restrict",
       "value": "Restringir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.RestrictMemberTitle",
+      "value": "¿Restringir a este miembro?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.Save",
+      "value": "Guardar"
     },
     {
       "_": "types.LangPackString",
@@ -23318,6 +24710,11 @@
       "_": "types.LangPackString",
       "key": "Groups.Actions.TooManyChats",
       "value": "el usuario están en demasiados grupos y canales"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Groups.Actions.TurnSlowModeOff",
+      "value": "desactivar el modo lento"
     },
     {
       "_": "types.LangPackString",
@@ -23433,6 +24830,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.CancelMessages",
+      "value": "Cancelar mensajes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.CancelScheduledMessagesTitle",
+      "value": "¿Cancelar los mensajes programados?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.Change",
+      "value": "Cambiar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ChangeAutoDeleteTitle",
+      "value": "¿Cambiar la autoeliminación?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.Clear",
+      "value": "Borrar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Housekeeping.Actions.EveryChatIn",
       "value": "cada chat en “%1$@”"
     },
@@ -23458,6 +24880,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.Reschedule",
+      "value": "Reprogramar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.RescheduleTitle",
+      "value": "¿Reprogramar?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ScheduledMessagesLoadFailed",
+      "value": "No se cargaron los mensajes programados. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.Send",
+      "value": "Enviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.SendNowTitle",
+      "value": "¿Enviar ahora?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Housekeeping.Actions.UnpinAll",
       "value": "Desfijar todos"
     },
@@ -23465,6 +24912,11 @@
       "_": "types.LangPackString",
       "key": "Housekeeping.Actions.UnpinAllMessagesTitle",
       "value": "¿Desfijar todos los mensajes?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Housekeeping.Actions.ViewScheduledMessages",
+      "value": "ver los mensajes programados en “%1$@”"
     },
     {
       "_": "types.LangPackString",
@@ -23773,6 +25225,51 @@
       "_": "types.LangPackString",
       "key": "InputView.Settings.DashConversion",
       "value": "Conversión de guiones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.CallsLoadFailed",
+      "value": "No se cargó la lista de llamadas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.ChatStatisticsUnsupported",
+      "value": "Sólo los canales y supergrupos tienen estadísticas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.Join",
+      "value": "Unirme"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.JoinTheVoiceChatTitle",
+      "value": "¿Unirme al videochat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.StatisticsLoadFailed",
+      "value": "No se cargaron las estadísticas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.ViewBoosts",
+      "value": "ver los impulsos de “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.ViewChatStatistics",
+      "value": "ver las estadísticas de “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.ViewRecentCalls",
+      "value": "ver tus llamadas recientes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.ViewVoiceChat",
+      "value": "ver el videochat en “%1$@”"
     },
     {
       "_": "types.LangPackString",
@@ -24121,6 +25618,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InviteLinks.Actions.Delete",
       "value": "Eliminar"
     },
@@ -24128,6 +25630,31 @@
       "_": "types.LangPackString",
       "key": "InviteLinks.Actions.DeleteInviteLinkTitle",
       "value": "¿Eliminar el enlace de invitación?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.DeleteLinkFailed",
+      "value": "Telegram no eliminó el enlace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.EditInviteLinkTitle",
+      "value": "¿Editar el enlace de invitación?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.EditLinkFailed",
+      "value": "Telegram no cambió el enlace."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.InviteLinksLoadFailed",
+      "value": "No se cargaron los enlaces de invitación de “%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.JoinedMembersLoadFailed",
+      "value": "No se cargaron las personas que se unieron."
     },
     {
       "_": "types.LangPackString",
@@ -24158,6 +25685,41 @@
       "_": "types.LangPackString",
       "key": "JoinRequests.Actions.Approve",
       "value": "Aprobar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.ChangeNotConfirmed",
+      "value": "Telegram no confirmó el cambio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.Decline",
+      "value": "Rechazar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.DeclineJoinRequestTitle",
+      "value": "¿Rechazar la solicitud?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.JoinRequestsLoadFailed",
+      "value": "No se pudieron cargar las solicitudes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.JoinRequestsUnavailable",
+      "value": "No se pudieron cargar las solicitudes de unión para “%1$@”. Sólo pueden verlas sus admins. con privilegio para añadir miembros."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.NoPendingRequest",
+      "value": "Esa persona no tiene solicitudes pendientes."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "JoinRequests.Actions.UserRequestNotFound",
+      "value": "No hay solicitudes pendientes de %1$@ en “%2$@”."
     },
     {
       "_": "types.LangPackString",
@@ -24287,6 +25849,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lists.Actions.CloseThePollTitle",
+      "value": "¿Cerrar la encuesta?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lists.Actions.TagsLoadFailed",
       "value": "no se cargaron las etiquetas"
     },
@@ -24297,8 +25864,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lists.Actions.Update",
+      "value": "Actualizar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lists.Actions.UpdateTheChecklistTitle",
+      "value": "¿Actualizar la lista?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ListsAndLimits.Actions.LimitsLoadFailed",
       "value": "No se cargaron los límites. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ListsAndLimits.Actions.NotificationExceptionsLoadFailed",
+      "value": "No se cargaron las excepciones de notificaciones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ListsAndLimits.Actions.RecentSearchesLoadFailed",
+      "value": "No se cargaron las búsquedas recientes. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -24437,8 +26024,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.LiveLocationsLoadFailed",
+      "value": "No se cargaron las ubicaciones en tiempo real. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.SendLocationFailed",
+      "value": "Telegram no envió la ubicación en tiempo real."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.Share",
+      "value": "Compartir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.ShareLiveLocationTitle",
+      "value": "¿Compartir la ubicación en tiempo real?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LiveLocation.Actions.Stop",
       "value": "Detener"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.StopSharingTitle",
+      "value": "¿Dejar de compartir?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LiveLocation.Actions.ViewLiveLocations",
+      "value": "ver quién comparte una ubicación en tiempo real en “%1$@”"
     },
     {
       "_": "types.LangPackString",
@@ -24487,8 +26109,83 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.LinkToYourAccountWhenForwardingYourMessages",
+      "value": "enlaza a tu cuenta al reenviar tus mensajes"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcherParams.FoldersDidnTLoadTryAgain",
       "value": "No se cargaron las carpetas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.DraftCannotBeSentFromHereOpen",
+      "value": "Este borrador no se puede enviar desde aquí. Ábrelo en el chat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.TelegramCanTCheckForDictatorUpdatesRightNow",
+      "value": "Telegram no puede buscar actualizaciones de Dictado en este momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.TelegramIsSwitchingAccountsTryAgain",
+      "value": "Telegram está cambiando de cuenta. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.ThisConversationSTelegramAccountIsLoggedOutItMust",
+      "value": "La cuenta de Telegram de esta conversación está desconectada. Debes de volver a iniciar sesión antes de que puedas realizar acciones."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.IsNeverAvailableToTheAgentSecretChatsAnd",
+      "value": "%1$@ nunca está disponible para el agente (los chats secretos y los mensajes de servicio de Telegram están protegidos)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.LockdownActionDisabled",
+      "value": "El modo hermético está activado en Telegram, por lo que %1$@ está desactivado para el agente. Dile al usuario lo que harías y deja que lo haga él mismo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.NoChatMatches",
+      "value": "No hay coincidencias de chats %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.NotAllowedByTheUserSTelegramPermissions",
+      "value": "No permitido por los permisos de Telegram del usuario: %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.ShowsSomethingOnScreenAndThisConversationSTelegramAccount",
+      "value": "%1$@ muestra algo en la pantalla y la cuenta de Telegram de esta conversación no es la que está abierta en la app. Haz el resto sin él o usa primero switch_account."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TelegramIsLockedUnlockTelegramAndMakeANew",
+      "value": "Telegram está bloqueado. Desbloquea Telegram y haz una nueva solicitud."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TheUserBlockedTheAgentFrom",
+      "value": "El usuario bloqueó al agente desde %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TheUserTurnedOffTelegramActionsForTheAgent",
+      "value": "El usuario desactivó las acciones de Telegram para el agente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.ThisNeedsTheUserSConfirmationAndThisRequest",
+      "value": "Esto necesita la confirmación del usuario y esta solicitud pide no mostrar ninguna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.CouldNotReachTheLocalAgent",
+      "value": "No se pudo contactar al agente local: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -24497,13 +26194,230 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.Client.LocalAgentIsNotRunningOpenDictatorOn",
+      "value": "El agente local no está funcionando. Abre Dictado en esta Mac e inicia el agente."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.TheGroupTurnEndedBeforeEveryAgentFinished",
+      "value": "el turno del grupo finalizó antes de que todos los agentes terminaran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DidnTResolveToAChatItMayNotExist",
+      "value": "@%1$@ no condujo a ningún chat: es posible que no exista, o bien Telegram está limitando las búsquedas de nombres de usuario en este momento. Reinténtalo en unos minutos o pasa el chat por id si es uno de los chats del usuario."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DidnTResolveToAChatOrBotItMay",
+      "value": "@%1$@ no condujo a ningún chat ni bot: es posible que no exista, o bien Telegram está limitando las búsquedas de nombres de usuario en este momento. No se ha abierto nada."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.HasNoTopicsItIsnTAForum",
+      "value": "“%1$@” no tiene temas. No es un foro."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.MessageDidnTLoadFromTelegramTryAgain",
+      "value": "El mensaje %1$d no se cargó desde Telegram. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.MessageIsnTInItWasDeletedOrThisAccount",
+      "value": "El mensaje %1$d no está en “%2$@”: fue eliminado o esta cuenta no puede verlo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.MissingMessage",
+      "value": "El mensaje %1$d no está en “%2$@”: fue eliminado o el id es incorrecto."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.MissingMessages",
+      "one_value": "Este mensaje no está en “%1$@”: fue eliminado o el id es incorrecto.",
+      "other_value": "Ninguno de estos mensajes está en “%1$@”: fueron eliminados o sus id son incorrectos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.NoLinkPrivateChatsAndBasicGroupsHaveNoMessage",
+      "value": "sin enlace: los chats privados y los grupos básicos no tienen enlaces a los mensajes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.NothingIsSentUntilYouTapSend",
+      "value": ". No se envía nada hasta que hagas clic en Enviar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.PhotoAbove",
+      "value": "la foto de arriba"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.ReadMessages",
+      "one_value": "leer %1$d mensaje en “%2$@”",
+      "other_value": "leer %1$d mensajes en “%2$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ReadMessagesAroundAMessageIn",
+      "value": "leer mensajes alrededor de un mensaje en “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.RemoveTheUsernameOf",
+      "value": "El agente quiere quitar el nombre de usuario de %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.RetractYourVoteIn",
+      "value": "retirar tu voto en “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeTheGroupsYouShareWith",
+      "value": "ver los grupos que compartes con %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeTheTopicsOf",
+      "value": "ver los temas de “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeWhoReactedToAMessageIn",
+      "value": "ver quién reaccionó a un mensaje en “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeWhoReadAMessageIn",
+      "value": "ver quién leyó un mensaje en “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendAStickerTo",
+      "value": "El agente quiere enviar un %1$@ sticker a “%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendATo",
+      "value": "El agente quiere enviar un %1$@ a “%2$@”:\n\n%3$@\n%4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendLocation",
+      "value": "El agente quiere enviar %1$@ (%2$@, %3$@) a “%4$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendTo2",
+      "value": "El agente quiere enviar %1$@ a “%2$@”%3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SentToTelegramCurrentScreenShowsWhatOpened",
+      "value": "Enviado a Telegram; current_screen muestra qué abrió."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SetTheUsernameOfTo",
+      "value": "El agente quiere establecer el nombre de usuario de %1$@ a @%2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ShownAbove",
+      "value": "%1$@ (%2$@), que se muestra arriba,"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.StartACallWith",
+      "value": "El agente quiere iniciar una %1$@ llamada con %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TelegramCouldnTOpenTheLink",
+      "value": "Telegram no pudo abrir el enlace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TelegramTookTheLinkButNothingNewAppearedOnScreen",
+      "value": "Telegram tomó el enlace, pero no apareció nada nuevo en la pantalla a los pocos segundos: puede que ya estuviera abierto, puede que se haya abierto fuera de Telegram o Telegram no pudo encontrarlo. Verifica current_screen antes de decir que se abrió."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LocalAgent.EngineActions.ThatMessageWasnTFoundIn",
       "value": "No se encontró ese mensaje en “%1$@”."
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TheGroupsInCommonDidnTLoadTryAgain",
+      "value": "No se cargaron los grupos en común. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TheMessagesDidnTLoadTryAgain",
+      "value": "No se cargaron los mensajes. Reintentar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ThoseMessagesHaveNoTextToTranslate",
+      "value": "Esos mensajes no contienen texto que traducir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TranslateMessagesIn",
+      "value": "traducir mensajes en “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TranslationDidnTAnswerTryAgain",
+      "value": "No respondió la traducción. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.WithThisCaption",
+      "value": " con este comentario:\n\n%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.BotCannotJoin",
+      "value": "este bot no puede ser añadido a grupos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.ChatFull",
+      "value": "el chat está lleno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.InviteNotLoaded",
+      "value": "No se cargó el enlace de invitación. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LocalAgent.EngineService.MessageNotFound",
       "value": "No se encontró ese mensaje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.NoMatchingSticker",
+      "value": "no hay coincidencias de stickers %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.NotPoll",
+      "value": "ese mensaje no es una encuesta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.ReactionsNotLoaded",
+      "value": "No se cargaron las reacciones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.TooManyBots",
+      "value": "el chat tiene demasiados bots"
     },
     {
       "_": "types.LangPackString",
@@ -24534,6 +26448,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.HooksInstall.WidgetStopped",
+      "value": "El widget se detuvo (te desplazaste o se agotó el tiempo de CPU). Llama a widgets_list y reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Status.UpdateAvailable",
+      "value": " · actualización disponible"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Status.UpdateFailed",
+      "value": " · actualización fallida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Status.UpdateReady",
+      "value": " · actualización lista para instalar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LocalAgent.Status.Updating",
       "value": " · actualizando"
     },
@@ -24541,6 +26475,11 @@
       "_": "types.LangPackString",
       "key": "Localization.Preview.Error.Generic",
       "value": "Parece que este idioma no existe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Location.ModalController.Location",
+      "value": "Ubicación"
     },
     {
       "_": "types.LangPackString",
@@ -24619,13 +26558,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.NonContactInfo",
+      "value": "%1$@ no está en tus contactos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.ChatConfirmation.OpenNonContactChatTitle",
       "value": "¿Abrir chat con un “no contacto”?"
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SliderAccessibilityHelp",
+      "value": "Usa las teclas de flechas para mover el deslizador, luego presiona Intro para confirmar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.DownloadRiskyFileInfo",
+      "value": "%1$@ puede contener código u otro contenido inseguro. Telegram almacenará el archivo en una carpeta temporal."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.SettingsController.ConfirmNonContactChats",
       "value": "Confirmar chats de “no contactos”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ConfirmNonContactChatsInfo",
+      "value": "Pregunta antes de abrir un chat privado con alguien que no es tu contacto mientras el modo hermético esté activado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsManual",
+      "value": "Estos ya estaban limitados antes del modo hermético. Cambia quién puede llamarte, invitarte a grupos y enviarte mensajes en privacidad y seguridad."
     },
     {
       "_": "types.LangPackString",
@@ -24641,6 +26605,11 @@
       "_": "types.LangPackString",
       "key": "Lockdown.SettingsController.DisableInfo",
       "value": "La multimedia, enlaces, archivos y el agente con IA volverán a sus ajustes habituales. Los cambios que hayas realizado en los ajustes de privacidad se mantendrán. Los formatos de imagen poco comunes volverán a estar disponibles la próxima vez que abras Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableOk",
+      "value": "Desactivar"
     },
     {
       "_": "types.LangPackString",
@@ -25969,8 +27938,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MessagesActions.EditYourMessageQuestion",
+      "value": "¿Editar tu mensaje?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesActions.ForEveryone",
+      "value": " para todos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesActions.ForYou",
+      "value": " para ti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesActions.Forward",
+      "value": "Reenviar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesActions.ForwardMessagesQuestion",
+      "value": "¿Reenviar los mensajes?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MessagesActions.Pin",
       "value": "fijar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MessagesActions.PinConfirmation",
+      "value": "%1$@ un mensaje en “%2$@”"
     },
     {
       "_": "types.LangPackString",
@@ -26116,6 +28115,11 @@
       "_": "types.LangPackString",
       "key": "Model.ViewerModalController.Format",
       "value": "Formato"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.SaveAs",
+      "value": "Guardar como…"
     },
     {
       "_": "types.LangPackString",
@@ -26440,8 +28444,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NavigationActions.ArchivedChats",
+      "value": "Chats archivados"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NavigationActions.ShowYourArchivedChats",
       "value": "mostrar tus chats archivados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NavigationActions.VersionUnavailable",
+      "value": "La versión no está disponible."
     },
     {
       "_": "types.LangPackString",
@@ -26542,6 +28556,16 @@
       "_": "types.LangPackString",
       "key": "NetworkUsage.Title.Videos",
       "value": "Videos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NetworkUsageActions.Reset",
+      "value": "Restablecer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NetworkUsageActions.UsageLoadFailed",
+      "value": "No se cargó el uso de datos. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -27221,10 +29245,20 @@
       "other_value": "%1$dh"
     },
     {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Interesting",
+      "value": "Me interesa"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "News.PostRowItem.Minutes",
       "one_value": "%1$dm",
       "other_value": "%1$dm"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.NotInterested",
+      "value": "No me interesa"
     },
     {
       "_": "types.LangPackString",
@@ -27235,6 +29269,17 @@
       "_": "types.LangPackString",
       "key": "News.PostRowItem.RemoveFromNews",
       "value": "Quitar de Noticias"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "News.PostRowItem.Seconds",
+      "one_value": "%1$ds",
+      "other_value": "%1$ds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.ShowInChat",
+      "value": "Mostrar en el chat"
     },
     {
       "_": "types.LangPackString",
@@ -28182,6 +30227,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Passcode.LockController.LogOutAndErase",
+      "value": "Cerrar sesión y borrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.LockController.TryAgain",
+      "value": "Reintentar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Passcode.Lost.Description",
       "value": "Si no recuerdas tu código, puedes [cerrar sesión]()"
     },
@@ -28224,6 +30279,26 @@
       "_": "types.LangPackString",
       "key": "Passcode.SettingsViewController.WalletInfo",
       "value": "Requerido al enviar fondos o al confirmar otras acciones sensibles de Dinero."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.Strength.Title",
+      "value": "Seguridad del código"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.StrengthEstimate.Normal",
+      "value": "Normal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.StrengthEstimate.Strong",
+      "value": "Fuerte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Passcode.StrengthEstimate.Weak",
+      "value": "Débil"
     },
     {
       "_": "types.LangPackString",
@@ -29899,6 +31974,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.HeadItem.AI",
+      "value": "IA"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.HeadItem.SendMoney",
       "value": "Enviar dinero"
     },
@@ -30704,6 +32784,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerMediaGiftsController.HideGiftsWithoutTONListings",
+      "value": "Ocultar regalos no ofrecidos en TON"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerMediaGiftsController.HideTONListings",
+      "value": "Ocultar ofrecidos en TON"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerRating.Preview.Negative",
       "value": "Calificación negativa"
     },
@@ -30736,6 +32826,11 @@
       "_": "types.LangPackString",
       "key": "PersonalChannel.Tooltip.Updated",
       "value": "Canal personal actualizado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PersonalChannelActions.ChannelsLoadFailed",
+      "value": "No se cargaron tus canales. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -32303,6 +34398,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyExceptionsActions.PrivacyLoadFailed",
+      "value": "No se cargaron los ajustes de privacidad. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyExceptionsActions.PrivacyUnavailable",
+      "value": "No se cargaron los ajustes de privacidad."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyPhoneNumberSettings.CustomDisabledHelp",
       "value": "Los usuarios que añadan tu número a sus contactos lo verán en Telegram sólo si son tus contactos."
     },
@@ -32930,8 +35035,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.ChangeTheFirstTab",
+      "value": "¿Cambiar la primera pestaña?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.RemoveFactCheckInfo",
+      "value": "El agente quiere quitar la verificación de datos del mensaje #%1$d en “%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.SuggestBirthdayInfo",
+      "value": "El agente quiere sugerir %1$@ como cumpleaños de %2$@. Lo verá en el chat y podrá añadirlo a su perfil."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileExtrasActions.BirthdaysLoadFailed",
       "value": "No se cargaron los cumpleaños. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtrasActions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
     },
     {
       "_": "types.LangPackString",
@@ -32942,6 +35067,31 @@
       "_": "types.LangPackString",
       "key": "ProfileExtrasActions.ProfileLoadFailed",
       "value": "No se cargó el perfil. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.RemoveMusicInfo",
+      "value": "El agente quiere quitar un audio de tu perfil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusicActions.MusicLoadFailed",
+      "value": "No se cargó la música de tu perfil. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.ChangePhotoInfo",
+      "value": "El agente quiere que tu foto de %1$@ vuelva a ser tu foto principal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.DeletePhotoInfo",
+      "value": "El agente quiere eliminar tu foto de perfil de %1$@%2$@. No se puede restaurar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotosActions.PhotosLoadFailed",
+      "value": "No se cargaron tus fotos del perfil. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -33250,6 +35400,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.Actions.NothingIsSentUntilYouTapSend",
+      "value": ". No se envía nada hasta que pulses Enviar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.SendQRCodeInfo",
+      "value": "El agente quiere enviar el código QR que aparece arriba para %1$@ a “%2$@”%3$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.ColorsTabView.Title",
       "value": "Colores"
     },
@@ -33390,6 +35550,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QuickReaction.Actions.ChangeQuickReactionInfo",
+      "value": "El agente quiere que se haga doble clic en un mensaje para reaccionar %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReactionActions.ReactionsLoadFailed",
       "value": "No se cargaron las reacciones. Reinténtalo."
     },
@@ -33510,6 +35675,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ChangeNotificationsInfo",
+      "value": "El agente quiere notificarte sobre %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ReactionsToYourMessagesFrom",
+      "value": "reacciones a tus mensajes de %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ReactionsToYourStoriesFrom",
+      "value": "reacciones a tus historias de %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions.Popular",
       "value": "Populares"
     },
@@ -33527,6 +35707,12 @@
       "_": "types.LangPackString",
       "key": "Reactions.RecentlyUsed",
       "value": "Recientes"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Reading.Actions.ExportChatInfo",
+      "one_value": "El agente quiere guardar hasta %1$d mensaje de “%2$@” en un archivo en %3$@.",
+      "other_value": "El agente quiere guardar hasta %1$d mensajes de “%2$@” en un archivo en %3$@."
     },
     {
       "_": "types.LangPackString",
@@ -33635,6 +35821,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Report.Actions.ReportInfo",
+      "value": "El agente quiere reportar %1$@ a los moderadores de Telegram por: %2$@%3$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Report.AdditionText",
       "value": "Por favor, añade detalles relevantes para tu reporte."
     },
@@ -33672,6 +35863,11 @@
       "_": "types.LangPackString",
       "key": "Report.Complicated.Story.Title",
       "value": "Reportar historia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReportActions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
     },
     {
       "_": "types.LangPackString",
@@ -34501,8 +36697,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SavedStickersActions.ClearRecentStickersTitle",
+      "value": "¿Borrar los stickers recientes?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedStickersActions.Gif",
+      "value": "GIF"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SavedStickersActions.ListLoadFailed",
       "value": "No se cargó la lista %1$@. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedStickersActions.Remove",
+      "value": "Quitar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SavedStickersActions.Send",
+      "value": "Enviar"
     },
     {
       "_": "types.LangPackString",
@@ -36114,6 +38330,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SelectPeersController.Inviting",
+      "value": "Invitando…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SelectStory.Accept",
       "value": "Añadir historias"
     },
@@ -36805,6 +39026,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShareAITargets.AIAgents",
+      "value": "Agentes de IA"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShareCallLogs",
       "value": "Compartir registros de llamada"
     },
@@ -37410,6 +39636,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutsActions.DeleteShortcut",
+      "value": "eliminar el atajo “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsController.Chat",
       "value": "CHAT"
     },
@@ -37645,13 +39876,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SoundsActions.Change",
+      "value": "Cambiar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.ChangeContactPhotoTitle",
+      "value": "¿Cambiar la foto del contacto?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.ChangeSoundTitle",
+      "value": "¿Cambiar el sonido?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SoundsActions.Delete",
       "value": "Eliminar"
     },
     {
       "_": "types.LangPackString",
+      "key": "SoundsActions.DeleteNotificationSoundTitle",
+      "value": "¿Eliminar el sonido de notificación?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.SaveNotificationSoundTitle",
+      "value": "¿Guardar el sonido de notificación?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SoundsActions.SoundsLoadFailed",
       "value": "No se cargaron tus sonidos de notificaciones. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.Suggest",
+      "value": "Sugerir"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.SuggestPhotoTitle",
+      "value": "¿Sugerir foto?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.ViewSounds",
+      "value": "ver tus sonidos de notificaciones"
     },
     {
       "_": "types.LangPackString",
@@ -38339,8 +40615,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Star.ListScreen.GramBalance",
+      "value": "Saldo en grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.ThroughFragment",
+      "value": "Vía Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Star.ListScreen.WithdrawMinimumGrams",
       "value": "No puedes retirar menos de 10 grams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawToGramWallet",
+      "value": "Retirar a la billetera de grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalStatusUnknown",
+      "value": "Estado desconocido del retiro"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.WithdrawalSubmitted",
+      "value": "Retiro enviado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Star.ListScreen.Withdrawing",
+      "value": "Retirando %1$@…"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -39205,6 +41511,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.ForGrams",
+      "value": "Por grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.ForStars",
+      "value": "Por estrellas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.FromFragment",
+      "value": "De Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.MarketplaceController.OnBlockchainOnly",
+      "value": "Sólo en la blockchain"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.ModelBuilder.Backdrops",
       "value": "Fondos"
     },
@@ -39291,6 +41617,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.GiftListed",
+      "value": "Regalo puesto a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.ListOnBlockchain",
+      "value": "Poner a la venta en la blockchain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.RemoveFromFragment",
+      "value": "Quitar de Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.RemoveListing",
+      "value": "Quitar de la venta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.Nft.Controller.WaitingForConfirmation",
+      "value": "Esperando confirmación"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.Nft.OfferToBuy",
       "value": "Hacer una oferta"
     },
@@ -39346,8 +41697,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.BuyerRefund",
+      "value": "Reembolso del comprador: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.CancellationProcessing",
+      "value": "Se están procesando la cancelación y el reembolso."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.OnchainOffer.GiftPurchased",
       "value": "Oferta aceptada. Compraste este regalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.GramsToOffer",
+      "value": "Grams a ofrecer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferAccepted",
+      "value": "Aceptaste la oferta"
     },
     {
       "_": "types.LangPackString",
@@ -39986,7 +42357,24 @@
     {
       "_": "types.LangPackString",
       "key": "StarsSubscriptionsActions.LoadFailed",
-      "value": "No se cargaron las suscripciones por estrellas. Reinténtalo."
+      "value": "No se cargaron las suscripciones con estrellas. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSubscriptionsActions.Months",
+      "one_value": "mes",
+      "other_value": "%1$d meses"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "StarsSubscriptionsActions.Seconds",
+      "one_value": "%1$d segundo",
+      "other_value": "%1$d segundos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarsSubscriptionsActions.ViewSubscriptions",
+      "value": "ver tus pagos de suscripciones con estrellas"
     },
     {
       "_": "types.LangPackString",
@@ -40403,6 +42791,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerOrderActions.ReorderFailed",
+      "value": "No se pudo reordenar tu %1$@. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerOrderActions.ReorderTitle",
+      "value": "¿Reordenar %1$@?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerOrderActions.StickerSets",
       "value": "packs de stickers"
     },
@@ -40605,6 +43003,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerSetActions.AccountLoadFailed",
+      "value": "No se cargó tu cuenta."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerSetActions.Add",
       "value": "Añadir"
     },
@@ -40625,6 +43028,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerSetActions.DeleteFailed",
+      "value": "Telegram no lo eliminó."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerSetActions.DeleteSetTitle",
       "value": "¿Eliminar el pack?"
     },
@@ -40640,8 +43048,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StickerSetActions.Rename",
+      "value": "Renombrar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StickerSetActions.RenameSetTitle",
       "value": "¿Renombrar el pack?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StickerSetActions.Sticker",
+      "value": "sticker"
     },
     {
       "_": "types.LangPackString",
@@ -40762,8 +43180,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Storage.Actions.ChangeAutoDownload",
+      "value": "El agente quiere %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.ChangeAutoDownloadTitle",
+      "value": "¿Cambiar las autodescargas?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.ChangeCacheSettingsTitle",
+      "value": "¿Cambiar ajustes de caché?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.ChatUnavailable",
+      "value": "Ese chat no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.Clear",
+      "value": "Borrar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Storage.Actions.ClearCacheTitle",
       "value": "¿Borrar la caché?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Storage.Actions.SettingsLoadFailed",
+      "value": "No se cargaron los ajustes de caché. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -41215,13 +43663,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoriesAndStickers.Actions.DeleteStory",
+      "value": "El agente quiere eliminar tu historia #%1$d."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickers.Actions.HideStories",
+      "value": "ocultar historias de “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickers.Actions.React",
+      "value": "reaccionar %1$@ a una historia de “%2$@”"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoriesAndStickers.Actions.ReplyTitle",
       "value": "¿Responder a una historia?"
     },
     {
       "_": "types.LangPackString",
+      "key": "StoriesAndStickers.Actions.Save",
+      "value": "Guardar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickers.Actions.SeeStories",
+      "value": "ver las historias de “%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickers.Actions.SeeStoryAuthors",
+      "value": "ver quién publicó historias"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoriesAndStickersActions.StoriesDidnTLoadTryAgain",
       "value": "No se cargaron las historias. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickersActions.ThatChatIsnTAvailable",
+      "value": "Ese chat no está disponible."
     },
     {
       "_": "types.LangPackString",
@@ -41242,6 +43725,11 @@
       "_": "types.LangPackString",
       "key": "StoriesAndStickersActions.UnknownChat",
       "value": "chat desconocido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesAndStickersActions.YourStoriesDidnTLoadTryAgain",
+      "value": "No se cargaron tus historias. Reintentar."
     },
     {
       "_": "types.LangPackString",
@@ -41381,8 +43869,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.ClipVolume",
+      "value": "Volumen del clip"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DropMediaToImport",
+      "value": "Suelta multimedia para importar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PauseClip",
+      "value": "Pausar clip"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PlayClip",
+      "value": "Reproducir clip"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PositionAndZoom",
+      "value": "Arrastra a la posición · Desplaza o pellizca para el zoom"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.SaveMedia",
       "value": "Guardar multimedia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.SoundtrackVolume",
+      "value": "Volumen de la música"
     },
     {
       "_": "types.LangPackString",
@@ -41593,6 +44111,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.ActiveLimitReached",
+      "value": "Alcanzaste tu límite de historias activas."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.PrivacyModalController.CaptionLimit",
+      "one_value": "Las descripciones de historias pueden tener hasta %1$d carácter.",
+      "other_value": "Las descripciones de historias pueden tener hasta %1$d caracteres."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.KeepOnProfile",
+      "value": "Mantén esta historia en tu perfil incluso después de expirar en %1$@. Se aplicarán los ajustes de privacidad."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.MediaPreparationFailed",
+      "value": "No se pudo preparar esta multimedia para su publicación."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.MonthlyLimitReached",
+      "value": "Alcanzaste tu límite mensual de historias."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.PrivacyModalController.RemainingStories",
+      "one_value": "Puedes publicar hasta %1$d historia más por el momento.",
+      "other_value": "Puedes publicar hasta %1$d historias más por el momento."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.WeeklyLimitReached",
+      "value": "Alcanzaste tu límite semanal de historias."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Report.SuccessText",
       "value": "Los moderadores de Telegram revisarán tu reporte. ¡Gracias!"
     },
@@ -41793,6 +44348,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryArchive.Actions.ChangeAlbumsTitle",
+      "value": "¿Cambiar los álbumes de historias?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryArchive.Actions.ProfileStories",
+      "value": "historias del perfil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryArchive.Actions.Save",
       "value": "Guardar"
     },
@@ -41826,6 +44391,101 @@
       "_": "types.LangPackString",
       "key": "StoryArchive.Actions.StoryIdentifier",
       "value": "historia #%1$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryArchiveActions.YourStoriesDidnTLoad",
+      "value": "No se cargaron tus historias."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryArchiveActions.YourStoriesDidnTLoadTryAgain",
+      "value": "No se cargaron tus historias. Reintentar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryArchiveActions.YourStoryAlbumsDidnTLoadTryAgain",
+      "value": "No se cargaron tus álbumes de historias. Reinténtalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.AddStory",
+      "value": "Añadir historia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.AddStoryAccessibilitySuffix",
+      "value": ", añadir historia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.NewStory",
+      "value": "Nueva historia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryChatListView.Uploading",
+      "value": "Subiendo…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Adjust",
+      "value": "Ajustar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.ReleaseToLock",
+      "value": "Suelta para bloquear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.AudioOpenFailed",
+      "value": "Telegram no pudo abrir este audio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CameraAccessOff",
+      "value": "El acceso a la cámara está desactivado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFiles",
+      "value": "Elige archivos…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.ChooseFromPhotos",
+      "value": "Elegir desde Fotos…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageClipTrim",
+      "value": "Recorte de collage"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.CollageFileLimit",
+      "value": "No selecciones más archivos de los que caben en el collage."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardCollage",
+      "value": "Descartar collage"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.DiscardStoryConfirmation",
+      "value": "¿Descartar esta historia?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.OpeningCamera",
+      "value": "Abriendo cámara…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.Photo",
+      "value": "Foto"
     },
     {
       "_": "types.LangPackString",
@@ -42635,6 +45295,11 @@
       "_": "types.LangPackString",
       "key": "SuspiciousSession.NotMe",
       "value": "¡No, no soy yo!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.ConversationAccount",
+      "value": "la cuenta de esta conversación"
     },
     {
       "_": "types.LangPackString",
@@ -44813,6 +47478,26 @@
       "_": "types.LangPackString",
       "key": "UserInfo.AddBotToCommunityInfo",
       "value": "Haz que tu bot forme parte de una comunidad con múltiples chats relacionados."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.AddAPIKey",
+      "value": "Añade tu clave de API de IA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.CurrentBotOwner",
+      "value": "Propietario actual del bot: "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.InviteToBot",
+      "value": "Invitar al bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UserInfo.Entries.InvitedBy",
+      "value": "Invitado por: "
     },
     {
       "_": "types.LangPackString",
@@ -49130,7 +51815,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.StickerGridFooter",
-      "value": "Mantén pulsado un regalo para despegarlo y pegarlo en tu tarjeta. Mantén pulsado un regalo en la tarjeta para despegarlo nuevamente. Usa los gestos de rotar y pellizcar en el trackpad para rotarlo o cambiar su tamaño."
+      "value": "Mantén pulsado un regalo para despegarlo y pegarlo en tu tarjeta. Mantén pulsado un sticker en la tarjeta para despegarlo. Usa los gestos de rotar y pellizcar del trackpad para rotarlo o cambiar su tamaño."
     },
     {
       "_": "types.LangPackString",
@@ -49150,7 +51835,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.Controller.StillSyncing",
-      "value": "La billetera aún se está sincronizando. Por favor, reinténtalo en un momento."
+      "value": "La billetera aún se está sincronizando. Reinténtalo en un momento."
     },
     {
       "_": "types.LangPackString",
@@ -49979,7 +52664,7 @@
     {
       "_": "types.LangPackString",
       "key": "Wallet.SendController.StillSyncing",
-      "value": "La billetera aún se está sincronizando. Por favor, reinténtalo en un momento."
+      "value": "La billetera aún se está sincronizando. Reinténtalo en un momento."
     },
     {
       "_": "types.LangPackString",
@@ -50383,8 +53068,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Buyer",
+      "value": "Comprador"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Cancel",
       "value": "Cancelar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.CancellationFine",
+      "value": "Multa por cancelación"
     },
     {
       "_": "types.LangPackString",
@@ -50463,6 +53158,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Expires",
+      "value": "Expira"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Fee",
       "value": "Tarifa"
     },
@@ -50470,6 +53170,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.FeeFree",
       "value": "Gratis (pagada por Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.FundedAmount",
+      "value": "Monto añadido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NetworkFee",
+      "value": "Tarifa de red"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -50489,6 +53199,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.NewPrice",
+      "value": "Nuevo precio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Nft",
       "value": "NFT"
     },
@@ -50496,6 +53211,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.NotEnoughGramsTitle",
       "value": "No hay suficientes grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.OfferAddress",
+      "value": "Dirección de la oferta"
     },
     {
       "_": "types.LangPackString",
@@ -50509,6 +53229,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.PlatformFee",
+      "value": "Tarifa de la plataforma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.PreviousPrice",
+      "value": "Precio anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Price",
+      "value": "Precio"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Proceed",
       "value": "Continuar"
     },
@@ -50519,6 +53254,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Refund",
+      "value": "Reembolso"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.SecretPhraseRequiredInfo",
       "value": "Pon tu frase secreta para restaurar el acceso a esta billetera y descifrar el comentario."
     },
@@ -50526,6 +53266,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.SecretPhraseRequiredTitle",
       "value": "Frase secreta requerida"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.Seller",
+      "value": "Vendedor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.SellerShare",
+      "value": "Participación del vendedor"
     },
     {
       "_": "types.LangPackString",
@@ -50546,6 +53296,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionController.Sender",
       "value": "Remitente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ServiceFee",
+      "value": "Tarifa de servicio"
     },
     {
       "_": "types.LangPackString",
@@ -50669,8 +53424,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferAccepted",
+      "value": "Oferta aceptada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferCancelled",
+      "value": "Oferta cancelada"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OfferDeclined",
       "value": "Oferta rechazada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferExpired",
+      "value": "Oferta expirada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferSent",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OnChainGift",
+      "value": "Regalo on-chain"
     },
     {
       "_": "types.LangPackString",
@@ -50689,8 +53469,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Purchased",
+      "value": "Comprado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSale",
+      "value": "Puesto a la venta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.PutOnSaleFor",
       "value": "Puesto a la venta por %1$@ grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Received",
+      "value": "Recibidas"
     },
     {
       "_": "types.LangPackString",
@@ -50706,6 +53501,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.Sending",
       "value": "Enviando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Sent",
+      "value": "Enviadas"
     },
     {
       "_": "types.LangPackString",
@@ -50840,8 +53640,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyFromFragment",
+      "value": "Comprar de Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyOnBlockchain",
+      "value": "Comprar en la blockchain"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.ChangePrice",
       "value": "Cambiar precio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ConfirmSale",
+      "value": "Confirmar venta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.DeclinedOfferRefund",
+      "value": "Si el vendedor rechaza tu oferta o esta expira, se te devolverán **%1$@** automáticamente."
     },
     {
       "_": "types.LangPackString",
@@ -50850,13 +53670,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EstimatedNetworkFee",
+      "value": "Tarifa de red estimada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GiftNotFound",
+      "value": "No se pudo encontrar este regalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GramHeldUntil",
+      "value": "%1$@ grams retenidos hasta %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListingPrice",
+      "value": "Precio por poner a la venta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.MoveGramEarnings",
-      "value": "**%1$@** se moverán desde tus ganancias en grams al saldo de tu billetera para que puedas continuar con este regalo."
+      "value": "**%1$@** se moverán desde las ganancias en grams al saldo de tu billetera para que puedas continuar con este regalo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NetworkFee",
+      "value": "Tarifa de red: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NewListingPrice",
+      "value": "Nuevo precio de venta"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletUI.Integration.NotForSale",
       "value": "Este regalo ya no está a la venta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferExpires",
+      "value": "La oferta expira"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferSent",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferSubmitted",
+      "value": "Oferta enviada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.OfferUnavailable",
+      "value": "Esta oferta ya no está disponible."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RemoveFromFragment",
+      "value": "Quitar de Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RemoveListing",
+      "value": "Quitar de la venta"
     },
     {
       "_": "types.LangPackString",
@@ -50867,6 +53747,36 @@
       "_": "types.LangPackString",
       "key": "WalletUI.Integration.UseGramEarnings",
       "value": "¿Usar ganancias en grams?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletPayment",
+      "value": "Pago con billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletTransfer",
+      "value": "Transferencia de billetera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawOffer",
+      "value": "¿Retirar la oferta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YouPay",
+      "value": "Pagas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YouReceive",
+      "value": "Recibes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YourOffer",
+      "value": "Tu oferta"
     },
     {
       "_": "types.LangPackString",
@@ -51779,5 +54689,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2480752
+  "version": 2495987
 }

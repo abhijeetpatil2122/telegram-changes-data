@@ -95,6 +95,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.AgentAccess",
+      "value": "Приступ агента"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.And",
       "value": " и "
     },
@@ -182,8 +187,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityRuns.DidNotFinish",
+      "value": "Није завршено"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ActivityRuns.Done",
       "value": "Готово"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityRuns.Stopped",
+      "value": "Заустављен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityRuns.WorkingNow",
+      "value": "Тренутно ради"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.DidNotFinish",
+      "value": "Није завршено"
     },
     {
       "_": "types.LangPackString",
@@ -192,8 +217,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Automation",
+      "value": "Аутоматизација"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.Delete",
       "value": "Избриши"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.DeleteAutomation",
+      "value": "Избриши аутоматизацију"
     },
     {
       "_": "types.LangPackString",
@@ -202,13 +237,99 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.EveryDay",
+      "value": "Сваког дана"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Свака %1$d дана",
+      "key": "AIAssistant.AutomationController.EveryDays",
+      "one_value": "Сваки %1$d дан",
+      "other_value": "Сваких %1$d дана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.EveryHour",
+      "value": "Сваког часа"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Свака %1$d часа",
+      "key": "AIAssistant.AutomationController.EveryHours",
+      "one_value": "Сваки %1$d час",
+      "other_value": "Сваких %1$d часова"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "На свака %1$d минута",
+      "key": "AIAssistant.AutomationController.EveryMinutes",
+      "one_value": "На сваки %1$d минут",
+      "other_value": "На сваких %1$d минута"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.Instructions",
       "value": "УПУТСТВА"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.LastRun",
+      "value": "ПОСЛЕДЊЕ ПОКРЕТАЊЕ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.NextRun",
+      "value": "Следеће покретање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.NextRunDate",
+      "value": "Следеће покретање: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Once",
+      "value": "Једном"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Pause",
+      "value": "Паузирај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Paused",
+      "value": "Паузирано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Repeats",
+      "value": "Понављање"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.Resume",
       "value": "Настави"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Schedule",
+      "value": "РАСПОРЕД"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.StopRunning",
+      "value": "„%1$@” ће престати да ради."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Watch",
+      "value": "Прати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.WatchTitle",
+      "value": "Прати %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -221,6 +342,16 @@
       "value": "Агент"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AgentOffline",
+      "value": "Агент ван мреже · чека се повратак"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AgentRemoved",
+      "value": "Агент %1$@ је уклоњен из ћаскања %2$@."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%1$d агента",
       "key": "AIAssistant.ChatContents.Agents",
@@ -229,8 +360,50 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AnswerInterrupted",
+      "value": "Одговор је прекинут: виртуелна машина агента се зауставила или поново покренула током рада. Пошаљите захтев поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AskAbout",
+      "value": "Питајте о %1$@…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AskIn",
+      "value": "Питајте у %1$@…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Assistant",
       "value": "ВИ помоћник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AssistantCompacting",
+      "value": "помоћник сажима…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AttachmentClosed",
+      "value": "Прозор %1$@ је затворен, па више нисам повезан с њим."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AttachmentLimit",
+      "value": "Прилози могу имати највише 40 MB по поруци."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$@ размишљају",
+      "key": "AIAssistant.ChatContents.AuthorsThinking",
+      "one_value": "%1$@ размишља",
+      "other_value": "%1$@ размишљају"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.BackgroundTask",
+      "value": "Позадински задатак"
     },
     {
       "_": "types.LangPackString",
@@ -244,8 +417,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactCommand",
+      "value": "Сажмите овај разговор да бисте задржали мањи контекст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Compacting",
+      "value": "сажимање…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactingLocked",
+      "value": "Разговор се сажима. Моћи ћете поново да шаљете за тренутак."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactionInterrupted",
+      "value": "Прекинуто. Пошаљите /compact да бисте покушали поново."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.CouldNotLoadAttachment",
       "value": "Учитавање ставке %1$@ није успело, па је помоћник није примио. Покушајте поново да је приложите."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotPackFolder",
+      "value": "Паковање фасцикле %1$@ није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotReadFile",
+      "value": "Читање датотеке %1$@ није успело, па није ни послата."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotSaveFile",
+      "value": "Чување датотеке %1$@ није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotSend",
+      "value": "Слање примаоцу %1$@ није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotSendWithError",
+      "value": "Слање примаоцу %1$@ није успело: %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -274,13 +492,94 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Expired",
+      "value": "Истекло"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Највише %1$d датотеке и 40 MB по поруци.",
+      "key": "AIAssistant.ChatContents.FileLimit",
+      "one_value": "Највише %1$d датотека и 40 MB по поруци.",
+      "other_value": "Највише %1$d датотека и 40 MB по поруци."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.FirstName",
+      "value": "ВИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Forward",
+      "value": "Проследи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Help",
+      "value": "**Наредбе**\n/compact: сажмите овај разговор како би агент задржао суштину уз мањи контекст\n/new или /reset: започните нов разговор\n/retry: поново покрените последњи захтев који није успео\n/commands: наредбе за статус, модел, додатке, задатке, аутоматизације и меморију које раде чак и када ВИ модел није доступан\n\n**Све остало функционише тако што питате.** На пример:\n- „Повежи Playwright MCP сервер” или „Инсталирај додатак Fly.io”\n- „Ево датотеке додатка, инсталирај је” (приложите .md додатак)\n- „Постави дневно ограничење на 2000” или „Пребаци на бржи модел”\n- „Постави Аницу за администратора групе Тим и укључи спори режим”\n- „Прати Дизајн тим и јави ми ако се помене издање”\n- „Направи агента који пише белешке о издању” и „Питај га о јучерашњем позиву”\n\nЗа све што умањује безбедност или повећава потрошњу тражи се ваше одобрење на Mac-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.HelpCommand",
+      "value": "Наредбе и примери"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.InChat",
+      "value": "У ћаскању"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.LastName",
+      "value": "Помоћник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.LiveTranscript",
+      "value": "Транскрипт уживо"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Location",
       "value": "Локација"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": " (+ још %1$d)",
+      "key": "AIAssistant.ChatContents.MoreReplies",
+      "one_value": " (+ још %1$d)",
+      "other_value": " (+ још %1$d)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.MultiReply",
+      "value": "Вишеструки одговор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NewCommand",
+      "value": "Започни нови разговор"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NewConversation",
+      "value": "Започет нови разговор."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NotEnoughToCompact",
+      "value": "Још нема довољно разговора за сажимање."
     },
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.NotSent",
       "value": "Није послато"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "на мрежи · %1$d агент",
+      "key": "AIAssistant.ChatContents.OnlineAgents",
+      "one_value": "на мрежи · %1$d агент",
+      "other_value": "на мрежи · %1$d агената"
     },
     {
       "_": "types.LangPackString",
@@ -299,8 +598,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.PausedPrefix",
+      "value": "Паузирано · "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Plan",
       "value": "План"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.PlanCommand",
+      "value": "Прво направите план, а покрените након што одобрите"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Queued",
+      "value": "Чека се завршетак тренутног задатка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Recover",
+      "value": "Опорави"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RecoverRequestInfo",
+      "value": "Овај захтев је сачувала старија верзија без података о налогу. Опоравити га на Telegram налогу „%1$@” ради прегледа пре слања?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RecoverRequestTitle",
+      "value": "Опоравак сачуваног захтева"
     },
     {
       "_": "types.LangPackString",
@@ -309,8 +638,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RemoveAgentInfo",
+      "value": "Агент %1$@ престаје да прати ћаскање %2$@ и неће овде одговарати. Његова друга ћаскања остају непромењена."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.RemoveAgentTitle",
       "value": "Уклонити %1$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RequestKept",
+      "value": "Задржао сам овај захтев. Пошаљите „retry” кад агент поново буде могао да одговори и покренућу га."
     },
     {
       "_": "types.LangPackString",
@@ -319,13 +658,55 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RetryCommand",
+      "value": "Поново покрени последњи захтев који није успео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RetryNow",
+      "value": "Покушај поново"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Retrying",
+      "value": "Поновни покушај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RunPlan",
+      "value": "Покрени план"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RunPlanPrefix",
+      "value": "Покрени план: "
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Scheduled",
       "value": "Заказано"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Изабране %1$d поруке",
+      "key": "AIAssistant.ChatContents.SelectedMessages",
+      "one_value": "Изабрана %1$d порука",
+      "other_value": "Изабрано %1$d порука"
     },
     {
       "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Send",
       "value": "Пошаљи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.SendNowTo",
+      "value": "Пошаљи сада примаоцу %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Sending",
+      "value": "Слање"
     },
     {
       "_": "types.LangPackString",
@@ -344,8 +725,133 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.StopLoop",
+      "value": "Заустави петљу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.TemporaryChat",
       "value": "Привремено ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.TemporaryChatInfo",
+      "value": "Ово ћаскање се не чува и агент га неће запамтити. Нестаје чим изађете."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.TemporaryStatus",
+      "value": "привремено ћаскање · није сачувано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Thinking",
+      "value": "Размишља"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordBrewingIdeas",
+      "value": "крчка идеје"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordCogitating",
+      "value": "мудрује"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordConjuring",
+      "value": "смишља"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordConnectingTheDots",
+      "value": "повезује тачке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordContemplating",
+      "value": "сагледава"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordCrunching",
+      "value": "обрађује"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordDeliberating",
+      "value": "одмерава"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordDistilling",
+      "value": "издваја суштину"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordMullingItOver",
+      "value": "претреса"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordMusing",
+      "value": "промишља"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordNoodling",
+      "value": "мозга"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordPercolating",
+      "value": "бистри мисли"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordPiecingItTogether",
+      "value": "склапа коцкице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordPondering",
+      "value": "дубоко размишља"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordRuminating",
+      "value": "удубљује се"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordSpelunking",
+      "value": "истражује дубине"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordSynthesizing",
+      "value": "обједињује"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordThinking",
+      "value": "размишља"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordUntangling",
+      "value": "распетљава"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordWeavingThoughts",
+      "value": "плете мисли"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThisChat",
+      "value": "ово ћаскање"
     },
     {
       "_": "types.LangPackString",
@@ -354,8 +860,45 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ToChat",
+      "value": "За %1$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Корак %1$d од %2$d",
+      "key": "AIAssistant.ChatContents.TurnProgress",
+      "one_value": "Корак %1$d од %2$d",
+      "other_value": "Корак %1$d од %2$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Typing",
       "value": "пише…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.UnsupportedAttachment",
+      "value": "Ова врста прилога не може да се пошаље помоћнику."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.VoiceUnreadable",
+      "value": "Читање гласовне поруке није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.WaitToCompact",
+      "value": "Сачекајте да се тренутни одговор заврши, а затим поново пошаљите /compact."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Welcome",
+      "value": "Здраво! Ја сам ваш ВИ помоћник. Радим у приватној виртуелној машини на овом Mac-у.\n\nМогу да вам сажмем непрочитана ћаскања, претражим ваше поруке, саставим нацрте одговора, подесим подсетнике и још много тога. Увек питам пре него што било шта пошаљем у ваше име.\n\nПробајте: **Шта сам данас пропустио?**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Working",
+      "value": "Ради…"
     },
     {
       "_": "types.LangPackString",
@@ -369,8 +912,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.AIChat",
+      "value": "ВИ ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatList.Agent",
       "value": "агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.AgentGroup",
+      "value": "група агената"
     },
     {
       "_": "types.LangPackString",
@@ -394,6 +947,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ChatLimitReached",
+      "value": "Има превише ВИ ћаскања. Избришите неколико ћаскања да бисте започели ново."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Chats.Clear",
       "value": "Очисти"
     },
@@ -401,6 +959,16 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Chats.ClearChat",
       "value": "Очисти ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ClearChatConfirmation",
+      "value": "Избрисати све поруке у овом ћаскању и меморију агента о њему?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.HistoryUnavailable",
+      "value": "Ваша ВИ историја није могла безбедно да се отвори. Постојећи подаци су задржани. Откључајте Telegram и поново отворите апликацију пре слања нових порука."
     },
     {
       "_": "types.LangPackString",
@@ -424,6 +992,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.RecoverSavedRequest",
+      "value": "Опорави сачувани захтев"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.SwitchTo",
+      "value": "Пређи на %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.CompactingConversation",
+      "value": "Сажимање разговора…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.CompactionFailed",
+      "value": "Сажимање разговора није успело"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.ConversationCompacted",
+      "value": "Разговор сажет"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.AIAssistant",
       "value": "Dictator"
     },
@@ -434,8 +1027,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.AllowedChatsInfo",
+      "value": "Број непрочитаних, претрага и сажеци. Тајна ћаскања никада нису доступна."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.AsksBeforeActing",
+      "value": "Пита пре деловања"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.ChatGPTPlanInfo",
       "value": "Користи ваш пакет ChatGPT Plus или Pro уместо АПИ кредита. Када наставите, отвориће се прегледач на овом Mac-у: пријавите се на ChatGPT и дозволите приступ Dictator-у. Подаци за пријаву остају у складишту Keychain на вашем Mac-у и никада се не шаљу на сервере Telegram-а. Потрошњу можете ограничити у одељку [ChatGPT → Подешавања → Коришћење и наплата](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConfirmationInfo",
+      "value": "Саставља нацрте одговора, али ништа не шаље без ваше потврде."
     },
     {
       "_": "types.LangPackString",
@@ -454,13 +1062,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.DownloadIt",
+      "value": " [Преузми](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.GetAKey",
+      "value": " [Набавите кључ за %1$@](%2$@)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.KeyStorageInfo",
       "value": "Кључ се проверава преко %1$@, а затим га Dictator чува у складишту Keychain на вашем Mac-у. Никада се не шаље на сервере Telegram-а.%2$@"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.LocalProviderInfo",
+      "value": "%1$@ покреће модел на овом Mac-у, па ништа не напушта уређај и кључ није потребан. Прво га покрените и преузмите модел који подржава позивање алата.%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.MacPermissionsInfo",
+      "value": "Подсетници, белешке и обавештења, свако уз вашу дозволу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ModelProvider",
+      "value": "ДОБАВЉАЧ МОДЕЛА"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ReadsChatsYouAllow",
+      "value": "Чита ћаскања која дозволите"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.UnderstandsVoice",
+      "value": "Разуме глас"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.VoicePluginInfo",
       "value": "Шаљите гласовне поруке када се додатак Whisper инсталира у Dictator-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.WorksWithYourMac",
+      "value": "Ради с вашим Mac-ом"
     },
     {
       "_": "types.LangPackString",
@@ -479,8 +1127,30 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.AgentRequired",
+      "value": "Изаберите најмање једног агента за групу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.GroupController.Create",
       "value": "Направи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.FirstAgentInfo",
+      "value": "Направите првог агента овде. Придружује се групи чим га сачувате."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Сви истовремено одговарају на вашу поруку. Први агент ког изаберете води групу. Највише %1$d агента.",
+      "key": "AIAssistant.GroupController.GroupMembersLimit",
+      "one_value": "Сви истовремено одговарају на вашу поруку. Први агент ког изаберете води групу. Највише %1$d агент.",
+      "other_value": "Сви истовремено одговарају на вашу поруку. Први агент ког изаберете води групу. Највише %1$d агената."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Lead",
+      "value": "Водећи"
     },
     {
       "_": "types.LangPackString",
@@ -491,6 +1161,16 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.GroupController.Members",
       "value": "ЧЛАНОВИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Name",
+      "value": "НАЗИВ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.NamePlaceholder",
+      "value": "нпр. Планери путовања"
     },
     {
       "_": "types.LangPackString",
@@ -514,6 +1194,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.History.ConversationCompacted",
+      "value": "Разговор сажет"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.History.Done",
       "value": "Готово"
     },
@@ -528,14 +1213,145 @@
       "value": "Порука од %1$@"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$@, %2$@ и још %3$d",
+      "key": "AIAssistant.History.MoreNames",
+      "one_value": "%1$@, %2$@ и још %3$d",
+      "other_value": "%1$@, %2$@ и још %3$d"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AIAssistant.History.Photo",
       "value": "Слика"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": " · %1$d корака",
+      "key": "AIAssistant.History.StepsCount",
+      "one_value": " · %1$d корак",
+      "other_value": " · %1$d корака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Stopped",
+      "value": "Заустављен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.StoppedWithError",
+      "value": "Заустављено због грешке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.ThreeNames",
+      "value": "%1$@, %2$@ и %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.TwoNames",
+      "value": "%1$@ и %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Video",
+      "value": "Видео"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.VoiceMessage",
+      "value": "Гласовна порука"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Widget",
+      "value": "Виџет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.History.Working",
+      "value": "Ради…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.CallEnded",
+      "value": "Позив је завршен, па је транскрипт уживо заустављен. Питајте ме било шта о њему."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.CallWith",
+      "value": "Позив: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.DetachTranscript",
+      "value": "Заустави коришћење транскрипта овог позива"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.EndedCallContext",
+      "value": "[Корисников Telegram позив „%1$@” је завршен. Његов транскрипт уживо:\n%2$@\n]"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.ListeningFailed",
+      "value": "🎙 Слушање за **%1$@** није успело: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.LiveCallContext",
+      "value": "[Корисник вас је додао у свој Telegram позив „%1$@”, који Telegram транскрибује уживо на његовом Mac-у. Питања се односе на овај позив, осим ако очигледно нису о њему. Редови су означени према говорнику; ознаке могу бити нетачне када саговорници говоре истовремено. Досадашњи транскрипт:\n%2$@\n]"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.NothingSaidYet",
+      "value": "(још ништа није речено)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.NothingWasSaid",
+      "value": "(ништа није речено)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Транскрипт уживо је прескочио %1$d секунде позива снимљеног док је Telegram био закључан.",
+      "key": "AIAssistant.LiveTranscript.SkippedSeconds",
+      "one_value": "Транскрипт уживо је прескочио %1$d секунду позива снимљеног док је Telegram био закључан.",
+      "other_value": "Транскрипт уживо је прескочио %1$d секунди позива снимљеног док је Telegram био закључан."
+    },
+    {
       "_": "types.LangPackString",
       "key": "AIAssistant.LiveTranscript.Someone",
       "value": "Неко"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.StopTheLiveTranscript",
+      "value": "Заустави транскрипт уживо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.StoppedTheLiveTranscript",
+      "value": "Транскрипт уживо заустављен."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.TranscribeIn",
+      "value": "Транскрибуј на: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.TranscribingInFromNowOn",
+      "value": "Од сада се транскрибује на: %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.TranscriptDetached",
+      "value": "Готово: више не користим транскрипт позива."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.UnsupportedMacOS",
+      "value": "За транскрипте уживо потребан је macOS 14.2 или новији."
     },
     {
       "_": "types.LangPackString",
@@ -559,6 +1375,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ImageFrom",
+      "value": "(слика од %1$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ImageWithAltFrom",
+      "value": "%1$@ (слика од %2$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.OpenSettingsTitle",
+      "value": "Отворите подешавања"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Lockdown.WidgetNote",
       "value": "Виџет сакривен у режиму закључавања."
     },
@@ -574,6 +1405,94 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Other",
+      "value": "Друго"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Provider",
+      "value": "Добављач: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Recommended",
+      "value": "Препоручено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PastedText.AccessibilityLabel",
+      "value": "Налепљени текст, "
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "~%1$d знака",
+      "key": "AIAssistant.PastedText.CharactersCount",
+      "one_value": "~%1$d знак",
+      "other_value": "~%1$d знакова"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d реда",
+      "key": "AIAssistant.PastedText.LinesCount",
+      "one_value": "%1$d ред",
+      "other_value": "%1$d редова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PastedText.Pasted",
+      "value": "Налепљено"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "~%1$@ хиљада знакова",
+      "key": "AIAssistant.PastedText.ThousandsCharactersCount",
+      "one_value": "~%1$@ хиљада знакова",
+      "other_value": "~%1$@ хиљада знакова"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Plan.ChangePlanPrefix",
+      "value": "Измените овај план:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Plan.DefaultTitle",
+      "value": "План"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Plan.ExecutionRefusal",
+      "value": "Само планирање: ништа се не мења док корисник не притисне Покрени план. Убаците овај корак у план уместо да га извршите."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PlanWidget.Approved",
+      "value": " · одобрено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PlanWidget.NothingChangesUntilYouRunIt",
+      "value": " · ништа се не мења док га не покренете"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d корака",
+      "key": "AIAssistant.PlanWidget.Steps",
+      "one_value": "%1$d корак",
+      "other_value": "%1$d корака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AgentAccess",
+      "value": "Приступ агента"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AgentAccessInfo",
+      "value": "Ограничите шта сваки агент може да мења и које фасцикле може да види. Агенти никада не виде ћаскања ван својих фасцикли, чак ни приликом претраге."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SafetyController.Agents",
       "value": "АГЕНТИ"
     },
@@ -584,8 +1503,100 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AskBeforeChangesInfo",
+      "value": "Чита слободно и пита вас пре слања, уређивања или брисања било чега."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AskBeforeEveryChange",
+      "value": "Питај пре сваке промене"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanAct",
+      "value": "Може да делује"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanChangeThings",
+      "value": "МОЖЕ ДА МЕЊА"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanSee",
+      "value": "МОЖЕ ДА ВИДИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CreateFoldersInfo",
+      "value": "Направите фасцикле за ћаскања у одељку Подешавања → Фасцикле да бисте ограничили овог агента на поједина ваша ћаскања."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d фасцикле",
+      "key": "AIAssistant.SafetyController.Folders",
+      "one_value": "%1$d фасцикла",
+      "other_value": "%1$d фасцикли"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.FollowsYourTelegramPermissions",
+      "value": "Прати ваше дозволе на Telegram-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.GeneralAssistant",
+      "value": "Општи помоћник"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.ReadOnly",
+      "value": "Само читање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.ReadOnlyInfo",
+      "value": "Чита и сажима, али никада не може да шаље, уређује или брише."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.SelectFoldersInfo",
+      "value": "Изаберите једну или више фасцикли у којима ће овај агент остати. Тајна ћаскања никада нису доступна агентима."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.ChooseModel",
+      "value": "Изабери модел"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Service.ChooseModelStatus",
       "value": "изаберите модел у Dictator-у"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.Connecting",
+      "value": "Повезивање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.ConnectingStatus",
+      "value": "повезивање…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.InstallingPlugin",
+      "value": "инсталирање додатка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.NotConnected",
+      "value": "Није повезан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.NotConnectedStatus",
+      "value": "није повезан"
     },
     {
       "_": "types.LangPackString",
@@ -594,8 +1605,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Service.Off",
+      "value": "Искључено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.Offline",
+      "value": "Ван мреже"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.OfflineStatus",
+      "value": "ван мреже"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.Online",
+      "value": "На мрежи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.OnlineStatus",
+      "value": "на мрежи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SettingUp",
+      "value": "подешава се"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SettingUpDetail",
+      "value": "подешава се · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SignInAgain",
+      "value": "Пријави ме поново"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Service.SignInAgainStatus",
       "value": "поново се пријавите на ChatGPT у Dictator-у"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.SomethingWentWrong",
+      "value": "дошло је до грешке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.Stopped",
+      "value": "заустављен"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Service.WaitingForApproval",
+      "value": "чека се одобрење"
     },
     {
       "_": "types.LangPackString",
@@ -604,8 +1670,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AgentAccess",
+      "value": "Приступ агента"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.AgentAccessInfo",
       "value": "Изаберите шта сваки агент може да мења и види. Све што је урадио у Telegram-у наведено је у Dictator-у, на страници Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AssistantRunning",
+      "value": "Ваш помоћник ради у приватној виртуелној машини на овом Mac-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AssistantStarting",
+      "value": "Ваш помоћник се покреће."
     },
     {
       "_": "types.LangPackString",
@@ -619,6 +1700,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ClearHistoryConfirmation",
+      "value": "Избрисати све поруке у ћаскању с помоћником и започети нов разговор?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.ConnectDictator",
       "value": "Повежи Dictator"
     },
@@ -626,6 +1712,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.ConnectDictatorInfo",
       "value": "Притисните Повежи у Dictator-у да бисте га повезали с овим налогом на Telegram-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DeepMemory",
+      "value": "Дубинска меморија"
     },
     {
       "_": "types.LangPackString",
@@ -649,6 +1740,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DisconnectAIAssistant",
+      "value": "Прекини везу с ВИ помоћником"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.DisconnectConfirmation",
       "value": "Telegram ће престати да комуницира с Dictator-ом, а ћаскање с помоћником биће уклоњено с вашег списка ћаскања."
     },
@@ -659,8 +1755,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.FinishSoundInfo",
+      "value": "Пушта кратак звук када се заврши позадински задатак или дуг одговор."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.InstallWhisperInfo",
       "value": "Инсталирајте додатак Whisper у менију Dictator → Plugins да бисте слали гласовне поруке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.LearnFromHowIUseTelegram",
+      "value": "Учи из начина на који користим Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.LeaveEmptyToKeepTheCurrentKey",
+      "value": "Оставите празно да бисте задржали тренутни кључ"
     },
     {
       "_": "types.LangPackString",
@@ -671,6 +1782,16 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.Model",
       "value": "Модел"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.NeedsWhisper",
+      "value": "Потребан је Whisper"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.On",
+      "value": "Укључено"
     },
     {
       "_": "types.LangPackString",
@@ -694,8 +1815,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.RestartingWithChatGPT",
+      "value": "Пријављени сте. Помоћник се поново покреће с вашим ChatGPT планом."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.RestartingWithKey",
+      "value": "Сачувано. Помоћник се поново покреће с новим кључем."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.Safety",
       "value": "БЕЗБЕДНОСТ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.SaveAndRestartAssistant",
+      "value": "Сачувај и поново покрени помоћника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.SoundWhenATaskFinishes",
+      "value": "Звук по завршетку задатка"
     },
     {
       "_": "types.LangPackString",
@@ -704,8 +1845,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.UsageMemoryInfo",
+      "value": "Користи податке о томе која ћаскања и функције отварате и када, никада текст порука. Остаје на овом Mac-у."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.VoiceMessages",
       "value": "Гласовне поруке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.AgentStopped",
+      "value": "Агент је заустављен"
     },
     {
       "_": "types.LangPackString",
@@ -714,8 +1865,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ApproveConnection",
+      "value": "Одобри везу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.ApproveConnectionInfo",
       "value": "Dictator чека да дозволите приступ овом Telegram налогу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.CheckModelAddress",
+      "value": "Провери адресу за %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ChooseModel",
+      "value": "Изабери модел"
     },
     {
       "_": "types.LangPackString",
@@ -749,13 +1915,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.FirstSetupInfo",
+      "value": "Први пут ово траје неколико минута."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.InstallingNamedPlugin",
       "value": "Инсталирање %1$@"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.InstallingPlugin",
+      "value": "Инсталирање додатка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.InstallingPluginInfo",
+      "value": "Агент ће поново бити доступан чим се додатак инсталира."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.LoadModel",
+      "value": "Учитај модел у %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.LocalModel",
       "value": "Локални модел"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ModelNotLoadedInfo",
+      "value": "%1$@ ради, али није учитан ниједан модел."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ModelNotRunning",
+      "value": "%1$@ не ради"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.ModelUnavailable",
+      "value": "%1$@ не нуди овај модел"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.NoModels",
+      "value": "%1$@ не наводи ниједан модел"
     },
     {
       "_": "types.LangPackString",
@@ -774,13 +1980,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SetUp",
+      "value": "Подеси"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SetUpComputer",
+      "value": "Подеси рачунар агента"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.SetUpComputerInfo",
       "value": "Ваш помоћник ради у сопственој виртуелној машини. Подесите га у Dictator-у да бисте започели ћаскање."
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SettingUpComputer",
+      "value": "Рачунар агента се подешава"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SetupFailed",
+      "value": "Подешавање није завршено"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.SetupFailedInfo",
       "value": "Отворите Dictator да бисте видели шта није у реду."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.SignIn",
+      "value": "Пријави ме"
     },
     {
       "_": "types.LangPackString",
@@ -794,6 +2025,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.StartModelInfo",
+      "value": "Покрените %1$@ на овом Mac-у, а затим пошаљите поруку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.StartingAgent",
+      "value": "Покретање агента"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SetupStage.StartingAgentInfo",
+      "value": "Ово обично траје мање од једног минута."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SetupStage.Unreachable",
       "value": "Није могуће приступити Dictator-у"
     },
@@ -804,8 +2050,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.CannotRun",
+      "value": "%1$@ **%2$@** не може да се покрене: %3$@. Кликните десним тастером миша на њу и изаберите Уреди."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.Continue",
       "value": "Настави"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ConversationRequired",
+      "value": "То ћаскање још нема разговор с помоћником. Прво отворите помоћника из тог ћаскања."
     },
     {
       "_": "types.LangPackString",
@@ -824,6 +2080,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.DontSuggest",
+      "value": "Не предлажи"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.Edit",
       "value": "Уреди"
     },
@@ -831,6 +2092,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.HideShortcuts",
       "value": "Сакриј пречице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.KeepInAllChats",
+      "value": "Задржи у свим ћаскањима"
     },
     {
       "_": "types.LangPackString",
@@ -844,6 +2110,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutLibrary",
+      "value": "Библиотека пречица"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutLibraryMenu",
+      "value": "Библиотека пречица"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutNotFound",
+      "value": "нема пречице са ИД-ом %1$@; позовите list_shortcuts"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.ShowShortcuts",
       "value": "Прикажи пречице"
     },
@@ -851,6 +2132,13 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.Stop",
       "value": "Заустави"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$@ **%2$@** је заустављена на кораку %3$d: %4$@",
+      "key": "AIAssistant.Shortcuts.StoppedAtStep",
+      "one_value": "%1$@ **%2$@** је заустављена на кораку %3$d: %4$@",
+      "other_value": "%1$@ **%2$@** је заустављена на кораку %3$d: %4$@"
     },
     {
       "_": "types.LangPackString",
@@ -901,6 +2189,13 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.DeleteProject",
       "value": "Избриши пројекат"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Избрисати %1$d недавна ћаскања и меморију агента о њима?",
+      "key": "AIAssistant.SidebarController.DeleteRecentsInfo",
+      "one_value": "Избрисати %1$d недавно ћаскање и меморију агента о њему?",
+      "other_value": "Избрисати %1$d недавних ћаскања и меморију агента о њима?"
     },
     {
       "_": "types.LangPackString",
@@ -1091,6 +2386,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarRows.NewChatIn",
+      "value": "Ново ћаскање у %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AgentAway",
+      "value": "Агент је одсутан"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AgentBack",
+      "value": "Агент се вратио"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.Answered",
+      "value": "Одговорено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AnsweredInfo",
+      "value": "На вашу сачувану поруку одговорено је испод."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AnsweringInfo",
+      "value": "Тренутно се одговара на вашу сачувану поруку."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.AnsweringNow",
+      "value": "Тренутно одговара"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.CheckingAgent",
+      "value": "Провера агента"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.CheckingAgentInfo",
       "value": "Проверава се у Dictator-у да ли је агент поново активан."
     },
@@ -1121,6 +2456,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.MessageSavedInfo",
+      "value": "Ваша порука је сачувана и на њу ће овде бити аутоматски одговорено, обично у року од једног минута."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.NotSent",
       "value": "Није послато"
     },
@@ -1133,6 +2473,26 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.StatusWidget.OpeningDictator",
       "value": "Отварање Dictator-а"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.SendingAgain",
+      "value": "Поновно слање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.TryingAgainInfo",
+      "value": "Поновни покушај слања ваше поруке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.WaitingForModel",
+      "value": "Чека се модел"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.StatusWidget.WaitingToConnect",
+      "value": "Чека се повезивање"
     },
     {
       "_": "types.LangPackString",
@@ -1166,13 +2526,50 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.AgentStarting",
+      "value": "Агент се покреће…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d. покушај",
+      "key": "AIAssistant.TaskController.Attempt",
+      "one_value": "%1$d. покушај",
+      "other_value": "%1$d. покушај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.DidNotFinish",
+      "value": "Није завршено · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.TaskController.Done",
       "value": "Готово"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.DoneIn",
+      "value": "Завршено за %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.NoSteps",
+      "value": "Током овог покретања нису забележени никакви кораци."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.TaskController.Result",
       "value": "РЕЗУЛТАТ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.RetryTask",
+      "value": "Поново покрени задатак"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Running",
+      "value": "У току · %1$@"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -1188,8 +2585,35 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.StoppedAfter",
+      "value": "Заустављено након %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.TaskController.Task",
       "value": "ЗАДАТАК"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Title",
+      "value": "Позадински задатак"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Transcript",
+      "value": "ТРАНСКРИПТ"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "ТРАНСКРИПТ · %1$d КОРАКА",
+      "key": "AIAssistant.TaskController.TranscriptSteps",
+      "one_value": "ТРАНСКРИПТ · %1$d КОРАК",
+      "other_value": "ТРАНСКРИПТ · %1$d КОРАКА"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.WhatHappened",
+      "value": "ШТА СЕ ДОГОДИЛО"
     },
     {
       "_": "types.LangPackString",
@@ -1365,6 +2789,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIFloating.Assistant.StopWorkingWithApp",
+      "value": "Заустави рад с овом апликацијом"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIFloating.ChatMenuItem.UnreadMessages",
       "value": "Непрочитане поруке"
     },
@@ -1410,6 +2839,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.ChipMenu.RemovedFromAllChats",
+      "value": "Уклоњено је из збирке и из свих ћаскања."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.ChipMenu.RemovedFromLibrary",
+      "value": "Уклоњено је из збирке."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.Continue",
       "value": "Наставити?"
     },
@@ -1450,6 +2889,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.CopySuffix",
+      "value": " копија"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.LibraryController.Delete",
       "value": "Избриши"
     },
@@ -1462,6 +2906,11 @@
       "_": "types.LangPackString",
       "key": "AIShortcut.LibraryController.Edit",
       "value": "Уреди"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.InAllChats",
+      "value": "у свим ћаскањима"
     },
     {
       "_": "types.LangPackString",
@@ -1480,8 +2929,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Run",
+      "value": "Покрени"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.LibraryController.Shortcuts",
       "value": "Пречице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.ShortcutsHelp",
+      "value": "Додате пречице приказују се изнад поља за унос у сваком ћаскању с помоћником и важе за ћаскање којем припадају. Питајте помоћника исту ствар двапут и сам ће предложити пречицу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Starters",
+      "value": "Почетне пречице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.YourShortcuts",
+      "value": "Ваше пречице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.FactCheck",
+      "value": "Провера чињеница"
     },
     {
       "_": "types.LangPackString",
@@ -2813,6 +4287,11 @@
       "_": "types.LangPackString",
       "key": "Agent.ProfileRow.ReasoningEffort",
       "value": "Ниво расуђивања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProviderController.ProviderNoResponse",
+      "value": "%1$@ није одговорио. Покушајте поново касније."
     },
     {
       "_": "types.LangPackString",
@@ -4313,8 +5792,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.InvitedUser",
+      "value": "%1$@ позвао/ла овог корисника у бота."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot.InvitationServiceText.InvitedYou",
       "value": "Корисник %1$@ вас је позвао у овог бота."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.UserInvited",
+      "value": "Овај корисник је позван у бота."
     },
     {
       "_": "types.LangPackString",
@@ -4323,8 +5812,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.AlreadyStarted",
+      "value": "Изабрани корисници већ имају активно ћаскање с овим ботом."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Bot.InvitePicker.Invite",
       "value": "Позови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.RateLimited",
+      "value": "Превише позива. Покушајте поново касније."
     },
     {
       "_": "types.LangPackString",
@@ -4385,6 +5884,11 @@
       "_": "types.LangPackString",
       "key": "BotInfo.OpenApp",
       "value": "Отвори апликацију"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileWidget.InviteToBot",
+      "value": "Позови у бота"
     },
     {
       "_": "types.LangPackString",
@@ -9277,6 +10781,11 @@
       "_": "types.LangPackString",
       "key": "Chat.ActivityRowItem.Stop",
       "value": "Заустави"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Working",
+      "value": "Ради"
     },
     {
       "_": "types.LangPackString",
@@ -17276,6 +18785,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatToolsActions.RemoveBusinessBot",
+      "value": "Агент жели да %1$@ заувек престане управљати ћаскањем „%2$@”. Наставља да ради у вашим другим ћаскањима."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatToolsActions.RemoveOptionTitle",
       "value": "Уклонити опцију?"
     },
@@ -21933,6 +23447,11 @@
       "_": "types.LangPackString",
       "key": "EncryptedExport.Encrypting",
       "value": "Шифровање… %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.LowDiskSpace",
+      "value": "Понестало је слободног простора на диску, па је Telegram зауставио извоз како би ваш Mac наставио да ради. Ослободите мало простора и покушајте поново."
     },
     {
       "_": "types.LangPackString",
@@ -27503,6 +29022,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InviteLinks.Actions.ReplacePrimaryLinkConfirmation",
+      "value": "Агент жели да замени главну позивницу за „%1$@” новом. Стара веза %2$@ престаје да ради."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InviteLinks.Actions.RequestTimedOut",
       "value": "Telegram није одговорио на време."
     },
@@ -28200,6 +29724,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.EngineService.DownloadIncomplete",
+      "value": "Преузимање није завршено. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LocalAgent.EngineService.InviteNotLoaded",
       "value": "Позивница није учитана. Покушајте поново."
     },
@@ -28237,6 +29766,16 @@
       "_": "types.LangPackString",
       "key": "LocalAgent.HooksInstall.ClearHistory",
       "value": "Очисти историју"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.HooksInstall.DetachPage",
+      "value": "Заустави рад с овом страницом"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.HooksInstall.DetachWindow",
+      "value": "Заустави рад с овим прозором"
     },
     {
       "_": "types.LangPackString",
@@ -28410,13 +29949,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.NonContactInfo",
+      "value": "%1$@ није у вашим контактима."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.ChatConfirmation.OpenChat",
       "value": "Отвори ћаскање"
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.OpenNonContactChatTitle",
+      "value": "Отворити ћаскање с особом ван контаката?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.ThisPerson",
+      "value": "Ова особа"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SlideToConfirm",
+      "value": "Превуците за потврду"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SliderAccessibilityHelp",
+      "value": "Користите тастере са стрелицама да померите клизач, а затим притисните тастер Return за потврду."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.FileActions.Download",
       "value": "Преузми"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.DownloadRiskyFileInfo",
+      "value": "Датотека %1$@ може да садржи кôд или други небезбедан садржај. Telegram ће сместити датотеку у привремену фасциклу."
     },
     {
       "_": "types.LangPackString",
@@ -28430,13 +29999,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ConfirmNonContactChats",
+      "value": "Потврда за ћаскања ван контаката"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.SettingsController.ConfirmNonContactChatsInfo",
-      "value": "Тражи потврду пре отварања приватног ћаскања с неким ван ваших контаката док је режим закључавања укључен."
+      "value": "Тражи потврду пре отварања приватног ћаскања с неким ко није у вашим контактима док је режим закључавања укључен."
     },
     {
       "_": "types.LangPackString",
       "key": "Lockdown.SettingsController.ContactsManual",
       "value": "Ове опције су већ биле ограничене пре режима закључавања. Измените ко може да вас зове, позива у групе и шаље вам поруке у одељку Приватност и безбедност."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsOption",
+      "value": "Такође дозволи позиве, позивнице у групе и поруке само од мојих контаката"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsText",
+      "value": "Само ваши контакти могу да вас зову или додају у групе, док је за нова ћаскања од других потребан Premium. Искључивањем ове опције враћа се оно што сте раније имали."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsTitle",
+      "value": "Позиви и поруке од контаката"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableInfo",
+      "value": "Медији, везе, датотеке и ВИ агент враћају се на ваша уобичајена подешавања. Подешавања приватности која сте променили остају каква јесу. Ретки формати слика поново ће бити доступни следећи пут кад отворите Telegram."
     },
     {
       "_": "types.LangPackString",
@@ -28451,7 +30045,7 @@
     {
       "_": "types.LangPackString",
       "key": "Lockdown.SettingsController.EnableInfo",
-      "value": "Поруке и медији: Само слике од контаката и слике које сте ви послали могу аутоматски да се преузму. Отварање ћаскања ван ваших контаката подразумевано захтева потврду.\n\nВезе и веб: нема прегледа веза нити учитавања Брзог прегледа из долазних порука, виџети остају сакривени док не потврдите, а веб-странице, мини-апликације и Брзи преглед раде у WebKit-овом режиму закључавања. Мини-апликације сваки пут траже вашу дозволу, а странице за плаћање су блокиране.\n\nДатотеке: Ризичне датотеке захтевају потврду пре преузимања и поново пре отварања. Telegram припрема датотеке у привременој фасцикли. Извршне и прикривене датотеке могу само да се прикажу у Finder-у. Слике су ограничене на JPEG, PNG, WebP, HEIC и GIF.\n\nПозиви и приватност: необавезно, испод.\n\nВИ агент: може само да чита, за сваку радњу прво тражи вашу дозволу, не покреће га ништа што не потиче од вас, његов рачунар прелази у режим ван мреже, а његови одговори су обичан текст."
+      "value": "Поруке и медији: Само слике од контаката и слике које сте ви послали могу аутоматски да се преузму. Отварање ћаскања ван ваших контаката подразумевано захтева потврду.\n\nВезе и веб: нема прегледа веза нити учитавања Брзог прегледа из долазних порука, виџети остају сакривени док не потврдите, а веб-странице, мини-апликације и Брзи преглед раде у WebKit-овом режиму закључавања. Мини-апликације сваки пут траже вашу дозволу, а странице за плаћање су блокиране.\n\nДатотеке: Ризичне датотеке захтевају потврду пре преузимања и поново пре отварања. Telegram ће сместити датотеку у привремену фасциклу. Извршне и прикривене датотеке могу само да се прикажу у Finder-у. Слике су ограничене на JPEG, PNG, WebP, HEIC и GIF.\n\nПозиви и приватност: необавезно, испод.\n\nВИ агент: може само да чита, за сваку радњу прво тражи вашу дозволу, не покреће га ништа што не потиче од вас, његов рачунар прелази у режим ван мреже, а његови одговори су обичан текст."
     },
     {
       "_": "types.LangPackString",
@@ -28465,8 +30059,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.FilesText",
+      "value": "За ризичне датотеке тражи се потврда пре преузимања и поново пре отварања. Апликације и прикривене датотеке приказују се само у програму Finder, а отварају се само слике у форматима JPEG, PNG, WebP, HEIC и GIF."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.FilesTitle",
+      "value": "Опрезно с датотекама"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.SettingsController.Footer",
-      "value": "Режим закључавања је екстремна, необавезна заштита за људе који би лично могли бити мета софистицираних дигиталних напада. Telegram тражи потврду пре отварања веза, мини-апликација и другог ризичног садржаја и ограничава аутоматско преузимање медија."
+      "value": "Режим закључавања је изузетно снажна, необавезна заштита за људе који би лично могли бити мета софистицираних дигиталних напада. Telegram тражи потврду пре отварања веза, мини-апликација и другог ризичног садржаја и ограничава аутоматско преузимање медија."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroFooter",
+      "value": "Одмах ступа на снагу. Ретки формати слика остају блокирани док следећи пут не отворите Telegram након искључивања."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroText",
+      "value": "Изузетно снажна, необавезна заштита за људе који би лично могли бити мета софистицираних дигиталних напада."
     },
     {
       "_": "types.LangPackString",
@@ -28480,8 +30094,38 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.MediaText",
+      "value": "Само се слике ваших контаката преузимају саме. Све остало чека на додир, а пре отварања ћаскања с неким ван ваших контаката прво се тражи потврда."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.MediaTitle",
+      "value": "Медији од непознатих чекају"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.WebText",
+      "value": "Нема прегледа ни брзог приказа за долазне везе, а виџети чекају на вас. Веб-странице и мини-апликације се отварају у закључаном прегледачу, а странице за плаћање су блокиране."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.WebTitle",
+      "value": "Безбедније везе и веб"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.StickerPlaceholderView.HiddenAccessibility",
       "value": "Налепница сакривена због режима закључавања, %1$@. Додирните да прикажете"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.StickerPlaceholderView.TapToShow",
+      "value": "Додирните за приказ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.ClickToLoadIt",
+      "value": "Кликните да га учитате"
     },
     {
       "_": "types.LangPackString",
@@ -28492,6 +30136,11 @@
       "_": "types.LangPackString",
       "key": "Lockdown.WidgetRowItem.LoadWidget",
       "value": "Учитај виџет"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidgetInfo",
+      "value": "Учитавањем овог виџета покреће се садржај који је доставио његов пошиљалац."
     },
     {
       "_": "types.LangPackString",
@@ -30080,6 +31729,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.AutoRotate",
+      "value": "Аутоматско окретање"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Model.ViewerModalController.Background",
       "value": "Позадина"
     },
@@ -30090,8 +31744,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.DisplayFailed",
+      "value": "Овај 3Д модел не може да се прикаже."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Finder",
+      "value": "Finder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Format",
+      "value": "Формат"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Info",
+      "value": "Подаци"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Light",
+      "value": "Светло"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Lighting",
+      "value": "Осветљење"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.LightingDramatic",
+      "value": "Осветљење: драматично"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.LightingSoft",
+      "value": "Осветљење: благо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.LightingStudio",
+      "value": "Осветљење: студијско"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Model.ViewerModalController.Loading",
       "value": "Учитавање…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Meshes",
+      "value": "Мреже"
     },
     {
       "_": "types.LangPackString",
@@ -30125,6 +31829,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Rotate",
+      "value": "Окрени"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Model.ViewerModalController.Save",
       "value": "Сачувај"
     },
@@ -30142,6 +31851,21 @@
       "_": "types.LangPackString",
       "key": "Model.ViewerModalController.Size",
       "value": "Величина"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Triangles",
+      "value": "Троуглови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Vertices",
+      "value": "Темена"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Model.ViewerModalController.Wireframe",
+      "value": "Жичани приказ"
     },
     {
       "_": "types.LangPackString",
@@ -33281,6 +35005,16 @@
       "_": "types.LangPackString",
       "key": "PeerCall.Screen.E2E.Info",
       "value": "Ако **%1$@** има исте емоџије на свом екрану, овај позив је %2$@ сигуран."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerHistory.Alerts.ClearHistoryForEveryone",
+      "value": "Овим се чисти историја за све."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerHistory.Alerts.ClearHistoryForMe",
+      "value": "Овим се чисти ваш примерак историје."
     },
     {
       "_": "types.LangPackString",
@@ -36520,6 +38254,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyAndSecurityViewController.LockdownDescription",
+      "value": "Додатна заштита приликом отварања веза, апликација и осталог садржаја."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyExceptions.Actions.AlwaysLet",
       "value": "увек дозволи "
     },
@@ -37639,6 +39378,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.Actions.Caption",
+      "value": " с овим описом:\n\n%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.NothingIsSentUntilYouTapSend",
+      "value": ". Ништа неће бити послато док не додирнете Пошаљи."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QRCode.Actions.Send",
       "value": "Пошаљи"
     },
@@ -37646,6 +39395,16 @@
       "_": "types.LangPackString",
       "key": "QRCode.Actions.SendAQRCode",
       "value": "Послати QR кôд?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.SendQRCodeInfo",
+      "value": "Агент жели да пошаље QR кôд изнад за %1$@ примаоцу „%2$@”%3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCodeActions.CreateFailed",
+      "value": "Telegram није успео да направи QR кôд."
     },
     {
       "_": "types.LangPackString",
@@ -41973,6 +43732,21 @@
       "_": "types.LangPackString",
       "key": "SharedMedia.VoiceCount_countable",
       "value": "%d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsActions.InvalidScreen",
+      "value": "вредност за show мора бити library, editor или none"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsActions.SavedLibrary",
+      "value": "Сачувано у збирци. Проследите show: true да бисте је приказали изнад поља за унос у сваком ћаскању с помоћником."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsActions.Timeout",
+      "value": "Пречица се није завршила на време; наставља да ради у ћаскању с помоћником."
     },
     {
       "_": "types.LangPackString",
@@ -46998,8 +48772,30 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.ActiveLimitReached",
+      "value": "Достигли сте ограничење броја активних прича."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Описи прича могу имати до %1$d знака.",
+      "key": "Story.PrivacyModalController.CaptionLimit",
+      "one_value": "Описи прича могу имати до %1$d знака.",
+      "other_value": "Описи прича могу имати до %1$d знакова."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.PrivacyModalController.KeepOnProfile",
       "value": "Задржите ову причу на свом профилу чак и након што истекне за %1$@. Важиће подешавања приватности."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.MediaPreparationFailed",
+      "value": "Припрема овог медијског садржаја за објављивање није успела."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.MonthlyLimitReached",
+      "value": "Достигли сте месечно ограничење броја прича."
     },
     {
       "_": "types.LangPackString",
@@ -47012,6 +48808,13 @@
       "value": "Припрема приче…"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Тренутно можете да објавите још највише %1$d приче.",
+      "key": "Story.PrivacyModalController.RemainingStories",
+      "one_value": "Тренутно можете да објавите још највише %1$d причу.",
+      "other_value": "Тренутно можете да објавите још највише %1$d прича."
+    },
+    {
       "_": "types.LangPackString",
       "key": "Story.PrivacyModalController.ShareStory",
       "value": "Подели причу"
@@ -47020,6 +48823,11 @@
       "_": "types.LangPackString",
       "key": "Story.PrivacyModalController.UploadingStory",
       "value": "Отпремање приче…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.WeeklyLimitReached",
+      "value": "Достигли сте недељно ограничење броја прича."
     },
     {
       "_": "types.LangPackString",
@@ -50598,6 +52406,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UserInfo.Entries.InviteToBot",
+      "value": "Позови у бота"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UserInfo.Entries.Unavailable",
       "value": "Недоступно"
     },
@@ -50863,6 +52676,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamesActions.SetUsernameChangesTheEditableOneCollectibleOnesCanBe",
+      "value": "set_username мења оно корисничко име које може да се мења; колекционарска могу овде да се укључе или искључе и да им се промени редослед."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernamesActions.Show",
       "value": "Прикажи"
     },
@@ -50870,6 +52688,11 @@
       "_": "types.LangPackString",
       "key": "UsernamesActions.ShowUsername",
       "value": "Приказати корисничко име?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ShowUsernamesInThisOrder",
+      "value": "Агент жели да прикаже %1$@ корисничка имена овим редоследом: %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -50888,8 +52711,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamesActions.TooManyUsernamesAreShownAlreadyHideOneFirst",
+      "value": "Већ је приказано превише корисничких имена; прво сакријте једно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TurnOffForItStays",
+      "value": "Агент жели да искључи @%1$@ за %2$@. Остаје резервисано и може поново да се укључи."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TurnOnForItWill",
+      "value": "Агент жели да укључи @%1$@ за %2$@. Биће приказано уз остала корисничка имена и водиће до %3$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesCanTBeChangedHere",
+      "value": "Корисничка имена се овде не могу мењати."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesCanTBeReadHere",
+      "value": "Корисничка имена се овде не могу прочитати."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "UsernamesActions.UsernamesDidnTLoadTryAgain",
       "value": "Корисничка имена нису учитана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.You",
+      "value": "вас"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Your",
+      "value": "ваша"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.YourProfile",
+      "value": "вашег профила"
     },
     {
       "_": "types.LangPackString",
@@ -50945,6 +52808,26 @@
       "_": "types.LangPackString",
       "key": "VideoAvatar.ChooseDesc.Profile",
       "value": "Изаберите кадар за слику профила"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.OpenAPhotoOrVideoFromOnYourScreen",
+      "value": "отвори слику или видео из „%1$@” на вашем екрану"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.OpenTheQRCodeOfOnYourScreen",
+      "value": "отвори QR кôд за „%1$@” на вашем екрану"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.TheMediaViewerCanTBeOpenedRightNow",
+      "value": "Прегледач медија тренутно не може да се отвори."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.TheQRStudioCanTBeOpenedRightNow",
+      "value": "QR студио тренутно не може да се отвори."
     },
     {
       "_": "types.LangPackString",
@@ -56464,6 +58347,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionController.ServiceFee",
+      "value": "Накнада за услугу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionController.ShowMore",
       "value": "Прикажи више"
     },
@@ -56811,6 +58699,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EarlyWithdrawalCost",
+      "value": "Превремено повлачење кошта **%1$@**.\n\n%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GramHeldUntil",
+      "value": "Износ од %1$@ GRAM је резервисан до %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.MoveGramEarnings",
+      "value": "Износ од **%1$@** биће премештен из Зараде у грамима на ваше стање у новчанику како бисте могли да наставите с овим поклоном."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.NetworkFee",
       "value": "Мрежна накнада: %1$@"
     },
@@ -56868,6 +58771,11 @@
       "_": "types.LangPackString",
       "key": "WalletUI.Integration.WithdrawOffer",
       "value": "Повући понуду?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YouPay",
+      "value": "Плаћате"
     },
     {
       "_": "types.LangPackString",
@@ -57855,5 +59763,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2488925
+  "version": 2496647
 }

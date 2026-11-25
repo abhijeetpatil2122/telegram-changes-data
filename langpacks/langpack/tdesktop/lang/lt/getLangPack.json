@@ -1189,6 +1189,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_user",
+      "value": "Naudotoją {from} pakvietė {user}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_bot_invited_you",
+      "value": "{user} pakvietė jus naudotis šiuo botu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_action_change_creator",
       "value": "{from} paskyrė naudotoją {user} naujuoju grupės savininku."
     },
@@ -1488,6 +1498,81 @@
       "_": "types.LangPackString",
       "key": "lng_action_gift_offer_you",
       "value": "Jūsų pasiūlymas už dovaną {name}: {cost}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_bought",
+      "value": "Nusipirkote dovaną {name} už {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_buying",
+      "value": "Pirkimas užbaigiamas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_cancelling",
+      "value": "Pasiūlymas atsiimamas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined",
+      "value": "Pasiūlymas atmestas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_declined_you",
+      "value": "Atmetėte pasiūlymą."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired",
+      "value": "Pasiūlymas nebegalioja."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expired_refunding",
+      "value": "Pasiūlymas nebegalioja. Jūsų lėšos grąžinamos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_expires",
+      "value": "Pasiūlymas nebegalios po\n{time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_fine",
+      "value": "Išskaičiuota bauda: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_incoming",
+      "value": "Už dovaną {name} jums pasiūlyta {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_refund",
+      "value": "Jums grąžinta {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_review",
+      "value": "Peržiūrėti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_selling",
+      "value": "Pardavimas užbaigiamas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_sold",
+      "value": "Pardavėte dovaną {name} už {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_action_gift_onchain_offer_withdrawn",
+      "value": "Pasiūlymas atsiimtas."
     },
     {
       "_": "types.LangPackString",
@@ -6862,6 +6947,104 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_bot_info_about",
+      "value": "Aprašymas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_caption",
+      "value": "Rodoma boto profilyje ir jį bendrinant."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_about_placeholder",
+      "value": "Trumpas aprašymas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_ai",
+      "value": "Perrašyti naudojant DI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_action_reset",
+      "value": "Naudoti numatytąją reikšmę"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro",
+      "value": "Įžanga"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_caption",
+      "value": "Rodoma tuščiame pokalbyje, kol naudotojas dar nepradėjo naudotis botu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_intro_placeholder",
+      "value": "Ką gali šis botas?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name",
+      "value": "Pavadinimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_name_placeholder",
+      "value": "Boto pavadinimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_info_saved",
+      "value": "Boto informacija atnaujinta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_many",
+      "value": "Pasirinkti naudotojai jau turi pokalbį su šiuo botu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_already_one",
+      "value": "{user} jau turi pokalbį su šiuo botu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_button",
+      "value": "Pakviesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_failed",
+      "value": "Nepavyko pakviesti nė vieno iš pasirinktų naudotojų."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Vienu metu galite pakviesti iki {count} naudotojų.",
+      "key": "lng_bot_invite_limit",
+      "many_value": "Vienu metu galite pakviesti iki {count} naudotojo.",
+      "one_value": "Vienu metu galite pakviesti iki {count} naudotojo.",
+      "other_value": "Vienu metu galite pakviesti iki {count} naudotojų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_many",
+      "value": "Kvietimai išsiųsti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_sent_one",
+      "value": "Kvietimas išsiųstas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_invite_title",
+      "value": "Kvietimas naudotis botu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_bot_keyboard_hide",
       "value": "Slėpti boto klaviatūrą"
     },
@@ -6869,6 +7052,307 @@
       "_": "types.LangPackString",
       "key": "lng_bot_keyboard_show",
       "value": "Rodyti boto klaviatūrą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_add",
+      "value": "Pridėti kalbą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_apply_confirm",
+      "value": "Taikyti"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} pakeitimai iš karto bus matomi visiems boto naudotojams.",
+      "key": "lng_bot_languages_apply_sure",
+      "many_value": "{count} pakeitimo iš karto bus matoma visiems boto naudotojams.",
+      "one_value": "{count} pakeitimas iš karto bus matomas visiems boto naudotojams.",
+      "other_value": "{count} pakeitimų iš karto bus matoma visiems boto naudotojams."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_applying",
+      "value": "Taikomi pakeitimai: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_busy",
+      "value": "Palaukite, kol bus baigtas dabartinis veiksmas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_default",
+      "value": "Numatytoji"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_discard",
+      "value": "Atmesti pakeitimus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_export",
+      "value": "Eksportuoti į failą…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_exported",
+      "value": "Kalbos eksportuotos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_code",
+      "value": "Tai ne kalbos kodas: {code}. Naudokite „default“ arba dvi mažąsias raides."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_duplicate",
+      "value": "Kartojasi: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_key",
+      "value": "Nežinomas raktas: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_large",
+      "value": "Failas per didelis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot",
+      "value": "Šis failas eksportuotas botui @{bot}. Vis tiek importuoti?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_other_bot_confirm",
+      "value": "Importuoti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_read",
+      "value": "Nepavyko perskaityti failo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_shape",
+      "value": "Faile turi būti objektas „languages“, kuriame kiekvienai kalbai skirtas atskiras objektas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_string",
+      "value": "Reikšmė turi būti tekstas: {key}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_syntax",
+      "value": "Neteisingas JSON {line} eilutėje, {column} stulpelyje: {error}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_file_write",
+      "value": "Nepavyko įrašyti failo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_import",
+      "value": "Importuoti iš failo…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Importuoti {count} pakeitimai.",
+      "key": "lng_bot_languages_imported",
+      "many_value": "Importuota {count} pakeitimo.",
+      "one_value": "Importuotas {count} pakeitimas.",
+      "other_value": "Importuota {count} pakeitimų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_imported_none",
+      "value": "Faile nėra nieko naujo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} kalbas reikia patikrinti.",
+      "key": "lng_bot_languages_imported_problems",
+      "many_value": "{count} kalbos reikia patikrinti.",
+      "one_value": "{count} kalbą reikia patikrinti.",
+      "other_value": "{count} kalbų reikia patikrinti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_loading",
+      "value": "Tikrinami vertimai: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paste",
+      "value": "Įklijuoti iš iškarpinės"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_paused",
+      "value": "Pristabdyta dėl serverio limitų, tęsis po {time}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stop",
+      "value": "Sustabdyti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_stopped",
+      "value": "Sustabdyta dėl serverio limitų. Bandykite vėliau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate",
+      "value": "Versti į…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_about",
+      "value": "Vertimai pridedami kaip neįrašyti pakeitimai. Prieš įrašydami juos peržiūrėkite."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_button",
+      "value": "Išversti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_failed",
+      "value": "Nepavyko išversti. Bandykite vėliau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translate_title",
+      "value": "Versti į"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Išversta į {count} kalbas. Peržiūrėkite prieš įrašydami.",
+      "key": "lng_bot_languages_translated",
+      "many_value": "Išversta į {count} kalbos. Peržiūrėkite prieš įrašydami.",
+      "one_value": "Išversta į {count} kalbą. Peržiūrėkite prieš įrašydami.",
+      "other_value": "Išversta į {count} kalbų. Peržiūrėkite prieš įrašydami."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating",
+      "value": "Verčiama: {done} / {total}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_languages_translating_title",
+      "value": "Vertimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews",
+      "value": "Peržiūra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_add",
+      "value": "Pridėti peržiūrą"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} peržiūros",
+      "key": "lng_bot_media_previews_count",
+      "many_value": "{count} peržiūros",
+      "one_value": "{count} peržiūra",
+      "other_value": "{count} peržiūrų"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language",
+      "value": "Ištrinti vertimą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_delete_language_sure",
+      "value": "Ištrinti visas šios kalbos peržiūras?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ištrinti {count} peržiūras?",
+      "key": "lng_bot_media_previews_delete_many",
+      "many_value": "Ištrinti {count} peržiūros?",
+      "one_value": "Ištrinti šią peržiūrą?",
+      "other_value": "Ištrinti {count} peržiūrų?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_empty",
+      "value": "Peržiūros nėra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_general_about",
+      "value": "Ši peržiūra rodoma naudotojams, kurių kalbai nėra vertimo."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Įkelkite iki {count} savo miniprogramėlės ekrano kopijų ir demonstracinių vaizdo įrašų.",
+      "key": "lng_bot_media_previews_intro",
+      "many_value": "Įkelkite iki {count} savo miniprogramėlės ekrano kopijos ar demonstracinio vaizdo įrašo.",
+      "one_value": "Įkelkite iki {count} savo miniprogramėlės ekrano kopijos ar demonstracinio vaizdo įrašo.",
+      "other_value": "Įkelkite iki {count} savo miniprogramėlės ekrano kopijų ir demonstracinių vaizdo įrašų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_language_about",
+      "value": "Ši peržiūra rodoma naudotojams, kurių nustatyta kalba – {language}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_load_failed",
+      "value": "Nepavyko įkelti peržiūrų medijos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_published",
+      "value": "Peržiūra paskelbta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_reorder_hint",
+      "value": "Vilkite peržiūras, kad pakeistumėte jų tvarką."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_save_failed",
+      "value": "Nepavyko atnaujinti peržiūrų medijos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_saving",
+      "value": "Įrašomi pakeitimai…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_updated",
+      "value": "Peržiūra atnaujinta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_upload_failed",
+      "value": "Nepavyko įkelti šios nuotraukos ar vaizdo įrašo."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_uploading",
+      "value": "Įkeliama peržiūra…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_media_previews_use_cover",
+      "value": "Naudoti dabartinį kadrą kaip viršelį"
     },
     {
       "_": "types.LangPackString",
@@ -6999,6 +7483,11 @@
       "_": "types.LangPackString",
       "key": "lng_bot_share_prepared_title",
       "value": "Žinutės bendrinimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_bot_share_story_failed",
+      "value": "Nepavyko įkelti bendrinamos medijos."
     },
     {
       "_": "types.LangPackString",
@@ -10417,6 +10906,14 @@
     },
     {
       "_": "types.LangPackStringPluralized",
+      "few_value": "Pažymėti {count} kontaktai",
+      "key": "lng_contacts_selected",
+      "many_value": "Pažymėta {count} kontakto",
+      "one_value": "Pažymėtas {count} kontaktas",
+      "other_value": "Pažymėta {count} kontaktų"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
       "few_value": "{count} istorijos",
       "key": "lng_contacts_stories_status",
       "many_value": "{count} istorijos",
@@ -11974,6 +12471,41 @@
       "_": "types.LangPackString",
       "key": "lng_credits_currency_summary_title",
       "value": "Gram likutis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_button",
+      "value": "Išsiimti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_error",
+      "value": "Bandykite vėliau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_open",
+      "value": "Atidaryti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent",
+      "value": "Išsiųsta {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_sent_path",
+      "value": "Patikrinkite skiltyje {menu} {arrow} {money}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_text",
+      "value": "Gram bus pervesti į jūsų pačių valdomą piniginę ({menu} {arrow} {money})."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_credits_currency_withdraw_title",
+      "value": "{amount} išsiėmimas"
     },
     {
       "_": "types.LangPackString",
@@ -16554,6 +17086,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_bought_tag",
+      "value": "nupirkta"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_burned_message",
       "value": "Ši dovana sunaudota gamybai."
     },
@@ -16561,6 +17098,56 @@
       "_": "types.LangPackString",
       "key": "lng_gift_burned_tag",
       "value": "sunaudota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_already_sent",
+      "value": "Šio pirkimo operacija jau išsiųsta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done",
+      "value": "Kai pirkimas bus patvirtintas, dovana atsiras skiltyje {path} ir jūsų profilyje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_done_recipient",
+      "value": "{user} gaus dovaną, kai pirkimas bus patvirtintas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_proceed",
+      "value": "Tęsti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_text",
+      "value": "Iš Gram pajamų į jūsų likutį bus perkelta {amount} ir panaudota šiai dovanai pirkti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_earnings_title",
+      "value": "Naudoti Gram pajamas?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_error",
+      "value": "Bandykite vėliau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_gas",
+      "value": "Dujos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_not_for_sale",
+      "value": "Ši dovana nebeparduodama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_buy_onchain_total",
+      "value": "Iš viso"
     },
     {
       "_": "types.LangPackString",
@@ -17275,6 +17862,96 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_about",
+      "value": "Įveskite, kiek Gram norite pasiūlyti už dovaną {name}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_add_funds",
+      "value": "Papildyti piniginę {arrow}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_already_sent",
+      "value": "Šis pasiūlymas jau išsiųstas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_confirm_text",
+      "value": "Ar norite pateikti šį pasiūlymą savininkui {user} už dovaną {name}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_duration_about",
+      "value": "Pasirinkite, kiek laiko savininkas galės priimti jūsų pasiūlymą. Kai šis laikas baigsis, jūsų Gram bus automatiškai grąžinti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_escrow_fee",
+      "value": "Deponavimo mokestis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_expires",
+      "value": "Galioja iki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_field",
+      "value": "Siūloma Gram suma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_insufficient",
+      "value": "Nepakanka lėšų. {link}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_max",
+      "value": "Didžiausias pasiūlymas – {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_min",
+      "value": "Mažiausia pasiūlymo suma – {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_owner_receives",
+      "value": "Savininkas gaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_platform_fee",
+      "value": "Platformos mokestis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_refund_note",
+      "value": "Jei savininkas atmes jūsų pasiūlymą arba jis nebegalios, jūsų Gram bus grąžinti automatiškai."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_text",
+      "value": "Rezervuota {amount} iki {date}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_sent_title",
+      "value": "Pasiūlymas išsiųstas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_pay",
+      "value": "Sumokėsite"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_offer_onchain_you_receive",
+      "value": "Gausite"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_offer_reject_title",
       "value": "Pasiūlymo atmetimas"
     },
@@ -17322,6 +17999,61 @@
       "_": "types.LangPackString",
       "key": "lng_gift_on_sale_for",
       "value": "Parduodama už {price}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_text",
+      "value": "Parduoti dovaną {name} už {amount}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_confirm_title",
+      "value": "Pardavimo patvirtinimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_decline_sure",
+      "value": "Atmesti šį pasiūlymą? Pirkėjas atgaus savo Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_network_fee",
+      "value": "Tinklo mokestis: {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_on_sale",
+      "value": "Dovana {name} parduodama. Prieš priimdami pasiūlymą, išimkite ją iš prekybos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw",
+      "value": "Atsiimti pasiūlymą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_error",
+      "value": "Bandykite vėliau."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_fine",
+      "value": "Atsiėmimas prieš laiką kainuoja {amount}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_for",
+      "value": "Atsiimti už {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_rest",
+      "value": "Likusi {amount} dalis bus jums grąžinta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_onchain_offer_withdraw_title",
+      "value": "Atsiimti pasiūlymą?"
     },
     {
       "_": "types.LangPackString",
@@ -17444,6 +18176,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_grams",
+      "value": "Už Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_for_stars",
+      "value": "Už žvaigždutes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_resale_from_fragment",
+      "value": "Iš „Fragment“"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_gift_resale_model",
       "value": "Modelis"
     },
@@ -17545,6 +18292,11 @@
       "other_value": "Gausite **{count}** Gram."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_max_price",
+      "value": "Didžiausia kaina – {amount}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Mažiausia kaina – {count} žvaigždutės.",
       "key": "lng_gift_sell_min_price",
@@ -17559,6 +18311,51 @@
       "many_value": "Mažiausia kaina – {count} Gram.",
       "one_value": "Mažiausia kaina – {count} Gram.",
       "other_value": "Mažiausia kaina – {count} Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_already_sent",
+      "value": "Ši operacija jau išsiųsta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_confirm",
+      "value": "Išstatyti dovaną {name} parduoti už {price}?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_fee_deducted",
+      "value": "Iš kainos išskaičiuojamas {percent} mokestis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_listing_fee",
+      "value": "Skelbimo mokestis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_pending",
+      "value": "Kai tinklas patvirtins skelbimą, dovana {name} bus parduodama už {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_toast",
+      "value": "Dovana {name} parduodama už {price}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_fee",
+      "value": "Išėmimo iš prekybos mokestis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_unlist_first",
+      "value": "Dovana {name} jau parduodama. Pirmiausia išimkite ją iš prekybos, tada išstatykite parduoti nauja kaina."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sell_onchain_you_receive",
+      "value": "Gausite"
     },
     {
       "_": "types.LangPackString",
@@ -17800,6 +18597,11 @@
       "_": "types.LangPackString",
       "key": "lng_gift_sold_out_title",
       "value": "Išparduota!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_gift_sold_tag",
+      "value": "parduota"
     },
     {
       "_": "types.LangPackString",
@@ -22466,6 +23268,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_logout_add_account_about",
+      "value": "Prijunkite kitą „Telegram“ paskyrą ir lengvai pereikite iš vienos į kitą."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_alternatives",
+      "value": "Kitos galimybės"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache",
+      "value": "Išvalyti talpyklą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_clear_cache_about",
+      "value": "Atlaisvinkite vietos diske pašalindami talpykloje saugomą mediją."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support",
+      "value": "Susisiekti su palaikymo tarnyba"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_contact_support_about",
+      "value": "Papasakokite mums apie problemas. Atsijungimas paprastai nepadeda."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode",
+      "value": "Nustatyti slaptakodį"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_logout_set_passcode_about",
+      "value": "Užrakinkite „Telegram Desktop“ slaptakodžiu, kad kiti negalėtų atidaryti programos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_mac_all_apps",
       "value": "Visos programos"
     },
@@ -22934,6 +23776,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_manage_peer_bot_edit_info",
+      "value": "Keisti informaciją"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_intro",
       "value": "Redaguoti įžangą"
     },
@@ -22941,6 +23788,14 @@
       "_": "types.LangPackString",
       "key": "lng_manage_peer_bot_edit_settings",
       "value": "Keisti boto nustatymus"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Neįrašyta: {count}",
+      "key": "lng_manage_peer_bot_info_unsaved",
+      "many_value": "Neįrašyta: {count}",
+      "one_value": "Neįrašyta: {count}",
+      "other_value": "Neįrašyta: {count}"
     },
     {
       "_": "types.LangPackString",
@@ -24776,8 +25631,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_new_contact_block_bot",
+      "value": "Blokuoti botą"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_new_contact_block_done",
       "value": "Užblokavote naudotoją {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_new_contact_bot_invited_owner",
+      "value": "{user} pakvietė jus naudotis šiuo botu, kurio savininkas – {owner}."
     },
     {
       "_": "types.LangPackString",
@@ -27150,6 +28015,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_photo_editor_enhance",
+      "value": "Pagerinimas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_photo_editor_font",
       "value": "Šriftas"
     },
@@ -27177,6 +28047,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_font_serif",
       "value": "Užraitinis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_insert_emoji",
+      "value": "Įterpti jaustuką"
     },
     {
       "_": "types.LangPackString",
@@ -27232,6 +28107,11 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_double_click",
       "value": "Dvigubas spustelėjimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_enhance",
+      "value": "Pagerinti nuotrauką"
     },
     {
       "_": "types.LangPackString",
@@ -27312,6 +28192,16 @@
       "_": "types.LangPackString",
       "key": "lng_photo_editor_keys_objects_flip",
       "value": "Apversti pažymėtus objektus horizontaliai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_lower",
+      "value": "Perkelti pažymėtus objektus sluoksniu žemiau"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_photo_editor_keys_objects_raise",
+      "value": "Perkelti pažymėtus objektus sluoksniu aukščiau"
     },
     {
       "_": "types.LangPackString",
@@ -29423,6 +30313,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_profile_action_return_story_button",
+      "value": "Grąžinti istorijos mygtuką"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_profile_action_short_call",
       "value": "Skambinti"
     },
@@ -29435,6 +30330,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_action_short_discuss",
       "value": "Aptarti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_action_short_edit_info",
+      "value": "Redaguoti"
     },
     {
       "_": "types.LangPackString",
@@ -29710,6 +30610,11 @@
       "_": "types.LangPackString",
       "key": "lng_profile_hide_participants_about",
       "value": "Įjunkite, kad paslėptumėte šios grupės narių sąrašą. Administratoriai liks matomi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_profile_invite_to_bot",
+      "value": "Pakviesti naudotis botu"
     },
     {
       "_": "types.LangPackString",
@@ -30274,6 +31179,14 @@
       "_": "types.LangPackString",
       "key": "lng_proxy_online",
       "value": "prisijungta"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Pažymėti {count} tarpiniai serveriai",
+      "key": "lng_proxy_selected",
+      "many_value": "Pažymėta {count} tarpinio serverio",
+      "one_value": "Pažymėtas {count} tarpinis serveris",
+      "other_value": "Pažymėta {count} tarpinių serverių"
     },
     {
       "_": "types.LangPackString",
@@ -31237,6 +32150,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_report_spam_sure_bot_inviter",
+      "value": "{user} pakvietė jus naudotis šiuo botu. Ar tikrai norite pranešti apie šį naudotoją dėl šlamšto?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_report_spam_sure_channel",
       "value": "Ar tikrai norite pranešti apie šlamštą šiame kanale?"
     },
@@ -31279,6 +32197,11 @@
       "_": "types.LangPackString",
       "key": "lng_report_title",
       "value": "Skundas dėl kanalo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_repost_to_story",
+      "value": "Perskelbti\nistorijoje"
     },
     {
       "_": "types.LangPackString",
@@ -33321,6 +34244,11 @@
       "_": "types.LangPackString",
       "key": "lng_send_non_premium_unlock",
       "value": "Atrakinti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_send_reply_to_forward",
+      "value": "Atsakyti į persiunčiamą žinutę"
     },
     {
       "_": "types.LangPackString",
@@ -38654,6 +39582,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_location_add",
+      "value": "Pridėti šią vietą"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_stories_my_name",
       "value": "Mano istorija"
     },
@@ -38766,13 +39699,495 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_stories_widget_location",
+      "value": "Vieta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_add_button",
+      "value": "Pridėti istoriją"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_albums",
+      "value": "Albumas"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} albumai",
+      "key": "lng_story_albums_count",
+      "many_value": "{count} albumo",
+      "one_value": "{count} albumas",
+      "other_value": "{count} albumų"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_count",
+      "value": "{link} niekada nematys jūsų istorijų."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} žmonės",
+      "key": "lng_story_blocklist_count_link",
+      "many_value": "{count} žmogaus",
+      "one_value": "{count} žmogus",
+      "other_value": "{count} žmonių"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty",
+      "value": "{link}, kurie nematys jūsų istorijų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_empty_link",
+      "value": "Pasirinkite žmones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_blocklist_title",
+      "value": "Kam nerodyti mano istorijų"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_boosts_required",
+      "value": "Šiam kanalui reikia daugiau stiprinimų, kad galėtų skelbti istorijas."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_caption_ph",
+      "value": "Pridėti aprašą…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_choose_media",
+      "value": "Pasirinkti nuotrauką ar vaizdo įrašą"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_comment_ph",
       "value": "Komentuoti istoriją…"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_story_delete_draft",
+      "value": "Ištrinti juodraštį"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_delete_draft_sure",
+      "value": "Ar tikrai norite ištrinti šį istorijos juodraštį?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_button",
+      "value": "Atmesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_text",
+      "value": "Ar tikrai norite atmesti visus pakeitimus?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_discard_title",
+      "value": "Pakeitimų atmetimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_failed",
+      "value": "Nepavyko įrašyti juodraščio."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_lost",
+      "value": "Nepavyko įkelti juodraščio medijos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_photo",
+      "value": "Nuotrauka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_saved",
+      "value": "Juodraštis įrašytas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_draft_video",
+      "value": "Vaizdo įrašas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_button",
+      "value": "Juodraščiai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_empty",
+      "value": "Juodraščių dar nėra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_drafts_title",
+      "value": "Juodraščiai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit",
+      "value": "Redaguoti istoriją"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy",
+      "value": "Keisti privatumo nustatymus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edit_privacy_title",
+      "value": "Privatumo nustatymų keitimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_edited",
+      "value": "Istorija atnaujinta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_entities_premium",
+      "value": "Formatuoti istorijų aprašus gali tik „Telegram Premium“ prenumeratoriai."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep",
+      "value": "Paskelbti savo profilyje"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Palikite šią istoriją savo profilyje ir pasibaigus jos {count} valandų galiojimui. Bus taikomi privatumo nustatymai.",
+      "key": "lng_story_keep_about",
+      "many_value": "Palikite šią istoriją savo profilyje ir pasibaigus jos {count} valandos galiojimui. Bus taikomi privatumo nustatymai.",
+      "one_value": "Palikite šią istoriją savo profilyje ir pasibaigus jos {count} valandos galiojimui. Bus taikomi privatumo nustatymai.",
+      "other_value": "Palikite šią istoriją savo profilyje ir pasibaigus jos {count} valandų galiojimui. Bus taikomi privatumo nustatymai."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_channel",
+      "value": "Paskelbti kanalo puslapyje"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Palikite šią istoriją kanalo puslapyje ir pasibaigus jos {count} valandų galiojimui.",
+      "key": "lng_story_keep_channel_about",
+      "many_value": "Palikite šią istoriją kanalo puslapyje ir pasibaigus jos {count} valandos galiojimui.",
+      "one_value": "Palikite šią istoriją kanalo puslapyje ir pasibaigus jos {count} valandos galiojimui.",
+      "other_value": "Palikite šią istoriją kanalo puslapyje ir pasibaigus jos {count} valandų galiojimui."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_draft",
+      "value": "Palikti juodraštį"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_keep_group",
+      "value": "Paskelbti grupės puslapyje"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Palikite šią istoriją grupės puslapyje ir pasibaigus jos {count} valandų galiojimui.",
+      "key": "lng_story_keep_group_about",
+      "many_value": "Palikite šią istoriją grupės puslapyje ir pasibaigus jos {count} valandos galiojimui.",
+      "one_value": "Palikite šią istoriją grupės puslapyje ir pasibaigus jos {count} valandos galiojimui.",
+      "other_value": "Palikite šią istoriją grupės puslapyje ir pasibaigus jos {count} valandų galiojimui."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Per **24** valandas galite paskelbti **{count}** istorijas. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "key": "lng_story_limit_count",
+      "many_value": "Per **24** valandas galite paskelbti **{count}** istorijos. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "one_value": "Per **24** valandas galite paskelbti **{count}** istoriją. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "other_value": "Per **24** valandas galite paskelbti **{count}** istorijų. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Deja, per **24** valandas negalite paskelbti daugiau nei **{count}** istorijų.",
+      "key": "lng_story_limit_count_premium",
+      "many_value": "Deja, per **24** valandas negalite paskelbti daugiau nei **{count}** istorijos.",
+      "one_value": "Deja, per **24** valandas negalite paskelbti daugiau nei **{count}** istorijos.",
+      "other_value": "Deja, per **24** valandas negalite paskelbti daugiau nei **{count}** istorijų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_increase",
+      "value": "Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą iki **{limit}**."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Per mėnesį galite paskelbti **{count}** istorijas. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "key": "lng_story_limit_monthly",
+      "many_value": "Per mėnesį galite paskelbti **{count}** istorijos. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "one_value": "Per mėnesį galite paskelbti **{count}** istoriją. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "other_value": "Per mėnesį galite paskelbti **{count}** istorijų. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Deja, per mėnesį negalite paskelbti daugiau nei **{count}** istorijų.",
+      "key": "lng_story_limit_monthly_premium",
+      "many_value": "Deja, per mėnesį negalite paskelbti daugiau nei **{count}** istorijos.",
+      "one_value": "Deja, per mėnesį negalite paskelbti daugiau nei **{count}** istorijos.",
+      "other_value": "Deja, per mėnesį negalite paskelbti daugiau nei **{count}** istorijų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_limit_title",
+      "value": "Pasiektas limitas"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Per savaitę galite paskelbti **{count}** istorijas. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "key": "lng_story_limit_weekly",
+      "many_value": "Per savaitę galite paskelbti **{count}** istorijos. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "one_value": "Per savaitę galite paskelbti **{count}** istoriją. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą.",
+      "other_value": "Per savaitę galite paskelbti **{count}** istorijų. Užsiprenumeruokite **„Telegram Premium“**, kad padidintumėte šį limitą."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Deja, per savaitę negalite paskelbti daugiau nei **{count}** istorijų.",
+      "key": "lng_story_limit_weekly_premium",
+      "many_value": "Deja, per savaitę negalite paskelbti daugiau nei **{count}** istorijos.",
+      "one_value": "Deja, per savaitę negalite paskelbti daugiau nei **{count}** istorijos.",
+      "other_value": "Deja, per savaitę negalite paskelbti daugiau nei **{count}** istorijų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_link_premium",
+      "value": "Nuorodos istorijose prieinamos su {link} prenumerata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_live_already",
+      "value": "Tiesioginė istorija jau transliuojama."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_location_change",
+      "value": "Pakeisti vietą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_my_story",
+      "value": "Jūs"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_about",
+      "value": "Pasirinkite, kiek laiko istorija bus matoma."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Užsiprenumeruokite {link}, kad jūsų istorijos išnyktų po {count} valandų.",
+      "key": "lng_story_period_premium",
+      "many_value": "Užsiprenumeruokite {link}, kad jūsų istorijos išnyktų po {count} valandos.",
+      "one_value": "Užsiprenumeruokite {link}, kad jūsų istorijos išnyktų po {count} valandos.",
+      "other_value": "Užsiprenumeruokite {link}, kad jūsų istorijos išnyktų po {count} valandų."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_period_premium_link",
+      "value": "„Telegram Premium“"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as",
+      "value": "Skelbti istoriją kaip"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_as_personal",
+      "value": "asmeninė paskyra"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_button",
+      "value": "Paskelbti istoriją"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_post_title",
+      "value": "Nauja istorija"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_posted",
+      "value": "Istorija paskelbta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_preparing_video",
+      "value": "Ruošiamas vaizdo įrašas…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends",
+      "value": "Artimi draugai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_close_friends_title",
+      "value": "Artimi draugai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_contacts",
+      "value": "Mano kontaktai"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_edit_list",
+      "value": "redaguoti sąrašą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_everyone",
+      "value": "Visi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_except_one",
+      "value": "išskyrus naudotoją {user}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude",
+      "value": "išskirti žmones"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_exclude_title",
+      "value": "Kontaktų išskyrimas"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "išskyrus {count} žmones",
+      "key": "lng_story_privacy_excluded",
+      "many_value": "išskyrus {count} žmogaus",
+      "one_value": "išskyrus {count} žmogų",
+      "other_value": "išskyrus {count} žmonių"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_header",
+      "value": "Kas gali peržiūrėti jūsų istoriją"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "{count} žmonės",
+      "key": "lng_story_privacy_people",
+      "many_value": "{count} žmogaus",
+      "one_value": "{count} žmogus",
+      "other_value": "{count} žmonių"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_select_title",
+      "value": "Kontaktų pasirinkimas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_privacy_selected",
+      "value": "Pasirinkti naudotojai"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_story_reply_ph",
       "value": "Atsakyti asmeniškai…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_repost",
+      "value": "Perskelbti istoriją"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_round_failed",
+      "value": "Nepavyko įrašyti vaizdo žinutės."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_draft",
+      "value": "Įrašyti juodraštį"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file",
+      "value": "Įrašyti į failą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_done",
+      "value": "Istorija įrašyta į failą."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_file_failed",
+      "value": "Nepavyko įrašyti istorijos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_save_settings",
+      "value": "Įrašyti nustatymus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_screenshots",
+      "value": "Leisti daryti ekrano kopijas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_stop_button",
+      "value": "Sustabdyti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop",
+      "value": "Ar tikrai norite sustabdyti istorijos įkėlimą?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_sure_stop_title",
+      "value": "Įkėlimo sustabdymas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_cancel",
+      "value": "Pašalinti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_failed",
+      "value": "Nepavyko įkelti istorijos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_upload_retry",
+      "value": "Bandyti dar kartą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_lock",
+      "value": "Užrakinti vaizdo įrašą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_video_unlock",
+      "value": "Atrakinti vaizdo įrašą"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_story_weather_failed",
+      "value": "Nepavyko įkelti orų duomenų."
     },
     {
       "_": "types.LangPackString",
@@ -39371,6 +40786,14 @@
       "_": "types.LangPackString",
       "key": "lng_sure_delete_contact",
       "value": "Ar tikrai norite ištrinti naudotoją {contact} iš savo kontaktų sąrašo?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ar tikrai norite ištrinti {count} kontaktus iš savo kontaktų sąrašo?",
+      "key": "lng_sure_delete_contacts",
+      "many_value": "Ar tikrai norite ištrinti {count} kontakto iš savo kontaktų sąrašo?",
+      "one_value": "Ar tikrai norite ištrinti {count} kontaktą iš savo kontaktų sąrašo?",
+      "other_value": "Ar tikrai norite ištrinti {count} kontaktų iš savo kontaktų sąrašo?"
     },
     {
       "_": "types.LangPackString",
@@ -40406,8 +41829,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot",
+      "value": "Naujas botas leistas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_confirmed_bot_message",
+      "value": "Prijungtą botą galite tvarkyti skiltyje {link}."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_confirmed_message",
       "value": "Aktyvių prisijungimų sąrašą galite peržiūrėti skiltyje {link}."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Aptikome {count} naujus prisijungimus prie jūsų paskyros. Ar tai jūs?",
+      "key": "lng_unconfirmed_auth_connections",
+      "many_value": "Aptikome {count} naujo prisijungimo prie jūsų paskyros. Ar tai jūs?",
+      "one_value": "Aptikome {count} naują prisijungimą prie jūsų paskyros. Ar tai jūs?",
+      "other_value": "Aptikome {count} naujų prisijungimų prie jūsų paskyros. Ar tai jūs?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_allowed",
+      "value": "Nauji prisijungimai leisti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_connections_denied",
+      "value": "Prieiga panaikinta"
     },
     {
       "_": "types.LangPackString",
@@ -40420,6 +41871,11 @@
       "value": "Nutraukėme bandymą prisijungti: {country}."
     },
     {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_single_bot",
+      "value": "Atjungėme prisijungusį botą: {country}."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Nauji prisijungimai užblokuoti",
       "key": "lng_unconfirmed_auth_denied_title",
@@ -40429,8 +41885,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_title_bot",
+      "value": "Botas atjungtas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_denied_warning",
       "value": "Niekada niekam nesiųskite prisijungimo kodo, antraip galite prarasti savo „Telegram“ paskyrą!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_denied_warning_bot",
+      "value": "Prijunkite tik tuos botus, kuriais pasitikite. Prijungti botai gali pasiekti jūsų žinutes ir veikti jūsų vardu!"
     },
     {
       "_": "types.LangPackString",
@@ -40455,13 +41921,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_review_failed",
+      "value": "Nepavyko įvykdyti užklausos. Bandykite dar kartą."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_single",
       "value": "Aptikome naują prisijungimą prie jūsų paskyros ({from}, {country}). Ar tai jūs?"
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_single_bot",
+      "value": "Prie jūsų paskyros prisijungė {bot} ({from}). Ar tai jūs?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_unconfirmed_auth_title",
       "value": "Kažkas ką tik gavo prieigą prie jūsų žinučių!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_unconfirmed_auth_title_bot",
+      "value": "Botas ką tik gavo prieigą prie jūsų žinučių!"
     },
     {
       "_": "types.LangPackString",
@@ -41016,6 +42497,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_view_button_botinvite",
+      "value": "Pakviesti naudotis botu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_view_button_call",
       "value": "Prisijungti prie skambučio"
     },
@@ -41495,6 +42981,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_collectible_transfer_on_sale",
+      "value": "Prieš perduodami šią dovaną, išimkite ją iš prekybos."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_collectible_username_about",
       "value": "„Telegram“ naudotojo vardas {username}."
     },
@@ -41905,6 +43396,101 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_details_moved_to_profile",
       "value": "Perkelta į profilį"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_buyer",
+      "value": "Pirkėjas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_delisted",
+      "value": "Išimta iš prekybos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_escrow",
+      "value": "Deponavimo išlaidos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_expires",
+      "value": "Galioja iki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_fine",
+      "value": "Bauda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_listed",
+      "value": "Išstatyta parduoti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_new_price",
+      "value": "Nauja kaina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_accepted",
+      "value": "Pasiūlymas priimtas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_cancelled",
+      "value": "Pasiūlymas atšauktas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_declined",
+      "value": "Pasiūlymas atmestas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_expired",
+      "value": "Pasiūlymas nebegalioja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_offer_sent",
+      "value": "Pasiūlymas išsiųstas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_old_price",
+      "value": "Ankstesnė kaina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_price",
+      "value": "Kaina"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_purchased",
+      "value": "Nupirkta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_refund",
+      "value": "Grąžinta suma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_repriced",
+      "value": "Kaina pakeista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_seller",
+      "value": "Pardavėjas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_details_onchain_service_fee",
+      "value": "Paslaugos mokestis"
     },
     {
       "_": "types.LangPackString",
@@ -42510,6 +44096,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "lng_wallet_row_fragment",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "lng_wallet_row_incoming",
       "value": "Gaunamasis pervedimas"
     },
@@ -42535,6 +44126,61 @@
       "_": "types.LangPackString",
       "key": "lng_wallet_row_moved_to_profile",
       "value": "perkelta į profilį"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_bought",
+      "value": "Nupirkta už {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_delisted",
+      "value": "Išimta iš prekybos"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed",
+      "value": "Išstatyta parduoti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_listed_for",
+      "value": "Išstatyta parduoti už {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted",
+      "value": "Pasiūlymas priimtas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_accepted_for",
+      "value": "Pasiūlymas priimtas: {amount}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_cancelled",
+      "value": "Pasiūlymas atšauktas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_declined",
+      "value": "Pasiūlymas atmestas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_expired",
+      "value": "Pasiūlymas nebegalioja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_offer_sent",
+      "value": "Pasiūlymas išsiųstas"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "lng_wallet_row_onchain_repriced_to",
+      "value": "Nauja kaina: {amount}"
     },
     {
       "_": "types.LangPackString",
@@ -42893,5 +44539,5 @@
       "other_value": "Sumokėjote {count} žvaigždučių."
     }
   ],
-  "version": 6135664
+  "version": 6248571
 }

@@ -16561,7 +16561,7 @@
     {
       "_": "types.LangPackString",
       "key": "CustomHelp",
-      "value": "Якщо ви не є Premium-користувачем, ви не побачите часу активності чи статусу «в мережі» людей, які не можуть бачити ваших. Замість цього показуватиметься приблизний час (недавно, упродовж тижня, упродовж місяця)."
+      "value": "Без Premium ви не зможете бачити точний час активності людей, від яких приховуєте свій. Натомість показуватиметься приблизний час (недавно, упродовж тижня, упродовж місяця).\n\nЗ Premium ви зможете бачити точний час активності людей, які діляться ним з вами, — навіть якщо приховуєте свій."
     },
     {
       "_": "types.LangPackString",
@@ -21343,7 +21343,7 @@
     {
       "_": "types.LangPackString",
       "key": "FilterInviteUser",
-      "value": "не можна ділитися особистими чатами"
+      "value": "не можна ділитися користувачами"
     },
     {
       "_": "types.LangPackString",
@@ -21576,7 +21576,7 @@
     {
       "_": "types.LangPackString",
       "key": "FilterUnreadOnlyShown",
-      "value": "тільки непрочитані"
+      "value": "показуються непрочитані"
     },
     {
       "_": "types.LangPackString",
@@ -25814,6 +25814,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "Цей подарунок вже передано."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "Подарунок недоступний"
     },
@@ -25923,12 +25928,12 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOfferDurationInfoStars",
-      "value": "Виберіть, скільки часу матиме **%s**, щоб прийняти вашу пропозицію. Коли строк спливе, **зірки** повернуться автоматично."
+      "value": "Виберіть, скільки часу матиме **%s**, щоб прийняти пропозицію. Коли строк спливе, **зірки** повернуться вам автоматично."
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOfferDurationInfoTON",
-      "value": "Виберіть, скільки часу матиме **%s**, щоб прийняти вашу пропозицію. Коли час спливе, **Gram** повернуться вам автоматично."
+      "value": "Виберіть, скільки часу матиме **%s**, щоб прийняти пропозицію. Коли строк спливе, **Gram** повернуться вам автоматично."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -26186,7 +26191,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainBuyConfirmText",
-      "value": "Купити **%1$s** на Fragment за **%2$s**?"
+      "value": "Купити **%1$s** за **%2$s**?"
     },
     {
       "_": "types.LangPackString",
@@ -26197,6 +26202,21 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainBuyConfirmTitle",
       "value": "Підтвердження покупки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySent",
+      "value": "Покупку надіслано. %s незабаром зʼявиться у вашому гаманці."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySentTo",
+      "value": "Покупку надіслано. %1$s незабаром перейде до %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyText",
+      "value": "Купити **%1$s** на Fragment за **%2$s**? Кошти спишуться з вашого гаманця. Подарунок надійде у ваш гаманець і зʼявиться у вашому профілі."
     },
     {
       "_": "types.LangPackString",
@@ -26220,13 +26240,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "Щоб змінити ціну, спершу зніміть подарунок з продажу, а потім знову виставте його за новою ціною."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Подарунки з Fragment можна купувати тільки для себе."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Цей подарунок неможливо придбати для цього отримувача."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "Цього подарунка більше немає в продажу на Fragment."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorNotForSaleFixed",
       "value": "Цей подарунок більше не продається."
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "На Fragment можна продавати тільки подарунки в блокчейні."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "За фіксованою ціною можна продавати тільки подарунки в блокчейні."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorNotOwner",
       "value": "Цього подарунка немає у вашому гаманці."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "Цей продаж було розпочато з іншого гаманця."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "Ця пропозиція більше не діє."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "Ціна подарунка на Fragment змінилася. Перевірте нову ціну й спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "Ціна подарунка змінилася. Перевірте нову ціну й спробуйте ще раз."
     },
     {
       "_": "types.LangPackString",
@@ -26237,6 +26307,31 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainErrorPriceInvalidRange",
       "value": "Ціна повинна складати від %1$s до %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "Цей подарунок уже виставлено на продажу на Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "Цей подарунок уже виставлено на продаж."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "Продаж на Fragment зараз недоступний."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "Продаж за фіксованою ціною зараз недоступний."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactive",
+      "value": "Цей подарунок не продається на Fragment."
     },
     {
       "_": "types.LangPackString",
@@ -26255,8 +26350,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "Транзакцію не надіслано. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorTitle",
       "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "Продаж за фіксованою ціною"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "Не вдалося підготувати транзакцію. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "Неможливо підписати цю транзакцію за допомогою поточної версії Telegram. Будь ласка, оновіть застосунок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "Ваш гаманець ще створюється. Трохи зачекайте й спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Подарунки на Fragment купуються та продаються за допомогою гаманця в Telegram. Щоб продовжити, налаштуйте гаманець."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "Подарунки в блокчейні купуються та продаються за допомогою гаманця в Telegram. Щоб продовжити, налаштуйте гаманець."
     },
     {
       "_": "types.LangPackString",
@@ -26285,8 +26415,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughForFee",
+      "value": "Для сплати комісії мережі за цю дію в гаманці має бути щонайменше %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughToBuy",
+      "value": "Для купівлі цього подарунка в гаманці має бути щонайменше %s."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferAccept",
       "value": "Прийняти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptSent",
+      "value": "Ви прийняли пропозицію. Триває завершення продажу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "Ви прийняли пропозицію за %s. Продаж завершиться, коли подарунок надійде до покупця."
     },
     {
       "_": "types.LangPackString",
@@ -26300,6 +26450,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "Зробити цю пропозицію за **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "Зробити цю пропозицію за **%2$s** користувачу **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferConfirmTitle",
       "value": "Підтвердження пропозиції"
     },
@@ -26307,6 +26467,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferDecline",
       "value": "Відхилити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "Відхилити пропозицію про купівлю **%1$s** за **%2$s**? GRAM повернуться покупцю."
     },
     {
       "_": "types.LangPackString",
@@ -26320,6 +26485,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "Виберіть, скільки часу матиме власник, щоб прийняти пропозицію. Коли строк спливе, Gram повернуться вам автоматично."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferErrorAlreadyActive",
       "value": "Ви вже маєте активну пропозицію про купівлю цього подарунка. Щоб змінити її, спершу відкликайте її."
     },
@@ -26327,6 +26497,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferErrorTitle",
       "value": "Пропозиція"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTryAgain",
+      "value": "Не вдалося підготувати пропозицію. Спробуйте ще раз."
     },
     {
       "_": "types.LangPackString",
@@ -26340,8 +26515,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "Пропозиція зависока. Максимальна пропозиція за **%2$s** — **%1$s GRAM**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferGramsInfo",
       "value": "Вкажіть, скільки GRAM ви готові запропонувати за **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "Пропозиція занизька. Мінімальна пропозиція за **%2$s** — **%1$s GRAM**."
     },
     {
       "_": "types.LangPackString",
@@ -26360,6 +26545,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInsufficient",
+      "value": "Недостатньо коштів. Поповнити >"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteAccepted",
       "value": "Вашу пропозицію купити **%2$s** за **%1$s** прийнято"
     },
@@ -26370,18 +26560,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "Комісія за дострокове відкликання склала **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteRefunded",
+      "value": "**%s** повернуто у ваш гаманець"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteWithdrawn",
       "value": "Ви відкликали свою пропозицію купити **%2$s** за **%1$s**"
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteYouAccepted",
-      "value": "Ви прийняли пропозицію"
+      "value": "Ви приймаєте пропозицію"
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferNoteYouDeclined",
-      "value": "Ви відхилили пропозицію"
+      "value": "Ви відхиляєте пропозицію"
     },
     {
       "_": "types.LangPackString",
@@ -26401,7 +26601,7 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferRefundNote",
-      "value": "Якщо продавець відхилить вашу пропозицію або термін її дії спливе, вам буде повернуто Gram."
+      "value": "Якщо продавець відхилить пропозицію або строк її дії спливе, Gram повернуться вам автоматично."
     },
     {
       "_": "types.LangPackString",
@@ -26495,6 +26695,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpiring",
+      "value": "Строк дії пропозиції спливає…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferStatusSettled",
       "value": "Триває завершення продажу…"
     },
@@ -26512,6 +26717,11 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainOfferSummaryWithdrawn",
       "value": "Пропозицію купити **%2$s** за **%1$s** відкликано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYouDeclined",
+      "value": "Ви відхиляєте пропозицію про купівлю **%2$s** за **%1$s**"
     },
     {
       "_": "types.LangPackString",
@@ -26535,8 +26745,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "Дострокове відкликання коштує **%1$s**.\n\n**%2$s** повернеться на ваш рахунок."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawFor",
       "value": "Відкликати за %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "На ваш баланс повернеться приблизно **%s**."
     },
     {
       "_": "types.LangPackString",
@@ -26630,8 +26850,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "Продати за фіксованою ціною"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixedConfirmText",
+      "value": "Виставити **%1$s** на продаж за фіксованою ціною **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHint",
+      "value": "Покупець сплатить цю ціну на Fragment, а вторговані кошти надійдуть безпосередньо на ваш гаманець."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHintBuyerPays",
+      "value": "Покупець сплатить цю ціну, а вторговані кошти надійдуть безпосередньо на ваш гаманець."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellMenu",
       "value": "Продати"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellNoteFixed",
+      "value": "Покупець сплатить цю ціну, а вторговані кошти надійдуть безпосередньо на ваш гаманець. Подарунок зʼявиться в продажі, щойно він перейде в смартконтракт."
     },
     {
       "_": "types.LangPackString",
@@ -26642,6 +26887,16 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainSellPriceHeader",
       "value": "Ціна в GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "Ціна зависока. Максимальна ціна — **%s GRAM**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "Ціна занизька. Максимальна ціна — **%s GRAM**."
     },
     {
       "_": "types.LangPackString",
@@ -26665,8 +26920,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainSellText",
+      "value": "Виставити **%1$s** на продаж на Fragment за **%2$s**? З вашого гаманця спишеться комісія в **%3$s** за виклик контракту для продажу. Вторговані кошти надійдуть безпосередньо на ваш гаманець."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainSellTitle",
       "value": "Продати на Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainTransferUnlistFirst",
+      "value": "Зніміть цей подарунок з продажу, перш ніж передавати його."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "Подарунок буде знято з продажу на Fragment. Він залишиться у вашому гаманці."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "Подарунок буде знято з продажу. Він залишиться у вашому гаманці."
     },
     {
       "_": "types.LangPackString",
@@ -27449,8 +27724,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsTextWallet",
+      "value": "Ваші Gram з подарунків та реклами."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsTitle",
       "value": "Надходження в Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseArrived",
+      "value": "Кошти з рахунку «Надходження в Gram» вже у гаманці. Тепер ви можете придбати подарунок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseLate",
+      "value": "GRAM, отримані в рамках програми Gram Earnings, вже прямують до вашого гаманця. Щойно вони надійдуть — купуйте подарунок."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsUseMoving",
+      "value": "Переведення коштів з рахунку «Надходження в Gram» у гаманець…"
     },
     {
       "_": "types.LangPackString",
@@ -27469,6 +27764,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawDisabled",
+      "value": "Можливість виведення коштів з рахунку «Надходження в Gram» наразі недоступна для вашого акаунта."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "Щоб вивести Gram, спершу ввімкніть двоетапну перевірку в розділі «Приватність і безпека»."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNothing",
+      "value": "У вас поки що немає Grams для виведення."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawOnlyTon",
+      "value": "На ваш гаманець можна вивести лише Grams."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawSent",
       "value": "%s надіслано"
     },
@@ -27479,8 +27794,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "Gram надійдуть у ваш особистий гаманець (⚙ Налаштування → 💎 Гроші)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawTitle",
       "value": "Вивести %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawTryAgain",
+      "value": "Ваш пароль не вдалося підтвердити. Спробуйте ще раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "Можливість виведення коштів у ваш гаманець наразі недоступна. Ви можете вивести GRAM через платформу Fragment."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -28452,7 +28782,7 @@
     {
       "_": "types.LangPackString",
       "key": "HideReadTimeInfo",
-      "value": "Приховувати час, коли ви читаєте повідомлення, від людей, які не можуть бачити ваш час активності. Якщо ви ввімкнете цю опцію, час прочитання цих користувачів також буде приховано від вас (якщо ви не маєте Premium).\n\nЦе налаштування не впливає на групові чати."
+      "value": "Приховувати час прочитання повідомлень від людей, які не можуть бачити ваш час активності.\n\nБез Premium ви не бачитимете час прочитання одне одного. З Premium ви бачитимете час прочитання людей, які діляться ним з вами.\n\nЦе налаштування не впливає на групові чати."
     },
     {
       "_": "types.LangPackString",
@@ -41730,7 +42060,7 @@
     {
       "_": "types.LangPackString",
       "key": "ProfileGiftsSendChannel",
-      "value": "Надіслати подарунки каналу"
+      "value": "Надіслати подарунок каналу"
     },
     {
       "_": "types.LangPackString",
@@ -48896,6 +49226,199 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SpeechToTextAllStyles",
+      "value": "Усі стилі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextApplyingStyle",
+      "value": "%1$s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextAutoDetect",
+      "value": "Автовизначення"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDeleteModels",
+      "value": "Видалити всі моделі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDeleteTranscriptions",
+      "value": "Видалити локальні транскрипції"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDetecting",
+      "value": "Виявлення…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownload",
+      "value": "Завантажити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadProgress",
+      "value": "%1$d / %2$d МБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadingModel",
+      "value": "Завантаження моделі…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextDownloadingModels",
+      "value": "Завантаження моделей… %1$d / %2$d МБ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextEnhance",
+      "value": "Покращити"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextEnhancing",
+      "value": "Покращення…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextGoogleFallback",
+      "value": "Google як резервний варіант"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextGoogleFallbackInfo",
+      "value": "Для інших мов може використовуватися системне розпізнавання мовлення. У такому разі ваші голосові дані можуть надсилатися на сервери Google або інших постачальників."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLanguages",
+      "value": "Мови"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLearnMore",
+      "value": "**Дізнатися більше** >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextListening",
+      "value": "Голосовий ввід…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptions",
+      "value": "Текст у реальному часі"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptionsOff",
+      "value": "Вимкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextLiveCaptionsOn",
+      "value": "Ввімкнено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextNoText",
+      "value": "Текст не розпізнано"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextOnDevice",
+      "value": "Розпізнавання на пристрої"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextOnDeviceInfo",
+      "value": "Голосові повідомлення розшифровуються приватно — дані не покидають ваш пристрій."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyCompact",
+      "value": "Компактні мовні пакети"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyCompactText",
+      "value": "Приблизно 30 МБ на одну мову. Вибирайте лише потрібні."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyDemo",
+      "value": "Привіт! Запізнююся на десять хвилин, побачимося в кафе біля вокзалу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyNothingLeaves",
+      "value": "Дані не покидають пристрій"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyNothingLeavesText",
+      "value": "Ваш голос і розшифрований текст ніколи не надсилаються на сервер."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyOnPhone",
+      "value": "Локальне розпізнавання"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyOnPhoneText",
+      "value": "Мовлення перетворюється на текст прямо на цьому пристрої — навіть без інтернету."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacySubtitle",
+      "value": "Голосові повідомлення перетворюються на текст\nпрямо тут, на вашому пристрої."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextPrivacyTitle",
+      "value": "Приватність як принцип"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSendAsText",
+      "value": "Надіслати як текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSettings",
+      "value": "Налаштування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextSettingsSubtitle",
+      "value": "Розшифровка голосу та диктування"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextTitle",
+      "value": "Голосовий ввід"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Видалено %1$d локальні транскрипції",
+      "key": "SpeechToTextTranscriptionsDeleted",
+      "many_value": "Видалено %1$d локальних транскрипцій",
+      "one_value": "Видалено %1$d локальну транскрипцію",
+      "other_value": "Видалено %1$d локальних транскрипцій"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextUpdate",
+      "value": "Оновити"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Speed",
       "value": "Швидкість"
     },
@@ -52792,7 +53315,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestAPostBelowHint",
-      "value": "Торкніться, щоб запропонувати допис у %s"
+      "value": "Ви можете запропонувати допис у %s"
     },
     {
       "_": "types.LangPackString",
@@ -61891,5 +62414,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62030289
+  "version": 62236269
 }

@@ -385,6 +385,17 @@
       "value": "Muddatsiz"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AffiliateProgram.JoinSubtitleLifetime",
+      "value": "**{bot}** siz taklif qilgan har bir foydalanuvchidan olingan daromadning **{commission}** qismini **abadiy** ulashadi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AffiliateProgram.JoinSubtitleMonths",
+      "one_value": "**{bot}** siz taklif qilgan har bir foydalanuvchidan olingan daromadning **{commission}** qismini **1 oy** davomida ulashadi.",
+      "other_value": "**{bot}** siz taklif qilgan har bir foydalanuvchidan olingan daromadning **{commission}** qismini **%d oy** davomida ulashadi."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AffiliateProgram.JoinSubtitleYears",
       "one_value": "**{bot}** siz taklif qilgan har bir foydalanuvchidan olingan daromadning **{commission}** qismini **1 yil** davomida ulashadi.",
@@ -399,6 +410,17 @@
       "_": "types.LangPackString",
       "key": "AffiliateProgram.JoinTitle",
       "value": "Hamkorlik dasturi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AffiliateProgram.LinkSubtitleLifetime",
+      "value": "Foydalanuvchilaringiz havolangiz orqali oʻtgach, ularning **{bot}**dagi xarajatlaridan **abadiy** **{commission}** komissiya olish uchun ushbu havolani ularga ulashing."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AffiliateProgram.LinkSubtitleMonths",
+      "one_value": "Foydalanuvchilaringiz havolangiz orqali oʻtgach, ularning **{bot}**dagi xarajatlaridan **1 oy** davomida **{commission}** komissiya olish uchun ushbu havolani ularga ulashing.",
+      "other_value": "Foydalanuvchilaringiz havolangiz orqali oʻtgach, ularning **{bot}**dagi xarajatlaridan **%d oy** davomida **{commission}** komissiya olish uchun ushbu havolani ularga ulashing."
     },
     {
       "_": "types.LangPackString",
@@ -4480,6 +4502,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BusinessLink.AlertTextLimitText",
+      "value": "Xabar matni limiti – 4096 ta belgi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BusinessLink.ErrorExpired",
       "value": "Havola eskirgan"
     },
@@ -5576,6 +5603,11 @@
       "_": "types.LangPackString",
       "key": "Call.LiveStreamInProgressCallMessage",
       "value": "%1$@dagi jonli efirni tark etib, %2$@ga chaqiruv qilasizmi?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.LiveStreamInProgressConferenceMessage",
+      "value": "%1$@dagi jonli efirni tark etib, guruhli chaqiruv boshlaysizmi?"
     },
     {
       "_": "types.LangPackString",
@@ -15057,6 +15089,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatbotSetup.Gift.Warning.UsernameText",
+      "value": "**%@** boti hisobingiz uchun **foydalanuvchi nomlarini belgilashi va olib tashlashi** mumkin boʻladi, bu esa joriy foydalanuvchi nomingizni yoʻqotishingizga olib kelishi mumkin."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatbotSetup.Permission.ReplyToMessages",
       "value": "Xabarlarga javob berish"
     },
@@ -23531,6 +23568,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.AuctionBid.TopWinnersTotal",
+      "value": "%@ ta gʻolibdan top 3 tasi"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.AuctionBid.UntilNext",
       "value": "keyingi raundgacha"
     },
@@ -23993,6 +24035,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Message.YourMessage",
       "value": "Xabaringiz..."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.MoveToGifts.Success",
+      "value": "Hadya profilingizga koʻchirildi."
     },
     {
       "_": "types.LangPackString",
@@ -34741,6 +34788,11 @@
       "key": "Notification.StarGift.Subtitle.Other.Stars",
       "one_value": "%@ yulduz",
       "other_value": "%@ yulduz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGift.Subtitle.OtherNoConvert",
+      "value": "Bu hadyani profilingizda koʻrsating va uni kolleksion hadyaga aylantiring."
     },
     {
       "_": "types.LangPackString",
@@ -48084,6 +48136,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.AccountRevenue.Proceeds.Info",
+      "value": "Jami balansingizdagi yulduzlarni ishlab topilganidan 21 kun oʻtganidan keyin mukofot sifatida yechib olish mumkin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.AccountRevenue.Withdraw.Info",
+      "value": "Fragment orqali yulduzlar uchun mukofotlarni olishingiz mumkin. 1000 yulduzdan kam yechib ola olmaysiz. [Batafsil >]()"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.BotRevenue.Proceeds.Available",
       "value": "Mavjud balans"
     },
@@ -48565,8 +48627,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Purchase.GenericPurchasePurpose",
+      "value": "Telegramdagi kontent va xizmatlarni ochish uchun yulduzlar sotib oling."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Purchase.GetStars",
       "value": "Yulduzlar xarid qilish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Purchase.GetStarsInfo",
+      "value": "Qancha yulduz sotib olmoqchi ekaningizni tanlang."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Purchase.GiftInfo",
+      "value": "Yulduzlar bilan **%1$@** Telegramdagi kontent va xizmatlarni ocha oladi. [Misollarni koʻrish >]()"
     },
     {
       "_": "types.LangPackString",
@@ -48580,8 +48657,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Purchase.PurchasePurpose.subs",
+      "value": "Barcha obunalaringizni saqlab qolish uchun yulduzlar sotib oling."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Purchase.RemoveOriginalDetailsStarGiftInfo",
       "value": "Hadya tavsiflarini olib tashlash uchun yulduzlar sotib oling."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Purchase.SendGroupMessageInfo",
+      "value": "**%@**da xabar yuborish uchun yulduzlar sotib oling."
     },
     {
       "_": "types.LangPackString",
@@ -48597,6 +48684,11 @@
       "_": "types.LangPackString",
       "key": "Stars.Purchase.StarGiftInfo",
       "value": "**%@**ga profilda saqlash yoki Yulduzlarga aylantirish mumkin boʻlgan hadyalar yuborish uchun Yulduzlar sotib oling."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Purchase.StarGiftOfferInfo",
+      "value": "Hadyalarni sotib olish uchun taklif berish maqsadida yulduzlar sotib oling."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -48627,6 +48719,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Purchase.SubscriptionInfo",
+      "value": "**%@**ga obuna boʻlish uchun yulduzlar sotib oling."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Purchase.SubscriptionRenewInfo",
       "value": "**%@**ga obunangizni saqlab qolish uchun **yulduzlar** sotib oling."
     },
@@ -48634,6 +48731,11 @@
       "_": "types.LangPackString",
       "key": "Stars.Purchase.Terms_URL",
       "value": "https://telegram.org/tos/stars"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Purchase.TransferStarGiftInfo",
+      "value": "Unikal kolleksion hadyangizga egalik huquqini oʻtkazish uchun yulduzlar sotib oling."
     },
     {
       "_": "types.LangPackString",
@@ -48738,6 +48840,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.SendStars.AmountInfo",
+      "value": "Bu xabarning TOP 3 dastaklovchilari orasida profilingizni ajratib koʻrsatish uchun %@ yoki undan koʻproq yuboring."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.SendStars.AmountPlaceholder",
       "value": "Yulduzlar miqdori"
     },
@@ -48798,6 +48905,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Stars.Transaction.FragmentTopUp.Title",
+      "value": "Yulduzlar balansini toʻldirish"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Transaction.FragmentTopUpTon.Title",
+      "value": "Gram bilan toʻldirish"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Stars.Transaction.FragmentUnknown_URL",
       "value": "https://fragment.com/stars"
     },
@@ -48825,6 +48942,11 @@
       "_": "types.LangPackString",
       "key": "Stars.Transaction.Gift.Title",
       "value": "Hadya"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Stars.Transaction.GiftAuctionBid",
+      "value": "Hadya auksionidagi taklif"
     },
     {
       "_": "types.LangPackString",
@@ -49138,6 +49260,12 @@
       "_": "types.LangPackString",
       "key": "Stars.Transaction.TelegramBotApi.Title",
       "value": "Pulli yuborish"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Stars.Transaction.TelegramPremium",
+      "one_value": "%@ oylik Premium",
+      "other_value": "%@ oylik Premium"
     },
     {
       "_": "types.LangPackString",
@@ -59795,5 +59923,5 @@
       "value": "Tekshirish kodini xato kiritdingiz."
     }
   ],
-  "version": 22733927
+  "version": 22738069
 }

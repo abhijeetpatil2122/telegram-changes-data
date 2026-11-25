@@ -1,542 +1,952 @@
-/* Premium Bot Mini App: theme-aware, responsive, no preprocessor. */
-:root {
-  --pm-accent: #8774e1;
-  --pm-accent-strong: #735bd1;
-  --pm-accent-soft: rgba(135, 116, 225, 0.12);
-  --pm-card: #ffffff;
-  --pm-page: var(--tg-theme-bg-color, #f4f4f5);
-  --pm-section: var(--tg-theme-section-bg-color, var(--pm-card));
-  --pm-text: var(--tg-theme-text-color, #18212b);
-  --pm-hint: var(--tg-theme-hint-color, #708090);
-  --pm-link: var(--tg-theme-link-color, #4e46b8);
-  --pm-border: var(--tg-theme-section-separator-color, rgba(20, 32, 48, 0.1));
-  --pm-danger: #e55353;
-  --pm-shadow: 0 8px 30px rgba(24, 20, 66, 0.08);
+/* Premium Bot Mini App: local additions on top of the design-system stylesheets
+   (premiumbot-tokens/base/components/fx/screens-*.css). No framework, no preprocessor. */
+
+/* The site chrome's base styles colour and underline links in every state, and ring them on any focus. Cells and
+   segments that are links keep the kit's ink there: a row's text colour, an action's accent, a destructive row's red.
+   Only a pointer's focus loses its ring: a keyboard's keeps the kit's, which a segment draws on its thumb
+   (components.css). */
+a.cell:is(:link, :visited, :hover, :active, :focus) {
+  color: var(--text);
+  text-decoration: none;
 }
 
-html, body {
-  background: var(--pm-page);
-  color: var(--pm-text);
+a.cell--action:is(:link, :visited, :hover, :active, :focus) {
+  color: var(--accent);
 }
 
-body {
-  margin: 0;
-  min-height: var(--tg-viewport-stable-height, 100vh);
-  -webkit-tap-highlight-color: transparent;
-}
-
-.pm-app {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 580px;
-  min-height: var(--tg-viewport-stable-height, 100vh);
-  margin: 0 auto;
-  padding: calc(14px + var(--tg-safe-area-inset-top, 0px)) 16px calc(30px + var(--tg-content-safe-area-inset-bottom, 0px));
-  color: var(--pm-text);
-}
-
-.pm-app *, .pm-app *::before, .pm-app *::after {
-  box-sizing: border-box;
-}
-
-.pm-hero {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 18px;
-  padding: 30px 24px 26px;
-  border-radius: 28px;
-  background:
-    radial-gradient(circle at 88% 2%, rgba(255, 255, 255, 0.3), transparent 34%),
-    linear-gradient(145deg, #a18cf1 0%, #8268d9 43%, #ac5db0 100%);
-  color: #ffffff;
-  text-align: center;
-  box-shadow: 0 15px 40px rgba(104, 76, 179, 0.2);
-}
-
-.pm-hero::after {
-  position: absolute;
-  right: -35px;
-  bottom: -70px;
-  width: 160px;
-  height: 160px;
-  border: 28px solid rgba(255, 255, 255, 0.08);
-  border-radius: 50%;
-  content: '';
-  pointer-events: none;
-}
-
-.pm-hero-art {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  margin: 0 auto 8px;
-  animation: pm-hero-in 420ms cubic-bezier(.2,.8,.2,1) both;
-}
-
-.pm-svg {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: currentColor;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
-
-.pm-hero-art > .pm-svg {
-  width: 104px;
-  height: 104px;
-  margin: 8px auto;
-  color: #ffffff;
-  filter: drop-shadow(0 10px 18px rgba(42, 25, 94, 0.22));
-}
-
-.pm-lottie-canvas {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.pm-title {
-  position: relative;
-  margin: 4px 0 8px;
+a.segment:is(:link, :visited, :hover, :active, :focus) {
   color: inherit;
-  font-size: 30px;
-  font-weight: 750;
-  line-height: 1.18;
-  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+a.cell:focus:not(:focus-visible),
+a.segment:focus {
   outline: none;
 }
 
-.pm-subtitle {
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-  color: rgba(255, 255, 255, 0.88);
-  font-size: 15px;
-  line-height: 1.45;
-}
-
-.pm-subtitle a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-.pm-content {
-  animation: pm-content-in 260ms ease-out both;
-}
-
-.pm-island, .pm-plans, .pm-features {
-  overflow: hidden;
-  margin: 12px 0;
-  border: 1px solid var(--pm-border);
-  border-radius: 20px;
-  background: var(--pm-section);
-  box-shadow: var(--pm-shadow);
-}
-
-.pm-cell {
-  display: flex;
-  align-items: center;
-  min-height: 66px;
-  padding: 12px 14px;
-  color: inherit;
-  text-decoration: none;
-  transition: background-color 140ms ease, transform 140ms ease;
-}
-
-.pm-cell:not(:last-child) {
-  border-bottom: 1px solid var(--pm-border);
-}
-
-.pm-cell:hover {
-  background: var(--pm-accent-soft);
-  text-decoration: none;
-}
-
-.pm-cell:active, .pm-plan:active, .pm-chip:active, .pm-primary:active, .pm-secondary:active {
-  transform: scale(0.975);
-}
-
-.pm-cell-icon {
-  flex: 0 0 auto;
-  width: 36px;
-  height: 36px;
-  margin-right: 12px;
-  padding: 7px;
-  border-radius: 11px;
-  background: var(--pm-accent-soft);
-}
-
-.pm-cell-copy {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.pm-cell-title {
-  color: inherit;
-  font-size: 16px;
-  font-weight: 650;
-  line-height: 1.3;
-}
-
-.pm-cell-description {
-  margin-top: 3px;
-  color: var(--pm-hint);
-  font-size: 13px;
-  line-height: 1.35;
-}
-
-.pm-cell-chevron {
-  flex: 0 0 auto;
-  width: 18px;
-  height: 18px;
-  margin-left: 8px;
-  opacity: 0.45;
-}
-
-.pm-plans {
-  padding: 8px;
-}
-
-.pm-plan {
-  position: relative;
-  display: flex;
-  align-items: center;
+button.cell {
   width: 100%;
-  min-height: 68px;
-  margin: 0;
-  padding: 13px 14px;
-  border: 1px solid transparent;
-  border-radius: 14px;
-  background: transparent;
-  color: var(--pm-text);
-  font: inherit;
-  text-align: left;
-  cursor: pointer;
-  transition: background-color 140ms ease, border-color 140ms ease, transform 140ms ease;
+  text-align: start;
 }
 
-.pm-plan:hover {
-  border-color: rgba(135, 116, 225, 0.35);
-  background: var(--pm-accent-soft);
-}
-
-.pm-plan:disabled {
-  cursor: wait;
-  opacity: 0.65;
-}
-
-.pm-plan-copy {
-  display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.pm-plan-title {
-  font-size: 17px;
-  font-weight: 680;
-  line-height: 1.25;
-}
-
-.pm-plan-description {
-  margin-top: 3px;
-  color: var(--pm-hint);
-  font-size: 13px;
-}
-
-.pm-plan-price {
-  flex: 0 0 auto;
-  margin-left: 12px;
-  color: var(--pm-link);
-  font-size: 17px;
-  font-weight: 730;
-}
-
-.pm-plan.is-loading::after {
-  width: 16px;
-  height: 16px;
-  margin-left: 8px;
-  border: 2px solid var(--pm-border);
-  border-top-color: var(--pm-accent);
-  border-radius: 50%;
-  content: '';
-  animation: pm-spin 650ms linear infinite;
-}
-
-.pm-filters {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  margin: 12px 0 2px;
-  padding: 2px 2px 8px;
-  scrollbar-width: none;
-}
-
-.pm-filters::-webkit-scrollbar {
+/* The server prints these parts of a row even when they are empty, and an empty one still takes the gap beside it:
+   4 px off the centre of a plan's name, 12 px at a row's end. */
+.cell-subtitle:empty,
+.cell-trail:empty {
   display: none;
 }
 
-.pm-chip {
-  flex: 0 0 auto;
-  min-height: 44px;
-  padding: 9px 13px;
-  border: 1px solid var(--pm-border);
-  border-radius: 18px;
-  background: var(--pm-section);
-  color: var(--pm-hint);
-  font: inherit;
-  font-size: 13px;
-  cursor: pointer;
-  transition: transform 120ms ease, background-color 120ms ease;
+/* The plan's billing period under its price. */
+.plan-period {
+  color: var(--hint);
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
 }
 
-.pm-chip.is-active {
-  border-color: var(--pm-accent);
-  background: var(--pm-accent);
-  color: #ffffff;
+/* The hero mark's box, as large as its stage's mark (fx.css --fx-mark): 120 px, or 88 on a compact stage. */
+.pm-mark {
+  position: relative;
+  display: block;
+  width: var(--fx-mark, 120px);
+  height: var(--fx-mark, 120px);
+  margin: 0 auto var(--space-16);
 }
 
-.pm-feature {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-  padding: 15px 16px;
-}
-
-.pm-feature:not(:last-child) {
-  border-bottom: 1px solid var(--pm-border);
-}
-
-.pm-feature-icon {
-  flex: 0 0 auto;
-  width: 30px;
-  height: 30px;
-  padding: 4px;
-  border-radius: 9px;
-  background: var(--pm-accent-soft);
-  color: var(--pm-accent-strong);
-}
-
-.pm-feature h2 {
-  margin: 0 0 4px;
-  color: inherit;
-  font-size: 16px;
-  font-weight: 650;
-}
-
-.pm-feature p, .pm-picker p, .pm-note {
-  margin: 0;
-  color: var(--pm-hint);
-  font-size: 14px;
-  line-height: 1.45;
-}
-
-.pm-picker {
-  padding: 18px 16px;
-  text-align: center;
-}
-
-.pm-picker .pm-primary, .pm-picker .pm-secondary {
-  width: 100%;
-  margin-top: 14px;
-}
-
-.pm-picker-status {
-  min-height: 20px;
-  margin-top: 12px;
-  color: var(--pm-hint);
-  font-size: 13px;
-}
-
-.pm-picker-status.is-error, .pm-message-error {
-  color: var(--pm-danger);
-}
-
-.pm-primary, .pm-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 46px;
-  padding: 11px 20px;
-  border: 0;
-  border-radius: 14px;
-  font: inherit;
-  font-weight: 680;
-  cursor: pointer;
-  transition: transform 120ms ease, opacity 120ms ease;
-}
-
-.pm-primary {
-  background: linear-gradient(135deg, var(--pm-accent), var(--pm-accent-strong));
-  color: #ffffff;
-  box-shadow: 0 7px 18px rgba(111, 84, 202, 0.2);
-}
-
-.pm-secondary {
-  border: 1px solid var(--pm-border);
-  background: var(--pm-section);
-  color: var(--pm-link);
-}
-
-.pm-link {
-  width: 100%;
-  text-decoration: none;
-}
-
-.pm-note {
-  margin-top: 12px;
-  text-align: center;
-}
-
-.pm-island > .pm-note, .pm-island > .pm-secondary {
-  display: flex;
-  width: calc(100% - 28px);
-  margin-right: 14px;
-  margin-left: 14px;
-}
-
-.pm-island > .pm-secondary {
-  margin-top: 14px;
-}
-
-.pm-island > .pm-note {
-  margin-bottom: 14px;
-}
-
-.pm-banner, .pm-empty {
-  margin: 12px 0;
-  padding: 14px 16px;
-  border: 1px solid rgba(135, 116, 225, 0.2);
-  border-radius: 16px;
-  background: var(--pm-accent-soft);
-  color: var(--pm-hint);
-  font-size: 14px;
-  line-height: 1.45;
-}
-
-.pm-message {
-  position: fixed;
-  z-index: 20;
-  right: 16px;
-  bottom: calc(16px + var(--tg-content-safe-area-inset-bottom, 0px));
-  left: 16px;
-  width: auto;
-  max-width: 520px;
-  margin: 0 auto;
-  padding: 13px 16px;
-  border-radius: 14px;
-  background: var(--tg-theme-section-bg-color, #242f3d);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
-  color: var(--pm-text);
-  font-size: 14px;
-  text-align: center;
-  animation: pm-content-in 180ms ease-out both;
-}
-
-.pm-sr-only {
+/* The flat glyph is the mark's fallback, Telegram's Premium glyph or the Star. It shows only under .is-flat, which
+   premiumbot-3d.js sets where the 3D mark cannot draw or is slow to, so a normal load never flashes it. */
+.pm-mark-glyph {
   position: absolute;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  border: 0;
-  margin: -1px;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
+  inset: 6%;
+  display: none;
+  background: var(--brand-gradient, linear-gradient(90deg, #6b93ff, #976fff, #e169a0));
+  -webkit-mask: url(../img/premiumbot/ui-premium.svg) center / contain no-repeat;
+  mask: url(../img/premiumbot/ui-premium.svg) center / contain no-repeat;
 }
 
-.pm-cell:focus-visible, .pm-plan:focus-visible, .pm-chip:focus-visible,
-.pm-primary:focus-visible, .pm-secondary:focus-visible {
-  outline: 3px solid rgba(135, 116, 225, 0.45);
-  outline-offset: 2px;
+.pm-mark--stars .pm-mark-glyph {
+  background: linear-gradient(180deg, #ffe071, #f5a623);
+  -webkit-mask-image: url(../img/premiumbot/ui-star.svg);
+  mask-image: url(../img/premiumbot/ui-star.svg);
 }
 
-.lang_rtl .pm-app {
-  direction: rtl;
+/* The golden star's soft halo: the 3D star's own silhouette added as light, so in dark only and only behind that
+   star, not the flat glyph, whose star is another shape. premiumbot-3d.js sets its box and turns it with the star. */
+.pm-mark-bloom {
+  position: absolute;
+  display: none;
+  background: url(../img/premiumbot/star-bloom.svg) center / 100% 100% no-repeat;
+  mix-blend-mode: plus-lighter;
+  pointer-events: none;
 }
 
-.lang_rtl .pm-cell-icon, .lang_rtl .pm-plan-price {
-  margin-right: 0;
-  margin-left: 12px;
+.theme-dark .pm-mark.is-3d .pm-mark-bloom {
+  display: block;
 }
 
-.lang_rtl .pm-cell-chevron {
-  margin-right: 8px;
-  margin-left: 0;
-  transform: scaleX(-1);
+/* The WebGL mark's canvas, which premiumbot-3d.js sizes and centres on the mark. Where the mark falls back the script
+   hides it, and the glyph shows in its place. */
+.pm-mark-gl {
+  position: absolute;
 }
 
-.lang_rtl .pm-plan {
-  text-align: right;
+.pm-mark.is-flat .pm-mark-glyph {
+  display: block;
 }
 
-[hidden] {
-  display: none !important;
+/* Twinkling sparkles around the flat glyph, shown with it alone: the 3D mark has the stage's own particles. */
+.pm-twinkle {
+  position: absolute;
+  display: none;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, var(--twinkle-c), transparent 80%);
+  opacity: 0;
+  animation: pm-twinkle 3.1s ease-in-out infinite;
+  pointer-events: none;
 }
 
-@keyframes pm-spin {
-  to { transform: rotate(360deg); }
+.pm-mark.is-flat .pm-twinkle {
+  display: block;
 }
 
-@keyframes pm-hero-in {
-  from { opacity: 0; transform: translateY(10px) scale(0.92); }
-  to { opacity: 1; transform: translateY(0) scale(1); }
-}
-
-@keyframes pm-content-in {
-  from { opacity: 0; transform: translateY(7px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@media (max-width: 520px) {
-  .pm-app {
-    padding-right: 12px;
-    padding-left: 12px;
+@keyframes pm-twinkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.55);
   }
-
-  .pm-hero {
-    padding: 24px 18px 22px;
-    border-radius: 24px;
-  }
-
-  .pm-title {
-    font-size: 27px;
-  }
-
-  .pm-cell {
-    min-height: 64px;
-  }
-
-  .pm-plan-price {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 700px) {
-  .pm-app {
-    padding-top: 24px;
+  45% {
+    opacity: 0.95;
+    transform: scale(1);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .pm-hero-art, .pm-content, .pm-message {
+  .pm-twinkle {
+    animation: none;
+    opacity: 0.6;
+  }
+}
+
+/* Toasts: created by premiumbot.js inside .toast-region (base styles live in premiumbot-components.css). */
+
+/* Peer picker status line under the picker cell. */
+.pm-picker-status {
+  display: block;
+  margin-top: var(--space-8);
+  color: var(--hint);
+  font-size: var(--fs-sub);
+  line-height: var(--lh-sub);
+}
+
+.pm-picker-status:empty {
+  display: none;
+}
+
+/* On the gift pages the footer under the choose row holds the status alone: it keeps no room while the status is
+   empty, and the status text starts where a footer's text does. */
+.commerce--gift .section-footer:has(> .pm-picker-status:empty) {
+  display: none;
+}
+
+.commerce--gift .pm-picker-status {
+  margin-top: 0;
+}
+
+/* Choose Channel and Choose Group, one under the other, the tiles' 16 px apart: side by side a label of two words
+   wraps in a phone's column. Each is a tile of its section (components.css .section--tiles). */
+.pm-choice-cells {
+  display: grid;
+  gap: var(--space-16);
+}
+
+/* Hidden giveaway option records; the client resolves selections against them. */
+.js-gw-matrix {
+  display: none;
+}
+
+/* A purchase page shorter than the screen still docks its pay bar at the bottom: the block is a column as tall as
+   the viewport under the screen's 16 px top padding, and the bar takes the far end. */
+.subscription--paywall,
+.subscription--upgrade {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(var(--tg-viewport-stable-height, 100vh) - var(--tg-safe-area-inset-top, 0px) - var(--tg-content-safe-area-inset-top, 0px) - var(--space-16));
+}
+
+.subscription--paywall > .cta-bar,
+.subscription--upgrade > .cta-bar {
+  margin-top: auto;
+}
+
+/* A subscription screen with no hero opens on its title, in the hero title's type and blues, on the gutter's line:
+   16 under the header, the screen's own padding, and 20 over the first tile, the tiles' own step, so a pill on that
+   tile's top edge clears the title's line by 10, as it clears a tile above it. The room under the title is a margin:
+   the blues run over the line alone, as in a hero. */
+.subscription > .screen-title {
+  margin: 0 var(--gutter) calc(var(--space-16) + var(--space-4));
+  padding: 0;
+  font-size: var(--fs-hero);
+  line-height: var(--lh-hero);
+  letter-spacing: -0.02em;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .subscription > .screen-title {
+    background: var(--title-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: var(--title-glow);
+  }
+}
+
+/* Apple's Title 1 is 28/34, which leaves all that follows 2 px off the grid: here it takes a 36 px line. */
+.platform-ios .subscription :is(.screen-title, .hero-title) {
+  line-height: calc(36.005 / 28);
+}
+
+/* The upgrade screen's hero in the paywall's rhythm: the star 16 under the header, 16 to the title, 8 to the words,
+   then 20 to the offer. The screen pads the first 16 and the mark brings the second, so the hero has no head; the
+   sheet under the hero pads 8 of the 20, so its foot is 12. A plan with nothing to upgrade to opens on the same
+   hero: the star, the plan's name, and its price and term as the hero's words, a line each, with the links out to
+   the bot under them. */
+:is(.subscription--upgrade, .subscription--plan) .hero {
+  padding-block: 0 var(--space-12);
+}
+
+/* The state screens: an error, a pending payment and the paid results are one stage, a group in the paywall hero's
+   rhythm on the 4 px grid: the object's 160 px box, 20 to the title, 8 to the words, 24 to a tile. The block is a
+   column as tall as the viewport under the screen's 16 px top padding, and a docked bar takes its far end: an error's
+   actions, or the bar premiumbot.js ends a result with where the client has no native button. What the bar leaves is
+   the free height, counted from the screen's top, as the stage lies over the screen's padding (fx.css). The stage
+   takes nine tenths of it and a spacer the last tenth, and the group stands in the stage's middle with 16 px kept at
+   either end, so its middle is at 45% of the free height, the optical centre. A group too tall for that starts 16
+   under the top: the stage grows to hold it and the page scrolls. The column's height is the viewport's own, not
+   rounded to the grid, so the bar meets the screen's end as the pay bar does. */
+.result-screen {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(var(--tg-viewport-stable-height, 100vh) - var(--tg-safe-area-inset-top, 0px) - var(--tg-content-safe-area-inset-top, 0px) - var(--space-16));
+}
+
+.result-screen > .fx-stage {
+  flex: 9 0 0px;
+}
+
+.result-screen::after {
+  content: '';
+  flex: 1 0 0px;
+}
+
+/* The group stands a set way under the screen's top, 104 px, a little above the middle of a phone's screen, and not on
+   the middle of the viewport: the client's Done button comes up a moment after the page and takes its height from
+   the viewport, and a group centred in the viewport jumps up by half of that as it does. With the tile of what the
+   payment unlocked under the title, the group starts 32 px under the top and its mark is the paywall's size, so the
+   whole of it stands above the button on a phone. */
+.result-screen .fx-stage__content {
+  justify-content: flex-start;
+  padding-top: var(--result-top, 104px);
+  padding-bottom: var(--space-16);
+}
+
+.result-screen:has(.section--unlocked) {
+  --result-top: var(--space-32);
+}
+
+.result-screen .fx-stage--result:has(.section--unlocked) {
+  --fx-mark: 120px;
+}
+
+.result-screen .hero {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.result-screen :is(.pm-mark, .hero-media) {
+  margin-bottom: 20px;
+}
+
+/* Apple's Title 1 is 28/34, which leaves all that follows 2 px off the grid: here it takes a 36 px line. */
+.platform-ios .result-screen .hero-title {
+  line-height: calc(36.005 / 28);
+}
+
+.result-screen .hero-subtitle {
+  max-width: 320px;
+}
+
+.result-screen .hero + .section {
+  margin-top: var(--space-24);
+}
+
+/* An error's actions stand in the pay bar, 12 apart: the pay button's capsule, and under it a second one of the same
+   build in a tile's glass under a tile's hairline, which takes a tile's pressed surface in place. Both are links,
+   which the site's base styles would colour and underline: the first keeps the pay button's ink, the glass one a
+   tile's white. The bar comes after the column's spacer, and drops the pay bar's hairline: nothing runs under it
+   here, and a line would cut the screen's end off as a slab. */
+.result-screen > .cta-bar {
+  order: 1;
+  gap: var(--space-12);
+  box-shadow: none;
+}
+
+a.cta-button:is(:link, :visited, :hover, :active, :focus) {
+  color: var(--tone-solid-ink);
+  text-decoration: none;
+}
+
+a.cta-button.cta-button--glass:is(:link, :visited, :hover, :active, :focus) {
+  color: var(--text);
+}
+
+.cta-button.cta-button--glass {
+  background: var(--island-surface);
+  box-shadow: var(--island-shadow);
+}
+
+.cta-button.cta-button--glass.is-pressed:not([aria-disabled='true']) {
+  background-color: var(--island-press);
+}
+
+/* A Lottie box shows nothing until its file has drawn. The fallback glyph is for a box whose animation cannot play,
+   which holds no canvas (premiumbot-lottie.js), so a load that works never flashes the glyph. */
+.result-screen .lottie:has(> canvas):not(.is-ready) > .lottie-fallback {
+  visibility: hidden;
+}
+
+/* The error's animation is a flat white sign, so it stands on a cut stone of its own, the screen's one glossy object:
+   144 px in the object's 160 px box, red, lit from its upper left. Its outline is a gem's cut, an octagon with eased
+   corners, not a tile's: eight facets run round its edge, each one flat tone and each ending on two corners, from
+   the hot one at the light round to the deep ones away from it, top first and clockwise. In the middle lies the
+   octagonal table, with light along its upper edge and a soft light inside, and on its lit edge the one hard glint,
+   a four-point star in a bloom that the stone and the table each paint their part of; it twinkles now and then
+   (fx.css). The stone paints nothing outside its edge, where the sign's sparks end too, but it lifts the page behind
+   it in its own red, as the Premium star's haze does in blue: an ellipse spent a little past the object's box, over
+   a grain of about one level against banding. The sign takes three fifths of the table and is cut into it, dark
+   along its upper edges and lit along its lower; the fallback glyph is white as well, at the sign's size. */
+.result-screen .hero-media > .lottie--error {
+  --fallback-bg: #fff;
+  width: 144px;
+  height: 144px;
+  margin: var(--space-8) auto;
+  background:
+    radial-gradient(circle 28px at 44px 44px, rgb(255 255 255 / 0.6), rgb(255 255 255 / 0)),
+    conic-gradient(from -22.5deg, #ff8273 0 12.5%, #e2382d 0 25%, #8f1510 0 37.5%, #3a0403 0 50%, #5f0a07 0 62.5%, #b01f18 0 75%, #ff6f61 0 87.5%, #ffd2ca 0);
+  clip-path: path('M47.18 0H96.82Q101.82 0 105.36 3.54L140.46 38.64Q144 42.18 144 47.18V96.82Q144 101.82 140.46 105.36L105.36 140.46Q101.82 144 96.82 144H47.18Q42.18 144 38.64 140.46L3.54 105.36Q0 101.82 0 96.82V47.18Q0 42.18 3.54 38.64L38.64 3.54Q42.18 0 47.18 0Z');
+}
+
+.result-screen .hero-media:has(> .lottie--error)::before {
+  --cast: radial-gradient(closest-side, #000, rgb(0 0 0 / 0.82) 20%, rgb(0 0 0 / 0.5) 45%, rgb(0 0 0 / 0.2) 70%, rgb(0 0 0 / 0.05) 88%, transparent),
+    url(../img/premiumbot/grain.png), radial-gradient(closest-side, rgb(0 0 0 / 0.012) 70%, transparent);
+  content: '';
+  position: absolute;
+  inset: -40px -96px;
+  z-index: -1;
+  background: var(--strike);
+  opacity: 0.3;
+  -webkit-mask-image: var(--cast);
+  mask-image: var(--cast);
+  -webkit-mask-size: auto, 64px 64px, auto;
+  mask-size: auto, 64px 64px, auto;
+  -webkit-mask-composite: source-over, source-in, source-over;
+  mask-composite: add, intersect, add;
+  pointer-events: none;
+}
+
+.result-screen .lottie--error::before {
+  content: '';
+  position: absolute;
+  inset: var(--space-32);
+  background:
+    radial-gradient(circle 28px at 12px 12px, rgb(255 255 255 / 0.6), rgb(255 255 255 / 0)),
+    linear-gradient(90deg, rgb(255 255 255 / 0.55), rgb(255 255 255 / 0) 72%) 0 0 / 100% 1.5px no-repeat,
+    radial-gradient(72% 72% at 30% 24%, rgb(255 255 255 / 0.22), rgb(255 255 255 / 0)),
+    linear-gradient(135deg, #ff6658, #cf2a21 60%, #a81c16);
+  clip-path: polygon(29.29% 0, 70.71% 0, 100% 29.29%, 100% 70.71%, 70.71% 100%, 29.29% 100%, 0 70.71%, 0 29.29%);
+}
+
+.result-screen .lottie--error::after {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: 28px;
+  width: var(--space-32);
+  height: var(--space-32);
+  background: #fff;
+  clip-path: polygon(50% 0, 59% 41%, 100% 50%, 59% 59%, 50% 100%, 41% 59%, 0 50%, 41% 41%);
+}
+
+.result-screen .lottie--error > :is(canvas, .lottie-fallback) {
+  filter: drop-shadow(0 1px 0 rgb(255 255 255 / 0.3)) drop-shadow(0 -1px 1px rgb(96 6 3 / 0.7));
+}
+
+.result-screen .lottie--error > canvas {
+  transform: scale(0.68);
+}
+
+.result-screen .lottie--error > .lottie-fallback {
+  inset: var(--space-40);
+}
+
+/* Hero artwork: the server-rendered Lottie marks. Telegram's colour art plays as it is, with no disc behind it
+   (design §11.7), as large as the stage's mark (fx.css --fx-mark); the server sets no size on the element. */
+.hero-media > .lottie,
+.hero.fx-field > .lottie {
+  width: var(--fx-mark, 120px);
+  height: var(--fx-mark, 120px);
+  margin-inline: auto;
+}
+
+.hero-media > .lottie canvas,
+.lottie > canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* The lone winners row states facts the user must read: its value takes the readable grey, not the hint. */
+.pm-gw-fixed .cell-value {
+  color: var(--secondary-text);
+}
+
+/* The paywall's hero on the 4 px grid: the star 24 under the header, 16 to the title, as in every hero, 8 to the
+   subtitle, then 36 to the first plan, of which the pill that stands 14 px above that plan's top edge leaves 22
+   clear. The screen pads 16 of the 24, so the hero's own head is 8; of the 36 the sheet under the hero pads 8 and
+   the plans keep 16 for the pill (components.css), so the hero's foot is 12. */
+.home--paywall {
+  --hero-head: 8px;
+  --hero-mark-gap: 16px;
+  --hero-foot: 12px;
+}
+
+.home--paywall .pm-mark {
+  margin-bottom: var(--hero-mark-gap);
+}
+
+.home--paywall .hero {
+  padding-top: var(--hero-head);
+  padding-bottom: var(--hero-foot);
+}
+
+/* Apple's Title 1 is 28/34, which leaves all that follows 2 px off the grid: here it takes a 36 px line. */
+.platform-ios .home--paywall .hero-title {
+  line-height: calc(36.005 / 28);
+}
+
+/* A subscriber's home, active or in the grace period, wears the paywall's hero: the star in its 120 px box 16 under
+   the header, 16 to the title on its 36 px line, 8 to the words and 20 to the first tile, of which the sheet pads 8.
+   Under it the page is one stack of tiles 16 apart: the subscription, the other purchases, the features. */
+.home--subscriber .hero {
+  padding-top: 0;
+  padding-bottom: var(--space-12);
+}
+
+.platform-ios .home--subscriber .hero-title {
+  line-height: calc(36.005 / 28);
+}
+
+.home--subscriber .section {
+  margin-bottom: var(--space-16);
+}
+
+/* The subscription is a tile with an icon, a name and a value: Premium's own icon tile, and the plan in the blue of
+   a choice and in a value's weight. In the grace period the icon is the error mark, red, its sign's ring 20 px
+   across as on a banner (ui-warning's spans 21.9 of its 28 units), and the plan keeps the caption's grey: one hue a
+   tile. */
+.home--subscriber:not(.home--grace) .section--tiles .cell-value {
+  color: var(--accent);
+  font-weight: var(--fw-title);
+}
+
+.home--grace .section--tiles .icon[data-icon='ui-warning'] {
+  -webkit-mask-size: calc(20px * 28 / 21.9);
+  mask-size: calc(20px * 28 / 21.9);
+}
+
+/* A subscriber's home that has one thing to do ends in a docked bar: in the grace period the button that keeps
+   Premium, on a monthly plan the button to the upgrade. A page shorter than the screen still ends on it: the block
+   is a column as tall as the viewport under the screen's 16 px top padding, and the bar takes its far end. */
+.home--subscriber:has(> .cta-bar) {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(var(--tg-viewport-stable-height, 100vh) - var(--tg-safe-area-inset-top, 0px) - var(--tg-content-safe-area-inset-top, 0px) - var(--space-16));
+}
+
+.home--subscriber > .cta-bar {
+  margin-top: auto;
+}
+
+/* In the grace period the subscription's tile is lit in its mark's red: a red hairline in place of the tile's own,
+   and a soft red light round it that is spent within the 12 px to the next tile. */
+.home--grace .section--tiles .cell {
+  box-shadow:
+    inset 0 0 0 1px rgb(235 85 69 / 0.6),
+    0 0 0 1px rgb(235 85 69 / 0.16),
+    0 0 14px rgb(235 85 69 / 0.36);
+}
+
+/* The recovery's label is a long one. The capsule keeps 16 px at its sides here in place of 24, so the label stands
+   whole on a screen 375 wide, and on one 360 wide in Android's type; on a wider screen it never comes near them. */
+.home--grace .cta-button {
+  padding-inline: var(--space-16);
+}
+
+/* A subscriber's other purchases are his home's main content: tiles two by two, 12 apart, each a button whole.
+   A tile holds its icon tile at 40 px in its own colour and, 8 under it, its name in the title weight, with 12
+   over and under them: 92 high on one line of name, and the tiles of a row are as tall as the taller of them. A value, the
+   Stars balance, stands at the tile's top end on the icon's middle line, in the icon's gold; one too long to stand
+   beside the icon takes a line of its own under it. No chevron: the tile is the button. */
+.section--purchases .section-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-12);
+}
+
+.section--purchases .cell {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  row-gap: var(--space-8);
+}
+
+/* The kit's rule for a one-line row with an icon sets 4 px over and under it by a selector heavier than a section's
+   own, so this one repeats that selector. */
+.section--purchases .cell:has(> .cell-lead > .icon-tile):not(:has(> .cell-main > .cell-subtitle:not(:empty))) {
+  padding-block: var(--space-12);
+}
+
+.section--purchases .cell + .cell::before {
+  display: none;
+}
+
+.section--purchases .icon-tile {
+  --tile-box: 40px;
+  --tile: 40px;
+  --tile-radius: 10px;
+}
+
+.section--purchases .cell-main {
+  flex: none;
+  order: 1;
+  width: 100%;
+}
+
+.section--purchases .cell-title {
+  font-weight: var(--fw-title);
+}
+
+.section--purchases .cell-trail {
+  max-width: none;
+  margin-inline-start: auto;
+}
+
+.section--purchases .cell-chevron {
+  display: none;
+}
+
+/* What Premium includes, as one tile that is one link, in the plan tiles' module. Its first line is the name and the
+   disclosure chevron; its second, a drum that every feature's icon tile passes through in turn, so the tile shows
+   how much lies behind it before it is opened. The tile and the purchases under it are one block
+   of buttons, a tile's 12 px apart. */
+.section--perks {
+  margin-bottom: var(--space-12);
+}
+
+/* That block follows the plans at 12 in place of a section's 32, so the page is one stack of tiles. */
+.home--paywall .plans {
+  margin-bottom: var(--space-12);
+}
+
+/* 68 high: 8, the name's 20, 4, the row's 28, 8. The row's icons are 24 px, 2 px inside their line: 6 px under the
+   name's line and 10 px over the tile's foot. */
+.section--perks .cell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--space-4) var(--space-12);
+  padding: var(--space-8) var(--space-16);
+}
+
+.section--perks .cell-title {
+  font-weight: var(--fw-title);
+}
+
+/* The chevron is the tile's one sign that it opens, so it takes the caption colour whole, where the kit's rows dim
+   it. Its 24 px box gives up 2 px over and under, which leaves the first line as high as the name's own. */
+.section--perks .cell-chevron {
+  margin-block: -2px;
+  color: var(--secondary-text);
+  opacity: 1;
+}
+
+/* What Premium includes, as a row of every feature's icon tile in its own colour that runs through the tile's
+   second line in single file, on one level line, without end: 27 tiles 36 px apart make a loop of 972 px that goes
+   round at 18 px a second, and a tile's place in the row (--i) sets where on the loop it starts. The row never
+   stops and never steps, and it dims out at both ends of the line, so a tile comes and goes unseen. With motion
+   reduced the row stands still from the first feature on. */
+.perk-strip {
+  position: relative;
+  grid-column: 1 / -1;
+  height: 28px;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(to right, #0000, #000 56px, #000 calc(100% - 56px), #0000);
+  mask: linear-gradient(to right, #0000, #000 56px, #000 calc(100% - 56px), #0000);
+}
+
+/* The kit's icon tile at 24 px, its face the whole box, with a quarter-height radius. */
+.perk-strip > .icon-tile {
+  --tile-box: 24px;
+  --tile: 24px;
+  --tile-radius: 6px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  transform: translateX(calc(var(--i, 0) * 36px));
+}
+
+html:not(.fx-reduce) .perk-strip > .icon-tile {
+  animation: perk-run 54s linear infinite;
+  animation-delay: calc(var(--i, 0) * 2s - 52s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .perk-strip > .icon-tile {
     animation: none;
   }
+}
 
-  .pm-cell, .pm-plan, .pm-chip, .pm-primary, .pm-secondary {
-    transition: none;
+@keyframes perk-run {
+  from {
+    transform: translateX(936px);
   }
 
-  .pm-cell:active, .pm-plan:active, .pm-chip:active, .pm-primary:active, .pm-secondary:active {
-    transform: none;
+  to {
+    transform: translateX(-36px);
   }
+}
+
+/* At this size the kit's 14% sheen does not show the face lighter at its top: twice as much does. */
+.perk-strip > .icon-tile::before {
+  background: linear-gradient(rgb(255 255 255 / 0.28), rgb(255 255 255 / 0));
+}
+
+.perk-strip > :nth-child(1) {
+  --i: 0;
+}
+
+.perk-strip > :nth-child(2) {
+  --i: 1;
+}
+
+.perk-strip > :nth-child(3) {
+  --i: 2;
+}
+
+.perk-strip > :nth-child(4) {
+  --i: 3;
+}
+
+.perk-strip > :nth-child(5) {
+  --i: 4;
+}
+
+.perk-strip > :nth-child(6) {
+  --i: 5;
+}
+
+.perk-strip > :nth-child(7) {
+  --i: 6;
+}
+
+.perk-strip > :nth-child(8) {
+  --i: 7;
+}
+
+.perk-strip > :nth-child(9) {
+  --i: 8;
+}
+
+.perk-strip > :nth-child(10) {
+  --i: 9;
+}
+
+.perk-strip > :nth-child(11) {
+  --i: 10;
+}
+
+.perk-strip > :nth-child(12) {
+  --i: 11;
+}
+
+.perk-strip > :nth-child(13) {
+  --i: 12;
+}
+
+.perk-strip > :nth-child(14) {
+  --i: 13;
+}
+
+.perk-strip > :nth-child(15) {
+  --i: 14;
+}
+
+.perk-strip > :nth-child(16) {
+  --i: 15;
+}
+
+.perk-strip > :nth-child(17) {
+  --i: 16;
+}
+
+.perk-strip > :nth-child(18) {
+  --i: 17;
+}
+
+.perk-strip > :nth-child(19) {
+  --i: 18;
+}
+
+.perk-strip > :nth-child(20) {
+  --i: 19;
+}
+
+.perk-strip > :nth-child(21) {
+  --i: 20;
+}
+
+.perk-strip > :nth-child(22) {
+  --i: 21;
+}
+
+.perk-strip > :nth-child(23) {
+  --i: 22;
+}
+
+.perk-strip > :nth-child(24) {
+  --i: 23;
+}
+
+.perk-strip > :nth-child(25) {
+  --i: 24;
+}
+
+.perk-strip > :nth-child(26) {
+  --i: 25;
+}
+
+.perk-strip > :nth-child(27) {
+  --i: 26;
+}
+
+/* On the paid result what the payment unlocked is a band across the whole screen under the title, from edge to edge,
+   a line over it and a line under it and no ends. In it every feature's icon tile, 64 px, stands in three rows of
+   nine, 16 px apart, the middle row half a step in. The rows are wider than the screen and run off both its edges,
+   where they dim out, so the tiles are large and the wall of them has no end to be seen. The sheets alone show the
+   middle of the three rows, still. premiumbot-fx.js makes them a wall that goes round: it puts each row in a
+   strip of its own with a second copy of its tiles (.is-live, .perk-row), lets the rows drift at paces of their
+   own, follow a finger sideways and go on from where it lets go, and makes the tiles under a finger or a cursor
+   larger. A tile is smaller only where the viewport is too short for the three rows to stand above the screen's
+   end. The band is as tall as that: 16, the name's 20, 16, the rows, 20, which is 296 px on a phone. */
+.section--unlocked {
+  position: relative;
+  margin-inline: 0;
+  /* All that stands over and under the three rows: the group above them, the band's own padding and name, the page's
+     end and the docked bar with the screen's bottom inset. */
+  --perk-rest: calc(420px + max(16px, 8px + var(--tg-safe-area-inset-bottom, 0px) + var(--tg-content-safe-area-inset-bottom, 0px)));
+  --perk-tile: min(64px, (var(--tg-viewport-stable-height, 100vh) - var(--perk-rest)) / 3);
+  --perk-gap: 16px;
+}
+
+/* A tap on one of those tiles names its feature in a small cloud over it (premiumbot-fx.js cloudSay): the name in the
+   strong weight and its line of text a caption under it, both on the cloud's middle, each broken into lines of
+   like length where the renderer can. The cloud is no narrower than 176 px, so a short line is not a pill, and no
+   wider than 280. It stands on the page's colour under a tile's glass, so the tiles do not show through, with a
+   tip that points at the tile. It takes no pointer: the next tap anywhere puts it away. */
+.perk-bubble {
+  position: absolute;
+  z-index: 2;
+  box-sizing: border-box;
+  width: max-content;
+  min-width: 176px;
+  max-width: min(280px, 100% - 2 * var(--gutter));
+  padding: var(--space-12) var(--space-16);
+  border-radius: 16px;
+  background: linear-gradient(var(--island-surface), var(--island-surface)) var(--page);
+  box-shadow: var(--island-shadow), 0 8px 24px rgb(0 0 0 / 0.4);
+  color: var(--text);
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.perk-bubble.is-open {
+  opacity: 1;
+}
+
+/* The tip starts 1 px inside the cloud, over the line round it, so the two read as one shape. */
+.perk-bubble::after {
+  content: '';
+  position: absolute;
+  top: calc(100% - 1px);
+  left: calc(var(--tip, 50%) - 7px);
+  width: 14px;
+  height: 7px;
+  background: linear-gradient(var(--island-surface), var(--island-surface)) var(--page);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.perk-bubble--under::after {
+  top: auto;
+  bottom: calc(100% - 1px);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.perk-bubble-title {
+  display: block;
+  font-size: var(--fs-sub);
+  font-weight: var(--fw-title);
+  line-height: var(--lh-sub);
+  text-wrap: balance;
+}
+
+.perk-bubble-text {
+  display: block;
+  margin-top: 2px;
+  color: var(--secondary-text);
+  font-size: var(--fs-small);
+  line-height: var(--lh-small-wrap);
+  text-wrap: balance;
+}
+
+.section--unlocked .cell {
+  /* A band's surface: the tile's glass with its hairline over and under it only. The entrance's ring reads it. */
+  --island-shadow: inset 0 1px 0 var(--island-line), inset 0 -1px 0 var(--island-line);
+  row-gap: var(--space-16);
+  padding: var(--space-16) var(--gutter) calc(var(--space-16) + var(--space-4));
+  border-radius: 0;
+}
+
+/* The rows' window is the band's whole width, out through the tile's own padding, and 10 px taller than the rows at
+   either end, which a tile made larger needs. A finger moves the rows sideways and still scrolls the page up and
+   down. */
+.section--unlocked .perk-strip {
+  display: grid;
+  grid-template-columns: repeat(9, var(--perk-tile));
+  gap: var(--perk-gap);
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: -10px calc(-1 * var(--gutter));
+  padding-block: 10px;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(to right, #0000, #000 24px, #000 calc(100% - 24px), #0000);
+  mask: linear-gradient(to right, #0000, #000 24px, #000 calc(100% - 24px), #0000);
+  touch-action: pan-y;
+}
+
+.section--unlocked .perk-strip > .icon-tile,
+.section--unlocked .perk-row > .icon-tile {
+  --tile-box: var(--perk-tile);
+  --tile: var(--perk-tile);
+  --tile-radius: calc(var(--perk-tile) / 4);
+  /* In the row's flow, and still the box its glyph is placed in. */
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.section--unlocked .perk-strip > .icon-tile:nth-child(n + 10):nth-child(-n + 18) {
+  left: calc((var(--perk-tile) + var(--perk-gap)) / 2);
+}
+
+html:not(.fx-reduce) .section--unlocked .perk-strip .icon-tile {
+  animation: none;
+}
+
+/* With the script each row is a strip of its own, which the script moves; a tile is a layer of its own, so one made
+   larger costs nothing but its own redraw. */
+.section--unlocked .perk-strip.is-live {
+  display: block;
+}
+
+.section--unlocked .perk-row {
+  display: flex;
+  gap: var(--perk-gap);
+  width: max-content;
+  will-change: transform;
+}
+
+.section--unlocked .perk-row + .perk-row {
+  margin-top: var(--perk-gap);
+}
+
+.section--unlocked .perk-row > .icon-tile {
+  flex: none;
+  will-change: transform;
+}
+
+/* The paywall's other purchases, each its own tile and so plainly a button at rest: two by two, 56 high, 12
+   apart, the icon on the tiles' left line, the label after it, and no chevron. On this screen they are the
+   second thing to do, so they stay small; 56 holds a label of two lines, so both rows are one height. */
+.section--actions {
+  --action-min: 56px;
+}
+
+.section--actions .section-body {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-12);
+}
+
+/* The icon stands out of the flow at the tile's start and the text keeps clear of it (--sep-inset is where a row's
+   text starts), which leaves the label as the row's only item. */
+.section--actions .cell {
+  min-height: var(--action-min);
+  padding-inline-start: var(--sep-inset);
+}
+
+/* Two lines of text keep 8 px over and under, and a third makes the tile taller. The kit's rule for a one-line row
+   with an icon sets 4 px there by a selector heavier than a section's own, so this one repeats that selector. */
+.section--actions .cell:has(> .cell-lead > .icon-tile):not(:has(> .cell-main > .cell-subtitle:not(:empty))) {
+  padding-block: var(--space-8);
+}
+
+.section--actions .cell + .cell::before {
+  display: none;
+}
+
+.section--actions .cell-lead {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: var(--space-16);
+}
+
+.section--actions .cell-main {
+  flex: 0 1 auto;
+}
+
+.section--actions .cell-title {
+  font-size: var(--fs-sub);
+  font-weight: var(--fw-strong);
+  line-height: var(--lh-sub);
+}
+
+/* No chevron: the tile is the button. The Stars balance is not this small tile's business: it stays for screen
+   readers and shows on the Stars screen. */
+.section--actions .cell-chevron {
+  display: none;
+}
+
+.section--actions .cell-trail {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+/* The giveaway's two prizes as one page: the switch's runtime state hides the other prize. */
+[data-prize-both="premium"] .gw-prize[data-prize="stars"],
+[data-prize-both="premium"] .gw-prize-part--stars,
+[data-prize-both="stars"] .gw-prize[data-prize="premium"],
+[data-prize-both="stars"] .gw-prize-part--premium {
+  display: none;
 }

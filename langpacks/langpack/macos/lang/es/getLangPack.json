@@ -311,6 +311,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Instructions",
+      "value": "INSTRUCCIONES"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.LastRun",
       "value": "ÚLTIMA EJECUCIÓN"
     },
@@ -758,6 +763,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.Agent",
+      "value": "Agente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Chats.ChatLimitReached",
       "value": "Hay demasiados chats con IA. Elimina algunos chats para iniciar uno nuevo."
     },
@@ -765,6 +775,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Chats.Clear",
       "value": "Borrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ClearChat",
+      "value": "Vaciar chat"
     },
     {
       "_": "types.LangPackString",
@@ -838,8 +853,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ReadsChatsYouAllow",
+      "value": "Lee los chats que permites"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.UnderstandsVoice",
+      "value": "Entiende voz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.VoicePluginInfo",
       "value": "Envía mensajes de voz una vez que el plugin Whisper esté instalado en Dictado."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.WorksWithYourMac",
+      "value": "Funciona con tu Mac"
     },
     {
       "_": "types.LangPackString",
@@ -850,6 +880,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Conversations.TemporaryChat",
       "value": "Chat temporal"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Create",
+      "value": "Crear"
     },
     {
       "_": "types.LangPackString",
@@ -1414,13 +1449,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.HideShortcuts",
+      "value": "Ocultar atajos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.KeepInAllChats",
       "value": "Mantener en Todos los chats"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.NewShortcut",
+      "value": "Nuevo atajo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.Shortcuts.RemoveFromAllChats",
       "value": "Quitar de Todos los chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutLibrary",
+      "value": "Biblioteca de atajos"
     },
     {
       "_": "types.LangPackString",
@@ -1500,6 +1550,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteGroupTitle",
+      "value": "Eliminar grupo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.DeleteHook",
       "value": "Eliminar gancho"
     },
@@ -1510,8 +1565,40 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DoneDuration",
+      "value": "Listo · %1$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.DurationMinutes",
+      "one_value": "%1$dm",
+      "other_value": "%1$dm"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.DurationSeconds",
+      "one_value": "%1$ds",
+      "other_value": "%1$ds"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Edit",
+      "value": "Editar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.EditAgentTitle",
+      "value": "Editar agente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Failed",
       "value": "Fallido"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Groups",
+      "value": "Grupos"
     },
     {
       "_": "types.LangPackString",
@@ -1520,8 +1607,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.InstructionsHeader",
+      "value": "INSTRUCCIONES"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.InstructionsPlaceholder",
       "value": "Qué hace, cómo responde, qué sabe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ListenToCalls",
+      "value": "Escuchar llamadas"
     },
     {
       "_": "types.LangPackString",
@@ -1532,6 +1629,12 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.Researcher",
       "value": "Investigador"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.ShowMore",
+      "one_value": "Mostrar %1$d más",
+      "other_value": "Mostrar %1$d más"
     },
     {
       "_": "types.LangPackString",
@@ -1659,6 +1762,16 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.TaskController.WhatHappened",
       "value": "QUÉ PASÓ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIChatList.RowItem.HideFromChatList",
+      "value": "Ocultar de la lista de chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIChatList.RowItem.Profile",
+      "value": "Perfil"
     },
     {
       "_": "types.LangPackString",
@@ -1840,6 +1953,11 @@
       "_": "types.LangPackString",
       "key": "AIRoutine.EditorController.DeleteHook",
       "value": "Eliminar gancho"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.EmojiPlaceholder",
+      "value": "Emoji, por ejemplo: 📝"
     },
     {
       "_": "types.LangPackString",
@@ -5060,6 +5178,16 @@
       "_": "types.LangPackString",
       "key": "BroadcastGroups.Success",
       "value": "¡Listo! Ahora tu grupo no tiene límite de miembros."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenGame",
+      "value": "Abrir juego"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Browser.State.OpenMiniApp",
+      "value": "Abrir miniapp"
     },
     {
       "_": "types.LangPackString",
@@ -9317,6 +9445,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Summarized",
+      "value": "%1$@ resumido · %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Summarizing",
+      "value": "Resumiendo %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.ActivityRowItem.SummarizingEarlierMessages",
       "value": "Resumiendo mensajes anteriores"
     },
@@ -10505,6 +10643,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.EmptyPeerItem.WhatCanIDoForYou",
+      "value": "¿Qué puedo hacer por ti?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.EphemeralMessage.Revert",
       "value": "Revertir"
     },
@@ -11042,6 +11185,22 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.HeaderController.BlockBot",
+      "value": "Bloquear bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.HeaderController.RunningTask",
+      "value": "Ejecutando tarea"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.HeaderController.TaskPosition",
+      "one_value": "Tarea %2$d de %1$d",
+      "other_value": "Tarea %2$d de %1$d"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InlineRequest.Loading",
       "value": "Cargando..."
     },
@@ -11238,13 +11397,54 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.Shortcuts",
+      "value": "Atajos"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InputContext.EditQuickReply",
       "value": "Editar respuestas rápidas"
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.Edit",
+      "value": "Editar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.File",
+      "value": "Archivo"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.InputStagedFilesView.ItemCount",
+      "one_value": "%1$d ítem",
+      "other_value": "%1$d ítems"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.Remove",
+      "value": "Quitar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddToChats",
+      "value": "Añadir a Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChats",
+      "value": "Añadido a Chats"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InputStateContainers.AddedToChatsConfirmation",
       "value": "%1$@ añadido a Chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.DoNotNotify",
+      "value": "No notificar"
     },
     {
       "_": "types.LangPackString",
@@ -11260,6 +11460,11 @@
       "_": "types.LangPackString",
       "key": "Chat.InputStateContainers.RemovedFromChatsConfirmation",
       "value": "%1$@ quitado de Chats."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemovedFromNewsConfirmation",
+      "value": "%1$@ quitado de Noticias."
     },
     {
       "_": "types.LangPackString",
@@ -21455,8 +21660,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.Done",
+      "value": "Listo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.EncryptExport",
       "value": "Cifrar exportación"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.Encrypting",
+      "value": "Cifrando… %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ExportPassword",
+      "value": "Exportar contraseña"
     },
     {
       "_": "types.LangPackString",
@@ -21465,8 +21685,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.OpenInBrowser",
+      "value": "Abrir en el navegador"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.PasswordCopiedAdvice",
       "value": "Contraseña copiada. Guárdala en un lugar seguro. Telegram no puede recuperarla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordCopiedToClipboard",
+      "value": "Contraseña copiada al portapapeles."
     },
     {
       "_": "types.LangPackString",
@@ -25862,6 +26092,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "InApp.Links.OpenLink",
+      "value": "Abrir enlace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "InApp.Links.OpenLinkTitle",
+      "value": "¿Abrir el enlace?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "InAppLinks.AuthFailed",
       "value": "Autorización fallida."
     },
@@ -27066,6 +27306,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourBio",
+      "value": "ver tu biografía"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourBirthday",
+      "value": "ver tu cumpleaños"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourLastSeenTime",
+      "value": "ver tu hora de últ. vez"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourPhoneNumber",
+      "value": "ver tu número de teléfono"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourProfilePhoto",
+      "value": "ver tu foto de perfil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SendYouVoiceMessages",
+      "value": "enviarte mensajes de voz"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "LocalAgent.ActionDispatcherParams.FoldersDidnTLoadTryAgain",
       "value": "No se cargaron las carpetas. Reinténtalo."
     },
@@ -27193,6 +27463,12 @@
       "_": "types.LangPackString",
       "key": "LocalAgent.EngineActions.HasNoTopicsItIsnTAForum",
       "value": "“%1$@” no tiene temas. No es un foro."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Hours",
+      "one_value": "%1$d hora",
+      "other_value": "%1$d horas"
     },
     {
       "_": "types.LangPackString",
@@ -27675,13 +27951,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.OpenChat",
+      "value": "Abrir chat"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.ChatConfirmation.OpenNonContactChatTitle",
       "value": "¿Abrir chat con un “no contacto”?"
     },
     {
       "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.ThisPerson",
+      "value": "Esta persona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SlideToConfirm",
+      "value": "Desliza para confirmar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Lockdown.Confirmation.SliderAccessibilityHelp",
       "value": "Usa las teclas de flechas para mover el deslizador, luego presiona Intro para confirmar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.Download",
+      "value": "Descargar"
     },
     {
       "_": "types.LangPackString",
@@ -34141,6 +34437,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PersonalChannel.Actions.ShowAChannelOnYourProfile",
+      "value": "¿Mostrar un canal en tu perfil?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PersonalChannel.Actions.ShowChannelInfo",
       "value": "El agente quiere mostrar “%1$@” en tu perfil."
     },
@@ -36522,8 +36823,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileOpen.Actions.OpenProfileInfo",
+      "value": "El agente quiere abrir el perfil de “%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfilePhotos.Actions.ChangePhotoInfo",
       "value": "El agente quiere que tu foto de %1$@ vuelva a ser tu foto principal."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.ChangeYourProfilePhoto",
+      "value": "¿Cambiar tu foto de perfil?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.DeleteAProfilePhoto",
+      "value": "¿Eliminar una foto de perfil?"
     },
     {
       "_": "types.LangPackString",
@@ -36854,6 +37170,11 @@
       "_": "types.LangPackString",
       "key": "QRCode.Actions.NothingIsSentUntilYouTapSend",
       "value": ". No se envía nada hasta que pulses Enviar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.SendAQRCode",
+      "value": "¿Enviar un código QR?"
     },
     {
       "_": "types.LangPackString",
@@ -45607,6 +45928,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationView.RemoveVideoNote",
+      "value": "Quitar videomensaje"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationView.SaveMedia",
       "value": "Guardar multimedia"
     },
@@ -45614,6 +45940,11 @@
       "_": "types.LangPackString",
       "key": "Story.CreationView.SoundtrackVolume",
       "value": "Volumen de la música"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StopVideoNote",
+      "value": "Detener videomensaje"
     },
     {
       "_": "types.LangPackString",
@@ -46364,6 +46695,11 @@
       "_": "types.LangPackString",
       "key": "StoryCreationController.RemoveAudio",
       "value": "Quitar audio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveVideoNote",
+      "value": "¿Quitar este videomensaje?"
     },
     {
       "_": "types.LangPackString",
@@ -49677,6 +50013,11 @@
       "_": "types.LangPackString",
       "key": "UsernamesActions.ShowUsernamesInThisOrder",
       "value": "El agente quiere mostrar %1$@ nombres de usuario en este orden: %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTAnswerTryAgain",
+      "value": "Telegram no respondió. Reinténtalo."
     },
     {
       "_": "types.LangPackString",
@@ -56254,6 +56595,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Webpage.ModalController.Download",
+      "value": "Descargar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadFileFromMiniAppTitle",
+      "value": "¿Descargar archivo desde la miniapp?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Webpage.ModalController.DownloadFileInfo",
       "value": "%1$@ quiere descargar %2$@. Los archivos de miniapps pueden tener contenido inseguro."
     },
@@ -56266,6 +56617,11 @@
       "_": "types.LangPackString",
       "key": "Webpage.ModalController.ImportExistingMiniAppToken",
       "value": "¿Importar el token existente de la miniapp?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportToken",
+      "value": "Importar token"
     },
     {
       "_": "types.LangPackString",
@@ -56446,6 +56802,11 @@
       "_": "types.LangPackString",
       "key": "Widget.Recent.Title",
       "value": "Chats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ClickInAWidget",
+      "value": "haz clic en un widget"
     },
     {
       "_": "types.LangPackString",
@@ -56818,5 +57179,5 @@
       "value": "Mostrar sustituciones"
     }
   ],
-  "version": 2498541
+  "version": 2498554
 }

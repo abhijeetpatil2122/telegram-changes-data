@@ -48534,7 +48534,7 @@
     {
       "_": "types.LangPackString",
       "key": "Stars.Intro.AllTransactions",
-      "value": "Všetky transakcie"
+      "value": "Všetky pohyby"
     },
     {
       "_": "types.LangPackString",
@@ -57418,6 +57418,81 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.AddressCopied",
+      "value": "Adresa bola skopírovaná"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.ActiveConnections",
+      "value": "Aktívne spojenia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllDisconnected",
+      "value": "Všetky aplikácie boli odpojené."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.AllPermissions",
+      "value": "Pripojené aplikácie môžu vidieť adresu vašej peňaženky, zostatok a aktivitu. Bez vášho súhlasu nemôžu presúvať prostriedky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Disconnect",
+      "value": "Odpojiť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAll",
+      "value": "Odpojiť všetky aplikácie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllAction",
+      "value": "Odpojiť všetky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllError",
+      "value": "Tieto aplikácie sa nepodarilo odpojiť. Skúste to znova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllText",
+      "value": "Tieto aplikácie stratia prístup k vašej peňaženke. Kedykoľvek ich môžete znova pripojiť."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectAllTitle",
+      "value": "Odpojiť všetky aplikácie?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.DisconnectError",
+      "value": "Túto aplikáciu sa nepodarilo odpojiť. Skúste to znova."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Permissions",
+      "value": "Táto aplikácia vidí adresu vašej peňaženky, zostatok a aktivitu. Aplikácia nemôže presúvať prostriedky bez vášho súhlasu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Apps.Title",
+      "value": "Prepojené aplikácie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.BackupDisabledTitle",
+      "value": "Zálohovanie je vypnuté"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Authorization.VerificationExpiredTitle",
+      "value": "Platnosť overenia vypršala"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Backup.CancelDisabling",
       "value": "Zrušiť vypnutie"
     },
@@ -57430,6 +57505,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Backup.Disable",
       "value": "Vypnúť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableErrorTitle",
+      "value": "Nepodarilo sa vypnúť zálohovanie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Backup.DisableText",
+      "value": "Získať prístup k prostriedkom bude možné len pomocou tajnej frázy, ktorá sa zadáva manuálne."
     },
     {
       "_": "types.LangPackString",
@@ -57478,6 +57563,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Backup.WalletChangedTitle",
+      "value": "Kľúč peňaženky bol zmenený"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Connect.Action",
+      "value": "Pripojiť"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Connect.Proof",
       "value": "Aplikácia %@ vyžaduje, aby ste preukázali vlastníctvo tejto peňaženky."
     },
@@ -57518,6 +57613,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Import.Action",
+      "value": "Importovať"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.ErrorTitle",
+      "value": "Peňaženku sa nepodarilo importovať"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Import.InvalidPhraseTitle",
       "value": "Neplatná tajná fráza"
     },
@@ -57525,6 +57630,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Import.PhraseChangedTitle",
       "value": "Tajná fráza bola zmenená."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTextFallback",
+      "value": "Uistite sa, že ste si vašu tajnú frázu zapísali správne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Import.TestTitle",
+      "value": "Čas na test"
     },
     {
       "_": "types.LangPackString",
@@ -57548,8 +57663,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapText",
+      "value": "Poplatky sú takmer nulové, a to aj pri veľkých prevodoch."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.CheapTitle",
+      "value": "Lacný"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastText",
+      "value": "Prevody sa potvrdia v priebehu niekoľkých sekúnd, kdekoľvek na svete."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FastTitle",
+      "value": "Rýchly"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.FirstGramsRateText",
       "value": "**1 Gram** sa momentálne rovná **%@**.\nMôžete:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.FirstGramsText",
+      "value": "Môžete:"
     },
     {
       "_": "types.LangPackString",
@@ -57608,6 +57748,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulText",
+      "value": "Plaťte za aplikácie, služby a poplatky v rámci ekosystému TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Info.UsefulTitle",
+      "value": "Užitočný"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Info.ZeroFeesText",
       "value": "Prvých 5 prevodov denne je bezplatných. Ostatné stoja takmer nič."
     },
@@ -57623,8 +57773,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.OptionalMessage",
+      "value": "Nepovinná správa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.PasscodeFaceId",
       "value": "Prístupový kód a Face ID"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.PasscodeTouchId",
+      "value": "Prístupový kód a Touch ID"
     },
     {
       "_": "types.LangPackString",
@@ -57638,13 +57798,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ProtectAccount",
+      "value": "Zabezpečiť svoj účet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.BuyShort",
+      "value": "Kúpiť za hotovosť/kryptomeny"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Receive.CopyAddress",
       "value": "Kopírovať moju adresu"
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Receive.PeerShowQR",
+      "value": "Zobraziť QR kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.ShowQR",
+      "value": "Zobraziť môj QR kód"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Receive.Text",
+      "value": "Zdieľajte vašu adresu alebo tento\nQR kód na prijatie GRAMOV."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.GramWallet",
+      "value": "Peňaženka GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Recipient.Placeholder",
+      "value": "Adresa alebo meno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Recipient.Title",
       "value": "Vybrať príjemcu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.RestoreErrorTitle",
+      "value": "Peňaženku sa nepodarilo obnoviť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Retry",
+      "value": "Skúsiť znova"
     },
     {
       "_": "types.LangPackString",
@@ -57678,6 +57883,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Send.DepositFunds",
+      "value": "Vložiť prostriedky"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Send.DiscardAlertText",
       "value": "Zrušiť tento prenos?"
     },
@@ -57685,6 +57895,16 @@
       "_": "types.LangPackString",
       "key": "Wallet.Send.Grams",
       "value": "Gramy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.InsufficientFunds",
+      "value": "Nedostatočné prostriedky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Send.PublicComment",
+      "value": "Zverejniť komentár"
     },
     {
       "_": "types.LangPackString",
@@ -57718,8 +57938,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnableBackup",
+      "value": "Povoliť zálohovanie"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.EnterSecretPhrase",
       "value": "Zadajte tajnú frázu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.EnterSecretPhraseInfo",
+      "value": "Zadajte vašu tajnú frázu pre obnovenie prístupu k tejto peňaženke."
     },
     {
       "_": "types.LangPackString",
@@ -57728,8 +57958,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Settings.LastUsed",
+      "value": "\n%1$@ — naposledy použitá %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWallets",
+      "value": "PREDCHÁDZAJÚCE PEŇAŽENKY"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.PreviousWalletsInfo",
+      "value": "Peňaženky, ktoré ste predtým používali na tomto zariadení. Uložte si ich tajné frázy – po odhlásení alebo preinštalovaní aplikácie sa odstránia."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Settings.ShowPhraseErrorTitle",
       "value": "Nepodarilo sa zobraziť tajnú frázu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedText",
+      "value": "Vaša nová peňaženka je pripravená na použitie."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Settings.WalletCreatedTitle",
+      "value": "Peňaženka bola vytvorená"
     },
     {
       "_": "types.LangPackString",
@@ -57740,6 +57995,81 @@
       "_": "types.LangPackString",
       "key": "Wallet.ShowSecretPhrase",
       "value": "Zobraziť tajnú frázu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.BinaryContent",
+      "value": "Binárny obsah"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Confirm",
+      "value": "Potvrdiť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.ConfirmAction",
+      "value": "Potvrdenie akcie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Data",
+      "value": "Údaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Fee",
+      "value": "Poplatok: %@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAddress",
+      "value": "adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldAmount",
+      "value": "množstvo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.FieldComment",
+      "value": "komentár"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.MessageExplanation",
+      "value": "Skontrolujte podrobnosti správy a podpíšte, ak súhlasíte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Sign",
+      "value": "Podpísať"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.SignData",
+      "value": "Podpísanie údajov"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sign.Submission",
+      "value": "Aplikácia tento prevod odošle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.BackgroundNotAllowedError",
+      "value": "Tento darček nie je možné nastaviť ako pozadie vašej karty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.InvalidError",
+      "value": "Jedna z týchto nálepiek sa na karte nedá použiť. Podporované sú iba darčeky, ktoré patria tejto peňaženke."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Sticker.SaveErrorTitle",
+      "value": "Kartu sa nepodarilo uložiť"
     },
     {
       "_": "types.LangPackString",
@@ -57758,8 +58088,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CallContract",
+      "value": "Kúpna opcia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CardTopUp",
+      "value": "Dobitie karty"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.Date",
       "value": "Dátum"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Deposit",
+      "value": "Vklad"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Excess",
+      "value": "Preplatok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Failed",
+      "value": "Zlyhala"
     },
     {
       "_": "types.LangPackString",
@@ -57768,8 +58123,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.FreeFee",
+      "value": "Zadarmo (platí Telegram)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.GramInfo",
+      "value": "Čo je Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.KeyUpdate",
+      "value": "Aktualizácia kľúča"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.MovedFromProfile",
+      "value": "presunutý z profilu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OpenWallet",
       "value": "Otvoriť moje Peniaze"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Processing",
+      "value": "Spracúva sa..."
     },
     {
       "_": "types.LangPackString",
@@ -57778,8 +58158,48 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Sender",
+      "value": "Odosielateľ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Telegram",
+      "value": "Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Transfer",
+      "value": "Pohyb"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownAddress",
+      "value": "Neznáma adresa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.UnknownOperation",
+      "value": "Neznáma operácia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Username",
+      "value": "Používateľské meno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.WhatIsGram",
       "value": "Čo je Gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.Withdrawal",
+      "value": "Výber"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transactions",
+      "value": "Pohyby"
     },
     {
       "_": "types.LangPackString",
@@ -57818,6 +58238,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transfer.Header",
+      "value": "POHYBY"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.HeaderMultiple",
+      "value": "POHYBY"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transfer.KeyChangedTitle",
+      "value": "Kľúč peňaženky bol zmenený"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transfer.PendingTitle",
       "value": "Čaká sa na prevod"
     },
@@ -57833,6 +58268,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.ViewInExplorer",
+      "value": "Zobraziť v prehliadači"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.ViewProfile",
       "value": "Zobraziť profil >"
     },
@@ -57845,6 +58285,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Words.Title",
       "value": "Vaša tajná fráza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Words.TooFastTitle",
+      "value": "Hotovo?"
     },
     {
       "_": "types.LangPackString",
@@ -59495,5 +59940,5 @@
       "value": "Zadali ste neplatný bezpečnostný kód."
     }
   ],
-  "version": 22774976
+  "version": 22779485
 }

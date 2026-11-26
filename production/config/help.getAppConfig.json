@@ -1210,6 +1210,10 @@
             },
             {
               "_": "types.JsonString",
+              "value": "rich_formatting"
+            },
+            {
+              "_": "types.JsonString",
               "value": "todo"
             }
           ]
@@ -1469,6 +1473,14 @@
         "value": {
           "_": "types.JsonNumber",
           "value": 2.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "ephemeral_welcome_messages_max",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 3.0
         }
       },
       {
@@ -2370,7 +2382,7 @@
         "key": "ton_usd_rate",
         "value": {
           "_": "types.JsonNumber",
-          "value": 0.921339481120463
+          "value": 0.9737075495932723
         }
       },
       {
@@ -3154,6 +3166,22 @@
       },
       {
         "_": "types.JsonObjectValue",
+        "key": "community_peers_limit",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 100.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "community_bot_peers_limit",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 100.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
         "key": "message_length_limit_default",
         "value": {
           "_": "types.JsonNumber",
@@ -3223,8 +3251,142 @@
           "_": "types.JsonBool",
           "value": true
         }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "wallet_available",
+        "value": {
+          "_": "types.JsonBool",
+          "value": false
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "wallet_transfer_min_nanos",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 100000000.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "wallet_gasless_min_nanos",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 100000000.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "wallet_gasless_daily_transfers",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 5.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "bot_allowed_suffixes",
+        "value": {
+          "_": "types.JsonArray",
+          "value": [
+            {
+              "_": "types.JsonString",
+              "value": "agent"
+            },
+            {
+              "_": "types.JsonString",
+              "value": "ai"
+            },
+            {
+              "_": "types.JsonString",
+              "value": "app"
+            },
+            {
+              "_": "types.JsonString",
+              "value": "game"
+            },
+            {
+              "_": "types.JsonString",
+              "value": "gay"
+            }
+          ]
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "bot_additional_usernames_limit",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 2.0
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "wallet_card_bg_gifts",
+        "value": {
+          "_": "types.JsonArray",
+          "value": [
+            {
+              "_": "types.JsonString",
+              "value": "PlushPepe"
+            },
+            {
+              "_": "types.JsonString",
+              "value": "ResistanceDog"
+            }
+          ]
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "round_video_recorder_2_allowed",
+        "value": {
+          "_": "types.JsonBool",
+          "value": false
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "stargifts_fixed_sale_enabled",
+        "value": {
+          "_": "types.JsonBool",
+          "value": true
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "onchain_stargift_offers_enabled",
+        "value": {
+          "_": "types.JsonBool",
+          "value": true
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "speech_to_text",
+        "value": {
+          "_": "types.JsonString",
+          "value": "premium"
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "bot_invites_enabled",
+        "value": {
+          "_": "types.JsonBool",
+          "value": true
+        }
+      },
+      {
+        "_": "types.JsonObjectValue",
+        "key": "stargifts_merged_resale_collections_limit",
+        "value": {
+          "_": "types.JsonNumber",
+          "value": 5.0
+        }
       }
     ]
   },
-  "hash": 1378561552
+  "hash": 482413866
 }

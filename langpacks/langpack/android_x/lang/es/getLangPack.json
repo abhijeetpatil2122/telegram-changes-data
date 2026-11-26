@@ -2240,6 +2240,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallOngoingIncoming",
+      "value": "Llamada saliente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallOngoingOutgoing",
+      "value": "Llamada saliente"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallProblemAppChannel",
       "value": "Las llamadas entrantes no aparecen"
     },
@@ -2250,8 +2260,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallProblemBackground",
+      "value": "Es posible que no se reciban llamadas mientras la app esté cerrada"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallProblemBackgroundAction",
+      "value": "Abrir ajustes de batería"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallProblemBackgroundGuide",
       "value": "La actividad en segundo plano de **Telegram X** está restringida en los ajustes de batería de tu teléfono, por lo que es posible que no recibas llamadas entrantes mientras la app esté cerrada.\n\nToca **Abrir ajustes de batería**, luego **Batería** y desactiva la restricción de actividad en segundo plano para Telegram X."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallProblemChannelGuide",
+      "value": "Las notificaciones de **llamadas entrantes** de esta cuenta están silenciadas o desactivadas en los ajustes del sistema, por lo que las llamadas entrantes no suenan ni aparecen en la pantalla de bloqueo.\n\nToca **Abrir ajustes de llamadas entrantes** para configurar que suenen y se muestren en pantalla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallProblemFullScreen",
+      "value": "Las llamadas no se muestran en la pantalla de bloqueo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallProblemFullScreenAction",
+      "value": "Permitir llamadas en la pantalla de bloqueo"
     },
     {
       "_": "types.LangPackString",
@@ -2274,10 +2309,36 @@
       "value": "Las notificaciones de **llamadas en curso** están desactivadas en los ajustes del sistema, por lo que las llamadas en curso no muestran notificaciones para regresar a ellas o colgar.\n\nToca **Abrir ajustes de llamadas en curso** para activarlas."
     },
     {
+      "_": "types.LangPackString",
+      "key": "CallRingtoneUserHint",
+      "value": "Puedes configurar un tono de llamada personalizado para usuarios específicos en su perfil."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "CallSettingsResetConfirmCustom",
       "one_value": "¿Quieres restablecer los ajustes de llamadas a los valores por defecto, incluyendo %1$s personalizado?",
       "other_value": "¿Quieres restablecer los ajustes de llamadas a los valores por defecto, incluyendo %1$s personalizados?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "CallSettingsResetOthers",
+      "one_value": "Restablecer para %1$s cuenta más",
+      "other_value": "Restablecer para %1$s cuentas más"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallTapToSeeCaller",
+      "value": "Toca para ver quién está llamando"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallUnlock",
+      "value": "Desbloquear"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallUnlockToAnswer",
+      "value": "Desbloquea la app para contestar la llamada"
     },
     {
       "_": "types.LangPackString",
@@ -11902,6 +11963,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NotificationChannelCommonCalls",
+      "value": "Ajustes por defecto del tono de llamada para todas las llamadas entrantes."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NotificationChannelCommonChannels",
       "value": "Ajustes de notificaciones por defecto para todos los canales."
     },
@@ -11964,6 +12030,11 @@
       "_": "types.LangPackString",
       "key": "NotificationChannelUser",
       "value": "Ajustes personalizados de notificaciones para mensajes y menciones de %1$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationChannelUserCalls",
+      "value": "Ajustes personalizados del tono de llamada para las llamadas de %1$s."
     },
     {
       "_": "types.LangPackString",
@@ -12887,6 +12958,16 @@
       "_": "types.LangPackString",
       "key": "PasscodePattern",
       "value": "Patrón"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeRequireForCalls",
+      "value": "Requerir para llamadas entrantes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PasscodeRequireForCallsInfo",
+      "value": "Si está activada, no podrás contestar a las llamadas entrantes sin desbloquear primero la app con el código de bloqueo."
     },
     {
       "_": "types.LangPackString",
@@ -20694,6 +20775,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoipMicrophoneOff",
+      "value": "Micrófono desactivado. Abre la llamada para activarlo"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoipMissed",
       "value": "Llamada perdida"
     },
@@ -24576,5 +24662,5 @@
       "other_value": "%1$s años"
     }
   ],
-  "version": 1677015
+  "version": 1677020
 }

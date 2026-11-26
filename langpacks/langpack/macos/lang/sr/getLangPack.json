@@ -4151,6 +4151,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Affiliate.Actions.JoinConfirmation",
+      "value": "Агент жели да се %1$@ придружи сарадничком програму за %2$@ и добије сарадничку везу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Affiliate.Actions.JoinProgram",
       "value": "Придружити се сарадничком програму?"
     },
@@ -4158,6 +4163,11 @@
       "_": "types.LangPackString",
       "key": "Affiliate.Actions.Leave",
       "value": "Напусти"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Affiliate.Actions.LeaveConfirmation",
+      "value": "Агент жели да %1$@ напусти сараднички програм за %2$@. Његова веза престаје да доноси зараду."
     },
     {
       "_": "types.LangPackString",
@@ -19270,6 +19280,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatToolsActions.ChangeSendAs",
+      "value": "Агент жели да ваше поруке у „%1$@” стижу од %2$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatToolsActions.DeleteAction",
       "value": "Избриши"
     },
@@ -24025,6 +24040,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.BrowserInstructions",
+      "value": "Унесите лозинку у свом прегледачу. Ако преместите извоз, држите „%1$@” и фасциклу „%2$@” заједно."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.Cancelled",
       "value": "Извоз је отказан."
     },
@@ -24040,13 +24060,58 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.CreationFailed",
+      "value": "Прављење шифрованог извоза није успело."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.DiskFull",
+      "value": "Чување шифрованог извоза није успело јер је диск пун."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.Done",
       "value": "Готово"
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.EncryptExport",
+      "value": "Шифруј извоз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.EncryptedDescription",
+      "value": "Извоз се отвара у веб-прегледачу, као што су Safari или Chrome, и тражи лозинку, са сакривеним називима ћаскања и датотека. Telegram приказује лозинку када извоз почне. Различита је за сваки извоз и не може се опоравити."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.Encrypting",
       "value": "Шифровање… %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ExportPassword",
+      "value": "Лозинка за извоз"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ExportReady",
+      "value": "Извоз спреман"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.FolderPermissionDenied",
+      "value": "Telegram не може да сачува датотеке у одабраној фасцикли. Изаберите другу фасциклу и покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.FolderUnavailable",
+      "value": "Изабрана фасцикла више није доступна. Изаберите другу фасциклу и покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.InsufficientSpace",
+      "value": "Нема довољно слободног простора за чување шифрованог извоза. Потребно је око %1$@, а доступно је само %2$@."
     },
     {
       "_": "types.LangPackString",
@@ -24060,8 +24125,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordCopiedAdvice",
+      "value": "Лозинка је копирана. Чувајте је на безбедном месту. Telegram је не може повратити."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EncryptedExport.PasswordCopiedToClipboard",
       "value": "Лозинка копирана."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordCreationFailed",
+      "value": "Прављење лозинке за извоз није успело. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PasswordForThisExport",
+      "value": "ЛОЗИНКА ЗА ОВАЈ ИЗВОЗ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PreparationDiskFull",
+      "value": "Диск вашег Mac-а је пун, па извоз није могао да буде припремљен. Ослободите мало простора и покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.PrivateFolderFailed",
+      "value": "Припрема приватне фасцикле за извоз није успела."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.ReadFailed",
+      "value": "Читање извезених датотека ради шифровања није успело. Покушајте поново да извезете податке."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.RegularDescription",
+      "value": "Извоз се чува као обична фасцикла коју може да отвори свако с приступом овом Mac-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.SavePasswordAdvice",
+      "value": "Сачувајте је одмах на безбедном месту: Telegram је не чува и не може се повратити."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.SavePasswordReminder",
+      "value": "Сачувајте ову лозинку. Требаће вам да отворите извоз, а Telegram не може да је поврати."
     },
     {
       "_": "types.LangPackString",
@@ -24072,6 +24182,11 @@
       "_": "types.LangPackString",
       "key": "EncryptedExport.ShowInFinder",
       "value": "Прикажи у Finder-у"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.UncopiedPasswordWarning",
+      "value": "Нисте копирали лозинку. Без ње нико не може да отвори овај извоз, а Telegram не може поново да је прикаже."
     },
     {
       "_": "types.LangPackString",
@@ -27514,6 +27629,11 @@
       "_": "types.LangPackString",
       "key": "GlobalPrivacy.Actions.FreeMessagesConfirmation",
       "value": "Агент жели да дозволи свима да вам шаљу поруке бесплатно."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GlobalPrivacy.Actions.GiftPrivacyConfirmation",
+      "value": "Агент жели да прихватате %1$@%2$@, при чему је дугме за поклоне у ћаскањима %3$@."
     },
     {
       "_": "types.LangPackString",
@@ -33872,6 +33992,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "NewsFeedbackActions.SetTopicsConfirmation",
+      "value": "Агент жели да одељак новости „За вас” прати следеће: %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "NewsFeedbackActions.TopicsLoadFailed",
       "value": "Теме новости нису учитане. Покушајте поново."
     },
@@ -39921,6 +40046,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.ChangePhotoInfo",
+      "value": "Агент жели да ваша слика од %1$@ поново буде главна слика профила."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfilePhotos.Actions.Delete",
       "value": "Избриши"
     },
@@ -40468,6 +40598,11 @@
       "_": "types.LangPackString",
       "key": "QuickReaction.Actions.Change",
       "value": "Промени"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReaction.Actions.ChangeQuickReactionInfo",
+      "value": "Агент жели да двоструки клик на поруку остави реакцију %1$@."
     },
     {
       "_": "types.LangPackString",
@@ -44937,6 +45072,11 @@
       "_": "types.LangPackString",
       "key": "SoundsActions.ChangeContactPhotoTitle",
       "value": "Променити слику контакта?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SoundsActions.ChangeSoundConfirmation",
+      "value": "Агент жели да вас „%1$@” обавештава звуком „%2$@”."
     },
     {
       "_": "types.LangPackString",
@@ -60813,5 +60953,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2498768
+  "version": 2502779
 }

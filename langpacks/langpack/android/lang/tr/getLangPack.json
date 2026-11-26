@@ -9481,6 +9481,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotTypeNonBinary",
+      "value": "İkili olmayan"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotUnblock",
       "value": "YENİDEN BAŞLAT"
     },
@@ -15570,6 +15575,31 @@
       "_": "types.LangPackString",
       "key": "CreateManagedBotUsernameInfo",
       "value": "Bot kullanıcı adını düzenlemek için dokunun."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameOwnerLimit",
+      "value": "Tüm botlarınızda yalnızca %1$d ile biten %2$s kullanabilirsiniz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernamePremiumRequired",
+      "value": "'%1$s' ile biten kullanıcı adları Telegram Premium gerektirir. **Abone ol ›**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesComma",
+      "value": "%1$s, %2$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesInfo",
+      "value": "'bot' ile bitmeli veya **Telegram Premium** ile %1$s ile bitmelidir."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateManagedBotUsernameSuffixesOr",
+      "value": "%1$s ya da %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -25587,6 +25617,12 @@
       "_": "types.LangPackString",
       "key": "Grain",
       "value": "Kumlanma"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "GramCapital",
+      "one_value": "%1$s GRAM",
+      "other_value": "%1$s GRAM"
     },
     {
       "_": "types.LangPackString",
@@ -56406,6 +56442,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "Şifrelenmiş anahtar yedeğiniz üç parçaya bölünmüş ve üç kıtaya yayılmış olarak saklanmaktadır.\n\nBu yedek yalnızca cihazlarınızda yeniden birleştirilebilir; bu sayede hiç kimse — Telegram bile — anahtarınıza erişemez."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletBalanceAmount",
       "value": "Bakiye: %1$s"
     },
@@ -56441,8 +56482,53 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Cüzdanı Sil"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletInfo",
+      "value": "12 kelimelik gizli ifadenizi kaydetmediyseniz, fonlarınıza erişiminizi kaybedersiniz."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDeleteWalletTitle",
+      "value": "Cüzdan Silinsin mi?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDepositFunds",
       "value": "Para yatır"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "Devre Dışı Bırak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Yedeklemeyi Devre Dışı Bırak"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "Paranızı geri almanın tek yolu, gizli ifadenizi manuel olarak girmek olacaktır."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Yedekleme devre dışı bırakılsın mı?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "Tamam"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "Şifreli Yedekleme"
     },
     {
       "_": "types.LangPackString",
@@ -56516,6 +56602,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Gizli İfadeniz, cüzdanınızı yedeklemenin ve kurtarmanın anahtarıdır. Onu her zaman gizli ve güvende tutun."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseLearnButton",
       "value": "Gizli İfadeyi Göster"
     },
@@ -56538,6 +56629,11 @@
       "_": "types.LangPackString",
       "key": "WalletRecoveryPhraseSupportWarning",
       "value": "Telegram Destek ekibi sizden Gizli İfadenizi **asla istemez**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "12 veya 24 kelimelik gizli ifadenizi kopyalayarak cüzdanınızı başka bir cihaza aktarabilirsiniz."
     },
     {
       "_": "types.LangPackString",
@@ -56606,6 +56702,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "Gizli İfadeyi Güncelle"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhraseInfoWithFee",
+      "value": "Not etmeniz için yeni bir ifade alacaksınız. Adres ve bakiye aynı kalır.\n\nAğ ücreti: %1$s (~%2$s)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUserWallet",
       "value": "%1$s kişisinin cüzdanı"
     },
@@ -56623,6 +56729,11 @@
       "_": "types.LangPackString",
       "key": "WalletWhatIsGram",
       "value": "Gram nedir?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Gizli İfadeniz"
     },
     {
       "_": "types.LangPackString",
@@ -57687,5 +57798,5 @@
       "value": "Telegram Pasaportu"
     }
   ],
-  "version": 62185011
+  "version": 62317359
 }

@@ -75,6 +75,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.EditController.InstructionsPlaceholder",
+      "value": "Шта ради, како одговара, шта зна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.EditController.NamePlaceholder",
+      "value": "нпр. Преводилац"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.EditController.Save",
       "value": "Сачувај"
     },
@@ -95,6 +105,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.AddRoutine",
+      "value": "Додај рутину"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.AgentAccess",
       "value": "Приступ агента"
     },
@@ -102,6 +117,11 @@
       "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.And",
       "value": " и "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.DailyScheduleDraft",
+      "value": "Сваког дана у 9:00, "
     },
     {
       "_": "types.LangPackString",
@@ -115,8 +135,25 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.DeleteHook",
+      "value": "Избриши закачку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.DeleteRoutine",
+      "value": "Избриши рутину"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.Edit",
       "value": "Уреди"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": " Групе које остану без чланова биће избрисане.",
+      "key": "AIAgent.ProfileController.EmptyGroupsDeleted",
+      "one_value": " Група која остане без чланова биће избрисана.",
+      "other_value": " Групе које остану без чланова биће избрисане."
     },
     {
       "_": "types.LangPackString",
@@ -139,6 +176,28 @@
       "value": "УПУТСТВА"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.InstructionsPlaceholder",
+      "value": "Шта ради, како одговара, шта зна"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.LeadMembers",
+      "value": "Вођа · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.LeaveGroup",
+      "value": "Напустиће %1$@."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Напустиће %1$d групе.",
+      "key": "AIAgent.ProfileController.LeaveGroups",
+      "one_value": "Напустиће %1$d групу.",
+      "other_value": "Напустиће %1$d група."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "%1$d члана",
       "key": "AIAgent.ProfileController.Members",
@@ -157,8 +216,72 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.Name",
+      "value": "ИМЕ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.NamePlaceholder",
+      "value": "нпр. Преводилац"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.NoRoutines",
+      "value": "%1$@ још нема рутина. Затражите од њега у његовом ћаскању да уради нешто по распореду, прати ћаскање или реагује када се нешто догоди у Telegram-у."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.NotSet",
+      "value": "Није подешено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RemovalConfirmation",
+      "value": "Избрисати „%1$@”, његово ћаскање и његову меморију?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d закачке",
+      "key": "AIAgent.ProfileController.RemovedHooks",
+      "one_value": "%1$d закачка",
+      "other_value": "%1$d закачки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RemovedItems",
+      "value": "Такође ће бити избрисано: %1$@."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d рутине",
+      "key": "AIAgent.ProfileController.RemovedRoutines",
+      "one_value": "%1$d рутина",
+      "other_value": "%1$d рутина"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RoutineStops",
+      "value": "„%1$@” ће престати да ради."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.Routines",
+      "value": "РУТИНЕ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RoutinesInfo",
+      "value": "Рутине раде саме. Искључите једну да је паузирате, а десним кликом је избришите."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.Save",
       "value": "Сачувај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.Saving",
+      "value": "Чување…"
     },
     {
       "_": "types.LangPackString",
@@ -172,8 +295,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.Speed",
+      "value": "Брзина"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.SpeedAuto",
       "value": "Аутоматски"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.SpeedDeep",
+      "value": "Дубоко"
     },
     {
       "_": "types.LangPackString",
@@ -184,6 +317,16 @@
       "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.Title",
       "value": "Агент"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.TurnOff",
+      "value": "Искључи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.TurnOn",
+      "value": "Укључи"
     },
     {
       "_": "types.LangPackString",
@@ -3074,6 +3217,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIRoutine.EditorController.DeleteHook",
+      "value": "Избриши закачку"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIRoutine.EditorController.Done",
       "value": "Готово"
     },
@@ -3510,6 +3658,16 @@
       "_": "types.LangPackString",
       "key": "Account.Actions.ChangeProfile",
       "value": "Агент жели да измени ваш профил:\n\n%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.FirstName",
+      "value": "Име: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.LastName",
+      "value": "Презиме: %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -40409,6 +40567,21 @@
       "value": "Извести ћаскање?"
     },
     {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.FindChannelsSimilarTo",
+      "value": "пронађе канале сличне каналу „%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.SummarizeAMessageInWithTelegram",
+      "value": "сажме поруку у „%1$@” помоћу Telegram-а"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.TranscribeAVoiceMessageIn",
+      "value": "транскрибује гласовну поруку у „%1$@”"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Датотека се зауставља на %1$d поруке, старије недостају: Telegram их није учитао на време. Извезите поново за остатак.",
       "key": "ReadingActions.ExportTimedOut",
@@ -60181,6 +60354,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WidgetActions.ClickInAWidget",
+      "value": "кликне у виџету"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.PressKeysInAWidget",
+      "value": "притисне тастере у виџету"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ReadAWidget",
+      "value": "чита виџет"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WidgetActions.Run",
       "value": "Покрени"
     },
@@ -60196,8 +60384,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WidgetActions.SeeTheWidgetsInYourChats",
+      "value": "види виџете у вашим ћаскањима"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WidgetActions.TheWidgetDidnTAnswerInTime",
       "value": "Виџет није одговорио на време."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ThisTelegramCanTControlChatWidgets",
+      "value": "Ова верзија Telegram-а не може да управља виџетима ћаскања."
     },
     {
       "_": "types.LangPackString",
@@ -60535,5 +60733,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2498653
+  "version": 2498728
 }

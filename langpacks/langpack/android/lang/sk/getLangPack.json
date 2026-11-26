@@ -50998,6 +50998,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletAddComment",
+      "value": "Pridať komentár"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletAddress",
       "value": "Adresa"
     },
@@ -51005,6 +51010,11 @@
       "_": "types.LangPackString",
       "key": "WalletAddressCopied",
       "value": "Adresa peňaženky bola skopírovaná do schránky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletAddressCopiedShort",
+      "value": "Adresa bola skopírovaná"
     },
     {
       "_": "types.LangPackString",
@@ -51028,6 +51038,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletBack",
+      "value": "Späť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBackupEnabledDescription",
+      "value": "Vaša šifrovaná záloha kľúča je rozdelená na tri časti a uložená na 3 kontinentoch. Znovu ju možno zložiť iba na vašich zariadeniach, takže nikto – ani Telegram – nemá prístup k vášmu kľúču."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBalanceAmount",
+      "value": "Zostatok: %1$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletBuyWithCashOrCrypto",
+      "value": "Kúpiť za hotovosť/kryptomeny"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletCommentOptionalMessage",
+      "value": "Nepovinné (správa)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConfirmWithFingerprint",
       "value": "Potvrdiť odtlačkom prsta"
     },
@@ -51048,8 +51083,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletDeleteWallet",
+      "value": "Odstrániť peňaženku"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletDepositFunds",
       "value": "Vložiť prostriedky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisable",
+      "value": "Vypnúť"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackup",
+      "value": "Vypnúť zálohovanie"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupInfo",
+      "value": "Získať prístup k prostriedkom bude možné len pomocou tajnej frázy, ktorá sa zadáva manuálne."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDisableBackupTitle",
+      "value": "Vypnúť zálohovanie?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletDone",
+      "value": "Hotovo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletEncryptedBackup",
+      "value": "Šifrovaná záloha"
     },
     {
       "_": "types.LangPackString",
@@ -51063,6 +51133,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletKeysAndBackup",
+      "value": "Kľúče a záloha"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletLock",
       "value": "Uzamknúť peniaze"
     },
@@ -51070,6 +51145,11 @@
       "_": "types.LangPackString",
       "key": "WalletLockInfo",
       "value": "Vyžaduje sa pri posielaní prostriedkov alebo potvrdzovaní iných citlivých operácií v peňaženke."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletMakeCommentPublic",
+      "value": "Zverejniť komentár"
     },
     {
       "_": "types.LangPackString",
@@ -51103,13 +51183,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletReceiveInfo",
+      "value": "Zdieľajte svoju adresu alebo tento\nQR kód na prijatie gramov."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletRecipient",
       "value": "Príjemca"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseFundsWarning",
+      "value": "Ak niekto pozná vašu tajnú frázo, **môže vám ukradnúť prostriedky**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseInfo",
+      "value": "Vaša tajná obnovená fráza je kľúčom k zálohovaniu a obnoveniu vašej peňaženky. Udržujte ju vždy v tajnosti a na bezpečnom mieste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnButton",
+      "value": "Zobraziť tajnú frázu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnInfo",
+      "value": "Vaša tajná fráza je kľúčom k obnoveniu vašej peňaženky. Udržujte ju vždy v tajnosti a na bezpečnom mieste."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseLearnTitle",
+      "value": "Tajná fráza"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseNeverShare",
+      "value": "**Nikdy nikomu neprezrádzajte** svoju tajnú frázu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseSupportWarning",
+      "value": "Podpora Telegramu **od vás nikdy nepožiada** o vašu tajnú frázu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletRecoveryPhraseTransferInfo",
+      "value": "Peňaženku môžete preniesť do iného zariadenia tak, že skopírujete svoju 12-slovnú tajnú frázu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletSend",
       "value": "Poslať"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletSendAmount",
+      "value": "Poslať %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -51130,6 +51260,11 @@
       "_": "types.LangPackString",
       "key": "WalletSending",
       "value": "Odosiela sa…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletShowMyQR",
+      "value": "Zobraziť môj QR kód"
     },
     {
       "_": "types.LangPackString",
@@ -51163,6 +51298,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUpdateSecretPhrase",
+      "value": "Aktualizovať tajnú frázu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUserWallet",
       "value": "Peňaženka používateľa %1$s"
     },
@@ -51180,6 +51320,11 @@
       "_": "types.LangPackString",
       "key": "WalletWhatIsGram",
       "value": "Čo je gram?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletYourRecoveryPhrase",
+      "value": "Vaša tajná fráza"
     },
     {
       "_": "types.LangPackString",
@@ -52130,5 +52275,5 @@
       "value": "Telegram pas"
     }
   ],
-  "version": 62338252
+  "version": 62338661
 }

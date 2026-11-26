@@ -2651,7 +2651,7 @@
     {
       "_": "types.LangPackString",
       "key": "AuthSessions.AddDevice.UrlLoginHint",
-      "value": "このコードは、あなたのTelegramアカウントにログインできるようにするために使用します。 \n\nTelegramのログインを確認するには、「設定 > 端末 > QRコードを読み取る」に移動してコードを読み取ってください。"
+      "value": "このコードは、あなたのTelegramアカウントにログインできるようにするために使用します。 \n\nTelegramのログインを確認するには、「設定 > 端末 > 端末を追加」に移動してコードを読み取ってください。"
     },
     {
       "_": "types.LangPackString",
@@ -7021,7 +7021,7 @@
     {
       "_": "types.LangPackString",
       "key": "CancelResetAccount.TextSMS",
-      "value": "あなたの電話番号 **%@** に\nあなたのアカウントを削除して\n2段階認証のパスワードを初期化する\n要求が行われました。\n\nこれがあなたからの要求ではない場合、\nあなたの電話番号にSMSで送信された\n認証コードを入力して要求を中止してください。"
+      "value": "あなたの電話番号 **%@** に\nあなたのアカウントを削除して\n2段階認証のパスワードを初期化する\n要求が行われました。\n\nこれがあなたからの要求ではない場合、\nあなたの電話番号にSMSで送信された\n認証コードを入力して要求を中止してください。\nまた、**電話番号をあなたが管理する番号に変更**する事でも中止できます。"
     },
     {
       "_": "types.LangPackString",
@@ -10081,7 +10081,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelInfo.ScamChannelWarning",
-      "value": "⚠️ 多くの利用者がこの相手を詐欺として報告しています。あなたにお金を要求してきた場合は特に注意してください。"
+      "value": "⚠️ 多くの利用者がこのチャンネルを詐欺または偽のアカウントとして報告しています。あなたにお金を要求してきた場合は特に注意してください。"
     },
     {
       "_": "types.LangPackString",
@@ -16316,7 +16316,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatbotSetup.TextLink",
-      "value": "https://telegram.org"
+      "value": "https://telegram.org/blog/telegram-business#chatbots-for-business"
     },
     {
       "_": "types.LangPackString",
@@ -19996,7 +19996,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.ScamWarning",
-      "value": "⚠️ 多くの利用者がこの相手を詐欺として報告しています。あなたにお金を要求してきた場合は特に注意してください。"
+      "value": "⚠️ 多くの利用者がこの相手を詐欺または偽のアカウントとして報告しています。あなたにお金を要求してきた場合は特に注意してください。"
     },
     {
       "_": "types.LangPackString",
@@ -20231,7 +20231,7 @@
     {
       "_": "types.LangPackString",
       "key": "Conversation.ShareBotContactConfirmation",
-      "value": "ボットが電話番号を把握します。他のサービスのために有用です。"
+      "value": "ボットが電話番号を把握します。他のサービスのために有用です。\n\n⚠️ 警告！ミニアプリにTelegramのログインコードを絶対に入力しないでください。"
     },
     {
       "_": "types.LangPackString",
@@ -23651,12 +23651,12 @@
     {
       "_": "types.LangPackString",
       "key": "FolderLinkScreen.SaveAlertActionApply",
-      "value": "適用"
+      "value": "キャンセル"
     },
     {
       "_": "types.LangPackString",
       "key": "FolderLinkScreen.SaveAlertActionContinue",
-      "value": "キャンセル"
+      "value": "適用"
     },
     {
       "_": "types.LangPackString",
@@ -29046,7 +29046,7 @@
     {
       "_": "types.LangPackString",
       "key": "GroupInfo.ScamGroupWarning",
-      "value": "⚠️ 多くの利用者がこの相手を詐欺として報告しています。あなたにお金を要求してきた場合は特に注意してください。"
+      "value": "⚠️ 多くの利用者がこのグループを詐欺または偽のアカウントとして報告しています。あなたにお金を要求してきた場合は特に注意してください。"
     },
     {
       "_": "types.LangPackString",
@@ -31826,7 +31826,7 @@
     {
       "_": "types.LangPackString",
       "key": "Login.ResetAccountProtected.Text",
-      "value": "パスワードで保護されているアカウント\n%@は、安全のため7日後に削除されます。\n\nこの内容は中止も可能です。"
+      "value": "パスワードで保護されている有効なアカウント\n%@は、7日後に削除されます。この猶予期間は安全のために必要です。\n\nこの内容はいつでも中止可能です。"
     },
     {
       "_": "types.LangPackString",
@@ -34316,7 +34316,7 @@
     {
       "_": "types.LangPackString",
       "key": "Monetization.Intro.Info.Text_URL",
-      "value": "https://ton.org"
+      "value": "https://telegram.org/blog/monetization-for-channels"
     },
     {
       "_": "types.LangPackString",
@@ -36226,7 +36226,7 @@
     {
       "_": "types.LangPackString",
       "key": "Notification.NewAuthDetected",
-      "value": "%1$@、\n新しい機器 %2$@ からのログインを検出しました。\n\n%3$@ の %4$@\n\n機器：%5$@\n位置：%6$@\n\nこれがあなたのログインではない場合は\n設定 > プライバシーとセキュリティ > その他の接続を終了する\nを実行してください。\n\n他人が自分のアカウントにログインしていると思われる場合は、\n設定 > プライバシーとセキュリティ > 2段階認証プロセスを有効にする\nを実行してください。\n\nTelegramチーム"
+      "value": "%1$@、\n新しい機器 %2$@ からのログインを検出しました。\n\n%3$@ の %4$@\n\n機器：%5$@\n位置：%6$@\n\nこれがあなたのログインではない場合は\n設定 > 端末 > その他の接続を終了する\nを実行してください。\n\n他人が自分のアカウントにログインしていると思われる場合は、\n設定 > プライバシーとセキュリティ > 2段階認証プロセスを有効にする\nを実行してください。\n\nTelegramチーム"
     },
     {
       "_": "types.LangPackString",
@@ -58346,12 +58346,12 @@
     {
       "_": "types.LangPackString",
       "key": "UserInfo.ScamBotWarning",
-      "value": "⚠️ 多くの利用者がこの相手を詐欺として報告しています。あなたにお金を要求してきた場合は特に注意してください。"
+      "value": "⚠️ 多くの利用者がこの相手を詐欺または偽のアカウントとして報告しています。あなたにお金を要求してきた場合は特に注意してください。"
     },
     {
       "_": "types.LangPackString",
       "key": "UserInfo.ScamUserWarning",
-      "value": "⚠️ 多くの利用者がこの相手を詐欺として報告しています。あなたにお金を要求してきた場合は特に注意してください。"
+      "value": "⚠️ 多くの利用者がこの相手を詐欺または偽のアカウントとして報告しています。あなたにお金を要求してきた場合は特に注意してください。"
     },
     {
       "_": "types.LangPackString",
@@ -63376,7 +63376,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.CameraMicrophonePermission.Text",
-      "value": "**%1$@** が、あなたの **カメラ** および **マイク** へのアクセスを求めています。このアクセス権は、**%2$@** のページから取り消す事ができます。"
+      "value": "**%1$@** が、あなたの **カメラ** および **マイク** へのアクセスを求めています。このアクセス権は、**%2$@** のプロフィールから管理できます。"
     },
     {
       "_": "types.LangPackString",
@@ -63386,7 +63386,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.CameraPermission.Text",
-      "value": "**%1$@**が、あなたの**カメラ**へのアクセスを求めています。このアクセス権は、**%2$@**のプロフィールページから取り消すことができます。"
+      "value": "**%1$@**が、あなたの**カメラ**へのアクセスを求めています。このアクセス権は、**%2$@**のプロフィールページから管理できます。"
     },
     {
       "_": "types.LangPackString",
@@ -63611,7 +63611,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.MicrophonePermission.Text",
-      "value": "**%1$@** があなたの **マイク** へのアクセスを求めています。このアクセス権は、**%2$@** のページから取り消すことができます。"
+      "value": "**%1$@** があなたの **マイク** へのアクセスを求めています。このアクセス権は、**%2$@** のプロフィールから管理できます。"
     },
     {
       "_": "types.LangPackString",
@@ -64349,5 +64349,5 @@
       "value": "無効なセキュリティコードです。"
     }
   ],
-  "version": 22764493
+  "version": 22765055
 }

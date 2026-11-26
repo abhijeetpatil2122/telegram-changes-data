@@ -17432,7 +17432,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChatToolsActions.BotTitle",
-      "value": "botti %1$@?"
+      "value": "Suoritetaanko toiminto (%1$@) botille?"
     },
     {
       "_": "types.LangPackString",
@@ -20785,6 +20785,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DefaultAutoDelete.Actions.Change",
+      "value": "Muuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDelete.Actions.ChangeAutoDelete",
+      "value": "Muutetaanko automaattipoiston asetuksia?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDelete.Actions.ChangeConfirmation",
+      "value": "Agentti haluaa %1$@. Nykyisten keskusteluiden ajastimet pysyvät voimassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDelete.Actions.DisableTimer",
+      "value": "poistaa automaattisen poiston käytöstä uusista keskusteluista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDelete.Actions.EnableTimer",
+      "value": "asettaa uusien keskusteluiden viestit poistumaan automaattisesti, kun on kulunut %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDeleteActions.ChangeFailed",
+      "value": "Automaattipoistoajastinta ei muutettu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDeleteActions.LoadFailed",
+      "value": "Automaattipoistoajastimen asetusta ei voitu ladata. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DefaultAutoDeleteActions.NewChatsNote",
+      "value": "Voimassa uusille keskusteluille; 0 tarkoittaa, että ajastin on pois. auto_delete-toiminto asettaa yhden keskustelun ajastimen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DefaultSoundName",
       "value": "Oletus"
     },
@@ -21138,8 +21178,113 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.Change",
+      "value": "Muuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.ChangeConfirmation",
+      "value": "Agentti haluaa %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.ChangeTranslation",
+      "value": "Muutetaanko käännösasetuksia?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.OfferTranslationAgain",
+      "value": "tarjoutua kääntämään taas kielen %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslate.Actions.StopOfferingTranslation",
+      "value": "lakata tarjoamasta kielen %1$@ kääntämistä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslateActions.ChangeFailed",
+      "value": "Käännösasetuksia ei muutettu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslateActions.ExcludedLanguagesNote",
+      "value": "Näiden kielten keskusteluissa ei koskaan näytetä käännöspalkkia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DoNotTranslateActions.LoadFailed",
+      "value": "Käännösasetuksia ei ladattu. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStart.Actions.DownloadFile",
+      "value": "ladata tiedoston keskustelusta ”%1$@” tälle Macille"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStart.Actions.RevealFile",
+      "value": "näyttää keskustelusta ”%1$@” ladatun tiedoston Finderissä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStartActions.AlreadyDownloadedNote",
+      "value": "Se on jo tällä Macilla; reveal_download näyttää sen Finderissa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStartActions.DownloadingNote",
+      "value": "Se näkyy käynnissä olevissa latauksissa (in_progress); download_control pysäyttää tai peruu sen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStartActions.FinderUnavailable",
+      "value": "Finderia ei voi avata juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStartActions.NotDownloaded",
+      "value": "Tiedostoa ei ole vielä ladattu; start_download lataa sen ensin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadStartActions.StartUnavailable",
+      "value": "Latauksia ei voi aloittaa juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Downloads.Actions.ADownload",
+      "value": "tehdä toiminnon lataukselle (%1$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Downloads.Actions.CancelADownload",
+      "value": "perua latauksen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Downloads.Actions.ViewDownloads",
+      "value": "nähdä Telegramin lataamat tiedostot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadsActions.ChangeUnavailable",
+      "value": "Latauksia ei voi muokata juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadsActions.DownloadNotInProgress",
+      "value": "Viestin %1$d latausta ei ole käynnissä kohteessa %2$@; downloads luettelee käynnissä olevat (in_progress)."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DownloadsActions.FinishedDownloadsNote",
       "value": "Valmiit lataukset, uusin ensin, niin kuin Telegramin latausnäkymässä; in_progress näyttää tällä hetkellä ladattavat, download_control voi ohjata (keskeyttää, jatkaa, peruuttaa), download_media chat ja message_id kopioi tiedoston virtuaalikoneellesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DownloadsActions.ListLoadFailed",
+      "value": "Latausluetteloa ei ladattu. Yritä uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -21166,6 +21311,26 @@
       "_": "types.LangPackString",
       "key": "DownloadsManager.Recently.Clear",
       "value": "tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Draft.Actions.ReadDraft",
+      "value": "lukea keskusteluun ”%1$@” kirjoittamasi tekstin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DraftActions.EditingNote",
+      "value": "Käyttäjä muokkaa viestiä %1$d; text on muokattu teksti, jota ei ole vielä tallennettu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DraftActions.ReadUnavailable",
+      "value": "Keskustelun %1$@ tekstikenttää ei voi lukea juuri nyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "DraftActions.UnsentDraftNote",
+      "value": "Käyttäjän kirjoittama mutta lähettämätön teksti. draft_message korvaa sen; käyttäjän on silti painettava Lähetä-painiketta."
     },
     {
       "_": "types.LangPackString",
@@ -56969,5 +57134,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2499382
+  "version": 2499422
 }

@@ -6910,7 +6910,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallControlActions.ChangeHowYouTakePartInTheVoiceChat",
-      "value": "muuttaa tapaa, jolla osallistut äänikeskusteluun"
+      "value": "muuttaa tapaa, jolla osallistut videokeskusteluun"
     },
     {
       "_": "types.LangPackString",
@@ -6925,12 +6925,12 @@
     {
       "_": "types.LangPackString",
       "key": "CallControlActions.LeaveTheVoiceChat",
-      "value": "poistua äänikeskustelusta"
+      "value": "poistua videokeskustelusta"
     },
     {
       "_": "types.LangPackString",
       "key": "CallControlActions.MutedByAdmin",
-      "value": "Ylläpitäjä mykisti sinut tässä äänikeskustelussa; viittaa kädelläsi pyytääksesi puheenvuoroa."
+      "value": "Ylläpitäjä mykisti sinut tässä videokeskustelussa; viittaa kädelläsi pyytääksesi puheenvuoroa."
     },
     {
       "_": "types.LangPackString",
@@ -6940,7 +6940,7 @@
     {
       "_": "types.LangPackString",
       "key": "CallControlActions.NoVoiceChat",
-      "value": "Et ole äänikeskustelussa."
+      "value": "Et ole videokeskustelussa."
     },
     {
       "_": "types.LangPackString",
@@ -6950,12 +6950,12 @@
     {
       "_": "types.LangPackString",
       "key": "CallControlActions.SeeTheVoiceChatYouAreIn",
-      "value": "katsoa äänikeskustelua, jossa olet"
+      "value": "katsoa videokeskustelua, jossa olet"
     },
     {
       "_": "types.LangPackString",
       "key": "CallControlActions.VoiceChatLeft",
-      "value": "Poistuit äänikeskustelusta."
+      "value": "Poistuit videokeskustelusta."
     },
     {
       "_": "types.LangPackString",
@@ -27199,6 +27199,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftsActions.GiftNotFound",
+      "value": "Profiilissasi ei ole lahjaa #%1$d; luettele ne komennolla profile_gifts."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Giveaway.AdditionalPrize",
       "value": "**%1$@** laittoi arvontaan palkinnoksi myös **%2$@**. Kanavan valvojat toimittavat kyseiset palkinnot."
     },
@@ -29418,17 +29423,17 @@
     {
       "_": "types.LangPackString",
       "key": "Insights.Actions.JoinTheVoiceChatTitle",
-      "value": "Liitytäänkö äänikeskusteluun?"
+      "value": "Liitytäänkö videokeskusteluun?"
     },
     {
       "_": "types.LangPackString",
       "key": "Insights.Actions.JoinVoiceChatConfirmation",
-      "value": "Agentti haluaa avata äänikeskustelun keskustelussa ”%1$@” ja liittyä siihen mikrofonillasi."
+      "value": "Agentti haluaa avata videokeskustelun keskustelussa ”%1$@” ja liittyä siihen mikrofonillasi."
     },
     {
       "_": "types.LangPackString",
       "key": "Insights.Actions.NoActiveVoiceChat",
-      "value": "Keskustelussa ”%1$@” ei ole juuri nyt käynnissä äänikeskustelua"
+      "value": "Keskustelussa ”%1$@” ei ole juuri nyt käynnissä videokeskustelua"
     },
     {
       "_": "types.LangPackString",
@@ -29473,7 +29478,7 @@
     {
       "_": "types.LangPackString",
       "key": "Insights.Actions.ViewVoiceChat",
-      "value": "katsoa äänikeskustelua keskustelussa ”%1$@”"
+      "value": "katsoa videokeskustelua keskustelussa ”%1$@”"
     },
     {
       "_": "types.LangPackString",
@@ -53289,6 +53294,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryStealthActions.StealthModeNeedsTelegramPremium",
+      "value": "Piileskelytila vaatii Telegram Premiumin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealthActions.StealthModeWasUsedRecentlyItCanBeTurnedOn",
+      "value": "Piileskelytila oli äskettäin päällä, odota vielä %1$@ ennen kuin otat sen uudelleen käyttöön."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealthActions.TelegramDidnTTurnOnStealthModeTryAgain",
+      "value": "Telegram ei voinut ottaa piileskelytilaa käyttöön. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealthActions.TheStorySettingsDidnTLoadTryAgain",
+      "value": "Tarina-asetuksia ei ladattu. Yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryView.ContextMenu.Block",
       "value": "Estä käyttäjä"
     },
@@ -63717,5 +63742,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2503951
+  "version": 2503967
 }

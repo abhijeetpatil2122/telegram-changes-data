@@ -25960,6 +25960,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FragmentGift.Price.ListOnFragment",
+      "value": "Понуди на Fragment-у"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FragmentGift.Price.PriceInTON",
       "value": "Цена у грамима"
     },
@@ -41092,6 +41097,26 @@
       "_": "types.LangPackString",
       "key": "ReactionNotifications.Actions.ChangeNotificationsInfo",
       "value": "Агент жели да вас обавести о %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ChangeReactionNotifications",
+      "value": "Променити обавештења о реакцијама?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ReactionsToYourMessagesFrom",
+      "value": "реакције на ваше поруке од %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ReactionsToYourStoriesFrom",
+      "value": "реакције на ваше приче од %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotificationsActions.ChangeTimedOut",
+      "value": "истекло време за промену обавештења о реакцијама"
     },
     {
       "_": "types.LangPackString",
@@ -60288,6 +60313,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.BuyGift",
+      "value": "Купити **%1$@**?\nПоклон ће бити испоручен у ваш новчаник."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.ChangePrice",
       "value": "Промени цену"
     },
@@ -60303,13 +60333,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ContractPayment",
+      "value": "Плаћање по уговору"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.EarlyWithdrawalCost",
       "value": "Превремено повлачење кошта **%1$@**.\n\n%2$@"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.GiftNotFound",
+      "value": "Овај поклон није пронађен."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.GramHeldUntil",
       "value": "Износ од %1$@ GRAM је резервисан до %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListOnFragment",
+      "value": "Понуди на Fragment-у"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.ListingPrice",
+      "value": "Цена понуде"
     },
     {
       "_": "types.LangPackString",
@@ -60323,8 +60373,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NewListingPrice",
+      "value": "Нова цена понуде"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.NotForSale",
       "value": "Овај поклон више није на продају."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NotMinted",
+      "value": "Само поклони у вашем новчанику се могу пустити у продају на блокчејну."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.NotOwner",
+      "value": "Овај поклон не припада вашем новчанику."
     },
     {
       "_": "types.LangPackString",
@@ -60363,13 +60428,78 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.PriceChanged",
+      "value": "Цена се променила. Прегледајте ажурирану понуду пре куповине."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.PriceInvalid",
+      "value": "Ова цена је ван дозвољеног опсега за препродају на блокчејну TON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.Recipient",
+      "value": "Прималац"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RefundAmount",
+      "value": "Биће вам враћен износ од **%1$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.RemoveFromFragment",
       "value": "Повуци са Fragment-а"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletUI.Integration.RemoveListing",
+      "value": "Повуци из продаје"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SaleActive",
+      "value": "Овај поклон је већ у продаји."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SaleContract",
+      "value": "Уговор о продаји"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SaleInactive",
+      "value": "Овај поклон више више није у продаји на блокчејну."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.SelfPurchase",
+      "value": "Не можете купити поклон из свог новчаника."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.TooManyAttempts",
+      "value": "Превише покушаја. Покушајте поново касније."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletUI.Integration.UseGramEarnings",
       "value": "Користити зараду у грамима?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletCreating",
+      "value": "Ваш новчаник се још прави. Покушајте поново за тренутак."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletPayment",
+      "value": "Плаћање из новчаника"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WalletTransfer",
+      "value": "Пренос из новчаника"
     },
     {
       "_": "types.LangPackString",
@@ -60385,6 +60515,11 @@
       "_": "types.LangPackString",
       "key": "WalletUI.Integration.YouPay",
       "value": "Плаћате"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YouReceive",
+      "value": "Добијате"
     },
     {
       "_": "types.LangPackString",
@@ -61402,5 +61537,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2503240
+  "version": 2503303
 }

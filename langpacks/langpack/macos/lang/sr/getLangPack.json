@@ -20499,6 +20499,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Communities.Actions.Collapse",
+      "value": "Скупи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.CollapseCommunity",
+      "value": "Скупити заједницу?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Communities.Actions.CollapseConfirmation",
       "value": "Агент жели да прикаже „%1$@” као један ред на вашем списку ћаскања."
     },
@@ -20546,6 +20556,21 @@
       "_": "types.LangPackString",
       "key": "Communities.Actions.RemoveFromCommunity",
       "value": "Уклонити из заједнице?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.ViewChats",
+      "value": "види ћаскања у „%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.ViewCommunities",
+      "value": "види ваше заједнице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Communities.Actions.VisibleToMembers",
+      "value": ", видљива њеним члановима"
     },
     {
       "_": "types.LangPackString",
@@ -20648,8 +20673,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CommunitiesActions.AddRequested",
+      "value": "Администратори заједнице су добили захтев за његово додавање."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.AdminRequired",
+      "value": "Морате бити администратор у оба."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CommunitiesActions.ChangeFailed",
       "value": "Telegram није променио заједницу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.ChatAdminRequired",
+      "value": "Морате бити администратор ћаскања „%1$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.ChatLimitReached",
+      "value": "Заједница је достигла максималан број ћаскања."
     },
     {
       "_": "types.LangPackString",
@@ -20660,6 +20705,11 @@
       "_": "types.LangPackString",
       "key": "CommunitiesActions.ChatsLoadFailed",
       "value": "Ћаскања заједнице нису учитана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CommunitiesActions.CommunityUnavailable",
+      "value": "Та заједница није доступна."
     },
     {
       "_": "types.LangPackString",
@@ -32956,8 +33006,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MiniAppActions.AndSubmitIt",
+      "value": " и да га пошаље"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.Click",
+      "value": "Кликни"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppActions.ClickConfirmation",
       "value": "Агент жели да кликне %1$@ у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.ClickInMiniAppQuestion",
+      "value": "Кликнути у мини-апликацији?"
     },
     {
       "_": "types.LangPackString",
@@ -32976,8 +33041,63 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MiniAppActions.CloseUnavailable",
+      "value": "Мини-апликација „%1$@” тренутно не може да се затвори."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.ClosedOrLoading",
+      "value": "Мини-апликација „%1$@” је затворена или се још учитава."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.ControlUnavailable",
+      "value": "Ова верзија Telegram-а не може да управља мини-апликацијама."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.InstantViewReadOnly",
+      "value": "„%1$@” је страница брзог прегледа: може се прочитати само помоћу mini_app_read."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.NoControlButton",
+      "value": "„%1$@” тренутно нема дугме %2$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.NoMainButton",
+      "value": "„%1$@” тренутно не приказује главно дугме."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.NoSecondaryButton",
+      "value": "Мини-апликација „%1$@” тренутно не приказује помоћно дугме."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.NoneOpen",
+      "value": "Није отворена ниједна мини-апликација. Отворите неку помоћу open_in_app, нпр. https://t.me/<bot>/<app> или https://t.me/<bot>?startapp, а затим позовите mini_app_read."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.Press",
+      "value": "Притисни"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppActions.PressConfirmation",
       "value": "Агент жели да притисне „%1$@” у „%2$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.PressMiniAppButtonQuestion",
+      "value": "Притиснути дугме у мини-апликацији?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.ReadTheMiniApp",
+      "value": "чита мини-апликацију „%1$@”"
     },
     {
       "_": "types.LangPackString",
@@ -32996,8 +33116,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MiniAppActions.RunCodeInMiniAppQuestion",
+      "value": "Покренути кôд у мини-апликацији?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.ScrollTheMiniApp",
+      "value": "помери приказ у мини-апликацији „%1$@”"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.SeeWhichMiniAppsAreOpen",
+      "value": "види које су мини-апликације отворене"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.Type",
+      "value": "Унеси"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MiniAppActions.TypeConfirmation",
       "value": "Агент жели да унесе „%1$@” у „%2$@”%3$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MiniAppActions.TypeInMiniAppQuestion",
+      "value": "Унети текст у мини-апликацију?"
     },
     {
       "_": "types.LangPackString",
@@ -61894,5 +62039,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2504322
+  "version": 2504503
 }

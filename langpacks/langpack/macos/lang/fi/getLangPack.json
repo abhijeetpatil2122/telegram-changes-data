@@ -335,8 +335,676 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.DidNotFinish",
+      "value": "Ei valmistunut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.Done",
+      "value": "Valmis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.GoalPrefix",
+      "value": "◎ Tavoite · "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.Stopped",
+      "value": "Pysäytetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.Thinking",
+      "value": "Miettii…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Automation",
+      "value": "Automaatio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Delete",
+      "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.DeleteAutomation",
+      "value": "Poista automaatio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Done",
+      "value": "Valmis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.EveryDay",
+      "value": "Joka päivä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.AutomationController.EveryDays",
+      "one_value": "%1$d päivän välein",
+      "other_value": "%1$d päivän välein"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.EveryHour",
+      "value": "Joka tunti"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.AutomationController.EveryHours",
+      "one_value": "%1$d tunnin välein",
+      "other_value": "%1$d tunnin välein"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.AutomationController.EveryMinutes",
+      "one_value": "%1$d min välein",
+      "other_value": "%1$d min välein"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Instructions",
+      "value": "OHJEET"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.LastRun",
+      "value": "VIIMEISIN AJO"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.NextRun",
+      "value": "Seuraava ajo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.NextRunDate",
+      "value": "Seuraava ajo: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Once",
+      "value": "Kerran"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Pause",
+      "value": "Keskeytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Paused",
+      "value": "Keskeytetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Repeats",
+      "value": "Toistuu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Resume",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Schedule",
+      "value": "AIKATAULU"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.StopRunning",
+      "value": "\"%1$@\" lopettaa toiminnan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Watch",
+      "value": "Tarkkaile"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.WatchTitle",
+      "value": "Tarkkaile: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CallNotes",
+      "value": "Puhelun muistiinpanot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CallWith",
+      "value": "Puhelu: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.CouldNotListen",
+      "value": "🎙 Ei voitu kuunnella puhelua **%1$@**: %2$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.CallListener.EndedWithFailure",
+      "one_value": "📞 **%1$@** päättyi · %2$d min. En pystynyt litteroimaan: %3$@",
+      "other_value": "📞 **%1$@** päättyi · %2$d min. En pystynyt litteroimaan: %3$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.CallListener.EndedWithoutSpeech",
+      "one_value": "📞 **%1$@** päättyi · %2$d min. En kuullut tiivistettävää puhetta.",
+      "other_value": "📞 **%1$@** päättyi · %2$d min. En kuullut tiivistettävää puhetta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.InterruptedWithTranscript",
+      "value": "📞 **%1$@** katkesi: Telegram sulkeutui puhelun aikana. Kirjoitan muistiinpanoja kuulemastani…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.InterruptedWithoutTranscript",
+      "value": "📞 **%1$@** katkesi: Telegram sulkeutui puhelun aikana ennen kuin mitään ehdittiin litteroida."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.TakingNotes",
+      "value": "🎙 Kirjaan muistiinpanoja puhelusta **%1$@**. Voit poistaa toiminnon käytöstä muokkaamalla tätä agenttia."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.CallListener.WritingNotes",
+      "one_value": "📞 **%1$@** päättyi · %2$d min. Kirjoitan muistiinpanoja…",
+      "other_value": "📞 **%1$@** päättyi · %2$d min. Kirjoitan muistiinpanoja…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CallListener.You",
+      "value": "Sinä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Agent",
+      "value": "Agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AgentOffline",
+      "value": "Agentti ei paikalla · odotetaan sen paluuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AgentRemoved",
+      "value": "%1$@ poistettiin kohteesta %2$@."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.Agents",
+      "one_value": "%1$d agentti",
+      "other_value": "%1$d agenttia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AnswerInterrupted",
+      "value": "Vastaus katkesi: agentin virtuaalikone pysähtyi tai käynnistyi uudelleen kesken työn. Lähetä pyyntö uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AskAbout",
+      "value": "Kysy aiheesta %1$@…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AskIn",
+      "value": "Kysy kohteessa %1$@…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Assistant",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AssistantCompacting",
+      "value": "avustaja tiivistää…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AttachmentClosed",
+      "value": "%1$@ on suljettu, joten en ole enää kiinnitetty siihen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.AttachmentLimit",
+      "value": "Liitteet voivat olla enintään 40 Mt viestiä kohden."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.AuthorsThinking",
+      "one_value": "%1$@ miettii",
+      "other_value": "%1$@ miettivät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.BackgroundTask",
+      "value": "Taustatehtävä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Checking",
+      "value": "Tarkistaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Checklist",
+      "value": "Tarkistuslista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactCommand",
+      "value": "Tiivistä tämä keskustelu, jotta konteksti pysyy pienenä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Compacting",
+      "value": "tiivistää…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactingLocked",
+      "value": "Keskustelua tiivistetään. Voit lähettää hetken päästä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CompactionInterrupted",
+      "value": "Keskeytyi. Lähetä /compact yrittääksesi uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotLoadAttachment",
+      "value": "%1$@ ei latautunut, joten avustaja ei saanut sitä. Yritä liittää se uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotPackFolder",
+      "value": "Kansion %1$@ pakkaaminen ei onnistunut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotReadFile",
+      "value": "Tiedoston %1$@ lukeminen ei onnistunut, joten sitä ei lähetetty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotSaveFile",
+      "value": "Tiedoston %1$@ tallentaminen ei onnistunut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotSend",
+      "value": "Lähetys kohteeseen %1$@ ei onnistunut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.CouldNotSendWithError",
+      "value": "Lähetys kohteeseen %1$@ ei onnistunut: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.DailyLimit",
+      "value": "Dictator on käyttänyt päivittäisen tekoälypyyntökiintiönsä loppuun. Nosta kiintiötä kohdassa Dictator → Malli tai odota, että se nollautuu keskiyöllä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.DictatorUnavailable",
+      "value": "Dictator ei ole käynnissä. Avaa se tällä Macilla ja yritä uudelleen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.DoNotSend",
+      "value": "Älä lähetä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Edit",
+      "value": "Muokkaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.EditBeforeSending",
+      "value": "Muokkaa ennen lähettämistä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Expired",
+      "value": "Vanhentunut"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.FileLimit",
+      "one_value": "Enintään %1$d tiedosto ja 40 Mt viestiä kohden.",
+      "other_value": "Enintään %1$d tiedostoa ja 40 Mt viestiä kohden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.FirstName",
+      "value": "Tekoäly"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Forward",
+      "value": "Välitä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Help",
-      "value": "**Komennot**\n/compact: tiivistää keskustelun sisällön niin, että agentti ymmärtää saman asian pienemmällä kontekstilla\n/new or /reset: aloittaa uuden keskustelun\n/retry: yrittää uudelleen viime pyyntöä\n/commands: tila, malli, lisäosat, tehtävät, automaatiot ja muistikomennot, jotka toimivat vaikka tekoälymalli ei olisi toiminnassa\n\n**Kaikki muu pyydetään.** Esimerkiksi:\n- \"Yhdistä Playwright MCP-palvelin\" tai \"Asenna Fly.io -lisäosa\"\n- \"Tässä on lisätiedosto, asenna se\" (attach a .md plugin)\n- \"Aseta uudeksi päivittäiseksi rajaksi: 2000\" or \"Vaihda nopeampaan malliin\"\n- \"Tee käyttäjästä Alice keskustelun Team valvoja ja ota hidas tila käyttöön\"\n- \"Valvo Design Team -keskustelua, ilmoita minulle jos julkaisusta mainitaan\"\n- \"Luo agentti, joka kirjoittaa julkaisutietoja\" ja \"Kysy siltä eilisen puhelusta\"\n\nJos toiminto vähentää tietosuojaa tai nostaa käyttökuluja, sinulta pyydetään lupaa Macillasi."
+      "value": "**Komennot**\n/compact: tiivistää keskustelun sisällön niin, että agentti ymmärtää saman asian pienemmällä kontekstilla\n/new or /reset: aloittaa uuden keskustelun\n/retry: yrittää uudelleen viime pyyntöä\n/commands: tila, malli, liitännäiset, tehtävät, automaatiot ja muistikomennot, jotka toimivat vaikka tekoälymalli ei olisi toiminnassa\n\n**Kaikki muu pyydetään.** Esimerkiksi:\n- \"Yhdistä Playwright MCP-palvelin\" tai \"Asenna Fly.io -lisäosa\"\n- \"Tässä on lisätiedosto, asenna se\" (attach a .md plugin)\n- \"Aseta uudeksi päivittäiseksi rajaksi: 2000\" or \"Vaihda nopeampaan malliin\"\n- \"Tee käyttäjästä Alice keskustelun Team valvoja ja ota hidas tila käyttöön\"\n- \"Valvo Design Team -keskustelua, ilmoita minulle jos julkaisusta mainitaan\"\n- \"Luo agentti, joka kirjoittaa julkaisutietoja\" ja \"Kysy siltä eilisen puhelusta\"\n\nJos toiminto vähentää tietosuojaa tai nostaa käyttökuluja, sinulta pyydetään lupaa Macillasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.HelpCommand",
+      "value": "Komennot ja esimerkit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.InChat",
+      "value": "Keskustelussa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.LastName",
+      "value": "Avustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.LiveTranscript",
+      "value": "Live-litterointi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Location",
+      "value": "Sijainti"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.MoreReplies",
+      "one_value": " (+%1$d lisää)",
+      "other_value": " (+%1$d lisää)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.MultiReply",
+      "value": "Monivastaus"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NewCommand",
+      "value": "Aloita uusi keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NewConversation",
+      "value": "Aloitettiin uusi keskustelu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NotEnoughToCompact",
+      "value": "Tiivistettävää keskustelua ei ole vielä tarpeeksi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.NotSent",
+      "value": "Ei lähetetty"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.OnlineAgents",
+      "one_value": "paikalla · %1$d agentti",
+      "other_value": "paikalla · %1$d agenttia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.OpenDictator",
+      "value": "Avaa Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.OpenInChat",
+      "value": "Avaa keskustelussa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Opening",
+      "value": "Avataan"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.PausedPrefix",
+      "value": "Keskeytetty · "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Plan",
+      "value": "Suunnitelma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.PlanCommand",
+      "value": "Suunnittele ensin ja aja, kun olet hyväksynyt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Queued",
+      "value": "Odotetaan nykyisen tehtävän valmistumista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Recover",
+      "value": "Palauta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RecoverRequestInfo",
+      "value": "Tämän pyynnön tallensi vanhempi versio ilman tilin tietoja. Palautetaanko se Telegram-tilillä “%1$@” tarkistettavaksi ennen lähettämistä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RecoverRequestTitle",
+      "value": "Palauta tallennettu pyyntö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Remove",
+      "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RemoveAgentInfo",
+      "value": "%1$@ ei enää tarkkaile keskustelua %2$@ eikä vastaa täällä. Sen muut keskustelut pysyvät ennallaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RemoveAgentTitle",
+      "value": "Poistetaanko %1$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RequestKept",
+      "value": "Säilytin tämän pyynnön. Lähetä \"retry\", kun agentti voi taas vastata, niin suoritan sen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Retry",
+      "value": "Yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RetryCommand",
+      "value": "Suorita viimeisin epäonnistunut pyyntö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RetryNow",
+      "value": "Yritä uudelleen nyt"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Retrying",
+      "value": "Yritetään uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RunPlan",
+      "value": "Suorita suunnitelma"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RunPlanPrefix",
+      "value": "Suorita suunnitelma: "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Scheduled",
+      "value": "Ajastettu"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.SelectedMessages",
+      "one_value": "%1$d valittu viesti",
+      "other_value": "%1$d valittua viestiä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Send",
+      "value": "Lähetä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.SendNowTo",
+      "value": "Lähetä nyt → %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Sending",
+      "value": "Lähetetään"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Sent",
+      "value": "Lähetetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Stop",
+      "value": "Pysäytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.StopAgent",
+      "value": "Pysäytä %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.StopLoop",
+      "value": "Pysäytä silmukka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.TemporaryChat",
+      "value": "Tilapäinen keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.TemporaryChatInfo",
+      "value": "Tätä keskustelua ei tallenneta, eikä agentti muista sitä. Se katoaa, kun poistut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.TemporaryStatus",
+      "value": "tilapäinen keskustelu · ei tallenneta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Thinking",
+      "value": "Miettii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordPondering",
+      "value": "pohtii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordRuminating",
+      "value": "sulattelee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordSpelunking",
+      "value": "tonkii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordSynthesizing",
+      "value": "jäsentelee"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordThinking",
+      "value": "miettii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordUntangling",
+      "value": "setvii"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThinkingWordWeavingThoughts",
+      "value": "kutoo mietteitään"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ThisChat",
+      "value": "tämä keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Title",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.ToChat",
+      "value": "→ %1$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.ChatContents.TurnProgress",
+      "one_value": "Kierros %1$d / %2$d",
+      "other_value": "Kierros %1$d / %2$d"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Typing",
+      "value": "kirjoittaa…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.UnsupportedAttachment",
+      "value": "Tällaista liitettä ei voi lähettää avustajalle."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.VoiceUnreadable",
+      "value": "Ääniviestiä ei voitu lukea."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.WaitToCompact",
+      "value": "Odota, että nykyinen vastaus valmistuu, ja lähetä sitten /compact uudelleen."
     },
     {
       "_": "types.LangPackString",
@@ -345,13 +1013,274 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.Working",
+      "value": "Työskentelee…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.You",
+      "value": "Sinä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.AIAssistant",
+      "value": "tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.AIChat",
+      "value": "tekoälykeskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.Agent",
+      "value": "agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.AgentGroup",
+      "value": "agenttiryhmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.HideFromChatList",
+      "value": "Piilota keskustelulistasta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatList.ShowInChatList",
+      "value": "Näytä keskustelulistassa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.AIAssistant",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.Agent",
+      "value": "Agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ChatLimitReached",
+      "value": "Tekoälykeskusteluja on liikaa. Poista muutama keskustelu aloittaaksesi uuden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.Clear",
+      "value": "Tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ClearChat",
+      "value": "Tyhjennä keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.ClearChatConfirmation",
+      "value": "Poistetaanko kaikki tämän keskustelun viestit sekä agentin muisti siitä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.HistoryUnavailable",
+      "value": "Tekoälyhistoriaasi ei voitu avata turvallisesti. Olemassa olevat tiedot on säilytetty. Avaa Telegramin lukitus ja avaa sovellus uudelleen ennen uusien viestien lähettämistä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.NewChat",
+      "value": "Uusi keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.NewMessage",
+      "value": "Uusi viesti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.NewTemporaryChat",
+      "value": "Uusi väliaikainen keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.RecentChats",
+      "value": "Viimeaikaiset keskustelut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.RecoverSavedRequest",
+      "value": "Palauta tallennettu pyyntö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Chats.SwitchTo",
+      "value": "Vaihda → %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.CompactingConversation",
+      "value": "Tiivistetään keskustelua…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.CompactionFailed",
+      "value": "Keskustelua ei voitu tiivistää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.CompactWidget.ConversationCompacted",
+      "value": "Keskustelu tiivistettiin"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.AIAssistant",
       "value": "Dictator"
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.APIKey",
+      "value": "API-AVAIN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.AllowedChatsInfo",
+      "value": "Lukemattomien viestien määrät, haku ja tiivistelmät. Salaiset keskustelut eivät ole koskaan käytettävissä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.AsksBeforeActing",
+      "value": "Kysyy ennen toimintaa"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ConnectController.ChatGPTPlanInfo",
       "value": "Käyttää ChatGPT Plus tai Pro -tilaustasi API-saldon sijaan. Kun jatkat, selaimesi aukeaa Macilla: kirjaudu ChatGPT:hen ja salli Dictator. Macin avainnippu tallettaa kirjautumistietosi - niitä ei siirretä Telegramin palvelimille. Voit rajoittaa käyttöä [ChatGPT:stä → Asetukset → Käyttö](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConfirmationInfo",
+      "value": "Laatii vastauksista luonnoksia, mutta ei koskaan lähetä niitä ilman vahvistustasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.Connect",
+      "value": "Yhdistä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConnectAIAssistant",
+      "value": "Yhdistä Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ConnectionInfo",
+      "value": "Tämän Macin Dictator haluaa muodostaa yhteyden Telegramiin. Avustajasi toimii yksityisessä virtuaalikoneessa ja saa oman keskustelun listasi kärkeen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.DownloadIt",
+      "value": " [Lataa se](%1$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.GetAKey",
+      "value": " [Hanki %1$@-avain](%2$@)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.KeyStorageInfo",
+      "value": "Avain tarkistetaan palvelun %1$@ kautta, ja Dictator säilyttää sen Macisi avainnipussa. Se ei koskaan päädy Telegramin palvelimille.%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.LocalProviderInfo",
+      "value": "%1$@ suorittaa mallin tällä Macilla, joten mikään ei lähde siitä ulos eikä avainta tarvita. Käynnistä se ja lataa ensin malli, joka tukee työkalukutsuja.%2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.MacPermissionsInfo",
+      "value": "Muistutukset, muistiinpanot ja ilmoitukset, kaikki luvallasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ModelProvider",
+      "value": "MALLIN TARJOAJA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.ReadsChatsYouAllow",
+      "value": "Lukee keskusteluja, jotka sallit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.UnderstandsVoice",
+      "value": "Ymmärtää puhetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.VoicePluginInfo",
+      "value": "Voit lähettää ääniviestejä, kun Whisper-liitännäinen on asennettu Dictatoriin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ConnectController.WorksWithYourMac",
+      "value": "Toimii Macillasi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.AgentRequired",
+      "value": "Valitse ryhmälle vähintään yksi agentti."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Create",
+      "value": "Luo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.FirstAgentInfo",
+      "value": "Luo ensimmäinen agentti tähän. Se liittyy ryhmään heti, kun tallennat sen."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.GroupController.GroupMembersLimit",
+      "one_value": "Kaikki vastaavat viestiisi samanaikaisesti. Ensimmäinen valitsemasi agentti johtaa ryhmää. Enintään %1$d agentti.",
+      "other_value": "Kaikki vastaavat viestiisi samanaikaisesti. Ensimmäinen valitsemasi agentti johtaa ryhmää. Enintään %1$d agenttia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Lead",
+      "value": "Johtaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.LoadingAgents",
+      "value": "Ladataan agentteja…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Members",
+      "value": "JÄSENET"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.Name",
+      "value": "NIMI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.NamePlaceholder",
+      "value": "esim. Matkasuunnittelijat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.NewAgent",
+      "value": "Uusi agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.GroupController.NewGroup",
+      "value": "Uusi ryhmä"
     },
     {
       "_": "types.LangPackString",
@@ -385,8 +1314,94 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.CallEnded",
+      "value": "Puhelu päättyi, joten live-litterointi pysähtyi. Kysy minulta mitä tahansa siitä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.CallWith",
+      "value": "Puhelu: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.DetachTranscript",
+      "value": "Lopeta tämän puhelun litteroinnin käyttö"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.EndedCallContext",
+      "value": "[Käyttäjän Telegram-puhelu ”%1$@” on päättynyt. Sen live-litteroinnin tulos:\n%2$@\n]"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.ListeningFailed",
+      "value": "🎙 Kohdetta **%1$@** ei voitu kuunnella: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.LiveTranscript.LiveCallContext",
       "value": "[Käyttäjä on lisännyt sinut Telegram-puheluun “%1$@”, jota Telegram litteroi suoraan Macilla. Kysymykset liittyvät tähän puheluun, elleivät ne selkeästi liity johonkin muuhun. Rivissä ilmoitetaan, kuka sanoo mitäkin; nämä eivät ole välttämättä oikein, jos käyttäjät puhuvat ristiin. Litteroitu sisältö tähän asti on:\n%2$@\n]"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.NothingSaidYet",
+      "value": "(mitään ei vielä sanottu)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.NothingWasSaid",
+      "value": "(mitään ei sanottu)"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.LiveTranscript.SkippedSeconds",
+      "one_value": "Live-litterointi ohitti %1$d sek puhelusta, joka tallentui Telegramin ollessa lukittuna.",
+      "other_value": "Live-litterointi ohitti %1$d sek puhelusta, joka tallentui Telegramin ollessa lukittuna."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.Someone",
+      "value": "Joku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.StopTheLiveTranscript",
+      "value": "Pysäytä live-litterointi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.StoppedTheLiveTranscript",
+      "value": "Live-litterointi pysäytetty."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.TranscribeIn",
+      "value": "Litteroi kielellä %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.TranscribingInFromNowOn",
+      "value": "Litteroidaan jatkossa kielellä %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.TranscriptDetached",
+      "value": "Valmis: en käytä enää puhelun litterointia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.UnsupportedMacOS",
+      "value": "Live-litteroinnit vaativat macOS 14.2:n tai uudemman."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.LiveTranscript.You",
+      "value": "Sinä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ChipTitle",
+      "value": "Sulkutila"
     },
     {
       "_": "types.LangPackString",
@@ -397,6 +1412,51 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Lockdown.ExplanationTitle",
       "value": "Sulkutila on käytössä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ImageFrom",
+      "value": "(kuva lähteestä %1$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.ImageWithAltFrom",
+      "value": "%1$@ (kuva lähteestä %2$@)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.OpenSettingsTitle",
+      "value": "Avaa asetukset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Lockdown.WidgetNote",
+      "value": "Pienoisohjelma on piilotettu sulkutilassa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.KeysAndSettings",
+      "value": "Avaimet ja asetukset…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.MoreModels",
+      "value": "Lisää malleja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Other",
+      "value": "Muu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Provider",
+      "value": "Tarjoaja: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ModelPicker.Recommended",
+      "value": "Suositeltu"
     },
     {
       "_": "types.LangPackString",
@@ -440,6 +1500,103 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Plan.ExecutionRefusal",
       "value": "Vain suunnittelu: mitään ei muuteta, ennen kuin käyttäjä painaa Suorita suunnitelma. Lisää tämä vaihe suunnitelmaan sen sijaan, että tekisit sen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PlanWidget.Approved",
+      "value": " · hyväksytty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.PlanWidget.NothingChangesUntilYouRunIt",
+      "value": " · mitään ei muutu, ennen kuin suoritat sen"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.PlanWidget.Steps",
+      "one_value": "%1$d vaihe",
+      "other_value": "%1$d vaihetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AgentAccess",
+      "value": "Agenttien käyttöoikeudet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AgentAccessInfo",
+      "value": "Rajoita, mitä kukin agentti saa muuttaa ja mitkä kansiot se näkee. Agentit eivät koskaan näe keskusteluja kansioidensa ulkopuolelta, edes hakiessaan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.Agents",
+      "value": "AGENTIT"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AllChats",
+      "value": "Kaikki keskustelut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AskBeforeChangesInfo",
+      "value": "Lukee vapaasti ja kysyy sinulta ennen minkään lähettämistä, muokkaamista tai poistamista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.AskBeforeEveryChange",
+      "value": "Kysy ennen jokaista muutosta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanAct",
+      "value": "Voi toimia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanChangeThings",
+      "value": "VOI MUUTTAA ASIOITA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CanSee",
+      "value": "VOI NÄHDÄ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.CreateFoldersInfo",
+      "value": "Luo keskustelukansioita kohdassa Asetukset → Kansiot rajoittaaksesi tämän agentin joihinkin keskusteluistasi."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SafetyController.Folders",
+      "one_value": "%1$d kansio",
+      "other_value": "%1$d kansiota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.FollowsYourTelegramPermissions",
+      "value": "Noudattaa Telegram-oikeuksiasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.GeneralAssistant",
+      "value": "Yleisavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.ReadOnly",
+      "value": "Vain luku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.ReadOnlyInfo",
+      "value": "Lukee ja tiivistää, mutta ei voi koskaan lähettää, muokata tai poistaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SafetyController.SelectFoldersInfo",
+      "value": "Valitse yksi tai useampi kansio pitääksesi tämän agentin niiden sisällä. Salaiset keskustelut eivät ole koskaan agenttien käytettävissä."
     },
     {
       "_": "types.LangPackString",
@@ -540,6 +1697,196 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Service.WaitingForApproval",
       "value": "odottaa hyväksyntää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AIAssistant",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AgentAccess",
+      "value": "Agentin käyttöoikeudet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AgentAccessInfo",
+      "value": "Valitse, mitä kukin agentti voi muuttaa ja nähdä. Kaikki, mitä he tekivät Telegramissa, on listattu Dictatorin Telegram-sivulla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AssistantRunning",
+      "value": "Avustajasi toimii yksityisessä virtuaalikoneessa tällä Macilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.AssistantStarting",
+      "value": "Avustajasi käynnistyy."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Clear",
+      "value": "Tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ClearChatHistory",
+      "value": "Tyhjennä keskusteluhistoria"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ClearHistoryConfirmation",
+      "value": "Poistetaanko kaikki viestit avustajan keskustelusta ja aloitetaan uusi keskustelu?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ConnectDictator",
+      "value": "Yhdistä Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.ConnectDictatorInfo",
+      "value": "Paina Yhdistä-painiketta Dictatorissa linkittääksesi sen tähän Telegram-tiliin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DeepMemory",
+      "value": "Syvämuisti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Dictator",
+      "value": "Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DictatorNotInstalled",
+      "value": "Dictatoria ei ole asennettu tälle Macille."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DictatorUnavailable",
+      "value": "Dictator ei vastaa. Varmista, että se on käynnissä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Disconnect",
+      "value": "Katkaise yhteys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DisconnectAIAssistant",
+      "value": "Katkaise tekoälyavustajan yhteys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DisconnectConfirmation",
+      "value": "Telegram lopettaa viestinnän Dictatorin kanssa ja avustajan keskustelu poistuu keskustelulistastasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.DisconnectInfo",
+      "value": "Yhteyden katkaiseminen poistaa avustajan keskustelun. Dictator säilyttää avaimesi, kunnes poistat sen siellä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.FinishSoundInfo",
+      "value": "Soittaa lyhyen äänen, kun taustatehtävä tai pitkä vastaus on valmis."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.InstallWhisperInfo",
+      "value": "Asenna Whisper-liitännäinen kohdasta Dictator → Liitännäiset lähettääksesi ääniviestejä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.LearnFromHowIUseTelegram",
+      "value": "Opi siitä, miten käytän Telegramia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.LeaveEmptyToKeepTheCurrentKey",
+      "value": "Jätä tyhjäksi säilyttääksesi nykyisen avaimen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Memory",
+      "value": "MUISTI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Model",
+      "value": "Malli"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.NeedsWhisper",
+      "value": "Vaatii Whisperin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.On",
+      "value": "Päällä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.OpenChat",
+      "value": "Avaa keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.OpenDictator",
+      "value": "Avaa Dictator"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.OpenDictatorInfo",
+      "value": "Avaa Dictator tällä Macilla käyttääksesi avustajaasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.PasteAPIKey",
+      "value": "Liitä API-avaimesi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.RestartingWithChatGPT",
+      "value": "Kirjauduttu sisään. Avustaja käynnistyy uudelleen ChatGPT-tilauksellasi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.RestartingWithKey",
+      "value": "Tallennettu. Avustaja käynnistyy uudelleen uudella avaimella."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Safety",
+      "value": "TURVALLISUUS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.SaveAndRestartAssistant",
+      "value": "Tallenna ja käynnistä avustaja uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.SoundWhenATaskFinishes",
+      "value": "Ääni tehtävän valmistuessa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.Status",
+      "value": "Tila"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.UsageMemoryInfo",
+      "value": "Käyttää tietoa siitä, mitkä keskustelut ja ominaisuudet avaat ja milloin – ei koskaan viestien tekstiä. Säilyy tällä Macilla."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.VoiceMessages",
+      "value": "Ääniviestit"
     },
     {
       "_": "types.LangPackString",
@@ -738,8 +2085,139 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.CannotRun",
+      "value": "%1$@ **%2$@** ei ole suoritettavissa: %3$@. Napsauta hiiren kakkospainikkeella ja valitse Muokkaa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.Continue",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ConversationRequired",
+      "value": "Tuossa keskustelussa ei ole vielä avustajan keskustelua. Avaa avustaja ensin kyseisestä keskustelusta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.Delete",
+      "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.DeleteShortcut",
+      "value": "Poistetaanko %1$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.Done",
+      "value": "Valmista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.DontSuggest",
+      "value": "Älä ehdota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.Edit",
+      "value": "Muokkaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.HideShortcuts",
+      "value": "Piilota pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.KeepInAllChats",
+      "value": "Säilytä kaikissa keskusteluissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.NewShortcut",
+      "value": "Uusi pikakomento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.RemoveFromAllChats",
+      "value": "Poista kaikista keskusteluista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutLibrary",
+      "value": "Pikakomentokirjasto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutLibraryMenu",
+      "value": "Pikakomentokirjasto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShortcutNotFound",
+      "value": "ei pikakomentoa, jonka tunnus on %1$@; kutsu list_shortcuts"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.ShowShortcuts",
+      "value": "Näytä pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Shortcuts.Stop",
+      "value": "Pysäytä"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.Shortcuts.StoppedAtStep",
+      "one_value": "%1$@ **%2$@** pysähtyi vaiheessa %3$d: %4$@",
+      "other_value": "%1$@ **%2$@** pysähtyi vaiheessa %3$d: %4$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.AgentUsage",
+      "value": "Avustajasi voi kysyä tältä agentilta kysymyksiä, ja tarkkailijat tai ajastukset voivat toimia senä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Agents",
+      "value": "Agentit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Automations",
+      "value": "Automaatiot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BackgroundTasks",
+      "value": "Taustatehtävät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BlankAgent",
+      "value": "Tyhjä agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.BlankAgentSummary",
+      "value": "Oma nimesi ja ohjeesi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotes",
+      "value": "Puhelumuistiinpanot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.CallNotesInstructions",
       "value": "Otat muistiinpanoja käyttäjän Telegram-puheluista. Kun puhelun litterointi on valmis, näytä muistiinpanot pienoisohjelmana: yhden rivin yhteenveto, avainkohdat, tehdyt päätökset, jokaisen tehtävät valintaruutuina vastuuhenkilöineen ja päivämäärineen, ja koko litteroitu sisältö laajennettavassa tietolaatikossa. Käytä litteroinnissa mainittuja puhuijen nimiä. Pidä sisältö lyhyenä ja helposti luettavana, ja käytä samaa kieltä kuin puhelussa puhuttiin. Muista puheluiden sisältö siltä varalta, että käyttäjä haluaa kysyä niistä myöhemmin."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CallNotesSummary",
+      "value": "Kuuntelee puhelujasi ja kirjoittaa muistiinpanot niiden päättyessä."
     },
     {
       "_": "types.LangPackString",
@@ -748,8 +2226,271 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Chats",
+      "value": "Keskustelut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Clear",
+      "value": "Tyhjennä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.CreateAgent",
+      "value": "Luo agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Delete",
+      "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteAgent",
+      "value": "Poista agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteAll",
+      "value": "Poista kaikki"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteAllRecents",
+      "value": "Poista kaikki viimeisimmät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteChat",
+      "value": "Poista keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteChatInfo",
+      "value": "Poistetaanko \"%1$@\" ja agentin muisti siitä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteGroupInfo",
+      "value": "Poistetaanko \"%1$@\", sen keskustelu ja jäsenten muistit siitä? Agentit jäävät."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteGroupTitle",
+      "value": "Poista ryhmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteHook",
+      "value": "Poista laukaisin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteHookInfo",
+      "value": "\"%1$@\" lakkaa toimimasta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DeleteProject",
+      "value": "Poista projekti"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.DeleteRecentsInfo",
+      "one_value": "Poistetaanko %1$d viimeisin keskustelu ja agentin muisti siitä?",
+      "other_value": "Poistetaanko %1$d viimeisintä keskustelua ja agentin muisti niistä?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.DoneDuration",
+      "value": "Valmis · %1$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.DurationMinutes",
+      "one_value": "%1$d min",
+      "other_value": "%1$d min"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.DurationSeconds",
+      "one_value": "%1$d sek",
+      "other_value": "%1$d sek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Edit",
+      "value": "Muokkaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.EditAgentTitle",
+      "value": "Muokkaa agenttia"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.EditorInstructions",
       "value": "Muokkaa käyttäjän syöttämää tekstiä: korjaa kielioppi ja kieliasu, tiivistä ja selvennä, mutta pidä sävy ja kieli ennallaan. Vastaa ensin muokatulla tekstillä, ja sitten enintään kolmella kohdalla, joissa selitit tekemästi muutokset."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Failed",
+      "value": "Epäonnistui"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Groups",
+      "value": "Ryhmät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Hooks",
+      "value": "Laukaisimet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.InstructionsHeader",
+      "value": "OHJEET"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.InstructionsPlaceholder",
+      "value": "Mitä se tekee, miten se vastaa, mitä se tietää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ListenToCalls",
+      "value": "Kuuntele puheluita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.MoveToProject",
+      "value": "Siirrä projektiin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Name",
+      "value": "Nimi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NameHeader",
+      "value": "NIMI"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NamePlaceholder",
+      "value": "esim. Kääntäjä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewAgent",
+      "value": "Uusi agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewAgentTitle",
+      "value": "Uusi agentti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewChat",
+      "value": "Uusi keskustelu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewChatInProject",
+      "value": "Uusi keskustelu projektissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewGroup",
+      "value": "Uusi ryhmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewProject",
+      "value": "Uusi projekti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NewProjectMenu",
+      "value": "Uusi projekti…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NoChatsFound",
+      "value": "Keskusteluja ei löytynyt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.NoProject",
+      "value": "Ei projektia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Pause",
+      "value": "Keskeytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.PickStartingPoint",
+      "value": "Valitse pohja. Voit muuttaa kaiken seuraavassa vaiheessa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Pin",
+      "value": "Kiinnitä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Pinned",
+      "value": "Kiinnitetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Profile",
+      "value": "Profiili"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Projects",
+      "value": "Projektit"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Recents",
+      "value": "Viimeisimmät"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Remove",
+      "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Rename",
+      "value": "Nimeä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.RenameChat",
+      "value": "Nimeä keskustelu uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.RenameGroup",
+      "value": "Nimeä ryhmä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ReplacesCallAgent",
+      "value": " Toinen agentti hoitaa nyt puhelumuistiinpanot; tämä korvaa sen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Researcher",
+      "value": "Tutkija"
     },
     {
       "_": "types.LangPackString",
@@ -758,8 +2499,99 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.ResearcherSummary",
+      "value": "Perehtyy aiheeseen ja raportoi siitä lähteineen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Results",
+      "value": "Tulokset"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Resume",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Retry",
+      "value": "Yritä uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.RunningDuration",
+      "value": "Käynnissä · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Save",
+      "value": "Tallenna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Shortcuts",
+      "value": "Pikakomennot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.SidebarController.ShowMore",
+      "one_value": "Näytä %1$d lisää",
+      "other_value": "Näytä %1$d lisää"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Stop",
+      "value": "Pysäytä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Stopped",
+      "value": "Pysäytetty"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Translator",
+      "value": "Kääntäjä"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.SidebarController.TranslatorInstructions",
       "value": "Käännä käyttäjän lähettämät viestit. Käännä ne englanniksi, jos ne ovat muulla kielellä, tai muuten käyttäjän viimeksi pyytämällä kielellä. Pidä äänensävy, muotoilu ja nimet ennallaan. Vastaa vain käännöksellä."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TranslatorSummary",
+      "value": "Kääntää kaiken lähettämäsi."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TurnOff",
+      "value": "Poista käytöstä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.TurnOn",
+      "value": "Ota käyttöön"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Unpin",
+      "value": "Irrota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.Watch",
+      "value": "Tarkkaile: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.WritingEditor",
+      "value": "Kirjoitusmuokkain"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SidebarController.WritingEditorSummary",
+      "value": "Viimeistelee viestisi ennen lähettämistä."
     },
     {
       "_": "types.LangPackString",
@@ -895,6 +2727,109 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.Tab.NewGroup",
       "value": "Uusi ryhmä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Tab.NewProject",
+      "value": "Uusi projekti"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Tab.Shortcuts",
+      "value": "Pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.Tab.Title",
+      "value": "Tekoälyavustaja"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.AgentStarting",
+      "value": "Agentti käynnistyy…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.TaskController.Attempt",
+      "one_value": "%1$d. yritys",
+      "other_value": "%1$d. yritys"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.DidNotFinish",
+      "value": "Ei valmistunut · %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Done",
+      "value": "Valmis"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.DoneIn",
+      "value": "Valmis · kesti %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.NoSteps",
+      "value": "Tämä suoritus ei tallentanut vaiheita."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Result",
+      "value": "TULOS"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.RetryTask",
+      "value": "Yritä tehtävää uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Running",
+      "value": "Käynnissä · %1$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.TaskController.Steps",
+      "one_value": "%1$d vaihe",
+      "other_value": "%1$d vaihetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.StopTask",
+      "value": "Pysäytä tehtävä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.StoppedAfter",
+      "value": "Pysäytetty · kului %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Task",
+      "value": "TEHTÄVÄ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Title",
+      "value": "Taustatehtävä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.Transcript",
+      "value": "LITTEROINTI"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIAssistant.TaskController.TranscriptSteps",
+      "one_value": "LITTEROINTI · %1$d VAIHE",
+      "other_value": "LITTEROINTI · %1$d VAIHETTA"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.TaskController.WhatHappened",
+      "value": "MITÄ TAPAHTUI"
     },
     {
       "_": "types.LangPackString",
@@ -1145,6 +3080,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIDuck.Model.Classic",
+      "value": "Perinteinen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIDuck.Model.Ghost",
+      "value": "Kummitus"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIRoutine.EditorController.AddChat",
       "value": "Lisää keskustelu"
     },
@@ -1212,7 +3157,7 @@
     {
       "_": "types.LangPackString",
       "key": "AIRoutine.EditorController.DeleteHook",
-      "value": "Poista liipaisin"
+      "value": "Poista laukaisin"
     },
     {
       "_": "types.LangPackString",
@@ -64250,5 +66195,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2504929
+  "version": 2504933
 }

@@ -963,8 +963,406 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.AddStep",
+      "value": "lisää vähintään yksi vaihe, esim. `ask: Tee yhteenveto: {{chat}}`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.AskNeedsPrompt",
+      "value": "ask vaatii kehotteen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.ChipMenu.RemovedFromAllChats",
+      "value": "Se poistetaan kirjastosta ja kaikista keskusteluista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.ChipMenu.RemovedFromLibrary",
+      "value": "Se poistetaan kirjastosta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Continue",
+      "value": "Jatketaanko?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.AddStep",
+      "value": "Lisää vaihe"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.AskMeForAValue",
+      "value": "Pyydä minulta arvoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.AskTheAgent",
+      "value": "Kysy agentilta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ConfirmFirst",
+      "value": "Vahvista ensin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ConfirmStepExample",
+      "value": "confirm: Jatketaanko?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.Continue",
+      "value": "Jatka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.DeleteShortcut",
+      "value": "Poista pikakomento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.DescribeChangePlaceholder",
+      "value": "Kuvaa muutos, esim. käännä se myös englanniksi"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.DescribeShortcutPlaceholder",
+      "value": "Kuvaa, mitä sen pitäisi tehdä, esim. listaa joka aamu lukemattomat keskustelut ja tee yhteenveto vilkkaimmasta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.EditShortcut",
+      "value": "Muokkaa pikakomentoa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.EmojiPlaceholder",
+      "value": "Emoji, esim. 📝"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.InputStepExample",
+      "value": "input: aihe | Mistä on kyse?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.NamePlaceholder",
+      "value": "Nimi, esim. Yhteenveto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.NewShortcut",
+      "value": "Uusi pikakomento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.RewriteSteps",
+      "value": "Kirjoita vaiheet uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.RunATelegramAction",
+      "value": "Suorita Telegram-toiminto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.Save",
+      "value": "Tallenna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ScriptPlaceholder",
+      "value": "ask: Tee yhteenveto: {{chat}} 5 kohdan luettelona"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.SendToTheChat",
+      "value": "Lähetä keskusteluun"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ShowANote",
+      "value": "Näytä muistiinpano"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ShowInAllChats",
+      "value": "Näytä kaikissa keskusteluissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.Steps",
+      "value": "Vaiheet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.StepsHelp",
+      "value": "Vaiheet suoritetaan ylhäältä alas, yksi riviä kohden. #-merkillä alkava rivi on muistiinpano.\n\n**Hae tietoja** · välitön, ei tekoälyä\n**run:** toiminto {json} · Telegram-toiminto, esim. run: unread_count\n**input:** nimi | kysymys · kysyy sinulta arvoa\n**set:** nimi = arvo · tallentaa arvon\n\n**Käytä tekoälyä**\n**write:** kehote, jossa on {{data}} · yksi nopea tekoälykutsu kyseisille tiedoille\n**ask:** kehote · koko agentti kaikilla työkaluilla, hitain\n\n**Tarkista**\n**confirm:** kysymys · pysähtyy, ellet hyväksy\n**require:** viesti · pysähtyy, jos viimeisin tulos on tyhjä\n\n**Näytä tai lähetä**\n**say:** teksti · muistiinpano avustajan keskustelussa\n**send:** teksti · lähettää tähän keskusteluun, kysyy ensin\n\nLisää -> nimi run-, write- tai ask-vaiheen perään, jos haluat tallentaa tuloksen muuttujaan {{name}}.\nValmiita muuttujia: {{chat}}, {{chat_id}}, {{result}}, {{date}}, {{time}}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.WriteSteps",
+      "value": "Kirjoita vaiheet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.WriteWithAI",
+      "value": "Kirjoita tekoälyn avulla"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.WritingSteps",
+      "value": "Kirjoitetaan vaiheita…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.ExpectedStep",
+      "value": "odotettiin muotoa `avainsana: teksti`, esim. `ask: Tee yhteenveto: {{chat}}`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Fast",
+      "value": "nopea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.InThisChat",
+      "value": "tässä keskustelussa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.InputNeedsName",
+      "value": "input vaatii nimen, esim. `input: aihe | Mistä on kyse?`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.InvalidParameters",
+      "value": "komennon %1$@ parametrien on oltava JSON-objekti, esim. {\"limit\": 20}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.AddToAllChats",
+      "value": "Lisää kaikkiin keskusteluihin"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.CopySuffix",
+      "value": " kopio"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Delete",
+      "value": "Poista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Duplicate",
+      "value": "Monista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Edit",
+      "value": "Muokkaa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.InAllChats",
+      "value": "kaikissa keskusteluissa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.ListSeparator",
+      "value": ", "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.NewShortcut",
+      "value": "Uusi pikakomento"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.RemoveFromAllChats",
+      "value": "Poista kaikista keskusteluista"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Run",
+      "value": "Suorita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Shortcuts",
+      "value": "Pikakomennot"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.LibraryController.ShortcutsHelp",
       "value": "Lisätyt pikakomennot näkyvät jokaisen avustajan keskustelun tekstikentän yläpuolella. Ne toimivat niissä keskusteluissa, joihin ne on lisätty. Jos pyydät avustajalta samaa asiaa kahdesti, se ehdottaa pikakomentoa."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.Starters",
+      "value": "Aloituspohjat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.LibraryController.YourShortcuts",
+      "value": "Omat pikakomennot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIShortcut.Line",
+      "one_value": "Rivi %1$d: %2$@",
+      "other_value": "Rivi %1$d: %2$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIShortcut.MaximumSteps",
+      "one_value": "pikakomennossa on enintään %1$d vaihe",
+      "other_value": "pikakomennossa on enintään %1$d vaihetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.MissingParameter",
+      "value": "%1$@ vaatii parametrin %2$@; se hyväksyy parametrit %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.NoAI",
+      "value": "ei tekoälyä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.NothingToWorkWith",
+      "value": "Ei käsiteltävää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.RunNeedsAction",
+      "value": "run vaatii toiminnon nimen, esim. `run: unread_count`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.AgentDidNotAnswer",
+      "value": "Agentti ei vastannut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.InvalidParameters",
+      "value": "Toiminnon %1$@ parametrit eivät ole kelvollista JSONia."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.ModelDidNotAnswer",
+      "value": "Malli ei vastannut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.NoChat",
+      "value": "Ei keskustelua, johon lähettää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.NothingToSend",
+      "value": "Ei mitään lähetettävää."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.RequiresChat",
+      "value": "Tämä pikakomento toimii keskustelun avustajassa: avaa se keskustelusta tai profiilista."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.SayNeedsText",
+      "value": "say vaatii tekstiä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.SendNeedsText",
+      "value": "send vaatii tekstiä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.SetNeedsValue",
+      "value": "set vaatii muodon `nimi = arvo`"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "AIShortcut.Steps",
+      "one_value": "%1$d vaihe",
+      "other_value": "%1$d vaihetta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.ActionItems",
+      "value": "Toimenpiteet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.Again",
+      "value": "Uudelleen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.BriefReply",
+      "value": "write: Vastaa tähän pyyntöön lyhyesti, kuten keskusteluvastauksessa, käyttäen vain alla olevia Telegram-tietoja: \"%1$@\". Tiedot: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.DraftReply",
+      "value": "Luonnos vastauksesta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.FactCheck",
+      "value": "Oikaise"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.LinksAndFiles",
+      "value": "Linkit ja tiedostot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.Summary",
+      "value": "Yhteenveto"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.Translate",
+      "value": "Käännä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.WhatDidIMiss",
+      "value": "Mitä jäi huomaamatta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UndefinedVariable",
+      "value": "muuttujaa {{%1$@}} ei ole määritetty ennen tätä riviä"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UnknownAction",
+      "value": "Telegram-toimintoa %1$@ ei ole olemassa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UnknownParameter",
+      "value": "%1$@ ei tue parametria %2$@; se hyväksyy parametrit %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UnknownStep",
+      "value": "tuntematon vaihe `%1$@`; käytä jotakin seuraavista: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.WriteNeedsPrompt",
+      "value": "write vaatii kehotteen ja datan, esim. `write: Tee yhteenveto: {{messages}}`"
     },
     {
       "_": "types.LangPackString",
@@ -63319,5 +63717,5 @@
       "value": "Näytä korvaukset"
     }
   ],
-  "version": 2503871
+  "version": 2503951
 }

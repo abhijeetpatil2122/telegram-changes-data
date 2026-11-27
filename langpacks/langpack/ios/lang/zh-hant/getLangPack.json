@@ -6540,6 +6540,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.VideoMessageRecordingDisabledMessage",
+      "value": "請先結束通話，再錄製視訊訊息。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.VoiceChatInProgressCallMessage",
       "value": "退出在 %1$@ 的視訊聊天，並且與 %2$@ 進行通話？"
     },
@@ -7306,7 +7311,7 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.AdminLog.CanPostStories",
-      "value": "發表動態"
+      "value": "發布動態"
     },
     {
       "_": "types.LangPackString",
@@ -8806,7 +8811,7 @@
     {
       "_": "types.LangPackString",
       "key": "Channel.EditAdmin.PermissionPostStories",
-      "value": "發表動態"
+      "value": "發布動態"
     },
     {
       "_": "types.LangPackString",
@@ -10431,7 +10436,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.AlwaysUseAI.ErrorGeneric",
-      "value": "無法重寫此訊息，因此未能傳送。點擊「傳送」即可傳送原始內容。"
+      "value": "無法改寫此訊息，因此未能傳送。點擊「傳送」即可傳送原始內容。"
     },
     {
       "_": "types.LangPackString",
@@ -10442,6 +10447,41 @@
       "_": "types.LangPackString",
       "key": "Chat.AlwaysUseAI.ErrorTooLong",
       "value": "訊息對 AI 來說過長，因此未能傳送。點擊「傳送」即可傳送原始內容。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintOffText",
+      "value": "點擊並按住即可開啟。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintOffTitle",
+      "value": "自動改寫已關閉"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintText",
+      "value": "點擊並按住即可關閉。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintTitle",
+      "value": "自動改寫已開啟"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitGetPremium",
+      "value": "獲取 Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitText",
+      "value": "「自動改寫」目前無法改寫更多訊息，因此此訊息未送出。請訂閱 Telegram Premium 以獲得更高的 AI 用量上線，或關閉「自動改寫」功能，以便在撰寫時直接傳送訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitTitle",
+      "value": "已達 AI 用量上限"
     },
     {
       "_": "types.LangPackString",
@@ -10947,6 +10987,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Dictation.ConvertToText",
       "value": "轉換為文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Downloading",
+      "value": "正在下載… %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.DownloadingModels",
+      "value": "正在下載模型… %@"
     },
     {
       "_": "types.LangPackString",
@@ -13305,6 +13355,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.SendMessageMenu.AIRewriteTurnOff",
+      "value": "關閉自動改寫"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.SendMessageMenu.EditMessage",
       "value": "編輯訊息"
     },
@@ -13317,6 +13372,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SendMessageMenu.MoveCaptionUp",
       "value": "上移說明文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SendMessageMenu.RewriteWithAI",
+      "value": "使用 AI 改寫"
     },
     {
       "_": "types.LangPackString",
@@ -13447,6 +13507,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SlowmodeTooltipPending",
       "value": "慢速模式已啟用。您一次只能傳送一則訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SpamBadge",
+      "value": "垃圾訊息"
     },
     {
       "_": "types.LangPackString",
@@ -17990,6 +18055,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.AutoSpamInfo",
+      "value": "此訊息已被自動標示為垃圾訊息。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.AutoremoveActionEdit",
       "value": "編輯自動刪除設定"
     },
@@ -19440,6 +19510,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.LiveStreamVideoMessageRecordingRestricted",
+      "value": "您無法在直播期間錄製視訊訊息。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Location",
       "value": "位置"
     },
@@ -19642,6 +19717,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.MyNotes",
       "value": "我的筆記"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.NotSpam",
+      "value": "非垃圾訊息"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.NotSpamDone.Title",
+      "value": "了解！"
     },
     {
       "_": "types.LangPackString",
@@ -21017,6 +21102,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.VoiceChatMediaRecordingRestricted",
       "value": "您無法在視訊聊天期間錄製語音和視訊訊息。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.VoiceChatVideoMessageRecordingRestricted",
+      "value": "您無法在視訊聊天期間錄製視訊訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -26167,6 +26257,26 @@
       "_": "types.LangPackString",
       "key": "Gift.Setup.PlaceBid",
       "value": "出價"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.BuyStars",
+      "value": "購買星星"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Gift.StarsResaleTon.Pay",
+      "other_value": "支付 %@ Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Text",
+      "value": "您可以從錢包中支付 **%1$@** 來購買 **%2$@**，價格為 %3$@。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Title",
+      "value": "沒有足夠的星星"
     },
     {
       "_": "types.LangPackString",
@@ -33550,6 +33660,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorLanguage",
+      "value": "%@目前無法在此裝置上轉錄。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorLanguageUnknown",
+      "value": "此裝置目前尚無法轉錄此語言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorOnDevice",
+      "value": "無法在您的裝置上轉錄此內容。"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Message.AudioTranscription.ErrorTooLong",
       "value": "該語音訊息太長，無法轉錄"
     },
@@ -38851,7 +38976,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "PUSH_CHANNEL_MESSAGE_PHOTOS_TEXT",
-      "other_value": "張貼了 %d 張照片"
+      "other_value": "發布了 %d 張照片"
     },
     {
       "_": "types.LangPackString",
@@ -38916,7 +39041,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "PUSH_CHANNEL_MESSAGE_VIDEOS_TEXT",
-      "other_value": "張貼了 %d 個影片"
+      "other_value": "發布了 %d 個影片"
     },
     {
       "_": "types.LangPackString",
@@ -50830,6 +50955,146 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SpeechToText.ActionDownload",
+      "value": "下載"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionPause",
+      "value": "暫停"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionUpdate",
+      "value": "更新"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionVariants",
+      "value": "選擇變體"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.AutoDetect",
+      "value": "自動偵測"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DeleteAllModels",
+      "value": "刪除所有模型"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DeleteAllModelsText",
+      "value": "要刪除已下載的語音模型嗎？當您需要時，系統會再次下載。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DownloadProgress",
+      "value": "%1$@ / %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.IntroText",
+      "value": "您語音輸入的訊息會在此裝置上進行轉錄。此過程完全私密。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LanguagesHeader",
+      "value": "語言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LearnMore",
+      "value": "了解更多"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LiveText",
+      "value": "錄製期間即時顯示文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LiveTextInfo",
+      "value": "允許您傳送文字訊息而非語音訊息。轉錄是在您的裝置上進行的。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.Title",
+      "value": "語音輸入"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.UpdateSize",
+      "value": "可以更新 · %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VariantMixed",
+      "value": "%@（混合）"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscription",
+      "value": "裝置內轉錄"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscriptionInfo",
+      "value": "語音訊息會以私密方式轉錄——所有資料均不會離開此裝置。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Compact.Text",
+      "value": "每種語言約 30 MB。請僅保留您需要的語言。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Compact.Title",
+      "value": "精簡版語言"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Description",
+      "value": "語音訊息會直接在您的裝置上轉換為文字。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Models.Text",
+      "value": "由 Telegram 自主研發的自訂語音轉文字 AI 模型。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Models.Title",
+      "value": "Telegram 的模型"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Private.Text",
+      "value": "所有資料均不離開手機。轉錄在您的裝置上完成。"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Private.Title",
+      "value": "完全私密"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Sample",
+      "value": "嘿！會遲到十分鐘，我們在車站附近的咖啡廳見"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Title",
+      "value": "出於隱私考慮"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Understood",
+      "value": "我已了解"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageInfo.Action",
       "value": "了解更多"
     },
@@ -54006,7 +54271,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Context.SaveToChannel",
-      "value": "發表到資料頁"
+      "value": "發布到資料頁"
     },
     {
       "_": "types.LangPackString",
@@ -54147,6 +54412,41 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.Blur.Title",
       "value": "模糊"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Clear",
+      "value": "清除"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Downloading",
+      "value": "下載中…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.EditHint",
+      "value": "點擊單字以編輯"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.NoSpeech",
+      "value": "沒有辨識出文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Title",
+      "value": "說明文字"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Transcribing",
+      "value": "音訊轉錄中…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.UnsupportedLanguage",
+      "value": "此語言不提供説明文字"
     },
     {
       "_": "types.LangPackString",
@@ -54701,7 +55001,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Privacy.KeepOnChannelPage",
-      "value": "發表到頻道資料頁"
+      "value": "發布到頻道資料頁"
     },
     {
       "_": "types.LangPackString",
@@ -54781,12 +55081,12 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Privacy.PostStory",
-      "value": "發表動態"
+      "value": "發布動態"
     },
     {
       "_": "types.LangPackString",
       "key": "Story.Privacy.PostStoryAs",
-      "value": "以哪個身分發表動態"
+      "value": "以哪個身分發布動態"
     },
     {
       "_": "types.LangPackString",
@@ -55086,7 +55386,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.ToastSavedToChannelTitle",
-      "value": "動態已發表至頻道資料頁"
+      "value": "動態已發布至頻道資料頁"
     },
     {
       "_": "types.LangPackString",
@@ -55431,7 +55731,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryFeed.TooltipNotifyOn",
-      "value": "每當 **%@** 發表新動態時，您都會收到通知。"
+      "value": "每當 **%@** 發布新動態時，您都會收到通知。"
     },
     {
       "_": "types.LangPackString",
@@ -55581,7 +55881,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryList.SaveToProfile",
-      "value": "發表到資料頁"
+      "value": "發布到資料頁"
     },
     {
       "_": "types.LangPackString",
@@ -55611,7 +55911,7 @@
     {
       "_": "types.LangPackString",
       "key": "StoryList.SavedEmptyState.Title",
-      "value": "沒有發表的動態"
+      "value": "沒有發布的動態"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -55626,7 +55926,7 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "StoryList.SubtitleSaved",
-      "other_value": "%d 則發表的動態"
+      "other_value": "%d 則發布的動態"
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -55766,7 +56066,7 @@
     {
       "_": "types.LangPackString",
       "key": "SuggestPost.Time.ProposeTomorrow",
-      "value": "發布於明天 %@"
+      "value": "於明天 %@ 發布"
     },
     {
       "_": "types.LangPackString",
@@ -55951,7 +56251,7 @@
     {
       "_": "types.LangPackString",
       "key": "TextProcessing.AlwaysUseFooter",
-      "value": "您在此聊天室中傳送的每則訊息都將根據這些設定重寫。"
+      "value": "您在此聊天室中傳送的每則訊息都將根據這些設定改寫。"
     },
     {
       "_": "types.LangPackString",
@@ -56136,7 +56436,7 @@
     {
       "_": "types.LangPackString",
       "key": "TextProcessing.StylePreview.Subtitle",
-      "value": "套用此樣式\n即可立即重寫您的訊息。"
+      "value": "套用此樣式\n即可立即改寫您的訊息。"
     },
     {
       "_": "types.LangPackString",
@@ -64349,5 +64649,5 @@
       "value": "您輸入了無效的安全碼。"
     }
   ],
-  "version": 22741357
+  "version": 22844495
 }

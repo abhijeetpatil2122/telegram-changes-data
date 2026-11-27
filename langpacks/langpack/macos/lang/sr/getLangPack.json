@@ -5102,6 +5102,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AppIconActions.PremiumRequired",
+      "value": "За „%1$@” је потребан Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AppSettings.Actions.Change",
       "value": "Промени"
     },
@@ -19499,6 +19504,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSettings.Actions.PremiumRequiredToHideAds",
+      "value": "За сакривање огласа потребан је Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSettings.Actions.PublicGroupUsernameRequired",
       "value": "Telegram то није променио; за ово је јавним групама потребно корисничко име."
     },
@@ -28041,8 +28051,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GlobalPrivacy.Actions.GiftPrivacyPremiumRequired",
+      "value": "За избор поклона које прихватате потребан је Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GlobalPrivacy.Actions.LimitMessagesConfirmation",
       "value": "Агент жели да дозволи само вашим контактима и корисницима претплате на Telegram Premium да започну ћаскања с вама."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GlobalPrivacy.Actions.MessagePrivacyPremiumRequired",
+      "value": "За ограничење ко може да вам шаље поруке потребан је Telegram Premium."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -30474,6 +30494,11 @@
       "key": "Lists.Actions.SendChecklistConfirmation",
       "one_value": "Агент жели да пошаље листу задатака „%2$@” са %1$d задатком у „%3$@”.",
       "other_value": "Агент жели да пошаље листу задатака „%2$@” са %1$d задатака у „%3$@”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lists.Actions.SendChecklistFailed",
+      "value": "Листа задатака није послата. За слање листе задатака потребан је Telegram Premium."
     },
     {
       "_": "types.LangPackString",
@@ -41259,6 +41284,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReadingActions.TranscriptionUnavailable",
+      "value": "Telegram није успео да транскрибује поруку. За претварање гласа у текст потребан је Telegram Premium или бесплатни пробни период, који је можда искоришћен за ову недељу."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RecentCalls.Delete",
       "value": "Избриши"
     },
@@ -51655,6 +51685,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoryStealth.Actions.TurnOn",
+      "value": "Укључи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealthActions.StealthModeNeedsTelegramPremium",
+      "value": "За невидљиви режим потребан је Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealthActions.StealthModeWasUsedRecentlyItCanBeTurnedOn",
+      "value": "Невидљиви режим је недавно коришћен; може се поново укључити за %1$@."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoryStealthActions.TelegramDidnTTurnOnStealthModeTryAgain",
       "value": "Telegram није укључио невидљиви режим. Покушајте поново."
     },
@@ -51969,8 +52014,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.ConversationAccount",
+      "value": "налог овог разговора"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.Switch",
+      "value": "Пребаци"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SwitchAccount.Actions.SwitchAccount",
       "value": "Агент жели да пребаци Telegram на налог %1$@ како би приказао нешто на екрану."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SwitchAccount.Actions.SwitchAccountTitle",
+      "value": "Пребацити налог?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SwitchAccountActions.SwitchingAccountsIsNotSupportedHere",
+      "value": "пребацивање између налога овде није подржано"
     },
     {
       "_": "types.LangPackString",
@@ -61799,5 +61864,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2504261
+  "version": 2504300
 }

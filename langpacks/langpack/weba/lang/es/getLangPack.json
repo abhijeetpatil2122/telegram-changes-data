@@ -6207,6 +6207,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "DebugExportedSenders",
+      "value": "Enable exported senders debug"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "DebugMenuEnableLogs",
       "value": "Activar registros"
     },
@@ -10679,6 +10684,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardShortcutsDesc",
+      "value": "Teclas rápidas, conflictos y teclas personalizadas"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "Restringir usuario"
     },
@@ -11271,17 +11281,17 @@
     {
       "_": "types.LangPackString",
       "key": "MediaAccessCameraMicrophoneText",
-      "value": "**{name}** solicita acceso a tu **cámara** y **micrófono**. Podrás revocar este acceso en el perfil de **{name}**."
+      "value": "**{name}** solicitó acceso a tu **cámara** y **micrófono**. Puedes gestionar su acceso desde el perfil de **{name}**."
     },
     {
       "_": "types.LangPackString",
       "key": "MediaAccessCameraText",
-      "value": "**{name}** solicita acceso a tu **cámara**. Podrás revocar este acceso en el perfil de **{name}**."
+      "value": "**{name}** solicitó acceso a tu **cámara**. Puedes gestionar su acceso desde el perfil de **{name}**."
     },
     {
       "_": "types.LangPackString",
       "key": "MediaAccessMicrophoneText",
-      "value": "**{name}** solicita acceso a tu **micrófono**. Podrás revocar este acceso en el perfil de **{name}**."
+      "value": "**{name}** solicitó acceso a tu **micrófono**. Puedes gestionar su acceso desde el perfil de **{name}**."
     },
     {
       "_": "types.LangPackString",
@@ -12222,7 +12232,7 @@
     {
       "_": "types.LangPackString",
       "key": "NoAudioFoundInfo2",
-      "value": "No existen coincidencias con **{query}**."
+      "value": "No hay coincidencias con **{query}**."
     },
     {
       "_": "types.LangPackString",
@@ -17459,8 +17469,263 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutAlsoUsedBy",
+      "value": "También usado por: {action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutBold",
+      "value": "Negrita"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutChatByNumber",
+      "value": "Abrir chat por número"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCloseOrGoBack",
+      "value": "Cerrar o retroceder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopyFormats",
+      "value": "Copiar como texto, HTML o Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopySelected",
+      "value": "Copiar mensajes seleccionados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteLayer",
+      "value": "Eliminar capa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteSelected",
+      "value": "Eliminar mensajes seleccionados"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutEditLastMessage",
+      "value": "Editar el último mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFocusMessageInput",
+      "value": "Poner foco en la zona de escritura"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFolderByNumber",
+      "value": "Abrir carpeta por número"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFrameStep",
+      "value": "Fotograma anterior o siguiente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutGlobalSearch",
+      "value": "Buscar chats y mensajes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHeadings",
+      "value": "Encabezados 1–6"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHoldInMessageMenu",
+      "value": "mantén en el menú de mensajes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutInFullscreen",
+      "value": "en pantalla completa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutItalic",
+      "value": "Cursiva"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMonospace",
+      "value": "Monoespaciado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMuteUnmute",
+      "value": "Silenciar / no silenciar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNeedsModifier",
+      "value": "Úsalo con {modifiers}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNewLine",
+      "value": "Nueva línea"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextChat",
+      "value": "Chat siguiente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextMedia",
+      "value": "Multimedia siguiente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNotSet",
+      "value": "Sin establecer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPauseRecording",
+      "value": "Pausar grabación de voz"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPlayPause",
+      "value": "Reproducir o pausar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousChat",
+      "value": "Chat anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousMedia",
+      "value": "Multimedia anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutQuickChatPicker",
+      "value": "Cambiar rápidamente de chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecording",
+      "value": "Presiona teclas…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecordingHint",
+      "value": "Esc para cancelar, retroceso para borrar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceText",
+      "value": "{keys} ya está en uso en {actions}. Se quitará de allí."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToNext",
+      "value": "Responder mensaje siguiente"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToPrevious",
+      "value": "Responder mensaje anterior"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReserved",
+      "value": "{keys} está reservado por el navegador o sistema"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSearchInChat",
+      "value": "Buscar en el chat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSeekVideo",
+      "value": "Avanzar o retroceder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSendMessage",
+      "value": "Enviar mensaje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutStrikethrough",
+      "value": "Tachado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSubscript",
+      "value": "Subíndice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSuperscript",
+      "value": "Superíndice"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUnderline",
+      "value": "Subrayado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUsedByFixed",
+      "value": "{keys} es usado por {action}"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenInputEmpty",
+      "value": "cuando la zona de escritura está vacía"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenNoSelection",
+      "value": "sin texto seleccionado"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenSelection",
+      "value": "con texto seleccionado"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsControllerOthersLockByPasscode",
       "value": "Bloquear con código"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsFormattingInfo",
+      "value": "Selecciona texto en la zona de escritura para aplicar formatos."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaEditor",
+      "value": "Editor multimedia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaViewer",
+      "value": "Visor multimedia"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionRoundVideo",
+      "value": "Videomensajes"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionStories",
+      "value": "Historias"
     },
     {
       "_": "types.LangPackString",
@@ -22380,5 +22645,5 @@
       "value": "Tu nombre"
     }
   ],
-  "version": 400432
+  "version": 403843
 }

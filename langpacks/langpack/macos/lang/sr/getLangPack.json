@@ -3753,6 +3753,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Account.Actions.ContactAlerts",
+      "value": "%1$@ обавештава када се контакти придруже"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Account.Actions.FirstName",
       "value": "Име: %1$@"
     },
@@ -3835,6 +3840,11 @@
       "_": "types.LangPackString",
       "key": "Account.Actions.StarsHistoryLoadFailed",
       "value": "Историја звездица није учитана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Account.Actions.YourContacts",
+      "value": "ваши контакти"
     },
     {
       "_": "types.LangPackString",
@@ -5802,6 +5812,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ArchiveSettingsActions.ArchiveNonContacts",
+      "value": "архивира и искључи обавештења за нова ћаскања од особа које нису у контактима"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ArchiveSettingsActions.Change",
       "value": "Промени"
     },
@@ -5819,6 +5834,11 @@
       "_": "types.LangPackString",
       "key": "ArchiveSettingsActions.SettingsLoadFailed",
       "value": "Подешавања архиве нису учитана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ArchiveSettingsActions.StopArchivingNonContacts",
+      "value": "престане са архивирањем нових ћаскања од особа ван контаката"
     },
     {
       "_": "types.LangPackString",
@@ -17229,6 +17249,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatImport.Actions.MutualContactsRequired",
+      "value": "Можете да увозите у ћаскање с неком особом само када сте узајамни контакти."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatImportActions.ImportAction",
       "value": "Увези"
     },
@@ -19924,6 +19949,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatsActions.SeeContacts",
+      "value": "види ваше контакте"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatsActions.YouLeave",
       "value": "Агент жели да напусти „%1$@”."
     },
@@ -21606,6 +21636,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Contacts.Actions.BlockVerb",
+      "value": "блокира"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Contacts.Actions.Delete",
       "value": "Избриши"
     },
@@ -21618,6 +21653,11 @@
       "_": "types.LangPackString",
       "key": "Contacts.Actions.DeleteContact",
       "value": "Избрисати контакт?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Contacts.Actions.SeeWhoYouBlocked",
+      "value": "види кога сте блокирали"
     },
     {
       "_": "types.LangPackString",
@@ -21643,6 +21683,11 @@
       "_": "types.LangPackString",
       "key": "Contacts.Actions.UnblockTitle",
       "value": "Деблокирати?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Contacts.Actions.UnblockVerb",
+      "value": "деблокира"
     },
     {
       "_": "types.LangPackString",
@@ -21713,6 +21758,21 @@
       "_": "types.LangPackString",
       "key": "ContactsActions.BlockedListLoadFailed",
       "value": "Листа блокираних није учитана. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContactsActions.PhoneUnavailable",
+      "value": "%1$@ не дели број телефона с вама, па нема картице контакта за слање; уместо тога пошаљите @username или везу."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContactsActions.SendFailed",
+      "value": "слање контакта није успело"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ContactsActions.UnknownUser",
+      "value": "непознат корисник"
     },
     {
       "_": "types.LangPackString",
@@ -28130,6 +28190,18 @@
       "_": "types.LangPackString",
       "key": "GlobalPrivacy.Actions.RequestTimedOut",
       "value": "Telegram није одговорио. Покушајте поново."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GlobalPrivacyActions.ContactsAndPremium",
+      "value": "контакти и Premium корисници"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "сви, %1$d звездице по поруци од особа које нису у контактима",
+      "key": "GlobalPrivacyActions.PaidMessages",
+      "one_value": "сви, %1$d звездица по поруци од особа које нису у контактима",
+      "other_value": "сви, %1$d звездица по поруци од особа које нису у контактима"
     },
     {
       "_": "types.LangPackString",
@@ -39848,6 +39920,16 @@
       "_": "types.LangPackString",
       "key": "PrivacyExceptions.Actions.PrivacyAction",
       "value": " %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyExceptionsActions.EverybodyAlreadyAllowed",
+      "value": "Свако већ може да %1$@; always_allow ради само када је подешено на „контакти” или „нико”."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyExceptionsActions.NobodyAlreadyDenied",
+      "value": "Нико већ не може да %1$@; never_allow ради само када је подешено на „сви” или „контакти”."
     },
     {
       "_": "types.LangPackString",
@@ -62074,5 +62156,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2504846
+  "version": 2504944
 }

@@ -10647,17 +10647,27 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.AlwaysUseAI.ErrorGeneric",
-      "value": "Не вдалося переписати повідомлення, тому воно не було надіслано. Ви можете надіслати його в поточному вигляді."
+      "value": "Не вдалося переписати повідомлення. Ви можете надіслати його без змін."
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.AlwaysUseAI.ErrorLimit",
-      "value": "Ви досягли ліміту ШІ, тому повідомлення не було надіслано. Ви можете надіслати його в поточному вигляді."
+      "value": "Ви досягли ліміту ШІ-редактора. Ви можете надіслати повідомлення без змін."
     },
     {
       "_": "types.LangPackString",
       "key": "Chat.AlwaysUseAI.ErrorTooLong",
-      "value": "Повідомлення задовге для ШІ, тому воно не було надіслано. Ви можете надіслати його в поточному вигляді."
+      "value": "Повідомлення задовге для ШІ. Ви можете надіслати його без змін."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintOffTitle",
+      "value": "Переписування вимкнене"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintTitle",
+      "value": "Переписування увімкнене"
     },
     {
       "_": "types.LangPackString",
@@ -13662,6 +13672,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.SendMessageMenu.AIRewriteTurnOff",
+      "value": "Вимкнути переписування"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.SendMessageMenu.EditMessage",
       "value": "Змінити повідомлення"
     },
@@ -13674,6 +13689,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SendMessageMenu.MoveCaptionUp",
       "value": "Підписати зверху"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SendMessageMenu.RewriteWithAI",
+      "value": "Переписати за допомогою ШІ"
     },
     {
       "_": "types.LangPackString",
@@ -27034,6 +27054,11 @@
       "_": "types.LangPackString",
       "key": "Gift.Setup.PlaceBid",
       "value": "Зробити ставку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Title",
+      "value": "Недостатньо зірок"
     },
     {
       "_": "types.LangPackString",
@@ -52588,6 +52613,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscriptionInfo",
+      "value": "Голосові повідомлення розшифровуються приватно — дані не покидають ваш пристрій."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Sample",
+      "value": "Привіт! Запізнююся на десять хвилин, побачимося в кафе біля вокзалу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageInfo.Action",
       "value": "Докладніше"
     },
@@ -57372,7 +57407,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Views.ViewsNotRecorded",
-      "value": "Немає записів про перегляди."
+      "value": "Інформацію про перегляди не збережено."
     },
     {
       "_": "types.LangPackString",
@@ -58013,7 +58048,7 @@
     {
       "_": "types.LangPackString",
       "key": "TextProcessing.AlwaysUse",
-      "value": "Завжди використовувати в цьому чаті"
+      "value": "Запамʼятати для цього чату"
     },
     {
       "_": "types.LangPackString",
@@ -66557,5 +66592,5 @@
       "value": "Ви ввели неправильний код безпеки."
     }
   ],
-  "version": 22797279
+  "version": 22803135
 }

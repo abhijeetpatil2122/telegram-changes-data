@@ -183,7 +183,7 @@
     {
       "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.LeadMembers",
-      "value": "Вођа · %1$@"
+      "value": "Водећи · %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -3025,8 +3025,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AIChat",
+      "value": "ВИ ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AIChatIn",
+      "value": "ВИ ћаскање у %1$@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.AddAgent",
       "value": "Додај члана…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AddAgentInfo",
+      "value": "Агент кога додате одговара овде када започнете поруку његовим именом и обавештава вас када вас неко у ћаскању помене или вам одговори."
     },
     {
       "_": "types.LangPackString",
@@ -3057,8 +3072,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.AgentsReplyInfo",
+      "value": "Одговарају овде када започнете поруку њиховим именом, на пример „%1$@, …”. Кликните десним тастером миша на агента да бисте га уклонили или пошаљите „/kick <име>”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.Chat",
       "value": "Ћаскање"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.CreateAgentInfo",
+      "value": "Прво направите прилагођеног агента: затражите од помоћника, на пример „направи агента за белешке о издању”. Затим га додајте овде, па ће одговарати у овом ћаскању када започнете поруку његовим именом."
     },
     {
       "_": "types.LangPackString",
@@ -3072,8 +3097,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.DeleteChatConfirm",
+      "value": "Избрисати „%1$@” и меморију агента о том ћаскању?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.DeleteGroup",
       "value": "Избриши групу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.DeleteGroupConfirm",
+      "value": "Избрисати „%1$@” и њено ћаскање? Агенти остају."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.DiscussionInfo",
+      "value": "Рунда дискусије омогућава члановима да једни другима виде прве одговоре и да их допуне. Сажетак водећег обједињује одговоре у један одговор. Обе могућности коштају више."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.DiscussionRound",
+      "value": "Рунда дискусије"
     },
     {
       "_": "types.LangPackString",
@@ -3082,8 +3127,35 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Lead",
+      "value": "Водећи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.LeadSummary",
+      "value": "Сажетак водећег"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.MakeLead",
+      "value": "Постави за водећег"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Група има највише %1$d члана.",
+      "key": "AIConversation.ProfileController.MaximumMembers",
+      "one_value": "Група има највише %1$d члана.",
+      "other_value": "Група има највише %1$d чланова."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.Members",
       "value": "ЧЛАНОВИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.MembersInfo",
+      "value": "Сви одговарају на вашу поруку истовремено. Први члан је водећи. Кликните на члана да бисте га видели или уредили, а кликните десним тастером миша да бисте га уклонили или поставили за водећег."
     },
     {
       "_": "types.LangPackString",
@@ -3112,6 +3184,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.NoProject",
+      "value": "Без пројекта"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.None",
+      "value": "Ништа"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.Pin",
       "value": "Закачи"
     },
@@ -3134,6 +3216,11 @@
       "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.RemoveAgent",
       "value": "Уклонити %1$@?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.RemoveAgentInfo",
+      "value": "%1$@ престаје да прати ћаскање %2$@ и више неће одговарати овде. Његова остала ћаскања остају непромењена."
     },
     {
       "_": "types.LangPackString",
@@ -3164,6 +3251,11 @@
       "_": "types.LangPackString",
       "key": "AIConversation.ProfileController.ShowInChatList",
       "value": "Прикажи на списку ћаскања"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIConversation.ProfileController.Title",
+      "value": "Назив"
     },
     {
       "_": "types.LangPackString",
@@ -61310,5 +61402,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2503187
+  "version": 2503240
 }

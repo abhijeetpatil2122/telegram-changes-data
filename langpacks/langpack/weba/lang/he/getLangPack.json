@@ -10952,6 +10952,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "KeyboardKeyBackspace",
+      "value": "Backspace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyDelete",
+      "value": "Del"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEnter",
+      "value": "Enter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyEsc",
+      "value": "Esc"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeySpace",
+      "value": "רווח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardKeyTab",
+      "value": "לשונית"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcuts",
+      "value": "קיצורי מקלדת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "KeyboardShortcutsDesc",
+      "value": "מקשי קיצור, התנגשויות ומקשים מותאמים אישית"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "KickFromSupergroup",
       "value": "הגבלת משתמש"
     },
@@ -11556,17 +11596,17 @@
     {
       "_": "types.LangPackString",
       "key": "MediaAccessCameraMicrophoneText",
-      "value": "**⁨{name}⁩** מבקש גישה ל**מצלמה** ול**מיקרופון** שלך. תוכל לבטל גישה זו בדף הפרופיל של **⁨{name}⁩**."
+      "value": "**⁨{name}⁩** ביקש גישה ל**מצלמה** ול**מיקרופון** שלך. תוכל לנהל גישה זו דרך דף הפרופיל של **⁨{name}⁩**."
     },
     {
       "_": "types.LangPackString",
       "key": "MediaAccessCameraText",
-      "value": "**⁨{name}⁩** מבקש גישה ל**מצלמה** שלך. תוכל לבטל גישה זו בדף הפרופיל של **⁨{name}⁩**."
+      "value": "**⁨{name}⁩** ביקש גישה ל**מצלמה** שלך. תוכל לנהל גישה זו דרך דף הפרופיל של **⁨{name}⁩**."
     },
     {
       "_": "types.LangPackString",
       "key": "MediaAccessMicrophoneText",
-      "value": "**⁨{name}⁩** מבקש גישה ל**מיקרופון** שלך. תוכל לבטל גישה זו בדף הפרופיל של **⁨{name}⁩**."
+      "value": "**⁨{name}⁩** ביקש גישה ל**מיקרופון** שלך. תוכל לנהל גישה זו דרך דף הפרופיל של **⁨{name}⁩**."
     },
     {
       "_": "types.LangPackString",
@@ -17502,6 +17542,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SettingsKeywordsShortcuts",
+      "value": "מקשי קיצור, קיצורי דרך, מקלדת"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SettingsKeywordsStickers",
       "value": "מדבקות, אימוג'ים, GIF, מסיכות, רגשונים"
     },
@@ -17862,8 +17907,323 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ShortcutAlsoUsedBy",
+      "value": "בשימוש גם על ידי: ⁨{action}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutBold",
+      "value": "מודגש"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutChatByNumber",
+      "value": "פתח צ'אט לפי מספר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCloseOrGoBack",
+      "value": "סגור או חזור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutComboCondition",
+      "value": "⁨{keys}⁩ — ⁨{condition}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopyFormats",
+      "value": "העתק כטקסט, HTML או Markdown"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutCopySelected",
+      "value": "העתק את ההודעות שנבחרו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteLayer",
+      "value": "מחק שכבה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutDeleteSelected",
+      "value": "מחק את ההודעות שנבחרו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutEditLastMessage",
+      "value": "ערוך את ההודעה האחרונה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFocusMessageInput",
+      "value": "מקד את שדה ההודעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFolderByNumber",
+      "value": "פתח תיקיה לפי מספר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutFrameStep",
+      "value": "המסגרת הקודמת או הבאה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutGlobalSearch",
+      "value": "חפש בצ'אטים והודעות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHeadings",
+      "value": "כותרות 1–6"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHint",
+      "value": "⁨{action}⁩ (⁨{keys}⁩)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutHoldInMessageMenu",
+      "value": "החזק בתפריט ההודעות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutInFullscreen",
+      "value": "במסך מלא"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutItalic",
+      "value": "נטוי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMonospace",
+      "value": "מרווח אחיד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutMuteUnmute",
+      "value": "השתקה / בטל השתקה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNeedsModifier",
+      "value": "השתמש בו עם ⁨{modifiers}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNewLine",
+      "value": "שורה חדשה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextChat",
+      "value": "הצ'אט הבא"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextMedia",
+      "value": "מדיה הבאה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNextStory",
+      "value": "הסטורי הבא"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutNotSet",
+      "value": "לא מוגדר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPauseRecording",
+      "value": "השהה את הקלטת הקול"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPlayPause",
+      "value": "נגן / השהה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousChat",
+      "value": "הצ'אט הקודם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousMedia",
+      "value": "הרצועה הקודמת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutPreviousStory",
+      "value": "הסטורי הקודם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutQuickChatPicker",
+      "value": "מחליף צ'אט מהיר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecording",
+      "value": "לחץ על מקשים…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutRecordingHint",
+      "value": "Esc לביטול, Backspace לניקוי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceText",
+      "value": "⁨{keys}⁩ כבר נמצא בשימוש על ידי ⁨{actions}⁩. הוא יוסר משם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplaceTitle",
+      "value": "להחליף את קיצור הדרך?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToNext",
+      "value": "הגב להודעה הבאה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReplyToPrevious",
+      "value": "הגב להודעה הקודמת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutReserved",
+      "value": "⁨{keys}⁩ שמור על ידי הדפדפן או המערכת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAll",
+      "value": "אפס את כל קיצורי הדרך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutResetAllText",
+      "value": "לאפס את כל קיצורי המקלדת לערכי ברירת המחדל שלהם?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSearchInChat",
+      "value": "חפש בצ'אט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSeekVideo",
+      "value": "קפוץ אחורה או קדימה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSendMessage",
+      "value": "שלח הודעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutStrikethrough",
+      "value": "קו חוצה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSubscript",
+      "value": "כתב-תחתי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutSuperscript",
+      "value": "כתב-עילי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUnderline",
+      "value": "קו תחתון"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutUsedByFixed",
+      "value": "⁨{keys}⁩ נמצא בשימוש על ידי ⁨{action}⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenInputEmpty",
+      "value": "כאשר שדה ההודעה ריק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenNoSelection",
+      "value": "ללא טקסט נבחר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutWhenSelection",
+      "value": "עם טקסט נבחר"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ShortcutsControllerOthersLockByPasscode",
       "value": "נעל עם סיסמה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsFormattingInfo",
+      "value": "בחר טקסט בשדה ההודעה כדי להחיל עיצוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChat",
+      "value": "צ'אט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionChatList",
+      "value": "רשימת הצ'אטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionFormatting",
+      "value": "עיצוב טקסט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionGeneral",
+      "value": "כללי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaEditor",
+      "value": "עורך המדיה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionMediaViewer",
+      "value": "מציג המדיה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionRoundVideo",
+      "value": "הודעות וידאו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionSending",
+      "value": "שולח הודעות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ShortcutsSectionStories",
+      "value": "סטוריז"
     },
     {
       "_": "types.LangPackString",
@@ -20956,6 +21316,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirm",
+      "value": "להצטרף לשיחת הוידאו **⁨{chat}⁩**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "VoiceChatJoinConfirmChannel",
+      "value": "להצטרף לשידור **⁨{chat}⁩**?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "VoiceChatJoinFailed",
       "value": "הצטרפות לשיחת הוידאו נכשלה"
     },
@@ -21292,6 +21662,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletConnectActionCollectible",
+      "value": "העברת פריטי אספנות"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletConnectActionDeployContract",
       "value": "פרוס את החוזה"
     },
@@ -21304,6 +21679,11 @@
       "_": "types.LangPackString",
       "key": "WalletConnectActionExcess",
       "value": "עודף"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletConnectActionToken",
+      "value": "העברת טוקנים"
     },
     {
       "_": "types.LangPackString",
@@ -22862,5 +23242,5 @@
       "value": "השם שלך"
     }
   ],
-  "version": 403963
+  "version": 404067
 }

@@ -6693,6 +6693,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Call.VideoMessageRecordingDisabledMessage",
+      "value": "Завершите звонок, чтобы записать видеосообщение."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Call.VoiceChatInProgressCallMessage",
       "value": "Покинуть видеочат в %1$@ и начать разговор с %2$@?"
     },
@@ -10661,6 +10666,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitGetPremium",
+      "value": "Подключить Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitTitle",
+      "value": "Лимит запросов к ИИ исчерпан"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Вы не можете выбрать больше элементов."
     },
@@ -11181,6 +11196,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Dictation.ConvertToText",
       "value": "Преобразовать в текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Downloading",
+      "value": "Загрузка… %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.DownloadingModels",
+      "value": "Загрузка моделей… %@"
     },
     {
       "_": "types.LangPackString",
@@ -13804,6 +13829,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SlowmodeTooltipPending",
       "value": "Включён медленный режим. Вы не можете отправить несколько сообщений за раз."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SpamBadge",
+      "value": "Спам"
     },
     {
       "_": "types.LangPackString",
@@ -18503,6 +18533,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.AutoSpamInfo",
+      "value": "Это сообщение было автоматически помечено как спам."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.AutoremoveActionEdit",
       "value": "Изменить настройки автоудаления"
     },
@@ -19989,6 +20024,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.LiveStreamVideoMessageRecordingRestricted",
+      "value": "Во время трансляции нельзя записывать видеосообщения."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Location",
       "value": "Геопозиция"
     },
@@ -20197,6 +20237,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.MyNotes",
       "value": "Мои заметки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.NotSpam",
+      "value": "Это не спам"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.NotSpamDone.Title",
+      "value": "Принято!"
     },
     {
       "_": "types.LangPackString",
@@ -21605,6 +21655,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.VoiceChatMediaRecordingRestricted",
       "value": "Во время видеочата нельзя записывать голосовые сообщения и видеосообщения."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.VoiceChatVideoMessageRecordingRestricted",
+      "value": "Во время видеочата нельзя записывать видеосообщения."
     },
     {
       "_": "types.LangPackString",
@@ -24320,12 +24375,12 @@
     {
       "_": "types.LangPackString",
       "key": "FolderLinkScreen.SaveAlertActionApply",
-      "value": "Применить"
+      "value": "Отмена"
     },
     {
       "_": "types.LangPackString",
       "key": "FolderLinkScreen.SaveAlertActionContinue",
-      "value": "Отмена"
+      "value": "Применить"
     },
     {
       "_": "types.LangPackString",
@@ -27034,6 +27089,29 @@
       "_": "types.LangPackString",
       "key": "Gift.Setup.PlaceBid",
       "value": "Сделать ставку"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.BuyStars",
+      "value": "Купить звёзды"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Заплатить %@ GRAM",
+      "key": "Gift.StarsResaleTon.Pay",
+      "many_value": "Заплатить %@ GRAM",
+      "one_value": "Заплатить %@ GRAM",
+      "other_value": "Заплатить %@ GRAM"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Text",
+      "value": "Для покупки **%2$@** стоимостью %3$@ можно списать **%1$@** с баланса кошелька."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Title",
+      "value": "Недостаточно звёзд"
     },
     {
       "_": "types.LangPackString",
@@ -34612,6 +34690,21 @@
       "_": "types.LangPackString",
       "key": "Message.AudioTranscription.ErrorEmpty",
       "value": "Не удалось распознать речь."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorLanguage",
+      "value": "Расшифровка речи на этом языке (%@) пока не поддерживается на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorLanguageUnknown",
+      "value": "Расшифровка речи на этом языке пока не поддерживается на этом устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorOnDevice",
+      "value": "Не удалось распохнать речь на Вашем устройстве."
     },
     {
       "_": "types.LangPackString",
@@ -50668,7 +50761,7 @@
     {
       "_": "types.LangPackString",
       "key": "Settings.BotListSettings",
-      "value": "Настройки бота"
+      "value": "Настройки ботов"
     },
     {
       "_": "types.LangPackString",
@@ -52550,6 +52643,136 @@
       "_": "types.LangPackString",
       "key": "SocksProxySetup.Warning.Title",
       "value": "Внимание"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionDownload",
+      "value": "Загрузить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionPause",
+      "value": "Пауза"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionUpdate",
+      "value": "Обновить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.AutoDetect",
+      "value": "Автоопределение"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DeleteAllModels",
+      "value": "Удалить все модели"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DeleteAllModelsText",
+      "value": "Удалить с устройства модели распознавания речи? При необходимости их можно загрузить снова."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DownloadProgress",
+      "value": "%1$@ / %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.IntroText",
+      "value": "Голосовые сообщения превращаются в текст прямо на устройстве — полностью конфиденциально."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LanguagesHeader",
+      "value": "Языки"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LearnMore",
+      "value": "Подробнее"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LiveText",
+      "value": "Распознавание голоса при записи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LiveTextInfo",
+      "value": "Позволяет отправлять голосовые сообщения текстом. Расшифровка выполняется на Вашем устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.Title",
+      "value": "Диктовка"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.UpdateSize",
+      "value": "Доступно обновление · %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscription",
+      "value": "Расшифровка на устройстве"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscriptionInfo",
+      "value": "Голосовые сообщения расшифровываются на Вашем устройстве. Это конфиденциально: данные никуда не передаются."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Compact.Text",
+      "value": "Один язык занимает около 30 МБ. Ненужные можно удалить."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Compact.Title",
+      "value": "Компактные языковые пакеты"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Description",
+      "value": "Голосовые сообщения превращаются в текст прямо на Вашем устройстве."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Models.Text",
+      "value": "Собственные ИИ-модели распознавания речи, обученные командой Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Models.Title",
+      "value": "Модели от Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Private.Text",
+      "value": "Расшифровка выполняется прямо на устройстве — данные никуда не передаются."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Private.Title",
+      "value": "Полная конфиденциальность"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Sample",
+      "value": "Привет! Опаздываю минут на десять, встретимся в кафе у вокзала"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Title",
+      "value": "Конфиденциально по умолчанию"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Understood",
+      "value": "OK"
     },
     {
       "_": "types.LangPackString",
@@ -56092,6 +56315,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Downloading",
+      "value": "Загрузка…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.EditHint",
+      "value": "Нажмите на слово, чтобы изменить"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.NoSpeech",
+      "value": "Речь не распознана"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Transcribing",
+      "value": "Расшифровка звука…"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Editor.CollageDraftAllMediaMissing",
       "value": "Все медиафайлы в этом коллаже больше не доступны. Черновик будет удалён."
     },
@@ -56979,7 +57222,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.StealthMode.UpgradeAction",
-      "value": "Разблокировать режим инкогнито"
+      "value": "Разблокировать режим"
     },
     {
       "_": "types.LangPackString",
@@ -65535,7 +65778,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.CameraMicrophonePermission.Text",
-      "value": "**%1$@** запрашивает доступ к **камере** и **микрофону**. Это разрешение можно будет в любой момент отозвать в профиле **%2$@**."
+      "value": "**%1$@** запрашивает доступ к **камере** и **микрофону**. Управлять доступом можно в профиле **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -65545,7 +65788,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.CameraPermission.Text",
-      "value": "**%1$@** запрашивает доступ к **камере**. Это разрешение можно будет в любой момент отозвать в профиле **%2$@**."
+      "value": "**%1$@** запрашивает доступ к **камере**. Управлять доступом можно в профиле **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -65770,7 +66013,7 @@
     {
       "_": "types.LangPackString",
       "key": "WebApp.MicrophonePermission.Text",
-      "value": "**%1$@** запрашивает доступ к **микрофону**. Это разрешение можно будет в любой момент отозвать в профиле **%2$@**."
+      "value": "**%1$@** запрашивает доступ к **микрофону**. Управлять доступом можно в профиле **%2$@**."
     },
     {
       "_": "types.LangPackString",
@@ -66517,5 +66760,5 @@
       "value": "Вы ввели неверный код безопасности."
     }
   ],
-  "version": 22716469
+  "version": 22849578
 }

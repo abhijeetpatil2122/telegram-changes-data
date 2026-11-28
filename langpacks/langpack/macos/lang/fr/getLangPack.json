@@ -207,6 +207,26 @@
       "value": "NOM"
     },
     {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.NamePlaceholder",
+      "value": "par ex. Traducteur"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.NotSet",
+      "value": "Non défini"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RemovalConfirmation",
+      "value": "Supprimer \"%1$@\", ses échanges et sa mémoire ?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.RemovedItems",
+      "value": "Son %1$@ sera également supprimé."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "AIAgent.ProfileController.RemovedRoutines",
       "one_value": "%1$d routine",
@@ -229,6 +249,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.Save",
+      "value": "Enregistrer"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.Saving",
       "value": "Enregistrement…"
     },
@@ -236,6 +261,11 @@
       "_": "types.LangPackString",
       "key": "AIAgent.ProfileController.Settings",
       "value": "PARAMÈTRES"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.ShowInChatList",
+      "value": "Afficher dans la liste d'échanges"
     },
     {
       "_": "types.LangPackString",
@@ -284,6 +314,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.DidNotFinish",
+      "value": "Pas terminé"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIAssistant.ActivityWidget.Done",
       "value": "Terminer"
     },
@@ -296,6 +331,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.ActivityWidget.Stopped",
       "value": "Arrêté"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ActivityWidget.Thinking",
+      "value": "Réflexion…"
     },
     {
       "_": "types.LangPackString",
@@ -394,6 +434,16 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.AutomationController.StopRunning",
       "value": "« %1$@ » cessera de fonctionner."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.Watch",
+      "value": "Regarder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.AutomationController.WatchTitle",
+      "value": "Regarder %1$@"
     },
     {
       "_": "types.LangPackString",
@@ -707,6 +757,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.ChatContents.Remove",
       "value": "Supprimer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.ChatContents.RemoveAgentInfo",
+      "value": "%1$@ arrête de regarder %2$@ et ne répond pas ici. Ses autres échange restent tels quels."
     },
     {
       "_": "types.LangPackString",
@@ -1559,6 +1614,11 @@
       "_": "types.LangPackString",
       "key": "AIAssistant.SettingsController.NeedsWhisper",
       "value": "Nécessites Whisper"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIAssistant.SettingsController.On",
+      "value": "Activé"
     },
     {
       "_": "types.LangPackString",
@@ -6156,6 +6216,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CallControlActions.ChangeHowYouTakePartInTheVoiceChat",
+      "value": "modifiez la façon dont vous participez au salon vidéo"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CallControlActions.MutedByAdmin",
+      "value": "Un administrateur a désactivé votre micro dans ce salon vidéo ; levez la main pour parler."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CallFeedback.AddComment",
       "value": "Ajouter un commentaire (facultatif)"
     },
@@ -8866,7 +8936,7 @@
     {
       "_": "types.LangPackString",
       "key": "ChannelPermissions.EditOwnTags",
-      "value": "Modifier vos titres"
+      "value": "Modifier son propre titre"
     },
     {
       "_": "types.LangPackString",
@@ -19150,8 +19220,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "CreateBot.ModalController.UsernameTooLong",
-      "one_value": "",
-      "other_value": ""
+      "one_value": "Un nom d'utilisateur ne peut pas dépasser %1$d caractère.",
+      "other_value": "Un nom d'utilisateur ne peut pas dépasser %1$d caractères."
     },
     {
       "_": "types.LangPackString",
@@ -19171,8 +19241,8 @@
     {
       "_": "types.LangPackStringPluralized",
       "key": "CreateBot.Username.Count",
-      "one_value": "",
-      "other_value": ""
+      "one_value": "%1$d nom d'utilisateur",
+      "other_value": "%1$d noms d'utilisateur"
     },
     {
       "_": "types.LangPackString",
@@ -25490,6 +25560,16 @@
       "_": "types.LangPackString",
       "key": "InputView.Settings.DashConversion",
       "value": "Conversion Dash"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.JoinVoiceChatConfirmation",
+      "value": "L'agent veut ouvrir le salon vidéo dans « %1$@ » et y participer avec votre micro."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Insights.Actions.NoActiveVoiceChat",
+      "value": "« %1$@ » n'a aucun salon vidéo en cours actuellement."
     },
     {
       "_": "types.LangPackString",
@@ -54970,5 +55050,5 @@
       "value": "Afficher les substitutions"
     }
   ],
-  "version": 2498416
+  "version": 2505178
 }

@@ -9702,6 +9702,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfileOpenChat",
+      "value": "Otevřít konverzaci"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotProfilePermissionBiometry",
       "value": "Biometrie"
     },
@@ -9719,6 +9724,16 @@
       "_": "types.LangPackString",
       "key": "BotProfilePermissions",
       "value": "Povolit přístup k"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileStopBot",
+      "value": "Zastavit bota"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileViewInfo",
+      "value": "Zobrazit Info"
     },
     {
       "_": "types.LangPackString",
@@ -10196,12 +10211,12 @@
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestCameraMicPermission",
-      "value": "Povolit **%1$s** přístup k vaší kameře a mikrofonu? \n\nVývojář **%1$s** bude mít po otevření této webové aplikace přístup k vaší kameře a mikrofonu."
+      "value": "Povolit **%1$s** přístup k vašemu fotoaparátu a mikrofonu? \n\nVývojář **%1$s** bude mít po otevření této webové aplikace přístup k vašemu fotoaparátu a mikrofonu."
     },
     {
       "_": "types.LangPackString",
       "key": "BotWebViewRequestCameraMicPermissionWithHint",
-      "value": "Povolit **%1$s** přístup k vaší kameře a mikrofonu? \n\nVývojář **%1$s** bude mít při otevření této webové aplikace přístup k vaší kameře a mikrofonu.\n\nPřístup ke kameře povolte v Nastavení > Oprávnění > Kamera."
+      "value": "Povolit **%1$s** přístup k vašemu fotoaparátu a mikrofonu? \n\nVývojář **%1$s** bude mít při otevření této webové aplikace přístup k vašemu fotoaparátu a mikrofonu.\n\nPřístup ke kameře povolte v Nastavení > Oprávnění > Fotoaparát."
     },
     {
       "_": "types.LangPackString",
@@ -16235,6 +16250,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "CreateGroupWith",
+      "value": "Vytvořit skupinu s %1$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "CreateLink",
       "value": "Vytvořit odkaz"
     },
@@ -21412,6 +21432,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FilterNoUnreadChats",
+      "value": "Žádné nepřečtené konverzace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterNoUnreadChatsInfo",
+      "value": "Přečetl/a jste si všechny zdejší konverzace."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FilterNonContact",
       "value": "Nejsou kontakty"
     },
@@ -21511,12 +21541,22 @@
       "value": "Vytvořit odkaz s pozvánkou"
     },
     {
+      "_": "types.LangPackString",
+      "key": "FilterShowAllChats",
+      "value": "Zobrazit všechny konverzace"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Zobrazit %1$d další konverzace",
       "key": "FilterShowMoreChats",
       "many_value": "Zobrazit %1$d dalších konverzací",
       "one_value": "Zobrazit %1$d další konverzaci",
       "other_value": "Zobrazit %1$d dalších konverzací"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterShowUnread",
+      "value": "Zobrazit nepřečtené"
     },
     {
       "_": "types.LangPackString",
@@ -21532,6 +21572,11 @@
       "_": "types.LangPackString",
       "key": "FilterUnread",
       "value": "Nepřečtené"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterUnreadOnlyShown",
+      "value": "zobrazují se pouze nepřečtené konverzace"
     },
     {
       "_": "types.LangPackString",
@@ -25769,6 +25814,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "Tento dárek již byl převeden."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "Dárek uzamčen"
     },
@@ -26125,8 +26175,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBought",
+      "value": "%s je nyní ve vaší peněžence!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainBoughtTo",
       "value": "%1$s byl koupen pro %2$s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmButton",
+      "value": "Koupit"
     },
     {
       "_": "types.LangPackString",
@@ -26135,13 +26195,618 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "Koupit **%1$s** za **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTitle",
+      "value": "Potvrdit nákup"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySent",
+      "value": "Nákup odeslán. %s se brzy objeví ve vaší peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySentTo",
+      "value": "Prodej odeslán. %1$s bude brzy doručen %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyText",
+      "value": "Chcete na Fragmentu koupit **%1$s** za **%2$s**? Platba proběhne z vaší peněženky a dárek zůstane ve vaší peněžence a zobrazí se na vašem profilu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyTitle",
+      "value": "Koupit %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceButton",
+      "value": "Změnit na %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "Změnit cenu dárku **%1$s** na **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "Změna ceny dárku %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "Chcete-li změnit cenu, nejprve dárek vyřaďte z nabídky a poté jej znovu vložte s novou cenou."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyForSelfOnly",
+      "value": "Dárek uvedený na Fragmentu si můžete koupit pouze pro sebe."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorBuyRecipient",
+      "value": "Tento dárek nelze pro tohoto příjemce zakoupit."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "Tento dárek již není na prodej na Fragmentu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "Tento dárek již není na prodej."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "Na Fragmentu lze prodávat pouze dárky zaznamenané v blockchainu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "Za pevnou cenu lze prodávat pouze dárky zaznamenané v blockchainu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "Tento dárek nemáte v peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "Tento prodej byl zahájen z jiné peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "Tato nabídka již není platná."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "Cena tohoto dárku na Fragmentu se změnila. Zkontrolujte novou cenu a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "Cena tohoto dárku se změnila. Zkontrolujte novou cenu a zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "Tato cena je mimo povolený rozsah."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "Cena musí být v rozmezí %1$s a %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "Tento dárek je již v prodeji na Fragmentu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "Tento dárek je již v prodeji."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "Prodej na Fragmentu není v současné době k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "Prodej za pevnou cenu není v současné době k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactive",
+      "value": "Tento dárek není k prodeji na Fragmentu."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorSaleInactiveFixed",
       "value": "Tento dárek není na prodej."
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "Nemůžete si zakoupit vlastní dárek na Fragmentu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchaseFixed",
+      "value": "Nemůžete si zakoupit vlastní dárek."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "Transakce nebyla odeslána. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitle",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "Prodej za pevnou cenu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "Transakci se nepodařilo zpracovat. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "Tuto transakci nelze v této verzi aplikace Telegram podepsat. Aktualizujte aplikaci."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "Vaše peněženka se právě vytváří. Zkuste to za chvíli znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Dárky na Fragmentu se nakupují a prodávají prostřednictvím vaší peněženky. Chcete-li pokračovat, nastavte si peněženku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "Dárky v rámci blockchainu se nakupují a prodávají prostřednictvím vaší peněženky. Chcete-li pokračovat, nastavte si peněženku."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainFailed",
+      "value": "Transakce pro %s se nezdařila."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainGramAmount",
+      "value": "%s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "%s je nyní na prodej na Fragmentu!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListedFixed",
+      "value": "%s je nyní na prodej!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNetworkFee",
+      "value": "Síťový poplatek: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughForFee",
+      "value": "Abyste mohli uhradit síťový poplatek za tuto akci, musíte mít v peněžence alespoň %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughToBuy",
+      "value": "Abyste si mohli tento dárek koupit, musíte mít v peněžence alespoň %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAccept",
+      "value": "Přijmout"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptSent",
+      "value": "Tuto nabídku jste přijal/a. Prodej se právě dokončuje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "Přijal/a jste nabídku za %s. Prodej bude dokončen, jakmile dárek dorazí k kupujícímu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferBalance",
+      "value": "Zůstatek: %s >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferButton",
+      "value": "Nabídnout %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "Chcete učinit tuto nabídku za **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "Chcete učinit tuto nabídku uživateli **%2$s** za **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTitle",
+      "value": "Potvrdit nabídku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDecline",
+      "value": "Odmítnout"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "Odmítnout nabídku **%1$s** za **%2$s**? Kupujícímu budou Gram vráceny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineTitle",
+      "value": "Odmítnout nabídku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclined",
+      "value": "Nabídka odmítnuta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "Zvolte, jak dlouho má vlastník na přijetí vaší nabídky. Po uplynutí této lhůty vám budou vaše Gram automaticky vráceny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorAlreadyActive",
+      "value": "Na tento dárek již máte aktivní nabídku. Chcete-li ji změnit, nejprve ji zrušte."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTitle",
+      "value": "Nabídka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTryAgain",
+      "value": "Nabídku se nepodařilo připravit. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "Nabídka vyprší za\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferFailed",
+      "value": "Nabídka za %s nebyla podána: transakce selhala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "Nabídka je příliš vysoká. Maximální nabídka za **%2$s** je **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "Zadejte počet Gram, které chcete nabídnout za **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "Nabídka je příliš nízký. Minimální nabídka za **%2$s** je **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsToOffer",
+      "value": "Gram k nabídnutí"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "Bylo vám nabídnuto **%1$s** (%2$s) za **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "Bylo vám nabídnuto **%1$s** za **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInsufficient",
+      "value": "Nedostatek prostředků. Vložit prostředky >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteAccepted",
+      "value": "Vaše nabídka **%1$s** za **%2$s** byla přijata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteDeclined",
+      "value": "Vaše nabídka **%1$s** za **%2$s** byla odmítnuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "Poplatek za předčasný výběr činil **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteRefunded",
+      "value": "**%s** bylo vráceno do vaší peněženky"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteWithdrawn",
+      "value": "Vybral/a jste svou nabídku **%1$s** za **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouAccepted",
+      "value": "Přijal/a jste nabídku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouDeclined",
+      "value": "Odmítl/a jste nabídku"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouSold",
+      "value": "Prodal/a jste **%1$s** za **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "Nabídl/a jste **%1$s** za **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "Vlastník obdrží **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "Pokud prodávající vaši nabídku odmítne nebo její platnost vyprší, Gram vám budou automaticky vráceny."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferReview",
+      "value": "Zkontrolovat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRibbonSold",
+      "value": "prodáno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "Nabídka vyprší"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "Poplatek platformy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "Zaplatíte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "Vaše nabídka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellButton",
+      "value": "Prodat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellFailed",
+      "value": "%s nebyl prodán: transakce selhala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellSent",
+      "value": "Prodej %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellText",
+      "value": "Prodat **%1$s**\nza **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSellTitle",
+      "value": "Potvrdit prodej"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "**%1$s** drženo do %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "Nabídka poslána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSold",
+      "value": "Prodal/a jste %s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "Nabídka byla přijata."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "Nabídka se ruší…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "Nabídka byla odmítnuta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "Nabídka již vypršela."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpiring",
+      "value": "Nabídka brzy vyprší…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "Prodej se právě dokončuje…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "Nabídka byla stažena."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryExpired",
+      "value": "Nabídka **%1$s** za **%2$s** již vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryWithdrawn",
+      "value": "Nabídka **%1$s** za **%2$s** byla vybrána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYouDeclined",
+      "value": "Odmítl/a jste nabídku **%1$s** za **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYourExpired",
+      "value": "Vaše nabídka **%1$s** za **%2$s** již vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferUnlistFirst",
+      "value": "Tento dárek je na prodej. Nejprve jej vyřaďte z nabídky, abyste mohli nabídku přijmout."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdraw",
+      "value": "Vybrat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFailed",
+      "value": "Nabídka za %s nebyla stažena: transakce selhala."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "Předčasné výběry stojí přibližně **%1$s**.\n\nBude vám vráceno přibližně **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFor",
+      "value": "Vybrat za %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFree",
+      "value": "Bude vám vráceno přibližně **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawSent",
+      "value": "Výběr vaší nabídky…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "Vybrat nabídku?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOnSaleFor",
+      "value": "K prodeji za %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOpenWallet",
       "value": "Otevřít Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s je nyní na prodej za%2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "Kupující"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowCancellationFee",
+      "value": "Poplatek za zrušení"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "Smluvní poplatek"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowExpiration",
+      "value": "Expirace"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNetworkFee",
+      "value": "Síťový poplatek"
     },
     {
       "_": "types.LangPackString",
@@ -26152,6 +26817,146 @@
       "_": "types.LangPackString",
       "key": "GiftOnchainRowOldPrice",
       "value": "Stará cena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowPrice",
+      "value": "Cena"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "Prodávající"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSellerShare",
+      "value": "Podíl prodávajícího"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowYouReceive",
+      "value": "Obdržíte"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellButton",
+      "value": "Prodat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "Vložit **%1$s** do prodeje na Fragmentu za **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "Prodat za pevnou cenu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixedConfirmText",
+      "value": "Nabídnout **%1$s** na prodej za pevnou cenu **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHint",
+      "value": "Kupující tuto cenu zaplatí na Fragmentu a výtěžek putuje přímo do vaší peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHintBuyerPays",
+      "value": "Kupující tuto cenu zaplatí a výtěžek putuje přímo do vaší peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellMenu",
+      "value": "Prodat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellNoteFixed",
+      "value": "Kupující tuto cenu zaplatí a výtěžek putuje přímo do vaší peněženky. Dárek se začne prodávat, jakmile jej obdrží prodejní smlouva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceButton",
+      "value": "Nabídnout za %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHeader",
+      "value": "Cena v Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "Cena je příliš vysoká. Maximální cena je **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "Cena je příliš nízká. Minimální cena je **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "Obdržíte **%1$s Gram** po odečtení poplatku %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "Obdržíte **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "Nabízení %s na Fragmentu…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "Uvádění %s k prodeji…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellText",
+      "value": "Nabídnout **%1$s** na Fragmentu za **%2$s**? Zahájení prodeje vás bude stát **%3$s** z vaší peněženky na poplatky za smlouvu. Výtěžek bude převeden přímo do vaší peněženky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellTitle",
+      "value": "Prodat na Fragmentu"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainTransferUnlistFirst",
+      "value": "Dárek je na prodej. Před převodem tento dárek odeberte z prodeje."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "Dárek bude stažen z prodeje na Fragmentu a zůstane ve vaší peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "Dárek bude stažen z prodeje a zůstane ve vaší peněžence."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "%s se stahuje z prodeje…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistText",
+      "value": "Chcete tento dárek stáhnout z prodeje na Fragmentu? Zůstane ve vaší peněžence. Zrušení vás bude stát **%s** z vaší peněženky jako smluvní poplatky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlisted",
+      "value": "%s již není na prodej."
     },
     {
       "_": "types.LangPackString",
@@ -26432,8 +27237,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftResaleFilterForStars",
+      "value": "Za hvězdy"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftResaleFilterForStarsOnly",
       "value": "Pouze za hvězdy"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterForTon",
+      "value": "Za Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterFromFragment",
+      "value": "Z Fragmentu"
     },
     {
       "_": "types.LangPackString",
@@ -26929,6 +27749,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsUseText",
+      "value": "**%1$s** bude převedeno z Výdělků Gram na váš zůstatek a použito k zakoupení tohoto dárku."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsUseTitle",
       "value": "Použít Výdělky Gram?"
     },
@@ -26941,6 +27766,11 @@
       "_": "types.LangPackString",
       "key": "GramEarningsWithdrawDisabled",
       "value": "Výběr výdělků Gram není pro váš účet momentálně k dispozici."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "Chcete-li vybrat Gram, nejprve si v části Soukromí a zabezpečení nastavte heslo pro dvoufázové ověření."
     },
     {
       "_": "types.LangPackString",
@@ -26959,6 +27789,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawSentText",
+      "value": "Zkontrolujte ⚙ Nastavení > 💎 Money"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "Gram bude převeden do vaší peněženky, kterou spravujete sami (⚙ Nastavení → 💎 Money).\n"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawTitle",
       "value": "Vybrat %s"
     },
@@ -26966,6 +27806,11 @@
       "_": "types.LangPackString",
       "key": "GramEarningsWithdrawTryAgain",
       "value": "Vaše heslo se nepodařilo potvrdit. Zkuste to znovu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawUnavailable",
+      "value": "Výběr do vaší peněženky zatím není k dispozici. Gram si můžete vybrat skrze Fragment."
     },
     {
       "_": "types.LangPackStringPluralized",
@@ -30905,6 +31750,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "MakeChannelPrivateText",
+      "value": "Veřejný odkaz na váš kanál **%1$s** bude odstraněn a toto uživatelské jméno bude k dispozici komukoli. Chcete pokračovat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeChannelPrivateTitle",
+      "value": "Učinit kanál soukromým?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateText",
+      "value": "Veřejný odkaz vaší skupiny **%1$s** bude odstraněn a toto uživatelské jméno bude zpřístupněno komukoli. Chcete pokračovat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateTitle",
+      "value": "Učinit skupinu soukromou?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "MakeMyselfVisible",
       "value": "Zviditelnit se"
     },
@@ -34343,6 +35208,11 @@
       "_": "types.LangPackString",
       "key": "NotificationGramTransferComment",
       "value": "%1$s vám poslal/a %2$s: %3$s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "NotificationGramTransferOnramp",
+      "value": "Nakoupil/a jste %1$s skrze %2$s"
     },
     {
       "_": "types.LangPackString",
@@ -54670,6 +55540,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TopicsFilterClosed",
+      "value": "Zavřeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TopicsFilterOpen",
+      "value": "Otevřít"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TopicsInfo",
       "value": "Skupinová konverzace bude rozdělena do vláken vytvořených správci nebo uživateli."
     },
@@ -59056,6 +59936,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletActionReceivedGramsOnramp",
+      "value": "Nakoupil/a jste **%1$s** skrze %2$s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletActionReceivedGramsSomeone",
       "value": "Někdo vám poslal **%1$s**"
     },
@@ -59801,13 +60686,98 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftBoughtFor",
+      "value": "Koupeno za %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferAcceptedFor",
+      "value": "Nabídka přijata za %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOnchainGiftOfferCancelled",
       "value": "Nabídka zrušena"
     },
     {
       "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferDeclined",
+      "value": "Nabídka odmítnuta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferExpired",
+      "value": "Nabídka vypršela"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftOfferSent",
+      "value": "Nabídka poslána"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSale",
+      "value": "Uvést do prodeje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftPutOnSaleFor",
+      "value": "K prodeji za %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRemovedFromSale",
+      "value": "Odebráno z prodeje"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "WalletOnchainGiftRepriced",
       "value": "Nová cena: %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftRowStatus",
+      "value": "Stav"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftSoldFor",
+      "value": "Prodáno za %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusOfferAccepted",
+      "value": "Nabídka přijata"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPriceChanged",
+      "value": "Přeceněno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPurchased",
+      "value": "Zakoupeno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusPutOnSale",
+      "value": "Uvést do prodeje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusRemovedFromSale",
+      "value": "Staženo z prodeje"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftStatusSold",
+      "value": "Prodáno"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletOnchainGiftTitle",
+      "value": "Obchod s dárky"
     },
     {
       "_": "types.LangPackString",
@@ -61444,5 +62414,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62356702
+  "version": 62391704
 }

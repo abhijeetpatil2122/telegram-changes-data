@@ -3621,6 +3621,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.AddStep",
+      "value": "додајте бар један корак, нпр. `ask: Сажми {{chat}}`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.AskNeedsPrompt",
+      "value": "ask захтева упит"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.ChipMenu.RemovedFromAllChats",
       "value": "Уклоњено је из збирке и из свих ћаскања."
     },
@@ -3641,8 +3651,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.AskMeForAValue",
+      "value": "Питај ме за вредност"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.EditorController.AskTheAgent",
       "value": "Питај агента"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ConfirmFirst",
+      "value": "Прво потврди"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ConfirmStepExample",
+      "value": "confirm: Наставити?"
     },
     {
       "_": "types.LangPackString",
@@ -3656,8 +3681,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.DescribeChangePlaceholder",
+      "value": "Опишите промену, нпр. преведи и на енглески"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.DescribeShortcutPlaceholder",
+      "value": "Опишите шта треба да ради, нпр. сваког јутра наведи непрочитана ћаскања и сажми најактивније"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.EditorController.EditShortcut",
       "value": "Уреди пречицу"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.EmojiPlaceholder",
+      "value": "Емоџи, нпр. 📝"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.InputStepExample",
+      "value": "input: тема | О чему се ради?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.NamePlaceholder",
+      "value": "Назив, нпр. Сажетак"
     },
     {
       "_": "types.LangPackString",
@@ -3666,8 +3716,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.RewriteSteps",
+      "value": "Поново напиши кораке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.RunATelegramAction",
+      "value": "Покрени Telegram радњу"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIShortcut.EditorController.Save",
       "value": "Сачувај"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.ScriptPlaceholder",
+      "value": "ask: Сажми {{chat}} у 5 ставки"
     },
     {
       "_": "types.LangPackString",
@@ -3688,6 +3753,51 @@
       "_": "types.LangPackString",
       "key": "AIShortcut.EditorController.Steps",
       "value": "Кораци"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.StepsHelp",
+      "value": "Кораци се извршавају одозго надоле, по један у сваком реду. Ред који почиње знаком # представља белешку.\n\n**Преузимање података** · тренутно, без ВИ\n**run:** радња {json} · Telegram радња, нпр. run: unread_count\n**input:** назив | питање · тражи од вас вредност\n**set:** назив = вредност · чува вредност\n\n**Коришћење ВИ**\n**write:** упит са {{data}} · један брзи ВИ позив над тим подацима\n**ask:** упит · пуни агент са свим алатима, најспорије\n\n**Провера**\n**confirm:** питање · зауставља се осим ако се не сложите\n**require:** порука · зауставља се када је последњи резултат празан\n\n**Приказ или слање**\n**say:** текст · белешка у ћаскању помоћника\n**send:** текст · шаље у ово ћаскање, прво пита\n\nДодајте -> назив после run, write или ask да бисте сачували резултат као {{name}}.\nСпремно за употребу: {{chat}}, {{chat_id}}, {{result}}, {{date}}, {{time}}."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.WriteSteps",
+      "value": "Напиши кораке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.WriteWithAI",
+      "value": "Напиши помоћу ВИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.EditorController.WritingSteps",
+      "value": "Писање корака…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.ExpectedStep",
+      "value": "очекивано је `кључна реч: текст`, нпр. `ask: Сажми {{chat}}`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Fast",
+      "value": "брзо"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.InThisChat",
+      "value": "у овом ћаскању"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.InputNeedsName",
+      "value": "input захтева назив, нпр. `input: тема | О чему се ради?`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.InvalidParameters",
+      "value": "параметри за %1$@ морају бити JSON објекат, нпр. {\"limit\": 20}"
     },
     {
       "_": "types.LangPackString",
@@ -3760,9 +3870,160 @@
       "value": "Ваше пречице"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "Ред %1$d: %2$@",
+      "key": "AIShortcut.Line",
+      "one_value": "Ред %1$d: %2$@",
+      "other_value": "Ред %1$d: %2$@"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "пречица има највише %1$d корака",
+      "key": "AIShortcut.MaximumSteps",
+      "one_value": "пречица има највише %1$d корак",
+      "other_value": "пречица има највише %1$d корака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.MissingParameter",
+      "value": "%1$@ захтева %2$@; прихвата %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.NoAI",
+      "value": "без ВИ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.NothingToWorkWith",
+      "value": "Нема података за обраду."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.RunNeedsAction",
+      "value": "run захтева назив радње, нпр. `run: unread_count`"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.AgentDidNotAnswer",
+      "value": "Агент није одговорио."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.InvalidParameters",
+      "value": "Параметри за %1$@ нису важећи JSON."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.ModelDidNotAnswer",
+      "value": "Модел није одговорио."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.NoChat",
+      "value": "Нема ћаскања у које би порука могла да се пошаље."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.NothingToSend",
+      "value": "Нема ничега за слање."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Runner.RequiresChat",
+      "value": "Ова пречица ради у помоћнику ћаскања: отворите је из ћаскања или са профила."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.SayNeedsText",
+      "value": "say захтева текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.SendNeedsText",
+      "value": "send захтева текст"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.SetNeedsValue",
+      "value": "set захтева `назив = вредност`"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "few_value": "%1$d корака",
+      "key": "AIShortcut.Steps",
+      "one_value": "%1$d корак",
+      "other_value": "%1$d корака"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.ActionItems",
+      "value": "Задаци"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.Again",
+      "value": "Поново"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.BriefReply",
+      "value": "write: Одговори укратко на овај захтев, као у одговору у ћаскању, користећи само податке из Telegram-а у наставку: „%1$@”. Подаци: %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.DraftReply",
+      "value": "Нацрт одговора"
+    },
+    {
       "_": "types.LangPackString",
       "key": "AIShortcut.Suggester.FactCheck",
       "value": "Провера чињеница"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.LinksAndFiles",
+      "value": "Везе и датотеке"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.Summary",
+      "value": "Сажетак"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.Translate",
+      "value": "Преведи"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.Suggester.WhatDidIMiss",
+      "value": "Шта је пропуштено"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UndefinedVariable",
+      "value": "променљива {{%1$@}} није дефинисана пре овог реда"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UnknownAction",
+      "value": "не постоји Telegram радња %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UnknownParameter",
+      "value": "%1$@ нема параметар %2$@; прихвата %3$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.UnknownStep",
+      "value": "непознат корак `%1$@`; употребите неки од %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "AIShortcut.WriteNeedsPrompt",
+      "value": "write захтева упит са подацима, нпр. `write: Сажми {{messages}}`"
     },
     {
       "_": "types.LangPackString",
@@ -50620,13 +50881,43 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StoriesHooksInstall.AddressPlaceholder",
+      "value": "https://example.com"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesHooksInstall.LargeThumbnail",
+      "value": "Велика сличица"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesHooksInstall.LinkLabelPlaceholder",
+      "value": "Ознака везе (необавезно)"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoriesHooksInstall.LoadingPreview",
       "value": "Учитавање прегледа веб-странице…"
     },
     {
       "_": "types.LangPackString",
+      "key": "StoriesHooksInstall.PreviewBelowLink",
+      "value": "Преглед испод везе"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesHooksInstall.ReactionLoadFailed",
+      "value": "Telegram није могао да учита ову реакцију."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StoriesHooksInstall.ShowWebpagePreview",
       "value": "Прикажи преглед странице"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoriesHooksInstall.StoryLink",
+      "value": "Веза приче"
     },
     {
       "_": "types.LangPackString",
@@ -62757,5 +63048,5 @@
       "value": "Прикажи замене"
     }
   ],
-  "version": 2505284
+  "version": 2505451
 }

@@ -4442,6 +4442,52 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStarted",
+      "value": "Den här användaren har redan en chatt med botten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "Dessa användare chattar redan med botten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Generic",
+      "value": "Det gick inte att bjuda in användare. Försök igen senare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "Endast ägaren av botten kan bjuda in användare till den."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.Privacy",
+      "value": "Den här användarens sekretessinställningar tillåter inte att man bjuder in denne till bottar."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.RateLimited",
+      "value": "För många försök. Försök igen senare."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.TooMany",
+      "value": "Du kan bjuda in upp till 10 användare åt gången."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "Bjud in till bot"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "BotInvite.Sent",
+      "one_value": "Inbjudan har skickats.",
+      "other_value": "%@ inbjudningar har skickats."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "Ta bort förhandsvisningen?"
     },
@@ -6542,6 +6588,11 @@
       "_": "types.LangPackString",
       "key": "Call.Video",
       "value": "video"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Call.VideoMessageRecordingDisabledMessage",
+      "value": "Avsluta samtalet innan du spelar in ett videomeddelande."
     },
     {
       "_": "types.LangPackString",
@@ -10471,6 +10522,41 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintOffText",
+      "value": "Tryck och håll ned för att slå på."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintOffTitle",
+      "value": "Automatisk omskrivning är AV"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintText",
+      "value": "Tryck och håll ned för att stänga av."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.HintTitle",
+      "value": "Automatisk omskrivning är PÅ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitGetPremium",
+      "value": "Skaffa Premium"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitText",
+      "value": "Automatisk omskrivning kan inte användas för tillfället, så meddelandet har inte skickats. Skaffa Telegram Premium för högre AI-gränser eller stäng av omskrivning för att skicka meddelanden direkt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.AlwaysUseAI.LimitTitle",
+      "value": "AI gräns nådd"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.AttachmentLimitExceeded",
       "value": "Du kan inte välja flera objekt åt gången"
     },
@@ -10554,6 +10640,11 @@
       "_": "types.LangPackString",
       "key": "Chat.BotAd.WhatIsThis",
       "value": "vad är detta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.BotInvite.OwnedBy",
+      "value": "%1$@ ägs av %2$@"
     },
     {
       "_": "types.LangPackString",
@@ -10974,6 +11065,16 @@
       "_": "types.LangPackString",
       "key": "Chat.Dictation.ConvertToText",
       "value": "Konvertera till text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.Downloading",
+      "value": "Hämtar… %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Dictation.DownloadingModels",
+      "value": "Hämtar modeller… %@"
     },
     {
       "_": "types.LangPackString",
@@ -11794,7 +11895,7 @@
     {
       "_": "types.LangPackString",
       "key": "Chat.GuestChatMessageTooltip",
-      "value": "Den här boten kan inte läsa hela chatten – bara det meddelande där den nämndes."
+      "value": "Den här botten kan inte läsa hela chatten – bara det meddelande där den nämndes."
     },
     {
       "_": "types.LangPackString",
@@ -13373,6 +13474,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.SendMessageMenu.AIRewriteTurnOff",
+      "value": "Stäng av automatisk omskrivning"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.SendMessageMenu.EditMessage",
       "value": "Redigera meddelande"
     },
@@ -13385,6 +13491,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SendMessageMenu.MoveCaptionUp",
       "value": "Flytta upp text"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SendMessageMenu.RewriteWithAI",
+      "value": "Skriv om med AI"
     },
     {
       "_": "types.LangPackString",
@@ -13515,6 +13626,11 @@
       "_": "types.LangPackString",
       "key": "Chat.SlowmodeTooltipPending",
       "value": "Trögläge är aktiverat. Du kan bara skicka ett meddelande åt gången."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.SpamBadge",
+      "value": "Skräppost"
     },
     {
       "_": "types.LangPackString",
@@ -17164,7 +17280,7 @@
     {
       "_": "types.LangPackString",
       "key": "Community.Add.Confirm.TextBot",
-      "value": "Om den här boten godkänns av en communityadministratör kommer medlemmarna att kunna se och använda den."
+      "value": "Om den här botten godkänns av en communityadministratör kommer medlemmarna att kunna se och använda den."
     },
     {
       "_": "types.LangPackString",
@@ -17518,7 +17634,7 @@
     {
       "_": "types.LangPackString",
       "key": "Community.Request.RequesterSuggestsBot",
-      "value": "%@ föreslog den här boten:"
+      "value": "%@ föreslog den här botten:"
     },
     {
       "_": "types.LangPackString",
@@ -18110,6 +18226,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.AutoSpamInfo",
+      "value": "Det här meddelandet har automatiskt markerats som skräppost."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.AutoremoveActionEdit",
       "value": "Ändra inställningar för autoradering"
     },
@@ -18223,6 +18344,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.BotInteractiveUrlAlert",
       "value": "Tillåt %@ att skicka ditt telegramnamn och ID (inte mobilnumret) till sidor du öppnar med denna bot?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.InvitedBy",
+      "value": "%@ har bjudit in dig att använda den här chattbotten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.BotInvite.ReportSpamAndBlock",
+      "value": "Anmäl skräppost och blockera"
     },
     {
       "_": "types.LangPackString",
@@ -19562,6 +19693,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.LiveStreamVideoMessageRecordingRestricted",
+      "value": "Du kan inte spela in videomeddelanden under en livestream."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.Location",
       "value": "Plats"
     },
@@ -19766,6 +19902,16 @@
       "_": "types.LangPackString",
       "key": "Conversation.MyNotes",
       "value": "Mina anteckningar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.NotSpam",
+      "value": "Inte skräppost"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.NotSpamDone.Title",
+      "value": "Noterat!"
     },
     {
       "_": "types.LangPackString",
@@ -21152,6 +21298,11 @@
       "_": "types.LangPackString",
       "key": "Conversation.VoiceChatMediaRecordingRestricted",
       "value": "Du kan inte spela in röst- och videomeddelande under en videochatt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Conversation.VoiceChatVideoMessageRecordingRestricted",
+      "value": "Det går inte att spela in videomeddelanden under en videochatt."
     },
     {
       "_": "types.LangPackString",
@@ -23813,12 +23964,12 @@
     {
       "_": "types.LangPackString",
       "key": "FolderLinkScreen.SaveAlertActionApply",
-      "value": "Tillämpa"
+      "value": "Ångra"
     },
     {
       "_": "types.LangPackString",
       "key": "FolderLinkScreen.SaveAlertActionContinue",
-      "value": "Fortsätt"
+      "value": "Applicera"
     },
     {
       "_": "types.LangPackString",
@@ -25528,6 +25679,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.MoveToWallet.KeepOnProfile",
+      "value": "Fortsätt visa på min profil"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.MoveToWallet.Location",
       "value": "Den kommer dyka upp under"
     },
@@ -25629,13 +25785,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGift",
+      "value": "Gåvan har skickats. **%1$@** kommer snart att levereras till **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.Onchain.Buy.SentGiftNoName",
+      "value": "Gåvan har skickats. **%@** kommer snart att levereras till mottagaren."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.CancellationPending",
       "value": "Din gåva har tagits bort från försäljningen, men nätverket har ännu inte bekräftat detta. Ange det nya priset så snart det har bekräftats."
     },
     {
       "_": "types.LangPackString",
       "key": "Gift.Onchain.Error.NotForSale",
-      "value": "Den här gåvan finns inte längre till försäljning."
+      "value": "Den här gåvan är inte längre till salu."
     },
     {
       "_": "types.LangPackString",
@@ -25699,6 +25865,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.Onchain.Reprice.Sent",
+      "value": "**%1$@** ändrade pris till **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.Onchain.Unlist.Sent",
       "value": "**%@** kommer att tas bort från försäljning så snart nätverket har bekräftat detta."
     },
@@ -25745,7 +25916,12 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Expires",
-      "value": "Erbjudandet upphör att gälla"
+      "value": "Erbjudandet går ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Confirm.OwnerReceives",
+      "value": "Ägaren får"
     },
     {
       "_": "types.LangPackString",
@@ -25765,7 +25941,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Confirm.Title",
-      "value": "Bekräfta erbjudandet"
+      "value": "Bekräfta bud"
     },
     {
       "_": "types.LangPackString",
@@ -25839,6 +26015,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.OwnerWillReceive",
+      "value": "Ägaren kommer att få **%@**."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.PriceDescription",
       "value": "Ange hur många Gram du vill erbjuda för **%@**."
     },
@@ -25861,6 +26042,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "Försäljningen har skickats in. Du kommer att få **%@** så snart den har bekräftats på blockkedjan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "Erbjudande accepterat"
     },
     {
       "_": "types.LangPackString",
@@ -25910,7 +26096,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Withdraw.Title",
-      "value": "Återkalla erbjudandet?"
+      "value": "Återkalla budet?"
     },
     {
       "_": "types.LangPackString",
@@ -26360,6 +26546,27 @@
       "_": "types.LangPackString",
       "key": "Gift.Setup.PlaceBid",
       "value": "Lägg ett bud"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.BuyStars",
+      "value": "Köp Stjärnor"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Gift.StarsResaleTon.Pay",
+      "one_value": "Betala %@ Gram",
+      "other_value": "Betala %@ Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Text",
+      "value": "Du kan betala **%1$@** från din plånbok för att köpa **%2$@** för %3$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.StarsResaleTon.Title",
+      "value": "För få Stjärnor"
     },
     {
       "_": "types.LangPackString",
@@ -28099,7 +28306,7 @@
     {
       "_": "types.LangPackString",
       "key": "Group.Edit.PrivateConfirmation.Title",
-      "value": "Ska gruppen göras privat?"
+      "value": "Gör gruppen privat?"
     },
     {
       "_": "types.LangPackString",
@@ -33809,6 +34016,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorLanguage",
+      "value": "%@ kan inte transkriberas på den här enheten än."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorLanguageUnknown",
+      "value": "Det här språket går ännu inte att transkribera på den här enheten."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Message.AudioTranscription.ErrorOnDevice",
+      "value": "Det gick inte att transkribera detta på din enhet."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Message.AudioTranscription.ErrorTooLong",
       "value": "Detta röstmeddelande är för långt för att transkriberas"
     },
@@ -34193,7 +34415,7 @@
     {
       "_": "types.LangPackString",
       "key": "Message.WidgetNetworkMarkerInfo",
-      "value": "Genom att trycka på den här widgeten kan du skicka data till boten."
+      "value": "Genom att trycka på den här widgeten kan du skicka data till botten."
     },
     {
       "_": "types.LangPackString",
@@ -35710,6 +35932,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.Invited",
+      "value": "%@ har bjudit in dig till den här botten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "Du blev inbjuden till den här botten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvited",
+      "value": "%@ bjöd in den här användaren till botten"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.BotInvite.UserInvitedUnknown",
+      "value": "Den här användaren blev inbjuden till botten"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "Du tillät denna bot att skicka meddelanden till dig när du adderade den i bilagemenyn."
     },
@@ -36994,6 +37236,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.StarGift.Bought",
+      "value": "köpt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.StarGift.Burned",
       "value": "bränd"
     },
@@ -37243,6 +37490,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "Du erbjöd **%1$@** för **%2$@**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "Du accepterade erbjudandet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "Ditt bud på **%1$@** för **%2$@** har accepterats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "Du nekade erbjudandet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "Ditt bud på **%1$@** för **%2$@** har nekats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "Erbjudandet om **%1$@** för **%2$@** har löpt ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "Ditt erbjudande om **%1$@** för **%2$@** har löpt ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "Du sålde **%1$@** för **%2$@**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "Erbjudandet om **%1$@** för **%2$@** har dragits tillbaka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "Du har återkallat ditt erbjudande på **%1$@** för **%2$@**"
     },
     {
       "_": "types.LangPackString",
@@ -39652,6 +39944,11 @@
       "_": "types.LangPackString",
       "key": "PUSH_LOCKED_STORY",
       "value": "Du har en ny story%1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PUSH_MARK_FORWARDED",
+      "value": "Vidarebefordrat"
     },
     {
       "_": "types.LangPackString",
@@ -42509,6 +42806,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeerInfo.Gifts.OnSale",
+      "value": "Till salu"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PeerInfo.Gifts.OneOf",
       "value": "1 av %@"
     },
@@ -42658,6 +42960,11 @@
       "_": "types.LangPackString",
       "key": "PeerInfo.HideMembersLimitedRights",
       "value": "Du har inte behörighet att ändra denna inställning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerInfo.InviteToBot",
+      "value": "Bjud in till bot"
     },
     {
       "_": "types.LangPackString",
@@ -46608,6 +46915,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Profile.Music.ShowPlaylist",
+      "value": "Visa spellista"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Profile.PersonalChannelSectionTitle",
       "value": "KANAL"
     },
@@ -48158,6 +48470,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RichText.CaptionRemoveFormattingText",
+      "value": "Bildtexter får inte innehålla knappar, rubriker, listor, tabeller eller annan avancerad formatering. Bildtexten sparas som ren text utan dessa element."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RichText.FormulaAdd",
       "value": "Lägg till formel"
     },
@@ -48415,6 +48732,11 @@
       "_": "types.LangPackString",
       "key": "RichText.RemoveFormattingTitle",
       "value": "Ta bort formatering?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "RichText.SaveWithoutFormatting",
+      "value": "Spara utan formatering"
     },
     {
       "_": "types.LangPackString",
@@ -50588,6 +50910,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Share.Sending",
+      "value": "Skickar"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Share.ShareAsImage",
       "value": "Dela som bild"
     },
@@ -51212,6 +51539,146 @@
       "_": "types.LangPackString",
       "key": "SocksProxySetup.Warning.Title",
       "value": "Varning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionDownload",
+      "value": "Hämta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionPause",
+      "value": "Pausa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionUpdate",
+      "value": "Uppdatera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.ActionVariants",
+      "value": "Välj variant"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.AutoDetect",
+      "value": "Automatisk identifiering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DeleteAllModels",
+      "value": "Ta bort alla modeller"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DeleteAllModelsText",
+      "value": "Ta bort hämtade talmodeller? De laddas ner igen när du behöver dem."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.DownloadProgress",
+      "value": "%1$@ / %2$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.IntroText",
+      "value": "Röstmeddelanden som du dikterar transkriberas på den här enheten. Det sker helt konfidentiellt."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LanguagesHeader",
+      "value": "Språk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LearnMore",
+      "value": "Läs mer"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LiveText",
+      "value": "Live-text under inspelning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.LiveTextInfo",
+      "value": "Gör det möjligt att skicka text istället för ett röstmeddelande. Transkriberingen sker på din enhet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.Title",
+      "value": "Diktering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.UpdateSize",
+      "value": "Uppdatering tillgänglig · %@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VariantMixed",
+      "value": "%@ (Blandat)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscription",
+      "value": "Enhetstranskribering"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToText.VoiceTranscriptionInfo",
+      "value": "Röstmeddelanden transkriberas privat – ingenting lämnar den här enheten. "
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Compact.Text",
+      "value": "Cirka 30 MB per språk. Behåll bara de du behöver."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Compact.Title",
+      "value": "Kompakta språk"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Description",
+      "value": "Röstmeddelanden omvandlas till text, på din enhet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Models.Text",
+      "value": "Skräddarsydda AI-modeller för tal-till-text-omvandling som tränats internt av Telegram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Models.Title",
+      "value": "Modeller av Telegram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Private.Text",
+      "value": "Ingenting lämnar telefonen. Transkriberingen sker på din enhet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Private.Title",
+      "value": "Helt privat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Sample",
+      "value": "Hej! Jag är tio minuter sen, vi ses på kaféet nära stationen"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Title",
+      "value": "Privat från grunden"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Understood",
+      "value": "Förstått"
     },
     {
       "_": "types.LangPackString",
@@ -54605,6 +55072,41 @@
       "_": "types.LangPackString",
       "key": "Story.Editor.Blur.Title",
       "value": "Suddig"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Clear",
+      "value": "Rensa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Downloading",
+      "value": "Hämtar…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.EditHint",
+      "value": "Tryck på ett ord för att redigera"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.NoSpeech",
+      "value": "Inget tal identifierat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Title",
+      "value": "Undertexter"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.Transcribing",
+      "value": "Transkriberar ljud…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.Editor.Captions.UnsupportedLanguage",
+      "value": "Undertexter finns inte tillgängliga för detta språk"
     },
     {
       "_": "types.LangPackString",
@@ -62690,8 +63192,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "Pris ändrat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTo",
+      "value": "Pris ändrat till %@"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "Skickat"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleSold",
+      "value": "Såld"
     },
     {
       "_": "types.LangPackString",
@@ -62806,6 +63323,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "Nytt pris"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "Köpare"
     },
@@ -62833,6 +63355,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "Säljare"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "Tidigare pris"
     },
     {
       "_": "types.LangPackString",
@@ -64859,5 +65386,5 @@
       "value": "Du har angett en felaktig säkerhetskod."
     }
   ],
-  "version": 22625993
+  "version": 22850249
 }

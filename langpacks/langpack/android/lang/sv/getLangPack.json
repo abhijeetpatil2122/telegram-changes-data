@@ -1622,7 +1622,7 @@
     {
       "_": "types.LangPackString",
       "key": "ActionBotInviteUnknown",
-      "value": "Du blev inbjuden till den här boten"
+      "value": "Du blev inbjuden till den här botten"
     },
     {
       "_": "types.LangPackString",
@@ -8898,7 +8898,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotCantReadChatTooltip",
-      "value": "Den här boten kan inte läsa hela chatten – bara det meddelande där den nämndes."
+      "value": "Den här botten kan inte läsa hela chatten – bara det meddelande där den nämndes."
     },
     {
       "_": "types.LangPackString",
@@ -9122,7 +9122,7 @@
     {
       "_": "types.LangPackString",
       "key": "BotInviteToBot",
-      "value": "Bjud in till boten"
+      "value": "Bjud in till bot"
     },
     {
       "_": "types.LangPackString",
@@ -9364,6 +9364,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotProfileOpenChat",
+      "value": "Öppna chatt"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotProfilePermissionBiometry",
       "value": "Biometri"
     },
@@ -9381,6 +9386,16 @@
       "_": "types.LangPackString",
       "key": "BotProfilePermissions",
       "value": "Tillåt åtkomst till"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileStopBot",
+      "value": "Stoppa bot"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotProfileViewInfo",
+      "value": "Visa info"
     },
     {
       "_": "types.LangPackString",
@@ -15020,7 +15035,7 @@
     {
       "_": "types.LangPackString",
       "key": "CommunityPendingRequestSuggestedBot",
-      "value": "**%s** föreslog den här boten"
+      "value": "**%s** föreslog den här botten"
     },
     {
       "_": "types.LangPackString",
@@ -15792,6 +15807,11 @@
       "_": "types.LangPackString",
       "key": "CreateGroupForThis",
       "value": "Skapa en ny grupp för detta"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "CreateGroupWith",
+      "value": "Skapa grupp med %1$s"
     },
     {
       "_": "types.LangPackString",
@@ -20904,6 +20924,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "FilterNoUnreadChats",
+      "value": "Inga olästa chattar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterNoUnreadChatsInfo",
+      "value": "Du har läst alla chattar här."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "FilterNonContact",
       "value": "Icke-kontakt"
     },
@@ -21003,10 +21033,20 @@
       "value": "Skapa en inbjudningslänk"
     },
     {
+      "_": "types.LangPackString",
+      "key": "FilterShowAllChats",
+      "value": "Visa alla chattar"
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "key": "FilterShowMoreChats",
       "one_value": "Visa ytterligare %1$d chatt",
       "other_value": "Visa ytterligare %1$d chattar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterShowUnread",
+      "value": "Visa olästa"
     },
     {
       "_": "types.LangPackString",
@@ -21022,6 +21062,11 @@
       "_": "types.LangPackString",
       "key": "FilterUnread",
       "value": "Olästa"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FilterUnreadOnlyShown",
+      "value": "endast olästa chattar visas"
     },
     {
       "_": "types.LangPackString",
@@ -25053,6 +25098,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftErrorAlreadyTransferred",
+      "value": "Denna gåva har redan överförts."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftLocked",
       "value": "Låst gåva"
     },
@@ -25405,13 +25455,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBought",
+      "value": "%s finns nu i din plånbok!"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainBoughtTo",
       "value": "%1$s köptes till %2$s!"
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmButton",
+      "value": "Köp"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainBuyConfirmText",
       "value": "Köp **%1$s** för **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTextFixed",
+      "value": "Köp **%1$s** för **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyConfirmTitle",
+      "value": "Bekräfta köp"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySent",
+      "value": "Köpet har skickats. %s kommer att visas i din plånbok snart."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuySentTo",
+      "value": "Köp skickat. %1$s kommer till %2$s inom kort."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyText",
+      "value": "Vill du köpa **%1$s** på Fragment för **%2$s**? Beloppet dras från din plånbok, och gåvan sparas i din plånbok och visas på din profil."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainBuyTitle",
+      "value": "Köp %s"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceButton",
+      "value": "Ändra till %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceConfirmText",
+      "value": "Ändra pris på **%1$s** till **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceSent",
+      "value": "Ändrar priset på %s…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainChangePriceText",
+      "value": "För att ändra priset måste du först ta bort den från försäljning och sen lägga ut den igen med det nya priset."
     },
     {
       "_": "types.LangPackString",
@@ -25425,13 +25535,223 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSale",
+      "value": "Den här gåvan är inte längre till salu på Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotForSaleFixed",
+      "value": "Den här gåvan är inte längre till salu."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMinted",
+      "value": "Endast gåvor som är registrerade i blockkedjan kan säljas på Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotMintedFixed",
+      "value": "Endast gåvor som är registrerade i blockkedjan kan säljas till ett fast pris."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwner",
+      "value": "Den här gåvan finns inte i din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorNotOwnerFixed",
+      "value": "Denna försäljning inleddes från en annan plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorOfferNotActive",
+      "value": "Detta erbjudande gäller inte längre."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChanged",
+      "value": "Priset på den här gåvan på Fragment har ändrats. Kontrollera det nya priset och försök igen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceChangedFixed",
+      "value": "Priset på denna gåva har ändrats. Kontrollera det nya priset och försök igen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalid",
+      "value": "Det här priset ligger utanför det tillåtna intervallet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorPriceInvalidRange",
+      "value": "Priset måste ligga mellan %1$s och %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActive",
+      "value": "Denna gåva är redan ute till försäljning på Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleActiveFixed",
+      "value": "Denna gåva är redan ute till försäljning."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabled",
+      "value": "Försäljning via Fragment är för närvarande inte tillgänglig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleDisabledFixed",
+      "value": "Försäljning till fast pris är för närvarande inte tillgänglig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSaleInactive",
+      "value": "Denna gåva finns inte till försäljning på Fragment."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainErrorSaleInactiveFixed",
       "value": "Denna gåva är inte till salu."
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchase",
+      "value": "Du kan inte köpa din egna gåva på Fragment."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSelfPurchaseFixed",
+      "value": "Du kan inte köpa din egna gåva."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorSendFailed",
+      "value": "Transaktionen skickades inte. Försök igen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitle",
+      "value": "Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTitleFixed",
+      "value": "Försäljning till fast pris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorTransactionFailed",
+      "value": "Det gick inte att genomföra transaktionen. Försök igen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorUnsupported",
+      "value": "Den här transaktionen kan inte signeras med den här versionen av Telegram. Uppdatera appen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletCreating",
+      "value": "Din plånbok håller fortfarande på att skapas. Försök igen om en stund."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailable",
+      "value": "Gåvor på Fragment köps och säljs via din plånbok. Konfigurera din plånbok för att fortsätta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainErrorWalletUnavailableFixed",
+      "value": "Gåvor på blockkedjan köps och säljs via din plånbok. Konfigurera din plånbok för att fortsätta."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainFailed",
+      "value": "Transaktionen för %s misslyckades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainGramAmount",
+      "value": "%s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListed",
+      "value": "%s är nu till salu på Fragment!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainListedFixed",
+      "value": "%s är nu till salu!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNetworkFee",
+      "value": "Nätverksavgift: %s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughForFee",
+      "value": "Du måste ha minst %s i din plånbok för att kunna betala nätverksavgiften för den här åtgärden."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainNotEnoughToBuy",
+      "value": "Du måste ha minst %s i plånboken för att kunna köpa den här gåvan."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAccept",
+      "value": "Acceptera"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferAcceptSent",
       "value": "Du har accepterat detta erbjudande. Försäljningen håller på att slutföras."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferAcceptedToast",
+      "value": "Du har accepterat budet på %s. Försäljningen är slutförd när gåvan har nått köparen."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferBalance",
+      "value": "Saldo: %s >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferButton",
+      "value": "Erbjud %s Gram"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmText",
+      "value": "Vill du lägga detta bud på **%1$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTextUser",
+      "value": "Vill du lägga detta erbjudande till **%1$s** för **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferConfirmTitle",
+      "value": "Bekräfta bud"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDecline",
+      "value": "Neka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDeclineText",
+      "value": "Vill du avböja erbjudandet om **%1$s** för **%2$s**? Grammen kommer då att återlämnas till köparen."
     },
     {
       "_": "types.LangPackString",
@@ -25445,8 +25765,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferDurationInfo",
+      "value": "Välj hur lång tid ägaren har på sig att acceptera ditt erbjudande. När tidsfristen löper ut återbetalas dina Grams automatiskt."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferErrorAlreadyActive",
       "value": "Du har redan ett aktivt erbjudande för den här gåvan. Om du vill ändra det måste du först dra tillbaka det."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferErrorTitle",
+      "value": "Bud"
     },
     {
       "_": "types.LangPackString",
@@ -25455,8 +25785,133 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferExpiresIn",
+      "value": "Erbjudandet går ut om\n**%s**"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferFailed",
       "value": "Erbjudandet för %s lämnades inte: transaktionen misslyckades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsHigh",
+      "value": "Budet är för högt. Det högsta budet för **%2$s** är **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsInfo",
+      "value": "Ange hur många Gram du vill erbjuda för **%s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsLow",
+      "value": "Budet är för lågt. Minsta bud för **%2$s** är **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferGramsToOffer",
+      "value": "Gram att erbjuda"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferIn",
+      "value": "Du erbjöds **%1$s** (%2$s) för **%3$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInNoUsd",
+      "value": "Du erbjöds **%1$s** för **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferInsufficient",
+      "value": "Otillräckligt saldo. Sätt in pengar >"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteAccepted",
+      "value": "Ditt bud på **%1$s** för **%2$s** har accepterats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteDeclined",
+      "value": "Ditt bud på **%1$s** för **%2$s** har nekats"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteFine",
+      "value": "Avgiften för förtida uttag var **%s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteRefunded",
+      "value": "**%s** har återförts till din plånbok"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteWithdrawn",
+      "value": "Du har återkallat ditt erbjudande på **%1$s** för **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouAccepted",
+      "value": "Du accepterade erbjudandet"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouDeclined",
+      "value": "Du nekade erbjudandet."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferNoteYouSold",
+      "value": "Du sålde **%1$s** för **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOut",
+      "value": "Du erbjöd **%1$s** för **%2$s**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferOwnerReceivesNoFee",
+      "value": "Ägaren kommer att få **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRefundNote",
+      "value": "Om säljaren avvisar ditt bud eller om det löper ut kommer dina Grams automatiskt att återbetalas till dig."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferReview",
+      "value": "Granska"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRibbonSold",
+      "value": "såld"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowExpires",
+      "value": "Erbjudandet går ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowPlatformFee",
+      "value": "Plattformsavgift"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYouPay",
+      "value": "Du betalar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferRowYourOffer",
+      "value": "Du erbjuder"
     },
     {
       "_": "types.LangPackString",
@@ -25485,8 +25940,73 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentText",
+      "value": "**%1$s** reserveras till %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSentTitle",
+      "value": "Erbjudandet har skickats"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferSold",
       "value": "Du har sålt %s!"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusAccepted",
+      "value": "Erbjudandet accepterades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusCancelling",
+      "value": "Erbjudandet dras tillbaka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusDeclined",
+      "value": "Erbjudandet nekades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpired",
+      "value": "Erbjudandet har löpt ut."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusExpiring",
+      "value": "Erbjudandet löper ut…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusSettled",
+      "value": "Försäljningen håller på att slutföras…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferStatusWithdrawn",
+      "value": "Erbjudandet drogs tillbaka."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryExpired",
+      "value": "Erbjudandet om **%1$s** för **%2$s** har löpt ut"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryWithdrawn",
+      "value": "Erbjudandet om **%1$s** för **%2$s** har dragits tillbaka"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYouDeclined",
+      "value": "Du tackade nej till erbjudandet om **%1$s** för **%2$s**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferSummaryYourExpired",
+      "value": "Ditt erbjudande om **%1$s** för **%2$s** har löpt ut"
     },
     {
       "_": "types.LangPackString",
@@ -25495,8 +26015,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdraw",
+      "value": "Dra tillbaka"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOfferWithdrawFailed",
       "value": "Erbjudandet om %s drogs inte tillbaka: transaktionen misslyckades."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawFee",
+      "value": "Vid förtida uttag tillkommer en avgift på **%1$s**.\n\nCa **%2$s** kommer återbetalas till dig."
     },
     {
       "_": "types.LangPackString",
@@ -25515,8 +26045,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainOfferWithdrawTitle",
+      "value": "Återkalla budet?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainOnSaleFor",
+      "value": "Till salu för %s"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainOpenWallet",
       "value": "Öppna Mina Pengar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainPriceChanged",
+      "value": "%1$s är nu till salu för %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowBuyer",
+      "value": "Köpare"
     },
     {
       "_": "types.LangPackString",
@@ -25525,8 +26075,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftOnchainRowContractFee",
+      "value": "Avtalsavgift"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftOnchainRowExpiration",
       "value": "Utgår"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowNetworkFee",
+      "value": "Nätverksavgift"
     },
     {
       "_": "types.LangPackString",
@@ -25536,12 +26096,147 @@
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainRowOldPrice",
-      "value": "Föregående pris"
+      "value": "Tidigare pris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowPrice",
+      "value": "Pris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowSeller",
+      "value": "Säljare"
     },
     {
       "_": "types.LangPackString",
       "key": "GiftOnchainRowSellerShare",
       "value": "Säljarens andel"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainRowYouReceive",
+      "value": "Du får"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellButton",
+      "value": "Lägg ut till försäljning"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellConfirmText",
+      "value": "Lägg ut **%1$s** till försäljning på Fragment för **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixed",
+      "value": "Sälj till fast pris"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellFixedConfirmText",
+      "value": "Lägg ut **%1$s** till salu för ett fast pris på **%2$s**?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHint",
+      "value": "Köparen betalar detta pris på Fragment, och intäkterna går direkt till din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellHintBuyerPays",
+      "value": "Köparen betalar detta pris, och intäkterna går direkt till din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellMenu",
+      "value": "Sälj"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellNoteFixed",
+      "value": "Köparen betalar detta pris, och intäkterna går direkt till din plånbok. Gåvan läggs ut till försäljning så snart försäljningsavtalet har mottagits."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceButton",
+      "value": "Lägg ut för %s Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHeader",
+      "value": "Pris i Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceHigh",
+      "value": "Priset är för högt. Det högsta priset är **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellPriceLow",
+      "value": "Priset är för lågt. Minsta pris är **%s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceive",
+      "value": "Du kommer att få **%1$s Gram** efter avgiften på %2$s."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellReceiveNoFee",
+      "value": "Du kommer att få **%1$s Gram**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSent",
+      "value": "Lägger ut %s på Fragment…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellSentFixed",
+      "value": "Lägger ut %s till försäljning…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellText",
+      "value": "Vill du lägga upp **%1$s** på Fragment för **%2$s**? För att starta försäljningen dras **%3$s** från din plånbok för avgifterna till kontraktet. Intäkterna går direkt till din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainSellTitle",
+      "value": "Sälj på Fragment"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainTransferUnlistFirst",
+      "value": "Ta bort den här gåvan från försäljning innan du överför den."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmText",
+      "value": "Gåvan kommer att tas bort från försäljningen på Fragment och förbli i din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistConfirmTextFixed",
+      "value": "Gåvan kommer att tas bort från försäljningen och förbli i din plånbok."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistSent",
+      "value": "Tar bort %s från försäljning…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlistText",
+      "value": "Vill du ta bort den här gåvan från försäljning på Fragment? Den kommer finnas kvar i din plånbok. Avbokningen kostar **%s** i avtalsavgifter."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftOnchainUnlisted",
+      "value": "%s är inte längre till salu."
     },
     {
       "_": "types.LangPackString",
@@ -25804,8 +26499,23 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GiftResaleFilterForStars",
+      "value": "För Stjärnor"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GiftResaleFilterForStarsOnly",
       "value": "Endast för Stjärnor"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterForTon",
+      "value": "För Grams"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GiftResaleFilterFromFragment",
+      "value": "Från Fragment"
     },
     {
       "_": "types.LangPackString",
@@ -26269,7 +26979,7 @@
     {
       "_": "types.LangPackString",
       "key": "GramEarningsTextWallet",
-      "value": "Dina Gram från gåvor och annonser."
+      "value": "Dina Grams från gåvor och annonser."
     },
     {
       "_": "types.LangPackString",
@@ -26313,6 +27023,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawNoPassword",
+      "value": "För att ta ut Grams måste du först ställa in ett lösenord för tvåstegsverifiering under ”Sekretess och säkerhet”."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "GramEarningsWithdrawNothing",
       "value": "Du har inga Grams att ta ut än."
     },
@@ -26330,6 +27045,11 @@
       "_": "types.LangPackString",
       "key": "GramEarningsWithdrawSentText",
       "value": "Gå till ⚙ Inställningar > 💎 Pengar"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "GramEarningsWithdrawText",
+      "value": "Grammen kommer att överföras till din egenförvaltade plånbok (⚙ Inställningar → 💎 Pengar)."
     },
     {
       "_": "types.LangPackString",
@@ -30197,6 +30917,26 @@
       "_": "types.LangPackString",
       "key": "MakeAdmin",
       "value": "SKAPA ADMIN"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeChannelPrivateText",
+      "value": "Den offentliga länken till din **%1$s** kommer att tas bort, och detta användarnamn kommer att bli tillgängligt för alla. Vill du fortsätta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeChannelPrivateTitle",
+      "value": "Gör kanalen privat?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateText",
+      "value": "Din grupps offentliga länk **%1$s** kommer att tas bort, och detta användarnamn kommer att bli tillgängligt för alla. Vill du fortsätta?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "MakeGroupPrivateTitle",
+      "value": "Gör gruppen privat?"
     },
     {
       "_": "types.LangPackString",
@@ -47438,12 +48178,12 @@
     {
       "_": "types.LangPackString",
       "key": "SpeechToTextOnDevice",
-      "value": "Transkribering direkt på enheten"
+      "value": "Enhetstranskribering"
     },
     {
       "_": "types.LangPackString",
       "key": "SpeechToTextOnDeviceInfo",
-      "value": "Röstmeddelanden transkriberas på den här enheten. Privat: ingenting lämnar den."
+      "value": "Röstmeddelanden transkriberas privat – ingenting lämnar den här enheten. "
     },
     {
       "_": "types.LangPackString",
@@ -47468,7 +48208,7 @@
     {
       "_": "types.LangPackString",
       "key": "SpeechToTextPrivacyNothingLeavesText",
-      "value": "Din röst och texten därtill skickas aldrig till en server i detta sammanhang."
+      "value": "Din röst och texten som den omvandlas till skickas aldrig till någon server."
     },
     {
       "_": "types.LangPackString",
@@ -47483,7 +48223,7 @@
     {
       "_": "types.LangPackString",
       "key": "SpeechToTextPrivacySubtitle",
-      "value": "Röstmeddelanden omvandlas till text\ndirekt här, på din enhet."
+      "value": "Röstmeddelanden omvandlas till text,\npå din enhet."
     },
     {
       "_": "types.LangPackString",
@@ -53440,6 +54180,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "TopicsFilterClosed",
+      "value": "Stängd"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "TopicsFilterOpen",
+      "value": "Öppna"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "TopicsInfo",
       "value": "Gruppchatten kommer att delas in i ämnen skapade av admins och användare."
     },
@@ -58583,12 +59333,12 @@
     {
       "_": "types.LangPackString",
       "key": "WalletOnchainGiftStatusOfferAccepted",
-      "value": "Erbjudandet har godkänts"
+      "value": "Erbjudande accepterat"
     },
     {
       "_": "types.LangPackString",
       "key": "WalletOnchainGiftStatusPriceChanged",
-      "value": "Prisjusterat"
+      "value": "Pris ändrat"
     },
     {
       "_": "types.LangPackString",
@@ -60234,5 +60984,5 @@
       "value": "Telegram Passport"
     }
   ],
-  "version": 62176834
+  "version": 62383460
 }

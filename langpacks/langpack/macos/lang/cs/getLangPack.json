@@ -7801,6 +7801,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.AIRewriteFailed",
+      "value": "AI se nepodařilo zprávu přepsat. Pro odeslání původní zprávy stiskněte znovu Odeslat."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.AddMembers",
       "value": "Přidat členy"
     },
@@ -11912,12 +11917,32 @@
       "value": "Přepis zvuku se nezdařil. Zkuste to znovu."
     },
     {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.InvalidAudio",
+      "value": "Tento zvuk nelze přepsat. Použijte nahrávku v délce od 1 sekundy do 30 minut."
+    },
+    {
       "_": "types.LangPackStringPluralized",
       "few_value": "Příliš mnoho požadavků na přepis. Zkuste to znovu za %1$d sekundy.",
       "key": "ChatAudio.FileTranscription.LimitExceeded",
       "many_value": "Příliš mnoho požadavků na přepis. Zkuste to znovu za %1$d sekund.",
       "one_value": "Příliš mnoho požadavků na přepis. Zkuste to znovu za %1$d sekundu.",
       "other_value": "Příliš mnoho požadavků na přepis. Zkuste to znovu za %1$d sekund."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.PremiumRequired",
+      "value": "Vaše bezplatné přepisy byly vyčerpány. Pro přepis dalšího zvuku je vyžadován Telegram Premium."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooBig",
+      "value": "Zvuk je pro přepis příliš velký. Zkraťte nahrávku na méně než 1 MB."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatAudio.FileTranscription.TooLong",
+      "value": "Zvuk je pro přepis příliš dlouhý. Zkraťte nahrávku na 30 minut nebo méně."
     },
     {
       "_": "types.LangPackString",
@@ -12224,6 +12249,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatHTML.RowItem.NetworkWarning",
+      "value": "Klepnutím mohou být odeslána data na server bota"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatHeader.Controller.SetProfilePhoto",
       "value": "Nastavit fotku profilu"
     },
@@ -12336,6 +12366,11 @@
       "_": "types.LangPackString",
       "key": "ChatInput.OpenChat",
       "value": "Otevřít konverzaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatInput.RecordingView.ClickToEdit",
+      "value": "Kliknutím kamkoli upravíte"
     },
     {
       "_": "types.LangPackString",
@@ -14039,6 +14074,26 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelRestricted",
+      "value": "V tomto kanálu máte zakázané přidávání příspěvků."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChannelWriteForbidden",
+      "value": "V tomto kanálu teď nemůžete přidávat příspěvky."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatInaccessible",
+      "value": "Tento kanál nebo skupina už pro vás není dostupné."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.ChatWriteForbidden",
+      "value": "V této konverzaci teď nemůžete odesílat zprávy."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.EntitiesTooLong",
       "value": "Tato zpráva má příliš mnoho formátování a nelze ji odeslat."
     },
@@ -14064,8 +14119,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.MediaForbidden",
+      "value": "V této konverzaci nemůžete odesílat tento typ zpráv."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.MessageTooLong",
       "value": "Tato zpráva je příliš dlouhá a nelze ji odeslat."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.PlainForbidden",
+      "value": "V této konverzaci nemůžete odesílat textové zprávy."
     },
     {
       "_": "types.LangPackString",
@@ -14079,8 +14144,28 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ChatSend.Failure.SlowModeWait",
+      "value": "Je aktivní pomalý mód. Zkuste to znovu za %1$@."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.Failure.TopicDeleted",
+      "value": "Toto vlákno bylo smazáno."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ChatSend.Failure.UserBlocked",
       "value": "Tuto zprávu nemůžete odeslat, protože vás příjemce zablokoval."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChanged",
+      "value": "Cena změněna"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatSend.PaymentConfirmation.PriceChangedInfo",
+      "value": "Cena za posílání zpráv do této konverzace se změnila, takže vaše zpráva nebyla odeslána. Zkontrolujte novou cenu a odešlete ji znovu."
     },
     {
       "_": "types.LangPackString",
@@ -14495,6 +14580,11 @@
       "_": "types.LangPackString",
       "key": "ChatVoice.Transcription.Language",
       "value": "Jazyk: %1$@"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatVoice.Transcription.LanguageInfo",
+      "value": "Jazyk, kterým mluvíte při diktování. Automaticky používá jazyk této konverzace a jazyky vašeho systému."
     },
     {
       "_": "types.LangPackString",
@@ -16091,6 +16181,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Conversation.CopyProtectionForwardingDisabledBot",
+      "value": "Přeposílání od tohoto bota je omezeno"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Conversation.CopyProtectionForwardingDisabledChannel",
       "value": "Přeposílání z tohoto kanálu je omezeno"
     },
@@ -17100,6 +17195,11 @@
       "_": "types.LangPackString",
       "key": "Developer.ViewController.ResetApp",
       "value": "Obnovit aplikaci"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Developer.ViewController.ResetAppLoginNotPreserved",
+      "value": "Vaše přihlášení se nepodařilo zachovat. Databáze nebyla vyčištěna."
     },
     {
       "_": "types.LangPackString",
@@ -50067,5 +50167,5 @@
       "value": "Zobrazit záměny"
     }
   ],
-  "version": 2505742
+  "version": 2505753
 }

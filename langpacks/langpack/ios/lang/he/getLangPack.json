@@ -4516,6 +4516,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "BotInvite.Error.AlreadyStartedMultiple",
+      "value": "משתמשים אלה כבר מנהלים צ'אט עם הבוט."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.Error.NotOwner",
+      "value": "רק הבעלים של הבוט יכול להזמין משתמשים אליו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "BotInvite.SelectUsers.Title",
+      "value": "הזמן לבוט"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "BotPreview.DeleteConfirmation.Title",
       "value": "למחוק תצוגה מקדימה?"
     },
@@ -26373,7 +26388,7 @@
     {
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Error.OnSale",
-      "value": "מתנה זו רשומה למכירה. הסר אותו מהמכירה תחילה כדי לקבל את ההצעה."
+      "value": "מתנה זו רשומה למכירה. הסר אותה מהמכירה תחילה כדי לקבל את ההצעה."
     },
     {
       "_": "types.LangPackString",
@@ -26409,6 +26424,11 @@
       "_": "types.LangPackString",
       "key": "Gift.OnchainOffer.Sale.Sent",
       "value": "המכירה הוגשה. תקבל **⁨%@⁩** לאחר אישורה בשרשרת."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Gift.OnchainOffer.Sale.Sent.Title",
+      "value": "ההצעה התקבלה"
     },
     {
       "_": "types.LangPackString",
@@ -36520,6 +36540,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Notification.BotInvite.InvitedUnknown",
+      "value": "הוזמנת לבוט זה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.BotWriteAllowed",
       "value": "הרשית לבוט זה לשלוח לך הודעות כשהוספת אותו לתפריט הצרופות."
     },
@@ -38115,6 +38140,51 @@
       "_": "types.LangPackString",
       "key": "Notification.StarGiftOnchainOffer.OfferYou",
       "value": "הצעת **⁨%1$@⁩** עבור **⁨%2$@⁩**."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Accepted",
+      "value": "קיבלת את ההצעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.AcceptedYou",
+      "value": "ההצעה שלך של **⁨%1$@⁩** עבור **⁨%2$@⁩** התקבלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Declined",
+      "value": "דחית את ההצעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.DeclinedYou",
+      "value": "ההצעה שלך ל**⁨%1$@⁩** עבור **⁨%2$@⁩** נדחתה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Expired",
+      "value": "פג תוקף ההצעה של **⁨%1$@⁩** עבור **⁨%2$@⁩**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.ExpiredYou",
+      "value": "פג תוקף ההצעה שלך ל**⁨%1$@⁩** עבור **⁨%2$@⁩**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Sold",
+      "value": "מכרת את **⁨%1$@⁩** ב**⁨%2$@⁩**"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.Withdrawn",
+      "value": "ההצעה של **⁨%1$@⁩** עבור **⁨%2$@⁩** בוטלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Notification.StarGiftOnchainOffer.Outcome.WithdrawnYou",
+      "value": "משכת את ההצעה שלך של **⁨%1$@⁩** עבור **⁨%2$@⁩**"
     },
     {
       "_": "types.LangPackString",
@@ -52385,6 +52455,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "SpeechToTextInfo.Title",
+      "value": "פרטי בהגדרה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "SponsoredMessageInfo.Action",
       "value": "למד עוד"
     },
@@ -56068,7 +56143,7 @@
     {
       "_": "types.LangPackString",
       "key": "Story.Editor.Tool.Highlights",
-      "value": "צלליות"
+      "value": "הבלטות"
     },
     {
       "_": "types.LangPackString",
@@ -64140,6 +64215,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.CollectibleRepricedTitle",
+      "value": "תומחר מחדש"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.CollectibleSent",
       "value": "נשלח"
     },
@@ -64258,6 +64338,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.Transaction.NewPrice",
+      "value": "מחיר חדש"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferBuyer",
       "value": "קונה"
     },
@@ -64285,6 +64370,11 @@
       "_": "types.LangPackString",
       "key": "Wallet.Transaction.OfferSeller",
       "value": "מוכר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.Transaction.OldPrice",
+      "value": "מחיר ישן"
     },
     {
       "_": "types.LangPackString",
@@ -66329,5 +66419,5 @@
       "value": "קוד האבטחה שהזנת שגוי."
     }
   ],
-  "version": 22608088
+  "version": 22892886
 }

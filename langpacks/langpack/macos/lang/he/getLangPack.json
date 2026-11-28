@@ -60,6 +60,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "AIAgent.ProfileController.SpeedFast",
+      "value": "מהיר"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "AIStyleModal.AddAuthorLink",
       "value": "הוסף קישור לחשבון שלי"
     },
@@ -1146,6 +1151,36 @@
       "_": "types.LangPackString",
       "key": "AgeVerification.Verify",
       "value": "אמת את הגיל שלי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.Expert",
+      "value": "מומחה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.Medium",
+      "value": "בינוני"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.SearchModels",
+      "value": "חיפוש מודלים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.PickerController.Ultra",
+      "value": "אולטרה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.Model",
+      "value": "מודל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Agent.ProfileRow.ReasoningEffort",
+      "value": "מאמץ היסק"
     },
     {
       "_": "types.LangPackString",
@@ -2499,6 +2534,21 @@
       "_": "types.LangPackString",
       "key": "Bot.InlineAuth.Title",
       "value": "לפתוח את\n⁨%@⁩?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.InvitedYou",
+      "value": "⁨%1$@⁩ הזמין אותך לבוט זה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitationServiceText.YouInvited",
+      "value": "הוזמנת לבוט זה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Bot.InvitePicker.Title",
+      "value": "הזמן לבוט"
     },
     {
       "_": "types.LangPackString",
@@ -6942,6 +6992,59 @@
       "value": "הצג ערכת נושא"
     },
     {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.ActivityRowItem.StepSuffix",
+      "many_value": " · ⁨%1$d⁩ צעדים",
+      "one_value": " · צעד ⁨%1$d⁩",
+      "other_value": " · ⁨%1$d⁩ צעדים",
+      "two_value": " · ⁨%1$d⁩ צעדים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Stop",
+      "value": "עצור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Summarized",
+      "value": "⁨%1$@⁩ סוכמו · ⁨%2$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Summarizing",
+      "value": "מסכם ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.SummarizingEarlierMessages",
+      "value": "סיכום הודעות קודמות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TapToHideSummary",
+      "value": "לחץ כדי להסתיר את הסיכום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TapToReadSummary",
+      "value": "לחץכדי לקרוא את הסיכום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TookDuration",
+      "value": "לקח ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.TookElapsed",
+      "value": "· לקח ⁨%1$@⁩⁨%2$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.ActivityRowItem.Working",
+      "value": "עובד"
+    },
+    {
       "_": "types.LangPackString",
       "key": "Chat.Ad.WhatThis",
       "value": "מה זה?"
@@ -7821,8 +7924,33 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.Controller.BlockBot",
+      "value": "חסום בוט"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.Controller.CopyAddress",
       "value": "העתק כתובת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.DeleteForEveryone",
+      "value": "פעולה זו מסירה את ההודעות שנבחרו עבור כולם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.DeleteForMe",
+      "value": "פעולה זו תסיר את העותק שלך של ההודעות שנבחרו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.InvitationReported",
+      "value": "ההזמנה דווחה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.Controller.ReportThePersonWhoInvitedYouToThisBot",
+      "value": "לדווח על האדם שהזמין אותך לבוט זה?"
     },
     {
       "_": "types.LangPackString",
@@ -8089,6 +8217,26 @@
       "_": "types.LangPackString",
       "key": "Chat.EmptyMessageError",
       "value": "לא ניתן לשלוח הודעה ריקה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EmptyPeerItem.AssistantCapabilities",
+      "value": "התעדכן בצ'אטים, ענה לאנשים, מצא כל דבר, שנה הגדרות או בנה ווידג'ט, הכל באמצעות בקשה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EmptyPeerItem.AssistantExamples",
+      "value": "נסה \"מה פספסתי?\", \"השב לצ'אט הזה\" או \"השתק את הקבוצות הרועשות\"."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EmptyPeerItem.AssistantPrivacy",
+      "value": "אני רץ באופן פרטי בMac הזה ושואל לפני שאני שולח משהו בשמך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.EmptyPeerItem.WhatCanIDoForYou",
+      "value": "מה אני יכול לעשות בשבילך?"
     },
     {
       "_": "types.LangPackString",
@@ -8663,6 +8811,24 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.HeaderController.BlockBot",
+      "value": "חסום בוט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.HeaderController.RunningTask",
+      "value": "משימה רצה"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.HeaderController.TaskPosition",
+      "many_value": "משימה ⁨%2$d⁩ מתוך ⁨%1$d⁩",
+      "one_value": "משימה ⁨%2$d⁩ מתוך ⁨%1$d⁩",
+      "other_value": "משימה ⁨%2$d⁩ מתוך ⁨%1$d⁩",
+      "two_value": "משימה ⁨%2$d⁩ מתוך ⁨%1$d⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InlineRequest.Loading",
       "value": "טוען..."
     },
@@ -8861,8 +9027,121 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.HideShortcuts",
+      "value": "הסתר קיצורי דרך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.Shortcuts",
+      "value": "קיצורי דרך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputActionsView.ShowShortcuts",
+      "value": "הצג קיצורי דרך"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.InputContext.EditQuickReply",
       "value": "ערוך תגובות מהירות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.Edit",
+      "value": "ערוך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.File",
+      "value": "קובץ"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Chat.InputStagedFilesView.ItemCount",
+      "many_value": "⁨%1$d⁩ פריטים",
+      "one_value": "פריט ⁨%1$d⁩",
+      "other_value": "⁨%1$d⁩ פריטים",
+      "two_value": "⁨%1$d⁩ פריטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.Remove",
+      "value": "הסר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStagedFilesView.ShowInFinder",
+      "value": "הצג בFinder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddToChats",
+      "value": "הוסף לצ'אטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddToNews",
+      "value": "הוסף לחדשות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChats",
+      "value": "נוסף לצ'אטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToChatsConfirmation",
+      "value": "⁨%1$@⁩ נוסף לצ'אטים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToNews",
+      "value": "נוסף לחדשות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.AddedToNewsConfirmation",
+      "value": "⁨%1$@⁩ נוסף לחדשות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.DoNotNotify",
+      "value": "אל תתריע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.Notify",
+      "value": "התרע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemoveFromChats",
+      "value": "הסר מצ'אטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemoveFromNews",
+      "value": "הסר מהחדשות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemovedFromChatsConfirmation",
+      "value": "⁨%1$@⁩ הוסר מצ'אטים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputStateContainers.RemovedFromNewsConfirmation",
+      "value": "⁨%1$@⁩ הוסר מהחדשות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputView.CompactingConversation",
+      "value": "דוחס שיחה…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.InputView.MessageAIAssistant",
+      "value": "שלח הודעה לעוזר הAI"
     },
     {
       "_": "types.LangPackString",
@@ -9398,8 +9677,18 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.NotSent",
+      "value": " · לא נשלח"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Chat.MessageMenuItems.SendMoney",
       "value": "שלח כסף"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Chat.MessageMenuItems.Sending",
+      "value": " · שולח…"
     },
     {
       "_": "types.LangPackString",
@@ -12444,6 +12733,11 @@
       "_": "types.LangPackString",
       "key": "ChatList.Add.TopSeparator",
       "value": "סוגי צ'אטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ChatList.AgentsFolder.Agents",
+      "value": "סוכנים"
     },
     {
       "_": "types.LangPackString",
@@ -17884,6 +18178,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "EditImage.ModalController.EditsChanged",
+      "value": "העריכות שלך השתנו בזמן שמירת התמונה. נסה שוב לשמור את הגרסה העדכנית ביותר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EditImage.ModalController.SaveFailed",
+      "value": "לא ניתן לשמור את התמונה הערוכה. העריכות שלך עדיין כאן. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "EditImageControl.Confirm.Discard",
       "value": "האם באמת ברצונך להתעלם מכל השינויים?"
     },
@@ -18560,6 +18864,16 @@
       "_": "types.LangPackString",
       "key": "EmptyPeer.Description",
       "value": "נא לבחור צ'אט כדי להתחיל להתכתב"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.BrowserInstructions",
+      "value": "הזן את הסיסמה בדפדפן שלך. אם תעביר את הייצוא, השאר את \"⁨%1$@⁩\" ואת התיקיה \"⁨%2$@⁩\" ביחד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "EncryptedExport.Cancelled",
+      "value": "הייצוא בוטל."
     },
     {
       "_": "types.LangPackString",
@@ -19798,6 +20112,11 @@
       "_": "types.LangPackString",
       "key": "Fragment.Ton.MinWithdraw",
       "value": "לא ניתן למשוך פחות מ⁨%d⁩ Gram."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "FragmentGift.Price.PriceInTON",
+      "value": "בחיר בGram"
     },
     {
       "_": "types.LangPackString",
@@ -23561,6 +23880,497 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.",
+      "value": "הסוכן רוצה ⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.AddYouToGroups",
+      "value": "להוסיף אותך לקבוצות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.AgentRequest",
+      "value": "בקשת סוכן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.Allow",
+      "value": "התר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.CallYou",
+      "value": "להתקשר אליך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.LinkToYourAccountWhenForwardingYourMessages",
+      "value": "לקשר לחשבון שלך בעת העברת ההודעות שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourBio",
+      "value": "לראות את האודות שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourBirthday",
+      "value": "לראות את יום ההולדת שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourLastSeenTime",
+      "value": "לראות את הנראה לאחרונה שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourPhoneNumber",
+      "value": "לראות את מספר הטלפון שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SeeYourProfilePhoto",
+      "value": "לראות את תמונת הפרופיל שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionDispatcher.Params.SendYouVoiceMessages",
+      "value": "לשלוח לך הודעות קוליות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.DraftCannotBeSentFromHereOpen",
+      "value": "לא ניתן לשלוח מכאן את הטיוטה הזו. פתח אותו בצ'אט במקום זאת."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.TelegramCanTCheckForDictatorUpdatesRightNow",
+      "value": "טלגרם לא יכולה לחפש עדכוני דיקטטור כרגע."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.TelegramIsSwitchingAccountsTryAgain",
+      "value": "טלגרם מחליפה חשבונות; נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.TheAIAssistantChatIsnTReady",
+      "value": "הצ'אט של סוכן הAI לא מוכן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.ActionService.ThisConversationSTelegramAccountIsLoggedOutItMust",
+      "value": "חשבון הטלגרם של שיחה זו מנותק; יש להתחבר שוב לפני שתוכל לפעול."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.AgentRequest",
+      "value": "בקשת סוכן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.Allow",
+      "value": "התר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.IsNeverAvailableToTheAgentSecretChatsAnd",
+      "value": "⁨%1$@⁩ לעולם אינו זמין לסוכן (צ'אטים סודיים והודעות שירות מטלגרם מוגנים)."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.LockdownActionDisabled",
+      "value": "מצב נעילה מופעל בטלגרם, ולכן ⁨%1$@⁩ כבוי עבור הסוכן. ספר למשתמש מה היית עושה ואפשר לו לעשות זאת בעצמו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.NoChatMatches",
+      "value": "אין צ'אט שמתאים ל⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.NotAllowedByTheUserSTelegramPermissions",
+      "value": "אסור על פי הרשאות הטלגרם של המשתמש: ⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.ShowsSomethingOnScreenAndThisConversationSTelegramAccount",
+      "value": "⁨%1$@⁩ מראה משהו על המסך, וחשבון הטלגרם של השיחה הזו אינו זה שפתוח באפליקציה. עשה את השאר בלי זה, או התקשר קודם לswitch_account."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TelegramIsLockedUnlockTelegramAndMakeANew",
+      "value": "טלגרם נעול. בטל את הנעילה של טלגרם ושלח בקשה חדשה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TheUserBlockedTheAgentFrom",
+      "value": "המשתמש חסם את הסוכן מ⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TheUserDeclinedThisRequest",
+      "value": "המשתמש דחה בקשה זו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.TheUserTurnedOffTelegramActionsForTheAgent",
+      "value": "המשתמש ביטל את פעולות הטלגרם עבור הסוכן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Actions.ThisNeedsTheUserSConfirmationAndThisRequest",
+      "value": "זה דורש אישור של המשתמש, ובקשה זו ביקשה לא להציג אחד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.CouldNotReachTheLocalAgent",
+      "value": "לא ניתן היה להגיע לסוכן המקומי: ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.LocalAgentFailed",
+      "value": "הסוכן המקומי נכשל: ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.LocalAgentIsNotRunningOpenDictatorOn",
+      "value": "הסוכן המקומי לא פועל. פתח את דיקטטור בMac הזה והפעל את הסוכן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.Stopped",
+      "value": "נעצר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.Client.TheGroupTurnEndedBeforeEveryAgentFinished",
+      "value": "תור הקבוצה הסתיים לפני שכל סוכן סיים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ALocation",
+      "value": "מיקום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Call",
+      "value": "להתקשר?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Call2",
+      "value": "שיחה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Change",
+      "value": "שנה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ChangeUsername",
+      "value": "לשנות שם משתמש?"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Days",
+      "many_value": "⁨%1$d⁩ ימים",
+      "one_value": "יום ⁨%1$d⁩",
+      "other_value": "⁨%1$d⁩ ימים",
+      "two_value": "יומיים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DidnTResolveToAChatItMayNotExist",
+      "value": "@⁨%1$@⁩ לא התאים לצ'אט: ייתכן שהוא לא קיים, או שטלגרם מגבילה כרגע את חיפושי שמות המשתמש. נסה שוב בעוד מספר דקות, או העבר את הצ'אט לפי מזהה אם זה אחד מהצ'אטים של המשתמש."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DidnTResolveToAChatOrBotItMay",
+      "value": "@⁨%1$@⁩ לא התאים לצ'אט או לבוט: ייתכן שהוא לא קיים, או שטלגרם מגבילה כרגע את חיפושי שמות המשתמש. שום דבר לא נפתח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.DownloadAFileFrom",
+      "value": "הורד קובץ מ\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.HasNoTopicsItIsnTAForum",
+      "value": "ל\"⁨%1$@⁩\" אין נושאים; זה לא פורום."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Hours",
+      "many_value": "⁨%1$d⁩ שעות",
+      "one_value": "שעה ⁨%1$d⁩",
+      "other_value": "⁨%1$d⁩ שעות",
+      "two_value": "שעתיים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.MessageDidnTLoadFromTelegramTryAgain",
+      "value": "ההודעה ⁨%1$d⁩ לא נטענה מטלגרם. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.MessageIsnTInItWasDeletedOrThisAccount",
+      "value": "ההודעה ⁨%1$d⁩ אינה ב\"⁨%2$@⁩\": היא נמחקה, או שהחשבון הזה לא יכול לראות אותה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.MissingMessage",
+      "value": "ההודעה ⁨%1$d⁩ אינה ב\"⁨%2$@⁩\": היא נמחקה, או שהמזהה שגוי."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.MissingMessages",
+      "many_value": "אף אחת מההודעות האלה לא נמצאות ב⁨%1$@⁩: הן נמחקו, או שהמזהים שגויים.",
+      "one_value": "הודעה זו אינה ב⁨%1$@⁩: היא נמחקה, או שהמזהה שגוי.",
+      "other_value": "אף אחת מההודעות האלה לא נמצאות ב\"⁨%1$@⁩\": הן נמחקו, או שהמזהים שגויים.",
+      "two_value": "אף אחת מההודעות האלה לא נמצאות ב⁨%1$@⁩: הן נמחקו, או שהמזהים שגויים."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Months",
+      "many_value": "⁨%1$d⁩ חודשים",
+      "one_value": "חודש ⁨%1$d⁩",
+      "other_value": "⁨%1$d⁩ חודשים",
+      "two_value": "חודשיים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.NoLinkPrivateChatsAndBasicGroupsHaveNoMessage",
+      "value": "אין קישור: לצ'אטים פרטיים ולקבוצות בסיסיות אין קישורי הודעות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.NothingIsSentUntilYouTapSend",
+      "value": ". שום דבר לא נשלח עד שתלחץ על שלח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.OpenATelegramLink",
+      "value": "לפתוח קישור טלגרם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.OpenInTelegram",
+      "value": "לפתוח את ⁨%1$@⁩ בטלגרם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.PhotoAbove",
+      "value": "התמונה למעלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Poll",
+      "value": "סקר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Quiz",
+      "value": "חידון"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.ReadMessages",
+      "many_value": "לקרוא ⁨%1$d⁩ הודעות ב⁨%2$@⁩",
+      "one_value": "לקרוא הודעה ⁨%1$d⁩ ב⁨%2$@⁩",
+      "other_value": "לקרוא ⁨%1$d⁩ הודעות ב⁨%2$@⁩",
+      "two_value": "לקרוא ⁨%1$d⁩ הודעות ב⁨%2$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ReadMessagesAroundAMessageIn",
+      "value": "לקרוא הודעות סביב הודעה ב\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.RemoveTheUsernameOf",
+      "value": "הסוכן רוצה להסיר את שם המשתמש של ⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.RetractYourVoteIn",
+      "value": "לבטל את הצבעתך ב\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Seconds",
+      "many_value": "⁨%1$d⁩ שניות",
+      "one_value": "שניה ⁨%1$d⁩",
+      "other_value": "⁨%1$d⁩ שניות",
+      "two_value": "⁨%1$d⁩ שניות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeTheGroupsYouShareWith",
+      "value": "לראות את הקבוצות המשותפות בינך לבין ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeTheTopicsOf",
+      "value": "לראות את הנושאים של \"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeWhoReactedToAMessageIn",
+      "value": "ראה מי הגיב להודעה ב\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SeeWhoReadAMessageIn",
+      "value": "לראות מי קרא הודעה ב\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Send",
+      "value": "שלח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendALocation",
+      "value": "לשלוח מיקום?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendAPoll",
+      "value": "לשלוח סקר?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendASticker",
+      "value": "לשלוח מדבקה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendAStickerTo",
+      "value": "הסוכן רוצה לשלוח מדבקה ⁨%1$@⁩ ל\"⁨%2$@⁩\"."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendATo",
+      "value": "הסוכן רוצה לשלוח ⁨%1$@⁩ ל\"⁨%2$@⁩\":\n\n⁨%3$@⁩\n⁨%4$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendLocation",
+      "value": "הסוכן רוצה לשלוח ⁨%1$@⁩ (⁨%2$@⁩, ⁨%3$@⁩) ל\"⁨%4$@⁩\"."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendTo",
+      "value": "לשלוח ל\"⁨%1$@⁩\"?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SendTo2",
+      "value": "הסוכן רוצה לשלוח ⁨%1$@⁩ אל \"⁨%2$@⁩\"⁨%3$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SentToTelegramCurrentScreenShowsWhatOpened",
+      "value": "נשלח לטלגרם; current_screen מציג מה נפתח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.SetTheUsernameOfTo",
+      "value": "הסוכן רוצה להגדיר את שם המשתמש של ⁨%1$@⁩ ל@⁨%2$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ShownAbove",
+      "value": "⁨%1$@⁩ (⁨%2$@⁩), מוצג למעלה,"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.StartACallWith",
+      "value": "הסוכן רוצה להתחיל שיחה ⁨%1$@⁩ עם ⁨%2$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TelegramCouldnTOpenTheLink",
+      "value": "טלגרם לא הצליחה לפתוח את הקישור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TelegramTookTheLinkButNothingNewAppearedOnScreen",
+      "value": "טלגרם לקחה את הקישור, אבל שום דבר חדש לא הופיע על המסך תוך כמה שניות: ייתכן שהוא כבר היה פתוח, ייתכן שהוא נפתח מחוץ לטלגרם, או שטלגרם לא מצא אותו. בדוק את current_screen לפני שאתה אומר שהוא נפתח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ThatMessageWasnTFoundIn",
+      "value": "ההודעה הזו לא נמצאה ב\"⁨%1$@⁩\"."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TheGroupsInCommonDidnTLoadTryAgain",
+      "value": "הקבוצות המשותפות לא נטענו. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TheMessagesDidnTLoadTryAgain",
+      "value": "ההודעות לא נטענו. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.ThoseMessagesHaveNoTextToTranslate",
+      "value": "להודעות האלה אין טקסט לתרגום."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TranslateAText",
+      "value": "לתרגם טקסט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TranslateMessagesIn",
+      "value": "תרגם הודעות ב\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.TranslationDidnTAnswerTryAgain",
+      "value": "התרגום לא ענה. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Video",
+      "value": "וידאו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.VideoCall",
+      "value": "שיחת וידאו?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.Voice",
+      "value": "קול"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.VoteInAPollIn",
+      "value": "הצבע בסקר ב\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "LocalAgent.EngineActions.Weeks",
+      "many_value": "⁨%1$d⁩ שבועות",
+      "one_value": "שבוע ⁨%1$d⁩",
+      "other_value": "⁨%1$d⁩ שבועות",
+      "two_value": "שבועיים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "LocalAgent.EngineActions.WithThisCaption",
+      "value": " עם הכיתוב הזה:\n\n⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Localization.Preview.Error.Generic",
       "value": "מצטערים, לא קיימת שפה זו."
     },
@@ -23638,6 +24448,211 @@
       "_": "types.LangPackString",
       "key": "LocationPreview.Title",
       "value": "תצוגה מקדימה של מיקום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.NonContactInfo",
+      "value": "⁨%1$@⁩ נמצא מחוץ לרשימת אנשי הקשר שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.OpenChat",
+      "value": "פתח צ'אט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.OpenNonContactChatTitle",
+      "value": "לפתוח צ'אט ממשתמש לא שמור?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.ChatConfirmation.ThisPerson",
+      "value": "אדם זה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SlideToConfirm",
+      "value": "החלק כדי לאשר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.Confirmation.SliderAccessibilityHelp",
+      "value": "השתמש במקשי החצים כדי להזיז את המחוון, ולאחר מכן לחץ על Return כדי לאשר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.Download",
+      "value": "הורד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.DownloadRiskyFileInfo",
+      "value": "⁨%1$@⁩ עשוי להכיל קוד או תוכן לא בטוח אחר. טלגרם תשים את הקובץ בתיקייה זמנית."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.FileActions.DownloadRiskyFileTitle",
+      "value": "להוריד קובץ מסוכן?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.Cancel",
+      "value": "ביטול"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ConfirmNonContactChats",
+      "value": "אשר צ'אטים ממשתמשים לא שמורים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ConfirmNonContactChatsInfo",
+      "value": "שאל לפני פתיחת צ'אט פרטי עם מישהו מחוץ לאנשי הקשר שלך בזמן שמצב נעילה מופעל."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsManual",
+      "value": "אלה היו מוגבלים כבר לפני מצב הנעילה. שנה מי יכול להתקשר אליך, הזמן אותך לקבוצות ושלח לך הודעה בפרטיות ואבטחה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsOption",
+      "value": "אפשר גם שיחות, הזמנות קבוצתיות והודעות רק מאנשי הקשר שלי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsText",
+      "value": "רק אנשי הקשר שלך יכולים להתקשר אליך או להוסיף אותך לקבוצות, וצ'אטים חדשים מאחרים זקוקים לPremium. כיבוי זה מחזיר את מה שהיה לך קודם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.ContactsTitle",
+      "value": "שיחות והודעות מאנשי קשר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableInfo",
+      "value": "מדיה, קישורים, קבצים וסוכן הAI חוזרים להגדרות הרגילות שלך. הגדרות הפרטיות ששינית נשארות כפי שהן. פורמטים נדירים של תמונה יחזרו בפעם הבאה שתפתח את טלגרם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableOk",
+      "value": "כבה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.DisableTitle",
+      "value": "לכבות את מצב הנעילה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.EnableInfo",
+      "value": "הודעות ומדיה: ניתן להוריד אוטומטית רק תמונות מאנשי קשר ותמונות ששלחת. פתיחת צ'אטים מחוץ לאנשי הקשר שלך דורשת אישור כברירת מחדל.\n\nקישורים ואינטרנט: אין תצוגות מקדימות של קישורים או טעינת תצוגה מיידית מהודעות נכנסות, ווידג'טים נשארים מוסתרים עד שתאשר, ודפי אינטרנט, אפליקציות מיני ותצוגה מיידית פועלים במצב הנעילה של WebKit. אפליקציות מיני שואלות בכל פעם, ודפי תשלום חסומים.\n\nקבצים: קבצים מסוכנים דורשים אישור לפני ההורדה ושוב לפני הפתיחה. טלגרם משלב קבצים בתיקייה זמנית. ניתן לחשוף קובצי הפעלה וקבצים מוסווים רק ב-Finder. התמונות מוגבלות ל-JPEG, PNG, WebP, HEIC ו-GIF.\n\nשיחות ופרטיות: אופציונלי, למטה.\n\nסוכן AI: הוא יכול רק לקרוא, כל פעולה שואלת אותך קודם כל, שום דבר שהוא לא רואה ממך מפעיל אותו, המחשב שלו לא מקוון והתשובות שלו הן טקסט רגיל."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.EnableOk",
+      "value": "הפעל את מצב הנעילה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.EnableTitle",
+      "value": "להפעיל את מצב הנעילה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.FilesText",
+      "value": "קבצים מסוכנים יישאלו לפני ההורדה ושוב לפני הפתיחה. אפליקציות וקבצים מוסווים מוצגים רק בFinder, ורק תמונות JPEG, PNG, WebP, HEIC ו-GIF נפתחות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.FilesTitle",
+      "value": "זהירות עם קבצים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.Footer",
+      "value": "מצב נעילה הוא הגנה קיצונית ואופציונלית עבור אנשים שעלולים להיות ממוקדים אישית על ידי התקפות דיגיטליות מתוחכמות. טלגרם שואלת לפני פתיחת קישורים, מיני אפליקציות ותוכן מסוכן אחר, ומגבילה הורדת מדיה אוטומטיות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroFooter",
+      "value": "זה נכנס לתוקף מיד. פורמטים נדירים של תמונה נשארים חסומים עד שתפתחו בפעם הבאה את טלגרם לאחר כיבויו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroText",
+      "value": "הגנה קיצונית ואופציונלית לאנשים שעלולים להיות ממוקדים אישית על ידי התקפות דיגיטליות מתוחכמות."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.IntroTitle",
+      "value": "מצב נעילה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.LockdownMode",
+      "value": "מצב נעילה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.MediaText",
+      "value": "רק תמונות מאנשי הקשר שלך מורידות לבד. כל השאר מחכה ללחיצה, ופתיחת צ'אט עם מישהו מחוץ לאנשי הקשר שלך תשאל קודם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.MediaTitle",
+      "value": "תקשורת מזרים ממתינה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.WebText",
+      "value": "אין תצוגה מקדימה או תצוגה מיידית מקישורים נכנסים, והוידג'טים מחכים לך. דפי אינטרנט ומיני אפליקציות נפתחים בדפדפן נעול, ודפי תשלום חסומים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.SettingsController.WebTitle",
+      "value": "קישורים ואינטרנט בטוחים יותר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.StickerPlaceholderView.HiddenAccessibility",
+      "value": "המדבקה מוסתרת על ידי מצב נעילה, ⁨%1$@⁩. הקש כדי להציג"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.StickerPlaceholderView.TapToShow",
+      "value": "לחץ כדי להציג"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.ClickToLoadIt",
+      "value": "לחץ כדי לטעון אותו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.HiddenAccessibility",
+      "value": "היישומון מוסתר על ידי מצב נעילה. לחץ כדי לטעון אותו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidget",
+      "value": "טען ווידג'ט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidgetInfo",
+      "value": "טעינת יישומון זה מפעילה תוכן שסופק על ידי השולח שלו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.LoadWidgetTitle",
+      "value": "לטעון ווידג'ט?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Lockdown.WidgetRowItem.WidgetHiddenByLockdownMode",
+      "value": "יישומון מוסתר על ידי מצב נעילה"
     },
     {
       "_": "types.LangPackString",
@@ -26036,6 +27051,46 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "News.Controller.Compact",
+      "value": "מצומצם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.Expanded",
+      "value": "מורחב"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.Controller.ReloadFeed",
+      "value": "טען מחדש את הפיד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostFeedbackRowItem.FewerSimilar",
+      "value": "תראה פחות פוסטים כאלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Collapse",
+      "value": "צמצם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Expand",
+      "value": "הרחב"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.Interesting",
+      "value": "מעניין"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "News.PostRowItem.NotInterested",
+      "value": "לא מעניין"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Notification.Boost.Multiple",
       "value": "⁨%1$@⁩ העניק/ה לקבוצה ⁨%2$@⁩ בוסט"
     },
@@ -27426,6 +28481,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PaymentWeb.InteractionController.LockdownBlocked",
+      "value": "דפי תשלום חסומים כאשר מצב נעילה מופעל. כבה אותו בהגדרות › פרטיות ואבטחה כדי לשלם כאן."
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Payments.Invoice.AlreadyActive",
       "value": "המינוי כבר פעיל"
     },
@@ -27944,6 +29004,16 @@
       "_": "types.LangPackString",
       "key": "PeerCall.Screen.E2E.Info",
       "value": "אם האימוג׳י שעל המסך של **⁨%1$@⁩** זהה לשלך, השיחה מאובטחת ב⁨%2$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerHistory.Alerts.ClearHistoryForEveryone",
+      "value": "פעולה זו מנקה את ההיסטוריה לכולם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PeerHistory.Alerts.ClearHistoryForMe",
+      "value": "פעולה זו מנקה את העותק שלך של ההיסטוריה."
     },
     {
       "_": "types.LangPackString",
@@ -29549,6 +30619,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PeersList.Controller.NewStory",
+      "value": "סטורי חדש"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PersonalChannel.Empty",
       "value": "אין לך ערוצים ציבוריים. [צור >]()"
     },
@@ -31151,6 +32226,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "PrivacyAndSecurity.ViewController.LockdownHeader",
+      "value": "מצב נעילה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "PrivacyAndSecurity.ViewController.LockdownMode",
+      "value": "מצב נעילה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "PrivacyAndSecurity.WebAuthorizationHeader",
       "value": "אתרים מחוברים"
     },
@@ -31787,6 +32872,121 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.Report",
+      "value": "דווח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.ReportAntiSpamInfo",
+      "value": "הסוכן רוצה לספר לטלגרם שאנטי-ספאם מחק בטעות את ההודעה #⁨%1$d⁩ ב\"⁨%2$@⁩\"."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.ReportAntiSpamMistake",
+      "value": "לדווח על טעות נגד ספאם?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.SeeWhatEarned",
+      "value": "לראות מה ⁨%1$@⁩ הרוויח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.SeeYourContactsBirthdays",
+      "value": "לראות את ימי ההולדת של אנשי הקשר שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.Suggest",
+      "value": "הצע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.SuggestABirthday",
+      "value": "להציע יום הולדת?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileExtras.Actions.SuggestBirthdayInfo",
+      "value": "הסוכן רוצה להציע את ⁨%1$@⁩ כיום הולדתו של ⁨%2$@⁩. הוא יראה את זה בצ'אט שלך ויוכל להוסיף את זה לפרופיל שלו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.Add",
+      "value": "הוסף"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.AddMusicInfo",
+      "value": "הסוכן רוצה להוסיף רצועה מ⁨%1$@⁩\" לראש הפרופיל שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.AddMusicToYourProfile",
+      "value": "להוסיף מוזיקה לפרופיל שלך?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.Remove",
+      "value": "הסר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.RemoveMusicFromYourProfile",
+      "value": "להסיר מוזיקה מהפרופיל שלך?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileMusic.Actions.RemoveMusicInfo",
+      "value": "הסוכן רוצה להסיר רצועה מהפרופיל שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileOpen.Actions.AgentRequest",
+      "value": "בקשת סוכן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfileOpen.Actions.Open",
+      "value": "פתח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.Change",
+      "value": "שנה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.ChangePhotoInfo",
+      "value": "הסוכן רוצה שהתמונה שלך מ⁨%1$@⁩ תהיה שוב תמונת הפרופיל הראשית שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.ChangeYourProfilePhoto",
+      "value": "לשנות את תמונת הפרופיל שלך?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.Delete",
+      "value": "מחק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.DeleteAProfilePhoto",
+      "value": "למחוק תמונת פרופיל?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.DeletePhotoInfo",
+      "value": "הסוכן רוצה למחוק את תמונת הפרופיל שלך מ⁨%1$@⁩⁨%2$@⁩. לא ניתן לשחזר אותה."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ProfilePhotos.Actions.YourCurrentOne",
+      "value": ", הנוכחי שלך"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "ProfileTab.ContextMenu.SetAsMain",
       "value": "הגדר כראשי"
     },
@@ -32092,6 +33292,31 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QRCode.Actions.Caption",
+      "value": " עם הכותרת:\n\n⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.NothingIsSentUntilYouTapSend",
+      "value": ". שום דבר לא נשלח עד שתלחץ על שלח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.Send",
+      "value": "שלח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.SendAQRCode",
+      "value": "לשלוח את קוד הQR?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QRCode.Actions.SendQRCodeInfo",
+      "value": "הסוכן רוצה לשלוח את קוד הQR שלמעלה עבור ⁨%1$@⁩ ל\"⁨%2$@⁩\"⁨%3$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QrStudio.ColorsTabView.Title",
       "value": "צבעים"
     },
@@ -32232,6 +33457,71 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedArchiveInfo",
+      "value": "⁨%1$@⁩ הוא למעשה ארכיון, לא סוג הקובץ שהשם שלו מרמז. פתח אותו רק אם אתה סומך על השולח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedPDFInfo",
+      "value": "⁨%1$@⁩ הוא למעשה מסמך PDF, לא סוג הקובץ ששמו מרמז. פתח אותו רק אם אתה סומך על השולח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedProgramInfo",
+      "value": "⁨%1$@⁩ היא למעשה תוכנה, לא סוג הקובץ ששמה מרמז. פתח אותו רק אם אתה סומך על השולח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.DisguisedScriptInfo",
+      "value": "⁨%1$@⁩ הוא למעשה סקריפט, לא סוג הקובץ שהשם שלו מרמז. פתח אותו רק אם אתה סומך על השולח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.OpenFile",
+      "value": "פתח קובץ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.OpenRiskyFileInfo",
+      "value": "⁨%1$@⁩ עשוי לטעון תוכן מרוחק או להפעיל סקריפטים כאשר הוא נפתח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.OpenRiskyFileTitle",
+      "value": "לפתוח קובץ מסוכן?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.RiskyFileBlocked",
+      "value": "קובץ מסוכן נחסם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.RiskyFileBlockedInfo",
+      "value": "⁨%1$@⁩ יכול להפעיל קוד בMac או להסתיר סוג קובץ אחר. באפשרותך לאתר אותו בFinder."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickLook.Preview.ShowInFinder",
+      "value": "הצג בFinder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReaction.Actions.Change",
+      "value": "שנה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReaction.Actions.ChangeQuickReactionInfo",
+      "value": "הסוכן רוצה ללחוץ לחיצה כפולה על הודעה כדי להגיב ברגשון ל⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "QuickReaction.Actions.ChangeTheQuickReaction",
+      "value": "לשנות את התגובה המהירה?"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "QuickReply.ChatRemoveAwayMessage.Text",
       "value": "לא יצרת הודעת לא זמין. יציאה תסיר אותה."
     },
@@ -32347,6 +33637,36 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.And",
+      "value": " ו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.Change",
+      "value": "שנה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ChangeNotificationsInfo",
+      "value": "הסוכן רוצה להודיע ​​לך על ⁨%1$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ChangeReactionNotifications",
+      "value": "לשנות את התראות הרגשונים?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ReactionsToYourMessagesFrom",
+      "value": "רגשונים להודעות שלך מ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ReactionNotifications.Actions.ReactionsToYourStoriesFrom",
+      "value": "רגשונים לסטוריז שלך מ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Reactions.Popular",
       "value": "פופולרי"
     },
@@ -32364,6 +33684,39 @@
       "_": "types.LangPackString",
       "key": "Reactions.RecentlyUsed",
       "value": "בשימוש לאחרונה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.Export",
+      "value": "ייצא"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Reading.Actions.ExportChatInfo",
+      "many_value": "הסוכן רוצה לשמור עד ל⁨%1$d⁩ הודעות מ\"⁨%2$@⁩\" לקובץ ב⁨%3$@⁩.",
+      "one_value": "הסוכן רוצה לשמור עד הודעה ⁨%1$d⁩ מ\"⁨%2$@⁩\" לקובץ ב⁨%3$@⁩.",
+      "other_value": "הסוכן רוצה לשמור עד ל⁨%1$d⁩ הודעות מ\"⁨%2$@⁩\" לקובץ ב⁨%3$@⁩.",
+      "two_value": "הסוכן רוצה לשמור עד ל⁨%1$d⁩ הודעות מ\"⁨%2$@⁩\" לקובץ ב⁨%3$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.ExportTheChat",
+      "value": "לייצא את הצ'אט?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.FindChannelsSimilarTo",
+      "value": "מצא ערוצים דומים ל\"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.SummarizeAMessageInWithTelegram",
+      "value": "לסכם הודעה ב\"⁨%1$@⁩\" עם טלגרם"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Reading.Actions.TranscribeAVoiceMessageIn",
+      "value": "לתמלל הודעה קולית ב\"⁨%1$@⁩\""
     },
     {
       "_": "types.LangPackString",
@@ -32457,6 +33810,11 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "RecognizeText.Actions.ReadTheTextInAPhotoFrom",
+      "value": "לקרוא את הטקסט בתמונה מתוך \"⁨%1$@⁩\""
+    },
+    {
+      "_": "types.LangPackString",
       "key": "RenameDevice.Controller.DeviceNameHeader",
       "value": "שם המכשיר"
     },
@@ -32469,6 +33827,26 @@
       "_": "types.LangPackString",
       "key": "RenameDevice.Controller.Title",
       "value": "שינוי שם מכשיר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report.Actions.Comment",
+      "value": "\nהערה: ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report.Actions.Report",
+      "value": "לדווח?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report.Actions.ReportAction",
+      "value": "דווח"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Report.Actions.ReportInfo",
+      "value": "הסוכן רוצה לדווח על ⁨%1$@⁩ לעורכי התוכן של טלגרם עבור: ⁨%2$@⁩⁨%3$@⁩."
     },
     {
       "_": "types.LangPackString",
@@ -38240,6 +39618,51 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.Balance",
+      "value": "יתרה:"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.BuyerRefund",
+      "value": "החזר מהקונה: ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.CancellationFee",
+      "value": "עמלת ביטול: ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.CancellationProcessing",
+      "value": "ביטול והחזר בעיבוד."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.GiftPurchased",
+      "value": "ההצעה התקבלה. קנית את המתנה הזו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.GramsToOffer",
+      "value": "Gram להציע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.InsufficientFunds",
+      "value": "אין מספיק כספים. [⁨%1$@⁩ ›](deposit)"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferAccepted",
+      "value": "קיבלת את ההצעה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StarGift.OnchainOffer.OfferDeclined",
+      "value": "דחית את ההצעה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "StarGift.Option.Join",
       "value": "הצטרף"
     },
@@ -40202,6 +41625,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.CreationCoverController.SaveCover",
+      "value": "שמור תמונה ייצוגית"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationCoverController.StoryCover",
+      "value": "תמונה ייצוגית לסטורי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.All",
+      "value": "הכל"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.CreationRendering.Blue",
       "value": "כחול"
     },
@@ -40209,6 +41647,239 @@
       "_": "types.LangPackString",
       "key": "Story.CreationRendering.Brightness",
       "value": "בהירות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Contrast",
+      "value": "ניגודיות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Enhance",
+      "value": "הגבר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Fade",
+      "value": "דעיכה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Grain",
+      "value": "תבואה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Green",
+      "value": "ירוק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Highlights",
+      "value": "הבלטות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Linear",
+      "value": "קווי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Off",
+      "value": "כבוי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Radial",
+      "value": "היקפי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Red",
+      "value": "אדום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Saturation",
+      "value": "ריווי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Shadows",
+      "value": "צלליות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Vignette",
+      "value": "סקיצה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationRendering.Warmth",
+      "value": "חום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Adjustments",
+      "value": "התאמות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Audio",
+      "value": "שמע"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.ChooseMedia",
+      "value": "בחר מדיה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.ClipVolume",
+      "value": "עוצמת שמע הקליפ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Collage",
+      "value": "קולאז'"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.CreationView.CollageProgress",
+      "many_value": "קולאז' · ⁨%1$d⁩ / ⁨%2$d⁩",
+      "one_value": "קולאז' · ⁨%1$d⁩ / ⁨%2$d⁩",
+      "other_value": "קולאז' · ⁨%1$d⁩ / ⁨%2$d⁩",
+      "two_value": "קולאז' · ⁨%1$d⁩ / ⁨%2$d⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Crop",
+      "value": "חתוך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Drafts",
+      "value": "טיוטות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DragTilesToReorder",
+      "value": "גרור אריחים כדי לסדר מחדש"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Draw",
+      "value": "צייר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DropMediaToImport",
+      "value": "שחרר מדיה כדי לייבא"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.DualCamera",
+      "value": "מצלמה כפולה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.EditCollage",
+      "value": "ערוך קולאז'"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.EnableCamera",
+      "value": "הפעל את המצלמה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Link",
+      "value": "קישור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Mute",
+      "value": "השתק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Pause",
+      "value": "השהה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PauseClip",
+      "value": "השהה קליפ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Play",
+      "value": "נגן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PlayClip",
+      "value": "נגן קליפ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.PositionAndZoom",
+      "value": "גרור כדי למקם · גלול או צבוט כדי להגדיל"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.RecordVideoNote",
+      "value": "הקלט הודעת וידאו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.RemoveVideoNote",
+      "value": "הסר הודעת וידאו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.SoundtrackVolume",
+      "value": "עוצמת פסקול"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Stickers",
+      "value": "מדבקות"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StopVideoNote",
+      "value": "עצור הודעת וידאו"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StoryCaption",
+      "value": "כתורת הסטורי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StoryDuration",
+      "value": "משך הסטורי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.StoryPreview",
+      "value": "תצוגה מקדימה של הסטורי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.SwitchCamera",
+      "value": "החלף מצלמה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Text",
+      "value": "טקסט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.CreationView.Unmute",
+      "value": "בטל השתקה"
     },
     {
       "_": "types.LangPackString",
@@ -40337,6 +42008,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Story.LocationChoices.City",
+      "value": "עיר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.LocationChoices.Location",
+      "value": "מיקום"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.LocationChoices.Street",
+      "value": "רחוב"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Story.Media.Unsupported",
       "value": "סטורי זה אינו נתמך  בגרסת הטלגרם שלך.\nנא לעדכן את האפליקציה לגרסה האחרונה שלה."
     },
@@ -40400,6 +42086,67 @@
       "_": "types.LangPackString",
       "key": "Story.NoReplyInput.NoReply",
       "value": "אין באפשרותך להגיב לסטורי זה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.ActiveLimitReached",
+      "value": "הגעת למגבלת הסטוריז הפעילים שלך."
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.PrivacyModalController.CaptionLimit",
+      "many_value": "כתוביות סטוריז יכולות להיות עד ⁨%1$d⁩ תווים.",
+      "one_value": "כתוביות סטוריז יכולות להיות עד תו ⁨%1$d⁩.",
+      "other_value": "כתוביות סטוריז יכולות להיות עד ⁨%1$d⁩ תווים.",
+      "two_value": "כתוביות סטוריז יכולות להיות עד ⁨%1$d⁩ תווים."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.KeepOnProfile",
+      "value": "שמור את הסטורי הזה בפרופיל שלך גם לאחר שתוקפו יפוג בעוד ⁨%1$@⁩. הגדרות הפרטיות יחולו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.MediaPreparationFailed",
+      "value": "לא ניתן היה להכין את המדיה הזו לפרסום."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.MonthlyLimitReached",
+      "value": "הגעת למגבלת הסטוריז החודשית שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.PostStory",
+      "value": "פרסם סטורי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.PreparingStory",
+      "value": "מכין סטורי…"
+    },
+    {
+      "_": "types.LangPackStringPluralized",
+      "key": "Story.PrivacyModalController.RemainingStories",
+      "many_value": "באפשרותך לפרסם עד ⁨%1$d⁩ סטוריז נוספים עכשיו.",
+      "one_value": "באפשרותך לפרסם עד סטורי ⁨%1$d⁩ נוסף עכשיו.",
+      "other_value": "באפשרותך לפרסם עד ⁨%1$d⁩ סטוריז נוספים עכשיו.",
+      "two_value": "באפשרותך לפרסם עד ⁨%1$d⁩ סטוריז נוספים עכשיו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.ShareStory",
+      "value": "שתף סטורי"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.UploadingStory",
+      "value": "מעלה סטורי…"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Story.PrivacyModalController.WeeklyLimitReached",
+      "value": "הגעת למגבלת הסטוריז השבועי שלך."
     },
     {
       "_": "types.LangPackString",
@@ -40600,6 +42347,66 @@
       "_": "types.LangPackString",
       "key": "Story.Widget.OpenGift",
       "value": "פתח מתנה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryArchive.Actions.SeeStoryAlbums",
+      "value": "הצג את אלבומי הסטוריז שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryArchive.Actions.Show",
+      "value": "הצג"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.Purple",
+      "value": "סגול"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationAdjustmentsView.TintIntensity",
+      "value": "עוצמת גוון"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.LockRecording",
+      "value": "נעל הקלטה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.RecordVideo",
+      "value": "הקלט סרטון"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationCamera.RecordingDuration",
+      "value": "משך ההקלטה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.RemoveVideoNote",
+      "value": "להסיר את הודעת הוידאו הזו?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraAccessRequired",
+      "value": "אפשר גישה למצלמה כדי להקליט הודעת וידאו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteCameraUnavailable",
+      "value": "אין מצלמה זמינה להקלטת הודעת וידאו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteRecordingFailed",
+      "value": "טלגרם לא הצליחה להקליט את הודעת הווידאו הזו."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryCreationController.VideoNoteTimeline",
+      "value": "ציר זמן של הודעת וידאו"
     },
     {
       "_": "types.LangPackString",
@@ -41106,6 +42913,11 @@
       "_": "types.LangPackString",
       "key": "StorySearch.Subtitle_countable",
       "value": "⁨%d⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "StoryStealth.Actions.StealthModeTitle",
+      "value": "מצב התגנבות"
     },
     {
       "_": "types.LangPackString",
@@ -43734,6 +45546,106 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "UsernamesActions.Hide",
+      "value": "הסתר"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.HideUsername",
+      "value": "להסתיר את שם המשתמש?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Reorder",
+      "value": "סדר מחדש"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ReorderUsernames",
+      "value": "לסדר מחדש את שמות המשתמש?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.SetUsernameChangesTheEditableOneCollectibleOnesCanBe",
+      "value": "set_username משנה את אלה שניתנים לעריכה; ניתן להפעיל או לכבות פריטי אספנות ולסדר מחדש כאן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Show",
+      "value": "הצג"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ShowUsername",
+      "value": "להציג שם משתמש?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.ShowUsernamesInThisOrder",
+      "value": "הסוכן רוצה להציג ⁨%1$@⁩ שמות משתמש בסדר הזה: ⁨%2$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTAnswerTryAgain",
+      "value": "טלגרם לא ענתה. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTChangeOnlyTheOwnerCan",
+      "value": "טלגרם לא שינה את @⁨%1$@⁩; רק הבעלים יכול."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TelegramDidnTReorderTheUsernamesOnlyTheOwnerCan",
+      "value": "טלגרם לא סידרה מחדש את שמות המשתמש; רק הבעלים יכול."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TooManyUsernamesAreShownAlreadyHideOneFirst",
+      "value": "יותר מדי שמות משתמש כבר מוצגים; הסתר אחד קודם."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TurnOffForItStays",
+      "value": "הסוכן רוצה לכבות את @⁨%1$@⁩ עבור ⁨%2$@⁩. זה ישאר שמור וניתן להפעיל אותו שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.TurnOnForItWill",
+      "value": "הסוכן רוצה להפעיל את @⁨%1$@⁩ עבור ⁨%2$@⁩. זה יוצג עם שמות המשתמש האחרים ויוביל אל ⁨%3$@⁩."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesCanTBeChangedHere",
+      "value": "לא ניתן לשנות כאן שמות משתמש."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesCanTBeReadHere",
+      "value": "לא ניתן לקרוא כאן שמות משתמש."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.UsernamesDidnTLoadTryAgain",
+      "value": "שמות המשתמש לא נטענו. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.You",
+      "value": "את/ה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.Your",
+      "value": "שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "UsernamesActions.YourProfile",
+      "value": "הפרופיל שלך"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Vdr-fp-XzO.title",
       "value": "הסתר אחרים"
     },
@@ -43786,6 +45698,26 @@
       "_": "types.LangPackString",
       "key": "VideoAvatar.ChooseDesc.Profile",
       "value": "בחר תמונה להצגה בתמונת הפרופיל שלך."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.OpenAPhotoOrVideoFromOnYourScreen",
+      "value": "לפתוח תמונה או סרטון מתוך \"⁨%1$@⁩\" על המסך שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.OpenTheQRCodeOfOnYourScreen",
+      "value": "לפתוח את קוד הQR של \"⁨%1$@⁩\" במסך שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.TheMediaViewerCanTBeOpenedRightNow",
+      "value": "לא ניתן לפתוח את מציג המדיה כרגע."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "ViewerActions.TheQRStudioCanTBeOpenedRightNow",
+      "value": "לא ניתן לפתוח את עורך הQR כרגע."
     },
     {
       "_": "types.LangPackString",
@@ -49403,6 +51335,21 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferCancelled",
+      "value": "ההצעה בוטלה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferDeclined",
+      "value": "ההצעה נדחתה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.OfferExpired",
+      "value": "פג תוקף ההצעה"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingCollectible",
       "value": "פריט אספנות יוצא"
     },
@@ -49415,6 +51362,26 @@
       "_": "types.LangPackString",
       "key": "Wallet.TransactionRowItem.OutgoingTransfer",
       "value": "העברה יוצאת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.Purchased",
+      "value": "נרכש"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSale",
+      "value": "הצע למכירה"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.PutOnSaleFor",
+      "value": "הצע למכירה ב⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Wallet.TransactionRowItem.RemovedFromSale",
+      "value": "הוסר מהמכירה"
     },
     {
       "_": "types.LangPackString",
@@ -49553,6 +51520,21 @@
       "_": "types.LangPackString",
       "key": "Wallet.WordsController.Title",
       "value": "ארנק"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.EarlyWithdrawalCost",
+      "value": "משיכה מוקדמת עולה **⁨%1$@⁩**.\n\n⁨%2$@⁩ יוחזרו אליך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.WithdrawOffer",
+      "value": "לבטל את ההצעה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WalletUI.Integration.YourOffer",
+      "value": "ההצעה שלך"
     },
     {
       "_": "types.LangPackString",
@@ -49851,6 +51833,16 @@
     },
     {
       "_": "types.LangPackString",
+      "key": "WebSessionsActions.ConnectedWebsitesDidnTLoadTryAgain",
+      "value": "האתרים המחוברים לא נטענו. נסה שוב."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WebSessionsActions.SeeTheWebsitesYouLoggedInToWithTelegram",
+      "value": "לראות את האתרים שנכנסת אליהם באמצעות טלגרם"
+    },
+    {
+      "_": "types.LangPackString",
       "key": "Webapp.AllowMessages.OK",
       "value": "אפשר"
     },
@@ -49953,6 +51945,76 @@
       "_": "types.LangPackString",
       "key": "Webpage.Confirm.Ok",
       "value": "סגור בכל זאת"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.AccessMiniAppToken",
+      "value": "גש לטוקן מיני אפליקציה של ⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.Download",
+      "value": "הורד"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadFileFromMiniAppTitle",
+      "value": "להוריד קובץ ממיני אפליקציה?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadFileInfo",
+      "value": "⁨%1$@⁩ רוצה להוריד את ⁨%2$@⁩. קבצים ממיני אפליקציות יכולים להכיל תוכן לא בטוח."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.DownloadedToTemporaryFolder",
+      "value": "הורד לתיקיה זמנית."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportExistingMiniAppToken",
+      "value": "לייבא טוקן מיני אפליקציה קיים?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportToken",
+      "value": "ייבא טוקן"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ImportTokenInformation",
+      "value": "גרסה ישנה יותר של טלגרם שמרה טוקן ביומטרי עבור ⁨%1$@⁩ מבלי לתעד איזה חשבון טלגרם הוא הבעלים שלו. ייבא אותו אל ⁨%2$@⁩ רק אם הוא שייך לחשבון זה. הטוקן המקורי יישמר."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.InviteToBot",
+      "value": "הזמן לבוט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.OpenLink",
+      "value": "פתח קישור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.OpenLinkTitle",
+      "value": "לפתוח קישור?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Webpage.ModalController.ShowInFinder",
+      "value": "הצג בFinder"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Website.Controller.OpenLink",
+      "value": "פתח קישור"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "Website.Controller.OpenLinkTitle",
+      "value": "לפתוח קישור?"
     },
     {
       "_": "types.LangPackString",
@@ -50128,6 +52190,51 @@
       "_": "types.LangPackString",
       "key": "Widget.Recent.Title",
       "value": "צ'אטים"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ClickInAWidget",
+      "value": "לחיצה בווידג'ט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.PressKeysInAWidget",
+      "value": "לחיצה על מקשים בווידג'ט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ReadAWidget",
+      "value": "קריאת ווידג'ט"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.Run",
+      "value": "הרץ"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.RunCodeInWidget",
+      "value": "להריץ את הקוד בווידג'ט?"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.RunThisInAChat",
+      "value": "הסוכן רוצה להפעיל את זה בווידג'ט צ'אט:\n⁨%1$@⁩"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.SeeTheWidgetsInYourChats",
+      "value": "הצג את הווידג'טים בצ'אטים שלך"
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.TheWidgetDidnTAnswerInTime",
+      "value": "הווידג'ט לא ענה בזמן."
+    },
+    {
+      "_": "types.LangPackString",
+      "key": "WidgetActions.ThisTelegramCanTControlChatWidgets",
+      "value": "הטלגרם הזה לא יכול לשלוט בווידג'טים של צ'אט."
     },
     {
       "_": "types.LangPackString",
@@ -50465,5 +52572,5 @@
       "value": "הצג החלפות"
     }
   ],
-  "version": 2478660
+  "version": 2505683
 }
